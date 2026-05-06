@@ -1,0 +1,188 @@
+import type { Metadata } from 'next';
+import Script from 'next/script';
+import './globals.css';
+import Header from '@/components/Header';
+import TrustStrip from '@/components/TrustStrip';
+import Footer from '@/components/Footer';
+import StickyMobileCTA from '@/components/StickyMobileCTA';
+import WhatsAppButton from '@/components/WhatsAppButton';
+import { SITE, SERVICE_AREAS } from '@/lib/areas';
+import { SERVICES } from '@/lib/services';
+
+const GTM_ID = 'GTM-PCPP9MW5';
+
+export const metadata: Metadata = {
+  metadataBase: new URL(SITE.url),
+  title: {
+    default: `Flooring San Diego - ${SITE.name}`,
+    template: `%s - ${SITE.name}`,
+  },
+  description: `San Diego flooring installation by ${SITE.name}. Carpet, vinyl, hardwood, laminate and tile flooring in San Diego. Licensed, bonded, insured. Free in-home estimates. Call ${SITE.phone}.`,
+  openGraph: {
+    title: `Flooring San Diego - ${SITE.name}`,
+    description: 'Professional flooring sales and installation in San Diego. Carpet, vinyl, hardwood, laminate, tile. Free in-home estimates.',
+    url: SITE.url,
+    siteName: SITE.name,
+    locale: 'en_US',
+    type: 'website',
+  },
+  robots: { index: true, follow: true },
+  alternates: { canonical: SITE.url },
+  icons: {
+    icon: '/logo.png',
+    shortcut: '/logo.png',
+    apple: '/logo.png',
+  },
+};
+
+export const viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  themeColor: '#C8541C',
+};
+
+const businessGraph = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    {
+      '@type': ['HomeAndConstructionBusiness', 'LocalBusiness'],
+      '@id': `${SITE.url}/#business`,
+      name: SITE.name,
+      image: `${SITE.url}/logo.png`,
+      logo: `${SITE.url}/logo.png`,
+      telephone: SITE.phone,
+      email: SITE.email,
+      url: SITE.url,
+      address: {
+        '@type': 'PostalAddress',
+        streetAddress: '8017 Peach Point Ave',
+        addressLocality: SITE.city,
+        addressRegion: SITE.region,
+        postalCode: '92126',
+        addressCountry: 'US',
+      },
+      geo: {
+        '@type': 'GeoCoordinates',
+        latitude: 32.9133,
+        longitude: -117.1486,
+      },
+      areaServed: SERVICE_AREAS.map((area) => ({
+        '@type': 'City',
+        name: area.name,
+        '@id': area.wikipediaUrl,
+      })),
+      priceRange: '$$',
+      openingHoursSpecification: [
+        {
+          '@type': 'OpeningHoursSpecification',
+          dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'],
+          opens: '08:00',
+          closes: '17:00',
+        },
+      ],
+      description: `Professional flooring sales and installation services in ${SITE.city}. Carpet, vinyl, hardwood, laminate, tile, cork, rubber and VCT.`,
+      // TODO: replace with founder Person once owner name + credentials are confirmed.
+      foundingDate: String(SITE.yearEstablished),
+      ...(SITE.socials.length > 0 ? { sameAs: SITE.socials } : {}),
+      knowsAbout: [
+        'flooring installation',
+        'flooring contractor',
+        'carpet installation',
+        'carpet flooring',
+        'luxury vinyl plank',
+        'lvp flooring',
+        'vinyl plank flooring',
+        'rigid core spc vinyl',
+        'hardwood flooring',
+        'engineered hardwood',
+        'solid hardwood',
+        'laminate flooring',
+        'tile flooring',
+        'porcelain tile',
+        'ceramic tile',
+        'natural stone tile',
+        'cork flooring',
+        'rubber flooring',
+        'commercial gym flooring',
+        'vinyl composition tile',
+        'vct flooring',
+        'subfloor preparation',
+        'moisture testing',
+        'concrete slab installation',
+        'floor refinishing',
+        'commercial flooring',
+        'residential flooring',
+        'free in-home flooring estimate',
+        'flooring sample consultation',
+        'manufacturer-spec installation',
+        'San Diego flooring',
+        'San Diego flooring installation',
+        'San Diego flooring contractor',
+        'flooring San Diego County',
+      ],
+      hasOfferCatalog: {
+        '@type': 'OfferCatalog',
+        name: 'Flooring Services',
+        itemListElement: SERVICES.map((s) => ({
+          '@type': 'Offer',
+          itemOffered: {
+            '@type': 'Service',
+            name: s.name,
+            description: s.description,
+            url: `${SITE.url}/${s.slug}`,
+          },
+        })),
+      },
+    },
+    {
+      '@type': 'WebSite',
+      '@id': `${SITE.url}/#website`,
+      url: SITE.url,
+      name: SITE.name,
+      publisher: { '@id': `${SITE.url}/#business` },
+      inLanguage: 'en-US',
+    },
+  ],
+};
+
+export default function RootLayout({ children }: { children: React.ReactNode }) {
+  return (
+    <html lang="en">
+      <head>
+        <Script id="gtm" strategy="afterInteractive">
+          {`(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','${GTM_ID}');`}
+        </Script>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+          rel="stylesheet"
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(businessGraph) }}
+        />
+      </head>
+      <body>
+        <noscript>
+          <iframe
+            src={`https://www.googletagmanager.com/ns.html?id=${GTM_ID}`}
+            height="0"
+            width="0"
+            style={{ display: 'none', visibility: 'hidden' }}
+          />
+        </noscript>
+        <Header />
+        <TrustStrip />
+        <main>{children}</main>
+        <Footer />
+        <StickyMobileCTA />
+        <WhatsAppButton />
+      </body>
+    </html>
+  );
+}
