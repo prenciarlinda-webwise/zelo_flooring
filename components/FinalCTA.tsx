@@ -29,25 +29,29 @@ export default function FinalCTA({ heading, subheading, defaultProjectType, head
   const HeadingTag = headingAs;
   const [submitted, setSubmitted] = useState(false);
   const [sending, setSending] = useState(false);
+  const [errored, setErrored] = useState(false);
 
   const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setSending(true);
-    const form = e.target as HTMLFormElement;
+    setErrored(false);
+    const form = e.currentTarget;
     const formData = new FormData(form);
     try {
-      await fetch('https://formspree.io/f/mykopznr', {
+      const res = await fetch('https://formspree.io/f/mykopznr', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
         body: JSON.stringify(Object.fromEntries(formData)),
       });
-    } catch {
-      // swallow
-    } finally {
+      if (!res.ok) throw new Error(`Formspree responded ${res.status}`);
       setSubmitted(true);
       form.reset();
-      setSending(false);
       setTimeout(() => setSubmitted(false), 6000);
+    } catch (err) {
+      console.error('Form submission failed:', err);
+      setErrored(true);
+    } finally {
+      setSending(false);
     }
   };
 
@@ -69,7 +73,12 @@ export default function FinalCTA({ heading, subheading, defaultProjectType, head
           </div>
         </div>
 
-        <form className="final-cta-form" onSubmit={handleSubmit}>
+        <form
+          className="final-cta-form"
+          method="post"
+          action="https://formspree.io/f/mykopznr"
+          onSubmit={handleSubmit}
+        >
           <p className="final-cta-form-title">Request Free Estimate</p>
           <p className="final-cta-form-sub">We respond within 1 business day.</p>
 
@@ -97,6 +106,11 @@ export default function FinalCTA({ heading, subheading, defaultProjectType, head
           <button type="submit" className="btn btn-primary btn-block btn-lg" disabled={sending}>
             {submitted ? '✓ Thanks, we will be in touch soon.' : sending ? 'Sending...' : 'Get My Free Estimate'}
           </button>
+          {errored && (
+            <p className="final-cta-form-error" role="alert">
+              Something went wrong sending your request. Please call {SITE.phone} or try again.
+            </p>
+          )}
           <p className="final-cta-form-trust">🔒 Your info is private and never shared.</p>
         </form>
       </div>

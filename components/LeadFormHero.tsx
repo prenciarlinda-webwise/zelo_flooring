@@ -1,8 +1,7 @@
 'use client';
 
 import { FormEvent, useState } from 'react';
-import Link from 'next/link';
-import { PhoneIcon, ArrowIcon } from './Icons';
+import { PhoneIcon } from './Icons';
 import { SITE, SERVICE_AREAS } from '@/lib/areas';
 
 type Props = {
@@ -30,25 +29,29 @@ const PROJECT_TYPES = [
 export default function LeadFormHero({ h1, valueProp, trustBullets, image, imageAlt, defaultProjectType }: Props) {
   const [submitted, setSubmitted] = useState(false);
   const [sending, setSending] = useState(false);
+  const [errored, setErrored] = useState(false);
 
   const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setSending(true);
-    const form = e.target as HTMLFormElement;
+    setErrored(false);
+    const form = e.currentTarget;
     const formData = new FormData(form);
     try {
-      await fetch('https://formspree.io/f/mykopznr', {
+      const res = await fetch('https://formspree.io/f/mykopznr', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
         body: JSON.stringify(Object.fromEntries(formData)),
       });
-    } catch {
-      // swallow, show success either way so the visitor isn't blocked
-    } finally {
+      if (!res.ok) throw new Error(`Formspree responded ${res.status}`);
       setSubmitted(true);
       form.reset();
-      setSending(false);
       setTimeout(() => setSubmitted(false), 8000);
+    } catch (err) {
+      console.error('Form submission failed:', err);
+      setErrored(true);
+    } finally {
+      setSending(false);
     }
   };
 
@@ -72,9 +75,6 @@ export default function LeadFormHero({ h1, valueProp, trustBullets, image, image
             <a href={`tel:${SITE.phoneRaw}`} className="btn btn-primary btn-lg">
               <PhoneIcon size={18} /> Call {SITE.phone}
             </a>
-            <Link href="#quote-form" className="btn btn-ghost-light btn-lg">
-              Get Free Quote <ArrowIcon size={16} />
-            </Link>
           </div>
 
           <ul className="lead-hero-trust">
@@ -85,7 +85,12 @@ export default function LeadFormHero({ h1, valueProp, trustBullets, image, image
         </div>
 
         <div className="lead-hero-form-wrap" id="quote-form">
-          <form className="lead-hero-form" onSubmit={handleSubmit}>
+          <form
+            className="lead-hero-form"
+            method="post"
+            action="https://formspree.io/f/mykopznr"
+            onSubmit={handleSubmit}
+          >
             <p className="lead-hero-form-title">Get a Free Quote</p>
             <p className="lead-hero-form-sub">Free in-home estimate. We respond within 1 business day.</p>
 
@@ -114,6 +119,11 @@ export default function LeadFormHero({ h1, valueProp, trustBullets, image, image
             <button type="submit" className="btn btn-primary btn-block btn-lg" disabled={sending}>
               {submitted ? '✓ Thanks, we will be in touch soon.' : sending ? 'Sending...' : 'Get My Free Quote'}
             </button>
+            {errored && (
+              <p className="lead-hero-form-error" role="alert">
+                Something went wrong sending your request. Please call {SITE.phone} or try again.
+              </p>
+            )}
             <p className="lead-hero-form-trust">🔒 Your info is private and never shared.</p>
           </form>
         </div>

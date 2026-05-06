@@ -8,26 +8,28 @@ import { SERVICES } from '@/lib/services';
 export default function ContactCTA({ heading }: { heading?: string }) {
   const [submitted, setSubmitted] = useState(false);
   const [sending, setSending] = useState(false);
+  const [errored, setErrored] = useState(false);
 
   const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setSending(true);
-    const form = e.target as HTMLFormElement;
+    setErrored(false);
+    const form = e.currentTarget;
     const formData = new FormData(form);
 
     try {
-      await fetch('https://formspree.io/f/mykopznr', {
+      const res = await fetch('https://formspree.io/f/mykopznr', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
         body: JSON.stringify(Object.fromEntries(formData)),
       });
+      if (!res.ok) throw new Error(`Formspree responded ${res.status}`);
       setSubmitted(true);
       form.reset();
       setTimeout(() => setSubmitted(false), 6000);
-    } catch {
-      setSubmitted(true);
-      form.reset();
-      setTimeout(() => setSubmitted(false), 6000);
+    } catch (err) {
+      console.error('Form submission failed:', err);
+      setErrored(true);
     } finally {
       setSending(false);
     }
@@ -51,7 +53,12 @@ export default function ContactCTA({ heading }: { heading?: string }) {
           </div>
         </div>
 
-        <form className="contact-form" onSubmit={handleSubmit}>
+        <form
+          className="contact-form"
+          method="post"
+          action="https://formspree.io/f/mykopznr"
+          onSubmit={handleSubmit}
+        >
           <h3>Request Free Estimate</h3>
           <p className="form-sub">We respond to every request within 1 business day.</p>
           <input type="hidden" name="_subject" value="New Free Estimate Request - Zelo Flooring" />
@@ -69,6 +76,11 @@ export default function ContactCTA({ heading }: { heading?: string }) {
           <button type="submit" className="btn btn-primary btn-block btn-lg" disabled={sending}>
             {submitted ? '✓ Thank you - we will be in touch soon.' : sending ? 'Sending...' : 'Get My Free Estimate'}
           </button>
+          {errored && (
+            <p className="form-error" role="alert">
+              Something went wrong sending your request. Please call {SITE.phone} or try again.
+            </p>
+          )}
           <p className="form-trust">🔒 Your info is private and never shared.</p>
         </form>
       </div>

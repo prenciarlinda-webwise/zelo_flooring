@@ -50,6 +50,7 @@ export default function CouponsBlock({ eyebrow, heading, subheading, coupons = D
   const [openId, setOpenId] = useState<string | null>(null);
   const [submitted, setSubmitted] = useState(false);
   const [sending, setSending] = useState(false);
+  const [errored, setErrored] = useState(false);
 
   useEffect(() => {
     if (openId) document.body.style.overflow = 'hidden';
@@ -68,24 +69,27 @@ export default function CouponsBlock({ eyebrow, heading, subheading, coupons = D
   const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setSending(true);
-    const form = e.target as HTMLFormElement;
+    setErrored(false);
+    const form = e.currentTarget;
     const formData = new FormData(form);
     try {
-      await fetch('https://formspree.io/f/mykopznr', {
+      const res = await fetch('https://formspree.io/f/mykopznr', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
         body: JSON.stringify(Object.fromEntries(formData)),
       });
-    } catch {
-      // ignore network errors, show success either way
-    } finally {
+      if (!res.ok) throw new Error(`Formspree responded ${res.status}`);
       setSubmitted(true);
       form.reset();
-      setSending(false);
       setTimeout(() => {
         setSubmitted(false);
         setOpenId(null);
       }, 3500);
+    } catch (err) {
+      console.error('Form submission failed:', err);
+      setErrored(true);
+    } finally {
+      setSending(false);
     }
   };
 
@@ -139,7 +143,12 @@ export default function CouponsBlock({ eyebrow, heading, subheading, coupons = D
             <p className="coupon-modal-title">{activeCoupon.title}</p>
             <p className="coupon-modal-body">{activeCoupon.body}</p>
 
-            <form className="coupon-modal-form" onSubmit={handleSubmit}>
+            <form
+              className="coupon-modal-form"
+              method="post"
+              action="https://formspree.io/f/mykopznr"
+              onSubmit={handleSubmit}
+            >
               <input type="hidden" name="_subject" value={`Offer Claim: ${activeCoupon.title}`} />
               <input type="hidden" name="offer" value={activeCoupon.title} />
 
@@ -160,6 +169,11 @@ export default function CouponsBlock({ eyebrow, heading, subheading, coupons = D
               <button type="submit" className="btn btn-primary btn-block btn-lg" disabled={sending}>
                 {submitted ? '✓ Thanks, we will call you shortly.' : sending ? 'Sending...' : 'Send My Request'}
               </button>
+              {errored && (
+                <p className="coupon-modal-error" role="alert">
+                  Something went wrong sending your request. Please try again or call us directly.
+                </p>
+              )}
               <p className="coupon-modal-trust">🔒 Your info is private and never shared.</p>
             </form>
           </div>

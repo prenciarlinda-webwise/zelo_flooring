@@ -1,5 +1,5 @@
 import { SITE } from '@/lib/areas';
-import { StarIcon, YelpIcon, ThumbtackIcon, BadgeIcon } from './Icons';
+import { StarIcon, BadgeIcon } from './Icons';
 
 type Props = {
   variant?: 'section' | 'inline';
@@ -19,7 +19,10 @@ export default function TrustBadges({ variant = 'section', heading, subheading }
         className="trust-badge trust-badge-thumbtack"
         aria-label={`Zelo Flooring on Thumbtack: ${SITE.rating.value} stars from ${SITE.rating.count} reviews`}
       >
-        <span className="trust-badge-icon"><ThumbtackIcon size={28} /></span>
+        <span className="trust-badge-icon trust-badge-icon-img">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img src="/img/thumbtack-logo.png" alt="Thumbtack" />
+        </span>
         <span className="trust-badge-body">
           <span className="trust-badge-rating">
             <span className="trust-badge-stars" aria-hidden="true">{stars}</span>
@@ -45,7 +48,10 @@ export default function TrustBadges({ variant = 'section', heading, subheading }
         className="trust-badge trust-badge-yelp"
         aria-label="Zelo Flooring on Yelp"
       >
-        <span className="trust-badge-icon"><YelpIcon size={28} /></span>
+        <span className="trust-badge-icon trust-badge-icon-img">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img src="/img/yelp-logo.png" alt="Yelp" />
+        </span>
         <span className="trust-badge-body">
           <strong>Find us on Yelp</strong>
           <span className="trust-badge-label">Read customer reviews</span>

@@ -2,7 +2,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { SITE, SERVICE_AREAS } from '@/lib/areas';
 import { SERVICES } from '@/lib/services';
-import { PhoneIcon, MailIcon, PinIcon, FacebookIcon, InstagramIcon, YelpIcon, ThumbtackIcon, MapQuestIcon } from './Icons';
+import { PhoneIcon, MailIcon, PinIcon, MapQuestIcon } from './Icons';
 
 function neighborhoodSlug(name: string) {
   return 'flooring-' + name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
@@ -68,20 +68,54 @@ export default function Footer() {
             Mon-Sun 8:00am - 5:00pm
           </p>
           <div className="socials" aria-label="Zelo Flooring on social media and review sites">
-            <a href={SITE.facebookUrl} target="_blank" rel="noopener noreferrer" aria-label="Zelo Flooring on Facebook">
-              <FacebookIcon size={18} />
+            <a
+              href={SITE.facebookUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Zelo Flooring on Facebook"
+              className="social-pill social-pill-icon"
+            >
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img src="/img/facebook-logo.png" alt="Facebook" />
             </a>
-            <a href={SITE.instagramUrl} target="_blank" rel="noopener noreferrer" aria-label="Zelo Flooring on Instagram">
-              <InstagramIcon size={18} />
+            <a
+              href={SITE.instagramUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Zelo Flooring on Instagram"
+              className="social-pill social-pill-icon"
+            >
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img src="/img/instagram-logo.png" alt="Instagram" />
             </a>
-            <a href={SITE.yelpUrl} target="_blank" rel="noopener noreferrer" aria-label="Zelo Flooring on Yelp">
-              <YelpIcon size={18} />
+            <a
+              href={SITE.yelpUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Zelo Flooring on Yelp"
+              className="social-pill social-pill-wordmark"
+            >
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img src="/img/yelp-logo.png" alt="Yelp" />
             </a>
-            <a href={SITE.thumbtackUrl} target="_blank" rel="noopener noreferrer" aria-label="Zelo Flooring on Thumbtack">
-              <ThumbtackIcon size={18} />
+            <a
+              href={SITE.thumbtackUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Zelo Flooring on Thumbtack"
+              className="social-pill social-pill-wordmark"
+            >
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img src="/img/thumbtack-logo.png" alt="Thumbtack" />
             </a>
-            <a href={SITE.mapquestUrl} target="_blank" rel="noopener noreferrer" aria-label="Zelo Flooring on MapQuest">
-              <MapQuestIcon size={18} />
+            <a
+              href={SITE.mapquestUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Zelo Flooring on MapQuest"
+              className="social-pill social-pill-svg"
+            >
+              <MapQuestIcon size={20} />
             </a>
           </div>
         </div>

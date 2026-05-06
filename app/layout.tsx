@@ -4,7 +4,6 @@ import './globals.css';
 import Header from '@/components/Header';
 import TrustStrip from '@/components/TrustStrip';
 import Footer from '@/components/Footer';
-import StickyMobileCTA from '@/components/StickyMobileCTA';
 import WhatsAppButton from '@/components/WhatsAppButton';
 import { SITE, SERVICE_AREAS } from '@/lib/areas';
 import { SERVICES } from '@/lib/services';
@@ -194,7 +193,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <TrustStrip />
         <main>{children}</main>
         <Footer />
-        <StickyMobileCTA />
         <WhatsAppButton />
       </body>
     </html>
