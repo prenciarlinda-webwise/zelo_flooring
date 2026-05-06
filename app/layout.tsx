@@ -81,9 +81,23 @@ const businessGraph = {
         },
       ],
       description: `Professional flooring sales and installation services in ${SITE.city}. Carpet, vinyl, hardwood, laminate, tile, cork, rubber and VCT.`,
-      // TODO: replace with founder Person once owner name + credentials are confirmed.
+      founder: {
+        '@type': 'Person',
+        '@id': `${SITE.url}/#owner`,
+        name: SITE.owner.name,
+        jobTitle: SITE.owner.jobTitle,
+        worksFor: { '@id': `${SITE.url}/#business` },
+      },
       foundingDate: String(SITE.yearEstablished),
       ...(SITE.socials.length > 0 ? { sameAs: SITE.socials } : {}),
+      ...(SITE.awards.length > 0 ? { award: SITE.awards } : {}),
+      aggregateRating: {
+        '@type': 'AggregateRating',
+        ratingValue: SITE.rating.value,
+        reviewCount: SITE.rating.count,
+        bestRating: 5,
+        worstRating: 1,
+      },
       knowsAbout: [
         'flooring installation',
         'flooring contractor',

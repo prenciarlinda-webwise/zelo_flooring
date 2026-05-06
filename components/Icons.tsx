@@ -156,6 +156,41 @@ export const TruckIcon = ({ size }: Props) => (
   </svg>
 );
 
+export const FacebookIcon = ({ size = 24, className }: Props) => (
+  <svg width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} aria-hidden="true">
+    <path d="M22 12a10 10 0 1 0-11.56 9.88v-6.99H7.9V12h2.54V9.8c0-2.51 1.49-3.9 3.78-3.9 1.1 0 2.24.2 2.24.2v2.46h-1.26c-1.24 0-1.63.77-1.63 1.56V12h2.77l-.44 2.89h-2.33v6.99A10 10 0 0 0 22 12z" />
+  </svg>
+);
+
+export const InstagramIcon = ({ size = 24, className }: Props) => (
+  <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.8} strokeLinecap="round" strokeLinejoin="round" className={className} aria-hidden="true">
+    <rect x="3" y="3" width="18" height="18" rx="5" />
+    <circle cx="12" cy="12" r="4" />
+    <circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none" />
+  </svg>
+);
+
+export const YelpIcon = ({ size = 24, className }: Props) => (
+  <svg width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} aria-hidden="true">
+    <path d="M13.6 12.7l4.3-1.4c.4-.1.6-.5.5-.9 0-.1-.1-.2-.1-.3l-2.2-3.5c-.2-.4-.7-.5-1.1-.3-.1.1-.2.1-.3.2l-2.7 3.6c-.3.4-.2.9.2 1.2.2.1.4.2.6.2.3 0 .6-.1.8-.2zm-1.5 3.4c-.2-.4-.6-.5-1-.4l-4 1.5c-.4.2-.6.6-.5 1 0 .1.1.2.1.3l2.4 3.6c.3.4.7.5 1.1.3.1-.1.2-.1.3-.2l1.6-4.6c.1-.5 0-1-.3-1.3l.3-.2zm-3-3.7l4.4-1.5c.4-.1.6-.5.5-.9V3.2c0-.5-.4-.8-.8-.8h-.2L8.6 3.5c-.4.1-.7.5-.6.9.1 1.5.5 5.1 1 6.5.1.5.6.7 1.1.5zm10 3l-4.4-.6c-.4 0-.8.2-.9.6-.1.4 0 .8.3 1.1l3.3 3c.3.3.8.3 1.1 0l1.5-2.9c.2-.4 0-.9-.4-1.1-.2-.1-.4-.1-.5-.1zm-3.6 1.7c-.3-.3-.7-.3-1-.1-.4.3-.5.7-.3 1.1l1.7 4.1c.2.4.6.5 1 .4.1 0 .2-.1.3-.1l3-2.1c.4-.3.4-.8.1-1.1l-4.8-2.3z" />
+  </svg>
+);
+
+export const ThumbtackIcon = ({ size = 24, className }: Props) => (
+  <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.8} strokeLinecap="round" strokeLinejoin="round" className={className} aria-hidden="true">
+    <path d="M12 2v8" />
+    <path d="M7 10h10l-1.5 4h-7L7 10z" />
+    <path d="M12 14v8" />
+  </svg>
+);
+
+export const MapQuestIcon = ({ size = 24, className }: Props) => (
+  <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.8} strokeLinecap="round" strokeLinejoin="round" className={className} aria-hidden="true">
+    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+    <circle cx="12" cy="10" r="2.5" fill="currentColor" stroke="none" />
+  </svg>
+);
+
 const ICONS: Record<string, React.FC<Props>> = {
   carpet: CarpetIcon,
   vinyl: VinylIcon,

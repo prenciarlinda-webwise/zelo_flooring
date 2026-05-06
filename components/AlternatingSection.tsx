@@ -10,6 +10,8 @@ type Props = {
   reverse?: boolean;
   cta?: { label: string; href: string };
   background?: 'white' | 'cream' | 'brown';
+  imageContain?: boolean;
+  imageWide?: boolean;
 };
 
 export default function AlternatingSection({
@@ -21,12 +23,17 @@ export default function AlternatingSection({
   reverse = false,
   cta,
   background = 'white',
+  imageContain = false,
+  imageWide = false,
 }: Props) {
   const bgClass = background === 'cream' ? 'section-cream' : background === 'brown' ? 'section-brown' : '';
+  const rowClasses = ['alt-row', reverse ? 'reverse' : '', imageWide ? 'alt-row-image-wide' : '']
+    .filter(Boolean)
+    .join(' ');
   return (
     <section className={`section ${bgClass}`}>
       <div className="container">
-        <div className={`alt-row${reverse ? ' reverse' : ''}`}>
+        <div className={rowClasses}>
           <div className="alt-text">
             {eyebrow && <span className="eyebrow">{eyebrow}</span>}
             <h2>{title}</h2>
@@ -44,7 +51,11 @@ export default function AlternatingSection({
               </Link>
             )}
           </div>
-          <div className="alt-image" style={{ backgroundImage: `url('${image}')` }} aria-hidden="true" />
+          <div
+            className={`alt-image${imageContain ? ' alt-image-contain' : ''}`}
+            style={{ backgroundImage: `url('${image}')` }}
+            aria-hidden="true"
+          />
         </div>
       </div>
     </section>

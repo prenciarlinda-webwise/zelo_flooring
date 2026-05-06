@@ -30,7 +30,33 @@ export const SITE = {
   tagline: 'Family Business',
   url: 'https://zeloflooring.com',
   // Drives sitemap lastmod for static routes. Bump when chrome (header/footer/global schema) changes.
-  lastUpdated: '2026-05-04',
-  // Add real social profile URLs to enable sameAs entity linking (helps GEO/AEO)
-  socials: [] as string[],
+  lastUpdated: '2026-05-06',
+  // Profile URLs for sameAs entity linking (helps GEO/AEO and disambiguates the business)
+  socials: [
+    'https://www.facebook.com/ZeloFlooring/',
+    'https://www.instagram.com/zeloflooring',
+    'https://www.yelp.com/biz/zelo-flooring-san-diego',
+    'https://www.thumbtack.com/ca/san-diego/hardwood-floor-installation/zelo-flooring/service/414577564885925896',
+    'https://www.mapquest.com/us/california/zelo-flooring-716292534',
+  ] as string[],
+  facebookUrl: 'https://www.facebook.com/ZeloFlooring/',
+  instagramUrl: 'https://www.instagram.com/zeloflooring',
+  yelpUrl: 'https://www.yelp.com/biz/zelo-flooring-san-diego',
+  thumbtackUrl: 'https://www.thumbtack.com/ca/san-diego/hardwood-floor-installation/zelo-flooring/service/414577564885925896',
+  mapquestUrl: 'https://www.mapquest.com/us/california/zelo-flooring-716292534',
+  // Verified review count and rating sourced from Thumbtack profile.
+  rating: {
+    value: 5.0,
+    count: 34,
+    source: 'Thumbtack',
+    sourceUrl: 'https://www.thumbtack.com/ca/san-diego/hardwood-floor-installation/zelo-flooring/service/414577564885925896',
+  },
+  // Recognized awards for award schema and trust badging.
+  awards: ['Thumbtack Top Pro 2023', 'Thumbtack Top Pro 2024', 'Thumbtack Top Pro 2025'] as string[],
+  owner: {
+    name: 'Endri Z.',
+    jobTitle: 'Owner',
+    inUSSince: 2013,
+    teamYearsExperience: 20,
+  },
 };

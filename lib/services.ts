@@ -1,6 +1,17 @@
 export type SubService = { id: string; name: string; blurb: string };
 export type ServiceStat = { label: string; value: string; sourceLabel: string; sourceUrl: string };
-export type ServiceReview = { name: string; location: string; quote: string };
+export type ServiceReview = {
+  name: string;
+  location: string;
+  quote: string;
+  avatar?: string;
+  photos?: string[];
+  serviceType?: string;
+  source?: 'Thumbtack' | 'Yelp' | 'Google';
+  sourceUrl?: string;
+  date?: string;
+  datePublished?: string;
+};
 export type ServiceFaq = { q: string; a: string };
 
 export type Service = {
@@ -72,7 +83,7 @@ export const SERVICES: Service[] = [
     trustBullets: [
       'CSLB Lic #1083572',
       'Locally installed since 2021',
-      '4.9★ Google reviews',
+      '5★ Google reviews',
     ],
     subServices: [
       { id: 'plush', name: 'Plush and Frieze Carpet', blurb: 'Soft underfoot for bedrooms and family rooms. Nylon, polyester, and triexta options with stain warranties from Stainmaster, Mohawk SmartStrand, and Shaw R2X.' },
@@ -138,7 +149,7 @@ export const SERVICES: Service[] = [
     trustBullets: [
       'CSLB Lic #1083572',
       'Locally installed since 2021',
-      '4.9★ Google reviews',
+      '5★ Google reviews',
     ],
     subServices: [
       { id: 'spc', name: 'Rigid-Core SPC Vinyl', blurb: 'Stone-polymer composite core. The most stable LVP for San Diego slabs and dry-climate temperature swings. Our default whole-home recommendation.' },
@@ -204,7 +215,7 @@ export const SERVICES: Service[] = [
     trustBullets: [
       'CSLB Lic #1083572',
       'Locally installed since 2021',
-      '4.9★ Google reviews',
+      '5★ Google reviews',
     ],
     subServices: [
       { id: 'engineered', name: 'Engineered Hardwood Installation', blurb: 'Multi-ply core stays stable on slab and in dry-climate humidity swings. Our default for San Diego homes. Mirage, Anderson Tuftex, Mannington, Hallmark.' },
@@ -272,7 +283,7 @@ export const SERVICES: Service[] = [
     trustBullets: [
       'CSLB Lic #1083572',
       'Locally installed since 2021',
-      '4.9★ Google reviews',
+      '5★ Google reviews',
     ],
     subServices: [
       { id: 'waterproof', name: 'Waterproof Laminate', blurb: 'Pergo Outlast+, Mohawk RevWood Plus, Shaw Repel. Sealed-edge laminate that handles spills and pet accidents that older laminate could not.' },
@@ -337,7 +348,7 @@ export const SERVICES: Service[] = [
     trustBullets: [
       'CSLB Lic #1083572',
       'Locally installed since 2021',
-      '4.9★ Google reviews',
+      '5★ Google reviews',
     ],
     subServices: [
       { id: 'porcelain', name: 'Porcelain Tile Installation', blurb: 'Through-body porcelain in stone-look, wood-look, and concrete-look visuals. The most durable everyday tile we install.' },
@@ -404,7 +415,7 @@ export const SERVICES: Service[] = [
     trustBullets: [
       'CSLB Lic #1083572',
       'Locally installed since 2021',
-      '4.9★ Google reviews',
+      '5★ Google reviews',
     ],
     subServices: [
       { id: 'glue-down', name: 'Glue-Down Cork Tile', blurb: 'Traditional cork tile in 12x12 or 12x24 with full-spread adhesive. Best for kitchens and bathrooms where moisture resistance matters. Wicanders, APC, Globus.' },
@@ -470,7 +481,7 @@ export const SERVICES: Service[] = [
     trustBullets: [
       'CSLB Lic #1083572',
       'Locally installed since 2021',
-      '4.9★ Google reviews',
+      '5★ Google reviews',
     ],
     subServices: [
       { id: 'home-gym', name: 'Home Gym Rubber', blurb: '3/8" to 1/2" rolled or interlocking tile for residential gyms. Free-weight and cardio rated. Slab crack repair included where needed.' },
@@ -537,7 +548,7 @@ export const SERVICES: Service[] = [
     trustBullets: [
       'CSLB Lic #1083572',
       'Locally installed since 2021',
-      '4.9★ Google reviews',
+      '5★ Google reviews',
     ],
     subServices: [
       { id: 'schools', name: 'School and Education VCT', blurb: 'Summer-break installs. Color-bordered hallways, custom mascot inlays, full classroom turnover before students return.' },

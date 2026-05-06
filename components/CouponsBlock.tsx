@@ -1,7 +1,7 @@
 'use client';
 
 import { FormEvent, useEffect, useState } from 'react';
-import { SITE, SERVICE_AREAS } from '@/lib/areas';
+import { SERVICE_AREAS } from '@/lib/areas';
 
 export type Coupon = {
   id: string;
@@ -71,7 +71,7 @@ export default function CouponsBlock({ eyebrow, heading, subheading, coupons = D
     const form = e.target as HTMLFormElement;
     const formData = new FormData(form);
     try {
-      await fetch(`https://formsubmit.co/ajax/${SITE.email}`, {
+      await fetch('https://formspree.io/f/mykopznr', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
         body: JSON.stringify(Object.fromEntries(formData)),

@@ -1,4 +1,6 @@
 import LeadFormHero from '@/components/LeadFormHero';
+import TrustBadges from '@/components/TrustBadges';
+import ProjectGallery from '@/components/ProjectGallery';
 import ServiceAnchorGrid from '@/components/ServiceAnchorGrid';
 import WhyChooseUs from '@/components/WhyChooseUs';
 import AlternatingSection from '@/components/AlternatingSection';
@@ -43,10 +45,63 @@ const HOME_STATS = [
   { label: 'NWFA-recommended hardwood acclimation period', value: '5-7 days', sourceLabel: 'NWFA', sourceUrl: 'https://nwfa.org' },
 ];
 
+const TT_PROFILE = 'https://www.thumbtack.com/ca/san-diego/hardwood-floor-installation/zelo-flooring/service/414577564885925896';
+
 const HOME_REVIEWS = [
-  { name: 'Maria S.', location: 'La Jolla, CA', quote: 'Zelo replaced all the flooring in our home with luxury vinyl plank. They were on time every day, the install looks flawless, and they cleaned up better than they found us.' },
-  { name: 'David R.', location: 'Chula Vista, CA', quote: 'Got three quotes, Zelo wasn\'t the cheapest but the most thorough. They explained exactly what they\'d do, brought samples, and the hardwood floors look incredible.' },
-  { name: 'Jennifer K.', location: 'Carlsbad, CA', quote: 'Carpeted three bedrooms and the stairs. Crew was professional, install was quick, and the quality is way better than what we had before. Five stars all day.' },
+  {
+    name: 'Faramarz R.',
+    location: '',
+    serviceType: 'Carpet Repair or Partial Replacement',
+    quote:
+      'Zelo Flooring is one of the better flooring companies I worked with. Endri was very courteous and professional. We met at my rental, he assessed the scope of work, provided me with a very fair and competitive estimate, and his team took care of replacing the carpet in less than one day. Quality of workmanship was great. I will definitely use their service again and highly recommend them!',
+    source: 'Thumbtack' as const,
+    sourceUrl: TT_PROFILE,
+    date: '3 days ago',
+    datePublished: '2026-05-03',
+  },
+  {
+    name: 'Leah A.',
+    location: '',
+    serviceType: 'Floor Repair',
+    quote:
+      'Endri and team were great to work with. I was nervous about finding an installer who could fix my squeaking subfloors. The noise had bothered me for 4 years and it was finally time to replace carpet for LVP. Zelo Flooring was able to do just that and install the LVP flooring in our main bedroom. It looks so good, and I finally have quiet floors. He was very responsive and amazing when it came to helping get us on the schedule, even a bit last minute.',
+    source: 'Thumbtack' as const,
+    sourceUrl: TT_PROFILE,
+    date: 'Jul 20, 2024',
+    datePublished: '2024-07-20',
+  },
+  {
+    name: 'Tatyana M.',
+    location: '',
+    serviceType: 'Floor Installation or Replacement',
+    quote:
+      'If you want to get the job done perfectly, people who show up on time, do a great job, are tidy, and give you a reasonable quote, go ahead with these guys. We were very happy with the service and the experience overall. The owner is very pleasant to deal with, also very timely and quick. They want to work, not like others who waste your time. Zelo Flooring 5 stars!',
+    source: 'Thumbtack' as const,
+    sourceUrl: TT_PROFILE,
+    date: 'Sep 24, 2024',
+    datePublished: '2024-09-24',
+  },
+  {
+    name: 'Hao L.',
+    location: '',
+    serviceType: 'Carpet Repair or Partial Replacement',
+    quote: 'Did a great job for carpet re-stretching. Price is very reasonable.',
+    source: 'Thumbtack' as const,
+    sourceUrl: TT_PROFILE,
+    date: '2 weeks ago',
+    datePublished: '2026-04-22',
+  },
+  {
+    name: 'Dave Z.',
+    location: '',
+    serviceType: 'Carpet Installation',
+    quote:
+      'Endri and Zelo Flooring exceeded my expectations. Endri expertly installed carpet in my attic room, completing the job promptly. Zelo Flooring’s professionalism, honesty, and tailored service were exceptional. The project wrapped up ahead of schedule, and my floors look stunning. Endri’s reliability and ease of collaboration make Zelo Flooring my top recommendation for anyone needing quality flooring services.',
+    source: 'Thumbtack' as const,
+    sourceUrl: TT_PROFILE,
+    date: 'Apr 13, 2024',
+    datePublished: '2024-04-13',
+  },
 ];
 
 export default function HomePage() {
@@ -56,6 +111,18 @@ export default function HomePage() {
     iconKey: s.iconKey,
     description: s.tagline,
     href: `/${s.slug}`,
+  }));
+
+  const reviewSchema = HOME_REVIEWS.map((r, i) => ({
+    '@context': 'https://schema.org',
+    '@type': 'Review',
+    '@id': `${SITE.url}/#review-${i + 1}`,
+    itemReviewed: { '@id': `${SITE.url}/#business` },
+    author: { '@type': 'Person', name: r.name },
+    reviewRating: { '@type': 'Rating', ratingValue: 5, bestRating: 5, worstRating: 1 },
+    reviewBody: r.quote,
+    ...(r.datePublished ? { datePublished: r.datePublished } : {}),
+    ...(r.source ? { publisher: { '@type': 'Organization', name: r.source } } : {}),
   }));
 
   const webPageSchema = {
@@ -78,6 +145,13 @@ export default function HomePage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(webPageSchema) }}
       />
+      {reviewSchema.map((s) => (
+        <script
+          key={s['@id']}
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(s) }}
+        />
+      ))}
       <LeadFormHero
         h1="Flooring in San Diego, CA"
         valueProp="Zelo Flooring installs carpet, vinyl, hardwood, laminate, and tile across San Diego County. Free in-home estimates, honest pricing, certified installers, manufacturer-spec installs."
@@ -88,6 +162,11 @@ export default function HomePage() {
         ]}
         image="/img/projects/lvp-whole-home/after-living-room-lvp.webp"
         imageAlt="Zelo Flooring luxury vinyl plank installed across a San Diego living room"
+      />
+
+      <TrustBadges
+        heading="Verified Reviews and Recognized Awards"
+        subheading="Real ratings from third-party platforms, not testimonials we wrote ourselves."
       />
 
       <ServiceAnchorGrid
@@ -127,10 +206,12 @@ export default function HomePage() {
         stats={HOME_STATS}
       />
 
+      <ProjectGallery />
+
       <ServiceReviews
         eyebrow="Customer Reviews"
         heading="Reviews From San Diego Flooring Customers"
-        subheading="Recent 5-star reviews from across San Diego County."
+        subheading="Verified 5-star reviews from Zelo Flooring customers on Thumbtack. Click any review to read more on our profile."
         reviews={HOME_REVIEWS}
       />
 

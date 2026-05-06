@@ -2,7 +2,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { SITE, SERVICE_AREAS } from '@/lib/areas';
 import { SERVICES } from '@/lib/services';
-import { PhoneIcon, MailIcon, PinIcon } from './Icons';
+import { PhoneIcon, MailIcon, PinIcon, FacebookIcon, InstagramIcon, YelpIcon, ThumbtackIcon, MapQuestIcon } from './Icons';
 
 function neighborhoodSlug(name: string) {
   return 'flooring-' + name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
@@ -67,15 +67,23 @@ export default function Footer() {
             <strong style={{ color: 'white' }}>Hours:</strong><br />
             Mon-Sun 8:00am - 5:00pm
           </p>
-          {SITE.socials.length > 0 && (
-            <div className="socials">
-              {SITE.socials.map((url) => (
-                <a key={url} href={url} target="_blank" rel="noopener noreferrer" aria-label="Social profile">
-                  {new URL(url).hostname.replace('www.', '').split('.')[0].charAt(0)}
-                </a>
-              ))}
-            </div>
-          )}
+          <div className="socials" aria-label="Zelo Flooring on social media and review sites">
+            <a href={SITE.facebookUrl} target="_blank" rel="noopener noreferrer" aria-label="Zelo Flooring on Facebook">
+              <FacebookIcon size={18} />
+            </a>
+            <a href={SITE.instagramUrl} target="_blank" rel="noopener noreferrer" aria-label="Zelo Flooring on Instagram">
+              <InstagramIcon size={18} />
+            </a>
+            <a href={SITE.yelpUrl} target="_blank" rel="noopener noreferrer" aria-label="Zelo Flooring on Yelp">
+              <YelpIcon size={18} />
+            </a>
+            <a href={SITE.thumbtackUrl} target="_blank" rel="noopener noreferrer" aria-label="Zelo Flooring on Thumbtack">
+              <ThumbtackIcon size={18} />
+            </a>
+            <a href={SITE.mapquestUrl} target="_blank" rel="noopener noreferrer" aria-label="Zelo Flooring on MapQuest">
+              <MapQuestIcon size={18} />
+            </a>
+          </div>
         </div>
       </div>
 

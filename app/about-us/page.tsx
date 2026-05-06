@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import PageHero from '@/components/PageHero';
 import AlternatingSection from '@/components/AlternatingSection';
+import ProjectGallery from '@/components/ProjectGallery';
 import WhyChooseUs from '@/components/WhyChooseUs';
 import Testimonials from '@/components/Testimonials';
 import ContactCTA from '@/components/ContactCTA';
@@ -25,8 +26,8 @@ export default function AboutPage() {
         eyebrow="Our Story"
         title="A Family Business Built on Doing Things Right"
         paragraphs={[
-          "Zelo Flooring was founded in San Diego with a simple goal: install flooring the way it should be installed - properly, the first time. After years of seeing other companies cut corners, we decided to build something different.",
-          "Today, we're a fully licensed, bonded and insured family flooring business serving homeowners and businesses across San Diego County. We've installed thousands of square feet of carpet, vinyl, hardwood, laminate and tile - and we're still in business because our customers refer their friends and family.",
+          "Zelo Flooring was founded in San Diego with a simple goal: install flooring the way it should be installed, properly, the first time. After years of seeing other companies cut corners, we decided to build something different.",
+          "Today, we're a fully licensed, bonded and insured family flooring business serving homeowners and businesses across San Diego County. We've installed thousands of square feet of carpet, vinyl, hardwood, laminate and tile, and we're still in business because our customers refer their friends and family.",
         ]}
         bullets={[
           'Family business, locally operated',
@@ -36,6 +37,26 @@ export default function AboutPage() {
         ]}
         image="/img/projects/lvp-whole-home/after-entryway-lvp.webp"
         cta={{ label: 'Get a Free Estimate', href: '/free-estimate' }}
+      />
+
+      <AlternatingSection
+        eyebrow="Meet the Owner"
+        title={`${SITE.owner.name}, Owner of Zelo Flooring`}
+        paragraphs={[
+          `${SITE.owner.name} relocated from Europe to the United States in ${SITE.owner.inUSSince} and has worked in installation services ever since. Honesty, reliability, trustworthiness, and punctuality are the standards he holds every job to.`,
+          `Our installers bring more than ${SITE.owner.teamYearsExperience} years of cumulative experience. We may not offer the lowest price you get quoted, but we are one of the few who consistently honor our commitments and treat your home with the care it warrants. Fully licensed (CSLB #${SITE.license}), insured, and bonded for your peace of mind.`,
+        ]}
+        bullets={[
+          `Owner-operated since ${SITE.owner.inUSSince}`,
+          `${SITE.owner.teamYearsExperience}+ years cumulative installer experience`,
+          'On-time, on-spec, on-quote',
+          'Licensed CSLB, bonded, and insured',
+        ]}
+        image="/img/mobile-flooring-zelo.webp"
+        imageContain
+        imageWide
+        reverse
+        background="cream"
       />
 
       <AlternatingSection
@@ -65,6 +86,13 @@ export default function AboutPage() {
           '100% workmanship guarantee',
         ]}
         image="/img/projects/lvp-whole-home/after-dining-area-lvp.webp"
+      />
+
+      <ProjectGallery
+        eyebrow="Recent Projects"
+        heading="Floors We've Installed Across San Diego"
+        subheading="A snapshot of carpet, LVP, hardwood, and tile installs the Zelo Flooring team has completed for local homeowners and businesses."
+        initialCount={8}
       />
 
       <WhyChooseUs />

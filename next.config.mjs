@@ -1,5 +1,14 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'production-next-images-cdn.thumbtack.com',
+        pathname: '/i/**',
+      },
+    ],
+  },
   async redirects() {
     const slugs = [
       'carpet-flooring',

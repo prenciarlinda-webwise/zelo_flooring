@@ -36,7 +36,7 @@ export default function FinalCTA({ heading, subheading, defaultProjectType, head
     const form = e.target as HTMLFormElement;
     const formData = new FormData(form);
     try {
-      await fetch(`https://formsubmit.co/ajax/${SITE.email}`, {
+      await fetch('https://formspree.io/f/mykopznr', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
         body: JSON.stringify(Object.fromEntries(formData)),
