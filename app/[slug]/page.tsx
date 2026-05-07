@@ -221,9 +221,9 @@ function renderServicePage(service: ReturnType<typeof getService>) {
 
               <ul className="aeo-keyfacts">
                 <li><strong>Service area:</strong> {SITE.city}, {SITE.region} ({MAIN_LOCATION.county})</li>
-                <li><strong>Licensed:</strong> CSLB #{SITE.license}</li>
+                <li><strong>Licensed:</strong> CSLB {SITE.licenseDetails.classification} #{SITE.license}</li>
                 <li><strong>Free in-home estimate:</strong> Yes, samples brought to you</li>
-                <li><strong>Local since:</strong> {SITE.yearEstablished}</li>
+                <li><strong>Owner experience:</strong> {SITE.ownerExperienceYears}+ years of journeyman flooring</li>
               </ul>
             </div>
           </div>

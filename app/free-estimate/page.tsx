@@ -1,7 +1,5 @@
 import type { Metadata } from 'next';
-import PageHero from '@/components/PageHero';
-import ContactCTA from '@/components/ContactCTA';
-import ServiceCardsGrid from '@/components/ServiceCardsGrid';
+import LeadFormHero from '@/components/LeadFormHero';
 import { SITE } from '@/lib/areas';
 
 export const metadata: Metadata = {
@@ -12,50 +10,50 @@ export const metadata: Metadata = {
 
 export default function FreeEstimatePage() {
   return (
-    <>
-      <PageHero
-        title="Get Your Free In-Home Estimate"
-        subtitle="No pressure, no obligation. We bring samples and a real quote to your door."
-        crumbs={[{ label: 'Home', href: '/' }, { label: 'Free Estimate' }]}
-      />
-
-      <section className="section">
-        <div className="container">
-          <div className="section-header center">
-            <span className="eyebrow">How It Works</span>
-            <h2>Three Simple Steps to Your New Floors</h2>
-            <p>We make getting a flooring quote painless. Here&apos;s exactly what to expect.</p>
-          </div>
-
-          <div className="services-grid">
-            {[
-              { n: '1', t: 'Schedule Your Visit', d: 'Call us or fill out the form. We respond within 1 business day to set up a time that works for you.' },
-              { n: '2', t: 'In-Home Consultation', d: 'We come to your home with physical samples, take measurements, and answer all your questions - typically 30-45 minutes.' },
-              { n: '3', t: 'Detailed Written Quote', d: 'You get a clear, line-itemized quote with no hidden fees. Take your time deciding - there&apos;s zero pressure.' },
-            ].map((s) => (
-              <div key={s.n} className="service-card">
-                <div className="service-card-body">
-                  <div className="service-card-icon" style={{ fontSize: '1.4rem', fontWeight: 800 }}>{s.n}</div>
-                  <h3>{s.t}</h3>
-                  <p>{s.d}</p>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      <section className="section section-cream">
-        <div className="container">
-          <div className="section-header center">
-            <span className="eyebrow">What We Install</span>
-            <h2>Pick Your Flooring Type</h2>
-          </div>
-          <ServiceCardsGrid />
-        </div>
-      </section>
-
-      <ContactCTA heading="Request Your Free Estimate Now" />
-    </>
+    <LeadFormHero
+      h1="Get Your Free In-Home Flooring Estimate"
+      valueProp="Tell us about your project and we will bring samples, take measurements, and put together a clear written quote at no cost. Most homeowners hear back within 1 business day."
+      trustLogos={[
+        {
+          kind: 'bbb',
+          alt: `BBB Accredited Business with ${SITE.bbb.rating} rating`,
+          href: SITE.bbb.profileUrl,
+          bbbRating: SITE.bbb.rating,
+          label: 'BBB Accredited',
+          subLabel: `${SITE.bbb.rating} Rating`,
+        },
+        {
+          src: '/img/thumbtack-logo.png',
+          alt: 'Verified Zelo Flooring profile on Thumbtack',
+          href: SITE.thumbtackUrl,
+          label: 'Thumbtack Verified',
+          subLabel: 'Read customer reviews',
+        },
+        {
+          src: '/img/yelp-logo.png',
+          alt: 'Verified Zelo Flooring profile on Yelp',
+          href: SITE.yelpUrl,
+          label: 'Yelp Verified',
+          subLabel: 'Read customer reviews',
+        },
+        {
+          kind: 'rating',
+          alt: `${SITE.rating.value} stars from ${SITE.rating.count} Thumbtack reviews`,
+          href: SITE.thumbtackUrl,
+          ratingValue: SITE.rating.value,
+          label: `${SITE.rating.value.toFixed(1)} (${SITE.rating.count} reviews)`,
+          subLabel: 'on Thumbtack',
+        },
+        {
+          src: '/img/top-pro-thumbtack.png',
+          alt: 'Thumbtack Top Pro 2023, 2024, 2025',
+          href: SITE.thumbtackUrl,
+          label: 'Top Pro 3 Years',
+          subLabel: '2023 · 2024 · 2025',
+        },
+      ]}
+      image="/img/projects/lvp-whole-home/after-living-room-lvp.webp"
+      imageAlt="Zelo Flooring luxury vinyl plank installed across a San Diego living room"
+    />
   );
 }

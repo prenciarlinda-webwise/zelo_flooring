@@ -9,7 +9,7 @@ import { SITE } from '@/lib/areas';
 
 export const metadata: Metadata = {
   title: 'About Us - San Diego Flooring Contractors',
-  description: `Learn about ${SITE.name}, a San Diego family flooring business. Licensed, bonded, and insured. CSLB Lic #${SITE.license}.`,
+  description: `Learn about ${SITE.name}, a family-operated San Diego flooring installation company with over a decade of journeyman experience. C-15 licensed (CSLB #${SITE.license}), bonded, insured, and BBB Accredited A+. Owner: Endri Zelollari.`,
   alternates: { canonical: `${SITE.url}/about-us` },
 };
 
@@ -24,16 +24,17 @@ export default function AboutPage() {
 
       <AlternatingSection
         eyebrow="Our Story"
-        title="A Family Business Built on Doing Things Right"
+        title="A Family-Operated San Diego Flooring Installation Company"
         paragraphs={[
-          "Zelo Flooring was founded in San Diego with a simple goal: install flooring the way it should be installed, properly, the first time. After years of seeing other companies cut corners, we decided to build something different.",
-          "Today, we're a fully licensed, bonded and insured family flooring business serving homeowners and businesses across San Diego County. We've installed thousands of square feet of carpet, vinyl, hardwood, laminate and tile, and we're still in business because our customers refer their friends and family.",
+          `${SITE.name} is a family-operated flooring installation company based in ${SITE.city}. We have over a decade of journeyman experience installing residential and commercial flooring. We pride ourselves on craftsmanship, communication, and diligence.`,
+          `The Zelo Flooring business was founded in October 2021 as a sole proprietorship and has been BBB Accredited with an ${SITE.bbb.rating} rating since October 2022. We bring extensive experience across LVP, carpet, hardwood, laminate, tile, cork, rubber, VCT, self-leveling, and more.`,
         ]}
         bullets={[
-          'Family business, locally operated',
-          'Years of installation experience',
-          'CSLB Licensed (#1083572), Bonded & Insured',
-          'Manufacturer-certified installers',
+          `Bonded and licensed: CSLB ${SITE.licenseDetails.classification} #${SITE.licenseDetails.number}`,
+          'Insured for residential and commercial work',
+          `BBB Accredited Business, ${SITE.bbb.rating} rating since 2022`,
+          `Thumbtack Top Pro 2023, 2024, and 2025`,
+          `${SITE.hiredCount}+ jobs hired through Thumbtack`,
         ]}
         image="/img/projects/lvp-whole-home/after-entryway-lvp.webp"
         cta={{ label: 'Get a Free Estimate', href: '/free-estimate' }}
@@ -43,14 +44,15 @@ export default function AboutPage() {
         eyebrow="Meet the Owner"
         title={`${SITE.owner.name}, Owner of Zelo Flooring`}
         paragraphs={[
-          `${SITE.owner.name} relocated from Europe to the United States in ${SITE.owner.inUSSince} and has worked in installation services ever since. Honesty, reliability, trustworthiness, and punctuality are the standards he holds every job to.`,
-          `Our installers bring more than ${SITE.owner.teamYearsExperience} years of cumulative experience. We may not offer the lowest price you get quoted, but we are one of the few who consistently honor our commitments and treat your home with the care it warrants. Fully licensed (CSLB #${SITE.license}), insured, and bonded for your peace of mind.`,
+          `${SITE.owner.name} relocated from Europe to the United States in ${SITE.owner.inUSSince} and has worked in installation services ever since, ${SITE.ownerExperienceYears} years of journeyman flooring experience and counting. Honesty, reliability, trustworthiness, and punctuality are the standards he holds every job to.`,
+          `Endri personally holds California ${SITE.licenseDetails.classification} ${SITE.licenseDetails.classificationName} License #${SITE.licenseDetails.number}, verified by the ${SITE.licenseDetails.issuerAcronym} on April 7, 2026 and valid through December 1, 2027. He completed a national background check through Thumbtack on October 14, 2021.`,
         ]}
         bullets={[
-          `Owner-operated since ${SITE.owner.inUSSince}`,
-          `${SITE.owner.teamYearsExperience}+ years cumulative installer experience`,
+          `${SITE.licenseDetails.classification} licensed by the ${SITE.licenseDetails.issuerAcronym} (#${SITE.licenseDetails.number})`,
+          `${SITE.ownerExperienceYears} years of personal flooring installation experience`,
+          `Background checked through Thumbtack`,
           'On-time, on-spec, on-quote',
-          'Licensed CSLB, bonded, and insured',
+          'Bonded and insured',
         ]}
         image="/img/mobile-flooring-zelo.webp"
         imageContain

@@ -5,13 +5,11 @@ type Stat = {
   label: string;
 };
 
-const yearsActive = new Date().getFullYear() - SITE.yearEstablished;
-
 const STATS: Stat[] = [
   { value: 'Local', label: 'San Diego flooring installer' },
-  { value: `${yearsActive}+`, label: `Years in business since ${SITE.yearEstablished}` },
+  { value: `${SITE.ownerExperienceYears}+`, label: 'Years of journeyman flooring experience' },
   { value: 'CSLB', label: `Licensed, bonded, insured (Lic #${SITE.license})` },
-  { value: '5★', label: 'Average customer rating' },
+  { value: `${SITE.rating.value.toFixed(1)}★`, label: `Average rating from ${SITE.rating.count} reviews` },
 ];
 
 export default function StatStrip() {

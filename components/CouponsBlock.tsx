@@ -2,6 +2,7 @@
 
 import { FormEvent, useEffect, useState } from 'react';
 import { SERVICE_AREAS } from '@/lib/areas';
+import { track } from '@/lib/track';
 
 export type Coupon = {
   id: string;
@@ -79,6 +80,11 @@ export default function CouponsBlock({ eyebrow, heading, subheading, coupons = D
         body: JSON.stringify(Object.fromEntries(formData)),
       });
       if (!res.ok) throw new Error(`Formspree responded ${res.status}`);
+      track('lead_form_submit', {
+        form_id: 'coupon_claim',
+        offer: formData.get('offer'),
+        neighborhood: formData.get('neighborhood'),
+      });
       setSubmitted(true);
       form.reset();
       setTimeout(() => {
@@ -87,6 +93,10 @@ export default function CouponsBlock({ eyebrow, heading, subheading, coupons = D
       }, 3500);
     } catch (err) {
       console.error('Form submission failed:', err);
+      track('lead_form_error', {
+        form_id: 'coupon_claim',
+        error_message: err instanceof Error ? err.message : String(err),
+      });
       setErrored(true);
     } finally {
       setSending(false);
@@ -112,7 +122,11 @@ export default function CouponsBlock({ eyebrow, heading, subheading, coupons = D
               <button
                 type="button"
                 className="btn btn-primary btn-block"
-                onClick={() => { setSubmitted(false); setOpenId(c.id); }}
+                onClick={() => {
+                  setSubmitted(false);
+                  setOpenId(c.id);
+                  track('coupon_open', { offer_id: c.id, offer_title: c.title });
+                }}
               >
                 Claim This Offer
               </button>
@@ -174,7 +188,7 @@ export default function CouponsBlock({ eyebrow, heading, subheading, coupons = D
                   Something went wrong sending your request. Please try again or call us directly.
                 </p>
               )}
-              <p className="coupon-modal-trust">🔒 Your info is private and never shared.</p>
+              <p className="coupon-modal-trust">Your info is private and never shared.</p>
             </form>
           </div>
         </div>

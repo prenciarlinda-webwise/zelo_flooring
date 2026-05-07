@@ -53,8 +53,6 @@ export default function Footer() {
             <li><Link href="/blog">Blog</Link></li>
             <li><Link href="/contact">Contact</Link></li>
             <li><Link href="/free-estimate">Free Estimate</Link></li>
-            <li><Link href="/privacy-policy">Privacy Policy</Link></li>
-            <li><Link href="/terms-and-conditions">Terms & Conditions</Link></li>
           </ul>
         </div>
 
@@ -65,7 +63,7 @@ export default function Footer() {
           <p><PinIcon size={14} /> {SITE.address}</p>
           <p style={{ marginTop: 14, fontSize: '0.82rem', opacity: 0.85 }}>
             <strong style={{ color: 'white' }}>Hours:</strong><br />
-            Mon-Sun 8:00am - 5:00pm
+            {SITE.hoursDisplay}
           </p>
           <div className="socials" aria-label="Zelo Flooring on social media and review sites">
             <a
@@ -109,6 +107,16 @@ export default function Footer() {
               <img src="/img/thumbtack-logo.png" alt="Thumbtack" />
             </a>
             <a
+              href={SITE.bbb.profileUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label={`Zelo Flooring on BBB, ${SITE.bbb.rating} rated`}
+              className="social-pill social-pill-bbb"
+            >
+              <span className="social-pill-bbb-letters">BBB</span>
+              <span className="social-pill-bbb-rating">{SITE.bbb.rating}</span>
+            </a>
+            <a
               href={SITE.mapquestUrl}
               target="_blank"
               rel="noopener noreferrer"
@@ -143,8 +151,12 @@ export default function Footer() {
 
       <div className="footer-bottom">
         <div className="container footer-bottom-inner">
-          <p>© {new Date().getFullYear()} {SITE.name}. All Rights Reserved.</p>
-          <p>San Diego Flooring Installation · CSLB #{SITE.license}</p>
+          <p>© {new Date().getFullYear()} {SITE.name}. All Rights Reserved. CSLB #{SITE.license}</p>
+          <p className="footer-legal-links">
+            <Link href="/privacy-policy">Privacy Policy</Link>
+            <span aria-hidden="true">·</span>
+            <Link href="/terms-and-conditions">Terms &amp; Conditions</Link>
+          </p>
           <p>Built by <a href="https://www.websiteandseoagency.com/" target="_blank" rel="noopener noreferrer">Web Wise</a></p>
         </div>
       </div>

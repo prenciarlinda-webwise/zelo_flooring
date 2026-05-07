@@ -6,7 +6,7 @@ import { SITE } from '@/lib/areas';
 
 export const metadata: Metadata = {
   title: 'Contact Us - San Diego Flooring Installation',
-  description: `Contact ${SITE.name} for free flooring estimates in San Diego. Call ${SITE.phone} or fill out our online form. Mon-Sun 8am-5pm.`,
+  description: `Contact ${SITE.name} for free flooring estimates in San Diego. Call ${SITE.phone} or fill out our online form. ${SITE.hoursDisplay}.`,
   alternates: { canonical: `${SITE.url}/contact` },
 };
 

@@ -27,7 +27,7 @@ export default function Header() {
             <span><PhoneIcon size={14} /> <a href={`tel:${SITE.phoneRaw}`}>{SITE.phone}</a></span>
           </div>
           <div className="top-bar-right">
-            <span><ClockIcon size={14} /> Mon-Sun 8a-5p</span>
+            <span><ClockIcon size={14} /> Open daily 7a-7p</span>
             <span className="divider" />
             <span><MailIcon size={14} /> <a href={`mailto:${SITE.email}`}>{SITE.email}</a></span>
             <span className="divider" />

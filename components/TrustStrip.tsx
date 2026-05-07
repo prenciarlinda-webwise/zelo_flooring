@@ -1,10 +1,9 @@
 import { SITE } from '@/lib/areas';
 
 export default function TrustStrip() {
-  const years = new Date().getFullYear() - SITE.yearEstablished;
   return (
     <div className="trust-strip">
-      🛠️ Family Business · Proudly Serving San Diego for {years}+ Years · Licensed · Bonded · Insured
+      Family-Operated · {SITE.ownerExperienceYears}+ Years of Flooring Experience in San Diego · Licensed · Bonded · Insured
     </div>
   );
 }

@@ -3,11 +3,25 @@
 import { FormEvent, useState } from 'react';
 import { PhoneIcon } from './Icons';
 import { SITE, SERVICE_AREAS } from '@/lib/areas';
+import { track } from '@/lib/track';
+
+export type TrustLogo = {
+  src?: string;
+  alt: string;
+  href?: string;
+  label?: string;
+  subLabel?: string;
+  kind?: 'bbb' | 'rating';
+  bbbRating?: string;
+  ratingValue?: number;
+  ratingCount?: number;
+};
 
 type Props = {
   h1: string;
   valueProp: string;
-  trustBullets: string[];
+  trustBullets?: string[];
+  trustLogos?: TrustLogo[];
   image: string; // hero photo url
   imageAlt: string;
   defaultProjectType?: string;
@@ -26,7 +40,7 @@ const PROJECT_TYPES = [
   'Not sure yet',
 ];
 
-export default function LeadFormHero({ h1, valueProp, trustBullets, image, imageAlt, defaultProjectType }: Props) {
+export default function LeadFormHero({ h1, valueProp, trustBullets, trustLogos, image, imageAlt, defaultProjectType }: Props) {
   const [submitted, setSubmitted] = useState(false);
   const [sending, setSending] = useState(false);
   const [errored, setErrored] = useState(false);
@@ -44,11 +58,20 @@ export default function LeadFormHero({ h1, valueProp, trustBullets, image, image
         body: JSON.stringify(Object.fromEntries(formData)),
       });
       if (!res.ok) throw new Error(`Formspree responded ${res.status}`);
+      track('lead_form_submit', {
+        form_id: 'lead_form_hero',
+        project_type: formData.get('projectType'),
+        neighborhood: formData.get('neighborhood'),
+      });
       setSubmitted(true);
       form.reset();
       setTimeout(() => setSubmitted(false), 8000);
     } catch (err) {
       console.error('Form submission failed:', err);
+      track('lead_form_error', {
+        form_id: 'lead_form_hero',
+        error_message: err instanceof Error ? err.message : String(err),
+      });
       setErrored(true);
     } finally {
       setSending(false);
@@ -77,11 +100,69 @@ export default function LeadFormHero({ h1, valueProp, trustBullets, image, image
             </a>
           </div>
 
-          <ul className="lead-hero-trust">
-            {trustBullets.map((b) => (
-              <li key={b}>{b}</li>
-            ))}
-          </ul>
+          {trustLogos && trustLogos.length > 0 ? (
+            <ul className="lead-hero-trust-logos">
+              {trustLogos.map((logo, i) => {
+                const visual =
+                  logo.kind === 'bbb' ? (
+                    <span className="lead-hero-trust-visual lead-hero-trust-bbb">
+                      <span className="lead-hero-trust-bbb-letters">BBB</span>
+                      <span className="lead-hero-trust-bbb-rating">{logo.bbbRating || 'A+'}</span>
+                    </span>
+                  ) : logo.kind === 'rating' ? (
+                    <span className="lead-hero-trust-visual lead-hero-trust-rating-visual">
+                      <span className="lead-hero-trust-rating-value">{(logo.ratingValue ?? 5).toFixed(1)}</span>
+                      <span className="lead-hero-trust-rating-stars" aria-hidden="true">★★★★★</span>
+                    </span>
+                  ) : (
+                    <span className="lead-hero-trust-visual">
+                      {/* eslint-disable-next-line @next/next/no-img-element */}
+                      <img src={logo.src} alt="" />
+                    </span>
+                  );
+
+                const text = (logo.label || logo.subLabel) && (
+                  <span className="lead-hero-trust-text">
+                    {logo.label && <strong>{logo.label}</strong>}
+                    {logo.subLabel && <span>{logo.subLabel}</span>}
+                  </span>
+                );
+
+                const inner = (
+                  <>
+                    {visual}
+                    {text}
+                  </>
+                );
+
+                return (
+                  <li key={logo.src || `${logo.kind}-${i}`}>
+                    {logo.href ? (
+                      <a
+                        href={logo.href}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label={logo.alt}
+                        className="lead-hero-trust-chip"
+                      >
+                        {inner}
+                      </a>
+                    ) : (
+                      <span className="lead-hero-trust-chip" aria-label={logo.alt}>
+                        {inner}
+                      </span>
+                    )}
+                  </li>
+                );
+              })}
+            </ul>
+          ) : trustBullets && trustBullets.length > 0 ? (
+            <ul className="lead-hero-trust">
+              {trustBullets.map((b) => (
+                <li key={b}>{b}</li>
+              ))}
+            </ul>
+          ) : null}
         </div>
 
         <div className="lead-hero-form-wrap" id="quote-form">
@@ -124,7 +205,7 @@ export default function LeadFormHero({ h1, valueProp, trustBullets, image, image
                 Something went wrong sending your request. Please call {SITE.phone} or try again.
               </p>
             )}
-            <p className="lead-hero-form-trust">🔒 Your info is private and never shared.</p>
+            <p className="lead-hero-form-trust">Your info is private and never shared.</p>
           </form>
         </div>
       </div>

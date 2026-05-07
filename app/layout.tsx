@@ -5,6 +5,7 @@ import Header from '@/components/Header';
 import TrustStrip from '@/components/TrustStrip';
 import Footer from '@/components/Footer';
 import WhatsAppButton from '@/components/WhatsAppButton';
+import AnalyticsListener from '@/components/AnalyticsListener';
 import { SITE, SERVICE_AREAS } from '@/lib/areas';
 import { SERVICES } from '@/lib/services';
 
@@ -16,10 +17,11 @@ export const metadata: Metadata = {
     default: `Flooring San Diego - ${SITE.name}`,
     template: `%s - ${SITE.name}`,
   },
-  description: `San Diego flooring installation by ${SITE.name}. Carpet, vinyl, hardwood, laminate and tile flooring in San Diego. Licensed, bonded, insured. Free in-home estimates. Call ${SITE.phone}.`,
+  description: `${SITE.name} is a family-operated, C-15 licensed flooring installation company in San Diego with over a decade of journeyman experience. Carpet, LVP, hardwood, laminate, tile, cork, rubber, VCT. Bonded, insured, BBB Accredited A+. Free in-home estimates. Call ${SITE.phone}.`,
   openGraph: {
     title: `Flooring San Diego - ${SITE.name}`,
-    description: 'Professional flooring sales and installation in San Diego. Carpet, vinyl, hardwood, laminate, tile. Free in-home estimates.',
+    description:
+      'Family-operated flooring installation in San Diego. C-15 licensed, BBB Accredited A+, Thumbtack Top Pro 2023-2025. Free in-home estimates.',
     url: SITE.url,
     siteName: SITE.name,
     locale: 'en_US',
@@ -75,17 +77,50 @@ const businessGraph = {
         {
           '@type': 'OpeningHoursSpecification',
           dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'],
-          opens: '08:00',
-          closes: '17:00',
+          opens: SITE.hoursOpen,
+          closes: SITE.hoursClose,
         },
       ],
-      description: `Professional flooring sales and installation services in ${SITE.city}. Carpet, vinyl, hardwood, laminate, tile, cork, rubber and VCT.`,
+      paymentAccepted: SITE.paymentMethods.join(', '),
+      currenciesAccepted: 'USD',
+      numberOfEmployees: {
+        '@type': 'QuantitativeValue',
+        value: SITE.numberOfEmployees,
+      },
+      description: SITE.description,
       founder: {
         '@type': 'Person',
         '@id': `${SITE.url}/#owner`,
         name: SITE.owner.name,
+        givenName: SITE.owner.givenName,
+        familyName: SITE.owner.familyName,
         jobTitle: SITE.owner.jobTitle,
         worksFor: { '@id': `${SITE.url}/#business` },
+        hasCredential: {
+          '@type': 'EducationalOccupationalCredential',
+          credentialCategory: 'license',
+          name: `${SITE.licenseDetails.classification} ${SITE.licenseDetails.classificationName}`,
+          identifier: SITE.licenseDetails.number,
+          recognizedBy: {
+            '@type': 'Organization',
+            name: SITE.licenseDetails.issuer,
+            url: SITE.licenseDetails.issuerUrl,
+          },
+          validThrough: SITE.licenseDetails.validThrough,
+        },
+      },
+      hasCredential: {
+        '@type': 'EducationalOccupationalCredential',
+        '@id': `${SITE.url}/#cslb-license`,
+        credentialCategory: 'license',
+        name: `${SITE.licenseDetails.classification} ${SITE.licenseDetails.classificationName}`,
+        identifier: SITE.licenseDetails.number,
+        recognizedBy: {
+          '@type': 'Organization',
+          name: SITE.licenseDetails.issuer,
+          url: SITE.licenseDetails.issuerUrl,
+        },
+        validThrough: SITE.licenseDetails.validThrough,
       },
       foundingDate: String(SITE.yearEstablished),
       ...(SITE.socials.length > 0 ? { sameAs: SITE.socials } : {}),
@@ -117,8 +152,13 @@ const businessGraph = {
         'cork flooring',
         'rubber flooring',
         'commercial gym flooring',
+        'home gym flooring',
         'vinyl composition tile',
         'vct flooring',
+        'vinyl wall base',
+        'wood baseboard',
+        'tile backsplash installation',
+        'self-leveling concrete',
         'subfloor preparation',
         'moisture testing',
         'concrete slab installation',
@@ -189,6 +229,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             style={{ display: 'none', visibility: 'hidden' }}
           />
         </noscript>
+        <AnalyticsListener />
         <Header />
         <TrustStrip />
         <main>{children}</main>

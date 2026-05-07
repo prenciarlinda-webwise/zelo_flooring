@@ -8,23 +8,23 @@ const REASONS = [
   },
   {
     icon: ShieldIcon,
-    title: 'Licensed, Bonded & Insured',
-    desc: 'CSLB Lic #1083572 - fully insured and protected for your peace of mind.',
+    title: 'C-15 Licensed, Bonded & Insured',
+    desc: 'CSLB C-15 Lic #1083572, valid through Dec 2027. Fully insured for residential and commercial work.',
   },
   {
     icon: ToolIcon,
-    title: 'Certified Installers',
-    desc: 'Manufacturer-spec installs that keep your product warranty valid.',
+    title: '13+ Years of Journeyman Experience',
+    desc: 'Owner Endri Zelollari has installed flooring since 2013, with extensive expertise across LVP, hardwood, tile, carpet, and more.',
   },
   {
     icon: BadgeIcon,
-    title: 'Locally Owned Since 2021',
-    desc: 'Family-run San Diego flooring installer focused on residential and commercial projects across the county.',
+    title: 'BBB Accredited A+, Top Pro 3 Years',
+    desc: 'BBB Accredited Business with an A+ rating since 2022, and Thumbtack Top Pro for 2023, 2024, and 2025.',
   },
   {
     icon: StarIcon,
-    title: '5-Star Customer Reviews',
-    desc: 'Real reviews from real San Diego homeowners - Yelp, Google and more.',
+    title: '5.0 Stars from 34 Reviews',
+    desc: 'Verified five-star reviews on Thumbtack from real San Diego homeowners and businesses.',
   },
   {
     icon: CheckIcon,

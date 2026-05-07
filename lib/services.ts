@@ -81,9 +81,9 @@ export const SERVICES: Service[] = [
     heroValueProp:
       'Power-stretched carpet from trusted brands, installed across San Diego County with a premium pad and free in-home samples.',
     trustBullets: [
-      'CSLB Lic #1083572',
-      'Locally installed since 2021',
-      '5★ Google reviews',
+      'C-15 Licensed CSLB #1083572',
+      'Family-operated, 13+ years of journeyman experience',
+      '5.0★ on Thumbtack (34 reviews)',
     ],
     subServices: [
       { id: 'plush', name: 'Plush and Frieze Carpet', blurb: 'Soft underfoot for bedrooms and family rooms. Nylon, polyester, and triexta options with stain warranties from Stainmaster, Mohawk SmartStrand, and Shaw R2X.' },
@@ -147,9 +147,9 @@ export const SERVICES: Service[] = [
     heroValueProp:
       'Waterproof luxury vinyl plank installed across San Diego with proper slab prep, manufacturer-spec layout, and brands that hold up under real life.',
     trustBullets: [
-      'CSLB Lic #1083572',
-      'Locally installed since 2021',
-      '5★ Google reviews',
+      'C-15 Licensed CSLB #1083572',
+      'Family-operated, 13+ years of journeyman experience',
+      '5.0★ on Thumbtack (34 reviews)',
     ],
     subServices: [
       { id: 'spc', name: 'Rigid-Core SPC Vinyl', blurb: 'Stone-polymer composite core. The most stable LVP for San Diego slabs and dry-climate temperature swings. Our default whole-home recommendation.' },
@@ -213,9 +213,9 @@ export const SERVICES: Service[] = [
     heroValueProp:
       'NWFA-aligned hardwood installation across San Diego. Solid, engineered, and refinishing of existing hardwood with documented moisture testing and acclimation.',
     trustBullets: [
-      'CSLB Lic #1083572',
-      'Locally installed since 2021',
-      '5★ Google reviews',
+      'C-15 Licensed CSLB #1083572',
+      'Family-operated, 13+ years of journeyman experience',
+      '5.0★ on Thumbtack (34 reviews)',
     ],
     subServices: [
       { id: 'engineered', name: 'Engineered Hardwood Installation', blurb: 'Multi-ply core stays stable on slab and in dry-climate humidity swings. Our default for San Diego homes. Mirage, Anderson Tuftex, Mannington, Hallmark.' },
@@ -281,9 +281,9 @@ export const SERVICES: Service[] = [
     heroValueProp:
       'Laminate flooring installed across San Diego with vapor-barrier underlayment, proper expansion gaps, and the brands that actually hold up under daily use.',
     trustBullets: [
-      'CSLB Lic #1083572',
-      'Locally installed since 2021',
-      '5★ Google reviews',
+      'C-15 Licensed CSLB #1083572',
+      'Family-operated, 13+ years of journeyman experience',
+      '5.0★ on Thumbtack (34 reviews)',
     ],
     subServices: [
       { id: 'waterproof', name: 'Waterproof Laminate', blurb: 'Pergo Outlast+, Mohawk RevWood Plus, Shaw Repel. Sealed-edge laminate that handles spills and pet accidents that older laminate could not.' },
@@ -346,9 +346,9 @@ export const SERVICES: Service[] = [
     heroValueProp:
       'Porcelain, ceramic, and natural stone tile installed across San Diego. Proper substrate prep, waterproofing in wet zones, and tight grout lines on every job.',
     trustBullets: [
-      'CSLB Lic #1083572',
-      'Locally installed since 2021',
-      '5★ Google reviews',
+      'C-15 Licensed CSLB #1083572',
+      'Family-operated, 13+ years of journeyman experience',
+      '5.0★ on Thumbtack (34 reviews)',
     ],
     subServices: [
       { id: 'porcelain', name: 'Porcelain Tile Installation', blurb: 'Through-body porcelain in stone-look, wood-look, and concrete-look visuals. The most durable everyday tile we install.' },
@@ -413,9 +413,9 @@ export const SERVICES: Service[] = [
     heroValueProp:
       'Cork flooring installed across San Diego. Glue-down tile and floating plank from Wicanders, APC, and Globus, with proper slab moisture sealing on every job.',
     trustBullets: [
-      'CSLB Lic #1083572',
-      'Locally installed since 2021',
-      '5★ Google reviews',
+      'C-15 Licensed CSLB #1083572',
+      'Family-operated, 13+ years of journeyman experience',
+      '5.0★ on Thumbtack (34 reviews)',
     ],
     subServices: [
       { id: 'glue-down', name: 'Glue-Down Cork Tile', blurb: 'Traditional cork tile in 12x12 or 12x24 with full-spread adhesive. Best for kitchens and bathrooms where moisture resistance matters. Wicanders, APC, Globus.' },
@@ -479,9 +479,9 @@ export const SERVICES: Service[] = [
     heroValueProp:
       'Rubber flooring installed across San Diego for home gyms, commercial fitness, garages, and play areas. Right thickness for the application, every job.',
     trustBullets: [
-      'CSLB Lic #1083572',
-      'Locally installed since 2021',
-      '5★ Google reviews',
+      'C-15 Licensed CSLB #1083572',
+      'Family-operated, 13+ years of journeyman experience',
+      '5.0★ on Thumbtack (34 reviews)',
     ],
     subServices: [
       { id: 'home-gym', name: 'Home Gym Rubber', blurb: '3/8" to 1/2" rolled or interlocking tile for residential gyms. Free-weight and cardio rated. Slab crack repair included where needed.' },
@@ -546,9 +546,9 @@ export const SERVICES: Service[] = [
     heroValueProp:
       'VCT installed across San Diego for schools, healthcare, retail, and offices. Pattern layouts, cove base, and after-hours scheduling so your space stays open.',
     trustBullets: [
-      'CSLB Lic #1083572',
-      'Locally installed since 2021',
-      '5★ Google reviews',
+      'C-15 Licensed CSLB #1083572',
+      'Family-operated, 13+ years of journeyman experience',
+      '5.0★ on Thumbtack (34 reviews)',
     ],
     subServices: [
       { id: 'schools', name: 'School and Education VCT', blurb: 'Summer-break installs. Color-bordered hallways, custom mascot inlays, full classroom turnover before students return.' },

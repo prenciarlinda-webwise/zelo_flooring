@@ -1,5 +1,4 @@
 import LeadFormHero from '@/components/LeadFormHero';
-import TrustBadges from '@/components/TrustBadges';
 import ProjectGallery from '@/components/ProjectGallery';
 import ServiceAnchorGrid from '@/components/ServiceAnchorGrid';
 import WhyChooseUs from '@/components/WhyChooseUs';
@@ -154,19 +153,48 @@ export default function HomePage() {
       ))}
       <LeadFormHero
         h1="Flooring in San Diego, CA"
-        valueProp="Zelo Flooring installs carpet, vinyl, hardwood, laminate, and tile across San Diego County. Free in-home estimates, honest pricing, certified installers, manufacturer-spec installs."
-        trustBullets={[
-          'Licensed CSLB #1083572',
-          'Locally owned since 2021',
-          '5★ Google reviews',
+        valueProp="Zelo Flooring is a family-operated, C-15 licensed flooring installation company in San Diego with over a decade of journeyman experience. Carpet, LVP, hardwood, laminate, tile, cork, rubber, VCT, and more. Free in-home estimates."
+        trustLogos={[
+          {
+            kind: 'bbb',
+            alt: `BBB Accredited Business with ${SITE.bbb.rating} rating`,
+            href: SITE.bbb.profileUrl,
+            bbbRating: SITE.bbb.rating,
+            label: 'BBB Accredited',
+            subLabel: `${SITE.bbb.rating} Rating`,
+          },
+          {
+            src: '/img/thumbtack-logo.png',
+            alt: 'Verified Zelo Flooring profile on Thumbtack',
+            href: SITE.thumbtackUrl,
+            label: 'Thumbtack Verified',
+            subLabel: 'Read customer reviews',
+          },
+          {
+            src: '/img/yelp-logo.png',
+            alt: 'Verified Zelo Flooring profile on Yelp',
+            href: SITE.yelpUrl,
+            label: 'Yelp Verified',
+            subLabel: 'Read customer reviews',
+          },
+          {
+            kind: 'rating',
+            alt: `${SITE.rating.value} stars from ${SITE.rating.count} Thumbtack reviews`,
+            href: SITE.thumbtackUrl,
+            ratingValue: SITE.rating.value,
+            label: `${SITE.rating.value.toFixed(1)} (${SITE.rating.count} reviews)`,
+            subLabel: 'on Thumbtack',
+          },
+          {
+            src: '/img/top-pro-thumbtack.png',
+            alt: 'Thumbtack Top Pro 2023, 2024, 2025',
+            href: SITE.thumbtackUrl,
+            label: 'Top Pro 3 Years',
+            subLabel: '2023 · 2024 · 2025',
+          },
         ]}
         image="/img/projects/lvp-whole-home/after-living-room-lvp.webp"
         imageAlt="Zelo Flooring luxury vinyl plank installed across a San Diego living room"
-      />
-
-      <TrustBadges
-        heading="Verified Reviews and Recognized Awards"
-        subheading="Real ratings from third-party platforms, not testimonials we wrote ourselves."
       />
 
       <ServiceAnchorGrid
@@ -181,17 +209,17 @@ export default function HomePage() {
 
       <AlternatingSection
         eyebrow="About Zelo Flooring"
-        title="Family-Owned San Diego Flooring Contractor Since 2021"
+        title="Family-Operated San Diego Flooring Installation Company"
         paragraphs={[
-          'Zelo Flooring is a family-owned San Diego flooring contractor serving homeowners and businesses across San Diego County since 2021. We install carpet, vinyl plank, hardwood, laminate, tile, cork, rubber, and VCT, with the same standards on every job: documented slab moisture testing before product is ordered, NWFA-aligned acclimation on hardwood, TCNA-spec substrate prep on tile, and clean transitions at every threshold.',
-          'We do not have a fancy showroom. Instead, we bring physical samples to your home so you see grain and color in your real lighting before committing. Honest material recommendations get matched to your house, your humidity, and your traffic. Free in-home estimates across San Diego County, from coastal homes in La Jolla and Coronado to inland Poway and Escondido.',
+          'Zelo Flooring is a family-operated flooring installation company based in San Diego. We have over a decade of journeyman experience installing residential and commercial flooring. We pride ourselves on craftsmanship, communication, and diligence.',
+          'We install Luxury Vinyl Plank, carpet for residential and commercial spaces, laminate, solid and engineered hardwood, cork tiles, glue-down vinyl plank, VCT, rubber, home gym flooring, tile, backsplash, vinyl wall base, wood baseboard, and self-leveling. Free in-home estimates across San Diego County.',
         ]}
         bullets={[
-          'Family-owned, locally operated since 2021',
-          'CSLB Licensed (#1083572), bonded, and insured',
-          'Manufacturer-spec installs across 8 flooring categories',
-          'Free in-home consultations across San Diego County',
-          'NWFA-aligned hardwood and TCNA-spec tile substrate prep',
+          'Family-operated, 13+ years of journeyman flooring experience',
+          `CSLB ${SITE.licenseDetails.classification} Licensed #${SITE.licenseDetails.number}, bonded, and insured`,
+          `BBB Accredited Business, ${SITE.bbb.rating} rating since 2022`,
+          'Thumbtack Top Pro 2023, 2024, and 2025',
+          `Hired ${SITE.hiredCount}+ times through Thumbtack`,
         ]}
         image="/img/projects/lvp-whole-home/after-open-floor-lvp.webp"
         reverse

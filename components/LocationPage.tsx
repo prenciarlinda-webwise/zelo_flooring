@@ -46,9 +46,11 @@ export default function LocationPage({ location }: Props) {
         h1={`Flooring in ${location.city}, ${location.state}`}
         valueProp={location.heroValueProp}
         trustBullets={[
-          `Licensed CSLB #${SITE.license}`,
-          isMain ? `Locally owned since ${SITE.yearEstablished}` : `Serving ${location.city} from our San Diego office`,
-          '5★ Google reviews',
+          `${SITE.licenseDetails.classification} Licensed (CSLB #${SITE.license})`,
+          isMain
+            ? `Family-operated, ${SITE.ownerExperienceYears}+ years of journeyman experience`
+            : `Serving ${location.city} from our San Diego office`,
+          `${SITE.rating.value.toFixed(1)}★ on Thumbtack (${SITE.rating.count} reviews)`,
         ]}
         image={location.heroImage}
         imageAlt={location.heroImageAlt}

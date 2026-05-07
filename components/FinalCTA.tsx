@@ -3,6 +3,7 @@
 import { FormEvent, useState } from 'react';
 import { PhoneIcon, MailIcon, PinIcon, ClockIcon } from './Icons';
 import { SITE, SERVICE_AREAS } from '@/lib/areas';
+import { track } from '@/lib/track';
 
 
 type Props = {
@@ -44,11 +45,20 @@ export default function FinalCTA({ heading, subheading, defaultProjectType, head
         body: JSON.stringify(Object.fromEntries(formData)),
       });
       if (!res.ok) throw new Error(`Formspree responded ${res.status}`);
+      track('lead_form_submit', {
+        form_id: 'final_cta',
+        project_type: formData.get('projectType'),
+        neighborhood: formData.get('neighborhood'),
+      });
       setSubmitted(true);
       form.reset();
       setTimeout(() => setSubmitted(false), 6000);
     } catch (err) {
       console.error('Form submission failed:', err);
+      track('lead_form_error', {
+        form_id: 'final_cta',
+        error_message: err instanceof Error ? err.message : String(err),
+      });
       setErrored(true);
     } finally {
       setSending(false);
@@ -69,7 +79,7 @@ export default function FinalCTA({ heading, subheading, defaultProjectType, head
             <div><PhoneIcon size={18} /> <a href={`tel:${SITE.phoneRaw}`}>{SITE.phone}</a></div>
             <div><MailIcon size={18} /> <a href={`mailto:${SITE.email}`}>{SITE.email}</a></div>
             <div><PinIcon size={18} /> {SITE.address}</div>
-            <div><ClockIcon size={18} /> Mon-Sun 8:00am - 5:00pm</div>
+            <div><ClockIcon size={18} /> {SITE.hoursDisplay}</div>
           </div>
         </div>
 
@@ -111,7 +121,7 @@ export default function FinalCTA({ heading, subheading, defaultProjectType, head
               Something went wrong sending your request. Please call {SITE.phone} or try again.
             </p>
           )}
-          <p className="final-cta-form-trust">🔒 Your info is private and never shared.</p>
+          <p className="final-cta-form-trust">Your info is private and never shared.</p>
         </form>
       </div>
     </section>
