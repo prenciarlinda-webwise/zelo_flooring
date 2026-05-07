@@ -74,7 +74,7 @@ export default function CouponsBlock({ eyebrow, heading, subheading, coupons = D
     const form = e.currentTarget;
     const formData = new FormData(form);
     try {
-      const res = await fetch('https://formspree.io/f/mykopznr', {
+      const res = await fetch('https://formspree.io/f/xqenljvr', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
         body: JSON.stringify(Object.fromEntries(formData)),
@@ -160,7 +160,7 @@ export default function CouponsBlock({ eyebrow, heading, subheading, coupons = D
             <form
               className="coupon-modal-form"
               method="post"
-              action="https://formspree.io/f/mykopznr"
+              action="https://formspree.io/f/xqenljvr"
               onSubmit={handleSubmit}
             >
               <input type="hidden" name="_subject" value={`Offer Claim: ${activeCoupon.title}`} />

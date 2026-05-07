@@ -19,7 +19,7 @@ export default function ContactCTA({ heading }: { heading?: string }) {
     const formData = new FormData(form);
 
     try {
-      const res = await fetch('https://formspree.io/f/mykopznr', {
+      const res = await fetch('https://formspree.io/f/xqenljvr', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
         body: JSON.stringify(Object.fromEntries(formData)),
@@ -65,7 +65,7 @@ export default function ContactCTA({ heading }: { heading?: string }) {
         <form
           className="contact-form"
           method="post"
-          action="https://formspree.io/f/mykopznr"
+          action="https://formspree.io/f/xqenljvr"
           onSubmit={handleSubmit}
         >
           <h3>Request Free Estimate</h3>

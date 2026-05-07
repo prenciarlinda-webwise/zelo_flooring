@@ -52,7 +52,7 @@ export default function LeadFormHero({ h1, valueProp, trustBullets, trustLogos, 
     const form = e.currentTarget;
     const formData = new FormData(form);
     try {
-      const res = await fetch('https://formspree.io/f/mykopznr', {
+      const res = await fetch('https://formspree.io/f/xqenljvr', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
         body: JSON.stringify(Object.fromEntries(formData)),
@@ -169,7 +169,7 @@ export default function LeadFormHero({ h1, valueProp, trustBullets, trustLogos, 
           <form
             className="lead-hero-form"
             method="post"
-            action="https://formspree.io/f/mykopznr"
+            action="https://formspree.io/f/xqenljvr"
             onSubmit={handleSubmit}
           >
             <p className="lead-hero-form-title">Get a Free Quote</p>
