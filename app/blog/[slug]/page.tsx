@@ -61,7 +61,7 @@ export default async function BlogPostPage({ params }: Params) {
 
   const articleImage = post.image
     ? (post.image.startsWith('http') ? post.image : `${SITE.url}${post.image}`)
-    : `${SITE.url}/logo.png`;
+    : `${SITE.url}/zelo-flooring-logo.png`;
 
   const articleSchema = {
     '@context': 'https://schema.org',

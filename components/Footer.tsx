@@ -15,7 +15,7 @@ export default function Footer() {
         <div className="footer-col">
           <Link href="/" className="logo logo-light" aria-label="Zelo Flooring - Home">
             <Image
-              src="/logo.png"
+              src="/zelo-flooring-logo.png"
               alt="Zelo Flooring"
               width={180}
               height={56}

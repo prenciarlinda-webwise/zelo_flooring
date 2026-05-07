@@ -4,7 +4,7 @@ import ContactCTA from '@/components/ContactCTA';
 import { SITE } from '@/lib/areas';
 
 export const metadata: Metadata = {
-  title: 'Terms and Conditions - Zelo Flooring',
+  title: 'Terms and Conditions',
   description: `Terms and conditions for using ${SITE.name} services and website. Estimates, deposits, scheduling, warranties, and payment terms for flooring installation in San Diego.`,
   alternates: { canonical: `${SITE.url}/terms-and-conditions` },
   robots: { index: true, follow: true },

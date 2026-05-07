@@ -14,25 +14,33 @@ const GTM_ID = 'GTM-PCPP9MW5';
 export const metadata: Metadata = {
   metadataBase: new URL(SITE.url),
   title: {
-    default: `Flooring San Diego - ${SITE.name}`,
+    default: `${SITE.name} - Flooring Installation in San Diego, CA`,
     template: `%s - ${SITE.name}`,
   },
   description: `${SITE.name} is a family-operated, C-15 licensed flooring installation company in San Diego with over a decade of journeyman experience. Carpet, LVP, hardwood, laminate, tile, cork, rubber, VCT. Bonded, insured, BBB Accredited A+. Free in-home estimates. Call ${SITE.phone}.`,
   openGraph: {
-    title: `Flooring San Diego - ${SITE.name}`,
+    title: `${SITE.name} - Flooring Installation in San Diego, CA`,
     description:
       'Family-operated flooring installation in San Diego. C-15 licensed, BBB Accredited A+, Thumbtack Top Pro 2023-2025. Free in-home estimates.',
     url: SITE.url,
     siteName: SITE.name,
     locale: 'en_US',
     type: 'website',
+    images: [
+      {
+        url: '/zelo-flooring-logo.png',
+        width: 576,
+        height: 163,
+        alt: `${SITE.name} logo`,
+      },
+    ],
   },
   robots: { index: true, follow: true },
   alternates: { canonical: SITE.url },
   icons: {
-    icon: '/logo.png',
-    shortcut: '/logo.png',
-    apple: '/logo.png',
+    icon: '/favicon.png',
+    shortcut: '/favicon.png',
+    apple: '/favicon.png',
   },
 };
 
@@ -49,8 +57,8 @@ const businessGraph = {
       '@type': ['HomeAndConstructionBusiness', 'LocalBusiness'],
       '@id': `${SITE.url}/#business`,
       name: SITE.name,
-      image: `${SITE.url}/logo.png`,
-      logo: `${SITE.url}/logo.png`,
+      image: `${SITE.url}/zelo-flooring-logo.png`,
+      logo: `${SITE.url}/zelo-flooring-logo.png`,
       telephone: SITE.phone,
       email: SITE.email,
       url: SITE.url,

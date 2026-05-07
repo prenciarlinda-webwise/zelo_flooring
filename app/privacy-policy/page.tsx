@@ -4,7 +4,7 @@ import ContactCTA from '@/components/ContactCTA';
 import { SITE } from '@/lib/areas';
 
 export const metadata: Metadata = {
-  title: 'Privacy Policy - Zelo Flooring',
+  title: 'Privacy Policy',
   description: `Privacy policy for ${SITE.name}. How we collect, use, store, and protect customer information submitted through our website, phone, and in-home estimates.`,
   alternates: { canonical: `${SITE.url}/privacy-policy` },
   robots: { index: true, follow: true },

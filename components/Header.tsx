@@ -41,7 +41,7 @@ export default function Header() {
         <div className="container header-inner">
           <Link href="/" className="logo" onClick={close} aria-label="Zelo Flooring - Home">
             <Image
-              src="/logo.png"
+              src="/zelo-flooring-logo.png"
               alt="Zelo Flooring"
               width={180}
               height={56}

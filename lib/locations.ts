@@ -66,7 +66,7 @@ export const LOCATIONS: Location[] = [
     ],
     landmarks: ['Balboa Park', 'San Diego Bay', 'Mission Bay', 'Interstate 5', 'Interstate 8', 'Interstate 805'],
     wikipediaUrl: 'https://en.wikipedia.org/wiki/San_Diego',
-    metaTitle: 'Flooring in San Diego, CA - Zelo Flooring',
+    metaTitle: 'Flooring in San Diego, CA',
     metaDescription:
       'Flooring installation in San Diego, CA. Hardwood, vinyl plank, tile, carpet, laminate. Licensed CSLB #1083572. Free in-home estimate. Call +1 (619) 777-4334.',
     primaryKeyword: 'flooring San Diego',
