@@ -1,7 +1,8 @@
 'use client';
 
-import { FormEvent, useState } from 'react';
-import { PhoneIcon, MailIcon, PinIcon, ClockIcon } from './Icons';
+import { FormEvent, useRef, useState } from 'react';
+import { PhoneIcon, PinIcon, ClockIcon } from './Icons';
+import Recaptcha, { RecaptchaHandle } from './Recaptcha';
 import { SITE, SERVICE_AREAS } from '@/lib/areas';
 import { track } from '@/lib/track';
 
@@ -31,15 +32,24 @@ export default function FinalCTA({ heading, subheading, defaultProjectType, head
   const [submitted, setSubmitted] = useState(false);
   const [sending, setSending] = useState(false);
   const [errored, setErrored] = useState(false);
+  const [captchaError, setCaptchaError] = useState(false);
+  const captchaRef = useRef<RecaptchaHandle>(null);
 
   const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    setSending(true);
     setErrored(false);
+    setCaptchaError(false);
     const form = e.currentTarget;
     const formData = new FormData(form);
+
+    if (!captchaRef.current?.getResponse()) {
+      setCaptchaError(true);
+      return;
+    }
+
+    setSending(true);
     try {
-      const res = await fetch('https://formspree.io/f/xqenljvr', {
+      const res = await fetch('https://formspree.io/f/mbdbaqqy', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
         body: JSON.stringify(Object.fromEntries(formData)),
@@ -52,6 +62,7 @@ export default function FinalCTA({ heading, subheading, defaultProjectType, head
       });
       setSubmitted(true);
       form.reset();
+      captchaRef.current?.reset();
       setTimeout(() => setSubmitted(false), 6000);
     } catch (err) {
       console.error('Form submission failed:', err);
@@ -60,6 +71,7 @@ export default function FinalCTA({ heading, subheading, defaultProjectType, head
         error_message: err instanceof Error ? err.message : String(err),
       });
       setErrored(true);
+      captchaRef.current?.reset();
     } finally {
       setSending(false);
     }
@@ -77,7 +89,6 @@ export default function FinalCTA({ heading, subheading, defaultProjectType, head
 
           <div className="final-cta-info">
             <div><PhoneIcon size={18} /> <a href={`tel:${SITE.phoneRaw}`}>{SITE.phone}</a></div>
-            <div><MailIcon size={18} /> <a href={`mailto:${SITE.email}`}>{SITE.email}</a></div>
             <div><PinIcon size={18} /> {SITE.address}</div>
             <div><ClockIcon size={18} /> {SITE.hoursDisplay}</div>
           </div>
@@ -86,7 +97,7 @@ export default function FinalCTA({ heading, subheading, defaultProjectType, head
         <form
           className="final-cta-form"
           method="post"
-          action="https://formspree.io/f/xqenljvr"
+          action="https://formspree.io/f/mbdbaqqy"
           onSubmit={handleSubmit}
         >
           <p className="final-cta-form-title">Request Free Estimate</p>
@@ -112,6 +123,13 @@ export default function FinalCTA({ heading, subheading, defaultProjectType, head
               <option key={p} value={p}>{p}</option>
             ))}
           </select>
+
+          <Recaptcha ref={captchaRef} className="form-recaptcha" />
+          {captchaError && (
+            <p className="final-cta-form-error" role="alert">
+              Please confirm you are not a robot before submitting.
+            </p>
+          )}
 
           <button type="submit" className="btn btn-primary btn-block btn-lg" disabled={sending}>
             {submitted ? '✓ Thanks, we will be in touch soon.' : sending ? 'Sending...' : 'Get My Free Estimate'}

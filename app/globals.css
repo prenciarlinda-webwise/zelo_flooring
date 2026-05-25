@@ -937,6 +937,30 @@ a.trust-ribbon-item:hover { opacity: 0.8; }
   .trust-ribbon-inner { gap: 14px; padding: 12px 14px; }
 }
 
+/* ===== reCAPTCHA WIDGET ===== */
+.form-recaptcha {
+  margin: 14px 0 4px;
+  display: flex;
+  justify-content: center;
+}
+/* Keep the 304px widget from overflowing narrow form columns on small screens */
+@media (max-width: 360px) {
+  .form-recaptcha {
+    transform: scale(0.88);
+    transform-origin: center;
+  }
+}
+
+/* ===== FOOTER TRUST CERTIFICATE ===== */
+.footer-cert {
+  padding: 22px 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+}
+.footer-cert .container {
+  display: flex;
+  justify-content: center;
+}
+
 /* ===== FORM ERROR MESSAGES ===== */
 .lead-hero-form-error,
 .final-cta-form-error,

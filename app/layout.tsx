@@ -60,20 +60,12 @@ const businessGraph = {
       image: `${SITE.url}/zelo-flooring-logo.png`,
       logo: `${SITE.url}/zelo-flooring-logo.png`,
       telephone: SITE.phone,
-      email: SITE.email,
       url: SITE.url,
       address: {
         '@type': 'PostalAddress',
-        streetAddress: '8017 Peach Point Ave',
         addressLocality: SITE.city,
         addressRegion: SITE.region,
-        postalCode: '92126',
         addressCountry: 'US',
-      },
-      geo: {
-        '@type': 'GeoCoordinates',
-        latitude: 32.9133,
-        longitude: -117.1486,
       },
       areaServed: SERVICE_AREAS.map((area) => ({
         '@type': 'City',

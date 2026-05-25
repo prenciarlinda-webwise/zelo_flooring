@@ -104,7 +104,7 @@ export default function TermsPage() {
 
           <h2>Dispute resolution</h2>
           <p>
-            Most issues can be resolved by talking with us first. Please contact us at <a href={`tel:${SITE.phoneRaw}`}>{SITE.phone}</a> or <a href={`mailto:${SITE.email}`}>{SITE.email}</a> before pursuing other remedies. Unresolved disputes will be governed by California law and venue will be in San Diego County, California. Customers retain all rights to file a complaint with the Contractors State License Board (CSLB) at any time.
+            Most issues can be resolved by talking with us first. Please contact us at <a href={`tel:${SITE.phoneRaw}`}>{SITE.phone}</a> before pursuing other remedies. Unresolved disputes will be governed by California law and venue will be in San Diego County, California. Customers retain all rights to file a complaint with the Contractors State License Board (CSLB) at any time.
           </p>
 
           <h2>Changes to these Terms</h2>
@@ -115,7 +115,6 @@ export default function TermsPage() {
           <h2>Contact</h2>
           <ul>
             <li>Phone: <a href={`tel:${SITE.phoneRaw}`}>{SITE.phone}</a></li>
-            <li>Email: <a href={`mailto:${SITE.email}`}>{SITE.email}</a></li>
             <li>Address: {SITE.address}</li>
             <li>License: CSLB #{SITE.license}</li>
           </ul>

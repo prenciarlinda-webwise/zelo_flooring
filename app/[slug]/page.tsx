@@ -314,7 +314,7 @@ function renderServicePage(service: ReturnType<typeof getService>) {
                 <p key={i}>{p}</p>
               ))}
               <p>
-                Phone: <a href={`tel:${SITE.phoneRaw}`}>{SITE.phone}</a> · Email: <a href={`mailto:${SITE.email}`}>{SITE.email}</a>
+                Phone: <a href={`tel:${SITE.phoneRaw}`}>{SITE.phone}</a>
               </p>
               <p className="trust-local-address">
                 {SITE.address}

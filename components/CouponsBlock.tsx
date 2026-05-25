@@ -1,6 +1,7 @@
 'use client';
 
-import { FormEvent, useEffect, useState } from 'react';
+import { FormEvent, useEffect, useRef, useState } from 'react';
+import Recaptcha, { RecaptchaHandle } from './Recaptcha';
 import { SERVICE_AREAS } from '@/lib/areas';
 import { track } from '@/lib/track';
 
@@ -52,6 +53,8 @@ export default function CouponsBlock({ eyebrow, heading, subheading, coupons = D
   const [submitted, setSubmitted] = useState(false);
   const [sending, setSending] = useState(false);
   const [errored, setErrored] = useState(false);
+  const [captchaError, setCaptchaError] = useState(false);
+  const captchaRef = useRef<RecaptchaHandle>(null);
 
   useEffect(() => {
     if (openId) document.body.style.overflow = 'hidden';
@@ -69,12 +72,19 @@ export default function CouponsBlock({ eyebrow, heading, subheading, coupons = D
 
   const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    setSending(true);
     setErrored(false);
+    setCaptchaError(false);
     const form = e.currentTarget;
     const formData = new FormData(form);
+
+    if (!captchaRef.current?.getResponse()) {
+      setCaptchaError(true);
+      return;
+    }
+
+    setSending(true);
     try {
-      const res = await fetch('https://formspree.io/f/xqenljvr', {
+      const res = await fetch('https://formspree.io/f/mbdbaqqy', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
         body: JSON.stringify(Object.fromEntries(formData)),
@@ -87,6 +97,7 @@ export default function CouponsBlock({ eyebrow, heading, subheading, coupons = D
       });
       setSubmitted(true);
       form.reset();
+      captchaRef.current?.reset();
       setTimeout(() => {
         setSubmitted(false);
         setOpenId(null);
@@ -98,6 +109,7 @@ export default function CouponsBlock({ eyebrow, heading, subheading, coupons = D
         error_message: err instanceof Error ? err.message : String(err),
       });
       setErrored(true);
+      captchaRef.current?.reset();
     } finally {
       setSending(false);
     }
@@ -160,7 +172,7 @@ export default function CouponsBlock({ eyebrow, heading, subheading, coupons = D
             <form
               className="coupon-modal-form"
               method="post"
-              action="https://formspree.io/f/xqenljvr"
+              action="https://formspree.io/f/mbdbaqqy"
               onSubmit={handleSubmit}
             >
               <input type="hidden" name="_subject" value={`Offer Claim: ${activeCoupon.title}`} />
@@ -179,6 +191,13 @@ export default function CouponsBlock({ eyebrow, heading, subheading, coupons = D
               </select>
 
               <textarea name="message" placeholder="Tell us about your project (optional)" rows={3} />
+
+              <Recaptcha ref={captchaRef} className="form-recaptcha" />
+              {captchaError && (
+                <p className="coupon-modal-error" role="alert">
+                  Please confirm you are not a robot before submitting.
+                </p>
+              )}
 
               <button type="submit" className="btn btn-primary btn-block btn-lg" disabled={sending}>
                 {submitted ? '✓ Thanks, we will call you shortly.' : sending ? 'Sending...' : 'Send My Request'}

@@ -1,7 +1,8 @@
 'use client';
 
-import { FormEvent, useState } from 'react';
-import { PhoneIcon, MailIcon, PinIcon, ClockIcon } from './Icons';
+import { FormEvent, useRef, useState } from 'react';
+import { PhoneIcon, PinIcon, ClockIcon } from './Icons';
+import Recaptcha, { RecaptchaHandle } from './Recaptcha';
 import { SITE } from '@/lib/areas';
 import { SERVICES } from '@/lib/services';
 import { track } from '@/lib/track';
@@ -10,16 +11,24 @@ export default function ContactCTA({ heading }: { heading?: string }) {
   const [submitted, setSubmitted] = useState(false);
   const [sending, setSending] = useState(false);
   const [errored, setErrored] = useState(false);
+  const [captchaError, setCaptchaError] = useState(false);
+  const captchaRef = useRef<RecaptchaHandle>(null);
 
   const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    setSending(true);
     setErrored(false);
+    setCaptchaError(false);
     const form = e.currentTarget;
     const formData = new FormData(form);
 
+    if (!captchaRef.current?.getResponse()) {
+      setCaptchaError(true);
+      return;
+    }
+
+    setSending(true);
     try {
-      const res = await fetch('https://formspree.io/f/xqenljvr', {
+      const res = await fetch('https://formspree.io/f/mbdbaqqy', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
         body: JSON.stringify(Object.fromEntries(formData)),
@@ -31,6 +40,7 @@ export default function ContactCTA({ heading }: { heading?: string }) {
       });
       setSubmitted(true);
       form.reset();
+      captchaRef.current?.reset();
       setTimeout(() => setSubmitted(false), 6000);
     } catch (err) {
       console.error('Form submission failed:', err);
@@ -39,6 +49,7 @@ export default function ContactCTA({ heading }: { heading?: string }) {
         error_message: err instanceof Error ? err.message : String(err),
       });
       setErrored(true);
+      captchaRef.current?.reset();
     } finally {
       setSending(false);
     }
@@ -56,7 +67,6 @@ export default function ContactCTA({ heading }: { heading?: string }) {
 
           <div className="contact-cta-info">
             <div><PhoneIcon size={18} /> Call us at <strong><a href={`tel:${SITE.phoneRaw}`} style={{ color: 'white' }}>{SITE.phone}</a></strong></div>
-            <div><MailIcon size={18} /> <a href={`mailto:${SITE.email}`} style={{ color: 'white' }}>{SITE.email}</a></div>
             <div><PinIcon size={18} /> {SITE.address}</div>
             <div><ClockIcon size={18} /> {SITE.hoursDisplay}</div>
           </div>
@@ -65,7 +75,7 @@ export default function ContactCTA({ heading }: { heading?: string }) {
         <form
           className="contact-form"
           method="post"
-          action="https://formspree.io/f/xqenljvr"
+          action="https://formspree.io/f/mbdbaqqy"
           onSubmit={handleSubmit}
         >
           <h3>Request Free Estimate</h3>
@@ -82,6 +92,12 @@ export default function ContactCTA({ heading }: { heading?: string }) {
             <option value="not-sure">Not sure yet</option>
           </select>
           <textarea name="message" placeholder="Tell us about your project (optional)" rows={3} />
+          <Recaptcha ref={captchaRef} className="form-recaptcha" />
+          {captchaError && (
+            <p className="form-error" role="alert">
+              Please confirm you are not a robot before submitting.
+            </p>
+          )}
           <button type="submit" className="btn btn-primary btn-block btn-lg" disabled={sending}>
             {submitted ? '✓ Thank you - we will be in touch soon.' : sending ? 'Sending...' : 'Get My Free Estimate'}
           </button>

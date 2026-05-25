@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import { PhoneIcon, PinIcon, MailIcon, ClockIcon } from './Icons';
+import { PhoneIcon, PinIcon, ClockIcon } from './Icons';
 import { SITE } from '@/lib/areas';
 import { SERVICES } from '@/lib/services';
 
@@ -28,8 +28,6 @@ export default function Header() {
           </div>
           <div className="top-bar-right">
             <span><ClockIcon size={14} /> Open daily 7a-7p</span>
-            <span className="divider" />
-            <span><MailIcon size={14} /> <a href={`mailto:${SITE.email}`}>{SITE.email}</a></span>
             <span className="divider" />
             <span>Lic: {SITE.license}</span>
           </div>

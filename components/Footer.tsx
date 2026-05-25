@@ -2,7 +2,8 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { SITE, SERVICE_AREAS } from '@/lib/areas';
 import { SERVICES } from '@/lib/services';
-import { PhoneIcon, MailIcon, PinIcon, MapQuestIcon } from './Icons';
+import { PhoneIcon, PinIcon, MapQuestIcon } from './Icons';
+import TrustindexWidget from './TrustindexWidget';
 
 function neighborhoodSlug(name: string) {
   return 'flooring-' + name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
@@ -59,7 +60,6 @@ export default function Footer() {
         <div className="footer-col">
           <p className="footer-label">Get In Touch</p>
           <p><PhoneIcon size={14} /> <a href={`tel:${SITE.phoneRaw}`}>{SITE.phone}</a></p>
-          <p><MailIcon size={14} /> <a href={`mailto:${SITE.email}`}>{SITE.email}</a></p>
           <p><PinIcon size={14} /> {SITE.address}</p>
           <p style={{ marginTop: 14, fontSize: '0.82rem', opacity: 0.85 }}>
             <strong style={{ color: 'white' }}>Hours:</strong><br />
@@ -146,6 +146,13 @@ export default function Footer() {
               ))}
             </div>
           </details>
+        </div>
+      </div>
+
+      {/* Trustindex trust certificate */}
+      <div className="footer-cert">
+        <div className="container">
+          <TrustindexWidget src="https://cdn.trustindex.io/loader-cert.js?31bc92372a4a70346c36b25c385" />
         </div>
       </div>
 

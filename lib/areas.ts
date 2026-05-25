@@ -23,7 +23,6 @@ export const SITE = {
   entityType: 'Sole Proprietorship',
   phone: '+1 (619) 777-4334',
   phoneRaw: '+16197774334',
-  email: 'zeloflooring@gmail.com',
   city: 'San Diego',
   region: 'CA',
   license: '1083572',
@@ -31,7 +30,7 @@ export const SITE = {
   ownerExperienceYears: 13, // Endri's flooring/journeyman experience
   numberOfEmployees: 4,
   hiredCount: 57, // Times hired on Thumbtack
-  address: '8017 Peach Point Ave, San Diego, CA 92126',
+  address: 'San Diego, CA',
   tagline: 'Family-operated',
   description:
     'Zelo Flooring is a family-operated flooring installation company based in San Diego. We have over a decade of journeyman experience installing residential and commercial flooring. We pride ourselves on craftsmanship, communication, and diligence.',

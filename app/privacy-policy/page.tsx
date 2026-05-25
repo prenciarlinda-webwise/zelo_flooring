@@ -85,7 +85,7 @@ export default function PrivacyPolicyPage() {
             <li>California residents have additional rights under the CCPA/CPRA, including the right to know what we collect and the right to opt out of any sale or sharing of personal information (we do not sell or share for cross-context behavioral advertising).</li>
           </ul>
           <p>
-            To make a request, email <a href={`mailto:${SITE.email}`}>{SITE.email}</a> or call <a href={`tel:${SITE.phoneRaw}`}>{SITE.phone}</a>. We may need to verify your identity before responding.
+            To make a request, call <a href={`tel:${SITE.phoneRaw}`}>{SITE.phone}</a>. We may need to verify your identity before responding.
           </p>
 
           <h2>Children</h2>
@@ -109,7 +109,6 @@ export default function PrivacyPolicyPage() {
           </p>
           <ul>
             <li>Phone: <a href={`tel:${SITE.phoneRaw}`}>{SITE.phone}</a></li>
-            <li>Email: <a href={`mailto:${SITE.email}`}>{SITE.email}</a></li>
             <li>Address: {SITE.address}</li>
           </ul>
         </div>
