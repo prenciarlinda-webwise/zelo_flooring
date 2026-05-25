@@ -5,6 +5,7 @@ import { PhoneIcon, PinIcon, ClockIcon } from './Icons';
 import Recaptcha, { RecaptchaHandle } from './Recaptcha';
 import { SITE } from '@/lib/areas';
 import { SERVICES } from '@/lib/services';
+import { postToFormspree } from '@/lib/formspree';
 import { track } from '@/lib/track';
 
 export default function ContactCTA({ heading }: { heading?: string }) {
@@ -21,19 +22,18 @@ export default function ContactCTA({ heading }: { heading?: string }) {
     const form = e.currentTarget;
     const formData = new FormData(form);
 
-    if (!captchaRef.current?.getResponse()) {
+    const captchaToken = captchaRef.current?.getResponse() || '';
+    if (!captchaToken) {
       setCaptchaError(true);
       return;
     }
+    // Set the canonical field name explicitly: with multiple widgets on a page,
+    // reCAPTCHA may name the auto-injected field g-recaptcha-response-1, etc.
+    formData.set('g-recaptcha-response', captchaToken);
 
     setSending(true);
     try {
-      const res = await fetch('https://formspree.io/f/mbdbaqqy', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
-        body: JSON.stringify(Object.fromEntries(formData)),
-      });
-      if (!res.ok) throw new Error(`Formspree responded ${res.status}`);
+      await postToFormspree('https://formspree.io/f/mbdbaqqy', formData);
       track('lead_form_submit', {
         form_id: 'contact_form',
         service: formData.get('service'),

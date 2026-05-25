@@ -4,6 +4,7 @@ import { FormEvent, useRef, useState } from 'react';
 import { PhoneIcon, PinIcon, ClockIcon } from './Icons';
 import Recaptcha, { RecaptchaHandle } from './Recaptcha';
 import { SITE, SERVICE_AREAS } from '@/lib/areas';
+import { postToFormspree } from '@/lib/formspree';
 import { track } from '@/lib/track';
 
 
@@ -42,19 +43,18 @@ export default function FinalCTA({ heading, subheading, defaultProjectType, head
     const form = e.currentTarget;
     const formData = new FormData(form);
 
-    if (!captchaRef.current?.getResponse()) {
+    const captchaToken = captchaRef.current?.getResponse() || '';
+    if (!captchaToken) {
       setCaptchaError(true);
       return;
     }
+    // Set the canonical field name explicitly: with multiple widgets on a page,
+    // reCAPTCHA may name the auto-injected field g-recaptcha-response-1, etc.
+    formData.set('g-recaptcha-response', captchaToken);
 
     setSending(true);
     try {
-      const res = await fetch('https://formspree.io/f/mbdbaqqy', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
-        body: JSON.stringify(Object.fromEntries(formData)),
-      });
-      if (!res.ok) throw new Error(`Formspree responded ${res.status}`);
+      await postToFormspree('https://formspree.io/f/mbdbaqqy', formData);
       track('lead_form_submit', {
         form_id: 'final_cta',
         project_type: formData.get('projectType'),
