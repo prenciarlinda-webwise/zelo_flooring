@@ -14,6 +14,21 @@ export type BlogPost = {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: 'laminate-flooring-thickness',
+    title: 'Laminate Flooring Thickness and Wear Layers Explained',
+    excerpt:
+      'Laminate ranges from 6mm to 12mm thick. Here is what thickness actually affects, how it differs from the AC wear rating, and which combination to choose by room.',
+    publishedDate: 'May 30, 2026',
+    updatedDate: 'May 30, 2026',
+    datePublishedISO: '2026-05-30',
+    dateModifiedISO: '2026-05-30',
+    metaTitle: 'Laminate Flooring Thickness: 7mm to 12mm Explained',
+    metaDescription:
+      'Laminate flooring ranges from 6mm to 12mm thick. What thickness actually affects, how it differs from the AC wear rating, and which to choose by room.',
+    relatedServices: ['laminate-flooring-san-diego', 'vinyl-flooring-san-diego', 'hardwood-flooring-san-diego'],
+    image: '/img/laminate-ac5-rating.webp',
+  },
+  {
     slug: 'laminate-over-existing-floors',
     title: 'Can You Install Laminate Over Existing Floors?',
     excerpt:
@@ -122,6 +137,7 @@ export const BLOG_POSTS: BlogPost[] = [
 ];
 
 export const PUBLISHED_BLOG_SLUGS = [
+  'laminate-flooring-thickness',
   'laminate-over-existing-floors',
   'cost-to-install-carpet',
   'best-carpet-for-living-room',

@@ -5,6 +5,28 @@
 export type BlogFaq = { q: string; a: string };
 
 export const BLOG_FAQS: Record<string, BlogFaq[]> = {
+  'laminate-flooring-thickness': [
+    {
+      q: 'What thickness of laminate flooring is best?',
+      a: 'For most homes, 8mm to 12mm is best. 8mm is the standard all-rounder for bedrooms and living areas. 10mm to 12mm is worth it for high-traffic rooms, installs over concrete slab, and anywhere you want a more solid, quieter feel. Pair the thickness with at least an AC3 rating for homes and AC4 for busy households.',
+    },
+    {
+      q: 'Is thicker laminate flooring better?',
+      a: 'Thicker laminate feels more solid, sounds quieter, and hides minor subfloor dips better, but it is not automatically more durable. Surface durability comes from the AC wear rating, not thickness. A thinner board with a higher AC rating can outlast a thick board with a low one, so check both specs.',
+    },
+    {
+      q: 'What is the difference between laminate thickness and AC rating?',
+      a: 'Thickness (in mm) is the height of the board and controls feel, sound, and how well it bridges subfloor imperfections. The AC rating (AC1 to AC5) measures surface resistance to scratching, wear, and impact. Thickness is about comfort and stability; the AC rating is about durability. Both matter and they are independent.',
+    },
+    {
+      q: 'Does thicker laminate need underlayment?',
+      a: 'Yes, laminate needs underlayment unless it has a pad pre-attached, regardless of thickness. Do not stack a second underlayment under a plank that already has one, because too much cushion makes the locking joints fail. Over concrete you still need a vapor barrier, placed under the cushion layer.',
+    },
+    {
+      q: 'What does mm mean on laminate flooring?',
+      a: 'The mm figure is the thickness of the laminate board in millimeters, measured from the backing to the top of the wear layer and not including any attached pad. Common options are 6mm, 7mm, 8mm, 10mm, and 12mm. Higher mm means a thicker, more solid-feeling board, not necessarily a more scratch-resistant one.',
+    },
+  ],
   'laminate-over-existing-floors': [
     {
       q: 'Can you put laminate over laminate?',
