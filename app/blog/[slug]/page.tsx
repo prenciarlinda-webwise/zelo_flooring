@@ -18,8 +18,10 @@ import EngineeredVsSolidHardwoodContent from '@/lib/content/blog/engineered-vs-s
 import VinylPlankFlooringCostContent from '@/lib/content/blog/vinyl-plank-flooring-cost';
 import LaminateOverExistingFloorsContent from '@/lib/content/blog/laminate-over-existing-floors';
 import LaminateFlooringThicknessContent from '@/lib/content/blog/laminate-flooring-thickness';
+import HowLongDoesHardwoodRefinishingTakeContent from '@/lib/content/blog/how-long-does-hardwood-refinishing-take';
 
 const CONTENT_MAP: Record<string, React.FC> = {
+  'how-long-does-hardwood-refinishing-take': HowLongDoesHardwoodRefinishingTakeContent,
   'laminate-flooring-thickness': LaminateFlooringThicknessContent,
   'laminate-over-existing-floors': LaminateOverExistingFloorsContent,
   'cost-to-install-carpet': CostToInstallCarpetContent,

@@ -14,6 +14,21 @@ export type BlogPost = {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: 'how-long-does-hardwood-refinishing-take',
+    title: 'How Long Does Hardwood Floor Refinishing Take?',
+    excerpt:
+      'Hardwood floor refinishing takes 3 to 5 days of active work, plus cure time before furniture and rugs go back. A day-by-day timeline and the factors that change it.',
+    publishedDate: 'May 30, 2026',
+    updatedDate: 'May 30, 2026',
+    datePublishedISO: '2026-05-30',
+    dateModifiedISO: '2026-05-30',
+    metaTitle: 'How Long Does Hardwood Floor Refinishing Take?',
+    metaDescription:
+      'Hardwood floor refinishing takes 3 to 5 days of active work, plus cure time. Day-by-day timeline, water vs oil finish, and when you can walk, move furniture, and add rugs.',
+    relatedServices: ['hardwood-flooring-san-diego', 'laminate-flooring-san-diego', 'vinyl-flooring-san-diego'],
+    image: '/img/solid-wood.jpg',
+  },
+  {
     slug: 'laminate-flooring-thickness',
     title: 'Laminate Flooring Thickness and Wear Layers Explained',
     excerpt:
@@ -137,6 +152,7 @@ export const BLOG_POSTS: BlogPost[] = [
 ];
 
 export const PUBLISHED_BLOG_SLUGS = [
+  'how-long-does-hardwood-refinishing-take',
   'laminate-flooring-thickness',
   'laminate-over-existing-floors',
   'cost-to-install-carpet',
