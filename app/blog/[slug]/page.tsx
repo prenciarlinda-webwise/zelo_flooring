@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation';
 import PageHero from '@/components/PageHero';
 import BlogLayout from '@/components/BlogLayout';
 import ContactCTA from '@/components/ContactCTA';
+import { RelatedLocations } from '@/components/RelatedCards';
 import { PUBLISHED_BLOG_POSTS, getBlogPost } from '@/lib/blog-posts';
 import { BLOG_FAQS } from '@/lib/content/blog/faqs';
 import { SITE } from '@/lib/areas';
@@ -45,8 +46,9 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
       description: post.metaDescription,
       url: `${SITE.url}/blog/${post.slug}`,
       type: 'article',
-      publishedTime: post.publishedDate,
-      modifiedTime: post.updatedDate,
+      publishedTime: post.datePublishedISO,
+      modifiedTime: post.dateModifiedISO,
+      images: [post.image.startsWith('http') ? post.image : `${SITE.url}${post.image}`],
     },
   };
 }
@@ -71,8 +73,8 @@ export default async function BlogPostPage({ params }: Params) {
     image: [articleImage],
     author: { '@id': `${SITE.url}/#business` },
     publisher: { '@id': `${SITE.url}/#business` },
-    datePublished: post.publishedDate,
-    dateModified: post.updatedDate,
+    datePublished: post.datePublishedISO,
+    dateModified: post.dateModifiedISO,
     mainEntityOfPage: { '@type': 'WebPage', '@id': `${SITE.url}/blog/${post.slug}` },
   };
 
@@ -130,9 +132,13 @@ export default async function BlogPostPage({ params }: Params) {
         title={post.title}
         publishedDate={post.publishedDate}
         updatedDate={post.updatedDate}
+        image={post.image}
+        imageAlt={post.title}
       >
         <Content />
       </BlogLayout>
+
+      <RelatedLocations />
 
       <ContactCTA heading="Need Help With Your Flooring Project?" />
     </>

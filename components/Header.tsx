@@ -6,6 +6,7 @@ import Image from 'next/image';
 import { PhoneIcon, PinIcon, ClockIcon } from './Icons';
 import { SITE } from '@/lib/areas';
 import { SERVICES } from '@/lib/services';
+import { PUBLISHED_BLOG_POSTS } from '@/lib/blog-posts';
 
 export default function Header() {
   const [open, setOpen] = useState(false);
@@ -65,7 +66,18 @@ export default function Header() {
                 </ul>
               </li>
               <li><Link href="/service-areas" onClick={close}>Service Areas</Link></li>
-              <li><Link href="/blog" onClick={close}>Blog</Link></li>
+              <li className="has-dropdown">
+                <Link href="/blog" onClick={close}>
+                  Blog <span className="caret">▾</span>
+                </Link>
+                <ul className="dropdown">
+                  {PUBLISHED_BLOG_POSTS.map((p) => (
+                    <li key={p.slug}>
+                      <Link href={`/blog/${p.slug}`} onClick={close}>{p.title}</Link>
+                    </li>
+                  ))}
+                </ul>
+              </li>
               <li><Link href="/contact" onClick={close}>Contact</Link></li>
             </ul>
           </nav>

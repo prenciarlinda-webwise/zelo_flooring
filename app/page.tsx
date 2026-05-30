@@ -9,7 +9,10 @@ import CouponsBlock from '@/components/CouponsBlock';
 import FaqList from '@/components/FaqList';
 import ServiceAreaLinks from '@/components/ServiceAreaLinks';
 import FinalCTA from '@/components/FinalCTA';
+import Link from 'next/link';
+import { ArrowIcon } from '@/components/Icons';
 import { SERVICES } from '@/lib/services';
+import { PUBLISHED_BLOG_POSTS } from '@/lib/blog-posts';
 import { SITE } from '@/lib/areas';
 
 const HOME_FAQS = [
@@ -74,8 +77,8 @@ export default function HomePage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(webPageSchema) }}
       />
       <LeadFormHero
-        h1="Flooring in San Diego, CA"
-        valueProp="Zelo Flooring is a family-operated, C-15 licensed flooring installation company in San Diego with over a decade of journeyman experience. Carpet, LVP, hardwood, laminate, tile, cork, rubber, VCT, and more. Free in-home estimates."
+        h1="San Diego Flooring Installation Company"
+        valueProp="Zelo Flooring is a family-run, C-15 licensed flooring installation company in San Diego. We have installed floors across the county for over a decade. We fit carpet, vinyl plank, hardwood, laminate, tile, cork, rubber, and VCT. Free in-home estimates."
         trustLogos={[
           {
             kind: 'bbb',
@@ -133,8 +136,8 @@ export default function HomePage() {
         eyebrow="About Zelo Flooring"
         title="Family-Operated San Diego Flooring Installation Company"
         paragraphs={[
-          'Zelo Flooring is a family-operated flooring installation company based in San Diego. We have over a decade of journeyman experience installing residential and commercial flooring. We pride ourselves on craftsmanship, communication, and diligence.',
-          'We install Luxury Vinyl Plank, carpet for residential and commercial spaces, laminate, solid and engineered hardwood, cork tiles, glue-down vinyl plank, VCT, rubber, home gym flooring, tile, backsplash, vinyl wall base, wood baseboard, and self-leveling. Free in-home estimates across San Diego County.',
+          'Zelo Flooring is a family-run flooring installation company based in San Diego. We have installed residential and commercial floors for over a decade. We show up on time, communicate clearly, and do the job right.',
+          'We install carpet, luxury vinyl plank, hardwood, laminate, and tile. We also do cork, rubber, home gym flooring, VCT, baseboards, and self-leveling prep. Free in-home estimates across San Diego County.',
         ]}
         bullets={[
           'Family-operated, 13+ years of journeyman flooring experience',
@@ -183,6 +186,30 @@ export default function HomePage() {
             <p>The most common questions we hear from homeowners across San Diego County.</p>
           </div>
           <FaqList items={HOME_FAQS} />
+        </div>
+      </section>
+
+      <section className="section section-cream">
+        <div className="container">
+          <div className="section-header center">
+            <span className="eyebrow">Flooring Guides</span>
+            <h2>Flooring Tips and Buying Guides</h2>
+            <p>Cost breakdowns and material comparisons from our San Diego install crew.</p>
+          </div>
+          <div className="related-grid">
+            {PUBLISHED_BLOG_POSTS.slice(0, 6).map((p) => (
+              <Link key={p.slug} href={`/blog/${p.slug}`} className="related-card">
+                <div>
+                  <strong>{p.title}</strong>
+                  <span>{p.excerpt}</span>
+                </div>
+                <ArrowIcon size={14} />
+              </Link>
+            ))}
+          </div>
+          <div className="breakdown-cta" style={{ marginTop: 28, textAlign: 'center' }}>
+            <Link href="/blog" className="btn btn-outline-orange">View all flooring guides</Link>
+          </div>
         </div>
       </section>
 

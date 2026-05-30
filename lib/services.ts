@@ -131,7 +131,7 @@ export const SERVICES: Service[] = [
     iconKey: 'vinyl',
     image: '/img/vinyl-luxury-plank.webp',
     secondaryImage: '/img/projects/lvp-whole-home/after-kitchen-lvp.webp',
-    metaTitle: 'Vinyl Plank Flooring San Diego',
+    metaTitle: 'Vinyl Plank Flooring Installation San Diego',
     metaDescription:
       'Waterproof luxury vinyl plank (LVP) installation in San Diego. SPC rigid-core flooring from trusted brands. Free in-home estimates. Call +1 (619) 777-4334.',
     lastUpdated: '2026-05-06',
@@ -197,7 +197,7 @@ export const SERVICES: Service[] = [
     iconKey: 'wood',
     image: '/img/hardwood-solid-wood.webp',
     secondaryImage: '/img/hardwood-engineered-oak-2.webp',
-    metaTitle: 'Hardwood Flooring San Diego',
+    metaTitle: 'Hardwood Flooring Installation San Diego',
     metaDescription:
       'Solid and engineered hardwood flooring installation in San Diego. Oak, maple, hickory, walnut and more. NWFA-spec installs. Call +1 (619) 777-4334.',
     lastUpdated: '2026-05-06',
@@ -242,7 +242,7 @@ export const SERVICES: Service[] = [
       { q: 'Do you refinish existing hardwood floors?', a: 'Yes. Sanding and refinishing existing solid hardwood is often a better value than tear-out. We use a dust-contained sander (Festool or Bona) so your house stays livable. Stain test on your actual floor before we commit to a color.' },
       { q: 'Can you match an existing hardwood floor when I add on?', a: 'Sometimes. Same species and same width give you a starting chance, but old floors have aged and oxidized. We are honest about what is achievable. If a perfect match is not possible, we suggest threshold transitions or refinishing the existing floor at the same time.' },
     ],
-    blogSlug: 'hardwood-floor-installation-cost',
+    blogSlug: 'engineered-vs-solid-hardwood',
   },
   {
     slug: 'laminate-flooring-san-diego',
@@ -265,7 +265,7 @@ export const SERVICES: Service[] = [
     iconKey: 'laminate',
     image: '/img/laminate-room-install.webp',
     secondaryImage: '/img/Water-Resistant-Laminate-Flooring.jpg',
-    metaTitle: 'Laminate Flooring San Diego',
+    metaTitle: 'Laminate Flooring Installation San Diego',
     metaDescription:
       'Quality laminate flooring installation in San Diego. Pergo, Mohawk RevWood and more. Affordable wood-look floors. Call +1 (619) 777-4334.',
     lastUpdated: '2026-05-06',
@@ -330,7 +330,7 @@ export const SERVICES: Service[] = [
     iconKey: 'tile',
     image: '/img/tile-porcelain.webp',
     secondaryImage: '/img/Natural-Stone-Tile.jpg',
-    metaTitle: 'Tile Flooring San Diego',
+    metaTitle: 'Tile Flooring Installation San Diego',
     metaDescription:
       'Porcelain, ceramic and natural stone tile installation in San Diego. Bathroom, kitchen, and entryway tile done right. Call +1 (619) 777-4334.',
     lastUpdated: '2026-05-06',
@@ -397,7 +397,7 @@ export const SERVICES: Service[] = [
     iconKey: 'cork',
     image: '/img/Cork-Plank-Flooring.webp',
     secondaryImage: '/img/Cork-Tile-Flooring.webp',
-    metaTitle: 'Cork Flooring San Diego',
+    metaTitle: 'Cork Flooring Installation San Diego',
     metaDescription:
       'Sustainable cork flooring installation in San Diego. Eco-friendly, soft, and quiet. Glue-down and floating cork. Call +1 (619) 777-4334.',
     lastUpdated: '2026-05-06',
@@ -463,7 +463,7 @@ export const SERVICES: Service[] = [
     iconKey: 'rubber',
     image: '/img/rubber-tiles-commercial.webp',
     secondaryImage: '/img/9191-Ecofit-Rubber-Floor_Mosaic.jpg',
-    metaTitle: 'Rubber Flooring San Diego',
+    metaTitle: 'Rubber Flooring Installation San Diego',
     metaDescription:
       'Rubber flooring for home gyms, garages, and commercial spaces in San Diego. Rolled, tile and interlocking. Call +1 (619) 777-4334.',
     lastUpdated: '2026-05-06',
@@ -530,7 +530,7 @@ export const SERVICES: Service[] = [
     iconKey: 'vct',
     image: '/img/vct-commercial-heavy-duty.webp',
     secondaryImage: '/img/Patterned-Vinyl-Composition-Tile-2.jpg',
-    metaTitle: 'VCT Flooring San Diego',
+    metaTitle: 'VCT Flooring Installation San Diego',
     metaDescription:
       'Vinyl Composition Tile (VCT) commercial flooring installation in San Diego. Schools, healthcare, retail. Call +1 (619) 777-4334.',
     lastUpdated: '2026-05-06',

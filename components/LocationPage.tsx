@@ -22,6 +22,7 @@ export default function LocationPage({ location }: Props) {
     id: s.slug,
     name: `${s.name} in ${location.city}`,
     blurb: s.description,
+    href: `/${s.slug}`,
   }));
 
   // Stats: a mix of universal industry stats and location-specific facts

@@ -14,12 +14,12 @@ const GTM_ID = 'GTM-PCPP9MW5';
 export const metadata: Metadata = {
   metadataBase: new URL(SITE.url),
   title: {
-    default: `${SITE.name} - Flooring Installation in San Diego, CA`,
+    default: `${SITE.name} - Flooring Installation San Diego, CA`,
     template: `%s - ${SITE.name}`,
   },
   description: `${SITE.name} is a family-operated, C-15 licensed flooring installation company in San Diego with over a decade of journeyman experience. Carpet, LVP, hardwood, laminate, tile, cork, rubber, VCT. Bonded, insured, BBB Accredited A+. Free in-home estimates. Call ${SITE.phone}.`,
   openGraph: {
-    title: `${SITE.name} - Flooring Installation in San Diego, CA`,
+    title: `${SITE.name} - Flooring Installation San Diego, CA`,
     description:
       'Family-operated flooring installation in San Diego. C-15 licensed, BBB Accredited A+, Thumbtack Top Pro 2023-2025. Free in-home estimates.',
     url: SITE.url,

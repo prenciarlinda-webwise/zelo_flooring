@@ -148,6 +148,12 @@ function renderServicePage(service: ReturnType<typeof getService>) {
 
   const local = getServiceLocalData(service.slug);
 
+  // H1 should carry the "{service} installation {city}" keyword. Most service
+  // names end in "Flooring"; "Carpet Installation" already contains the word.
+  const serviceH1 = /install/i.test(service.name)
+    ? `${service.name} in ${SITE.city}, ${SITE.region}`
+    : `${service.name} Installation in ${SITE.city}, ${SITE.region}`;
+
   const breadcrumbSchema = {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
@@ -205,7 +211,7 @@ function renderServicePage(service: ReturnType<typeof getService>) {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema) }} />
 
       <LeadFormHero
-        h1={`${service.name} in ${SITE.city}, ${SITE.region}`}
+        h1={serviceH1}
         valueProp={service.heroValueProp}
         trustBullets={service.trustBullets}
         image={service.image}
@@ -393,7 +399,13 @@ function renderServicePage(service: ReturnType<typeof getService>) {
             </p>
             <p>
               <strong>Nearby San Diego County cities we also serve:</strong>{' '}
-              Coronado, Del Mar, La Jolla, Carlsbad, Encinitas, Solana Beach, Rancho Santa Fe, Chula Vista, Poway, Escondido, Oceanside, San Marcos, Vista.
+              {LOCATIONS.filter((l) => l.type === 'secondary').map((l, i) => (
+                <span key={l.slug}>
+                  {i > 0 ? ', ' : ''}
+                  <Link href={`/${l.slug}`}>{l.city}</Link>
+                </span>
+              ))}
+              .
             </p>
             <p>
               <a href={MAIN_LOCATION.wikipediaUrl} target="_blank" rel="noopener noreferrer">

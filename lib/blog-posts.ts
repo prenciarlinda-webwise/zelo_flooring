@@ -2,12 +2,14 @@ export type BlogPost = {
   slug: string;
   title: string;
   excerpt: string;
-  publishedDate: string;
-  updatedDate: string;
+  publishedDate: string; // human-readable, shown in the byline (e.g. "March 18, 2026")
+  updatedDate: string; // human-readable, shown in the byline
+  datePublishedISO: string; // ISO 8601 for Article schema + OpenGraph + sitemap
+  dateModifiedISO: string; // ISO 8601 for Article schema + OpenGraph + sitemap
   metaTitle: string;
   metaDescription: string;
   relatedServices: string[];
-  image?: string;
+  image: string; // featured image, unique per post
 };
 
 export const BLOG_POSTS: BlogPost[] = [
@@ -17,6 +19,9 @@ export const BLOG_POSTS: BlogPost[] = [
     excerpt: 'How much does it cost to install carpet? National average is $3-$8/sqft installed. We break down carpet installation costs by carpet type, room size, labor, and what is included in a professional estimate.',
     publishedDate: 'March 18, 2026',
     updatedDate: 'May 6, 2026',
+    datePublishedISO: '2026-03-18',
+    dateModifiedISO: '2026-05-06',
+    image: '/img/carpet-installed-bedroom-2.webp',
     metaTitle: 'Carpet Installation Cost in 2026 - $3-$8/sqft Installed Guide',
     metaDescription: 'Carpet installation costs $3-$8 per square foot installed in 2026. Full breakdown by fiber, brand, pad, room size, stair cost, labor cost per square foot, and what should be included in your quote.',
     relatedServices: ['carpet-flooring-san-diego', 'vinyl-flooring-san-diego', 'laminate-flooring-san-diego'],
@@ -27,6 +32,9 @@ export const BLOG_POSTS: BlogPost[] = [
     excerpt: 'Choosing carpet for your living room means balancing comfort, durability, and stain resistance. Here is what actually works based on years of installing carpet in San Diego homes.',
     publishedDate: 'February 28, 2026',
     updatedDate: 'May 6, 2026',
+    datePublishedISO: '2026-02-28',
+    dateModifiedISO: '2026-05-06',
+    image: '/img/Patterned-Carpet.webp',
     metaTitle: 'Best Carpet for Living Room - 2026 Buyer Guide',
     metaDescription: 'Choosing the best carpet for a living room in 2026. Fiber, face weight, density, pile type, brand, color trend, and allergy-friendly options compared by San Diego carpet installers.',
     relatedServices: ['carpet-flooring-san-diego'],
@@ -37,6 +45,9 @@ export const BLOG_POSTS: BlogPost[] = [
     excerpt: 'Comparing luxury vinyl plank and hardwood flooring on cost, durability, water resistance, and long-term value.',
     publishedDate: 'February 10, 2026',
     updatedDate: 'May 6, 2026',
+    datePublishedISO: '2026-02-10',
+    dateModifiedISO: '2026-05-06',
+    image: '/img/vinyl-plank-light-oak.webp',
     metaTitle: 'LVP vs Hardwood Flooring - 2026 Buyer Guide',
     metaDescription: 'LVP vs hardwood flooring comparison. Cost, durability, water resistance, and which works better for your home. Expert breakdown from licensed installers.',
     relatedServices: ['vinyl-flooring-san-diego', 'hardwood-flooring-san-diego'],
@@ -47,6 +58,9 @@ export const BLOG_POSTS: BlogPost[] = [
     excerpt: 'Scratch-resistant, waterproof, and easy to clean. Here are the flooring types that hold up best with dogs and cats.',
     publishedDate: 'January 22, 2026',
     updatedDate: 'May 6, 2026',
+    datePublishedISO: '2026-01-22',
+    dateModifiedISO: '2026-05-06',
+    image: '/img/vinyl-rigid-core.webp',
     metaTitle: 'Best Flooring For Homes With Pets - 2026 Buyer Guide',
     metaDescription: 'Best flooring for homes with pets. Scratch-proof, waterproof options compared. LVP, tile, laminate, and carpet rated for dogs and cats.',
     relatedServices: ['vinyl-flooring-san-diego', 'tile-flooring-san-diego', 'carpet-flooring-san-diego'],
@@ -57,6 +71,9 @@ export const BLOG_POSTS: BlogPost[] = [
     excerpt: 'How much does vinyl plank flooring cost to install? We break down LVP costs by product type, room size, and labor.',
     publishedDate: 'January 8, 2026',
     updatedDate: 'May 6, 2026',
+    datePublishedISO: '2026-01-08',
+    dateModifiedISO: '2026-05-06',
+    image: '/img/Luxury-Vinyl-Plank.jpg',
     metaTitle: 'Vinyl Plank Flooring Cost in 2026 - $4-$16/sqft Installed',
     metaDescription: 'Vinyl plank flooring installation cost in 2026. Average $4-$9 per square foot installed. Breakdown by LVP type, room size, labor, and what affects price.',
     relatedServices: ['vinyl-flooring-san-diego'],
@@ -67,6 +84,9 @@ export const BLOG_POSTS: BlogPost[] = [
     excerpt: 'Nylon is more durable. Polyester is cheaper. But the right choice depends on your room, traffic, and budget.',
     publishedDate: 'December 18, 2025',
     updatedDate: 'May 6, 2026',
+    datePublishedISO: '2025-12-18',
+    dateModifiedISO: '2026-05-06',
+    image: '/img/Textured-Carpet.webp',
     metaTitle: 'Polyester vs Nylon Carpet - 2026 Fiber Buyer Guide',
     metaDescription: 'Polyester vs nylon carpet compared in 2026. Durability, stain resistance, real-life pet and stain handling, cost tiers, and brand picks for every room and traffic level.',
     relatedServices: ['carpet-flooring-san-diego'],
@@ -77,6 +97,9 @@ export const BLOG_POSTS: BlogPost[] = [
     excerpt: 'Engineered hardwood handles moisture and concrete slabs better. Solid hardwood can be refinished more times. Here is how to choose.',
     publishedDate: 'December 5, 2025',
     updatedDate: 'May 6, 2026',
+    datePublishedISO: '2025-12-05',
+    dateModifiedISO: '2026-05-06',
+    image: '/img/hardwood-solid-wood-2.webp',
     metaTitle: 'Engineered vs Solid Hardwood - 2026 Buyer Guide',
     metaDescription: 'Engineered vs solid hardwood compared in 2026. Wear layer thickness, refinishing potential, install method by subfloor, cost tiers, brand picks, and which works in your home.',
     relatedServices: ['hardwood-flooring-san-diego'],
