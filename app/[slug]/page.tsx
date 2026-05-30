@@ -108,6 +108,13 @@ function renderLocationPage(location: ReturnType<typeof getLocation>) {
     },
     serviceType: 'Flooring Installation',
     category: 'Flooring Installation',
+    aggregateRating: {
+      '@type': 'AggregateRating',
+      ratingValue: SITE.rating.value,
+      reviewCount: SITE.rating.count,
+      bestRating: 5,
+      worstRating: 1,
+    },
   };
 
   // FAQPage schema mirrors visible FAQ
@@ -181,6 +188,13 @@ function renderServicePage(service: ReturnType<typeof getService>) {
     },
     serviceType: service.shortName + ' Flooring Installation',
     category: `${service.shortName} Flooring`,
+    aggregateRating: {
+      '@type': 'AggregateRating',
+      ratingValue: SITE.rating.value,
+      reviewCount: SITE.rating.count,
+      bestRating: 5,
+      worstRating: 1,
+    },
   };
 
   const faqSchema = {

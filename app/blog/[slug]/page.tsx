@@ -16,8 +16,10 @@ import BestFlooringForPetsContent from '@/lib/content/blog/best-flooring-for-pet
 import PolyesterVsNylonCarpetContent from '@/lib/content/blog/polyester-vs-nylon-carpet';
 import EngineeredVsSolidHardwoodContent from '@/lib/content/blog/engineered-vs-solid-hardwood';
 import VinylPlankFlooringCostContent from '@/lib/content/blog/vinyl-plank-flooring-cost';
+import LaminateOverExistingFloorsContent from '@/lib/content/blog/laminate-over-existing-floors';
 
 const CONTENT_MAP: Record<string, React.FC> = {
+  'laminate-over-existing-floors': LaminateOverExistingFloorsContent,
   'cost-to-install-carpet': CostToInstallCarpetContent,
   'best-carpet-for-living-room': BestCarpetForLivingRoomContent,
   'lvp-vs-hardwood': LvpVsHardwoodContent,

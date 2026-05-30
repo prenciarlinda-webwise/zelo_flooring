@@ -14,6 +14,21 @@ export type BlogPost = {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: 'laminate-over-existing-floors',
+    title: 'Can You Install Laminate Over Existing Floors?',
+    excerpt:
+      'Yes, in most cases, if the surface is flat, solid, and dry. A surface-by-surface guide to installing laminate over tile, vinyl, hardwood, concrete, existing laminate, and carpet.',
+    publishedDate: 'May 30, 2026',
+    updatedDate: 'May 30, 2026',
+    datePublishedISO: '2026-05-30',
+    dateModifiedISO: '2026-05-30',
+    metaTitle: 'Can You Install Laminate Over Existing Floors?',
+    metaDescription:
+      'Yes, laminate can go over tile, vinyl, hardwood, and concrete if the floor is flat, solid, and dry. Surface-by-surface guide to floating laminate over existing floors.',
+    relatedServices: ['laminate-flooring-san-diego', 'tile-flooring-san-diego', 'vinyl-flooring-san-diego'],
+    image: '/img/Laminate-Plank-Flooring.webp',
+  },
+  {
     slug: 'cost-to-install-carpet',
     title: 'How Much Carpet Installation Costs in 2026',
     excerpt: 'How much does it cost to install carpet? National average is $3-$8/sqft installed. We break down carpet installation costs by carpet type, room size, labor, and what is included in a professional estimate.',
@@ -107,6 +122,7 @@ export const BLOG_POSTS: BlogPost[] = [
 ];
 
 export const PUBLISHED_BLOG_SLUGS = [
+  'laminate-over-existing-floors',
   'cost-to-install-carpet',
   'best-carpet-for-living-room',
   'lvp-vs-hardwood',

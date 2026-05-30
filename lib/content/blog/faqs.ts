@@ -5,6 +5,28 @@
 export type BlogFaq = { q: string; a: string };
 
 export const BLOG_FAQS: Record<string, BlogFaq[]> = {
+  'laminate-over-existing-floors': [
+    {
+      q: 'Can you put laminate over laminate?',
+      a: 'No. Laminate is a floating floor, and floating a new laminate floor over an existing one creates an unstable, compressible stack that clicks and separates at the joints. Old laminate is fast to remove because it is not glued down, so the right move is always to pull it up and install the new floor on fresh underlayment.',
+    },
+    {
+      q: 'Can laminate flooring be installed over existing floors?',
+      a: 'Yes, in most cases. Laminate can be installed over tile, vinyl, linoleum, hardwood, and concrete as long as the surface is flat within 3/16 inch over 10 feet, solid and well-bonded, and dry. It cannot go over carpet or over another floating floor, and it should not go over any water-damaged or uneven surface.',
+    },
+    {
+      q: 'Do you need underlayment when installing laminate over tile or vinyl?',
+      a: 'Yes. Laminate needs an underlayment for cushioning, sound, and a smooth glide unless the plank has it pre-attached. Over concrete you also need a vapor barrier underlayment. Do not double up underlayment if the plank already has a pad attached, since too much cushion causes joint failure.',
+    },
+    {
+      q: 'How flat does the floor need to be for laminate?',
+      a: 'Most laminate manufacturers require the substrate to be flat within 3/16 inch over a 10-foot span (some specify 1/8 inch over 6 feet). Anything outside that needs grinding on high spots or self-leveling compound in low spots before the laminate goes down, or the floor will feel hollow and the joints will separate.',
+    },
+    {
+      q: 'Will installing laminate over an existing floor void the warranty?',
+      a: 'Not by itself, but most warranties require the substrate to meet the manufacturer flatness and moisture specs and require the correct underlayment. Installing over a soft, uneven, or damp surface, or skipping the vapor barrier over concrete, is what voids coverage. A manufacturer-spec install keeps the warranty intact.',
+    },
+  ],
   'cost-to-install-carpet': [
     {
       q: 'How much does it cost to install carpet in a 12x12 room?',
