@@ -388,6 +388,7 @@ export default function BestCarpetForLivingRoomContent() {
 
       <RelatedBlogPosts
         posts={[
+          { slug: 'low-pile-vs-high-pile-carpet', title: 'Low Pile vs High Pile Carpet', excerpt: 'Which carpet pile is right for each room.' },
           { slug: 'best-flooring-for-pets', title: 'Best Flooring for Homes With Pets', excerpt: 'Scratch-proof and waterproof options compared for dog and cat owners.' },
           { slug: 'polyester-vs-nylon-carpet', title: 'Polyester vs Nylon Carpet', excerpt: 'A head-to-head comparison of the two most popular carpet fibers.' },
           { slug: 'cost-to-install-carpet', title: 'Cost to Install Carpet', excerpt: 'Real pricing for carpet installation by room and square footage.' },

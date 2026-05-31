@@ -333,7 +333,8 @@ export default function EngineeredVsSolidHardwoodContent() {
 
       <RelatedBlogPosts
         posts={[
-          { slug: 'vinyl-plank-flooring-cost', title: 'Vinyl Plank Flooring Cost', excerpt: 'Full cost breakdown for LVP installation by room and quality.' },
+          { slug: 'lvp-vs-engineered-hardwood', title: 'LVP vs Engineered Hardwood', excerpt: 'Real wood versus waterproof vinyl, compared.' },
+          { slug: 'types-of-hardwood-flooring', title: 'Types of Hardwood Flooring', excerpt: 'Species, finishes, and plank widths explained.' },
           { slug: 'lvp-vs-hardwood', title: 'LVP vs Hardwood Flooring', excerpt: 'Full comparison of luxury vinyl plank and hardwood for every room.' },
           { slug: 'best-flooring-for-pets', title: 'Best Flooring for Homes With Pets', excerpt: 'Scratch-proof and waterproof options for dogs, cats, and busy homes.' },
         ]}

@@ -5,6 +5,116 @@
 export type BlogFaq = { q: string; a: string };
 
 export const BLOG_FAQS: Record<string, BlogFaq[]> = {
+  'lvp-vs-engineered-hardwood': [
+    {
+      q: 'Is LVP or engineered hardwood better?',
+      a: 'It depends on your priority. LVP is better for waterproofing, budget, pets, and wet rooms. Engineered hardwood is better for real-wood feel, resale value, and longevity, and it can sometimes be refinished. Both work over concrete slab, so the deciding factors are usually water exposure and budget.',
+    },
+    {
+      q: 'Is engineered hardwood worth it over LVP?',
+      a: 'Yes, if you want genuine wood and long-term value and your rooms are not wet areas. Engineered hardwood costs about twice as much as LVP but lasts longer, feels more authentic, can be refinished with a thick veneer, and adds more to resale value. In bathrooms and busy pet households, LVP is the smarter spend.',
+    },
+    {
+      q: 'Does LVP or engineered hardwood add more home value?',
+      a: 'Engineered hardwood adds more home value because buyers respond to real wood. High-quality LVP is still a strong selling point versus worn carpet or dated tile, but it does not command the same premium as genuine hardwood in most markets.',
+    },
+    {
+      q: 'Can engineered hardwood get wet like LVP?',
+      a: 'No. LVP is 100% waterproof, while engineered hardwood is only water-resistant. Engineered wood tolerates humidity and quick spills you wipe up, but standing water can seep into the seams and damage it, so it should not go in full bathrooms or laundry rooms.',
+    },
+    {
+      q: 'Which lasts longer, LVP or engineered hardwood?',
+      a: 'Engineered hardwood lasts longer overall, typically 25 to 40 years and more if it can be refinished, while LVP lasts 15 to 25 years before replacement. In wet areas, though, LVP often outlasts wood because moisture does not damage it.',
+    },
+  ],
+  'types-of-hardwood-flooring': [
+    {
+      q: 'What are the main types of hardwood flooring?',
+      a: 'The two main types are solid hardwood, a single piece of wood that can be refinished many times, and engineered hardwood, a real-wood veneer over a plywood core that stays stable on slab and in humidity. Within each, you choose a species, finish, plank width, and grade.',
+    },
+    {
+      q: 'What is the most durable hardwood floor?',
+      a: 'Hickory is the most durable common hardwood species, with a Janka hardness around 1,820, followed by oak and maple. A harder species combined with a quality factory finish gives the best resistance to dents and scratches, which matters most in busy homes and with pets.',
+    },
+    {
+      q: 'What hardwood species is best?',
+      a: 'White oak is the most popular and versatile species today because it is hard, neutral in color, takes stain evenly, and is widely available. Hickory is best for maximum durability, while walnut offers the richest dark look at the cost of being softer.',
+    },
+    {
+      q: 'Should I choose solid or engineered hardwood?',
+      a: 'Choose engineered hardwood for concrete slab foundations, humid coastal areas, and most modern homes, since it resists cupping and gapping. Choose solid hardwood for older homes with plywood subfloors in drier climates where you want a floor that can be refinished many times.',
+    },
+    {
+      q: 'What is the most popular hardwood floor right now?',
+      a: 'Engineered white oak in a wide plank with a matte, natural finish is the most popular hardwood floor today. It suits both modern and traditional homes, handles slab and humidity well, and is the most requested look in current installations.',
+    },
+  ],
+  'low-pile-vs-high-pile-carpet': [
+    {
+      q: 'What is the difference between low and high pile carpet?',
+      a: 'Low pile carpet has short, dense fibers under about 1/4 inch that are durable and easy to clean. High pile carpet has longer, looser fibers over about 1/2 inch that feel soft and plush. Low pile suits high-traffic areas and pets; high pile suits bedrooms and low-traffic comfort.',
+    },
+    {
+      q: 'What is low pile carpet?',
+      a: 'Low pile carpet is carpet with short, tightly packed fibers, usually under 1/4 inch tall. It resists matting and crushing, hides footprints, vacuums easily, and lasts well in high-traffic areas, which is why it is used on stairs, in hallways, and in offices and rentals.',
+    },
+    {
+      q: 'Which carpet pile is best for pets?',
+      a: 'Low pile cut carpet is best for pets. Short, dense fibers do not snag on claws the way looped berber or long shag fibers do, and they release pet hair and dirt easily when vacuumed. Pair it with a moisture-barrier pad to protect the subfloor from accidents.',
+    },
+    {
+      q: 'What are the types of carpet pile?',
+      a: 'The main types are level loop (berber), cut pile, frieze or twist, plush or Saxony, and cut-and-loop. Loop and frieze styles are more durable and hide wear, while plush and Saxony are softer but show footprints. Cut-and-loop creates patterns that hide soil.',
+    },
+    {
+      q: 'Is high pile carpet hard to clean?',
+      a: 'Yes, high pile carpet is harder to clean than low pile. Its long, loose fibers trap dirt, dust, and pet dander deep in the carpet, so it needs more frequent and thorough vacuuming and is more prone to matting in traffic. Low pile carpet cleans far more easily.',
+    },
+  ],
+  'how-to-clean-luxury-vinyl-plank-flooring': [
+    {
+      q: 'How do you clean luxury vinyl plank flooring?',
+      a: 'Sweep or vacuum to remove grit, then damp mop with a pH-neutral floor cleaner or one cup of white vinegar per gallon of warm water. Wring the mop nearly dry and let the floor air dry. Avoid steam mops, wax, and harsh chemicals, and wipe spills up promptly.',
+    },
+    {
+      q: 'Can you use a steam mop on LVP?',
+      a: 'No. Steam mops force heat and moisture into the floor, which can lift the wear layer, damage the locking seams, and void the manufacturer warranty. Use a microfiber mop that is barely damp instead. LVP is waterproof on the surface, but heat and trapped water in the seams cause damage.',
+    },
+    {
+      q: 'What is the best cleaner for vinyl plank flooring?',
+      a: 'A pH-neutral floor cleaner made for luxury vinyl is best, or a simple homemade mix of one cup of white vinegar per gallon of warm water. Both clean well without leaving residue. Avoid wax, polish, ammonia, bleach, and oil-based or abrasive cleaners.',
+    },
+    {
+      q: 'Can you use vinegar on vinyl plank flooring?',
+      a: 'Yes. Diluted white vinegar, about one cup per gallon of warm water, is a safe and effective LVP cleaner that cuts grime without leaving residue. Use it with a barely-damp microfiber mop. Do not use undiluted vinegar or other strong acids, which can dull the finish over time.',
+    },
+    {
+      q: 'How do you make luxury vinyl plank floors shine?',
+      a: 'Clean off all residue with a damp microfiber mop and let the floor dry; a clean LVP floor has a natural low sheen. Do not use wax or polish to add shine, because they build up into a cloudy film. If the floor looks dull, it is usually cleaner residue, so rinse with plain water.',
+    },
+  ],
+  'tile-vs-vinyl-flooring': [
+    {
+      q: 'Is tile or vinyl plank better?',
+      a: 'Both are waterproof, so it depends on the room. Tile is better for bathrooms, entryways, and long-term durability and resale value, lasting 50+ years. Vinyl plank is better for whole-home comfort, warmth underfoot, and a lower budget, lasting 15 to 25 years. Many homes use tile in wet rooms and vinyl elsewhere.',
+    },
+    {
+      q: 'Is vinyl cheaper than tile?',
+      a: 'Yes. Luxury vinyl plank costs about $4 to $9 per square foot installed, while porcelain tile costs $7 to $15 or more because the installation is more labor-intensive, requiring substrate prep, waterproofing, mortar, and grout. Vinyl is also faster to install.',
+    },
+    {
+      q: 'Which lasts longer, tile or vinyl?',
+      a: 'Tile lasts far longer. Properly installed porcelain tile can last 50 years or more and is extremely hard to scratch or dent, while luxury vinyl plank lasts 15 to 25 years before the wear layer shows traffic. For lifetime durability, tile is the clear winner.',
+    },
+    {
+      q: 'Is tile or vinyl better for bathrooms?',
+      a: 'Tile is better for full bathrooms because it is fully waterproof and handles standing water, showers, and humidity for decades. Vinyl plank is waterproof and fine for powder rooms and half baths, but in a shower bathroom, porcelain tile with proper waterproofing is the more reliable long-term choice.',
+    },
+    {
+      q: 'Does tile or vinyl add more home value?',
+      a: 'Tile generally adds more home value, especially in bathrooms and kitchens, because buyers see it as a premium, long-lasting material. High-quality vinyl plank is still a strong selling point over worn carpet or dated flooring, but it does not command the same premium as tile in wet areas.',
+    },
+  ],
   'vinyl-vs-laminate-flooring': [
     {
       q: 'Is vinyl or laminate flooring better?',

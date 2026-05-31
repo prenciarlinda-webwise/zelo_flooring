@@ -334,8 +334,9 @@ export default function VinylPlankFlooringCostContent() {
 
       <RelatedBlogPosts
         posts={[
+          { slug: 'how-to-clean-luxury-vinyl-plank-flooring', title: 'How to Clean Luxury Vinyl Plank', excerpt: 'Keep your new LVP looking new with the right routine.' },
+          { slug: 'vinyl-vs-laminate-flooring', title: 'Vinyl vs Laminate Flooring', excerpt: 'Which floating floor is right for each room.' },
           { slug: 'lvp-vs-hardwood', title: 'LVP vs Hardwood Flooring', excerpt: 'Full comparison of luxury vinyl plank and hardwood for every room.' },
-          { slug: 'best-flooring-for-pets', title: 'Best Flooring for Homes With Pets', excerpt: 'Scratch-proof and waterproof options compared for dog and cat owners.' },
           { slug: 'engineered-vs-solid-hardwood', title: 'Engineered vs Solid Hardwood', excerpt: 'Which type of hardwood is right for your home and subfloor.' },
         ]}
       />

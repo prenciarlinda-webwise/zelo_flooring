@@ -14,6 +14,81 @@ export type BlogPost = {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: 'lvp-vs-engineered-hardwood',
+    title: 'LVP vs Engineered Hardwood: Which Should You Choose?',
+    excerpt:
+      'LVP is cheaper, waterproof, and lower-maintenance; engineered hardwood is real wood that adds more resale value and can be refinished. A side-by-side comparison.',
+    publishedDate: 'May 31, 2026',
+    updatedDate: 'May 31, 2026',
+    datePublishedISO: '2026-05-31',
+    dateModifiedISO: '2026-05-31',
+    metaTitle: 'LVP vs Engineered Hardwood: Which Is Better?',
+    metaDescription:
+      'LVP vs engineered hardwood compared: water resistance, cost, resale value, refinishing, and lifespan. Which is better for kitchens, pets, and real-wood value.',
+    relatedServices: ['vinyl-flooring-san-diego', 'hardwood-flooring-san-diego', 'laminate-flooring-san-diego'],
+    image: '/img/hardwood-engineered-oak-2.webp',
+  },
+  {
+    slug: 'types-of-hardwood-flooring',
+    title: 'Types of Hardwood Flooring: Species, Finishes, and Widths',
+    excerpt:
+      'The main types of hardwood flooring explained: solid vs engineered, popular wood species and their hardness, prefinished vs site-finished, and plank widths and grades.',
+    publishedDate: 'May 31, 2026',
+    updatedDate: 'May 31, 2026',
+    datePublishedISO: '2026-05-31',
+    dateModifiedISO: '2026-05-31',
+    metaTitle: 'Types of Hardwood Flooring Explained (2026 Guide)',
+    metaDescription:
+      'The types of hardwood flooring: solid vs engineered, oak, maple, hickory and walnut species, prefinished vs site-finished, and plank widths. How to choose for your home.',
+    relatedServices: ['hardwood-flooring-san-diego', 'vinyl-flooring-san-diego', 'laminate-flooring-san-diego'],
+    image: '/img/engineered-oak-flooring-2.jpg',
+  },
+  {
+    slug: 'low-pile-vs-high-pile-carpet',
+    title: 'Low Pile vs High Pile Carpet: Which Is Right for You?',
+    excerpt:
+      'Low pile carpet is durable and easy to clean for high-traffic areas and pets; high pile is soft and cozy for bedrooms. Carpet pile types compared, room by room.',
+    publishedDate: 'May 31, 2026',
+    updatedDate: 'May 31, 2026',
+    datePublishedISO: '2026-05-31',
+    dateModifiedISO: '2026-05-31',
+    metaTitle: 'Low Pile vs High Pile Carpet: Which Is Better?',
+    metaDescription:
+      'Low pile vs high pile carpet compared: durability, comfort, cleaning, and pets. Plus the main types of carpet pile and which is best for each room.',
+    relatedServices: ['carpet-flooring-san-diego', 'laminate-flooring-san-diego', 'vinyl-flooring-san-diego'],
+    image: '/img/carpet-berber-loop.webp',
+  },
+  {
+    slug: 'how-to-clean-luxury-vinyl-plank-flooring',
+    title: 'How to Clean Luxury Vinyl Plank Flooring',
+    excerpt:
+      'How to clean and maintain LVP: routine sweeping and damp mopping, the right cleaners, what to avoid (steam mops, wax, harsh chemicals), and stain and scratch tips.',
+    publishedDate: 'May 31, 2026',
+    updatedDate: 'May 31, 2026',
+    datePublishedISO: '2026-05-31',
+    dateModifiedISO: '2026-05-31',
+    metaTitle: 'How to Clean Luxury Vinyl Plank Flooring (LVP)',
+    metaDescription:
+      'How to clean luxury vinyl plank flooring: the best cleaners, why to avoid steam mops and wax, stain removal, scratch prevention, and a simple maintenance schedule.',
+    relatedServices: ['vinyl-flooring-san-diego', 'laminate-flooring-san-diego', 'tile-flooring-san-diego'],
+    image: '/img/vinyl-luxury-plank.webp',
+  },
+  {
+    slug: 'tile-vs-vinyl-flooring',
+    title: 'Tile vs Vinyl Flooring: Which Should You Choose?',
+    excerpt:
+      'Porcelain tile is the most durable and adds the most value; vinyl plank is softer, warmer, and cheaper. Both are waterproof. A room-by-room comparison on cost and feel.',
+    publishedDate: 'May 31, 2026',
+    updatedDate: 'May 31, 2026',
+    datePublishedISO: '2026-05-31',
+    dateModifiedISO: '2026-05-31',
+    metaTitle: 'Tile vs Vinyl Flooring: Which Is Better?',
+    metaDescription:
+      'Tile vs vinyl plank flooring compared: durability, water resistance, comfort, cost, and installation. Which is better for bathrooms, kitchens, and whole-home installs.',
+    relatedServices: ['tile-flooring-san-diego', 'vinyl-flooring-san-diego', 'hardwood-flooring-san-diego'],
+    image: '/img/tile-porcelain.webp',
+  },
+  {
     slug: 'vinyl-vs-laminate-flooring',
     title: 'Vinyl vs Laminate Flooring: Which Should You Choose?',
     excerpt:
@@ -197,6 +272,11 @@ export const BLOG_POSTS: BlogPost[] = [
 ];
 
 export const PUBLISHED_BLOG_SLUGS = [
+  'lvp-vs-engineered-hardwood',
+  'types-of-hardwood-flooring',
+  'low-pile-vs-high-pile-carpet',
+  'how-to-clean-luxury-vinyl-plank-flooring',
+  'tile-vs-vinyl-flooring',
   'vinyl-vs-laminate-flooring',
   'how-to-install-vinyl-plank-flooring',
   'best-flooring-for-san-diego-homes',

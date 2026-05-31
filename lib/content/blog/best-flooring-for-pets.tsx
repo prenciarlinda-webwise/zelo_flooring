@@ -326,6 +326,8 @@ export default function BestFlooringForPetsContent() {
 
       <RelatedBlogPosts
         posts={[
+          { slug: 'tile-vs-vinyl-flooring', title: 'Tile vs Vinyl Flooring', excerpt: 'Which waterproof floor wins by room.' },
+          { slug: 'how-to-clean-luxury-vinyl-plank-flooring', title: 'How to Clean Luxury Vinyl Plank', excerpt: 'Keep waterproof floors looking new.' },
           { slug: 'vinyl-plank-flooring-cost', title: 'Vinyl Plank Flooring Cost', excerpt: 'Full cost breakdown for LVP installation by room and quality.' },
           { slug: 'best-carpet-for-living-room', title: 'Best Carpet for Living Room', excerpt: 'How to pick the right fiber, style, and color.' },
           { slug: 'lvp-vs-hardwood', title: 'LVP vs Hardwood Flooring', excerpt: 'Which one makes more sense for your home and budget.' },
