@@ -14,6 +14,36 @@ export type BlogPost = {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: 'vinyl-vs-laminate-flooring',
+    title: 'Vinyl vs Laminate Flooring: Which Should You Choose?',
+    excerpt:
+      'Vinyl plank is waterproof and better for kitchens, baths, and pets; laminate is harder, more textured, and usually cheaper. A side-by-side comparison by room, cost, and durability.',
+    publishedDate: 'May 31, 2026',
+    updatedDate: 'May 31, 2026',
+    datePublishedISO: '2026-05-31',
+    dateModifiedISO: '2026-05-31',
+    metaTitle: 'Vinyl vs Laminate Flooring: Which Is Better?',
+    metaDescription:
+      'Vinyl plank vs laminate flooring compared. Water resistance, durability, feel, cost, and which is better for kitchens, pets, and budgets. A clear room-by-room verdict.',
+    relatedServices: ['vinyl-flooring-san-diego', 'laminate-flooring-san-diego', 'hardwood-flooring-san-diego'],
+    image: '/img/Water-Resistant-Laminate-Flooring.jpg',
+  },
+  {
+    slug: 'how-to-install-vinyl-plank-flooring',
+    title: 'How to Install Vinyl Plank Flooring (Step by Step)',
+    excerpt:
+      'A step-by-step guide to installing click-lock vinyl plank flooring: subfloor prep, acclimation, layout direction, expansion gaps, common mistakes, and when to hire a pro.',
+    publishedDate: 'May 31, 2026',
+    updatedDate: 'May 31, 2026',
+    datePublishedISO: '2026-05-31',
+    dateModifiedISO: '2026-05-31',
+    metaTitle: 'How to Install Vinyl Plank Flooring (Step by Step)',
+    metaDescription:
+      'How to install vinyl plank flooring step by step: subfloor prep, acclimation, layout direction, expansion gaps, the most common mistakes, and when to hire a pro.',
+    relatedServices: ['vinyl-flooring-san-diego', 'laminate-flooring-san-diego', 'tile-flooring-san-diego'],
+    image: '/img/Rigid-Core-Vinyl.jpg',
+  },
+  {
     slug: 'best-flooring-for-san-diego-homes',
     title: 'Best Flooring for San Diego Homes',
     excerpt:
@@ -167,6 +197,8 @@ export const BLOG_POSTS: BlogPost[] = [
 ];
 
 export const PUBLISHED_BLOG_SLUGS = [
+  'vinyl-vs-laminate-flooring',
+  'how-to-install-vinyl-plank-flooring',
   'best-flooring-for-san-diego-homes',
   'how-long-does-hardwood-refinishing-take',
   'laminate-flooring-thickness',

@@ -5,6 +5,50 @@
 export type BlogFaq = { q: string; a: string };
 
 export const BLOG_FAQS: Record<string, BlogFaq[]> = {
+  'vinyl-vs-laminate-flooring': [
+    {
+      q: 'Is vinyl or laminate flooring better?',
+      a: 'Neither is universally better. Vinyl plank is better for kitchens, bathrooms, basements, and homes with pets because it is 100% waterproof. Laminate is better for dry bedrooms and living rooms where you want a harder, more authentic wood feel at a slightly lower cost. Match the floor to the room and the moisture.',
+    },
+    {
+      q: 'Is vinyl plank more expensive than laminate?',
+      a: 'Usually, slightly. Vinyl plank runs about $4 to $9 per square foot installed and laminate runs $3 to $7. The ranges overlap, and premium versions of each cost about the same. For a large project, laminate offers a small per-square-foot saving.',
+    },
+    {
+      q: 'Which lasts longer, vinyl or laminate?',
+      a: 'Both last 15 to 25 years with quality products and proper installation. Vinyl tends to outlast laminate in wet and high-moisture areas because water does not damage its core. In dry rooms, a high-AC-rated laminate can match vinyl for lifespan.',
+    },
+    {
+      q: 'Is laminate or vinyl better for pets?',
+      a: 'Vinyl is better for pets. Its waterproof core shrugs off accidents, and it resists the scratching that claws cause. Laminate can handle pets in dry rooms, but a single missed accident that soaks into a seam can swell the board permanently.',
+    },
+    {
+      q: 'Can you tell the difference between vinyl and laminate?',
+      a: 'Up close, laminate usually has a deeper, more textured wood emboss and a harder, cooler surface, while vinyl feels slightly softer and warmer. The clearest test is the edge: laminate shows a light wood-fiber core, while vinyl shows a solid plastic core. In a finished floor, most people cannot tell at a glance.',
+    },
+  ],
+  'how-to-install-vinyl-plank-flooring': [
+    {
+      q: 'How do you install vinyl plank flooring?',
+      a: 'Prepare a clean, flat, dry subfloor, acclimate the planks for 48 hours, then lay click-lock planks row by row starting in a corner with 1/4-inch spacers at the walls. Angle and click each plank into the last, stagger end joints by at least 6 inches, cut the final row to fit, and cover the expansion gap with trim.',
+    },
+    {
+      q: 'Which direction should vinyl plank flooring go?',
+      a: 'Run vinyl plank parallel to the longest wall in the room, or in the direction of the main light from windows. This makes the seams less noticeable and the room feel larger. In hallways, always run the planks along the length of the hall.',
+    },
+    {
+      q: 'Do you need underlayment for vinyl plank flooring?',
+      a: 'Only if it is not already attached. Many rigid-core vinyl planks have a pad pre-attached, in which case you should not add a second layer. Over concrete you still need a moisture barrier. Do not double up cushioning, because too much give under the floor causes the locking joints to fail.',
+    },
+    {
+      q: 'What are the most common mistakes installing LVP?',
+      a: 'The biggest mistakes are skipping subfloor flatness prep, leaving no expansion gap at the walls, staggering end joints too closely, skipping the 48-hour acclimation, and forgetting the moisture barrier over concrete. Most LVP failures trace back to prep and expansion gaps, not the plank itself.',
+    },
+    {
+      q: 'How long does it take to install vinyl plank flooring?',
+      a: 'A professional installs roughly 100 square feet in 1 to 3 hours depending on room complexity. A DIY install takes longer, often a full weekend for a single room, with most of the time going to subfloor prep and cutting around obstacles rather than clicking planks together.',
+    },
+  ],
   'best-flooring-for-san-diego-homes': [
     {
       q: 'What is the best flooring for San Diego homes?',
