@@ -14,6 +14,21 @@ export type BlogPost = {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: 'best-flooring-for-san-diego-homes',
+    title: 'Best Flooring for San Diego Homes',
+    excerpt:
+      'The best flooring for San Diego homes is rigid-core LVP or engineered hardwood, built for slab foundations and coastal humidity. Best picks by goal, area, room, and budget.',
+    publishedDate: 'May 31, 2026',
+    updatedDate: 'May 31, 2026',
+    datePublishedISO: '2026-05-31',
+    dateModifiedISO: '2026-05-31',
+    metaTitle: 'Best Flooring for San Diego Homes (2026 Guide)',
+    metaDescription:
+      'The best flooring for San Diego homes is engineered hardwood and rigid-core LVP, built for slab foundations and coastal humidity. Best picks by goal, area, room, and budget.',
+    relatedServices: ['vinyl-flooring-san-diego', 'hardwood-flooring-san-diego', 'tile-flooring-san-diego'],
+    image: '/img/projects/portfolio/zelo-project-02.webp',
+  },
+  {
     slug: 'how-long-does-hardwood-refinishing-take',
     title: 'How Long Does Hardwood Floor Refinishing Take?',
     excerpt:
@@ -152,6 +167,7 @@ export const BLOG_POSTS: BlogPost[] = [
 ];
 
 export const PUBLISHED_BLOG_SLUGS = [
+  'best-flooring-for-san-diego-homes',
   'how-long-does-hardwood-refinishing-take',
   'laminate-flooring-thickness',
   'laminate-over-existing-floors',

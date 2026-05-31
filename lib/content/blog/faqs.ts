@@ -5,6 +5,28 @@
 export type BlogFaq = { q: string; a: string };
 
 export const BLOG_FAQS: Record<string, BlogFaq[]> = {
+  'best-flooring-for-san-diego-homes': [
+    {
+      q: 'What is the best flooring for San Diego homes?',
+      a: 'For most San Diego homes, rigid-core luxury vinyl plank (LVP) and engineered hardwood are the best options. Both are stable on concrete slab and resist coastal humidity. LVP is fully waterproof and the best all-round pick; engineered hardwood is the best real-wood choice. Porcelain tile is best in wet areas and carpet is best in bedrooms.',
+    },
+    {
+      q: 'What flooring is best for coastal San Diego homes?',
+      a: 'For coastal homes in areas like La Jolla, Del Mar, and Coronado, engineered hardwood, rigid-core vinyl plank, and porcelain tile hold up best against salt air and humidity. Solid hardwood tends to cup within a few miles of the ocean, so most coastal installs should avoid it.',
+    },
+    {
+      q: 'What is the best flooring for a concrete slab in San Diego?',
+      a: 'Rigid-core SPC luxury vinyl plank is the best flooring for a concrete slab because it is waterproof and dimensionally stable. Engineered hardwood and tile also work well on slab. Any wood or laminate install over slab should start with a moisture test and a vapor barrier to prevent buckling.',
+    },
+    {
+      q: 'What flooring adds the most value to a San Diego home?',
+      a: 'Engineered hardwood adds the most resale value because buyers respond to real wood, and it holds up in the local climate. High-quality rigid-core LVP is a close second and appeals to buyers who want a worry-free, waterproof floor. Both beat worn carpet or dated tile for buyer perception.',
+    },
+    {
+      q: 'What is the best budget flooring in San Diego?',
+      a: 'Water-resistant laminate is the best budget flooring, giving a realistic wood look at the lowest installed cost. Choose at least an AC4 wear rating for busy homes. Budget rigid-core LVP is the next step up and adds full waterproofing for a little more per square foot.',
+    },
+  ],
   'how-long-does-hardwood-refinishing-take': [
     {
       q: 'How long does hardwood floor refinishing take?',

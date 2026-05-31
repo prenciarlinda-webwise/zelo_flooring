@@ -19,8 +19,10 @@ import VinylPlankFlooringCostContent from '@/lib/content/blog/vinyl-plank-floori
 import LaminateOverExistingFloorsContent from '@/lib/content/blog/laminate-over-existing-floors';
 import LaminateFlooringThicknessContent from '@/lib/content/blog/laminate-flooring-thickness';
 import HowLongDoesHardwoodRefinishingTakeContent from '@/lib/content/blog/how-long-does-hardwood-refinishing-take';
+import BestFlooringForSanDiegoHomesContent from '@/lib/content/blog/best-flooring-for-san-diego-homes';
 
 const CONTENT_MAP: Record<string, React.FC> = {
+  'best-flooring-for-san-diego-homes': BestFlooringForSanDiegoHomesContent,
   'how-long-does-hardwood-refinishing-take': HowLongDoesHardwoodRefinishingTakeContent,
   'laminate-flooring-thickness': LaminateFlooringThicknessContent,
   'laminate-over-existing-floors': LaminateOverExistingFloorsContent,
