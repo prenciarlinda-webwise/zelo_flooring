@@ -132,6 +132,30 @@ export default function LocationPage({ location }: Props) {
         items={serviceBreakdownItems}
       />
 
+      {/* BEST-OF ANSWER BLOCK (AEO) */}
+      {location.bestOf && (
+        <section className="section">
+          <div className="container">
+            <div className="aeo-block">
+              <p className="eyebrow">Best flooring</p>
+              <h2>{location.bestOf.q}</h2>
+              <p className="aeo-answer-text">{location.bestOf.a}</p>
+              <ul className="aeo-keyfacts">
+                {location.bestOf.picks.map((p) => (
+                  <li key={p.category}>
+                    <strong>{p.category}:</strong>{' '}
+                    <Link href={p.href}>{p.pick}</Link>
+                  </li>
+                ))}
+              </ul>
+              <p>
+                <Link href={location.bestOf.guideHref}>{location.bestOf.guideLabel}</Link>
+              </p>
+            </div>
+          </div>
+        </section>
+      )}
+
       {/* AEO SECONDARY QUESTION */}
       <section className="section section-cream">
         <div className="container">

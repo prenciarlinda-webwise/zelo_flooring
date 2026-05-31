@@ -22,6 +22,14 @@ export type Location = {
   aeoCostAnswer: string;
   // 40-60 word AEO direct answer to a second top question
   aeoSecondaryQuestion: { q: string; a: string };
+  // Optional "best flooring for {city}" answer block (AEO). Rendered when present.
+  bestOf?: {
+    q: string;
+    a: string; // 40-60 word direct answer
+    picks: { category: string; pick: string; href: string }[];
+    guideHref: string;
+    guideLabel: string;
+  };
   cityIntro: string[]; // 1-2 paragraphs setting context (climate, housing, install nuances)
   localNuances: string[]; // 3-5 bullets: HOA rules, slab vs raised, beach humidity, permit notes
   whyChooseUsLocal: { title: string; desc: string }[]; // 4-6 city-specific differentiators
@@ -84,6 +92,19 @@ export const LOCATIONS: Location[] = [
     aeoSecondaryQuestion: {
       q: 'How long does flooring installation take in San Diego?',
       a: 'A typical 1,000 to 1,500 square foot install takes 1 to 3 days for vinyl plank or laminate, 2 to 4 days for hardwood including acclimation, and 3 to 5 days for tile with substrate prep. Slab grinding, asbestos testing on older homes, or HOA scheduling can extend the timeline.',
+    },
+    bestOf: {
+      q: 'What is the best flooring for San Diego homes?',
+      a: 'For most San Diego homes, rigid-core luxury vinyl plank and engineered hardwood are the best choices. Both stay stable on concrete slab and resist coastal humidity. Choose porcelain tile for wet areas, water-resistant laminate on a budget, and carpet for bedrooms.',
+      picks: [
+        { category: 'Best overall', pick: 'Rigid-core luxury vinyl plank, waterproof and slab-stable', href: '/vinyl-flooring-san-diego' },
+        { category: 'Best real wood', pick: 'Engineered hardwood, handles coastal humidity and adds resale value', href: '/hardwood-flooring-san-diego' },
+        { category: 'Best for wet areas', pick: 'Porcelain tile, fully waterproof and lasts decades', href: '/tile-flooring-san-diego' },
+        { category: 'Best budget', pick: 'Water-resistant laminate with an AC4 wear rating', href: '/laminate-flooring-san-diego' },
+        { category: 'Best for bedrooms', pick: 'Carpet with a quality 8 lb pad', href: '/carpet-flooring-san-diego' },
+      ],
+      guideHref: '/blog/best-flooring-for-san-diego-homes',
+      guideLabel: 'Read the full guide to the best flooring for San Diego homes',
     },
     cityIntro: [
       'Zelo Flooring is a family-run San Diego flooring contractor based in Mira Mesa, serving homeowners and businesses across San Diego County. We focus on the boring details that decide whether a floor lasts five years or twenty: slab moisture testing, manufacturer-spec acclimation, proper subfloor flatness, and clean transitions.',
