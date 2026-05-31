@@ -25,7 +25,7 @@ export default function LvpVsHardwoodContent() {
 
       {/* TOC */}
       <nav className="article-toc">
-        <h3>In This Guide</h3>
+        <h2>In This Guide</h2>
         <ol>
           <li><a href="#what-is-lvp">What Is LVP (Luxury Vinyl Plank)</a></li>
           <li><a href="#what-is-hardwood">What Is Hardwood Flooring</a></li>

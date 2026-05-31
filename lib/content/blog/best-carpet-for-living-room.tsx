@@ -28,7 +28,7 @@ export default function BestCarpetForLivingRoomContent() {
 
       {/* TOC */}
       <nav className="article-toc">
-        <h3>In This Guide</h3>
+        <h2>In This Guide</h2>
         <ol>
           <li><a href="#best-fibers">Best Carpet Fiber Types for Living Rooms</a></li>
           <li><a href="#pile-types">Best Pile Types for Living Rooms</a></li>

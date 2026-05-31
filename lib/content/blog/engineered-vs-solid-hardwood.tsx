@@ -25,7 +25,7 @@ export default function EngineeredVsSolidHardwoodContent() {
 
       {/* TOC */}
       <nav className="article-toc">
-        <h3>In This Guide</h3>
+        <h2>In This Guide</h2>
         <ol>
           <li><a href="#solid-hardwood">What Is Solid Hardwood</a></li>
           <li><a href="#engineered-hardwood">What Is Engineered Hardwood</a></li>

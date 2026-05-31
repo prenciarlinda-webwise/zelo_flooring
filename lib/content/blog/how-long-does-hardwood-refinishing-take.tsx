@@ -25,7 +25,7 @@ export default function HowLongDoesHardwoodRefinishingTakeContent() {
 
       {/* TOC */}
       <nav className="article-toc">
-        <h3>In This Guide</h3>
+        <h2>In This Guide</h2>
         <ol>
           <li><a href="#timeline">The Day-by-Day Refinishing Timeline</a></li>
           <li><a href="#cure">Cure Time: When Can You Use the Floor?</a></li>

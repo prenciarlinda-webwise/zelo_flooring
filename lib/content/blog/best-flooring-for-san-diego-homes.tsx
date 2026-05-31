@@ -25,7 +25,7 @@ export default function BestFlooringForSanDiegoHomesContent() {
 
       {/* TOC */}
       <nav className="article-toc">
-        <h3>In This Guide</h3>
+        <h2>In This Guide</h2>
         <ol>
           <li><a href="#why-different">Why San Diego Flooring Is Different</a></li>
           <li><a href="#by-goal">Best Flooring by Goal</a></li>

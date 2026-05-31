@@ -22,7 +22,7 @@ export default function VinylVsLaminateFlooringContent() {
 
       {/* TOC */}
       <nav className="article-toc">
-        <h3>In This Guide</h3>
+        <h2>In This Guide</h2>
         <ol>
           <li><a href="#verdict">The Quick Verdict</a></li>
           <li><a href="#compare">Vinyl vs Laminate, Side by Side</a></li>

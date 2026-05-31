@@ -26,7 +26,7 @@ export default function CarpetInstallationCostContent() {
 
       {/* TOC */}
       <nav className="article-toc">
-        <h3>In This Guide</h3>
+        <h2>In This Guide</h2>
         <ol>
           <li><a href="#average-cost">Average Cost to Install Carpet</a></li>
           <li><a href="#labor-cost">Labor Cost to Install Carpet Per Square Foot</a></li>

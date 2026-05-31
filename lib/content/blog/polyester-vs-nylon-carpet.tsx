@@ -25,7 +25,7 @@ export default function PolyesterVsNylonCarpetContent() {
 
       {/* TOC */}
       <nav className="article-toc">
-        <h3>In This Guide</h3>
+        <h2>In This Guide</h2>
         <ol>
           <li><a href="#what-is-nylon">What Is Nylon Carpet</a></li>
           <li><a href="#what-is-polyester">What Is Polyester Carpet</a></li>

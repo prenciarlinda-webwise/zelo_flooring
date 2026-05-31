@@ -26,7 +26,7 @@ export default function BestFlooringForPetsContent() {
 
       {/* TOC */}
       <nav className="article-toc">
-        <h3>In This Guide</h3>
+        <h2>In This Guide</h2>
         <ol>
           <li><a href="#what-to-look-for">What to Look for in Pet Friendly Flooring</a></li>
           <li><a href="#dog-size-matters">Dog Size and Breed Considerations</a></li>

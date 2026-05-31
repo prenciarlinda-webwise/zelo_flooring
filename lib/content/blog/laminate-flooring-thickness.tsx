@@ -25,7 +25,7 @@ export default function LaminateFlooringThicknessContent() {
 
       {/* TOC */}
       <nav className="article-toc">
-        <h3>In This Guide</h3>
+        <h2>In This Guide</h2>
         <ol>
           <li><a href="#what-is">What Laminate Thickness Actually Measures</a></li>
           <li><a href="#by-thickness">Laminate Thickness Options Compared</a></li>

@@ -25,7 +25,7 @@ export default function LaminateOverExistingFloorsContent() {
 
       {/* TOC */}
       <nav className="article-toc">
-        <h3>In This Guide</h3>
+        <h2>In This Guide</h2>
         <ol>
           <li><a href="#three-rules">The 3 Rules That Decide If You Can Float Over a Floor</a></li>
           <li><a href="#over-tile">Can You Install Laminate Over Tile?</a></li>

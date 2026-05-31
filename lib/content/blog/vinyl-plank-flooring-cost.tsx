@@ -26,7 +26,7 @@ export default function VinylPlankFlooringCostContent() {
 
       {/* TOC */}
       <nav className="article-toc">
-        <h3>In This Guide</h3>
+        <h2>In This Guide</h2>
         <ol>
           <li><a href="#average-cost">Average Cost by Project Size</a></li>
           <li><a href="#by-type">Cost by LVP Type (SPC, WPC, Glue-Down, Click-Lock)</a></li>
