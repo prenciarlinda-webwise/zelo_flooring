@@ -75,7 +75,7 @@ export default function LaminateOverExistingFloorsContent() {
         <strong>Yes, laminate can go over sheet vinyl, vinyl tile, and linoleum</strong> if the old floor is flat, well-adhered, and only one layer thick. Vinyl is usually a great substrate for laminate because it is smooth and continuous. Make sure there are no curling edges, bubbles, or loose tiles, and that the vinyl is glued down rather than floating.
       </p>
       <p>
-        One caution for older homes: vinyl and the adhesive under it from before 1985 can contain asbestos. If your vinyl is that old, do not sand, scrape, or tear it up to test it. Floating laminate on top is actually the safer choice because it leaves the old material undisturbed, but have it evaluated first if you are unsure.
+        One caution for older homes: vinyl and the adhesive under it from before 1985 can contain asbestos. If your vinyl is that old, do not sand, scrape, or tear it up to test it (see the <a href="https://www.epa.gov/asbestos" target="_blank" rel="noopener noreferrer">EPA's asbestos guidance</a>). Floating laminate on top is actually the safer choice because it leaves the old material undisturbed, but have it evaluated first if you are unsure.
       </p>
 
       {/* OVER HARDWOOD */}

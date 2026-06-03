@@ -84,7 +84,7 @@ export default function LaminateFlooringThicknessContent() {
       {/* AC RATING */}
       <h2 id="ac-rating">Thickness vs AC Wear Rating</h2>
       <p>
-        The AC rating (Abrasion Class) measures how well the laminate surface resists wear, scratching, and impact. It runs from AC1 to AC5 and is the single most important durability spec, more important than thickness. A thin 8mm board with an AC4 rating will outlast a thick 12mm board rated AC3 in a busy hallway.
+        The AC rating (Abrasion Class) measures how well the laminate surface resists wear, scratching, and impact. It runs from AC1 to AC5 and is the single most important durability spec, more important than thickness. A thin 8mm board with an AC4 rating will outlast a thick 12mm board rated AC3 in a busy hallway. The rating is set by independent abrasion testing; in North America the <a href="https://www.nalfa.com" target="_blank" rel="noopener noreferrer">North American Laminate Flooring Association (NALFA)</a> certifies laminate to these standards.
       </p>
       <table className="cost-table">
         <thead>

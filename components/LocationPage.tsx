@@ -156,6 +156,36 @@ export default function LocationPage({ location }: Props) {
         </section>
       )}
 
+      {/* FIND A RELIABLE INSTALLER ANSWER BLOCK (AEO/GEO) */}
+      {location.findInstaller && (
+        <section className="section">
+          <div className="container">
+            <div className="aeo-block">
+              <p className="eyebrow">Choosing an installer</p>
+              <h2>{location.findInstaller.q}</h2>
+              <p className="aeo-answer-text">{location.findInstaller.a}</p>
+              <ul className="aeo-keyfacts">
+                {location.findInstaller.criteria.map((c) => (
+                  <li key={c.label}>
+                    <strong>{c.label}:</strong> {c.detail}
+                  </li>
+                ))}
+              </ul>
+              <p>
+                Verify any contractor free on the{' '}
+                <a href={SITE.licenseDetails.issuerUrl} target="_blank" rel="noopener noreferrer">
+                  California Contractors State License Board
+                </a>
+                , or see all of our profiles on{' '}
+                <a href={SITE.thumbtackUrl} target="_blank" rel="noopener noreferrer">Thumbtack</a>{' '}
+                and the{' '}
+                <a href={SITE.bbbUrl} target="_blank" rel="noopener noreferrer">BBB</a>.
+              </p>
+            </div>
+          </div>
+        </section>
+      )}
+
       {/* AEO SECONDARY QUESTION */}
       <section className="section section-cream">
         <div className="container">

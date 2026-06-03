@@ -4,7 +4,7 @@ import PageHero from '@/components/PageHero';
 import BlogLayout from '@/components/BlogLayout';
 import ContactCTA from '@/components/ContactCTA';
 import { RelatedLocations } from '@/components/RelatedCards';
-import { PUBLISHED_BLOG_POSTS, getBlogPost } from '@/lib/blog-posts';
+import { PUBLISHED_BLOG_POSTS, getBlogPost, isBlogPostLive } from '@/lib/blog-posts';
 import { BLOG_FAQS } from '@/lib/content/blog/faqs';
 import { SITE } from '@/lib/areas';
 
@@ -58,7 +58,7 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }: Params): Promise<Metadata> {
   const { slug } = await params;
   const post = getBlogPost(slug);
-  if (!post) return {};
+  if (!post || !isBlogPostLive(post)) return {};
   return {
     title: post.metaTitle,
     description: post.metaDescription,
@@ -78,7 +78,7 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
 export default async function BlogPostPage({ params }: Params) {
   const { slug } = await params;
   const post = getBlogPost(slug);
-  if (!post) notFound();
+  if (!post || !isBlogPostLive(post)) notFound();
 
   const Content = CONTENT_MAP[slug];
   if (!Content) notFound();

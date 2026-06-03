@@ -154,9 +154,9 @@ export const BLOG_POSTS: BlogPost[] = [
     excerpt:
       'Laminate ranges from 6mm to 12mm thick. Here is what thickness actually affects, how it differs from the AC wear rating, and which combination to choose by room.',
     publishedDate: 'May 30, 2026',
-    updatedDate: 'May 30, 2026',
+    updatedDate: 'June 2, 2026',
     datePublishedISO: '2026-05-30',
-    dateModifiedISO: '2026-05-30',
+    dateModifiedISO: '2026-06-02',
     metaTitle: 'Laminate Flooring Thickness: 7mm to 12mm Explained',
     metaDescription:
       'Laminate flooring ranges from 6mm to 12mm thick. What thickness actually affects, how it differs from the AC wear rating, and which to choose by room.',
@@ -169,9 +169,9 @@ export const BLOG_POSTS: BlogPost[] = [
     excerpt:
       'Yes, in most cases, if the surface is flat, solid, and dry. A surface-by-surface guide to installing laminate over tile, vinyl, hardwood, concrete, existing laminate, and carpet.',
     publishedDate: 'May 30, 2026',
-    updatedDate: 'May 30, 2026',
+    updatedDate: 'June 2, 2026',
     datePublishedISO: '2026-05-30',
-    dateModifiedISO: '2026-05-30',
+    dateModifiedISO: '2026-06-02',
     metaTitle: 'Can You Install Laminate Over Existing Floors?',
     metaDescription:
       'Yes, laminate can go over tile, vinyl, hardwood, and concrete if the floor is flat, solid, and dry. Surface-by-surface guide to floating laminate over existing floors.',
@@ -292,8 +292,18 @@ export const PUBLISHED_BLOG_SLUGS = [
   'engineered-vs-solid-hardwood',
 ];
 
-export const PUBLISHED_BLOG_POSTS = BLOG_POSTS.filter((p) =>
-  PUBLISHED_BLOG_SLUGS.includes(p.slug)
-);
+// Build-time "today" (YYYY-MM-DD). Frozen when `next build` runs, NOT at request time.
+// This is what makes scheduling work: a post listed in PUBLISHED_BLOG_SLUGS but dated in
+// the future stays hidden until a build runs on or after its datePublishedISO. Pair this
+// with a nightly Hostinger cron rebuild (see SCHEDULING.md) so future-dated posts go live
+// on their own without a manual re-deploy.
+const BUILD_TODAY = new Date().toISOString().slice(0, 10);
+
+// A post is live when it is (1) switched on via the slug list AND (2) its publish date has
+// arrived as of the build. Lexicographic compare is safe for fixed-width YYYY-MM-DD strings.
+export const isBlogPostLive = (p: BlogPost, asOf: string = BUILD_TODAY) =>
+  PUBLISHED_BLOG_SLUGS.includes(p.slug) && p.datePublishedISO.slice(0, 10) <= asOf;
+
+export const PUBLISHED_BLOG_POSTS = BLOG_POSTS.filter((p) => isBlogPostLive(p));
 
 export const getBlogPost = (slug: string) => BLOG_POSTS.find((p) => p.slug === slug);
