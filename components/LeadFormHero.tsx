@@ -67,7 +67,7 @@ export default function LeadFormHero({ h1, valueProp, trustBullets, trustLogos, 
 
     setSending(true);
     try {
-      await postToFormspree('https://formspree.io/f/xqenljvr', formData);
+      await postToFormspree('https://formspree.io/f/mbdbaqqy', formData);
       track('lead_form_submit', {
         form_id: 'lead_form_hero',
         project_type: formData.get('projectType'),
@@ -181,7 +181,7 @@ export default function LeadFormHero({ h1, valueProp, trustBullets, trustLogos, 
           <form
             className="lead-hero-form"
             method="post"
-            action="https://formspree.io/f/xqenljvr"
+            action="https://formspree.io/f/mbdbaqqy"
             onSubmit={handleSubmit}
           >
             <p className="lead-hero-form-title">Get a Free Quote</p>

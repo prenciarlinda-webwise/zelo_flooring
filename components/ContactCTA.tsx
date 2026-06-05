@@ -33,7 +33,7 @@ export default function ContactCTA({ heading }: { heading?: string }) {
 
     setSending(true);
     try {
-      await postToFormspree('https://formspree.io/f/xqenljvr', formData);
+      await postToFormspree('https://formspree.io/f/mbdbaqqy', formData);
       track('lead_form_submit', {
         form_id: 'contact_form',
         service: formData.get('service'),
@@ -75,7 +75,7 @@ export default function ContactCTA({ heading }: { heading?: string }) {
         <form
           className="contact-form"
           method="post"
-          action="https://formspree.io/f/xqenljvr"
+          action="https://formspree.io/f/mbdbaqqy"
           onSubmit={handleSubmit}
         >
           <h3>Request Free Estimate</h3>
