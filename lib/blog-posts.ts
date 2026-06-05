@@ -26,7 +26,7 @@ export const BLOG_POSTS: BlogPost[] = [
     metaDescription:
       'LVP vs engineered hardwood compared: water resistance, cost, resale value, refinishing, and lifespan. Which is better for kitchens, pets, and real-wood value.',
     relatedServices: ['vinyl-flooring-san-diego', 'hardwood-flooring-san-diego', 'laminate-flooring-san-diego'],
-    image: '/img/hardwood-engineered-oak-2.webp',
+    image: '/img/projects/portfolio/zelo-project-18.webp',
   },
   {
     slug: 'types-of-hardwood-flooring',
@@ -41,7 +41,7 @@ export const BLOG_POSTS: BlogPost[] = [
     metaDescription:
       'The types of hardwood flooring: solid vs engineered, oak, maple, hickory and walnut species, prefinished vs site-finished, and plank widths. How to choose for your home.',
     relatedServices: ['hardwood-flooring-san-diego', 'vinyl-flooring-san-diego', 'laminate-flooring-san-diego'],
-    image: '/img/engineered-oak-flooring-2.jpg',
+    image: '/img/projects/portfolio/zelo-project-14.webp',
   },
   {
     slug: 'low-pile-vs-high-pile-carpet',
@@ -56,7 +56,7 @@ export const BLOG_POSTS: BlogPost[] = [
     metaDescription:
       'Low pile vs high pile carpet compared: durability, comfort, cleaning, and pets. Plus the main types of carpet pile and which is best for each room.',
     relatedServices: ['carpet-flooring-san-diego', 'laminate-flooring-san-diego', 'vinyl-flooring-san-diego'],
-    image: '/img/carpet-berber-loop.webp',
+    image: '/img/projects/portfolio/zelo-project-23.webp',
   },
   {
     slug: 'how-to-clean-luxury-vinyl-plank-flooring',
@@ -71,7 +71,7 @@ export const BLOG_POSTS: BlogPost[] = [
     metaDescription:
       'How to clean luxury vinyl plank flooring: the best cleaners, why to avoid steam mops and wax, stain removal, scratch prevention, and a simple maintenance schedule.',
     relatedServices: ['vinyl-flooring-san-diego', 'laminate-flooring-san-diego', 'tile-flooring-san-diego'],
-    image: '/img/vinyl-luxury-plank.webp',
+    image: '/img/projects/portfolio/zelo-project-03.webp',
   },
   {
     slug: 'tile-vs-vinyl-flooring',
@@ -101,7 +101,7 @@ export const BLOG_POSTS: BlogPost[] = [
     metaDescription:
       'Vinyl plank vs laminate flooring compared. Water resistance, durability, feel, cost, and which is better for kitchens, pets, and budgets. A clear room-by-room verdict.',
     relatedServices: ['vinyl-flooring-san-diego', 'laminate-flooring-san-diego', 'hardwood-flooring-san-diego'],
-    image: '/img/Water-Resistant-Laminate-Flooring.jpg',
+    image: '/img/projects/portfolio/zelo-project-01.webp',
   },
   {
     slug: 'how-to-install-vinyl-plank-flooring',
@@ -116,7 +116,7 @@ export const BLOG_POSTS: BlogPost[] = [
     metaDescription:
       'How to install vinyl plank flooring step by step: subfloor prep, acclimation, layout direction, expansion gaps, the most common mistakes, and when to hire a pro.',
     relatedServices: ['vinyl-flooring-san-diego', 'laminate-flooring-san-diego', 'tile-flooring-san-diego'],
-    image: '/img/Rigid-Core-Vinyl.jpg',
+    image: '/img/projects/portfolio/zelo-project-20.webp',
   },
   {
     slug: 'best-flooring-for-san-diego-homes',
@@ -146,7 +146,7 @@ export const BLOG_POSTS: BlogPost[] = [
     metaDescription:
       'Hardwood floor refinishing takes 3 to 5 days of active work, plus cure time. Day-by-day timeline, water vs oil finish, and when you can walk, move furniture, and add rugs.',
     relatedServices: ['hardwood-flooring-san-diego', 'laminate-flooring-san-diego', 'vinyl-flooring-san-diego'],
-    image: '/img/solid-wood.jpg',
+    image: '/img/projects/portfolio/zelo-project-04.webp',
   },
   {
     slug: 'laminate-flooring-thickness',
@@ -176,7 +176,7 @@ export const BLOG_POSTS: BlogPost[] = [
     metaDescription:
       'Yes, laminate can go over tile, vinyl, hardwood, and concrete if the floor is flat, solid, and dry. Surface-by-surface guide to floating laminate over existing floors.',
     relatedServices: ['laminate-flooring-san-diego', 'tile-flooring-san-diego', 'vinyl-flooring-san-diego'],
-    image: '/img/Laminate-Plank-Flooring.webp',
+    image: '/img/projects/portfolio/zelo-project-12.webp',
   },
   {
     slug: 'cost-to-install-carpet',
@@ -186,7 +186,7 @@ export const BLOG_POSTS: BlogPost[] = [
     updatedDate: 'May 6, 2026',
     datePublishedISO: '2026-03-18',
     dateModifiedISO: '2026-05-06',
-    image: '/img/carpet-installed-bedroom-2.webp',
+    image: '/img/projects/portfolio/zelo-project-16.webp',
     metaTitle: 'Carpet Installation Cost in 2026 - $3-$8/sqft Installed Guide',
     metaDescription: 'Carpet installation costs $3-$8 per square foot installed in 2026. Full breakdown by fiber, brand, pad, room size, stair cost, labor cost per square foot, and what should be included in your quote.',
     relatedServices: ['carpet-flooring-san-diego', 'vinyl-flooring-san-diego', 'laminate-flooring-san-diego'],
@@ -225,7 +225,7 @@ export const BLOG_POSTS: BlogPost[] = [
     updatedDate: 'May 6, 2026',
     datePublishedISO: '2026-01-22',
     dateModifiedISO: '2026-05-06',
-    image: '/img/vinyl-rigid-core.webp',
+    image: '/img/projects/portfolio/zelo-project-08.webp',
     metaTitle: 'Best Flooring For Homes With Pets - 2026 Buyer Guide',
     metaDescription: 'Best flooring for homes with pets. Scratch-proof, waterproof options compared. LVP, tile, laminate, and carpet rated for dogs and cats.',
     relatedServices: ['vinyl-flooring-san-diego', 'tile-flooring-san-diego', 'carpet-flooring-san-diego'],
@@ -251,7 +251,7 @@ export const BLOG_POSTS: BlogPost[] = [
     updatedDate: 'May 6, 2026',
     datePublishedISO: '2025-12-18',
     dateModifiedISO: '2026-05-06',
-    image: '/img/Textured-Carpet.webp',
+    image: '/img/projects/portfolio/zelo-project-11.webp',
     metaTitle: 'Polyester vs Nylon Carpet - 2026 Fiber Buyer Guide',
     metaDescription: 'Polyester vs nylon carpet compared in 2026. Durability, stain resistance, real-life pet and stain handling, cost tiers, and brand picks for every room and traffic level.',
     relatedServices: ['carpet-flooring-san-diego'],
@@ -264,7 +264,7 @@ export const BLOG_POSTS: BlogPost[] = [
     updatedDate: 'May 6, 2026',
     datePublishedISO: '2025-12-05',
     dateModifiedISO: '2026-05-06',
-    image: '/img/hardwood-solid-wood-2.webp',
+    image: '/img/projects/portfolio/zelo-project-07.webp',
     metaTitle: 'Engineered vs Solid Hardwood - 2026 Buyer Guide',
     metaDescription: 'Engineered vs solid hardwood compared in 2026. Wear layer thickness, refinishing potential, install method by subfloor, cost tiers, brand picks, and which works in your home.',
     relatedServices: ['hardwood-flooring-san-diego'],

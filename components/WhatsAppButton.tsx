@@ -6,13 +6,15 @@ export default function WhatsAppButton() {
   const message = encodeURIComponent(
     `Hi ${SITE.name}, I'm interested in a flooring project. Can you help me with a free estimate?`
   );
-  const whatsappUrl = `https://wa.me/${SITE.phoneRaw}?text=${message}`;
+  // wa.me wants the number in plain international form with no "+" or punctuation.
+  const waNumber = SITE.phoneRaw.replace(/\D/g, '');
+  const whatsappUrl = `https://wa.me/${waNumber}?text=${message}`;
 
   return (
     <a
       href={whatsappUrl}
       target="_blank"
-      rel="noopener noreferrer"
+      rel="noopener noreferrer nofollow"
       className="whatsapp-float"
       aria-label="Chat on WhatsApp"
     >

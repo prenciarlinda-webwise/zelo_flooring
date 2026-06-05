@@ -3,6 +3,7 @@
 import { FormEvent, useRef, useState } from 'react';
 import { PhoneIcon, PinIcon, ClockIcon } from './Icons';
 import Recaptcha, { RecaptchaHandle } from './Recaptcha';
+import FormSuccess from './FormSuccess';
 import { SITE, SERVICE_AREAS } from '@/lib/areas';
 import { postToFormspree } from '@/lib/formspree';
 import { track } from '@/lib/track';
@@ -34,6 +35,7 @@ export default function FinalCTA({ heading, subheading, defaultProjectType, head
   const [sending, setSending] = useState(false);
   const [errored, setErrored] = useState(false);
   const [captchaError, setCaptchaError] = useState(false);
+  const [submittedArea, setSubmittedArea] = useState('');
   const captchaRef = useRef<RecaptchaHandle>(null);
 
   const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
@@ -60,10 +62,10 @@ export default function FinalCTA({ heading, subheading, defaultProjectType, head
         project_type: formData.get('projectType'),
         neighborhood: formData.get('neighborhood'),
       });
+      setSubmittedArea(String(formData.get('neighborhood') || ''));
       setSubmitted(true);
       form.reset();
       captchaRef.current?.reset();
-      setTimeout(() => setSubmitted(false), 6000);
     } catch (err) {
       console.error('Form submission failed:', err);
       track('lead_form_error', {
@@ -94,6 +96,11 @@ export default function FinalCTA({ heading, subheading, defaultProjectType, head
           </div>
         </div>
 
+        {submitted ? (
+          <div className="final-cta-form">
+            <FormSuccess area={submittedArea} />
+          </div>
+        ) : (
         <form
           className="final-cta-form"
           method="post"
@@ -141,6 +148,7 @@ export default function FinalCTA({ heading, subheading, defaultProjectType, head
           )}
           <p className="final-cta-form-trust">Your info is private and never shared.</p>
         </form>
+        )}
       </div>
     </section>
   );

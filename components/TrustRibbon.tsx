@@ -78,13 +78,13 @@ export default function TrustRibbon() {
           target="_blank"
           rel="noopener noreferrer"
           className="trust-ribbon-item"
-          aria-label="Thumbtack Top Pro 2023, 2024, and 2025"
+          aria-label="Thumbtack Top Pro - quality floors, honest service"
         >
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img src="/img/top-pro-thumbtack.png" alt="" className="trust-ribbon-logo-img trust-ribbon-toppro-img" />
           <span className="trust-ribbon-text">
-            <strong>Top Pro 3 Years</strong>
-            <span>Thumbtack 2023 · 2024 · 2025</span>
+            <strong>Thumbtack Top Pro</strong>
+            <span>Quality floors, honest service</span>
           </span>
         </a>
       </div>

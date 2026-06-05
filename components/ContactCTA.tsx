@@ -3,6 +3,7 @@
 import { FormEvent, useRef, useState } from 'react';
 import { PhoneIcon, PinIcon, ClockIcon } from './Icons';
 import Recaptcha, { RecaptchaHandle } from './Recaptcha';
+import FormSuccess from './FormSuccess';
 import { SITE } from '@/lib/areas';
 import { SERVICES } from '@/lib/services';
 import { postToFormspree } from '@/lib/formspree';
@@ -41,7 +42,6 @@ export default function ContactCTA({ heading }: { heading?: string }) {
       setSubmitted(true);
       form.reset();
       captchaRef.current?.reset();
-      setTimeout(() => setSubmitted(false), 6000);
     } catch (err) {
       console.error('Form submission failed:', err);
       track('lead_form_error', {
@@ -72,6 +72,11 @@ export default function ContactCTA({ heading }: { heading?: string }) {
           </div>
         </div>
 
+        {submitted ? (
+          <div className="contact-form">
+            <FormSuccess />
+          </div>
+        ) : (
         <form
           className="contact-form"
           method="post"
@@ -108,6 +113,7 @@ export default function ContactCTA({ heading }: { heading?: string }) {
           )}
           <p className="form-trust">Your info is private and never shared.</p>
         </form>
+        )}
       </div>
     </section>
   );

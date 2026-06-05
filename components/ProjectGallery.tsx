@@ -19,7 +19,7 @@ export default function ProjectGallery({
   heading = 'Recent Zelo Flooring Projects',
   subheading = 'Real installs across San Diego County. Carpet, LVP, hardwood, and tile, all completed by the Zelo Flooring team.',
   photos = DEFAULT_PHOTOS,
-  initialCount = 12,
+  initialCount = 6,
 }: Props) {
   const [showAll, setShowAll] = useState(false);
   const [lightbox, setLightbox] = useState<number | null>(null);
@@ -46,7 +46,7 @@ export default function ProjectGallery({
                 aria-label={`View project photo ${i + 1}`}
               >
                 {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img src={src} alt={`Zelo Flooring project ${i + 1}`} loading="lazy" />
+                <img src={src} alt={`Zelo Flooring project ${i + 1}`} width={800} height={800} loading="lazy" decoding="async" />
               </button>
             </li>
           ))}

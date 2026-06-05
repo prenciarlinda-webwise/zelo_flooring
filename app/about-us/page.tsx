@@ -9,7 +9,7 @@ import { SITE } from '@/lib/areas';
 
 export const metadata: Metadata = {
   title: 'About Us - San Diego Flooring Contractors',
-  description: `Learn about ${SITE.name}, a family-operated San Diego flooring installation company with over a decade of journeyman experience. C-15 licensed (CSLB #${SITE.license}), bonded, insured, and BBB Accredited A+. Owner: Endri Zelollari.`,
+  description: `Learn about ${SITE.name}, an owner-operated San Diego flooring installation company with over a decade of journeyman experience. C-15 licensed (CSLB #${SITE.license}), bonded, insured, and BBB Accredited A+. Owner: Endri Zelollari.`,
   alternates: { canonical: `${SITE.url}/about-us` },
 };
 
@@ -18,15 +18,15 @@ export default function AboutPage() {
     <>
       <PageHero
         title="About Zelo Flooring"
-        subtitle="A family business, locally operated, and committed to quality flooring installation in San Diego County."
+        subtitle="Owner-operated and locally based, committed to quality flooring installation in San Diego County."
         crumbs={[{ label: 'Home', href: '/' }, { label: 'About Us' }]}
       />
 
       <AlternatingSection
         eyebrow="Our Story"
-        title="A Family-Operated San Diego Flooring Installation Company"
+        title="An Owner-Operated San Diego Flooring Installation Company"
         paragraphs={[
-          `${SITE.name} is a family-operated flooring installation company based in ${SITE.city}. We have over a decade of journeyman experience installing residential and commercial flooring. We pride ourselves on craftsmanship, communication, and diligence.`,
+          `${SITE.name} is an owner-operated flooring installation company based in ${SITE.city}. We have over a decade of journeyman experience installing residential and commercial flooring. We pride ourselves on craftsmanship, communication, and diligence.`,
           `The Zelo Flooring business was founded in October 2021 as a sole proprietorship and has been BBB Accredited with an ${SITE.bbb.rating} rating since October 2022. We bring extensive experience across LVP, carpet, hardwood, laminate, tile, cork, rubber, VCT, self-leveling, and more.`,
         ]}
         bullets={[

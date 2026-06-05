@@ -31,9 +31,9 @@ export const SITE = {
   numberOfEmployees: 4,
   hiredCount: 57, // Times hired on Thumbtack
   address: 'San Diego, CA',
-  tagline: 'Family-operated',
+  tagline: 'Owner-operated',
   description:
-    'Zelo Flooring is a family-operated flooring installation company based in San Diego. We have over a decade of journeyman experience installing residential and commercial flooring. We pride ourselves on craftsmanship, communication, and diligence.',
+    'Zelo Flooring is an owner-operated flooring installation company based in San Diego. We have over a decade of journeyman experience installing residential and commercial flooring. We pride ourselves on craftsmanship, communication, and diligence.',
   url: 'https://www.zeloflooring.com',
   // Drives sitemap lastmod for static routes. Bump when chrome (header/footer/global schema) changes.
   lastUpdated: '2026-05-07',

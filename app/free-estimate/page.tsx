@@ -46,10 +46,10 @@ export default function FreeEstimatePage() {
         },
         {
           src: '/img/top-pro-thumbtack.png',
-          alt: 'Thumbtack Top Pro 2023, 2024, 2025',
+          alt: 'Thumbtack Top Pro - quality floors, honest service',
           href: SITE.thumbtackUrl,
-          label: 'Top Pro 3 Years',
-          subLabel: '2023 · 2024 · 2025',
+          label: 'Thumbtack Top Pro',
+          subLabel: 'Quality floors, honest service',
         },
       ]}
       image="/img/projects/lvp-whole-home/after-living-room-lvp.webp"

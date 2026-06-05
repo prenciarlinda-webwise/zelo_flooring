@@ -3390,3 +3390,38 @@ a.trust-badge:hover {
   .trust-badge { flex: 1 1 0; }
 }
 
+/* Post-submission success panel (shown in place of a lead form) */
+.form-success {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+  padding: 8px 4px;
+}
+.form-success-title {
+  font-size: 1.4rem;
+  font-weight: 800;
+  color: var(--terracotta);
+  margin: 0;
+}
+.form-success-title::before {
+  content: "✓ ";
+  color: var(--green, #2E7D32);
+}
+.form-success-text {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: var(--gray-700);
+  margin: 0;
+  max-width: 36ch;
+}
+.form-success-or {
+  margin: 6px 0 0;
+  font-weight: 600;
+  color: var(--gray-600);
+}
+.form-success .btn {
+  margin-top: 2px;
+}
+

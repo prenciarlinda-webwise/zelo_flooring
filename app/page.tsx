@@ -78,7 +78,7 @@ export default function HomePage() {
       />
       <LeadFormHero
         h1="San Diego Flooring Installation Company"
-        valueProp="Zelo Flooring is a family-run, C-15 licensed flooring installation company in San Diego. We have installed floors across the county for over a decade. We fit carpet, vinyl plank, hardwood, laminate, tile, cork, rubber, and VCT. Free in-home estimates."
+        valueProp="Zelo Flooring installs carpet, vinyl plank, hardwood, laminate, tile, cork, rubber, and VCT across San Diego County. With 13+ years of journeyman experience, we handle slab moisture testing, manufacturer-spec acclimation, and clean transitions so floors last. Free in-home estimates, and most homeowners get a written quote within one business day."
         trustLogos={[
           {
             kind: 'bbb',
@@ -112,10 +112,10 @@ export default function HomePage() {
           },
           {
             src: '/img/top-pro-thumbtack.png',
-            alt: 'Thumbtack Top Pro 2023, 2024, 2025',
+            alt: 'Thumbtack Top Pro - quality floors, honest service',
             href: SITE.thumbtackUrl,
-            label: 'Top Pro 3 Years',
-            subLabel: '2023 · 2024 · 2025',
+            label: 'Thumbtack Top Pro',
+            subLabel: 'Quality floors, honest service',
           },
         ]}
         image="/img/projects/lvp-whole-home/after-living-room-lvp.webp"
@@ -134,13 +134,14 @@ export default function HomePage() {
 
       <AlternatingSection
         eyebrow="About Zelo Flooring"
-        title="Family-Operated San Diego Flooring Installation Company"
+        title="Owner-Operated San Diego Flooring Installation Company"
         paragraphs={[
-          'Zelo Flooring is a family-run flooring installation company based in San Diego. We have installed residential and commercial floors for over a decade. We show up on time, communicate clearly, and do the job right.',
+          'Zelo Flooring is an owner-operated flooring installation company based in San Diego. We have installed residential and commercial floors for over a decade. We show up on time, communicate clearly, and do the job right.',
           'We install carpet, luxury vinyl plank, hardwood, laminate, and tile. We also do cork, rubber, home gym flooring, VCT, baseboards, and self-leveling prep. Free in-home estimates across San Diego County.',
+          'We provide the same professional installation quality as the large flooring chains, but with lower overhead, direct communication, and competitive pricing. Most customers save 15% to 30% compared to national flooring companies.',
         ]}
         bullets={[
-          'Family-operated, 13+ years of journeyman flooring experience',
+          'Owner-operated, 13+ years of journeyman flooring experience',
           `CSLB ${SITE.licenseDetails.classification} Licensed #${SITE.licenseDetails.number}, bonded, and insured`,
           `BBB Accredited Business, ${SITE.bbb.rating} rating since 2022`,
           'Thumbtack Top Pro 2023, 2024, and 2025',
