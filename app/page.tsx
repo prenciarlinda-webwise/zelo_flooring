@@ -134,14 +134,14 @@ export default function HomePage() {
 
       <AlternatingSection
         eyebrow="About Zelo Flooring"
-        title="Owner-Operated San Diego Flooring Installation Company"
+        title="Trusted San Diego Flooring Installation Company"
         paragraphs={[
-          'Zelo Flooring is an owner-operated flooring installation company based in San Diego. We have installed residential and commercial floors for over a decade. We show up on time, communicate clearly, and do the job right.',
+          'Zelo Flooring is a flooring installation company based in San Diego. We have installed residential and commercial floors for over a decade. We show up on time, communicate clearly, and do the job right.',
           'We install carpet, luxury vinyl plank, hardwood, laminate, and tile. We also do cork, rubber, home gym flooring, VCT, baseboards, and self-leveling prep. Free in-home estimates across San Diego County.',
           'We provide the same professional installation quality as the large flooring chains, but with lower overhead, direct communication, and competitive pricing. Most customers save 15% to 30% compared to national flooring companies.',
         ]}
         bullets={[
-          'Owner-operated, 13+ years of journeyman flooring experience',
+          '13+ years of journeyman flooring experience',
           `CSLB ${SITE.licenseDetails.classification} Licensed #${SITE.licenseDetails.number}, bonded, and insured`,
           `BBB Accredited Business, ${SITE.bbb.rating} rating since 2022`,
           'Thumbtack Top Pro 2023, 2024, and 2025',

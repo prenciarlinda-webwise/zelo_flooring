@@ -82,7 +82,7 @@ export const SERVICES: Service[] = [
       'Power-stretched carpet from trusted brands, installed across San Diego County with a premium pad and free in-home samples.',
     trustBullets: [
       'C-15 Licensed CSLB #1083572',
-      'Owner-operated, 13+ years of journeyman experience',
+      '13+ years of journeyman experience',
       '5.0★ on Thumbtack (34 reviews)',
     ],
     subServices: [
@@ -148,7 +148,7 @@ export const SERVICES: Service[] = [
       'Waterproof luxury vinyl plank installed across San Diego with proper slab prep, manufacturer-spec layout, and brands that hold up under real life.',
     trustBullets: [
       'C-15 Licensed CSLB #1083572',
-      'Owner-operated, 13+ years of journeyman experience',
+      '13+ years of journeyman experience',
       '5.0★ on Thumbtack (34 reviews)',
     ],
     subServices: [
@@ -214,7 +214,7 @@ export const SERVICES: Service[] = [
       'NWFA-aligned hardwood installation across San Diego. Solid, engineered, and refinishing of existing hardwood with documented moisture testing and acclimation.',
     trustBullets: [
       'C-15 Licensed CSLB #1083572',
-      'Owner-operated, 13+ years of journeyman experience',
+      '13+ years of journeyman experience',
       '5.0★ on Thumbtack (34 reviews)',
     ],
     subServices: [
@@ -282,7 +282,7 @@ export const SERVICES: Service[] = [
       'Laminate flooring installed across San Diego with vapor-barrier underlayment, proper expansion gaps, and the brands that actually hold up under daily use.',
     trustBullets: [
       'C-15 Licensed CSLB #1083572',
-      'Owner-operated, 13+ years of journeyman experience',
+      '13+ years of journeyman experience',
       '5.0★ on Thumbtack (34 reviews)',
     ],
     subServices: [
@@ -347,7 +347,7 @@ export const SERVICES: Service[] = [
       'Porcelain, ceramic, and natural stone tile installed across San Diego. Proper substrate prep, waterproofing in wet zones, and tight grout lines on every job.',
     trustBullets: [
       'C-15 Licensed CSLB #1083572',
-      'Owner-operated, 13+ years of journeyman experience',
+      '13+ years of journeyman experience',
       '5.0★ on Thumbtack (34 reviews)',
     ],
     subServices: [
@@ -414,7 +414,7 @@ export const SERVICES: Service[] = [
       'Cork flooring installed across San Diego. Glue-down tile and floating plank from Wicanders, APC, and Globus, with proper slab moisture sealing on every job.',
     trustBullets: [
       'C-15 Licensed CSLB #1083572',
-      'Owner-operated, 13+ years of journeyman experience',
+      '13+ years of journeyman experience',
       '5.0★ on Thumbtack (34 reviews)',
     ],
     subServices: [
@@ -480,7 +480,7 @@ export const SERVICES: Service[] = [
       'Rubber flooring installed across San Diego for home gyms, commercial fitness, garages, and play areas. Right thickness for the application, every job.',
     trustBullets: [
       'C-15 Licensed CSLB #1083572',
-      'Owner-operated, 13+ years of journeyman experience',
+      '13+ years of journeyman experience',
       '5.0★ on Thumbtack (34 reviews)',
     ],
     subServices: [
@@ -547,7 +547,7 @@ export const SERVICES: Service[] = [
       'VCT installed across San Diego for schools, healthcare, retail, and offices. Pattern layouts, cove base, and after-hours scheduling so your space stays open.',
     trustBullets: [
       'C-15 Licensed CSLB #1083572',
-      'Owner-operated, 13+ years of journeyman experience',
+      '13+ years of journeyman experience',
       '5.0★ on Thumbtack (34 reviews)',
     ],
     subServices: [

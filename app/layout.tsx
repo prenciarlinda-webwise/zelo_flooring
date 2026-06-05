@@ -17,11 +17,11 @@ export const metadata: Metadata = {
     default: `${SITE.name} - Flooring Installation San Diego, CA`,
     template: `%s - ${SITE.name}`,
   },
-  description: `${SITE.name} is an owner-operated, C-15 licensed flooring installation company in San Diego with over a decade of journeyman experience. Carpet, LVP, hardwood, laminate, tile, cork, rubber, VCT. Bonded, insured, BBB Accredited A+. Free in-home estimates. Call ${SITE.phone}.`,
+  description: `${SITE.name} is a C-15 licensed flooring installation company in San Diego with over a decade of journeyman experience. Carpet, LVP, hardwood, laminate, tile, cork, rubber, VCT. Bonded, insured, BBB Accredited A+. Free in-home estimates. Call ${SITE.phone}.`,
   openGraph: {
     title: `${SITE.name} - Flooring Installation San Diego, CA`,
     description:
-      'Owner-operated flooring installation in San Diego. C-15 licensed, BBB Accredited A+, Thumbtack Top Pro 2023-2025. Free in-home estimates.',
+      'Flooring installation in San Diego. C-15 licensed, BBB Accredited A+, Thumbtack Top Pro 2023-2025. Free in-home estimates.',
     url: SITE.url,
     siteName: SITE.name,
     locale: 'en_US',

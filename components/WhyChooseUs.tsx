@@ -4,7 +4,7 @@ const REASONS = [
   {
     icon: HomeIcon,
     title: 'Local San Diego Experts',
-    desc: 'Owner-operated, local, and dialed in to how Southern California homes behave.',
+    desc: 'Local and dialed in to how Southern California homes behave.',
   },
   {
     icon: ShieldIcon,

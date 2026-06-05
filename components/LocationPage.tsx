@@ -49,7 +49,7 @@ export default function LocationPage({ location }: Props) {
         trustBullets={[
           `${SITE.licenseDetails.classification} Licensed (CSLB #${SITE.license})`,
           isMain
-            ? `Owner-operated, ${SITE.ownerExperienceYears}+ years of journeyman experience`
+            ? `${SITE.ownerExperienceYears}+ years of journeyman experience`
             : `Serving ${location.city} from our San Diego office`,
           `${SITE.rating.value.toFixed(1)}★ on Thumbtack (${SITE.rating.count} reviews)`,
         ]}
