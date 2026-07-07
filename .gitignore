@@ -11,3 +11,5 @@ next-env.d.ts
 .idea
 .claude/
 CLAUDE.md
+PROGRESS.md
+SCHEDULING.md
