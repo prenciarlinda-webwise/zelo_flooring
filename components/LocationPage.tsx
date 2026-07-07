@@ -172,6 +172,19 @@ export default function LocationPage({ location }: Props) {
                 ))}
               </ul>
               <p>
+                Zelo Flooring is a licensed, full-service San Diego flooring and carpet company,
+                installing <Link href="/carpet-flooring-san-diego">carpet</Link> throughout San Diego
+                and nearby <Link href="/flooring-la-jolla">La Jolla</Link>.
+              </p>
+              <p>
+                We also install{' '}
+                <Link href="/hardwood-flooring-san-diego">hardwood flooring</Link>,{' '}
+                <Link href="/vinyl-flooring-san-diego">luxury vinyl plank</Link>, and{' '}
+                <Link href="/laminate-flooring-san-diego">laminate flooring</Link> across the county,
+                including <Link href="/flooring-carlsbad">Carlsbad</Link> and{' '}
+                <Link href="/flooring-coronado">Coronado</Link>.
+              </p>
+              <p>
                 Verify any contractor free on the{' '}
                 <a href={SITE.licenseDetails.issuerUrl} target="_blank" rel="noopener noreferrer">
                   California Contractors State License Board
