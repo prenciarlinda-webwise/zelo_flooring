@@ -27,6 +27,16 @@ import TypesOfHardwoodFlooringContent from '@/lib/content/blog/types-of-hardwood
 import LowPileVsHighPileCarpetContent from '@/lib/content/blog/low-pile-vs-high-pile-carpet';
 import HowToCleanLuxuryVinylPlankFlooringContent from '@/lib/content/blog/how-to-clean-luxury-vinyl-plank-flooring';
 import TileVsVinylFlooringContent from '@/lib/content/blog/tile-vs-vinyl-flooring';
+import FlooringServicesGuideContent from '@/lib/content/blog/flooring-services-guide';
+import HowToChooseAFlooringCompanyContent from '@/lib/content/blog/how-to-choose-a-flooring-company';
+import IsFreeFlooringInstallationRealContent from '@/lib/content/blog/is-free-flooring-installation-real';
+import WallToWallCarpetContent from '@/lib/content/blog/wall-to-wall-carpet';
+import FlooringDesignIdeasByRoomContent from '@/lib/content/blog/flooring-design-ideas-by-room';
+import WoodLookTileVsHardwoodContent from '@/lib/content/blog/wood-look-tile-vs-hardwood';
+import BathroomFlooringInstallationContent from '@/lib/content/blog/bathroom-flooring-installation';
+import BestFlooringForNewConstructionContent from '@/lib/content/blog/best-flooring-for-new-construction';
+import BestFlooringForSchoolsContent from '@/lib/content/blog/best-flooring-for-schools';
+import BestFlooringForCraftRoomContent from '@/lib/content/blog/best-flooring-for-craft-room';
 
 const CONTENT_MAP: Record<string, React.FC> = {
   'lvp-vs-engineered-hardwood': LvpVsEngineeredHardwoodContent,
@@ -47,6 +57,16 @@ const CONTENT_MAP: Record<string, React.FC> = {
   'polyester-vs-nylon-carpet': PolyesterVsNylonCarpetContent,
   'engineered-vs-solid-hardwood': EngineeredVsSolidHardwoodContent,
   'vinyl-plank-flooring-cost': VinylPlankFlooringCostContent,
+  'flooring-services-guide': FlooringServicesGuideContent,
+  'how-to-choose-a-flooring-company': HowToChooseAFlooringCompanyContent,
+  'is-free-flooring-installation-real': IsFreeFlooringInstallationRealContent,
+  'wall-to-wall-carpet': WallToWallCarpetContent,
+  'flooring-design-ideas-by-room': FlooringDesignIdeasByRoomContent,
+  'wood-look-tile-vs-hardwood': WoodLookTileVsHardwoodContent,
+  'bathroom-flooring-installation': BathroomFlooringInstallationContent,
+  'best-flooring-for-new-construction': BestFlooringForNewConstructionContent,
+  'best-flooring-for-schools': BestFlooringForSchoolsContent,
+  'best-flooring-for-craft-room': BestFlooringForCraftRoomContent,
 };
 
 type Params = { params: Promise<{ slug: string }> };
