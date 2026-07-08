@@ -199,7 +199,7 @@ export const SERVICES: Service[] = [
     secondaryImage: '/img/hardwood-engineered-oak-2.webp',
     metaTitle: 'Hardwood Flooring Installation San Diego',
     metaDescription:
-      'Solid and engineered hardwood flooring installation in San Diego. Oak, maple, hickory, walnut and more. NWFA-spec installs. Call +1 (619) 777-4334.',
+      'Solid and engineered hardwood flooring installation, refinishing, and repair in San Diego. Oak, maple, hickory, walnut and more. NWFA-spec installs. Call +1 (619) 777-4334.',
     lastUpdated: '2026-05-06',
     heroChip: 'San Diego, CA',
     heroTagline: 'NWFA-aligned. Refinish-first. No rushed acclimation.',
@@ -239,7 +239,8 @@ export const SERVICES: Service[] = [
       { q: 'How long does the install take and when can I walk on it?', a: 'A 1,500 square foot project is typically a full week start to finish: 5 to 7 days of acclimation, 2 to 3 days of install, plus a day for trim. You can walk on engineered floors as soon as installation finishes. Site-finished solid hardwood needs 24 to 48 hours after the last coat.' },
       { q: 'Will my new floor have gaps in winter?', a: 'A small amount of seasonal movement is normal. Larger gaps usually mean the wood went down with high moisture content and lost it later, or the install skipped acclimation. Our acclimation step prevents this. Engineered floors move less than solid because of the cross-ply core.' },
       { q: 'Can hardwood be installed in a kitchen or bathroom?', a: 'Engineered hardwood is fine in kitchens with normal precautions: silicone at sink and dishwasher, mat at the sink, prompt cleanup. We do not recommend any wood in full bathrooms because of long-term humidity. Powder rooms with no shower are a maybe.' },
-      { q: 'Do you refinish existing hardwood floors?', a: 'Yes. Sanding and refinishing existing solid hardwood is often a better value than tear-out. We use a dust-contained sander (Festool or Bona) so your house stays livable. Stain test on your actual floor before we commit to a color.' },
+      { q: 'Do you offer hardwood floor refinishing in San Diego?', a: 'Yes. Hardwood floor refinishing in San Diego is one of our most requested services, often a better value than tearing out and replacing. We sand and refinish with a dust-contained sander (Festool or Bona) so your home stays livable through the project, and stain-test on your actual floor before committing to a color. Most refinishing jobs take 3 to 5 days plus cure time.' },
+      { q: 'Do you repair damaged hardwood floors in San Diego?', a: 'Yes. We repair water-damaged, gouged, and squeaking hardwood boards across San Diego, often replacing just the affected boards with a stain match instead of a full tear-out. Board repair is usually faster and less expensive than homeowners expect, and we quote it separately from a full refinish.' },
       { q: 'Can you match an existing hardwood floor when I add on?', a: 'Sometimes. Same species and same width give you a starting chance, but old floors have aged and oxidized. We are honest about what is achievable. If a perfect match is not possible, we suggest threshold transitions or refinishing the existing floor at the same time.' },
     ],
     blogSlug: 'engineered-vs-solid-hardwood',

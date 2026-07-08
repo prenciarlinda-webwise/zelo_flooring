@@ -96,7 +96,7 @@ export const LOCATIONS: Location[] = [
     heroValueProp:
       'Zelo Flooring installs carpet, vinyl plank, hardwood, laminate, and tile across San Diego. Licensed CSLB contractor, manufacturer-spec installs, free in-home estimate.',
     aeoCostAnswer:
-      'Flooring installation in San Diego runs roughly $3 to $15 per square foot installed. Carpet sits at the low end ($3 to $7), luxury vinyl plank in the middle ($5 to $10), and hardwood at the top ($8 to $15). Labor in coastal San Diego runs higher than national averages because of slab moisture prep.',
+      'Flooring installation in San Diego runs $3 to $15 per square foot installed: carpet $3-$7, luxury vinyl plank $5-$10, hardwood $8-$15. Zelo Flooring, a CSLB-licensed San Diego flooring company, quotes exact pricing after a free in-home estimate. Call (619) 777-4334 to schedule.',
     aeoSecondaryQuestion: {
       q: 'How long does flooring installation take in San Diego?',
       a: 'A typical 1,000 to 1,500 square foot install takes 1 to 3 days for vinyl plank or laminate, 2 to 4 days for hardwood including acclimation, and 3 to 5 days for tile with substrate prep. Slab grinding, asbestos testing on older homes, or HOA scheduling can extend the timeline.',
@@ -128,6 +128,7 @@ export const LOCATIONS: Location[] = [
     cityIntro: [
       'Zelo Flooring is a San Diego flooring contractor based in Mira Mesa, serving homeowners and businesses across San Diego County. We focus on the boring details that decide whether a floor lasts five years or twenty: slab moisture testing, manufacturer-spec acclimation, proper subfloor flatness, and clean transitions.',
       'San Diego homes have a few traits that change how floors get installed here. Most homes built since the 1980s sit on concrete slab, which means moisture testing and vapor barriers matter more than they would in a Midwest crawl-space home. Coastal humidity from Point Loma to Pacific Beach pushes engineered hardwood and rigid-core vinyl ahead of solid hardwood for most rooms. We adjust the install spec to the house, not to whatever is fastest.',
+      'As a full-service San Diego flooring company, we run every job with our own licensed crew rather than rotating subcontractors, so the flooring installers who show up for your estimate are the same flooring installers who finish the job.',
     ],
     localNuances: [
       'Slab homes from the 1970s onward dominate San Diego, calcium chloride or RH probe moisture testing is standard before any wood or laminate install.',
@@ -139,7 +140,7 @@ export const LOCATIONS: Location[] = [
     whyChooseUsLocal: [
       { title: 'San Diego Slab-First Approach', desc: 'Every quote includes slab flatness and moisture testing line-items before product is ordered. No surprise change orders mid-install.' },
       { title: 'Coastal Climate-Spec Materials', desc: 'We default to engineered hardwood and rigid-core SPC vinyl for homes within 5 miles of the coast, where humidity ages solid wood faster.' },
-      { title: 'CSLB Licensed Locally', desc: 'CSLB Lic #1083572. Licensed, bonded, and insured under California Contractors State License Board for residential and commercial work.' },
+      { title: 'A Licensed San Diego Flooring Company', desc: 'CSLB Lic #1083572. Zelo Flooring is licensed, bonded, and insured under the California Contractors State License Board for residential and commercial work throughout San Diego County.' },
       { title: 'Free In-Home Estimate Across the County', desc: 'We bring physical samples to your house from Carlsbad to Chula Vista. You see colors in your real lighting before you commit.' },
       { title: 'Manufacturer-Spec Installs', desc: 'NWFA-aligned hardwood, TCNA-spec tile substrate prep, and brand-specific underlayment. Your warranty stays valid.' },
     ],
@@ -340,6 +341,7 @@ export const LOCATIONS: Location[] = [
       { q: 'Do older Cardiff and Leucadia homes need subfloor work?', a: 'Often, yes. Many older raised-foundation bungalows have original plank subfloors that flex. We re-sheet or flatten them so the finished tile or vinyl sits solid and quiet.' },
       { q: 'Which Encinitas areas do you serve?', a: 'We install across Encinitas including Leucadia, Cardiff-by-the-Sea, Olivenhain, Old Encinitas, and New Encinitas, covering the 92024 and 92007 ZIP codes with free in-home estimates.' },
       { q: 'How long will my Encinitas floor take to install?', a: 'A 1,000 to 1,500 square foot project usually takes 1 to 3 days for vinyl or laminate, 2 to 4 days for hardwood, and 3 to 5 days for tile, including any subfloor repair.' },
+      { q: 'Do you install flooring in Cardiff-by-the-Sea?', a: 'Yes. Cardiff-by-the-Sea is one of the Encinitas neighborhoods we serve most often, from the bungalows near Cardiff State Beach to the streets around San Elijo Lagoon. Sand and salt humidity are the main factors, so we lean on rigid-core vinyl and engineered hardwood for most Cardiff homes.' },
     ],
     relatedLocations: ['flooring-carlsbad', 'flooring-del-mar', 'flooring-rancho-santa-fe'],
     heroImage: '/img/projects/portfolio/zelo-project-09.webp',

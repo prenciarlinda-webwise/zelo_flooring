@@ -31,6 +31,9 @@ export const SITE = {
   numberOfEmployees: 4,
   hiredCount: 57, // Times hired on Thumbtack
   address: 'San Diego, CA',
+  lat: 32.8244879,
+  lng: -117.109313,
+  gbpUrl: 'https://maps.app.goo.gl/VEvj3qqwEYQSRGLs8',
   tagline: 'San Diego flooring installation',
   description:
     'Zelo Flooring is a flooring installation company based in San Diego. We have over a decade of journeyman experience installing residential and commercial flooring. We pride ourselves on craftsmanship, communication, and diligence.',
@@ -58,6 +61,7 @@ export const SITE = {
     'https://www.thumbtack.com/ca/san-diego/hardwood-floor-installation/zelo-flooring/service/414577564885925896',
     'https://www.mapquest.com/us/california/zelo-flooring-716292534',
     'https://www.bbb.org/us/ca/san-diego/profile/floor-coverings/zelo-flooring-1126-1000103311',
+    'https://maps.app.goo.gl/VEvj3qqwEYQSRGLs8',
   ] as string[],
   facebookUrl: 'https://www.facebook.com/ZeloFlooring/',
   instagramUrl: 'https://www.instagram.com/zeloflooring',

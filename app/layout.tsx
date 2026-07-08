@@ -67,6 +67,12 @@ const businessGraph = {
         addressRegion: SITE.region,
         addressCountry: 'US',
       },
+      geo: {
+        '@type': 'GeoCoordinates',
+        latitude: SITE.lat,
+        longitude: SITE.lng,
+      },
+      hasMap: SITE.gbpUrl,
       areaServed: SERVICE_AREAS.map((area) => ({
         '@type': 'City',
         name: area.name,

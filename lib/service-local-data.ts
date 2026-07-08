@@ -28,7 +28,7 @@ export type ServiceLocalData = {
 export const SERVICE_LOCAL_DATA: Record<string, ServiceLocalData> = {
   'carpet-flooring-san-diego': {
     aeoCostAnswer:
-      'Carpet installation in San Diego typically takes a single day for a 1,500 sq ft home with hallways and stairs, or a few hours for one bedroom. We power-stretch every residential install, include 8 lb premium rebond pad, and remove old carpet, pad, and tack strip as part of every quote.',
+      'Carpet installation in San Diego typically takes a single day for a 1,500 sq ft home, or a few hours for one bedroom. Power-stretching, premium 8 lb pad, and old carpet removal are included in every quote. Zelo Flooring brings free in-home samples, call (619) 777-4334 to schedule yours.',
     aeoSecondaryQuestion: {
       q: 'What carpet works best for San Diego homes with pets and kids?',
       a: 'Triexta (Mohawk SmartStrand) and stain-treated nylon (Stainmaster, Shaw R2X) are the most pet- and kid-friendly carpets we install in San Diego. Triexta resists pet stains permanently because the stain blocker is part of the fiber. Nylon resists wear in high-traffic rooms. Polyester is fine for guest rooms but wears faster in main-traffic zones.',
@@ -60,7 +60,7 @@ export const SERVICE_LOCAL_DATA: Record<string, ServiceLocalData> = {
 
   'vinyl-flooring-san-diego': {
     aeoCostAnswer:
-      'Luxury vinyl plank installs in San Diego typically take 2-3 days for a 1,000-1,500 sq ft home: half a day for slab prep, one to two days for install. Every job starts with a 10-foot straight-edge flatness check and calcium chloride or RH probe moisture testing. Slab grinding adds half a day to a full day if the floor is out of tolerance.',
+      'Luxury vinyl plank installation in San Diego typically runs 2-3 days for a 1,000-1,500 sq ft home, including slab prep and moisture testing. Zelo Flooring brings free in-home samples and quotes exact pricing on site, call (619) 777-4334 or request a free estimate online.',
     aeoSecondaryQuestion: {
       q: 'Why does San Diego LVP need slab moisture testing if vinyl is waterproof?',
       a: 'The plank itself is waterproof, but the adhesive (for glue-down) and the underlayment (for click-lock) are not. High slab moisture pushes vapor through these layers, lifts the plank over time, and voids the manufacturer warranty. We test every slab before any LVP goes down across San Diego County.',
@@ -83,7 +83,7 @@ export const SERVICE_LOCAL_DATA: Record<string, ServiceLocalData> = {
     headers: {
       cityContextH2: 'LVP Flooring Across San Diego County',
       considerationsH3: 'Slab, Climate, And LVP Choices In San Diego',
-      subServicesH2: 'Luxury Vinyl Options We Carry',
+      subServicesH2: 'Luxury Vinyl Plank (LVP) Options We Install In San Diego',
       trustH3: 'Local Vinyl Plank Installers In San Diego',
       reviewsH2: 'Vinyl Plank Stories From San Diego Customers',
       faqH2: 'Common Vinyl Plank Questions From San Diego Homeowners',
@@ -93,7 +93,7 @@ export const SERVICE_LOCAL_DATA: Record<string, ServiceLocalData> = {
 
   'hardwood-flooring-san-diego': {
     aeoCostAnswer:
-      'Hardwood installation in San Diego runs as a 1-2 week project: 5 to 7 days of acclimation in the install room, 2 to 3 days for the install itself, plus a day for trim and transitions. Engineered hardwood is our default for most San Diego homes; coastal humidity from the ocean makes solid wood riskier in homes within 5 miles of the coast.',
+      'Hardwood installation in San Diego runs 1-2 weeks: 5 to 7 days of acclimation, 2 to 3 days to install, plus a day for trim. We also refinish and repair existing hardwood floors across San Diego. Zelo Flooring quotes exact pricing after a free in-home estimate, call (619) 777-4334 to schedule.',
     aeoSecondaryQuestion: {
       q: 'Should I install solid or engineered hardwood in San Diego?',
       a: 'Engineered hardwood with a 3 to 4 mm wear layer is our default for most San Diego homes. The cross-ply core stays stable across coastal humidity swings, especially near La Jolla, Pacific Beach, and Coronado. Solid hardwood is viable inland in Poway, Escondido, or in older homes with raised plywood subfloors.',
@@ -116,7 +116,7 @@ export const SERVICE_LOCAL_DATA: Record<string, ServiceLocalData> = {
     headers: {
       cityContextH2: 'Hardwood Flooring Across San Diego, CA',
       considerationsH3: 'What Coastal Humidity Means For San Diego Hardwood',
-      subServicesH2: 'Hardwood Services We Offer',
+      subServicesH2: 'Hardwood Installation, Refinishing, and Repair in San Diego',
       trustH3: 'NWFA-Aligned Hardwood Contractors In San Diego',
       reviewsH2: 'Hardwood Stories From Recent San Diego Projects',
       faqH2: 'Hardwood Flooring Questions From San Diego Homeowners',
