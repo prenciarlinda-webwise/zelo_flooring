@@ -1,5 +1,5 @@
-import Link from 'next/link';
 import { PhoneIcon } from './Icons';
+import EstimateModalLink from './EstimateModalLink';
 import { SITE } from '@/lib/areas';
 
 export default function StickyMobileCTA() {
@@ -9,9 +9,9 @@ export default function StickyMobileCTA() {
         <PhoneIcon size={18} />
         <span>Call {SITE.phone}</span>
       </a>
-      <Link href="/free-estimate" className="sticky-mobile-cta-btn sticky-mobile-cta-book">
+      <EstimateModalLink className="sticky-mobile-cta-btn sticky-mobile-cta-book">
         <span>Book Estimate</span>
-      </Link>
+      </EstimateModalLink>
     </div>
   );
 }

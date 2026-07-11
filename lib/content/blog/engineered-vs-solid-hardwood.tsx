@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { RelatedServices, RelatedBlogPosts } from '@/components/RelatedCards';
+import EstimateModalLink from '@/components/EstimateModalLink';
 
 export default function EngineeredVsSolidHardwoodContent() {
   return (
@@ -22,7 +23,7 @@ export default function EngineeredVsSolidHardwoodContent() {
           <li><strong>San Diego default:</strong> Engineered hardwood (slab + coastal humidity)</li>
         </ul>
         <p style={{ marginTop: 8, marginBottom: 0 }}>
-          Still deciding which one fits your home? <Link href="/free-estimate">Request a free in-home estimate</Link> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>.
+          Still deciding which one fits your home? <EstimateModalLink>Request a free in-home estimate</EstimateModalLink> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>.
         </p>
       </div>
 
@@ -336,16 +337,16 @@ export default function EngineeredVsSolidHardwoodContent() {
 
       <RelatedBlogPosts
         posts={[
-          { slug: 'lvp-vs-engineered-hardwood', title: 'LVP vs Engineered Hardwood', excerpt: 'Real wood versus waterproof vinyl, compared.' },
-          { slug: 'types-of-hardwood-flooring', title: 'Types of Hardwood Flooring', excerpt: 'Species, finishes, and plank widths explained.' },
-          { slug: 'lvp-vs-hardwood', title: 'LVP vs Hardwood Flooring', excerpt: 'Full comparison of luxury vinyl plank and hardwood for every room.' },
-          { slug: 'best-flooring-for-pets', title: 'Best Flooring for Homes With Pets', excerpt: 'Scratch-proof and waterproof options for dogs, cats, and busy homes.' },
+          { slug: 'how-much-does-hardwood-flooring-cost', title: 'How Much Does Hardwood Flooring Cost in 2026?', excerpt: 'See exact 2026 pricing for solid and engineered hardwood, broken down by species, room, and labor vs materials.' },
+          { slug: 'how-to-fix-a-sagging-or-squeaky-hardwood-floor', title: 'How to Fix a Sagging or Squeaky Hardwood Floor', excerpt: 'Covers how to spot and fix a sagging or squeaky hardwood floor caused by weakened joists, damaged subfloor panels, or a settled foundation.' },
+          { slug: 'hardwood-floor-water-damage', title: 'Hardwood Floor Water Damage, Can It Be Saved?', excerpt: "Solid vs engineered hardwood's different tolerance for moisture and drying is central to whether a water-damaged floor can be saved, so this comparison post should link to the water-damage triage guide for readers facing an active leak or flood." },
+          { slug: 'prefinished-vs-site-finished-hardwood', title: 'Prefinished vs Site-Finished Hardwood, Which Is Better?', excerpt: 'For readers who have already picked engineered or solid, a follow-up comparing prefinished versus site-finished to help choose the finish method next.' },
         ]}
       />
 
       <div className="callout-box info">
         <strong>Want to see the difference in person?</strong>
-        We bring samples of both engineered and solid hardwood in multiple species to your home. <Link href="/free-estimate">Request a free in-home estimate</Link> or call us at <a href="tel:+16197774334">+1 (619) 777-4334</a>.
+        We bring samples of both engineered and solid hardwood in multiple species to your home. <EstimateModalLink>Request a free in-home estimate</EstimateModalLink> or call us at <a href="tel:+16197774334">+1 (619) 777-4334</a>.
       </div>
     </>
   );

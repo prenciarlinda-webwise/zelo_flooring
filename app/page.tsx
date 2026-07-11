@@ -169,7 +169,7 @@ export default function HomePage() {
             <h2>Reviews From San Diego Flooring Customers</h2>
             <p>Verified 5-star reviews from real Zelo Flooring customers across San Diego County.</p>
           </div>
-          <TrustindexWidget src="https://cdn.trustindex.io/loader.js?fdff85172cec70279086e93e81a" />
+          <TrustindexWidget src="https://cdn.trustindex.io/loader.js?4a1219e76b2c4743ce66d5610b3" />
         </div>
       </section>
 

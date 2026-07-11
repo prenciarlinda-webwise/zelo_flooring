@@ -41,6 +41,13 @@ export type Location = {
   cityIntro: string[]; // 1-2 paragraphs setting context (climate, housing, install nuances)
   localNuances: string[]; // 3-5 bullets: HOA rules, slab vs raised, beach humidity, permit notes
   whyChooseUsLocal: { title: string; desc: string }[]; // 4-6 city-specific differentiators
+  // Narrative "Find Us" section: office reach, real landmarks/neighborhoods, hours and rating.
+  // Written unique per location, not templated, using only real facts already in this file / SITE.
+  findUs: { heading: string; paragraphs: string[] };
+  // Small, location-specific one-line note per service (keyed by service slug from lib/services.ts).
+  // Shown on the "Flooring services in {city}" grid instead of the generic sitewide blurb.
+  // These cards are informational only (no link out) since there is no per-city service page.
+  serviceNotes: Record<string, string>;
   reviews: ServiceReview[];
   faqs: ServiceFaq[];
   // Internal links to other location combos (curated, not auto-generated)
@@ -144,6 +151,23 @@ export const LOCATIONS: Location[] = [
       { title: 'Free In-Home Estimate Across the County', desc: 'We bring physical samples to your house from Carlsbad to Chula Vista. You see colors in your real lighting before you commit.' },
       { title: 'Manufacturer-Spec Installs', desc: 'NWFA-aligned hardwood, TCNA-spec tile substrate prep, and brand-specific underlayment. Your warranty stays valid.' },
     ],
+    findUs: {
+      heading: 'Proudly Serving San Diego With Local Flooring Installation',
+      paragraphs: [
+        'Zelo Flooring runs out of Mira Mesa, close to Kearny Mesa and the I-15/I-805 interchange, which keeps us within a short drive of most of the city on any given day. We measure jobs from Point Loma to Rancho Peñasquitos ourselves rather than farming out estimates to a call center, so the person quoting your floor is the person who answers the phone.',
+        "From Mira Mesa we reach every neighborhood in this guide, plus the wider county from Escondido to Chula Vista, without adding a trip charge inside San Diego proper. We're open daily from 7am to 7pm, and our 5.0-star rating across 34 Thumbtack reviews and BBB A+ accreditation reflect what happens when the same licensed crew shows up every time. Call (619) 777-4334 anytime during those hours for a free in-home estimate.",
+      ],
+    },
+    serviceNotes: {
+      'carpet-flooring-san-diego': 'Power-stretched carpet for San Diego bedrooms and stairs, with a moisture-barrier pad upgrade available near the coast.',
+      'vinyl-flooring-san-diego': 'Rigid-core SPC vinyl is our default across San Diego slabs, tested for flatness and moisture before installation.',
+      'hardwood-flooring-san-diego': "Engineered hardwood handles San Diego's coastal humidity better than solid wood in most homes within 5 miles of the water.",
+      'laminate-flooring-san-diego': "AC4-rated waterproof laminate for San Diego rentals and family homes, with vapor-barrier underlayment standard on every slab.",
+      'tile-flooring-san-diego': 'Porcelain and natural stone tile for San Diego bathrooms, kitchens, and patios, with TCNA-spec substrate prep.',
+      'cork-flooring-san-diego': 'Cork flooring for San Diego kitchens and home offices, sealed against slab moisture before it goes down.',
+      'rubber-flooring-san-diego': 'Rubber flooring for San Diego home gyms and commercial buildouts, sized to the slab and the activity.',
+      'vinyl-composition-tile-flooring-san-diego': 'VCT for San Diego schools, clinics, and retail spaces, installed nights and weekends to keep your business open.',
+    },
     reviews: [
       { name: 'Maria S.', location: 'La Jolla, CA', quote: 'Zelo replaced all the flooring in our home with luxury vinyl plank. They were on time every day, the install looks flawless, and they cleaned up better than they found us.' },
       { name: 'David R.', location: 'Chula Vista, CA', quote: 'Got three quotes, Zelo wasn\'t the cheapest but the most thorough. They explained exactly what they\'d do, brought samples, and the hardwood floors look incredible.' },
@@ -219,6 +243,23 @@ export const LOCATIONS: Location[] = [
       { title: 'Samples Brought To La Jolla', desc: 'We bring physical samples to your home so you see oak, walnut, and vinyl colors in your actual coastal light before choosing.' },
       { title: 'Licensed And Insured', desc: 'CSLB C-15 #1083572, bonded and insured. Your manufacturer warranty stays intact because every install follows spec.' },
     ],
+    findUs: {
+      heading: 'Proudly Serving La Jolla With Local Flooring Installation',
+      paragraphs: [
+        "We're based in Mira Mesa, about 15 to 20 minutes from La Jolla, close enough that a slab reading or a follow-up visit never turns into a half-day trip. We know the difference between a Bird Rock cliffside lot and a Village condo before we even pull up, which changes how we prep the subfloor.",
+        'Our La Jolla work runs from the Cove up to Muirlands and out to La Jolla Farms, and we cover nearby Del Mar and Coronado from the same office. We answer the phone daily from 7am to 7pm, hold a 5.0-star rating across 34 Thumbtack reviews, and CSLB C-15 #1083572 is verifiable free on the state license board site before you ever sign anything. Call (619) 777-4334 for a free estimate.',
+      ],
+    },
+    serviceNotes: {
+      'carpet-flooring-san-diego': "Carpet with a moisture-barrier pad for La Jolla's coastal humidity, power-stretched to meet condo association standards.",
+      'vinyl-flooring-san-diego': "Rigid-core vinyl plank handles La Jolla's ocean-adjacent humidity better than solid wood, our default near the Cove and Shores.",
+      'hardwood-flooring-san-diego': 'Engineered hardwood for La Jolla, chosen over solid wood because oceanfront humidity causes cupping within a few feet of the water.',
+      'laminate-flooring-san-diego': 'Waterproof laminate for La Jolla homes set back from the coast, with sound-rated underlayment for Village condo requirements.',
+      'tile-flooring-san-diego': 'Porcelain tile for La Jolla bathrooms and entryways, a durable, waterproof choice for homes near the water.',
+      'cork-flooring-san-diego': 'Cork flooring for La Jolla kitchens and offices, with UV-cured finish to handle strong coastal sun.',
+      'rubber-flooring-san-diego': 'Rubber flooring for La Jolla home gyms, fitted to hillside garages and Mount Soledad subfloor conditions.',
+      'vinyl-composition-tile-flooring-san-diego': 'VCT for commercial and institutional spaces in La Jolla, coordinated around UC San Diego and Village business hours.',
+    },
     reviews: [
       { name: 'Catherine M.', location: 'Bird Rock, La Jolla', quote: 'We had solid oak that had cupped from the ocean air. Zelo replaced it with engineered hardwood and explained exactly why. Two years in and it still looks perfect.' },
       { name: 'Robert T.', location: 'La Jolla Village', quote: 'Our condo board had strict sound requirements. Zelo handled the underlayment paperwork and the install passed inspection with no issues. Floors look fantastic.' },
@@ -291,6 +332,23 @@ export const LOCATIONS: Location[] = [
       { title: 'Free Samples To Your Door', desc: 'We bring vinyl plank, laminate, and hardwood samples to your Carlsbad home so you can match them to your cabinets and light.' },
       { title: 'Licensed, Bonded, Insured', desc: 'CSLB C-15 #1083572. Manufacturer-spec installs keep your flooring warranty valid.' },
     ],
+    findUs: {
+      heading: 'Proudly Serving Carlsbad With Local Flooring Installation',
+      paragraphs: [
+        'Our crews drive up from Mira Mesa, usually 35 to 45 minutes depending on traffic on the 5, to reach Carlsbad Village, La Costa, and Aviara. Legoland and the Flower Fields sit right in the middle of our service area, so we are used to working around visitor traffic on installation day.',
+        'From Carlsbad we also cover Encinitas, Oceanside, and San Marcos without a separate trip. Call us daily between 7am and 7pm and you will reach the same licensed office every time, CSLB C-15 #1083572, rated 5.0 stars across 34 Thumbtack reviews. (619) 777-4334 gets you a free in-home estimate.',
+      ],
+    },
+    serviceNotes: {
+      'carpet-flooring-san-diego': "Carpet for Carlsbad bedrooms and stairs, power-stretched and scheduled within your La Costa or Aviara HOA construction hours.",
+      'vinyl-flooring-san-diego': "Rigid-core vinyl plank is the top pick for Carlsbad's newer slab tract homes, tested for moisture before installation.",
+      'hardwood-flooring-san-diego': 'Engineered hardwood for Carlsbad homes, stable on slab foundations common in La Costa and Bressi Ranch.',
+      'laminate-flooring-san-diego': 'Waterproof laminate for Carlsbad family homes and rentals, with vapor-barrier underlayment standard on every slab install.',
+      'tile-flooring-san-diego': 'Porcelain and stone tile for Carlsbad bathrooms and patios, prepped for the coastal humidity near Carlsbad State Beach.',
+      'cork-flooring-san-diego': 'Cork flooring for Carlsbad kitchens, sealed against slab moisture before installation.',
+      'rubber-flooring-san-diego': 'Rubber flooring for Carlsbad garages and home gyms, with slab crack repair included where needed.',
+      'vinyl-composition-tile-flooring-san-diego': 'VCT for Carlsbad retail and commercial spaces, installed around business hours in the Village and beyond.',
+    },
     reviews: [
       { name: 'Mark D.', location: 'La Costa, Carlsbad', quote: 'Zelo tested our slab moisture before quoting, which no one else did. They put in rigid-core vinyl through the whole downstairs and it has been rock solid.' },
       { name: 'Stephanie R.', location: 'Aviara, Carlsbad', quote: 'Great communication from estimate to cleanup. They worked within our HOA hours and the hardwood install looks better than the model home.' },
@@ -363,6 +421,23 @@ export const LOCATIONS: Location[] = [
       { title: 'Subfloor Repair On Older Bungalows', desc: 'We re-sheet and flatten the original raised subfloors common in Old Encinitas and Cardiff before laying tile or vinyl.' },
       { title: 'Licensed And Local', desc: 'CSLB C-15 #1083572, bonded and insured, with samples brought to your Encinitas door.' },
     ],
+    findUs: {
+      heading: 'Proudly Serving Encinitas With Local Flooring Installation',
+      paragraphs: [
+        "It's about 30 to 40 minutes from our Mira Mesa office out to Encinitas, and we route most jobs past Moonlight Beach or along Encinitas Boulevard depending on whether we're headed to Leucadia or Olivenhain that day. Beach cottages and inland acreage need different prep, and we plan for that before we load the truck.",
+        'We also cover Carlsbad, Del Mar, and Rancho Santa Fe from the same base. Our office answers daily from 7am to 7pm, holds a 5.0-star Thumbtack rating across 34 reviews, and CSLB C-15 #1083572 is free to verify before you book anything. Call (619) 777-4334 for a free estimate in Encinitas.',
+      ],
+    },
+    serviceNotes: {
+      'carpet-flooring-san-diego': 'Carpet for Encinitas bedrooms, with a durable stain-resistant option recommended for Leucadia and Cardiff rental turnover.',
+      'vinyl-flooring-san-diego': 'High-wear rigid-core vinyl plank for Encinitas beach cottages and rentals, built to handle sand and moisture.',
+      'hardwood-flooring-san-diego': 'Engineered hardwood for Encinitas, with solid wood a realistic option out in drier Olivenhain acreage lots.',
+      'laminate-flooring-san-diego': 'Waterproof laminate for Encinitas rentals and family homes, standing up to beach-town foot traffic.',
+      'tile-flooring-san-diego': 'Porcelain tile for Encinitas bathrooms and entryways, resistant to sand and salt air near the coast.',
+      'cork-flooring-san-diego': 'Cork flooring for Encinitas kitchens and home offices, a comfortable option away from direct coastal sun exposure.',
+      'rubber-flooring-san-diego': 'Rubber flooring for Encinitas garages and home gyms, fitted to both beach cottages and Olivenhain properties.',
+      'vinyl-composition-tile-flooring-san-diego': 'VCT for commercial spaces in Encinitas, scheduled around retail and business hours along Encinitas Boulevard.',
+    },
     reviews: [
       { name: 'Lauren K.', location: 'Leucadia, Encinitas', quote: 'We rent our place near the beach and needed something that survives sandy feet. Zelo put in tough vinyl plank that still looks new after a busy summer.' },
       { name: 'Tom B.', location: 'Olivenhain, Encinitas', quote: 'Big house, long driveway, and they handled it all cleanly. The engineered hardwood through the main level is gorgeous and the crew was respectful of the property.' },
@@ -436,6 +511,23 @@ export const LOCATIONS: Location[] = [
       { title: 'Minutes From Your Home', desc: 'Our office sits about 15 to 20 minutes from Poway, which keeps estimates, install days, and follow-ups easy to schedule.' },
       { title: 'Licensed And Insured', desc: 'CSLB C-15 #1083572, bonded and insured. Every job follows manufacturer spec so warranties stay valid.' },
     ],
+    findUs: {
+      heading: 'Proudly Serving Poway With Local Flooring Installation',
+      paragraphs: [
+        "Poway sits about 15 to 20 minutes from our Mira Mesa office, one of the shorter drives in the county, which is part of why we can turn estimates around quickly here. We know Lake Poway and the Blue Sky Ecological Reserve area well, and the bigger lots common near Garden Road and Green Valley.",
+        'From Poway we also reach San Marcos and Rancho Santa Fe without adding a trip charge. Reach our office daily from 7am to 7pm, rated 5.0 stars across 34 Thumbtack reviews, CSLB C-15 #1083572, bonded and insured. Call (619) 777-4334 for a free in-home estimate.',
+      ],
+    },
+    serviceNotes: {
+      'carpet-flooring-san-diego': 'Carpet for Poway bedrooms and family rooms, a comfortable fit for the larger homes common here.',
+      'vinyl-flooring-san-diego': 'Rigid-core vinyl plank for Poway homes, an easy-care option for busy inland households.',
+      'hardwood-flooring-san-diego': "Solid hardwood is a realistic choice in Poway's drier inland climate, unlike most coastal San Diego homes.",
+      'laminate-flooring-san-diego': 'Water-resistant laminate for Poway family homes, a budget-friendly option across larger square footage.',
+      'tile-flooring-san-diego': 'Porcelain tile for Poway bathrooms and kitchens, leveled to handle split-level and hillside subfloors near Lake Poway.',
+      'cork-flooring-san-diego': 'Cork flooring for Poway kitchens and offices, comfortable underfoot in this inland community.',
+      'rubber-flooring-san-diego': 'Rubber flooring for Poway home gyms and garages, sized for the larger lots common here.',
+      'vinyl-composition-tile-flooring-san-diego': 'VCT for Poway commercial and institutional spaces, including buildouts near Garden Road.',
+    },
     reviews: [
       { name: 'Bill and Susan H.', location: 'Green Valley, Poway', quote: 'We wanted real oak throughout and Zelo made it happen the right way, acclimating the wood for days first. The floors are stunning and dead flat.' },
       { name: 'Karen W.', location: 'Lake Poway area', quote: 'Our split-level home had tricky transitions. Zelo leveled everything and the vinyl plank flows perfectly between levels. Professional from start to finish.' },
@@ -508,6 +600,23 @@ export const LOCATIONS: Location[] = [
       { title: 'Tight-Lot Logistics', desc: "We plan staging and parking for Del Mar's narrow village streets so demolition and delivery stay clean and on schedule." },
       { title: 'Licensed And Insured', desc: 'CSLB C-15 #1083572, bonded and insured, with samples brought to your Del Mar home.' },
     ],
+    findUs: {
+      heading: 'Proudly Serving Del Mar With Local Flooring Installation',
+      paragraphs: [
+        'We drive out from Mira Mesa, about 20 to 25 minutes, to reach Del Mar, whether the job is a condo near the Del Mar Racetrack or a bluff-top home off Del Mar Heights. Small-lot logistics near the Village are something we plan for before demolition day, not something we figure out on site.',
+        'From Del Mar we also cover La Jolla, Encinitas, and Rancho Santa Fe. Call our office daily between 7am and 7pm, 5.0 stars across 34 Thumbtack reviews, CSLB C-15 #1083572 verifiable free on the state license board site. (619) 777-4334 for a free estimate.',
+      ],
+    },
+    serviceNotes: {
+      'carpet-flooring-san-diego': 'Carpet for Del Mar bedrooms, with a moisture-barrier pad recommended for second homes that sit closed up between visits.',
+      'vinyl-flooring-san-diego': 'Rigid-core vinyl plank for Del Mar, a moisture-stable choice for beachfront and bluff homes near the Racetrack.',
+      'hardwood-flooring-san-diego': 'Engineered hardwood with a thick wear layer for Del Mar, chosen over solid wood given the beachfront humidity.',
+      'laminate-flooring-san-diego': 'Waterproof laminate for Del Mar homes set back from the immediate coastline, with vapor-barrier underlayment standard.',
+      'tile-flooring-san-diego': 'Large-format porcelain tile for Del Mar bathrooms and patios, self-leveled to a flat, high-end finish.',
+      'cork-flooring-san-diego': 'Cork flooring for Del Mar kitchens and offices, a comfortable option for inland Del Mar Heights homes.',
+      'rubber-flooring-san-diego': 'Rubber flooring for Del Mar home gyms, fitted to tight-lot garages near the Village.',
+      'vinyl-composition-tile-flooring-san-diego': 'VCT for Del Mar commercial spaces, scheduled around Fairgrounds and Racetrack event traffic.',
+    },
     reviews: [
       { name: 'Elizabeth C.', location: 'Beach Colony, Del Mar', quote: 'Our beachfront condo is humid year-round. Zelo steered us to engineered oak and large tile, and a year later it still looks brand new. Smart, honest people.' },
       { name: 'Jonathan F.', location: 'Olde Del Mar', quote: 'We did a full remodel with wide-plank floors. Zelo leveled the substrate obsessively and it shows, the floor is dead flat and beautiful.' },
@@ -580,6 +689,23 @@ export const LOCATIONS: Location[] = [
       { title: 'Older-Home Subfloor Repair', desc: 'Ranch homes near downtown often have flexing subfloors. We re-sheet and flatten them so the new floor feels solid underfoot.' },
       { title: 'Licensed And Insured', desc: 'CSLB C-15 #1083572, bonded and insured. Honest quotes and manufacturer-spec installs on every job.' },
     ],
+    findUs: {
+      heading: 'Proudly Serving Vista With Local Flooring Installation',
+      paragraphs: [
+        "It's a 35 to 45 minute drive from our Mira Mesa office out to Vista, and we run jobs across Shadowridge, Downtown Vista, and Brengle Terrace on a regular rotation. Vista's inland, family-driven housing stock is a different install than a coastal condo, and our quotes reflect that.",
+        'We also serve San Marcos, Oceanside, and Carlsbad from the same base. Call daily from 7am to 7pm, 5.0-star rating across 34 Thumbtack reviews, CSLB C-15 #1083572. (619) 777-4334 for a free in-home estimate in Vista.',
+      ],
+    },
+    serviceNotes: {
+      'carpet-flooring-san-diego': 'Carpet for Vista bedrooms, a budget-friendly comfort option for busy family homes.',
+      'vinyl-flooring-san-diego': 'Fully waterproof rigid-core vinyl plank for Vista, our top recommendation for households with kids and pets.',
+      'hardwood-flooring-san-diego': "Solid and engineered hardwood both work well in Vista's stable inland climate, priced for real-world budgets.",
+      'laminate-flooring-san-diego': 'Quality laminate for Vista family homes, the best value pick in this price-conscious inland market.',
+      'tile-flooring-san-diego': 'Porcelain tile for Vista bathrooms and kitchens, a durable, affordable option for this inland community.',
+      'cork-flooring-san-diego': 'Cork flooring for Vista home offices and kitchens, a comfortable option for older ranch-style homes.',
+      'rubber-flooring-san-diego': 'Rubber flooring for Vista garages and home gyms, fitted to older-home subfloor conditions near downtown.',
+      'vinyl-composition-tile-flooring-san-diego': 'VCT for Vista commercial spaces, an affordable, durable choice for retail and institutional buildouts.',
+    },
     reviews: [
       { name: 'Hector M.', location: 'Shadowridge, Vista', quote: 'We have three kids and a dog. Zelo put in waterproof vinyl plank through the whole house and it has survived everything. Great price and great crew.' },
       { name: 'Angela S.', location: 'Downtown Vista', quote: 'Our older home had a bouncy floor in the living room. Zelo fixed the subfloor and laid laminate that feels totally solid now. Honest and fair.' },
@@ -652,6 +778,23 @@ export const LOCATIONS: Location[] = [
       { title: 'Climate-Right Wood Options', desc: 'The dry inland air supports solid and wide-plank hardwood. We acclimate fully and moisture-test before installing.' },
       { title: 'Licensed And Insured', desc: 'CSLB C-15 #1083572, bonded and insured, with samples brought to your Rancho Santa Fe estate.' },
     ],
+    findUs: {
+      heading: 'Proudly Serving Rancho Santa Fe With Local Flooring Installation',
+      paragraphs: [
+        'Rancho Santa Fe runs about 25 to 35 minutes from our Mira Mesa office, and estate jobs here, whether in the Covenant or out at Fairbanks Ranch, get staged differently than a standard tract home given the square footage involved. We plan crew size and material lead time around that before we ever quote a start date.',
+        'We also cover Del Mar, La Jolla, and Poway from the same office. Reach us daily from 7am to 7pm, 5.0 stars across 34 Thumbtack reviews, CSLB C-15 #1083572, bonded and insured for estate-scale work. Call (619) 777-4334 for a free in-home consultation.',
+      ],
+    },
+    serviceNotes: {
+      'carpet-flooring-san-diego': 'Carpet for Rancho Santa Fe bedrooms and media rooms, scaled to estate-size square footage.',
+      'vinyl-flooring-san-diego': "Rigid-core vinyl plank for Rancho Santa Fe secondary spaces, paired with the estate's dry inland climate.",
+      'hardwood-flooring-san-diego': 'Wide-plank European oak and solid hardwood are the standard for Rancho Santa Fe estates, supported by the dry inland climate.',
+      'laminate-flooring-san-diego': 'Waterproof laminate for Rancho Santa Fe guest quarters and secondary buildings, a practical complement to estate-grade main living areas.',
+      'tile-flooring-san-diego': 'Natural stone and large-format porcelain tile for Rancho Santa Fe, self-leveled to the flatness estate finishes demand.',
+      'cork-flooring-san-diego': 'Cork flooring for Rancho Santa Fe home offices, a quiet, comfortable option within Covenant guidelines.',
+      'rubber-flooring-san-diego': 'Rubber flooring for Rancho Santa Fe home gyms, scaled to estate-size fitness and equestrian properties.',
+      'vinyl-composition-tile-flooring-san-diego': 'VCT for any commercial or equestrian-facility space tied to a Rancho Santa Fe property.',
+    },
     reviews: [
       { name: 'William and Grace A.', location: 'The Covenant, Rancho Santa Fe', quote: 'We installed wide-plank European oak throughout the main house. Zelo prep work was meticulous and the floor is perfectly flat across a huge footprint. Exceptional.' },
       { name: 'Charles R.', location: 'Fairbanks Ranch', quote: 'A big, complex job handled smoothly. They coordinated with our designer, kept the site clean, and the stone and hardwood combination came out beautifully.' },
@@ -724,6 +867,23 @@ export const LOCATIONS: Location[] = [
       { title: 'Island Logistics Handled', desc: 'We plan delivery and staging around bridge and ferry access so material arrives on time without island congestion delays.' },
       { title: 'Licensed And Insured', desc: 'CSLB C-15 #1083572, bonded and insured. Manufacturer-spec installs keep your warranty valid.' },
     ],
+    findUs: {
+      heading: 'Proudly Serving Coronado With Local Flooring Installation',
+      paragraphs: [
+        "Getting to Coronado from our Mira Mesa office runs about 25 to 30 minutes, bridge traffic depending, and we plan delivery timing around that rather than guessing. Historic homes near Orange Avenue and newer construction in the Cays need different subfloor approaches, and we've done both.",
+        'We also serve San Diego proper, La Jolla, and Del Mar from the same base. Call daily from 7am to 7pm, 5.0-star Thumbtack rating across 34 reviews, CSLB C-15 #1083572 verifiable free online. (619) 777-4334 for a free estimate on the island.',
+      ],
+    },
+    serviceNotes: {
+      'carpet-flooring-san-diego': "Carpet for Coronado bedrooms, with a moisture-barrier pad recommended given the island's constant salt-air humidity.",
+      'vinyl-flooring-san-diego': "Rigid-core vinyl plank for Coronado, our top choice given how hard the island's humidity is on solid wood.",
+      'hardwood-flooring-san-diego': 'Engineered hardwood for Coronado, since solid wood struggles against the salt air surrounding this island city.',
+      'laminate-flooring-san-diego': "Waterproof laminate for Coronado, tested against the island's humidity, with quick turnarounds for military PCS timelines.",
+      'tile-flooring-san-diego': 'Porcelain tile for Coronado bathrooms and entryways, a durable choice for historic homes near Orange Avenue.',
+      'cork-flooring-san-diego': 'Cork flooring for Coronado home offices, best suited to interior rooms away from direct salt air exposure.',
+      'rubber-flooring-san-diego': 'Rubber flooring for Coronado garages and home gyms, fitted around historic and North Island properties.',
+      'vinyl-composition-tile-flooring-san-diego': 'VCT for Coronado commercial and hospitality spaces, coordinated around island delivery logistics.',
+    },
     reviews: [
       { name: 'James W.', location: 'Coronado (near North Island)', quote: 'We were on a tight PCS timeline and Zelo turned the whole house around fast without cutting corners. Durable vinyl plank, clean work, exactly what we needed.' },
       { name: 'Margaret O.', location: 'Orange Avenue area, Coronado', quote: 'Our 1910 home needed care. Zelo tested the old flooring for asbestos first and put in engineered oak that fits the house perfectly. True professionals.' },
@@ -796,6 +956,23 @@ export const LOCATIONS: Location[] = [
       { title: 'HOA-Compliant Scheduling', desc: 'We work within master-planned San Marcos HOA construction hours and approvals so your project stays in good standing.' },
       { title: 'Licensed And Insured', desc: 'CSLB C-15 #1083572, bonded and insured, with samples brought to your San Marcos home.' },
     ],
+    findUs: {
+      heading: 'Proudly Serving San Marcos With Local Flooring Installation',
+      paragraphs: [
+        'San Marcos sits about 35 to 45 minutes from our Mira Mesa office, and most of our work here is in San Elijo Hills and Twin Oaks Valley, newer hillside tracts where grading leaves grade transitions between rooms we have to level before flooring goes down. Rental turnover near the colleges is a regular part of our schedule too.',
+        'We also cover Vista, Carlsbad, and Oceanside without a separate trip. Reach us daily from 7am to 7pm, 5.0 stars across 34 Thumbtack reviews, CSLB C-15 #1083572. Call (619) 777-4334 for a free in-home estimate.',
+      ],
+    },
+    serviceNotes: {
+      'carpet-flooring-san-diego': 'Carpet for San Marcos bedrooms, a durable option for rental turnover near the colleges.',
+      'vinyl-flooring-san-diego': 'Rigid-core vinyl plank for San Marcos slab homes, our default for San Elijo Hills and Twin Oaks Valley.',
+      'hardwood-flooring-san-diego': 'Engineered hardwood for San Marcos, stable on the slab foundations common in newer hillside tracts.',
+      'laminate-flooring-san-diego': 'Water-resistant laminate for San Marcos family homes and rentals near Cal State San Marcos.',
+      'tile-flooring-san-diego': 'Porcelain tile for San Marcos bathrooms and kitchens, leveled to handle hillside grade transitions.',
+      'cork-flooring-san-diego': 'Cork flooring for San Marcos home offices, a comfortable option for hillside homes.',
+      'rubber-flooring-san-diego': 'Rubber flooring for San Marcos garages and home gyms, fitted to graded hillside lots.',
+      'vinyl-composition-tile-flooring-san-diego': 'VCT for San Marcos commercial spaces, including buildouts near the colleges and Discovery Lake area.',
+    },
     reviews: [
       { name: 'Daniel and Mei L.', location: 'San Elijo Hills, San Marcos', quote: 'Zelo moisture-tested our slab before quoting, which gave us confidence. The rigid-core vinyl downstairs looks great and has held up with two young kids.' },
       { name: 'Brittany H.', location: 'Twin Oaks Valley, San Marcos', quote: 'Our hillside home had uneven transitions between rooms. They leveled it and the floor is perfectly flat now. Professional and on time.' },
@@ -868,6 +1045,23 @@ export const LOCATIONS: Location[] = [
       { title: 'Slab Testing Inland', desc: 'Inland Oceanside tracts are mostly slab-on-grade. We moisture-test before installing wood or laminate so floors do not buckle later.' },
       { title: 'Licensed And Insured', desc: 'CSLB C-15 #1083572, bonded and insured. Manufacturer-spec installs keep your warranty valid.' },
     ],
+    findUs: {
+      heading: 'Proudly Serving Oceanside With Local Flooring Installation',
+      paragraphs: [
+        "Oceanside is our longest regular drive from Mira Mesa, usually 40 to 50 minutes, and it's worth it given how much ground the city covers, from Strand cottages near the pier to Rancho del Oro tracts inland. Camp Pendleton families on a PCS timeline are a big part of why we keep the schedule flexible here.",
+        'We also serve Carlsbad, Vista, and San Marcos from the same office. Call daily between 7am and 7pm, 5.0-star rating across 34 Thumbtack reviews, CSLB C-15 #1083572, bonded and insured. (619) 777-4334 for a free estimate.',
+      ],
+    },
+    serviceNotes: {
+      'carpet-flooring-san-diego': 'Carpet for Oceanside bedrooms, with quick turnarounds for Camp Pendleton families on a PCS timeline.',
+      'vinyl-flooring-san-diego': 'High-wear rigid-core vinyl plank for Oceanside, our top pick for Strand cottages, rentals, and military housing.',
+      'hardwood-flooring-san-diego': 'Engineered hardwood for Oceanside, a solid upgrade for inland Rancho del Oro and Fire Mountain homes.',
+      'laminate-flooring-san-diego': 'Waterproof laminate for Oceanside family homes and rentals, durable enough for beach and inland traffic alike.',
+      'tile-flooring-san-diego': 'Porcelain tile for Oceanside bathrooms and entryways, resistant to sand near the pier and harbor.',
+      'cork-flooring-san-diego': 'Cork flooring for Oceanside home offices, a comfortable option for inland Fire Mountain homes.',
+      'rubber-flooring-san-diego': 'Rubber flooring for Oceanside garages and home gyms, sized for both beachside and inland properties.',
+      'vinyl-composition-tile-flooring-san-diego': 'VCT for Oceanside commercial spaces, scheduled around Camp Pendleton and harbor-area business hours.',
+    },
     reviews: [
       { name: 'Marcus T.', location: 'Oceanside (near Camp Pendleton)', quote: 'PCS timeline was tight and Zelo made it work. Durable vinyl plank through the whole place, clean install, finished before our move-in. Could not ask for more.' },
       { name: 'Nicole D.', location: 'The Strand, Oceanside', quote: 'Sand was destroying our old floor. Zelo put in waterproof vinyl plank that wipes clean and still looks new after a summer of beach days. Great crew.' },
@@ -940,6 +1134,23 @@ export const LOCATIONS: Location[] = [
       { title: 'Hillside Leveling', desc: 'Homes near Lake Hodges and Felicita can have stepped subfloors. We grind and self-level so the finished floor lays flat.' },
       { title: 'Licensed And Insured', desc: 'CSLB C-15 #1083572, bonded and insured. Every job follows manufacturer spec so warranties stay valid.' },
     ],
+    findUs: {
+      heading: 'Proudly Serving Escondido With Local Flooring Installation',
+      paragraphs: [
+        'Escondido runs about 30 to 35 minutes from our Mira Mesa office, and the valley heat and drier air out past Lake Hodges and the Safari Park change what we recommend compared to a coastal job. Older Old Escondido bungalows near downtown are a common subfloor-repair call for us.',
+        'From Escondido we also reach Poway, San Marcos, and Vista. Call daily from 7am to 7pm, 5.0 stars across 34 Thumbtack reviews, CSLB C-15 #1083572 verifiable free on the CSLB site. (619) 777-4334 for a free in-home estimate.',
+      ],
+    },
+    serviceNotes: {
+      'carpet-flooring-san-diego': 'Carpet for Escondido bedrooms, a comfortable choice for this warm inland valley community.',
+      'vinyl-flooring-san-diego': 'Rigid-core vinyl plank for Escondido, an easy-care option across East Valley and Old Escondido homes.',
+      'hardwood-flooring-san-diego': "Solid hardwood is a realistic choice in Escondido's warm, dry valley climate, similar to nearby Poway.",
+      'laminate-flooring-san-diego': 'Water-resistant laminate for Escondido family homes, a budget-friendly option for this valley community.',
+      'tile-flooring-san-diego': "Porcelain tile for Escondido bathrooms and kitchens, a durable choice for the area's warm, dry climate.",
+      'cork-flooring-san-diego': 'Cork flooring for Escondido home offices, comfortable underfoot in this inland valley.',
+      'rubber-flooring-san-diego': 'Rubber flooring for Escondido garages and home gyms, fitted to Old Escondido and East Valley properties.',
+      'vinyl-composition-tile-flooring-san-diego': 'VCT for Escondido commercial spaces, including buildouts near the Safari Park and downtown arts district.',
+    },
     reviews: [
       { name: 'Patricia G.', location: 'Old Escondido, CA', quote: 'Our 1940s bungalow had a bouncy original subfloor. Zelo re-sheeted it and put in solid oak that looks amazing. They explained every step before starting.' },
       { name: 'Anthony M.', location: 'East Valley, Escondido', quote: 'We have a bigger lot with a long driveway and they planned the delivery and staging perfectly. Vinyl plank throughout the house looks great and installed fast.' },
@@ -1012,6 +1223,23 @@ export const LOCATIONS: Location[] = [
       { title: 'Free Samples To Your Door', desc: 'We bring vinyl plank, laminate, and hardwood samples to your Chula Vista home so you can match them to your space and light.' },
       { title: 'Licensed, Bonded, Insured', desc: 'CSLB C-15 #1083572. Manufacturer-spec installs keep your flooring warranty valid.' },
     ],
+    findUs: {
+      heading: 'Proudly Serving Chula Vista With Local Flooring Installation',
+      paragraphs: [
+        "Chula Vista is about 20 to 25 minutes from our Mira Mesa office, and most of our calls come from Eastlake and Otay Ranch, newer slab communities with HOA scheduling windows we work around as a matter of course. Older homes near Third Avenue Village get a different subfloor check before anything else happens.",
+        "We also serve San Diego proper and Coronado from the same base. We're open daily from 7am to 7pm, rated 5.0 stars across 34 Thumbtack reviews, CSLB C-15 #1083572. Call (619) 777-4334 for a free in-home estimate in Chula Vista.",
+      ],
+    },
+    serviceNotes: {
+      'carpet-flooring-san-diego': 'Carpet for Chula Vista bedrooms, scheduled within Eastlake and Otay Ranch HOA construction hours.',
+      'vinyl-flooring-san-diego': 'Rigid-core vinyl plank for Chula Vista slab homes, our default for Eastlake and Otay Ranch tracts.',
+      'hardwood-flooring-san-diego': 'Engineered hardwood for Chula Vista, stable on the slab foundations common in newer master-planned neighborhoods.',
+      'laminate-flooring-san-diego': 'Water-resistant laminate for Chula Vista family homes and rentals, a practical choice for master-planned communities.',
+      'tile-flooring-san-diego': 'Porcelain tile for Chula Vista bathrooms and kitchens, a durable choice for both new and historic homes near Third Avenue Village.',
+      'cork-flooring-san-diego': 'Cork flooring for Chula Vista home offices, a comfortable option for both newer and older neighborhoods.',
+      'rubber-flooring-san-diego': 'Rubber flooring for Chula Vista garages and home gyms, fitted to Eastlake and Otay Ranch properties.',
+      'vinyl-composition-tile-flooring-san-diego': 'VCT for Chula Vista commercial spaces, including retail buildouts near Eastlake and Otay Ranch.',
+    },
     reviews: [
       { name: 'Rosa V.', location: 'Eastlake, Chula Vista', quote: 'Zelo tested our slab moisture before quoting, which no one else offered. Rigid-core vinyl throughout the downstairs has held up perfectly with our kids and dog.' },
       { name: 'Kevin T.', location: 'Otay Ranch, Chula Vista', quote: 'They worked within our HOA construction hours without any issues and the hardwood upstairs looks better than the model home. Great communication start to finish.' },

@@ -1,3 +1,5 @@
+import LinkifyPhone from './LinkifyPhone';
+
 export type FaqItem = { q: string; a: string };
 
 export default function FaqList({ items, includeSchema = true }: { items: FaqItem[]; includeSchema?: boolean }) {
@@ -26,7 +28,7 @@ export default function FaqList({ items, includeSchema = true }: { items: FaqIte
               <h3 className="faq-q">{item.q}</h3>
             </summary>
             <div className="faq-body">
-              <p>{item.a}</p>
+              <p><LinkifyPhone text={item.a} /></p>
             </div>
           </details>
         ))}

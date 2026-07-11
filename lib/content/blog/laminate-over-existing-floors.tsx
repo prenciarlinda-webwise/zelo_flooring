@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { RelatedServices, RelatedBlogPosts } from '@/components/RelatedCards';
+import EstimateModalLink from '@/components/EstimateModalLink';
 
 export default function LaminateOverExistingFloorsContent() {
   return (
@@ -22,7 +23,7 @@ export default function LaminateOverExistingFloorsContent() {
           <li>Carpet: No, remove it (thin glued commercial loop is the only exception)</li>
         </ul>
         <p style={{ marginTop: 8, marginBottom: 0 }}>
-          Not sure if your existing floor qualifies? <Link href="/free-estimate">Request a free estimate</Link> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>.
+          Not sure if your existing floor qualifies? <EstimateModalLink>Request a free estimate</EstimateModalLink> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>.
         </p>
       </div>
 
@@ -133,7 +134,7 @@ export default function LaminateOverExistingFloorsContent() {
         <li>The floor is more than two layers deep already. Stacking a third layer is asking for failure.</li>
       </ul>
       <p>
-        When in doubt, the honest answer is that a quick in-home look settles it in minutes. We bring a straight edge and a moisture meter to every estimate and tell you plainly whether your floor can stay or needs to come up. <Link href="/free-estimate">Request a free in-home estimate</Link> and we will check it.
+        When in doubt, the honest answer is that a quick in-home look settles it in minutes. We bring a straight edge and a moisture meter to every estimate and tell you plainly whether your floor can stay or needs to come up. <EstimateModalLink>Request a free in-home estimate</EstimateModalLink> and we will check it.
       </p>
 
       {/* FAQ */}
@@ -170,15 +171,16 @@ export default function LaminateOverExistingFloorsContent() {
       {/* RELATED BLOG POSTS */}
       <RelatedBlogPosts
         posts={[
-          { slug: 'vinyl-plank-flooring-cost', title: 'Vinyl Plank Flooring Cost (2026)', excerpt: 'LVP installation pricing, by type, room, and labor.' },
-          { slug: 'lvp-vs-hardwood', title: 'LVP vs Hardwood Flooring', excerpt: 'Cost, durability, and water resistance compared.' },
           { slug: 'engineered-vs-solid-hardwood', title: 'Engineered vs Solid Hardwood', excerpt: 'Which hardwood fits your subfloor and home.' },
+          { slug: 'how-to-clean-laminate-wood-floors', title: 'How to Clean Laminate Wood Floors', excerpt: 'Once your laminate is installed, this cleaning and maintenance guide covers the daily sweeping, weekly damp mopping, and spill-response routine that keeps it looking new.' },
+          { slug: 'how-much-does-laminate-flooring-cost', title: 'How Much Does Laminate Flooring Cost in 2026?', excerpt: 'Get the full 2026 laminate flooring cost breakdown, including how much installing over an existing floor can save versus a full tear-out.' },
+          { slug: 'can-laminate-flooring-be-repaired', title: 'Can Laminate Flooring Be Repaired?', excerpt: 'If your existing laminate is damaged beyond repair, this companion post covers whether new laminate can go over what is left or if a full tear-out is needed first.' },
         ]}
       />
 
       <div className="callout-box info">
         <strong>Not sure if your floor can stay?</strong>
-        We check flatness and moisture at every free in-home estimate and tell you honestly whether to float over or tear out. <Link href="/free-estimate">Request a free estimate</Link> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>.
+        We check flatness and moisture at every free in-home estimate and tell you honestly whether to float over or tear out. <EstimateModalLink>Request a free estimate</EstimateModalLink> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>.
       </div>
     </>
   );

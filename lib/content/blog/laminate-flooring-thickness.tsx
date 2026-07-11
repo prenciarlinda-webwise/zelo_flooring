@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { RelatedServices, RelatedBlogPosts } from '@/components/RelatedCards';
+import EstimateModalLink from '@/components/EstimateModalLink';
 
 export default function LaminateFlooringThicknessContent() {
   return (
@@ -22,7 +23,7 @@ export default function LaminateFlooringThicknessContent() {
           <li>Always confirm both the mm thickness and the AC rating before buying.</li>
         </ul>
         <p style={{ marginTop: 8, marginBottom: 0 }}>
-          Not sure which thickness fits your rooms? <Link href="/free-estimate">Request a free estimate</Link> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>.
+          Not sure which thickness fits your rooms? <EstimateModalLink>Request a free estimate</EstimateModalLink> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>.
         </p>
       </div>
 
@@ -168,14 +169,15 @@ export default function LaminateFlooringThicknessContent() {
       <RelatedBlogPosts
         posts={[
           { slug: 'laminate-over-existing-floors', title: 'Can You Install Laminate Over Existing Floors?', excerpt: 'Surface-by-surface guide to floating laminate over tile, vinyl, and more.' },
-          { slug: 'lvp-vs-hardwood', title: 'LVP vs Hardwood Flooring', excerpt: 'Cost, durability, and water resistance compared.' },
-          { slug: 'vinyl-plank-flooring-cost', title: 'Vinyl Plank Flooring Cost (2026)', excerpt: 'LVP pricing by type, room, and labor.' },
+          { slug: 'is-laminate-flooring-waterproof', title: 'Is Laminate Flooring Actually Waterproof?', excerpt: 'A companion piece explaining that laminate thickness and AC wear rating are separate from water resistance, so a thick plank is not automatically waterproof.' },
+          { slug: 'how-much-does-laminate-flooring-cost', title: 'How Much Does Laminate Flooring Cost in 2026?', excerpt: 'See exactly how much laminate flooring costs in 2026, broken down by AC rating, thickness, waterproof construction, and room size.' },
+          { slug: 'can-laminate-flooring-be-repaired', title: 'Can Laminate Flooring Be Repaired?', excerpt: 'Thicker laminate with a deeper wear layer resists scratches and dents better in the first place, which is worth knowing before deciding to repair or replace.' },
         ]}
       />
 
       <div className="callout-box info">
         <strong>Want help picking the right laminate?</strong>
-        We bring real samples to your home and match thickness and AC rating to your rooms and traffic. <Link href="/free-estimate">Request a free estimate</Link> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>.
+        We bring real samples to your home and match thickness and AC rating to your rooms and traffic. <EstimateModalLink>Request a free estimate</EstimateModalLink> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>.
       </div>
     </>
   );

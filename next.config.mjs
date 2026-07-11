@@ -33,11 +33,18 @@ const nextConfig = {
       'rubber-flooring',
       'vinyl-composition-tile-flooring',
     ];
-    return slugs.map((slug) => ({
-      source: `/${slug}`,
-      destination: `/${slug}-san-diego`,
-      permanent: true,
-    }));
+    return [
+      ...slugs.map((slug) => ({
+        source: `/${slug}`,
+        destination: `/${slug}-san-diego`,
+        permanent: true,
+      })),
+      // /free-estimate and /contact were two overlapping lead-gen pages (same
+      // Formspree endpoint, near-duplicate forms). Consolidated onto /contact;
+      // most estimate CTAs site-wide now open a popup instead of linking here,
+      // this redirect covers direct/bookmarked/no-JS visits to the old URL.
+      { source: '/free-estimate', destination: '/contact', permanent: true },
+    ];
   },
 };
 

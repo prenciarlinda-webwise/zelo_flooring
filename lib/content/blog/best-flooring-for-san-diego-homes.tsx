@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { RelatedServices, RelatedBlogPosts } from '@/components/RelatedCards';
+import EstimateModalLink from '@/components/EstimateModalLink';
 
 export default function BestFlooringForSanDiegoHomesContent() {
   return (
@@ -22,7 +23,7 @@ export default function BestFlooringForSanDiegoHomesContent() {
           <li>Usually avoid near the coast: Solid hardwood (cups in humidity)</li>
         </ul>
         <p style={{ marginTop: 8, marginBottom: 0 }}>
-          Want a recommendation for your home? <Link href="/free-estimate">Request a free in-home estimate</Link> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>.
+          Want a recommendation for your home? <EstimateModalLink>Request a free in-home estimate</EstimateModalLink> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>.
         </p>
       </div>
 
@@ -148,12 +149,13 @@ export default function BestFlooringForSanDiegoHomesContent() {
           { slug: 'lvp-vs-hardwood', title: 'LVP vs Hardwood Flooring', excerpt: 'Cost, durability, and water resistance compared.' },
           { slug: 'best-flooring-for-pets', title: 'Best Flooring for Homes With Pets', excerpt: 'Scratch-proof and waterproof options for dogs and cats.' },
           { slug: 'vinyl-plank-flooring-cost', title: 'Vinyl Plank Flooring Cost (2026)', excerpt: 'LVP pricing by type, room, and labor.' },
+          { slug: 'rigid-core-vs-wpc-vinyl-plank', title: 'Rigid Core vs WPC Vinyl Plank, Which Should You Choose?', excerpt: 'Explains exactly which core, SPC or WPC, fits a given room and subfloor, expanding on the rigid-core recommendation made here.' },
         ]}
       />
 
       <div className="callout-box info">
         <strong>Want a recommendation for your specific home?</strong>
-        We bring real samples to your house and match the floor to your foundation, your rooms, and how close you are to the coast. <Link href="/free-estimate">Request a free in-home estimate</Link> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>.
+        We bring real samples to your house and match the floor to your foundation, your rooms, and how close you are to the coast. <EstimateModalLink>Request a free in-home estimate</EstimateModalLink> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>.
       </div>
     </>
   );

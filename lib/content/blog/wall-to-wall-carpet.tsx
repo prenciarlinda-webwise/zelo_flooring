@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { RelatedServices, RelatedBlogPosts } from '@/components/RelatedCards';
+import EstimateModalLink from '@/components/EstimateModalLink';
 
 export default function WallToWallCarpetContent() {
   return (
@@ -22,7 +23,7 @@ export default function WallToWallCarpetContent() {
           <li><strong>Warranty note:</strong> Requires professional power-stretch installation to stay valid on most brands</li>
         </ul>
         <p style={{ marginTop: 8, marginBottom: 0 }}>
-          Want real samples in your own lighting? <Link href="/free-estimate">Request a free in-home estimate</Link> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>.
+          Want real samples in your own lighting? <EstimateModalLink>Request a free in-home estimate</EstimateModalLink> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>.
         </p>
       </div>
 
@@ -200,7 +201,7 @@ export default function WallToWallCarpetContent() {
 
       <div className="callout-box info">
         <strong>Ready to carpet a room the right way?</strong>
-        We power-stretch every install, include 8 lb pad as standard, and bring real samples to your home. <Link href="/free-estimate">Request a free in-home estimate</Link> or call us at <a href="tel:+16197774334">+1 (619) 777-4334</a>.
+        We power-stretch every install, include 8 lb pad as standard, and bring real samples to your home. <EstimateModalLink>Request a free in-home estimate</EstimateModalLink> or call us at <a href="tel:+16197774334">+1 (619) 777-4334</a>.
       </div>
     </>
   );

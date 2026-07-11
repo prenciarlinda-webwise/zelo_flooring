@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { RelatedServices, RelatedBlogPosts } from '@/components/RelatedCards';
+import EstimateModalLink from '@/components/EstimateModalLink';
 
 export default function BestFlooringForSchoolsContent() {
   return (
@@ -14,7 +15,7 @@ export default function BestFlooringForSchoolsContent() {
       <div className="callout-box info">
         <strong>Quick answer:</strong> For a typical K-12 campus, budget VCT at $3 to $6 per square foot installed for classrooms, hallways, and cafeterias, and rubber flooring at $6 to $12 per square foot installed for gyms and multipurpose rooms. VCT needs a strip-and-rewax cycle every 12 to 24 months; rubber needs almost none.
         <p style={{ marginTop: 8, marginBottom: 0 }}>
-          Planning a school or facility retrofit? <Link href="/free-estimate">Request a commercial quote</Link> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>.
+          Planning a school or facility retrofit? <EstimateModalLink>Request a commercial quote</EstimateModalLink> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>.
         </p>
       </div>
 
@@ -156,14 +157,15 @@ export default function BestFlooringForSchoolsContent() {
       <RelatedBlogPosts
         posts={[
           { slug: 'tile-vs-vinyl-flooring', title: 'Tile vs Vinyl Flooring', excerpt: 'Durability, water resistance, and cost compared for high-traffic spaces.' },
-          { slug: 'vinyl-plank-flooring-cost', title: 'Vinyl Plank Flooring Cost', excerpt: 'Full cost breakdown for LVP installation by room and quality.' },
-          { slug: 'best-flooring-for-pets', title: 'Best Flooring for Homes With Pets', excerpt: 'Scratch-proof and waterproof options compared for high-traffic households.' },
+          { slug: 'what-is-vct-flooring', title: 'What Is VCT (Vinyl Composition Tile) Flooring?', excerpt: "A foundational explainer on what VCT is actually made of, why it's the standard school and institutional floor, and how the strip-and-wax maintenance cycle works." },
+          { slug: 'vct-vs-lvt-flooring', title: 'VCT vs LVT, What Is the Difference?', excerpt: 'A direct comparison of VCT and LVT, the two vinyl tile products most schools choose between, covering cost, stripping and waxing maintenance, and which fits a tighter facilities budget.' },
+          { slug: 'vct-maintenance-stripping-and-waxing', title: 'VCT Maintenance, Stripping and Waxing Explained', excerpt: 'A deep dive on VCT finish coat cycles, strip-and-rewax frequency by traffic level, and the real dollar cost of skipping maintenance, useful for the facilities managers this post already talks to.' },
         ]}
       />
 
       <div className="callout-box info">
         <strong>Planning a school, healthcare, or retail flooring project?</strong>
-        We work with facilities directors and general contractors on VCT and rubber installs across San Diego County, including after-hours and school-break scheduling. <Link href="/free-estimate">Request a commercial quote</Link> or call us at <a href="tel:+16197774334">+1 (619) 777-4334</a>.
+        We work with facilities directors and general contractors on VCT and rubber installs across San Diego County, including after-hours and school-break scheduling. <EstimateModalLink>Request a commercial quote</EstimateModalLink> or call us at <a href="tel:+16197774334">+1 (619) 777-4334</a>.
       </div>
     </>
   );

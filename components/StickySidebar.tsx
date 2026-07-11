@@ -1,7 +1,13 @@
 import Link from 'next/link';
 import { PhoneIcon, ArrowIcon } from './Icons';
+import EstimateModalLink from './EstimateModalLink';
 import { SITE, SERVICE_AREAS } from '@/lib/areas';
 import { SERVICES } from '@/lib/services';
+
+// Phase 1 neighborhood combo URL pattern: /flooring-{slug}
+function neighborhoodSlug(name: string) {
+  return 'flooring-' + name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+}
 
 export default function StickySidebar({ currentSlug }: { currentSlug?: string }) {
   return (
@@ -13,9 +19,9 @@ export default function StickySidebar({ currentSlug }: { currentSlug?: string })
         <a href={`tel:${SITE.phoneRaw}`} className="btn btn-primary btn-block">
           <PhoneIcon size={16} /> Call {SITE.phone}
         </a>
-        <Link href="/free-estimate" className="btn btn-outline-orange btn-block" style={{ marginTop: 8 }}>
+        <EstimateModalLink className="btn btn-outline-orange btn-block" style={{ marginTop: 8 }}>
           Request Online
-        </Link>
+        </EstimateModalLink>
       </div>
 
       {/* SERVICES LIST */}
@@ -37,7 +43,7 @@ export default function StickySidebar({ currentSlug }: { currentSlug?: string })
         <h4>Service Areas</h4>
         <div className="sidebar-areas">
           {SERVICE_AREAS.map((area) => (
-            <Link key={area.name} href="/service-areas">{area.name}</Link>
+            <Link key={area.name} href={`/${neighborhoodSlug(area.name)}`}>{area.name}</Link>
           ))}
         </div>
       </div>

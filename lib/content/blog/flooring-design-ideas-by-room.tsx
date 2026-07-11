@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { RelatedServices, RelatedBlogPosts } from '@/components/RelatedCards';
+import EstimateModalLink from '@/components/EstimateModalLink';
 
 export default function FlooringDesignIdeasByRoomContent() {
   return (
@@ -22,7 +23,7 @@ export default function FlooringDesignIdeasByRoomContent() {
           <li><strong>Patio-adjacent rooms:</strong> porcelain plank tile, indoor-outdoor color match</li>
         </ul>
         <p style={{ marginTop: 8, marginBottom: 0 }}>
-          Want help planning your own room-by-room design? <Link href="/free-estimate">Request a free in-home estimate</Link> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>.
+          Want help planning your own room-by-room design? <EstimateModalLink>Request a free in-home estimate</EstimateModalLink> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>.
         </p>
       </div>
 
@@ -158,7 +159,7 @@ export default function FlooringDesignIdeasByRoomContent() {
 
       <div className="callout-box info">
         <strong>Want help planning your flooring design room by room?</strong>
-        We bring real samples to your home so you can see finishes and colors in your actual lighting before you commit. <Link href="/free-estimate">Request a free in-home estimate</Link> or call us at <a href="tel:+16197774334">+1 (619) 777-4334</a>.
+        We bring real samples to your home so you can see finishes and colors in your actual lighting before you commit. <EstimateModalLink>Request a free in-home estimate</EstimateModalLink> or call us at <a href="tel:+16197774334">+1 (619) 777-4334</a>.
       </div>
     </>
   );

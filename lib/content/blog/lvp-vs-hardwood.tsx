@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { RelatedServices, RelatedBlogPosts } from '@/components/RelatedCards';
+import EstimateModalLink from '@/components/EstimateModalLink';
 
 export default function LvpVsHardwoodContent() {
   return (
@@ -22,7 +23,7 @@ export default function LvpVsHardwoodContent() {
           <li><strong>Resale impact:</strong> Neutral (LVP) · Positive (hardwood)</li>
         </ul>
         <p style={{ marginTop: 8, marginBottom: 0 }}>
-          Ready to compare them in your own home? <Link href="/free-estimate">Request a free in-home estimate</Link> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>.
+          Ready to compare them in your own home? <EstimateModalLink>Request a free in-home estimate</EstimateModalLink> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>.
         </p>
       </div>
 
@@ -321,16 +322,15 @@ export default function LvpVsHardwoodContent() {
       <RelatedBlogPosts
         posts={[
           { slug: 'lvp-vs-engineered-hardwood', title: 'LVP vs Engineered Hardwood', excerpt: 'How LVP compares to real engineered wood.' },
-          { slug: 'tile-vs-vinyl-flooring', title: 'Tile vs Vinyl Flooring', excerpt: 'Durability, cost, and comfort compared.' },
           { slug: 'engineered-vs-solid-hardwood', title: 'Engineered vs Solid Hardwood', excerpt: 'Which type of hardwood is right for your home and subfloor.' },
           { slug: 'vinyl-plank-flooring-cost', title: 'Vinyl Plank Flooring Cost', excerpt: 'Full cost breakdown for LVP installation by room and quality.' },
-          { slug: 'best-flooring-for-pets', title: 'Best Flooring for Homes With Pets', excerpt: 'Scratch-proof and waterproof options compared for dog and cat owners.' },
+          { slug: 'is-vinyl-plank-flooring-good-for-basements', title: 'Is Vinyl Plank Flooring Good for Basements?', excerpt: 'See why vinyl plank handles below-grade moisture that hardwood cannot, including a full breakdown of vapor barriers and floating vs glue-down installation for basements.' },
         ]}
       />
 
       <div className="callout-box info">
         <strong>Not sure which floor is right for your home?</strong>
-        We will bring samples of both LVP and hardwood to your home so you can see them in your lighting and against your walls. <Link href="/free-estimate">Request a free in-home estimate</Link> or call us at <a href="tel:+16197774334">+1 (619) 777-4334</a>.
+        We will bring samples of both LVP and hardwood to your home so you can see them in your lighting and against your walls. <EstimateModalLink>Request a free in-home estimate</EstimateModalLink> or call us at <a href="tel:+16197774334">+1 (619) 777-4334</a>.
       </div>
     </>
   );

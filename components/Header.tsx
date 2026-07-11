@@ -6,16 +6,25 @@ import Image from 'next/image';
 import { PhoneIcon, PinIcon, ClockIcon } from './Icons';
 import { SITE } from '@/lib/areas';
 import { SERVICES } from '@/lib/services';
+import { LOCATIONS } from '@/lib/locations';
+import EstimateModalLink from './EstimateModalLink';
 
 export default function Header() {
   const [open, setOpen] = useState(false);
+  // Which dropdown is expanded on mobile (tap-to-expand). Desktop ignores this and uses hover.
+  const [openDropdown, setOpenDropdown] = useState<string | null>(null);
 
   useEffect(() => {
     document.body.classList.toggle('nav-open', open);
     return () => document.body.classList.remove('nav-open');
   }, [open]);
 
-  const close = () => setOpen(false);
+  const close = () => {
+    setOpen(false);
+    setOpenDropdown(null);
+  };
+
+  const toggleDropdown = (key: string) => setOpenDropdown((prev) => (prev === key ? null : key));
 
   return (
     <>
@@ -52,10 +61,19 @@ export default function Header() {
             <ul>
               <li><Link href="/" onClick={close}>Home</Link></li>
               <li><Link href="/about-us" onClick={close}>About</Link></li>
-              <li className="has-dropdown">
-                <Link href="/flooring-san-diego" onClick={close}>
-                  Flooring <span className="caret">▾</span>
-                </Link>
+              <li className={`has-dropdown${openDropdown === 'flooring' ? ' dropdown-open' : ''}`}>
+                <div className="has-dropdown-row">
+                  <Link href="/flooring-san-diego" onClick={close}>Flooring</Link>
+                  <button
+                    type="button"
+                    className="caret-toggle"
+                    onClick={() => toggleDropdown('flooring')}
+                    aria-expanded={openDropdown === 'flooring'}
+                    aria-label="Toggle Flooring submenu"
+                  >
+                    <span className="caret">▾</span>
+                  </button>
+                </div>
                 <ul className="dropdown">
                   {SERVICES.map((s) => (
                     <li key={s.slug}>
@@ -64,15 +82,35 @@ export default function Header() {
                   ))}
                 </ul>
               </li>
-              <li><Link href="/service-areas" onClick={close}>Service Areas</Link></li>
+              <li className={`has-dropdown${openDropdown === 'areas' ? ' dropdown-open' : ''}`}>
+                <div className="has-dropdown-row">
+                  <Link href="/service-areas" onClick={close}>Service Areas</Link>
+                  <button
+                    type="button"
+                    className="caret-toggle"
+                    onClick={() => toggleDropdown('areas')}
+                    aria-expanded={openDropdown === 'areas'}
+                    aria-label="Toggle Service Areas submenu"
+                  >
+                    <span className="caret">▾</span>
+                  </button>
+                </div>
+                <ul className="dropdown">
+                  {LOCATIONS.map((l) => (
+                    <li key={l.slug}>
+                      <Link href={`/${l.slug}`} onClick={close}>{l.city}</Link>
+                    </li>
+                  ))}
+                </ul>
+              </li>
               <li><Link href="/blog" onClick={close}>Blog</Link></li>
               <li><Link href="/contact" onClick={close}>Contact</Link></li>
             </ul>
           </nav>
 
-          <Link href="/free-estimate" className="btn btn-primary header-cta">
+          <EstimateModalLink className="btn btn-primary header-cta">
             Free Estimate
-          </Link>
+          </EstimateModalLink>
 
           <button
             className={`menu-toggle${open ? ' open' : ''}`}

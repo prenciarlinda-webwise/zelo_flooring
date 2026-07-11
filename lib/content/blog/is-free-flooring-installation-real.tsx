@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { RelatedServices, RelatedBlogPosts } from '@/components/RelatedCards';
+import EstimateModalLink from '@/components/EstimateModalLink';
 
 export default function IsFreeFlooringInstallationRealContent() {
   return (
@@ -17,7 +18,7 @@ export default function IsFreeFlooringInstallationRealContent() {
           Free flooring installation almost always means the labor cost is built into a higher per-square-foot material price rather than waived. It can still be a fair deal if the total installed price is competitive, but always ask for the price with labor itemized separately before you sign anything.
         </p>
         <p style={{ marginTop: 8, marginBottom: 0 }}>
-          Want a quote with nothing hidden? <Link href="/free-estimate">Request a free in-home estimate</Link> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>.
+          Want a quote with nothing hidden? <EstimateModalLink>Request a free in-home estimate</EstimateModalLink> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>.
         </p>
       </div>
 
@@ -172,7 +173,7 @@ export default function IsFreeFlooringInstallationRealContent() {
 
       <div className="callout-box info">
         <strong>Want a quote with nothing hidden?</strong>
-        We itemize material, labor, removal, and prep on every estimate so you know exactly what you are paying for. <Link href="/free-estimate">Request a free in-home estimate</Link> or call us at <a href="tel:+16197774334">+1 (619) 777-4334</a>.
+        We itemize material, labor, removal, and prep on every estimate so you know exactly what you are paying for. <EstimateModalLink>Request a free in-home estimate</EstimateModalLink> or call us at <a href="tel:+16197774334">+1 (619) 777-4334</a>.
       </div>
     </>
   );

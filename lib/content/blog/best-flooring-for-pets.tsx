@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { RelatedServices, RelatedBlogPosts } from '@/components/RelatedCards';
+import EstimateModalLink from '@/components/EstimateModalLink';
 
 export default function BestFlooringForPetsContent() {
   return (
@@ -23,7 +24,7 @@ export default function BestFlooringForPetsContent() {
           <li><strong>Best for non-slip traction:</strong> Textured LVP or matte porcelain tile (avoid polished finishes)</li>
         </ul>
         <p style={{ marginTop: 8, marginBottom: 0 }}>
-          Ready to pet-proof your floors? <Link href="/free-estimate">Request a free estimate</Link> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>.
+          Ready to pet-proof your floors? <EstimateModalLink>Request a free estimate</EstimateModalLink> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>.
         </p>
       </div>
 
@@ -329,17 +330,16 @@ export default function BestFlooringForPetsContent() {
 
       <RelatedBlogPosts
         posts={[
-          { slug: 'tile-vs-vinyl-flooring', title: 'Tile vs Vinyl Flooring', excerpt: 'Which waterproof floor wins by room.' },
-          { slug: 'how-to-clean-luxury-vinyl-plank-flooring', title: 'How to Clean Luxury Vinyl Plank', excerpt: 'Keep waterproof floors looking new.' },
-          { slug: 'vinyl-plank-flooring-cost', title: 'Vinyl Plank Flooring Cost', excerpt: 'Full cost breakdown for LVP installation by room and quality.' },
-          { slug: 'best-carpet-for-living-room', title: 'Best Carpet for Living Room', excerpt: 'How to pick the right fiber, style, and color.' },
-          { slug: 'lvp-vs-hardwood', title: 'LVP vs Hardwood Flooring', excerpt: 'Which one makes more sense for your home and budget.' },
+          { slug: 'what-is-cork-flooring', title: 'What Is Cork Flooring? Pros, Cons, and Cost', excerpt: 'The full breakdown of what cork flooring is, its pros and cons, and installed cost, for readers considering cork as the pet-friendly option mentioned here.' },
+          { slug: 'cork-flooring-maintenance-and-cleaning', title: 'Cork Flooring Maintenance and Cleaning Guide', excerpt: "A cork-specific maintenance and cleaning guide covering sweeping, resealing schedules, UV fade prevention, and how cork's cushioned structure actually holds up against dog nails and cat claws." },
+          { slug: 'janka-hardness-chart-for-hardwood-flooring', title: 'Janka Hardness Chart, Which Wood Species Is Toughest?', excerpt: 'The complete Janka hardness chart behind the pet-durability rankings, showing exactly how hickory, oak, and walnut compare for dent resistance.' },
+          { slug: 'how-to-remove-carpet-stains', title: 'How to Remove Carpet Stains, a Room-by-Room Guide', excerpt: 'A practical, room-by-room guide to removing pet accidents, food, and drink stains from carpet, plus when a stain means it is time to call a professional cleaner instead of DIY.' },
         ]}
       />
 
       <div className="callout-box info">
         <strong>Need help choosing pet friendly flooring?</strong>
-        We have installed flooring in hundreds of pet homes across San Diego. <Link href="/free-estimate">Request a free estimate</Link> and we will recommend the best option for your pets, your lifestyle, and your budget. Or call us at <a href="tel:+16197774334">+1 (619) 777-4334</a>.
+        We have installed flooring in hundreds of pet homes across San Diego. <EstimateModalLink>Request a free estimate</EstimateModalLink> and we will recommend the best option for your pets, your lifestyle, and your budget. Or call us at <a href="tel:+16197774334">+1 (619) 777-4334</a>.
       </div>
     </>
   );

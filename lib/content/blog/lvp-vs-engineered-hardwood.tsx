@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { RelatedServices, RelatedBlogPosts } from '@/components/RelatedCards';
+import EstimateModalLink from '@/components/EstimateModalLink';
 
 export default function LvpVsEngineeredHardwoodContent() {
   return (
@@ -19,7 +20,7 @@ export default function LvpVsEngineeredHardwoodContent() {
           <li>Best for pets and wet rooms: LVP</li>
         </ul>
         <p style={{ marginTop: 8, marginBottom: 0 }}>
-          Still weighing wood versus vinyl? <Link href="/free-estimate">Request a free in-home estimate</Link> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>.
+          Still weighing wood versus vinyl? <EstimateModalLink>Request a free in-home estimate</EstimateModalLink> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>.
         </p>
       </div>
 
@@ -118,7 +119,7 @@ export default function LvpVsEngineeredHardwoodContent() {
 
       <div className="callout-box info">
         <strong>Comparing wood and vinyl for your home?</strong>
-        We bring both to your door and help you decide room by room. <Link href="/free-estimate">Request a free in-home estimate</Link> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>.
+        We bring both to your door and help you decide room by room. <EstimateModalLink>Request a free in-home estimate</EstimateModalLink> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>.
       </div>
     </>
   );

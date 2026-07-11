@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { RelatedServices, RelatedBlogPosts } from '@/components/RelatedCards';
+import EstimateModalLink from '@/components/EstimateModalLink';
 
 export default function VinylPlankFlooringCostContent() {
   return (
@@ -23,7 +24,7 @@ export default function VinylPlankFlooringCostContent() {
           <li>Wear layer for pets: 20+ mil</li>
         </ul>
         <p style={{ marginTop: 8, marginBottom: 0 }}>
-          Want an exact number instead of a range? <Link href="/free-estimate">Request a free in-home estimate</Link> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>.
+          Want an exact number instead of a range? <EstimateModalLink>Request a free in-home estimate</EstimateModalLink> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>.
         </p>
       </div>
 
@@ -287,7 +288,7 @@ export default function VinylPlankFlooringCostContent() {
         <li><strong>Move furniture yourself.</strong> Clear small items, electronics, and breakables before the crew arrives.</li>
         <li><strong>Keep your existing baseboards.</strong> If they are in good shape, the installer can work around them and add quarter round to cover the expansion gap.</li>
         <li><strong>Shop during sales events.</strong> Vinyl plank material goes on sale frequently. Buying material during a sale and scheduling installation separately can save 15 to 25 percent on materials.</li>
-        <li><strong>Get at least three quotes.</strong> Compare total installed cost, not just material pricing. <Link href="/free-estimate">Get a free estimate from Zelo Flooring</Link> to start.</li>
+        <li><strong>Get at least three quotes.</strong> Compare total installed cost, not just material pricing. <EstimateModalLink>Get a free estimate from Zelo Flooring</EstimateModalLink> to start.</li>
       </ul>
 
       {/* FAQ */}
@@ -337,16 +338,16 @@ export default function VinylPlankFlooringCostContent() {
 
       <RelatedBlogPosts
         posts={[
-          { slug: 'how-to-clean-luxury-vinyl-plank-flooring', title: 'How to Clean Luxury Vinyl Plank', excerpt: 'Keep your new LVP looking new with the right routine.' },
-          { slug: 'vinyl-vs-laminate-flooring', title: 'Vinyl vs Laminate Flooring', excerpt: 'Which floating floor is right for each room.' },
           { slug: 'lvp-vs-hardwood', title: 'LVP vs Hardwood Flooring', excerpt: 'Full comparison of luxury vinyl plank and hardwood for every room.' },
-          { slug: 'engineered-vs-solid-hardwood', title: 'Engineered vs Solid Hardwood', excerpt: 'Which type of hardwood is right for your home and subfloor.' },
+          { slug: 'lvp-vs-lvt-flooring', title: 'LVP vs LVT, What Is the Actual Difference?', excerpt: 'Explains how grout-strip LVT and pattern layouts (herringbone, diagonal) affect installed cost beyond the base per-square-foot vinyl pricing covered in the cost guide.' },
+          { slug: 'rigid-core-vs-wpc-vinyl-plank', title: 'Rigid Core vs WPC Vinyl Plank, Which Should You Choose?', excerpt: 'A deeper breakdown of why WPC costs more than SPC per square foot, with room-by-room and brand pricing to back up the cost table.' },
+          { slug: 'is-vinyl-plank-flooring-good-for-basements', title: 'Is Vinyl Plank Flooring Good for Basements?', excerpt: 'Get basement-specific installed pricing for vinyl plank, including vapor barrier and moisture mitigation add-on costs not covered in the general cost guide.' },
         ]}
       />
 
       <div className="callout-box info">
         <strong>Ready for an exact number?</strong>
-        Skip the online calculators. <Link href="/free-estimate">Request a free in-home estimate</Link> and we will measure your space, show you real samples, and give you a detailed written quote. Or call us at <a href="tel:+16197774334">+1 (619) 777-4334</a>.
+        Skip the online calculators. <EstimateModalLink>Request a free in-home estimate</EstimateModalLink> and we will measure your space, show you real samples, and give you a detailed written quote. Or call us at <a href="tel:+16197774334">+1 (619) 777-4334</a>.
       </div>
     </>
   );

@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { RelatedServices, RelatedBlogPosts } from '@/components/RelatedCards';
+import EstimateModalLink from '@/components/EstimateModalLink';
 
 export default function TileVsVinylFlooringContent() {
   return (
@@ -19,7 +20,7 @@ export default function TileVsVinylFlooringContent() {
           <li>DIY: LVP is far easier; tile is a skilled job</li>
         </ul>
         <p style={{ marginTop: 8, marginBottom: 0 }}>
-          Deciding between tile and vinyl for your project? <Link href="/free-estimate">Request a free in-home estimate</Link> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>.
+          Deciding between tile and vinyl for your project? <EstimateModalLink>Request a free in-home estimate</EstimateModalLink> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>.
         </p>
       </div>
 
@@ -120,15 +121,16 @@ export default function TileVsVinylFlooringContent() {
 
       <RelatedBlogPosts
         posts={[
-          { slug: 'vinyl-vs-laminate-flooring', title: 'Vinyl vs Laminate Flooring', excerpt: 'Which floating floor is right for each room.' },
-          { slug: 'best-flooring-for-pets', title: 'Best Flooring for Homes With Pets', excerpt: 'Scratch-proof and waterproof options compared.' },
-          { slug: 'best-flooring-for-san-diego-homes', title: 'Best Flooring for San Diego Homes', excerpt: 'Top picks for slab and coastal homes.' },
+          { slug: 'how-much-does-tile-flooring-cost', title: 'How Much Does Tile Flooring Cost in 2026?', excerpt: 'A detailed 2026 cost guide covering tile pricing by material type, room, and installation pattern for readers deciding between tile and vinyl.' },
+          { slug: 'porcelain-vs-ceramic-tile', title: 'Porcelain vs Ceramic Tile, What Is the Difference?', excerpt: 'A deeper look at porcelain versus ceramic tile specifically, for readers who already chose tile over vinyl and now need to pick a tile type.' },
+          { slug: 'bathroom-floor-tile-ideas', title: 'Bathroom Floor Tile Ideas by Style and Budget', excerpt: 'A style-focused breakdown of bathroom tile ideas by budget tier, useful for readers comparing tile against vinyl who want to see what tile actually looks like installed.' },
+          { slug: 'lvp-vs-lvt-flooring', title: 'LVP vs LVT, What Is the Actual Difference?', excerpt: 'A companion piece that clarifies the LVT tile-format option within luxury vinyl, for readers comparing real tile against vinyl tile look-alikes.' },
         ]}
       />
 
       <div className="callout-box info">
         <strong>Choosing between tile and vinyl?</strong>
-        We help you put tile where it earns its keep and vinyl where comfort matters. <Link href="/free-estimate">Request a free in-home estimate</Link> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>.
+        We help you put tile where it earns its keep and vinyl where comfort matters. <EstimateModalLink>Request a free in-home estimate</EstimateModalLink> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>.
       </div>
     </>
   );

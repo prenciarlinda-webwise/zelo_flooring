@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { RelatedServices, RelatedBlogPosts } from '@/components/RelatedCards';
+import EstimateModalLink from '@/components/EstimateModalLink';
 
 export default function HowToInstallVinylPlankFlooringContent() {
   return (
@@ -19,7 +20,7 @@ export default function HowToInstallVinylPlankFlooringContent() {
           <li>Over concrete, use a moisture barrier</li>
         </ul>
         <p style={{ marginTop: 8, marginBottom: 0 }}>
-          Prefer it done right the first time? <Link href="/free-estimate">Request a free estimate</Link> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>.
+          Prefer it done right the first time? <EstimateModalLink>Request a free estimate</EstimateModalLink> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>.
         </p>
       </div>
 
@@ -98,7 +99,7 @@ export default function HowToInstallVinylPlankFlooringContent() {
       {/* PRO */}
       <h2 id="pro">When to Hire a Pro</h2>
       <p>
-        Click-lock vinyl in a simple rectangular room is a realistic weekend DIY job. It is worth hiring a professional when the subfloor needs grinding or self-leveling, when you have many doorways, angles, stairs, or an island to cut around, when you are going over concrete with moisture concerns, or when you want a glue-down install. Mistakes in those situations cost more to fix than the install would have. A pro also keeps the manufacturer warranty intact. <Link href="/free-estimate">Request a free in-home estimate</Link> if you would rather have it done right the first time.
+        Click-lock vinyl in a simple rectangular room is a realistic weekend DIY job. It is worth hiring a professional when the subfloor needs grinding or self-leveling, when you have many doorways, angles, stairs, or an island to cut around, when you are going over concrete with moisture concerns, or when you want a glue-down install. Mistakes in those situations cost more to fix than the install would have. A pro also keeps the manufacturer warranty intact. <EstimateModalLink>Request a free in-home estimate</EstimateModalLink> if you would rather have it done right the first time.
       </p>
 
       {/* FAQ */}
@@ -138,12 +139,13 @@ export default function HowToInstallVinylPlankFlooringContent() {
           { slug: 'vinyl-plank-flooring-cost', title: 'Vinyl Plank Flooring Cost (2026)', excerpt: 'What LVP costs installed, by type, room, and labor.' },
           { slug: 'vinyl-vs-laminate-flooring', title: 'Vinyl vs Laminate Flooring', excerpt: 'Which floating floor is right for each room.' },
           { slug: 'laminate-over-existing-floors', title: 'Can You Install Over Existing Floors?', excerpt: 'When you can float over tile, vinyl, or wood.' },
+          { slug: 'how-to-fix-scratches-and-dents-in-vinyl-plank', title: 'How to Fix Scratches and Dents in Vinyl Plank Flooring', excerpt: 'How to repair scratched or dented vinyl plank yourself, including single-plank replacement for both click-lock and glue-down installs.' },
         ]}
       />
 
       <div className="callout-box info">
         <strong>Want it installed right the first time?</strong>
-        We handle subfloor prep, moisture testing, and clean transitions on every job. <Link href="/free-estimate">Request a free estimate</Link> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>.
+        We handle subfloor prep, moisture testing, and clean transitions on every job. <EstimateModalLink>Request a free estimate</EstimateModalLink> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>.
       </div>
     </>
   );

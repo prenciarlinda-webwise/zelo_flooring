@@ -1,11 +1,11 @@
 import Link from 'next/link';
 import LeadFormHero from './LeadFormHero';
-import ServiceBreakdown from './ServiceBreakdown';
-import ServiceReviews from './ServiceReviews';
 import IndustryStats from './IndustryStats';
+import TrustindexWidget from './TrustindexWidget';
 import CouponsBlock from './CouponsBlock';
 import FaqList from './FaqList';
 import FinalCTA from './FinalCTA';
+import LinkifyPhone from './LinkifyPhone';
 import { ArrowIcon, PinIcon, CheckIcon } from './Icons';
 import { SITE } from '@/lib/areas';
 import type { Location } from '@/lib/locations';
@@ -17,13 +17,9 @@ type Props = { location: Location };
 export default function LocationPage({ location }: Props) {
   const isMain = location.type === 'main';
 
-  // Service breakdown items pull from the SERVICES array, links to the existing /[service-slug] pages
-  const serviceBreakdownItems = SERVICES.map((s) => ({
-    id: s.slug,
-    name: `${s.name} in ${location.city}`,
-    blurb: s.description,
-    href: `/${s.slug}`,
-  }));
+  // Service list for this location: informational only, no link out. There is no per-city
+  // service page (only one shared /{service}-san-diego page per service), so rather than link
+  // to a page that isn't about this city, each card gets a short, location-specific note instead.
 
   // Stats: a mix of universal industry stats and location-specific facts
   const stats = [
@@ -62,7 +58,7 @@ export default function LocationPage({ location }: Props) {
       <section className="section section-cream">
         <div className="container">
           <div className="aeo-block">
-            <p className="aeo-answer-text">{location.aeoCostAnswer}</p>
+            <p className="aeo-answer-text"><LinkifyPhone text={location.aeoCostAnswer} /></p>
 
             <ul className="aeo-keyfacts">
               <li><strong>Service area:</strong> {location.city} ({location.zips.join(', ')})</li>
@@ -116,21 +112,35 @@ export default function LocationPage({ location }: Props) {
           <div className="why-local-grid">
             {location.whyChooseUsLocal.map((w) => (
               <div key={w.title} className="why-local-item">
-                <h3>{w.title}</h3>
-                <p>{w.desc}</p>
+                <CheckIcon size={16} />
+                <div className="why-local-text">
+                  <h3>{w.title}</h3>
+                  <p>{w.desc}</p>
+                </div>
               </div>
             ))}
           </div>
         </div>
       </section>
 
-      {/* SERVICES WE OFFER (linking to existing service-location combo pages) */}
-      <ServiceBreakdown
-        eyebrow={`Flooring services in ${location.city}`}
-        heading={`Flooring services in ${location.city}, ${location.state}`}
-        subheading="Eight flooring services, each with its own page covering brands and project details."
-        items={serviceBreakdownItems}
-      />
+      {/* SERVICES WE OFFER (informational, no link out - see note above) */}
+      <section className="section">
+        <div className="container">
+          <div className="section-header center">
+            <span className="eyebrow">{`Flooring services in ${location.city}`}</span>
+            <h2>{`Flooring services in ${location.city}, ${location.state}`}</h2>
+            <p>All 8 flooring types we install, with what matters most for {location.city} homes.</p>
+          </div>
+          <div className="location-service-grid">
+            {SERVICES.map((s) => (
+              <div key={s.slug} className="location-service-card">
+                <h3 className="location-service-title">{s.name}</h3>
+                <p className="location-service-note">{location.serviceNotes[s.slug]}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
 
       {/* BEST-OF ANSWER BLOCK (AEO) */}
       {location.bestOf && (
@@ -160,14 +170,15 @@ export default function LocationPage({ location }: Props) {
       {location.findInstaller && (
         <section className="section">
           <div className="container">
-            <div className="aeo-block">
+            <div className="installer-trust-block">
               <p className="eyebrow">Choosing an installer</p>
               <h2>{location.findInstaller.q}</h2>
-              <p className="aeo-answer-text">{location.findInstaller.a}</p>
-              <ul className="aeo-keyfacts">
+              <p className="aeo-answer-text"><LinkifyPhone text={location.findInstaller.a} /></p>
+              <ul className="installer-checklist">
                 {location.findInstaller.criteria.map((c) => (
                   <li key={c.label}>
-                    <strong>{c.label}:</strong> {c.detail}
+                    <CheckIcon size={16} />
+                    <span><strong>{c.label}:</strong> {c.detail}</span>
                   </li>
                 ))}
               </ul>
@@ -239,7 +250,7 @@ export default function LocationPage({ location }: Props) {
           <div className="aeo-block">
             <p className="eyebrow">Top question</p>
             <h2>{location.aeoSecondaryQuestion.q}</h2>
-            <p className="aeo-answer-text">{location.aeoSecondaryQuestion.a}</p>
+            <p className="aeo-answer-text"><LinkifyPhone text={location.aeoSecondaryQuestion.a} /></p>
           </div>
         </div>
       </section>
@@ -262,6 +273,36 @@ export default function LocationPage({ location }: Props) {
             ))}
           </div>
 
+        </div>
+      </section>
+
+      {/* FIND US (narrative local-reach section + embedded map, unique per location) */}
+      <section className="section section-cream">
+        <div className="container">
+          <div className="section-header center">
+            <span className="eyebrow">Find Us</span>
+            <h2>{location.findUs.heading}</h2>
+          </div>
+          <div className="trust-local-block">
+            <div className="trust-local-text">
+              {location.findUs.paragraphs.map((p, i) => (
+                <p key={i}>{p}</p>
+              ))}
+              <p>
+                Phone: <a href={`tel:${SITE.phoneRaw}`}>{SITE.phone}</a>
+              </p>
+              <p className="trust-local-address">{SITE.address}</p>
+            </div>
+            <div className="trust-local-map">
+              <iframe
+                title={`Zelo Flooring office location serving ${location.city}, ${location.state}`}
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d429158.4382376207!2d-117.43896549701864!3d32.82405591700714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4579afeb4521caf3%3A0x8ce37c4ae7b6778f!2sZelo%20Flooring!5e0!3m2!1sen!2s!4v1783763905235!5m2!1sen!2s"
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                allowFullScreen
+              />
+            </div>
+          </div>
           <div className="landmarks">
             <p>
               <strong>Local landmarks:</strong>{' '}
@@ -285,11 +326,15 @@ export default function LocationPage({ location }: Props) {
         stats={stats}
       />
 
-      <ServiceReviews
-        eyebrow="What customers say"
-        heading={`5-star reviews from ${location.city} customers`}
-        reviews={location.reviews}
-      />
+      <section className="section">
+        <div className="container">
+          <div className="section-header center">
+            <span className="eyebrow">What customers say</span>
+            <h2>{`5-star reviews from ${location.city} customers`}</h2>
+          </div>
+          <TrustindexWidget src="https://cdn.trustindex.io/loader.js?4a1219e76b2c4743ce66d5610b3" />
+        </div>
+      </section>
 
       <CouponsBlock
         eyebrow="Current Offers"

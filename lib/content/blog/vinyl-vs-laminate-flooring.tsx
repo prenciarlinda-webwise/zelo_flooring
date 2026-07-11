@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { RelatedServices, RelatedBlogPosts } from '@/components/RelatedCards';
+import EstimateModalLink from '@/components/EstimateModalLink';
 
 export default function VinylVsLaminateFlooringContent() {
   return (
@@ -19,7 +20,7 @@ export default function VinylVsLaminateFlooringContent() {
           <li>Both: floating install, wood looks, DIY-friendly</li>
         </ul>
         <p style={{ marginTop: 8, marginBottom: 0 }}>
-          Still deciding between the two? <Link href="/free-estimate">Request a free in-home estimate</Link> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>.
+          Still deciding between the two? <EstimateModalLink>Request a free in-home estimate</EstimateModalLink> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>.
         </p>
       </div>
 
@@ -129,15 +130,16 @@ export default function VinylVsLaminateFlooringContent() {
       {/* RELATED BLOG POSTS */}
       <RelatedBlogPosts
         posts={[
-          { slug: 'lvp-vs-hardwood', title: 'LVP vs Hardwood Flooring', excerpt: 'How luxury vinyl plank compares to real wood.' },
           { slug: 'laminate-flooring-thickness', title: 'Laminate Thickness and Wear Layers', excerpt: 'mm thickness vs the AC rating that controls durability.' },
           { slug: 'vinyl-plank-flooring-cost', title: 'Vinyl Plank Flooring Cost (2026)', excerpt: 'LVP pricing by type, room, and labor.' },
+          { slug: 'is-laminate-flooring-waterproof', title: 'Is Laminate Flooring Actually Waterproof?', excerpt: 'A direct comparison post where readers deciding between vinyl and laminate can get the deeper water-resistance breakdown that settles the tie.' },
+          { slug: 'flooring-for-rental-properties', title: 'Best Flooring for Rental Properties and Investments', excerpt: 'A landlord-focused breakdown of when rigid-core LVP versus laminate makes more sense specifically for rental units, plus where carpet and VCT still fit.' },
         ]}
       />
 
       <div className="callout-box info">
         <strong>Still deciding between vinyl and laminate?</strong>
-        We bring both to your home and help you choose room by room. <Link href="/free-estimate">Request a free in-home estimate</Link> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>.
+        We bring both to your home and help you choose room by room. <EstimateModalLink>Request a free in-home estimate</EstimateModalLink> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>.
       </div>
     </>
   );

@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { RelatedServices, RelatedBlogPosts } from '@/components/RelatedCards';
+import EstimateModalLink from '@/components/EstimateModalLink';
 
 export default function TypesOfHardwoodFlooringContent() {
   return (
@@ -19,7 +20,7 @@ export default function TypesOfHardwoodFlooringContent() {
           <li>Hardest common species: Hickory, then oak; walnut is softer</li>
         </ul>
         <p style={{ marginTop: 8, marginBottom: 0 }}>
-          Ready to pick a species and finish? <Link href="/free-estimate">Request a free in-home estimate</Link> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>.
+          Ready to pick a species and finish? <EstimateModalLink>Request a free in-home estimate</EstimateModalLink> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>.
         </p>
       </div>
 
@@ -108,14 +109,15 @@ export default function TypesOfHardwoodFlooringContent() {
       <RelatedBlogPosts
         posts={[
           { slug: 'engineered-vs-solid-hardwood', title: 'Engineered vs Solid Hardwood', excerpt: 'Which construction fits your subfloor and home.' },
-          { slug: 'lvp-vs-engineered-hardwood', title: 'LVP vs Engineered Hardwood', excerpt: 'Real wood versus waterproof vinyl, compared.' },
-          { slug: 'best-flooring-for-san-diego-homes', title: 'Best Flooring for San Diego Homes', excerpt: 'Top picks for slab and coastal humidity.' },
+          { slug: 'how-to-clean-hardwood-floors', title: 'How to Clean Hardwood Floors the Right Way', excerpt: 'The correct cleaning routine and safe cleaners for hardwood floors, plus why Pine-Sol and similar household cleaners are not recommended on polyurethane finish.' },
+          { slug: 'janka-hardness-chart-for-hardwood-flooring', title: 'Janka Hardness Chart, Which Wood Species Is Toughest?', excerpt: 'A full Janka hardness chart ranking hickory, oak, maple, and walnut, plus what the rating actually predicts for dents, scratches, and durability.' },
+          { slug: 'prefinished-vs-site-finished-hardwood', title: 'Prefinished vs Site-Finished Hardwood, Which Is Better?', excerpt: 'A deeper comparison of prefinished versus site-finished hardwood, covering durability, cost, timeline, and which is better for whole-home versus single-room jobs.' },
         ]}
       />
 
       <div className="callout-box info">
         <strong>Want help choosing a hardwood?</strong>
-        We bring species and finish samples to your home and recommend what fits your subfloor and climate. <Link href="/free-estimate">Request a free in-home estimate</Link> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>.
+        We bring species and finish samples to your home and recommend what fits your subfloor and climate. <EstimateModalLink>Request a free in-home estimate</EstimateModalLink> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>.
       </div>
     </>
   );

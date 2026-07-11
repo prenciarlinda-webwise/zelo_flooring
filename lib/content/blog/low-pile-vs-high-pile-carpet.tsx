@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { RelatedServices, RelatedBlogPosts } from '@/components/RelatedCards';
+import EstimateModalLink from '@/components/EstimateModalLink';
 
 export default function LowPileVsHighPileCarpetContent() {
   return (
@@ -19,7 +20,7 @@ export default function LowPileVsHighPileCarpetContent() {
           <li>Cleaning: low pile is much easier</li>
         </ul>
         <p style={{ marginTop: 8, marginBottom: 0 }}>
-          Want to feel the difference yourself? <Link href="/free-estimate">Request a free in-home estimate</Link> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>.
+          Want to feel the difference yourself? <EstimateModalLink>Request a free in-home estimate</EstimateModalLink> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>.
         </p>
       </div>
 
@@ -130,7 +131,7 @@ export default function LowPileVsHighPileCarpetContent() {
 
       <div className="callout-box info">
         <strong>Not sure which carpet pile fits your home?</strong>
-        We bring samples so you can feel low and high pile side by side. <Link href="/free-estimate">Request a free in-home estimate</Link> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>.
+        We bring samples so you can feel low and high pile side by side. <EstimateModalLink>Request a free in-home estimate</EstimateModalLink> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>.
       </div>
     </>
   );

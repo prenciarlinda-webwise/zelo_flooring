@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { ArrowIcon } from './Icons';
+import EstimateModalLink from './EstimateModalLink';
 
 type Props = {
   eyebrow?: string;
@@ -46,9 +47,15 @@ export default function AlternatingSection({
               </ul>
             )}
             {cta && (
-              <Link href={cta.href} className="btn btn-primary" style={{ marginTop: 8 }}>
-                {cta.label} <ArrowIcon size={16} />
-              </Link>
+              cta.href === '/free-estimate' ? (
+                <EstimateModalLink className="btn btn-primary" style={{ marginTop: 8 }}>
+                  {cta.label} <ArrowIcon size={16} />
+                </EstimateModalLink>
+              ) : (
+                <Link href={cta.href} className="btn btn-primary" style={{ marginTop: 8 }}>
+                  {cta.label} <ArrowIcon size={16} />
+                </Link>
+              )
             )}
           </div>
           <div

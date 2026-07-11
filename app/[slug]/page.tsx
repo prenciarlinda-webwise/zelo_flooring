@@ -9,6 +9,7 @@ import CouponsBlock from '@/components/CouponsBlock';
 import FaqList from '@/components/FaqList';
 import FinalCTA from '@/components/FinalCTA';
 import LocationPage from '@/components/LocationPage';
+import LinkifyPhone from '@/components/LinkifyPhone';
 import { CheckIcon, PinIcon } from '@/components/Icons';
 import { SERVICES, getService } from '@/lib/services';
 import { LOCATIONS, getLocation, MAIN_LOCATION } from '@/lib/locations';
@@ -237,7 +238,7 @@ function renderServicePage(service: ReturnType<typeof getService>) {
         <section className="section section-cream">
           <div className="container">
             <div className="aeo-block">
-              <p className="aeo-answer-text">{local.aeoCostAnswer}</p>
+              <p className="aeo-answer-text"><LinkifyPhone text={local.aeoCostAnswer} /></p>
 
               <ul className="aeo-keyfacts">
                 <li><strong>Service area:</strong> {SITE.city}, {SITE.region} ({MAIN_LOCATION.county})</li>
@@ -301,7 +302,7 @@ function renderServicePage(service: ReturnType<typeof getService>) {
           <div className="container">
             <div className="aeo-block">
               <h2>{local.aeoSecondaryQuestion.q}</h2>
-              <p className="aeo-answer-text">{local.aeoSecondaryQuestion.a}</p>
+              <p className="aeo-answer-text"><LinkifyPhone text={local.aeoSecondaryQuestion.a} /></p>
             </div>
           </div>
         </section>
@@ -343,7 +344,7 @@ function renderServicePage(service: ReturnType<typeof getService>) {
             <div className="trust-local-map">
               <iframe
                 title={`Zelo Flooring office location, ${SITE.city}, ${SITE.region}`}
-                src={`https://www.google.com/maps?q=${encodeURIComponent(SITE.address)}&output=embed`}
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d429158.4382376207!2d-117.43896549701864!3d32.82405591700714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4579afeb4521caf3%3A0x8ce37c4ae7b6778f!2sZelo%20Flooring!5e0!3m2!1sen!2s!4v1783763905235!5m2!1sen!2s"
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
                 allowFullScreen

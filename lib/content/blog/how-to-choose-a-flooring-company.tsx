@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { RelatedServices, RelatedBlogPosts } from '@/components/RelatedCards';
+import EstimateModalLink from '@/components/EstimateModalLink';
 
 export default function HowToChooseAFlooringCompanyContent() {
   return (
@@ -14,7 +15,7 @@ export default function HowToChooseAFlooringCompanyContent() {
       <div className="callout-box info">
         <strong>Quick answer:</strong> Verify the contractor holds an active C-15 flooring license through the California Contractors State License Board (CSLB), confirm bonding and insurance, get a written itemized estimate with a measurement visit included, and check reviews across at least two platforms, not just one. Walk away from any company that asks for full payment upfront.
         <p style={{ marginTop: 8, marginBottom: 0 }}>
-          Want to see how Zelo Flooring measures up? <Link href="/free-estimate">Request a free in-home estimate</Link> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>.
+          Want to see how Zelo Flooring measures up? <EstimateModalLink>Request a free in-home estimate</EstimateModalLink> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>.
         </p>
       </div>
 
@@ -162,14 +163,13 @@ export default function HowToChooseAFlooringCompanyContent() {
           { slug: 'best-flooring-for-san-diego-homes', title: 'Best Flooring for San Diego Homes', excerpt: 'Best picks by goal, area, room, and budget for San Diego homeowners.' },
           { slug: 'cost-to-install-carpet', title: 'How Much Carpet Installation Costs in 2026', excerpt: 'Full cost breakdown by fiber, brand, pad, and room size.' },
           { slug: 'vinyl-plank-flooring-cost', title: 'How Much Vinyl Plank Flooring Costs in 2026', excerpt: 'LVP cost breakdown by product type, room size, and labor.' },
-          { slug: 'how-long-does-hardwood-refinishing-take', title: 'How Long Does Hardwood Floor Refinishing Take', excerpt: 'A day-by-day timeline and the factors that change it.' },
-          { slug: 'best-flooring-for-pets', title: 'The Best Flooring for Homes with Pets', excerpt: 'Scratch-resistant, waterproof options that hold up with dogs and cats.' },
+          { slug: 'rubber-flooring-for-a-home-gym', title: 'Best Rubber Flooring Options for a Home Gym', excerpt: 'A specialty-flooring case study readers can reference when vetting installers for a home gym rubber floor specifically, covering thickness, smell, and slab prep.' },
         ]}
       />
 
       <div className="callout-box info">
         <strong>Want to compare us against the checklist above?</strong>
-        CSLB #1083572, bonded and insured, 5.0 stars across 34 Thumbtack reviews, BBB A+ since 2022. <Link href="/free-estimate">Request a free in-home estimate</Link> or call us at <a href="tel:+16197774334">+1 (619) 777-4334</a>.
+        CSLB #1083572, bonded and insured, 5.0 stars across 34 Thumbtack reviews, BBB A+ since 2022. <EstimateModalLink>Request a free in-home estimate</EstimateModalLink> or call us at <a href="tel:+16197774334">+1 (619) 777-4334</a>.
       </div>
     </>
   );

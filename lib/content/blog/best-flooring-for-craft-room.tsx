@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { RelatedServices, RelatedBlogPosts } from '@/components/RelatedCards';
+import EstimateModalLink from '@/components/EstimateModalLink';
 
 export default function BestFlooringForCraftRoomContent() {
   return (
@@ -21,7 +22,7 @@ export default function BestFlooringForCraftRoomContent() {
           <li><strong>Typical cost for a 120 to 150 sqft room:</strong> $720 to $1,800 installed depending on material</li>
         </ul>
         <p style={{ marginTop: 8, marginBottom: 0 }}>
-          Ready to compare samples in your space? <Link href="/free-estimate">Request a free in-home estimate</Link> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>.
+          Ready to compare samples in your space? <EstimateModalLink>Request a free in-home estimate</EstimateModalLink> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>.
         </p>
       </div>
 
@@ -189,7 +190,7 @@ export default function BestFlooringForCraftRoomContent() {
       <RelatedBlogPosts
         posts={[
           { slug: 'best-flooring-for-pets', title: 'Best Flooring for Homes With Pets', excerpt: 'Scratch-proof and waterproof options compared for dog and cat owners.' },
-          { slug: 'best-carpet-for-living-room', title: 'Best Carpet for Living Room', excerpt: 'How to pick the right fiber, style, and color.' },
+          { slug: 'rubber-flooring-for-garages', title: 'Rubber Flooring for Garages, Pros, Cons, and Cost', excerpt: 'A new garage-specific post comparing interlocking rubber tile, rolled rubber, and epoxy for readers who want the same durability in an adjacent workshop or storage space.' },
           { slug: 'laminate-flooring-thickness', title: 'Laminate Flooring Thickness and Wear Layers Explained', excerpt: 'What thickness actually affects and which to choose by room.' },
           { slug: 'vinyl-plank-flooring-cost', title: 'Vinyl Plank Flooring Cost', excerpt: 'Full cost breakdown for LVP installation by room and quality.' },
         ]}
@@ -197,7 +198,7 @@ export default function BestFlooringForCraftRoomContent() {
 
       <div className="callout-box info">
         <strong>Not sure which floor fits your craft room or office?</strong>
-        We will bring cork, laminate, and vinyl samples to your home so you can compare comfort and finish in person. <Link href="/free-estimate">Request a free in-home estimate</Link> or call us at <a href="tel:+16197774334">+1 (619) 777-4334</a>.
+        We will bring cork, laminate, and vinyl samples to your home so you can compare comfort and finish in person. <EstimateModalLink>Request a free in-home estimate</EstimateModalLink> or call us at <a href="tel:+16197774334">+1 (619) 777-4334</a>.
       </div>
     </>
   );

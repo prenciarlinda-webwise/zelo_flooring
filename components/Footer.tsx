@@ -4,6 +4,7 @@ import { SITE, SERVICE_AREAS } from '@/lib/areas';
 import { SERVICES } from '@/lib/services';
 import { PhoneIcon, PinIcon, MapQuestIcon } from './Icons';
 import TrustindexWidget from './TrustindexWidget';
+import EstimateModalLink from '@/components/EstimateModalLink';
 
 function neighborhoodSlug(name: string) {
   return 'flooring-' + name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
@@ -53,7 +54,7 @@ export default function Footer() {
             <li><Link href="/san-diego-flooring-faqs">FAQ</Link></li>
             <li><Link href="/blog">Blog</Link></li>
             <li><Link href="/contact">Contact</Link></li>
-            <li><Link href="/free-estimate">Free Estimate</Link></li>
+            <li><EstimateModalLink>Free Estimate</EstimateModalLink></li>
           </ul>
         </div>
 

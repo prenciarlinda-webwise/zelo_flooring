@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { RelatedServices, RelatedBlogPosts } from '@/components/RelatedCards';
+import EstimateModalLink from '@/components/EstimateModalLink';
 
 export default function HowLongDoesHardwoodRefinishingTakeContent() {
   return (
@@ -22,7 +23,7 @@ export default function HowLongDoesHardwoodRefinishingTakeContent() {
           <li>Oil-based finish: longer cure, stronger odor, amber tone</li>
         </ul>
         <p style={{ marginTop: 8, marginBottom: 0 }}>
-          Thinking about refinishing your floors? <Link href="/free-estimate">Request a free estimate</Link> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>.
+          Thinking about refinishing your floors? <EstimateModalLink>Request a free estimate</EstimateModalLink> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>.
         </p>
       </div>
 
@@ -154,12 +155,17 @@ export default function HowLongDoesHardwoodRefinishingTakeContent() {
           { slug: 'engineered-vs-solid-hardwood', title: 'Engineered vs Solid Hardwood', excerpt: 'Which hardwood fits your subfloor and whether it can be refinished.' },
           { slug: 'lvp-vs-hardwood', title: 'LVP vs Hardwood Flooring', excerpt: 'Cost, durability, and water resistance compared.' },
           { slug: 'laminate-over-existing-floors', title: 'Can You Install Laminate Over Existing Floors?', excerpt: 'When to float a new floor over hardwood instead of refinishing.' },
+          { slug: 'how-to-clean-hardwood-floors', title: 'How to Clean Hardwood Floors the Right Way', excerpt: 'A companion guide on the right way to clean hardwood day to day, including whether Pine-Sol and other common household cleaners are actually safe to use.' },
+          { slug: 'cork-flooring-maintenance-and-cleaning', title: 'Cork Flooring Maintenance and Cleaning Guide', excerpt: "A companion maintenance guide explaining why cork's thin wear layer only tolerates one or two refinish cycles, unlike hardwood, plus the full cork cleaning and resealing schedule." },
+          { slug: 'how-much-does-hardwood-flooring-cost', title: 'How Much Does Hardwood Flooring Cost in 2026?', excerpt: 'Full 2026 hardwood flooring cost breakdown, including when refinishing your existing floor costs far less than replacing it.' },
+          { slug: 'how-to-fix-a-sagging-or-squeaky-hardwood-floor', title: 'How to Fix a Sagging or Squeaky Hardwood Floor', excerpt: 'Explains why a sagging or squeaky floor has to be structurally repaired before any refinishing timeline can start.' },
+          { slug: 'hardwood-floor-water-damage', title: 'Hardwood Floor Water Damage, Can It Be Saved?', excerpt: 'A water-damaged floor that dries successfully often still needs a sand and refinish, so this refinishing timeline post should link forward to the water-damage triage guide for readers dealing with cupping or staining before they refinish.' },
         ]}
       />
 
       <div className="callout-box info">
         <strong>Thinking about refinishing your floors?</strong>
-        We assess whether your hardwood is a good refinishing candidate and give you a clear timeline at a free in-home visit. <Link href="/free-estimate">Request a free estimate</Link> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>.
+        We assess whether your hardwood is a good refinishing candidate and give you a clear timeline at a free in-home visit. <EstimateModalLink>Request a free estimate</EstimateModalLink> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>.
       </div>
     </>
   );

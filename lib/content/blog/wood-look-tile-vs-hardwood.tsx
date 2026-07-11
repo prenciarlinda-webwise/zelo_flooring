@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { RelatedServices, RelatedBlogPosts } from '@/components/RelatedCards';
+import EstimateModalLink from '@/components/EstimateModalLink';
 
 export default function WoodLookTileVsHardwoodContent() {
   return (
@@ -22,7 +23,7 @@ export default function WoodLookTileVsHardwoodContent() {
           <li><strong>Feel underfoot:</strong> Cool, hard (tile) vs warm, slightly forgiving (hardwood)</li>
         </ul>
         <p style={{ marginTop: 8, marginBottom: 0 }}>
-          Trying to decide between the two for your home? <Link href="/free-estimate">Request a free in-home estimate</Link> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>.
+          Trying to decide between the two for your home? <EstimateModalLink>Request a free in-home estimate</EstimateModalLink> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>.
         </p>
       </div>
 
@@ -204,7 +205,7 @@ export default function WoodLookTileVsHardwoodContent() {
 
       <div className="callout-box info">
         <strong>Not sure whether tile or hardwood is right for your home?</strong>
-        We will bring wood look tile and real hardwood samples to your home so you can compare them side by side in your own lighting. <Link href="/free-estimate">Request a free in-home estimate</Link> or call us at <a href="tel:+16197774334">+1 (619) 777-4334</a>.
+        We will bring wood look tile and real hardwood samples to your home so you can compare them side by side in your own lighting. <EstimateModalLink>Request a free in-home estimate</EstimateModalLink> or call us at <a href="tel:+16197774334">+1 (619) 777-4334</a>.
       </div>
     </>
   );

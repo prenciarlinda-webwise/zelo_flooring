@@ -18,7 +18,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/services',
     '/service-areas',
     '/contact',
-    '/free-estimate',
     '/san-diego-flooring-faqs',
     '/blog',
     '/privacy-policy',

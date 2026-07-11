@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { RelatedServices, RelatedBlogPosts } from '@/components/RelatedCards';
+import EstimateModalLink from '@/components/EstimateModalLink';
 
 export default function PolyesterVsNylonCarpetContent() {
   return (
@@ -22,7 +23,7 @@ export default function PolyesterVsNylonCarpetContent() {
           <li><strong>Worst common mistake:</strong> Putting polyester in a living room or hallway. It will mat in 3-5 years.</li>
         </ul>
         <p style={{ marginTop: 8, marginBottom: 0 }}>
-          Want to feel these fibers side by side? <Link href="/free-estimate">Request a free in-home estimate</Link> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>.
+          Want to feel these fibers side by side? <EstimateModalLink>Request a free in-home estimate</EstimateModalLink> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>.
         </p>
       </div>
 
@@ -317,16 +318,16 @@ export default function PolyesterVsNylonCarpetContent() {
 
       <RelatedBlogPosts
         posts={[
-          { slug: 'low-pile-vs-high-pile-carpet', title: 'Low Pile vs High Pile Carpet', excerpt: 'Carpet pile types compared for traffic, comfort, and pets.' },
           { slug: 'best-carpet-for-living-room', title: 'Best Carpet for Living Room', excerpt: 'How to pick the right fiber, style, and color for your living room.' },
           { slug: 'best-flooring-for-pets', title: 'Best Flooring for Homes With Pets', excerpt: 'Scratch-proof and waterproof options compared for dog and cat owners.' },
           { slug: 'cost-to-install-carpet', title: 'Cost to Install Carpet', excerpt: 'Real pricing for carpet installation by room and square footage.' },
+          { slug: 'how-to-remove-carpet-stains', title: 'How to Remove Carpet Stains, a Room-by-Room Guide', excerpt: 'A room-by-room stain removal guide, including why nylon absorbs wine and juice differently than polyester, and how to get pet stains and odor out for good.' },
         ]}
       />
 
       <div className="callout-box info">
         <strong>Not sure which fiber is right?</strong>
-        We bring nylon, polyester, and triexta samples to your home so you can feel the difference and see the colors in your real lighting. <Link href="/free-estimate">Request a free in-home estimate</Link> or call us at <a href="tel:+16197774334">+1 (619) 777-4334</a>.
+        We bring nylon, polyester, and triexta samples to your home so you can feel the difference and see the colors in your real lighting. <EstimateModalLink>Request a free in-home estimate</EstimateModalLink> or call us at <a href="tel:+16197774334">+1 (619) 777-4334</a>.
       </div>
     </>
   );

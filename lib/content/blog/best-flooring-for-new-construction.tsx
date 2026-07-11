@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { RelatedServices, RelatedBlogPosts } from '@/components/RelatedCards';
+import EstimateModalLink from '@/components/EstimateModalLink';
 
 export default function BestFlooringForNewConstructionContent() {
   return (
@@ -21,7 +22,7 @@ export default function BestFlooringForNewConstructionContent() {
           <li><strong>Avoid on a new slab under 60 days old:</strong> solid hardwood and any wood or laminate product without a passed moisture test</li>
         </ul>
         <p style={{ marginTop: 8, marginBottom: 0 }}>
-          Building or buying new construction? <Link href="/free-estimate">Request a free in-home estimate</Link> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>.
+          Building or buying new construction? <EstimateModalLink>Request a free in-home estimate</EstimateModalLink> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>.
         </p>
       </div>
 
@@ -159,7 +160,7 @@ export default function BestFlooringForNewConstructionContent() {
 
       <div className="callout-box info">
         <strong>Building or just closed on a new home?</strong>
-        We test your slab, recommend the right product for your timeline, and install before or after closing. <Link href="/free-estimate">Request a free in-home estimate</Link> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>.
+        We test your slab, recommend the right product for your timeline, and install before or after closing. <EstimateModalLink>Request a free in-home estimate</EstimateModalLink> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>.
       </div>
     </>
   );

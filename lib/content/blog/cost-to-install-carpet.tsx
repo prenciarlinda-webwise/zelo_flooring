@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { RelatedServices, RelatedBlogPosts } from '@/components/RelatedCards';
+import EstimateModalLink from '@/components/EstimateModalLink';
 
 export default function CarpetInstallationCostContent() {
   return (
@@ -23,7 +24,7 @@ export default function CarpetInstallationCostContent() {
           <li>Lifespan: 5 to 25 years depending on fiber and traffic</li>
         </ul>
         <p style={{ marginTop: 8, marginBottom: 0 }}>
-          Want an exact quote instead of an estimate range? <Link href="/free-estimate">Request a free in-home estimate</Link> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>.
+          Want an exact quote instead of an estimate range? <EstimateModalLink>Request a free in-home estimate</EstimateModalLink> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>.
         </p>
       </div>
 
@@ -490,12 +491,13 @@ export default function CarpetInstallationCostContent() {
           { slug: 'low-pile-vs-high-pile-carpet', title: 'Low Pile vs High Pile Carpet', excerpt: 'Which carpet pile fits your rooms and traffic.' },
           { slug: 'best-carpet-for-living-room', title: 'Best Carpet for Living Room', excerpt: 'How to pick the right fiber, style, and color.' },
           { slug: 'best-flooring-for-pets', title: 'Best Flooring for Homes With Pets', excerpt: 'Scratch-proof and waterproof options compared.' },
+          { slug: 'carpet-padding-guide', title: 'Carpet Padding Guide, Thickness and Density Explained', excerpt: "A deeper dive on carpet pad thickness and density, including why the wrong pad can void your carpet's warranty." },
         ]}
       />
 
       <div className="callout-box info">
         <strong>Ready for a real number?</strong>
-        Skip the online calculators. <Link href="/free-estimate">Request a free in-home estimate</Link> and we will measure your space, show you real samples, and give you a detailed written quote on the spot. Or call us at <a href="tel:+16197774334">+1 (619) 777-4334</a>.
+        Skip the online calculators. <EstimateModalLink>Request a free in-home estimate</EstimateModalLink> and we will measure your space, show you real samples, and give you a detailed written quote on the spot. Or call us at <a href="tel:+16197774334">+1 (619) 777-4334</a>.
       </div>
     </>
   );

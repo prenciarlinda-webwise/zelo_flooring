@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { RelatedServices, RelatedBlogPosts } from '@/components/RelatedCards';
+import EstimateModalLink from '@/components/EstimateModalLink';
 
 export default function FlooringServicesGuideContent() {
   return (
@@ -21,7 +22,7 @@ export default function FlooringServicesGuideContent() {
           <li>8 materials we install: carpet, LVP, hardwood, laminate, tile, cork, rubber, and VCT</li>
         </ul>
         <p style={{ marginTop: 8, marginBottom: 0 }}>
-          Ready for an itemized quote on your project? <Link href="/free-estimate">Request a free in-home estimate</Link> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>.
+          Ready for an itemized quote on your project? <EstimateModalLink>Request a free in-home estimate</EstimateModalLink> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>.
         </p>
       </div>
 
@@ -226,17 +227,16 @@ export default function FlooringServicesGuideContent() {
 
       <RelatedBlogPosts
         posts={[
-          { slug: 'cost-to-install-carpet', title: 'How Much Carpet Installation Costs in 2026', excerpt: 'Full cost breakdown by carpet type, room size, and labor.' },
           { slug: 'vinyl-plank-flooring-cost', title: 'How Much Vinyl Plank Flooring Costs in 2026', excerpt: 'LVP pricing by product type, room size, and what affects your quote.' },
           { slug: 'best-flooring-for-san-diego-homes', title: 'Best Flooring for San Diego Homes', excerpt: 'Best picks by goal, room, and budget for local slab and coastal conditions.' },
-          { slug: 'how-long-does-hardwood-refinishing-take', title: 'How Long Does Hardwood Floor Refinishing Take', excerpt: 'A day-by-day timeline for refinishing instead of replacing.' },
-          { slug: 'laminate-over-existing-floors', title: 'Can You Install Laminate Over Existing Floors', excerpt: 'A surface-by-surface guide to floating laminate over what you already have.' },
+          { slug: 'what-is-vct-flooring', title: 'What Is VCT (Vinyl Composition Tile) Flooring?', excerpt: 'A deep dive on VCT, one of the service options covered in the guide, explaining its composition, cost per square foot, and the asbestos question with older tile.' },
+          { slug: 'vct-maintenance-stripping-and-waxing', title: 'VCT Maintenance, Stripping and Waxing Explained', excerpt: 'Goes deep on the ongoing stripping and waxing VCT needs after installation, with a full cost and frequency breakdown by traffic level.' },
         ]}
       />
 
       <div className="callout-box info">
         <strong>Ready for an itemized flooring quote?</strong>
-        We bring real samples to your home and give you a written estimate on the spot, no guesswork. <Link href="/free-estimate">Request a free in-home estimate</Link> or call us at <a href="tel:+16197774334">+1 (619) 777-4334</a>.
+        We bring real samples to your home and give you a written estimate on the spot, no guesswork. <EstimateModalLink>Request a free in-home estimate</EstimateModalLink> or call us at <a href="tel:+16197774334">+1 (619) 777-4334</a>.
       </div>
     </>
   );

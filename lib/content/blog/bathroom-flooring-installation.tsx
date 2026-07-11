@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { RelatedServices, RelatedBlogPosts } from '@/components/RelatedCards';
+import EstimateModalLink from '@/components/EstimateModalLink';
 
 export default function BathroomFlooringInstallationContent() {
   return (
@@ -14,7 +15,7 @@ export default function BathroomFlooringInstallationContent() {
       <div className="callout-box info">
         <strong>Quick answer:</strong> A professional bathroom floor installation includes demolition, a waterproof membrane (not just tile and grout), subfloor leveling and moisture testing, a slope to the drain, and 3 to 5 days of work including cure time. Porcelain tile runs $8 to $18 per square foot installed; waterproof LVP runs $6 to $10 per square foot. Full engineered or solid hardwood is not recommended in a full bathroom at any price.
         <p style={{ marginTop: 8, marginBottom: 0 }}>
-          Ready to start your bathroom project? <Link href="/free-estimate">Request a free in-home estimate</Link> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>.
+          Ready to start your bathroom project? <EstimateModalLink>Request a free in-home estimate</EstimateModalLink> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>.
         </p>
       </div>
 
@@ -136,7 +137,7 @@ export default function BathroomFlooringInstallationContent() {
         </tbody>
       </table>
       <p>
-        Add $300 to $800 if the shower pan itself needs to be rebuilt, and add cost if the toilet flange needs to be reset to match new floor height. Our <Link href="/free-estimate">free in-home estimate</Link> includes a moisture test and an exact quote before any work starts.
+        Add $300 to $800 if the shower pan itself needs to be rebuilt, and add cost if the toilet flange needs to be reset to match new floor height. Our <EstimateModalLink>free in-home estimate</EstimateModalLink> includes a moisture test and an exact quote before any work starts.
       </p>
 
       {/* MISTAKES */}
@@ -207,16 +208,16 @@ export default function BathroomFlooringInstallationContent() {
 
       <RelatedBlogPosts
         posts={[
-          { slug: 'tile-vs-vinyl-flooring', title: 'Tile vs Vinyl Flooring', excerpt: 'Durability, water resistance, and cost compared for bathrooms and kitchens.' },
-          { slug: 'lvp-vs-hardwood', title: 'LVP vs Hardwood Flooring', excerpt: 'Why LVP wins in bathrooms and wet areas, and where hardwood wins instead.' },
-          { slug: 'how-to-clean-luxury-vinyl-plank-flooring', title: 'How to Clean Luxury Vinyl Plank Flooring', excerpt: 'The right way to maintain LVP in bathrooms and high-moisture rooms.' },
-          { slug: 'best-flooring-for-san-diego-homes', title: 'Best Flooring for San Diego Homes', excerpt: 'Best picks by room, budget, and coastal climate considerations.' },
+          { slug: 'bathroom-floor-tile-ideas', title: 'Bathroom Floor Tile Ideas by Style and Budget', excerpt: 'A companion design guide covering large-format porcelain, wood-look plank, mosaic shower pans, and small-bathroom color strategy for readers ready to move from install process to tile style.' },
+          { slug: 'how-much-does-tile-flooring-cost', title: 'How Much Does Tile Flooring Cost in 2026?', excerpt: 'A full 2026 tile cost breakdown by porcelain, ceramic, and natural stone, plus substrate prep and waterproofing add-on pricing.' },
+          { slug: 'porcelain-vs-ceramic-tile', title: 'Porcelain vs Ceramic Tile, What Is the Difference?', excerpt: 'A material comparison explaining exactly when to choose porcelain over ceramic tile, useful context for readers weighing tile options for a bathroom floor.' },
+          { slug: 'how-to-clean-and-reseal-grout-lines', title: 'How to Clean and Reseal Grout Lines', excerpt: 'A step-by-step guide to cleaning grout, choosing sanded versus unsanded grout, and knowing when a bathroom floor needs regrouting instead of another cleaning.' },
         ]}
       />
 
       <div className="callout-box info">
         <strong>Planning a bathroom remodel?</strong>
-        We bring tile and waterproof LVP samples to your home and test your subfloor before you commit to a material. <Link href="/free-estimate">Request a free in-home estimate</Link> or call us at <a href="tel:+16197774334">+1 (619) 777-4334</a>.
+        We bring tile and waterproof LVP samples to your home and test your subfloor before you commit to a material. <EstimateModalLink>Request a free in-home estimate</EstimateModalLink> or call us at <a href="tel:+16197774334">+1 (619) 777-4334</a>.
       </div>
     </>
   );

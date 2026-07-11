@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { RelatedServices, RelatedBlogPosts } from '@/components/RelatedCards';
+import EstimateModalLink from '@/components/EstimateModalLink';
 
 export default function BestCarpetForLivingRoomContent() {
   return (
@@ -25,7 +26,7 @@ export default function BestCarpetForLivingRoomContent() {
           <li>Allergy concerns: pick Green Label Plus certified or wool</li>
         </ul>
         <p style={{ marginTop: 8, marginBottom: 0 }}>
-          Want to see these fibers in your own lighting? <Link href="/free-estimate">Request a free in-home estimate</Link> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>.
+          Want to see these fibers in your own lighting? <EstimateModalLink>Request a free in-home estimate</EstimateModalLink> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>.
         </p>
       </div>
 
@@ -320,7 +321,7 @@ export default function BestCarpetForLivingRoomContent() {
 
       <div className="callout-box tip">
         <strong>Bring home samples</strong>
-        When you <Link href="/free-estimate">schedule a free estimate</Link> with us, we bring full-size samples to your home so you can see colors and textures in your actual lighting. This is the best way to avoid choosing a carpet that looks great in the store and wrong in your room.
+        When you <EstimateModalLink>schedule a free estimate</EstimateModalLink> with us, we bring full-size samples to your home so you can see colors and textures in your actual lighting. This is the best way to avoid choosing a carpet that looks great in the store and wrong in your room.
       </div>
 
       {/* FAQ */}
@@ -392,15 +393,15 @@ export default function BestCarpetForLivingRoomContent() {
       <RelatedBlogPosts
         posts={[
           { slug: 'low-pile-vs-high-pile-carpet', title: 'Low Pile vs High Pile Carpet', excerpt: 'Which carpet pile is right for each room.' },
-          { slug: 'best-flooring-for-pets', title: 'Best Flooring for Homes With Pets', excerpt: 'Scratch-proof and waterproof options compared for dog and cat owners.' },
           { slug: 'polyester-vs-nylon-carpet', title: 'Polyester vs Nylon Carpet', excerpt: 'A head-to-head comparison of the two most popular carpet fibers.' },
           { slug: 'cost-to-install-carpet', title: 'Cost to Install Carpet', excerpt: 'Real pricing for carpet installation by room and square footage.' },
+          { slug: 'carpet-padding-guide', title: 'Carpet Padding Guide, Thickness and Density Explained', excerpt: 'Explains the difference between pad density and carpet fiber density, plus when to upgrade to a moisture-barrier pad for pets.' },
         ]}
       />
 
       <div className="callout-box info">
         <strong>Ready to pick your carpet?</strong>
-        We bring full-size samples to your living room so you can see them in your real lighting. <Link href="/free-estimate">Request a free in-home estimate</Link> or call us at <a href="tel:+16197774334">+1 (619) 777-4334</a> and we will help you find the right carpet for your space.
+        We bring full-size samples to your living room so you can see them in your real lighting. <EstimateModalLink>Request a free in-home estimate</EstimateModalLink> or call us at <a href="tel:+16197774334">+1 (619) 777-4334</a> and we will help you find the right carpet for your space.
       </div>
     </>
   );
