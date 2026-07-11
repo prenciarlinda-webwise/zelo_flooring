@@ -21,6 +21,9 @@ export default function EngineeredVsSolidHardwoodContent() {
           <li><strong>Cost:</strong> Engineered $8-$15/sqft installed · solid $9-$14/sqft installed</li>
           <li><strong>San Diego default:</strong> Engineered hardwood (slab + coastal humidity)</li>
         </ul>
+        <p style={{ marginTop: 8, marginBottom: 0 }}>
+          Still deciding which one fits your home? <Link href="/free-estimate">Request a free in-home estimate</Link> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>.
+        </p>
       </div>
 
       {/* TOC */}

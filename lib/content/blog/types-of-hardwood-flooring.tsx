@@ -18,6 +18,9 @@ export default function TypesOfHardwoodFlooringContent() {
           <li>Best for San Diego slab: Engineered hardwood</li>
           <li>Hardest common species: Hickory, then oak; walnut is softer</li>
         </ul>
+        <p style={{ marginTop: 8, marginBottom: 0 }}>
+          Ready to pick a species and finish? <Link href="/free-estimate">Request a free in-home estimate</Link> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>.
+        </p>
       </div>
 
       {/* TOC */}

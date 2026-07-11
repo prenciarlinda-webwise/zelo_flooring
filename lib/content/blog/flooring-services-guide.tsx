@@ -20,6 +20,9 @@ export default function FlooringServicesGuideContent() {
           <li>Often billed separately: moisture testing, slab grinding, furniture moving, disposal fees</li>
           <li>8 materials we install: carpet, LVP, hardwood, laminate, tile, cork, rubber, and VCT</li>
         </ul>
+        <p style={{ marginTop: 8, marginBottom: 0 }}>
+          Ready for an itemized quote on your project? <Link href="/free-estimate">Request a free in-home estimate</Link> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>.
+        </p>
       </div>
 
       {/* TOC */}

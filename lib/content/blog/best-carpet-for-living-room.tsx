@@ -24,6 +24,9 @@ export default function BestCarpetForLivingRoomContent() {
           <li>Size for area rugs: front legs of all seating on the rug</li>
           <li>Allergy concerns: pick Green Label Plus certified or wool</li>
         </ul>
+        <p style={{ marginTop: 8, marginBottom: 0 }}>
+          Want to see these fibers in your own lighting? <Link href="/free-estimate">Request a free in-home estimate</Link> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>.
+        </p>
       </div>
 
       {/* TOC */}

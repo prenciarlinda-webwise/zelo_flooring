@@ -13,6 +13,9 @@ export default function BestFlooringForSchoolsContent() {
 
       <div className="callout-box info">
         <strong>Quick answer:</strong> For a typical K-12 campus, budget VCT at $3 to $6 per square foot installed for classrooms, hallways, and cafeterias, and rubber flooring at $6 to $12 per square foot installed for gyms and multipurpose rooms. VCT needs a strip-and-rewax cycle every 12 to 24 months; rubber needs almost none.
+        <p style={{ marginTop: 8, marginBottom: 0 }}>
+          Planning a school or facility retrofit? <Link href="/free-estimate">Request a commercial quote</Link> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>.
+        </p>
       </div>
 
       <nav className="article-toc">

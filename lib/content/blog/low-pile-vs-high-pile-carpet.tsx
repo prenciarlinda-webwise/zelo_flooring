@@ -18,6 +18,9 @@ export default function LowPileVsHighPileCarpetContent() {
           <li>Comfort underfoot: high pile wins</li>
           <li>Cleaning: low pile is much easier</li>
         </ul>
+        <p style={{ marginTop: 8, marginBottom: 0 }}>
+          Want to feel the difference yourself? <Link href="/free-estimate">Request a free in-home estimate</Link> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>.
+        </p>
       </div>
 
       {/* TOC */}

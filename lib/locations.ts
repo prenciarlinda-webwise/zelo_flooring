@@ -116,7 +116,7 @@ export const LOCATIONS: Location[] = [
     },
     findInstaller: {
       q: 'Who are reliable flooring installers in San Diego?',
-      a: 'To find a reliable flooring installer in San Diego, confirm the contractor holds an active CSLB license, carries a bond and insurance, and has consistent recent reviews. Zelo Flooring is a CSLB-licensed San Diego installer (#1083572), rated 5.0 stars across 34 Thumbtack reviews, and a Thumbtack Top Pro three years running.',
+      a: 'To find a reliable flooring contractor or flooring company in San Diego, confirm an active CSLB license, a bond, insurance, and consistent recent reviews. Zelo Flooring is a CSLB-licensed San Diego flooring company (#1083572) for residential and commercial work, rated 5.0 stars across 34 Thumbtack reviews. Call (619) 777-4334 to verify and schedule a free estimate.',
       criteria: [
         { label: 'Verify the license', detail: 'Active CSLB C-15 #1083572, bonded and insured. Anyone can check it free on the CSLB website before hiring.' },
         { label: 'Check recent reviews', detail: 'Zelo holds a 5.0-star rating across 34 Thumbtack reviews and has been hired 57 times in San Diego.' },
@@ -158,8 +158,9 @@ export const LOCATIONS: Location[] = [
       { q: 'How long does the install take?', a: 'A 1,000-1,500 sq ft project typically runs 1-3 days for vinyl or laminate, 2-4 days for hardwood including acclimation, and 3-5 days for tile. We give a clear timeline before any work begins.' },
       { q: 'Do you serve all of San Diego County?', a: 'Yes. We install across San Diego County including Coronado, Del Mar, La Jolla, Carlsbad, Encinitas, Chula Vista, Poway, and Escondido. Free in-home estimates everywhere we serve.' },
       { q: 'Are you licensed and insured?', a: 'Yes. Zelo Flooring is licensed by the California Contractors State License Board (CSLB Lic #1083572), bonded, and carries general liability and workers compensation insurance.' },
+      { q: 'Do you install commercial flooring in San Diego?', a: 'Yes. Zelo Flooring is licensed, bonded, and insured for both residential and commercial flooring installation across San Diego County (CSLB C-15 #1083572). We install VCT, LVT, carpet, and hardwood for offices, retail, schools, and healthcare facilities, with after-hours and weekend scheduling to keep your business open. Call (619) 777-4334 for a commercial quote.' },
     ],
-    relatedLocations: ['flooring-la-jolla', 'flooring-coronado', 'flooring-del-mar', 'flooring-carlsbad', 'flooring-encinitas', 'flooring-poway'],
+    relatedLocations: ['flooring-la-jolla', 'flooring-coronado', 'flooring-del-mar', 'flooring-carlsbad', 'flooring-encinitas', 'flooring-poway', 'flooring-escondido', 'flooring-chula-vista'],
     heroImage: '/img/projects/lvp-whole-home/after-living-room-lvp.webp',
     heroImageAlt: 'Luxury vinyl plank flooring installed across a San Diego home by Zelo Flooring',
   },
@@ -188,6 +189,17 @@ export const LOCATIONS: Location[] = [
     aeoSecondaryQuestion: {
       q: "What flooring holds up best in La Jolla's coastal climate?",
       a: 'Engineered hardwood with a 4mm-plus wear layer and rigid-core SPC vinyl handle La Jolla salt air and humidity far better than solid hardwood, which can cup and gap within a few feet of the ocean. For bathrooms and entryways near the Shores, porcelain tile is the most durable choice.',
+    },
+    findInstaller: {
+      q: 'Who are reliable flooring installers in La Jolla?',
+      a: 'To find a reliable flooring contractor in La Jolla, confirm an active CSLB license, a bond, insurance, and consistent recent reviews. Zelo Flooring is a CSLB-licensed flooring company (#1083572) serving La Jolla from our San Diego office, rated 5.0 stars across 34 Thumbtack reviews. Call (619) 777-4334 to verify and schedule a free estimate.',
+      criteria: [
+        { label: 'Verify the license', detail: 'Active CSLB C-15 #1083572, bonded and insured. Anyone can check it free on the CSLB website before hiring.' },
+        { label: 'Check recent reviews', detail: 'Zelo holds a 5.0-star rating across 34 Thumbtack reviews and has been hired 57 times across San Diego County.' },
+        { label: 'Confirm accreditation', detail: 'BBB A+ accredited since 2022, and named a Thumbtack Top Pro in 2023, 2024, and 2025.' },
+        { label: 'Insist on a written in-home estimate', detail: 'We bring physical samples and measure on site before quoting, at no cost anywhere in La Jolla.' },
+        { label: 'Ask about coastal install standards', detail: 'Engineered hardwood and rigid-core vinyl by default near the coast, plus hillside subfloor leveling for La Jolla homes.' },
+      ],
     },
     cityIntro: [
       'Zelo Flooring works throughout La Jolla, from the cliffside homes above Windansea to the condos near the Village and the larger lots up Mount Soledad. Many La Jolla houses are mid-century or older, sit on hillside foundations, and were built well before modern moisture standards, so we test before we install rather than after.',
@@ -250,6 +262,17 @@ export const LOCATIONS: Location[] = [
       q: "What flooring works best in Carlsbad's newer master-planned homes?",
       a: 'Most Carlsbad tract homes in La Costa, Aviara, and Bressi Ranch sit on concrete slab, which makes rigid-core luxury vinyl plank and engineered hardwood the safest bets. Both tolerate slab moisture better than solid hardwood. We run a moisture test on the slab before recommending a specific product.',
     },
+    findInstaller: {
+      q: 'Who are reliable flooring installers in Carlsbad?',
+      a: 'To find a reliable flooring contractor in Carlsbad, confirm an active CSLB license, a bond, insurance, and consistent recent reviews. Zelo Flooring is a CSLB-licensed flooring company (#1083572) serving Carlsbad from our San Diego office, rated 5.0 stars across 34 Thumbtack reviews. Call (619) 777-4334 to verify and schedule a free estimate.',
+      criteria: [
+        { label: 'Verify the license', detail: 'Active CSLB C-15 #1083572, bonded and insured. Anyone can check it free on the CSLB website before hiring.' },
+        { label: 'Check recent reviews', detail: 'Zelo holds a 5.0-star rating across 34 Thumbtack reviews and has been hired 57 times across San Diego County.' },
+        { label: 'Confirm accreditation', detail: 'BBB A+ accredited since 2022, and named a Thumbtack Top Pro in 2023, 2024, and 2025.' },
+        { label: 'Insist on a written in-home estimate', detail: 'We bring physical samples and measure on site before quoting, at no cost anywhere in Carlsbad.' },
+        { label: 'Ask about slab moisture testing', detail: 'We test slab moisture on every La Costa and Aviara install before ordering product, standard on every Carlsbad quote.' },
+      ],
+    },
     cityIntro: [
       'Zelo Flooring serves all of Carlsbad, from the older beach cottages in the Village and Olde Carlsbad to the master-planned neighborhoods of La Costa, Aviara, and Bressi Ranch. The city splits between decades-old coastal homes and newer tract construction, and each needs a different approach.',
       'Most newer Carlsbad homes sit on a concrete slab, so the first thing we check is slab moisture. A floor that skips that step can buckle a year later. Closer to the coast and the lagoons, humidity nudges us toward engineered hardwood and rigid-core vinyl over solid wood. We match the product to the foundation and the location, not to a one-size order sheet.',
@@ -310,6 +333,17 @@ export const LOCATIONS: Location[] = [
     aeoSecondaryQuestion: {
       q: 'What flooring suits Encinitas beach homes and rentals?',
       a: 'Rigid-core luxury vinyl plank is the top pick for Encinitas beach homes and vacation rentals because it shrugs off sand, moisture, and heavy foot traffic without cupping. For owners who want real wood, engineered hardwood with a thick wear layer holds up far better than solid wood near the coast.',
+    },
+    findInstaller: {
+      q: 'Who are reliable flooring installers in Encinitas?',
+      a: 'To find a reliable flooring contractor in Encinitas, confirm an active CSLB license, a bond, insurance, and consistent recent reviews. Zelo Flooring is a CSLB-licensed flooring company (#1083572) serving Encinitas from our San Diego office, rated 5.0 stars across 34 Thumbtack reviews. Call (619) 777-4334 to verify and schedule a free estimate.',
+      criteria: [
+        { label: 'Verify the license', detail: 'Active CSLB C-15 #1083572, bonded and insured. Anyone can check it free on the CSLB website before hiring.' },
+        { label: 'Check recent reviews', detail: 'Zelo holds a 5.0-star rating across 34 Thumbtack reviews and has been hired 57 times across San Diego County.' },
+        { label: 'Confirm accreditation', detail: 'BBB A+ accredited since 2022, and named a Thumbtack Top Pro in 2023, 2024, and 2025.' },
+        { label: 'Insist on a written in-home estimate', detail: 'We bring physical samples and measure on site before quoting, at no cost anywhere in Encinitas.' },
+        { label: 'Ask about beach-rental durability', detail: 'High-wear-layer rigid-core vinyl recommended for Leucadia and Cardiff rentals that see heavy sand and foot traffic.' },
+      ],
     },
     cityIntro: [
       'Zelo Flooring installs throughout Encinitas, covering the beach bungalows of Leucadia and Cardiff-by-the-Sea, the newer homes of New Encinitas, and the larger semi-rural lots out in Olivenhain. It is a true surf-town mix, and the flooring that fits a Cardiff rental is rarely what fits an Olivenhain ranch.',
@@ -373,6 +407,17 @@ export const LOCATIONS: Location[] = [
       q: 'Is solid hardwood a safe choice in Poway?',
       a: "Yes, more so than at the coast. Poway's inland climate is drier and more stable, so solid hardwood is less prone to the cupping that affects oceanfront homes. We still acclimate the wood and check slab or crawl-space moisture first, but solid oak and maple are realistic options for most Poway homes.",
     },
+    findInstaller: {
+      q: 'Who are reliable flooring installers in Poway?',
+      a: 'To find a reliable flooring contractor in Poway, confirm an active CSLB license, a bond, insurance, and consistent recent reviews. Zelo Flooring is a CSLB-licensed flooring company (#1083572) serving Poway from our San Diego office, rated 5.0 stars across 34 Thumbtack reviews. Call (619) 777-4334 to verify and schedule a free estimate.',
+      criteria: [
+        { label: 'Verify the license', detail: 'Active CSLB C-15 #1083572, bonded and insured. Anyone can check it free on the CSLB website before hiring.' },
+        { label: 'Check recent reviews', detail: 'Zelo holds a 5.0-star rating across 34 Thumbtack reviews and has been hired 57 times across San Diego County.' },
+        { label: 'Confirm accreditation', detail: 'BBB A+ accredited since 2022, and named a Thumbtack Top Pro in 2023, 2024, and 2025.' },
+        { label: 'Insist on a written in-home estimate', detail: 'We bring physical samples and measure on site before quoting, at no cost anywhere in Poway.' },
+        { label: 'Ask about solid hardwood options', detail: "Poway's drier inland climate supports solid oak and maple, an option many coastal San Diego homes cannot safely choose." },
+      ],
+    },
     cityIntro: [
       'Zelo Flooring serves all of Poway, the self-described City in the Country, from the Green Valley and Garden Road neighborhoods to the larger lots and horse properties up near Lake Poway and Blue Sky. Homes here range from 1970s ranch houses to newer custom builds, and many sit on bigger footprints than coastal San Diego.',
       "Poway's inland location works in your favor for flooring. The air is drier and more stable than at the coast, which means solid hardwood is a genuine option rather than a risk. We still acclimate every board and check moisture on slab and crawl-space homes, but Poway clients have more freedom to choose real wood throughout the house.",
@@ -433,6 +478,17 @@ export const LOCATIONS: Location[] = [
     aeoSecondaryQuestion: {
       q: 'What flooring works in beachfront Del Mar homes?',
       a: "Engineered hardwood with a thick wear layer, large-format porcelain tile, and rigid-core vinyl are the go-to choices for Del Mar's beachfront and bluff homes. Solid hardwood struggles this close to the ocean. For second homes that sit empty between visits, moisture-stable materials matter even more.",
+    },
+    findInstaller: {
+      q: 'Who are reliable flooring installers in Del Mar?',
+      a: 'To find a reliable flooring contractor in Del Mar, confirm an active CSLB license, a bond, insurance, and consistent recent reviews. Zelo Flooring is a CSLB-licensed flooring company (#1083572) serving Del Mar from our San Diego office, rated 5.0 stars across 34 Thumbtack reviews. Call (619) 777-4334 to verify and schedule a free estimate.',
+      criteria: [
+        { label: 'Verify the license', detail: 'Active CSLB C-15 #1083572, bonded and insured. Anyone can check it free on the CSLB website before hiring.' },
+        { label: 'Check recent reviews', detail: 'Zelo holds a 5.0-star rating across 34 Thumbtack reviews and has been hired 57 times across San Diego County.' },
+        { label: 'Confirm accreditation', detail: 'BBB A+ accredited since 2022, and named a Thumbtack Top Pro in 2023, 2024, and 2025.' },
+        { label: 'Insist on a written in-home estimate', detail: 'We bring physical samples and measure on site before quoting, at no cost anywhere in Del Mar.' },
+        { label: 'Ask about beachfront-grade materials', detail: "Engineered hardwood, large-format tile, and rigid-core vinyl by default for Del Mar's beachfront and second-home humidity." },
+      ],
     },
     cityIntro: [
       'Zelo Flooring installs throughout Del Mar, from the Beach Colony and Olde Del Mar near the racetrack to the homes up in Del Mar Heights. Del Mar is small, high-end, and right on the water, so most of our work here is remodels, second homes, and finish-driven upgrades rather than tract installs.',
@@ -495,6 +551,17 @@ export const LOCATIONS: Location[] = [
       q: 'What flooring gives the best value in Vista?',
       a: 'Luxury vinyl plank and quality laminate give Vista homeowners the best balance of looks, durability, and price. Both handle kids, pets, and the warm inland climate well, and rigid-core vinyl is fully waterproof. For a longer-term investment, engineered hardwood is a solid mid-range upgrade.',
     },
+    findInstaller: {
+      q: 'Who are reliable flooring installers in Vista?',
+      a: 'To find a reliable flooring contractor in Vista, confirm an active CSLB license, a bond, insurance, and consistent recent reviews. Zelo Flooring is a CSLB-licensed flooring company (#1083572) serving Vista from our San Diego office, rated 5.0 stars across 34 Thumbtack reviews. Call (619) 777-4334 to verify and schedule a free estimate.',
+      criteria: [
+        { label: 'Verify the license', detail: 'Active CSLB C-15 #1083572, bonded and insured. Anyone can check it free on the CSLB website before hiring.' },
+        { label: 'Check recent reviews', detail: 'Zelo holds a 5.0-star rating across 34 Thumbtack reviews and has been hired 57 times across San Diego County.' },
+        { label: 'Confirm accreditation', detail: 'BBB A+ accredited since 2022, and named a Thumbtack Top Pro in 2023, 2024, and 2025.' },
+        { label: 'Insist on a written in-home estimate', detail: 'We bring physical samples and measure on site before quoting, at no cost anywhere in Vista.' },
+        { label: 'Ask about value-focused options', detail: "Rigid-core vinyl and quality laminate recommended first for Vista's busy family households and inland climate." },
+      ],
+    },
     cityIntro: [
       'Zelo Flooring serves all of Vista, from the master-planned Shadowridge neighborhood to the older ranch homes and hillside streets around downtown and Brengle Terrace. Vista is a practical, family-oriented North County city, and a lot of our work here is durable, good-value flooring that stands up to daily life.',
       'Vista sits inland in a warm, dry valley, which is easy on flooring. There is none of the constant coastal humidity that limits wood choices at the beach, so Vista homeowners can pick from the full range. We focus on matching the right durability to the household, whether that is waterproof rigid-core vinyl for a busy family or engineered hardwood for a longer-term upgrade.',
@@ -555,6 +622,17 @@ export const LOCATIONS: Location[] = [
     aeoSecondaryQuestion: {
       q: 'What flooring suits Rancho Santa Fe estates?',
       a: 'Wide-plank European oak, engineered hardwood, and natural stone are the standards for Rancho Santa Fe estates. These finishes demand a very flat, properly prepped substrate and careful acclimation. The dry inland climate supports solid and wide-plank wood, though acclimation and moisture testing still come first on every estate job.',
+    },
+    findInstaller: {
+      q: 'Who are reliable flooring installers in Rancho Santa Fe?',
+      a: 'To find a reliable flooring contractor in Rancho Santa Fe, confirm an active CSLB license, a bond, insurance, and consistent recent reviews. Zelo Flooring is a CSLB-licensed flooring company (#1083572) serving Rancho Santa Fe from our San Diego office, rated 5.0 stars across 34 Thumbtack reviews. Call (619) 777-4334 to verify and schedule a free estimate.',
+      criteria: [
+        { label: 'Verify the license', detail: 'Active CSLB C-15 #1083572, bonded and insured. Anyone can check it free on the CSLB website before hiring.' },
+        { label: 'Check recent reviews', detail: 'Zelo holds a 5.0-star rating across 34 Thumbtack reviews and has been hired 57 times across San Diego County.' },
+        { label: 'Confirm accreditation', detail: 'BBB A+ accredited since 2022, and named a Thumbtack Top Pro in 2023, 2024, and 2025.' },
+        { label: 'Insist on a written in-home estimate', detail: 'We bring physical samples and measure on site before quoting, at no cost anywhere in Rancho Santa Fe.' },
+        { label: 'Ask about estate-scale project management', detail: 'Wide-plank European oak and natural stone installs with the self-leveling and staging a 3,000-plus square foot estate project needs.' },
+      ],
     },
     cityIntro: [
       'Zelo Flooring installs across Rancho Santa Fe, from the original Covenant estates to Fairbanks Ranch, The Bridges, and Cielo. The Ranch is large-lot, custom-home country, and the flooring work here is estate-scale: bigger square footage, higher-end materials, and finish details that have to be right.',
@@ -617,6 +695,17 @@ export const LOCATIONS: Location[] = [
       q: "What flooring works in Coronado's historic and oceanfront homes?",
       a: "Engineered hardwood, porcelain tile, and rigid-core vinyl handle Coronado's heavy salt air best. Solid hardwood struggles on the island. In historic early-1900s homes, we also match period-appropriate looks where owners want them, and we test older flooring for asbestos before removal.",
     },
+    findInstaller: {
+      q: 'Who are reliable flooring installers in Coronado?',
+      a: 'To find a reliable flooring contractor in Coronado, confirm an active CSLB license, a bond, insurance, and consistent recent reviews. Zelo Flooring is a CSLB-licensed flooring company (#1083572) serving Coronado from our San Diego office, rated 5.0 stars across 34 Thumbtack reviews. Call (619) 777-4334 to verify and schedule a free estimate.',
+      criteria: [
+        { label: 'Verify the license', detail: 'Active CSLB C-15 #1083572, bonded and insured. Anyone can check it free on the CSLB website before hiring.' },
+        { label: 'Check recent reviews', detail: 'Zelo holds a 5.0-star rating across 34 Thumbtack reviews and has been hired 57 times across San Diego County.' },
+        { label: 'Confirm accreditation', detail: 'BBB A+ accredited since 2022, and named a Thumbtack Top Pro in 2023, 2024, and 2025.' },
+        { label: 'Insist on a written in-home estimate', detail: 'We bring physical samples and measure on site before quoting, at no cost anywhere on the island.' },
+        { label: 'Ask about salt-air install standards', detail: "Engineered hardwood, tile, and rigid-core vinyl by default for Coronado's salt-air humidity, with asbestos testing on pre-1985 homes." },
+      ],
+    },
     cityIntro: [
       'Zelo Flooring installs throughout Coronado, from the historic Victorians and Craftsman homes near Orange Avenue and the Hotel del to the waterfront properties out in the Coronado Cays. The Crown City has a unique housing mix: century-old homes alongside newer builds, and a large community of military families tied to North Island.',
       'Coronado sits nearly surrounded by water, so salt-air humidity is about as intense as it gets in San Diego County. That rules out solid hardwood for most homes and puts engineered wood, tile, and rigid-core vinyl front and center. Many Coronado homes also predate modern materials, so we test older sheet vinyl and VCT for asbestos before any tear-out begins.',
@@ -677,6 +766,17 @@ export const LOCATIONS: Location[] = [
     aeoSecondaryQuestion: {
       q: "What flooring fits San Marcos's newer hillside homes?",
       a: 'Newer San Marcos homes in San Elijo Hills and Twin Oaks Valley sit on concrete slabs, often on graded hillside lots. Rigid-core luxury vinyl plank and engineered hardwood handle slab moisture better than solid wood. For rooms with grade transitions, we level the substrate so the finished floor stays flat.',
+    },
+    findInstaller: {
+      q: 'Who are reliable flooring installers in San Marcos?',
+      a: 'To find a reliable flooring contractor in San Marcos, confirm an active CSLB license, a bond, insurance, and consistent recent reviews. Zelo Flooring is a CSLB-licensed flooring company (#1083572) serving San Marcos from our San Diego office, rated 5.0 stars across 34 Thumbtack reviews. Call (619) 777-4334 to verify and schedule a free estimate.',
+      criteria: [
+        { label: 'Verify the license', detail: 'Active CSLB C-15 #1083572, bonded and insured. Anyone can check it free on the CSLB website before hiring.' },
+        { label: 'Check recent reviews', detail: 'Zelo holds a 5.0-star rating across 34 Thumbtack reviews and has been hired 57 times across San Diego County.' },
+        { label: 'Confirm accreditation', detail: 'BBB A+ accredited since 2022, and named a Thumbtack Top Pro in 2023, 2024, and 2025.' },
+        { label: 'Insist on a written in-home estimate', detail: 'We bring physical samples and measure on site before quoting, at no cost anywhere in San Marcos.' },
+        { label: 'Ask about slab and hillside prep', detail: 'Slab moisture testing and hillside substrate leveling standard on every San Elijo Hills and Twin Oaks quote.' },
+      ],
     },
     cityIntro: [
       'Zelo Flooring serves all of San Marcos, from the master-planned hillside neighborhoods of San Elijo Hills and Twin Oaks Valley to the homes around Lake San Marcos and the older areas near the colleges. With Cal State San Marcos and Palomar nearby, the city also has a steady mix of rentals alongside family homes.',
@@ -739,6 +839,17 @@ export const LOCATIONS: Location[] = [
       q: 'What flooring works best for Oceanside beach and military homes?',
       a: 'Rigid-core luxury vinyl plank is the workhorse for Oceanside beach cottages, military rentals, and busy family homes. It resists sand, moisture, and heavy traffic, and it installs fast. Near the coast we steer away from solid hardwood; inland in Rancho del Oro and Fire Mountain, engineered wood is a solid upgrade.',
     },
+    findInstaller: {
+      q: 'Who are reliable flooring installers in Oceanside?',
+      a: 'To find a reliable flooring contractor in Oceanside, confirm an active CSLB license, a bond, insurance, and consistent recent reviews. Zelo Flooring is a CSLB-licensed flooring company (#1083572) serving Oceanside from our San Diego office, rated 5.0 stars across 34 Thumbtack reviews. Call (619) 777-4334 to verify and schedule a free estimate.',
+      criteria: [
+        { label: 'Verify the license', detail: 'Active CSLB C-15 #1083572, bonded and insured. Anyone can check it free on the CSLB website before hiring.' },
+        { label: 'Check recent reviews', detail: 'Zelo holds a 5.0-star rating across 34 Thumbtack reviews and has been hired 57 times across San Diego County.' },
+        { label: 'Confirm accreditation', detail: 'BBB A+ accredited since 2022, and named a Thumbtack Top Pro in 2023, 2024, and 2025.' },
+        { label: 'Insist on a written in-home estimate', detail: 'We bring physical samples and measure on site before quoting, at no cost anywhere in Oceanside.' },
+        { label: 'Ask about coastal and military scheduling', detail: 'Beach-tough vinyl near the Strand and fast, durable turnarounds for Camp Pendleton PCS timelines.' },
+      ],
+    },
     cityIntro: [
       'Zelo Flooring installs throughout Oceanside, the largest coastal city in North County, covering the beach cottages along the Strand, the historic homes around Fire Mountain, and the newer inland tracts in Rancho del Oro. With Camp Pendleton right next door, Oceanside also has a large military community that often needs flooring on a deadline.',
       'Oceanside spans both worlds: salt-air coast near the pier and harbor, and drier inland neighborhoods a few miles east. Near the water we lean on rigid-core vinyl and engineered wood that shrug off humidity and sand. Inland, where many homes sit on slab, we moisture-test first. Either way, we keep installs efficient for the military families working against move timelines.',
@@ -773,6 +884,150 @@ export const LOCATIONS: Location[] = [
     relatedLocations: ['flooring-carlsbad', 'flooring-vista', 'flooring-san-marcos'],
     heroImage: '/img/projects/portfolio/zelo-project-37.webp',
     heroImageAlt: 'Luxury vinyl plank flooring installed in an Oceanside beach home by Zelo Flooring',
+  },
+
+  // ---------- ESCONDIDO ----------
+  {
+    slug: 'flooring-escondido',
+    city: 'Escondido',
+    state: 'CA',
+    type: 'secondary',
+    county: 'San Diego County',
+    zips: ['92025', '92026', '92027', '92029'],
+    neighborhoods: ['Old Escondido', 'Eureka Springs', 'Felicita', 'Mission Park', 'Del Dios', 'East Valley'],
+    landmarks: ['San Diego Zoo Safari Park', 'California Center for the Arts Escondido', 'Lake Hodges', 'Kit Carson Park', 'Stone Brewing World Bistro and Gardens', 'Daley Ranch'],
+    driveTimeFromHQ: '30-35 min',
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Escondido,_California',
+    metaTitle: 'Flooring in Escondido, CA',
+    metaDescription:
+      'Flooring installation in Escondido, CA. Hardwood, vinyl plank, tile, and laminate for valley and hillside homes. Licensed CSLB #1083572. Free in-home estimate. Call +1 (619) 777-4334.',
+    primaryKeyword: 'flooring Escondido',
+    secondaryKeywords: ['flooring installation Escondido', 'hardwood flooring Escondido', 'Escondido flooring contractor', 'vinyl plank flooring Escondido', 'luxury vinyl flooring Escondido'],
+    heroValueProp:
+      'Zelo Flooring installs hardwood, luxury vinyl plank, tile, and laminate across Escondido, from Old Escondido to the hillside homes near Lake Hodges. Valley-spec installs, licensed CSLB contractor, free in-home estimate.',
+    aeoCostAnswer:
+      "Flooring installation in Escondido generally runs $4 to $15 per square foot installed. Escondido's warm, dry valley climate makes solid and engineered hardwood ($8 to $15) a practical choice, while rigid-core vinyl plank runs $5 to $10. Larger East Valley lots and older Old Escondido homes both affect labor and prep costs.",
+    aeoSecondaryQuestion: {
+      q: 'Is solid hardwood a good fit for Escondido homes?',
+      a: "Yes, in most cases. Escondido's inland valley climate is warm and dry, similar to Poway, which makes solid oak and maple more stable than at the coast. We still acclimate every board and test subfloor moisture first, especially in older Old Escondido homes with original foundations.",
+    },
+    findInstaller: {
+      q: 'Who are reliable flooring installers in Escondido?',
+      a: 'To find a reliable flooring contractor in Escondido, confirm an active CSLB license, a bond, insurance, and consistent recent reviews. Zelo Flooring is a CSLB-licensed flooring company (#1083572) serving Escondido from our San Diego office, rated 5.0 stars across 34 Thumbtack reviews. Call (619) 777-4334 to verify and schedule a free estimate.',
+      criteria: [
+        { label: 'Verify the license', detail: 'Active CSLB C-15 #1083572, bonded and insured. Anyone can check it free on the CSLB website before hiring.' },
+        { label: 'Check recent reviews', detail: 'Zelo holds a 5.0-star rating across 34 Thumbtack reviews and has been hired 57 times across San Diego County.' },
+        { label: 'Confirm accreditation', detail: 'BBB A+ accredited since 2022, and named a Thumbtack Top Pro in 2023, 2024, and 2025.' },
+        { label: 'Insist on a written in-home estimate', detail: 'We bring physical samples and measure on site before quoting, at no cost anywhere in Escondido.' },
+        { label: 'Ask about valley-climate hardwood options', detail: "Escondido's dry inland air supports solid oak and maple, similar to Poway, once properly acclimated." },
+      ],
+    },
+    cityIntro: [
+      'Zelo Flooring installs throughout Escondido, from the craftsman bungalows of Old Escondido near Grape Day Park to the newer homes in East Valley and the hillside properties around Lake Hodges. The city runs from historic downtown streets to semi-rural acreage near the San Pasqual Valley, and the right flooring approach changes block to block.',
+      "Escondido sits inland in a warm, dry valley, which is friendly to real wood flooring in a way coastal San Diego is not. That said, older homes downtown often have original subfloors that need attention, and larger East Valley properties can bring well or septic considerations into the install plan. We adjust the approach to the house, not a standard order sheet.",
+    ],
+    localNuances: [
+      "Escondido's warm, dry inland valley climate is stable for solid and engineered hardwood, similar to Poway, once the wood is properly acclimated.",
+      'Older Old Escondido craftsman and bungalow homes near downtown can have original subfloors that need re-sheeting or leveling before new flooring.',
+      'Larger East Valley and San Pasqual lots sometimes run on well or septic systems, so we plan staging and access around longer driveways.',
+      'Escondido sits close to backcountry wildfire zones, so some homeowners ask about easy-to-clean, durable surfaces for homes with more dust and ash exposure.',
+      'Hillside homes near Lake Hodges and Felicita can have stepped or uneven subfloors that need grinding and self-leveling before plank flooring.',
+    ],
+    whyChooseUsLocal: [
+      { title: 'Valley Climate Favors Hardwood', desc: "Escondido's dry inland air supports solid oak and maple. We acclimate and moisture-test, then install real wood where coastal homes often cannot." },
+      { title: 'Old Escondido Subfloor Repair', desc: 'Craftsman and bungalow homes near downtown often have original subfloors. We re-sheet and level them before laying new flooring.' },
+      { title: 'East Valley Acreage Ready', desc: 'Larger lots and well or septic properties get a staging plan built around longer driveways and detached structures.' },
+      { title: 'Hillside Leveling', desc: 'Homes near Lake Hodges and Felicita can have stepped subfloors. We grind and self-level so the finished floor lays flat.' },
+      { title: 'Licensed And Insured', desc: 'CSLB C-15 #1083572, bonded and insured. Every job follows manufacturer spec so warranties stay valid.' },
+    ],
+    reviews: [
+      { name: 'Patricia G.', location: 'Old Escondido, CA', quote: 'Our 1940s bungalow had a bouncy original subfloor. Zelo re-sheeted it and put in solid oak that looks amazing. They explained every step before starting.' },
+      { name: 'Anthony M.', location: 'East Valley, Escondido', quote: 'We have a bigger lot with a long driveway and they planned the delivery and staging perfectly. Vinyl plank throughout the house looks great and installed fast.' },
+      { name: 'Cynthia B.', location: 'near Lake Hodges, Escondido', quote: 'Our hillside home had uneven floors that other quotes did not even mention. Zelo leveled everything properly and the finished floor is completely flat.' },
+    ],
+    faqs: [
+      { q: 'How much does flooring cost in Escondido?', a: 'Escondido installs typically run $4 to $15 per square foot installed. Solid and engineered hardwood are $8 to $15, rigid-core vinyl plank $5 to $10, and tile depends on prep. Older subfloor repair in Old Escondido homes can add to the labor.' },
+      { q: 'Can I install solid hardwood in my Escondido home?', a: "Usually yes. Escondido's warm, dry valley climate is stable, similar to Poway, so solid oak and maple are realistic choices. We acclimate the wood and test subfloor moisture first, especially in older downtown homes." },
+      { q: 'Do older Old Escondido homes need subfloor work?', a: 'Often, yes. Many craftsman and bungalow homes near downtown have original subfloors that flex or sag. We re-sheet or level them so the new flooring sits solid and quiet.' },
+      { q: 'Do you handle larger East Valley and San Pasqual properties?', a: 'Yes. We regularly work on larger lots with well or septic systems, planning staging and access around longer driveways and detached structures.' },
+      { q: 'Can you level hillside floors near Lake Hodges?', a: 'Yes. Hillside homes in that area and around Felicita can have stepped or uneven subfloors. We grind, patch, and self-level so the finished floor lays flat.' },
+      { q: 'Which Escondido areas do you serve?', a: 'We install throughout Escondido including Old Escondido, Eureka Springs, Felicita, Mission Park, Del Dios, and East Valley, covering the 92025, 92026, 92027, and 92029 ZIP codes with free in-home estimates.' },
+    ],
+    relatedLocations: ['flooring-poway', 'flooring-san-marcos', 'flooring-vista'],
+    heroImage: '/img/projects/portfolio/zelo-project-41.webp',
+    heroImageAlt: 'Solid hardwood flooring installed in an Escondido valley home by Zelo Flooring',
+  },
+
+  // ---------- CHULA VISTA ----------
+  {
+    slug: 'flooring-chula-vista',
+    city: 'Chula Vista',
+    state: 'CA',
+    type: 'secondary',
+    county: 'San Diego County',
+    zips: ['91910', '91911', '91913', '91914', '91915'],
+    neighborhoods: ['Eastlake', 'Otay Ranch', 'Third Avenue Village', 'Rolling Hills Ranch', 'Terra Nova', 'Bonita'],
+    landmarks: ['Chula Vista Bayfront', 'Otay Lake', 'Southwestern College', 'Third Avenue Village', 'Living Coast Discovery Center', 'Aquatica San Diego'],
+    driveTimeFromHQ: '20-25 min',
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Chula_Vista,_California',
+    metaTitle: 'Flooring in Chula Vista, CA',
+    metaDescription:
+      'Flooring installation in Chula Vista, CA. Vinyl plank, laminate, hardwood, and tile for master-planned and historic homes. Licensed CSLB #1083572. Free in-home estimate. Call +1 (619) 777-4334.',
+    primaryKeyword: 'flooring Chula Vista',
+    secondaryKeywords: ['flooring installation Chula Vista', 'vinyl plank flooring Chula Vista', 'Chula Vista flooring contractor', 'laminate flooring Chula Vista', 'hardwood flooring Chula Vista'],
+    heroValueProp:
+      'Zelo Flooring installs luxury vinyl plank, laminate, hardwood, and tile across Chula Vista, from Eastlake and Otay Ranch to the historic homes near Third Avenue Village. Slab-spec installs, licensed CSLB contractor, free in-home estimate.',
+    aeoCostAnswer:
+      'Flooring installation in Chula Vista generally runs $4 to $14 per square foot installed. Newer Eastlake and Otay Ranch homes on concrete slab do well with rigid-core vinyl plank ($5 to $10), while hardwood runs $8 to $14. Older homes near Third Avenue Village may need subfloor repair before installing.',
+    aeoSecondaryQuestion: {
+      q: 'What flooring fits newer Chula Vista master-planned homes?',
+      a: 'Most newer Chula Vista homes in Eastlake and Otay Ranch sit on concrete slab, which makes rigid-core luxury vinyl plank and engineered hardwood the safer picks over solid wood. We test slab moisture before ordering product and work within HOA scheduling where it applies.',
+    },
+    findInstaller: {
+      q: 'Who are reliable flooring installers in Chula Vista?',
+      a: 'To find a reliable flooring contractor in Chula Vista, confirm an active CSLB license, a bond, insurance, and consistent recent reviews. Zelo Flooring is a CSLB-licensed flooring company (#1083572) serving Chula Vista from our San Diego office, rated 5.0 stars across 34 Thumbtack reviews. Call (619) 777-4334 to verify and schedule a free estimate.',
+      criteria: [
+        { label: 'Verify the license', detail: 'Active CSLB C-15 #1083572, bonded and insured. Anyone can check it free on the CSLB website before hiring.' },
+        { label: 'Check recent reviews', detail: 'Zelo holds a 5.0-star rating across 34 Thumbtack reviews and has been hired 57 times across San Diego County.' },
+        { label: 'Confirm accreditation', detail: 'BBB A+ accredited since 2022, and named a Thumbtack Top Pro in 2023, 2024, and 2025.' },
+        { label: 'Insist on a written in-home estimate', detail: 'We bring physical samples and measure on site before quoting, at no cost anywhere in Chula Vista.' },
+        { label: 'Ask about HOA and slab scheduling', detail: 'Slab moisture testing and HOA construction-hour scheduling standard for Eastlake and Otay Ranch installs.' },
+      ],
+    },
+    cityIntro: [
+      "Zelo Flooring installs throughout Chula Vista, California's second-largest city in San Diego County, from the master-planned communities of Eastlake and Otay Ranch to the older, historic streets around Third Avenue Village and Bonita. The city runs from newer slab-on-grade tract homes to decades-old houses with raised foundations, and each needs a different install approach.",
+      'Most newer Chula Vista neighborhoods sit on concrete slab, so moisture testing comes first on any wood or laminate job. Master-planned communities also often have HOA scheduling requirements we work around. Closer to Third Avenue Village and the older parts of the city, homes are more likely to have original subfloors that need attention before new flooring goes down.',
+    ],
+    localNuances: [
+      'Eastlake, Otay Ranch, and Rolling Hills Ranch are mostly slab-on-grade, so calcium chloride or RH moisture testing comes first on wood and laminate jobs.',
+      'Master-planned Chula Vista HOAs often set construction-hour windows and approval steps, which we schedule around.',
+      'Older homes near Third Avenue Village and Bonita can have raised foundations with original subfloors that need re-sheeting or leveling.',
+      'Chula Vista sits close to the bay in its western neighborhoods, which adds some coastal humidity compared to inland Otay Ranch.',
+      'Two-story homes in newer Chula Vista developments often benefit from sound-dampening underlayment upstairs.',
+    ],
+    whyChooseUsLocal: [
+      { title: 'Slab Moisture Testing First', desc: 'Newer Chula Vista homes in Eastlake and Otay Ranch are slab-on-grade. We test slab moisture before ordering product so your floor does not buckle later.' },
+      { title: 'Built For Master-Planned HOAs', desc: 'We work within Chula Vista HOA construction-hour windows and document anything your association needs before we start tear-out.' },
+      { title: 'Historic-Home Subfloor Repair', desc: 'Older homes near Third Avenue Village and Bonita often have original subfloors. We re-sheet and level them before new flooring goes in.' },
+      { title: 'Free Samples To Your Door', desc: 'We bring vinyl plank, laminate, and hardwood samples to your Chula Vista home so you can match them to your space and light.' },
+      { title: 'Licensed, Bonded, Insured', desc: 'CSLB C-15 #1083572. Manufacturer-spec installs keep your flooring warranty valid.' },
+    ],
+    reviews: [
+      { name: 'Rosa V.', location: 'Eastlake, Chula Vista', quote: 'Zelo tested our slab moisture before quoting, which no one else offered. Rigid-core vinyl throughout the downstairs has held up perfectly with our kids and dog.' },
+      { name: 'Kevin T.', location: 'Otay Ranch, Chula Vista', quote: 'They worked within our HOA construction hours without any issues and the hardwood upstairs looks better than the model home. Great communication start to finish.' },
+      { name: 'Diane O.', location: 'near Third Avenue Village, Chula Vista', quote: 'Our older house had a saggy subfloor near the kitchen. Zelo fixed it properly and the new tile feels completely solid. Honest, fair pricing.' },
+    ],
+    faqs: [
+      { q: 'How much does flooring cost in Chula Vista?', a: 'Chula Vista installs typically run $4 to $14 per square foot installed. Rigid-core vinyl plank is $5 to $10, hardwood $8 to $14, and tile depends on substrate prep. Older-home subfloor repair can add to the labor.' },
+      { q: 'Why does my Chula Vista slab need moisture testing?', a: 'Most newer Eastlake and Otay Ranch homes sit on concrete slab, which releases moisture vapor. Installing wood or laminate without testing risks cupping and buckling, so we run a moisture test first and add a vapor barrier when needed.' },
+      { q: 'Do you follow Chula Vista HOA rules in Eastlake and Otay Ranch?', a: 'Yes. Master-planned Chula Vista communities often set construction-hour windows and approval steps. We schedule around them and provide any documentation your HOA requires before starting.' },
+      { q: 'Do older Chula Vista homes near Third Avenue Village need subfloor work?', a: 'Often, yes. Older homes in that area and in Bonita can have original raised-foundation subfloors that flex over time. We re-sheet or level them so the new flooring sits solid.' },
+      { q: 'Do you install in both new and older Chula Vista neighborhoods?', a: 'Yes. We work on newer slab homes in Eastlake, Otay Ranch, and Rolling Hills Ranch as well as older homes near Third Avenue Village and Bonita, adjusting prep to each.' },
+      { q: 'Which Chula Vista areas do you serve?', a: 'We install across Chula Vista including Eastlake, Otay Ranch, Rolling Hills Ranch, Terra Nova, Third Avenue Village, and Bonita, covering the 91910, 91911, 91913, 91914, and 91915 ZIP codes with free in-home estimates.' },
+    ],
+    relatedLocations: ['flooring-san-diego', 'flooring-coronado'],
+    heroImage: '/img/projects/portfolio/zelo-project-42.webp',
+    heroImageAlt: 'Luxury vinyl plank flooring installed in a Chula Vista home by Zelo Flooring',
   },
 ];
 

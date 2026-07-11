@@ -18,6 +18,9 @@ export default function TileVsVinylFlooringContent() {
           <li>Resale value: Tile adds more, especially in baths and kitchens</li>
           <li>DIY: LVP is far easier; tile is a skilled job</li>
         </ul>
+        <p style={{ marginTop: 8, marginBottom: 0 }}>
+          Deciding between tile and vinyl for your project? <Link href="/free-estimate">Request a free in-home estimate</Link> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>.
+        </p>
       </div>
 
       {/* TOC */}

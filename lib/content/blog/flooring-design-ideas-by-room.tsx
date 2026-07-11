@@ -21,6 +21,9 @@ export default function FlooringDesignIdeasByRoomContent() {
           <li><strong>Home office:</strong> laminate or LVP, herringbone or chevron layout for visual interest</li>
           <li><strong>Patio-adjacent rooms:</strong> porcelain plank tile, indoor-outdoor color match</li>
         </ul>
+        <p style={{ marginTop: 8, marginBottom: 0 }}>
+          Want help planning your own room-by-room design? <Link href="/free-estimate">Request a free in-home estimate</Link> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>.
+        </p>
       </div>
 
       <nav className="article-toc">

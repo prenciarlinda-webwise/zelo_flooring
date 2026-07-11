@@ -21,6 +21,9 @@ export default function WoodLookTileVsHardwoodContent() {
           <li><strong>Water resistance:</strong> Fully waterproof (tile) vs water-resistant to none (hardwood)</li>
           <li><strong>Feel underfoot:</strong> Cool, hard (tile) vs warm, slightly forgiving (hardwood)</li>
         </ul>
+        <p style={{ marginTop: 8, marginBottom: 0 }}>
+          Trying to decide between the two for your home? <Link href="/free-estimate">Request a free in-home estimate</Link> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>.
+        </p>
       </div>
 
       {/* TOC */}

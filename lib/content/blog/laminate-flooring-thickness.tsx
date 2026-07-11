@@ -21,6 +21,9 @@ export default function LaminateFlooringThicknessContent() {
           <li>Thickness is feel and sound. The AC rating is durability.</li>
           <li>Always confirm both the mm thickness and the AC rating before buying.</li>
         </ul>
+        <p style={{ marginTop: 8, marginBottom: 0 }}>
+          Not sure which thickness fits your rooms? <Link href="/free-estimate">Request a free estimate</Link> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>.
+        </p>
       </div>
 
       {/* TOC */}

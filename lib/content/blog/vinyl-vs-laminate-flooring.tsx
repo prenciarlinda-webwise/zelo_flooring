@@ -18,6 +18,9 @@ export default function VinylVsLaminateFlooringContent() {
           <li>Best for dry living rooms on a budget: Laminate</li>
           <li>Both: floating install, wood looks, DIY-friendly</li>
         </ul>
+        <p style={{ marginTop: 8, marginBottom: 0 }}>
+          Still deciding between the two? <Link href="/free-estimate">Request a free in-home estimate</Link> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>.
+        </p>
       </div>
 
       {/* TOC */}

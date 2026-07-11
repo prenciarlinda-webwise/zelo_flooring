@@ -22,6 +22,9 @@ export default function VinylPlankFlooringCostContent() {
           <li>1,500 sqft whole-home: $6,000 to $13,500</li>
           <li>Wear layer for pets: 20+ mil</li>
         </ul>
+        <p style={{ marginTop: 8, marginBottom: 0 }}>
+          Want an exact number instead of a range? <Link href="/free-estimate">Request a free in-home estimate</Link> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>.
+        </p>
       </div>
 
       {/* TOC */}

@@ -22,6 +22,9 @@ export default function CarpetInstallationCostContent() {
           <li>Stairs: $15 to $30 per step (straight); $25 to $45 per step (winding)</li>
           <li>Lifespan: 5 to 25 years depending on fiber and traffic</li>
         </ul>
+        <p style={{ marginTop: 8, marginBottom: 0 }}>
+          Want an exact quote instead of an estimate range? <Link href="/free-estimate">Request a free in-home estimate</Link> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>.
+        </p>
       </div>
 
       {/* TOC */}

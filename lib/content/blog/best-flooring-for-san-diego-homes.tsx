@@ -21,6 +21,9 @@ export default function BestFlooringForSanDiegoHomesContent() {
           <li>Best for bedrooms: Carpet with a quality pad</li>
           <li>Usually avoid near the coast: Solid hardwood (cups in humidity)</li>
         </ul>
+        <p style={{ marginTop: 8, marginBottom: 0 }}>
+          Want a recommendation for your home? <Link href="/free-estimate">Request a free in-home estimate</Link> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>.
+        </p>
       </div>
 
       {/* TOC */}

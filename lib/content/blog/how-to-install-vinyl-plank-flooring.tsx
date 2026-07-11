@@ -18,6 +18,9 @@ export default function HowToInstallVinylPlankFlooringContent() {
           <li>Stagger end joints at least 6 inches</li>
           <li>Over concrete, use a moisture barrier</li>
         </ul>
+        <p style={{ marginTop: 8, marginBottom: 0 }}>
+          Prefer it done right the first time? <Link href="/free-estimate">Request a free estimate</Link> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>.
+        </p>
       </div>
 
       {/* TOC */}

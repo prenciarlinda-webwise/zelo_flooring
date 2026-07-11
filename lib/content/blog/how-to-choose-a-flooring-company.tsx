@@ -13,6 +13,9 @@ export default function HowToChooseAFlooringCompanyContent() {
 
       <div className="callout-box info">
         <strong>Quick answer:</strong> Verify the contractor holds an active C-15 flooring license through the California Contractors State License Board (CSLB), confirm bonding and insurance, get a written itemized estimate with a measurement visit included, and check reviews across at least two platforms, not just one. Walk away from any company that asks for full payment upfront.
+        <p style={{ marginTop: 8, marginBottom: 0 }}>
+          Want to see how Zelo Flooring measures up? <Link href="/free-estimate">Request a free in-home estimate</Link> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>.
+        </p>
       </div>
 
       {/* TOC */}

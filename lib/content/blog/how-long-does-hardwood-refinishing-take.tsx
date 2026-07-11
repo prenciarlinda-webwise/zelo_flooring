@@ -21,6 +21,9 @@ export default function HowLongDoesHardwoodRefinishingTakeContent() {
           <li>Water-based finish: faster cure, lower odor</li>
           <li>Oil-based finish: longer cure, stronger odor, amber tone</li>
         </ul>
+        <p style={{ marginTop: 8, marginBottom: 0 }}>
+          Thinking about refinishing your floors? <Link href="/free-estimate">Request a free estimate</Link> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>.
+        </p>
       </div>
 
       {/* TOC */}

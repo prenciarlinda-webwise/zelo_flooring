@@ -108,6 +108,7 @@ export const SERVICES: Service[] = [
       { q: 'What pad do you include? Can I upgrade?', a: 'Our standard is 8 lb density rebond pad, the minimum most carpet manufacturers require for warranty coverage. Premium 10 lb pad is a common upgrade for stairs and high-traffic areas. We can quote a moisture-barrier pad if your slab has moisture concerns.' },
       { q: 'Do you handle rental properties and turnover work?', a: 'Yes. We carry durable, value-priced options for rentals and run unit-turn projects with quick scheduling between leases. Tell us the unit count and timeline and we will quote.' },
       { q: 'Do you remove and dispose of the old carpet and pad?', a: 'Yes. Old carpet, pad, and tack strip removal and disposal are included in every residential installation. Your home is clean when we leave.' },
+      { q: 'Who does carpet installation in San Diego?', a: 'Zelo Flooring handles carpet installation in San Diego and across the county, from a single bedroom to a full whole-home job. Every install includes power-stretching, a premium 8 lb pad, and old carpet removal in the quote, not as an add-on. We are a CSLB-licensed San Diego carpet installer, bonded and insured.' },
     ],
   },
   {
@@ -242,6 +243,8 @@ export const SERVICES: Service[] = [
       { q: 'Do you offer hardwood floor refinishing in San Diego?', a: 'Yes. Hardwood floor refinishing in San Diego is one of our most requested services, often a better value than tearing out and replacing. We sand and refinish with a dust-contained sander (Festool or Bona) so your home stays livable through the project, and stain-test on your actual floor before committing to a color. Most refinishing jobs take 3 to 5 days plus cure time.' },
       { q: 'Do you repair damaged hardwood floors in San Diego?', a: 'Yes. We repair water-damaged, gouged, and squeaking hardwood boards across San Diego, often replacing just the affected boards with a stain match instead of a full tear-out. Board repair is usually faster and less expensive than homeowners expect, and we quote it separately from a full refinish.' },
       { q: 'Can you match an existing hardwood floor when I add on?', a: 'Sometimes. Same species and same width give you a starting chance, but old floors have aged and oxidized. We are honest about what is achievable. If a perfect match is not possible, we suggest threshold transitions or refinishing the existing floor at the same time.' },
+      { q: 'Can you fix a sagging or bouncy hardwood floor?', a: 'Yes. A sagging or bouncy floor is almost always a subfloor problem, not the hardwood itself: weakened floor joists, a damaged subfloor panel, or a settled foundation. As a hardwood floor repair contractor, we inspect the subfloor where accessible, re-sheet or sister damaged framing, then reinstall or refinish the hardwood on top rather than guessing at a surface-level fix.' },
+      { q: 'Can you use Pine-Sol or other household cleaners on hardwood floors?', a: 'We do not recommend Pine-Sol or other oil-soap and ammonia-based household cleaners on finished hardwood. Most leave a dulling residue or slowly break down the polyurethane finish with repeated use. Use a pH-neutral hardwood cleaner and a microfiber mop instead, and check your specific finish manufacturer\'s cleaning guidance first.' },
     ],
     blogSlug: 'engineered-vs-solid-hardwood',
   },
@@ -308,6 +311,8 @@ export const SERVICES: Service[] = [
       { q: 'How long does the install take?', a: 'A 1,000 square foot home is typically 1 to 2 days. Subfloor prep and slab self-leveling can extend that. Furniture moving, baseboard removal, and trim work also factor in. We give you a clear schedule before we start.' },
       { q: 'Can I install waterproof laminate in my bathroom?', a: 'In a powder room with no shower, yes. In a full bathroom we recommend tile or LVP. Even waterproof laminate has joints, and prolonged shower humidity eventually finds them. We tell you honestly during the consultation.' },
       { q: 'What underlayment do you use, and is it included?', a: 'Foam or cork underlayment with vapor barrier on slab, sound-attenuation pad on upper floors. Underlayment is included in our standard quote. Premium acoustic pad upgrades are quoted separately for noise-sensitive condos.' },
+      { q: 'Is laminate wood flooring actually waterproof?', a: 'Most standard laminate is water-resistant, not waterproof, and can swell if water sits at a seam. Newer waterproof laminate wood flooring, like Pergo Outlast+, Mohawk RevWood Plus, and Shaw Repel, uses a sealed core and locking edge that block water at the seams for spills and pet accidents. Even these are not recommended for full bathrooms.' },
+      { q: 'How do I clean laminate wood floors?', a: 'Sweep or dry-mop laminate wood floors regularly so grit does not scratch the surface, then damp-mop, never wet-mop, with a laminate-safe cleaner. Skip steam mops, oil soaps, and wax-based products, they can dull the finish or force moisture into the seams. Wipe up spills immediately, especially on standard (non-waterproof) laminate.' },
     ],
   },
   {
@@ -485,7 +490,7 @@ export const SERVICES: Service[] = [
       '5.0★ on Thumbtack (34 reviews)',
     ],
     subServices: [
-      { id: 'home-gym', name: 'Home Gym Rubber', blurb: '3/8" to 1/2" rolled or interlocking tile for residential gyms. Free-weight and cardio rated. Slab crack repair included where needed.' },
+      { id: 'home-gym', name: 'Home Gym Rubber', blurb: '3/8" to 1/2" rolled or interlocking rubber gym flooring for residential gyms. Free-weight and cardio rated. Slab crack repair included where needed.' },
       { id: 'commercial-gym', name: 'Commercial Gym Buildouts', blurb: 'Full gym buildouts: platform zones, free-weight zones, cardio zones, locker rooms. Mondo, Ecore, Regupol product lines.' },
       { id: 'garage', name: 'Garage Rubber', blurb: 'Interlocking tile and rolled rubber for garages and workshops. Hides slab cracks and oil stains, easy to clean.' },
       { id: 'daycare', name: 'Daycare and Play Areas', blurb: 'Fall-rated rubber tile for play areas and daycare. ASTM F1292 impact attenuation specs met for the play heights you need.' },
@@ -505,9 +510,10 @@ export const SERVICES: Service[] = [
       { q: 'What thickness do I need for a home gym?', a: '3/8 inch is the residential default for general fitness, cardio, and lighter dumbbell work. 1/2 inch is the right call if you do free-weight training. 3/4 inch or 1 inch is what you want for olympic lifting and dropping loaded barbells.' },
       { q: 'Will the new rubber smell?', a: 'Yes, briefly. Premium product (Ecore, Mondo) has minimal smell that aerates within a week. Budget recycled tire tile can smell strongly for a month or longer. We tell you which products are which during the consultation.' },
       { q: 'Can rubber go over my existing garage slab with cracks?', a: 'Yes. We fill significant cracks with epoxy first and grind any high spots so the rubber sits flat. Hairline cracks generally do not telegraph through 3/8 inch rubber or thicker.' },
-      { q: 'How do I clean rubber flooring?', a: 'Sweep or vacuum first, then damp mop with neutral pH cleaner. Avoid harsh acids and solvents (they degrade the binder). For a commercial gym, an auto-scrubber with neutral cleaner is ideal.' },
+      { q: 'How do I clean rubber flooring?', a: 'Sweep or vacuum first, then damp mop a rubber gym floor with a neutral pH cleaner. Avoid harsh acids and solvents, they degrade the binder over time. For a commercial gym, an auto-scrubber with neutral cleaner is ideal.' },
       { q: 'Should I get rolled or interlocking tile?', a: 'Rolled is more durable, looks more professional, and seams are minimal. Tile is portable, easier to replace if a piece gets damaged, and lets you start small and expand. Rolled wins for permanent installs; tile wins for renters and small spaces.' },
       { q: 'Do you handle commercial gym buildouts?', a: 'Yes. We work with general contractors and gym owners on full buildouts: platform zones, free-weight zones, cardio zones, locker rooms. After-hours installs available to keep gyms open during conversion.' },
+      { q: 'Should I hire a rubber flooring installation company, or install it myself?', a: 'DIY can work for a small interlocking-tile area, but full rooms benefit from a professional install: proper slab crack repair, thickness matched to the activity, and heat-welded or fully-bonded seams that will not curl or shift under heavy equipment. As a licensed rubber flooring installation company, we handle both home gyms and full commercial buildouts.' },
     ],
   },
   {

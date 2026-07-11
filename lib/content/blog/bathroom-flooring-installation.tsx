@@ -13,6 +13,9 @@ export default function BathroomFlooringInstallationContent() {
 
       <div className="callout-box info">
         <strong>Quick answer:</strong> A professional bathroom floor installation includes demolition, a waterproof membrane (not just tile and grout), subfloor leveling and moisture testing, a slope to the drain, and 3 to 5 days of work including cure time. Porcelain tile runs $8 to $18 per square foot installed; waterproof LVP runs $6 to $10 per square foot. Full engineered or solid hardwood is not recommended in a full bathroom at any price.
+        <p style={{ marginTop: 8, marginBottom: 0 }}>
+          Ready to start your bathroom project? <Link href="/free-estimate">Request a free in-home estimate</Link> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>.
+        </p>
       </div>
 
       {/* TOC */}
@@ -187,6 +190,16 @@ export default function BathroomFlooringInstallationContent() {
       <h3>Can bathroom flooring be installed over old tile?</h3>
       <p>
         Sometimes, if the old tile is flat, well-bonded, and does not have failed waterproofing underneath. We test for hollow spots and moisture before recommending an overlay. If the old waterproofing is compromised, a full tear-out is the only reliable fix.
+      </p>
+
+      <h3>What are good bathroom floor tile ideas?</h3>
+      <p>
+        Large-format porcelain (12x24 or larger) reads modern with fewer grout lines to clean. Wood-look porcelain plank adds warmth without sacrificing waterproofing. Small mosaic or pebble tile works well in the shower pan itself for slope. Light colors make a small bathroom feel bigger, and matte finishes hide water spots better than high-gloss.
+      </p>
+
+      <h3>How do I clean a bathroom floor?</h3>
+      <p>
+        Sweep or dry-mop first to remove grit that can scratch the surface, then damp-mop porcelain tile or waterproof LVP with a pH-neutral cleaner. Avoid vinegar or acidic cleaners on natural stone tile since they etch the surface over time. Reseal grout lines and natural stone annually to keep water from soaking in.
       </p>
 
       {/* RELATED */}

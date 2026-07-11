@@ -20,6 +20,9 @@ export default function BestFlooringForNewConstructionContent() {
           <li><strong>Slab dry time before wood or laminate:</strong> typically 60 to 90+ days after pour, confirmed by testing, not a calendar guess</li>
           <li><strong>Avoid on a new slab under 60 days old:</strong> solid hardwood and any wood or laminate product without a passed moisture test</li>
         </ul>
+        <p style={{ marginTop: 8, marginBottom: 0 }}>
+          Building or buying new construction? <Link href="/free-estimate">Request a free in-home estimate</Link> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>.
+        </p>
       </div>
 
       <nav className="article-toc">

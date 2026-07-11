@@ -21,6 +21,9 @@ export default function LaminateOverExistingFloorsContent() {
           <li>Concrete slab: Yes, with a moisture test and vapor barrier</li>
           <li>Carpet: No, remove it (thin glued commercial loop is the only exception)</li>
         </ul>
+        <p style={{ marginTop: 8, marginBottom: 0 }}>
+          Not sure if your existing floor qualifies? <Link href="/free-estimate">Request a free estimate</Link> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>.
+        </p>
       </div>
 
       {/* TOC */}

@@ -16,6 +16,9 @@ export default function IsFreeFlooringInstallationRealContent() {
         <p style={{ marginTop: 8, marginBottom: 0 }}>
           Free flooring installation almost always means the labor cost is built into a higher per-square-foot material price rather than waived. It can still be a fair deal if the total installed price is competitive, but always ask for the price with labor itemized separately before you sign anything.
         </p>
+        <p style={{ marginTop: 8, marginBottom: 0 }}>
+          Want a quote with nothing hidden? <Link href="/free-estimate">Request a free in-home estimate</Link> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>.
+        </p>
       </div>
 
       {/* TOC */}

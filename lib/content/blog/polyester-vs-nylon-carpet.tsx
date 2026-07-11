@@ -21,6 +21,9 @@ export default function PolyesterVsNylonCarpetContent() {
           <li><strong>Cost (installed):</strong> Polyester $3-$4.50 · nylon $4.50-$7 · triexta $5-$8</li>
           <li><strong>Worst common mistake:</strong> Putting polyester in a living room or hallway. It will mat in 3-5 years.</li>
         </ul>
+        <p style={{ marginTop: 8, marginBottom: 0 }}>
+          Want to feel these fibers side by side? <Link href="/free-estimate">Request a free in-home estimate</Link> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>.
+        </p>
       </div>
 
       {/* TOC */}

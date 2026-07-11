@@ -20,6 +20,9 @@ export default function BestFlooringForCraftRoomContent() {
           <li><strong>Avoid:</strong> Carpet (traps thread, glitter, and pins; hard to vacuum out of loop fibers)</li>
           <li><strong>Typical cost for a 120 to 150 sqft room:</strong> $720 to $1,800 installed depending on material</li>
         </ul>
+        <p style={{ marginTop: 8, marginBottom: 0 }}>
+          Ready to compare samples in your space? <Link href="/free-estimate">Request a free in-home estimate</Link> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>.
+        </p>
       </div>
 
       {/* TOC */}

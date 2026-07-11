@@ -171,19 +171,53 @@ export default function LocationPage({ location }: Props) {
                   </li>
                 ))}
               </ul>
-              <p>
-                Zelo Flooring is a licensed, full-service San Diego flooring and carpet company,
-                installing <Link href="/carpet-flooring-san-diego">carpet</Link> throughout San Diego
-                and nearby <Link href="/flooring-la-jolla">La Jolla</Link>.
-              </p>
-              <p>
-                We also install{' '}
-                <Link href="/hardwood-flooring-san-diego">hardwood flooring</Link>,{' '}
-                <Link href="/vinyl-flooring-san-diego">luxury vinyl plank</Link>, and{' '}
-                <Link href="/laminate-flooring-san-diego">laminate flooring</Link> across the county,
-                including <Link href="/flooring-carlsbad">Carlsbad</Link> and{' '}
-                <Link href="/flooring-coronado">Coronado</Link>.
-              </p>
+              {isMain ? (
+                <>
+                  <p>
+                    Zelo Flooring is a licensed, full-service San Diego flooring and carpet company,
+                    installing <Link href="/carpet-flooring-san-diego">carpet</Link> throughout San Diego
+                    and nearby <Link href="/flooring-la-jolla">La Jolla</Link>.
+                  </p>
+                  <p>
+                    We also install{' '}
+                    <Link href="/hardwood-flooring-san-diego">hardwood flooring</Link>,{' '}
+                    <Link href="/vinyl-flooring-san-diego">luxury vinyl plank</Link>, and{' '}
+                    <Link href="/laminate-flooring-san-diego">laminate flooring</Link> across the county,
+                    including <Link href="/flooring-carlsbad">Carlsbad</Link> and{' '}
+                    <Link href="/flooring-coronado">Coronado</Link>.
+                  </p>
+                </>
+              ) : (
+                <>
+                  <p>
+                    Zelo Flooring is a licensed, full-service San Diego flooring company serving{' '}
+                    {location.city} from our San Diego office, installing{' '}
+                    <Link href="/carpet-flooring-san-diego">carpet</Link>,{' '}
+                    <Link href="/hardwood-flooring-san-diego">hardwood flooring</Link>,{' '}
+                    <Link href="/vinyl-flooring-san-diego">luxury vinyl plank</Link>, and{' '}
+                    <Link href="/laminate-flooring-san-diego">laminate flooring</Link> throughout{' '}
+                    {location.city}.
+                  </p>
+                  {location.relatedLocations.length > 0 && (
+                    <p>
+                      We also serve nearby{' '}
+                      {location.relatedLocations.slice(0, 3).map((slug, i, arr) => {
+                        const related = getLocation(slug);
+                        if (!related) return null;
+                        const isLast = i === arr.length - 1;
+                        const isSecondLast = i === arr.length - 2;
+                        return (
+                          <span key={slug}>
+                            <Link href={`/${slug}`}>{related.city}</Link>
+                            {!isLast && (isSecondLast ? (arr.length > 2 ? ', and ' : ' and ') : ', ')}
+                          </span>
+                        );
+                      })}
+                      .
+                    </p>
+                  )}
+                </>
+              )}
               <p>
                 Verify any contractor free on the{' '}
                 <a href={SITE.licenseDetails.issuerUrl} target="_blank" rel="noopener noreferrer">

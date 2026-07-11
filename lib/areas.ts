@@ -15,6 +15,8 @@ export const SERVICE_AREAS: ServiceArea[] = [
   { name: 'Encinitas', wikipediaUrl: 'https://en.wikipedia.org/wiki/Encinitas,_California' },
   { name: 'Rancho Santa Fe', wikipediaUrl: 'https://en.wikipedia.org/wiki/Rancho_Santa_Fe,_California' },
   { name: 'San Marcos', wikipediaUrl: 'https://en.wikipedia.org/wiki/San_Marcos,_California' },
+  { name: 'Escondido', wikipediaUrl: 'https://en.wikipedia.org/wiki/Escondido,_California' },
+  { name: 'Chula Vista', wikipediaUrl: 'https://en.wikipedia.org/wiki/Chula_Vista,_California' },
 ];
 
 export const SITE = {

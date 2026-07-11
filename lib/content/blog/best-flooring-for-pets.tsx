@@ -22,6 +22,9 @@ export default function BestFlooringForPetsContent() {
           <li><strong>Best for waterproofing under pee:</strong> Sealed porcelain tile or waterproof-backed carpet (LifeProof, SmartStrand Silk)</li>
           <li><strong>Best for non-slip traction:</strong> Textured LVP or matte porcelain tile (avoid polished finishes)</li>
         </ul>
+        <p style={{ marginTop: 8, marginBottom: 0 }}>
+          Ready to pet-proof your floors? <Link href="/free-estimate">Request a free estimate</Link> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>.
+        </p>
       </div>
 
       {/* TOC */}

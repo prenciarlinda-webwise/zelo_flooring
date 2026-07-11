@@ -126,7 +126,7 @@ export const SERVICE_LOCAL_DATA: Record<string, ServiceLocalData> = {
 
   'laminate-flooring-san-diego': {
     aeoCostAnswer:
-      'Laminate flooring installs in San Diego run 1-2 days for a typical 1,000 sq ft home including subfloor prep. We install AC4 and AC5 commercial-rated lines from Pergo, Mohawk RevWood, Quick-Step, and Shaw Repel. Vapor-barrier underlayment is standard on every slab; sound-attenuation pad on upper floors and HOA condos.',
+      'Laminate floor installation in San Diego runs 1-2 days for a typical 1,000 sq ft home, including subfloor prep and vapor-barrier underlayment on every slab. Zelo Flooring, a CSLB-licensed San Diego laminate flooring contractor, installs waterproof AC4 and AC5 lines from Pergo, Mohawk RevWood, and Shaw Repel. Call (619) 777-4334 for a free in-home estimate.',
     aeoSecondaryQuestion: {
       q: 'Is laminate or LVP better for a San Diego home?',
       a: 'Different floors. Laminate has a harder, firmer feel and a more authentic embossed wood texture. LVP is softer, warmer, and 100% waterproof core. We recommend laminate for whole-home installs in dry rooms (bedrooms, living rooms, hallways) and AC4+ commercial-rated laminate for rentals; LVP for kitchens, baths, and homes with pets.',
@@ -159,7 +159,7 @@ export const SERVICE_LOCAL_DATA: Record<string, ServiceLocalData> = {
 
   'tile-flooring-san-diego': {
     aeoCostAnswer:
-      'Tile installs in San Diego run 2-3 days for a typical bathroom floor including substrate prep and grout cure, 5-8 days for a full bathroom remodel with shower waterproofing, and 2-3 days for a kitchen floor over a flat slab. Backsplashes are typically a 1-day install. Substrate prep, cement backer board, and waterproofing membrane are line-item separately.',
+      'Tile installation in San Diego runs 2-3 days for a typical bathroom floor, 5-8 days for a full remodel with shower waterproofing, and 2-3 days for a kitchen floor over a flat slab. Zelo Flooring, a CSLB-licensed San Diego tile contractor, includes substrate prep and waterproofing in every quote. Call (619) 777-4334 for a free estimate.',
     aeoSecondaryQuestion: {
       q: 'What waterproofing do you use for San Diego shower tile?',
       a: 'Schluter Kerdi sheet membrane or RedGard liquid membrane depending on the build. Pre-formed Kerdi pans for curbless showers. Pan slope is checked with a level before tile goes down. Both systems are ANSI A118.10 compliant and exceed San Diego County health code for residential bathroom waterproofing.',
@@ -192,7 +192,7 @@ export const SERVICE_LOCAL_DATA: Record<string, ServiceLocalData> = {
 
   'cork-flooring-san-diego': {
     aeoCostAnswer:
-      'Cork installs in San Diego run 2-3 days for a 500-1,000 sq ft kitchen including 72-hour acclimation. Floating click-lock cork plank goes faster than glue-down cork tile. We install Wicanders, APC, and Globus product lines, all FSC-certified Portuguese cork. Slab moisture sealing and vapor barrier are mandatory on every glue-down install.',
+      'Cork flooring installation in San Diego runs 2-3 days for a 500-1,000 sq ft kitchen, including 72-hour acclimation. Zelo Flooring installs FSC-certified Wicanders, APC, and Globus cork with mandatory slab moisture sealing on every glue-down job. Call (619) 777-4334 for a free in-home estimate.',
     aeoSecondaryQuestion: {
       q: 'Where does cork flooring work in a San Diego home?',
       a: 'Cork is best in San Diego kitchens, home offices, music rooms, and play areas where comfort underfoot matters. Glue-down cork tile in kitchens with sealed perimeter handles splashes well. We do not recommend cork in full bathrooms or in south-facing rooms with all-day sun exposure due to UV-related color shift over time.',
@@ -225,7 +225,7 @@ export const SERVICE_LOCAL_DATA: Record<string, ServiceLocalData> = {
 
   'rubber-flooring-san-diego': {
     aeoCostAnswer:
-      'Rubber flooring installs in San Diego run 1-2 days for a 500 sq ft home gym including slab crack prep and adhesive cure. Commercial scope (5,000 sq ft gym, daycare, healthcare) runs 1-2 weeks depending on zone complexity. We install Ecore, Mondo, Regupol, and RB Rubber, with heat-welded seams on commercial installs.',
+      'Rubber gym flooring installation in San Diego runs 1-2 days for a 500 sq ft home gym, including slab crack repair. Zelo Flooring, a CSLB-licensed rubber flooring installation company, also handles commercial gym, garage, and daycare rubber flooring in 1-2 weeks. Call (619) 777-4334 for a free estimate.',
     aeoSecondaryQuestion: {
       q: 'What rubber thickness do I need for a San Diego home gym?',
       a: '3/8 inch is the residential default for general fitness, cardio, and lighter dumbbell work. 1/2 inch is the right call for free-weight training. 3/4 inch or 1 inch is what you want for olympic lifting and dropping loaded barbells. Going thinner than 3/8 inch on a slab is asking for cracks in the rubber and the slab beneath.',
@@ -258,7 +258,7 @@ export const SERVICE_LOCAL_DATA: Record<string, ServiceLocalData> = {
 
   'vinyl-composition-tile-flooring-san-diego': {
     aeoCostAnswer:
-      'VCT installs in San Diego commercial buildouts run 4-7 days for a 5,000 sq ft school classroom retrofit, including substrate prep, layout, install, and 4-5 finish coats. After-hours, weekend, and school-break scheduling is standard so your space stays operational. We install Armstrong Excelon, Mannington, Tarkett, and Roppe lines.',
+      'VCT commercial flooring installation in San Diego runs 4-7 days for a 5,000 sq ft classroom retrofit, including substrate prep and finish coats. Zelo Flooring, a CSLB-licensed commercial flooring contractor, works after-hours and weekends so schools, clinics, and retail spaces stay operational. Call (619) 777-4334 for a quote.',
     aeoSecondaryQuestion: {
       q: 'How is VCT different from LVT in San Diego commercial spaces?',
       a: 'VCT is a homogeneous tile (vinyl, limestone, plasticizer, pigment) that needs regular stripping and waxing. LVT (luxury vinyl tile) is multi-layer with a pre-finished top coat that does not need waxing. VCT is cheaper per square foot but has higher long-term maintenance. We install VCT in San Diego schools, healthcare, and high-traffic retail; LVT in offices and lower-maintenance commercial.',

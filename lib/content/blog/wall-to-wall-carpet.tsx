@@ -21,6 +21,9 @@ export default function WallToWallCarpetContent() {
           <li><strong>Sound reduction:</strong> Cuts impact noise by roughly 20 to 25 decibels versus hard flooring</li>
           <li><strong>Warranty note:</strong> Requires professional power-stretch installation to stay valid on most brands</li>
         </ul>
+        <p style={{ marginTop: 8, marginBottom: 0 }}>
+          Want real samples in your own lighting? <Link href="/free-estimate">Request a free in-home estimate</Link> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>.
+        </p>
       </div>
 
       {/* TOC */}

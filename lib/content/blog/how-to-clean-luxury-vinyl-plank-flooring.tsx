@@ -18,6 +18,9 @@ export default function HowToCleanLuxuryVinylPlankFlooringContent() {
           <li>Wipe spills quickly and use felt pads under furniture</li>
           <li>Place doormats to catch grit, the main cause of scratches</li>
         </ul>
+        <p style={{ marginTop: 8, marginBottom: 0 }}>
+          Thinking about new vinyl plank floors? <Link href="/free-estimate">Request a free in-home estimate</Link> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>.
+        </p>
       </div>
 
       {/* TOC */}

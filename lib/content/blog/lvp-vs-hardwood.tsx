@@ -21,6 +21,9 @@ export default function LvpVsHardwoodContent() {
           <li><strong>Refinishable:</strong> No (LVP) · Yes 1-3 times (engineered) · Yes 5+ times (solid)</li>
           <li><strong>Resale impact:</strong> Neutral (LVP) · Positive (hardwood)</li>
         </ul>
+        <p style={{ marginTop: 8, marginBottom: 0 }}>
+          Ready to compare them in your own home? <Link href="/free-estimate">Request a free in-home estimate</Link> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>.
+        </p>
       </div>
 
       {/* TOC */}
