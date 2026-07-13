@@ -37,6 +37,36 @@ import BathroomFlooringInstallationContent from '@/lib/content/blog/bathroom-flo
 import BestFlooringForNewConstructionContent from '@/lib/content/blog/best-flooring-for-new-construction';
 import BestFlooringForSchoolsContent from '@/lib/content/blog/best-flooring-for-schools';
 import BestFlooringForCraftRoomContent from '@/lib/content/blog/best-flooring-for-craft-room';
+import BathroomFloorTileIdeasContent from '@/lib/content/blog/bathroom-floor-tile-ideas';
+import BestTileForOutdoorPatiosAndPoolsContent from '@/lib/content/blog/best-tile-for-outdoor-patios-and-pools';
+import CanLaminateFlooringBeRepairedContent from '@/lib/content/blog/can-laminate-flooring-be-repaired';
+import CarpetPaddingGuideContent from '@/lib/content/blog/carpet-padding-guide';
+import CorkFlooringMaintenanceAndCleaningContent from '@/lib/content/blog/cork-flooring-maintenance-and-cleaning';
+import FlooringForRentalPropertiesContent from '@/lib/content/blog/flooring-for-rental-properties';
+import HardwoodFloorWaterDamageContent from '@/lib/content/blog/hardwood-floor-water-damage';
+import HowMuchDoesHardwoodFlooringCostContent from '@/lib/content/blog/how-much-does-hardwood-flooring-cost';
+import HowMuchDoesLaminateFlooringCostContent from '@/lib/content/blog/how-much-does-laminate-flooring-cost';
+import HowMuchDoesTileFlooringCostContent from '@/lib/content/blog/how-much-does-tile-flooring-cost';
+import HowToCleanAndResealGroutLinesContent from '@/lib/content/blog/how-to-clean-and-reseal-grout-lines';
+import HowToCleanHardwoodFloorsContent from '@/lib/content/blog/how-to-clean-hardwood-floors';
+import HowToCleanLaminateWoodFloorsContent from '@/lib/content/blog/how-to-clean-laminate-wood-floors';
+import HowToFixASaggingOrSqueakyHardwoodFloorContent from '@/lib/content/blog/how-to-fix-a-sagging-or-squeaky-hardwood-floor';
+import HowToFixScratchesAndDentsInVinylPlankContent from '@/lib/content/blog/how-to-fix-scratches-and-dents-in-vinyl-plank';
+import HowToRemoveCarpetStainsContent from '@/lib/content/blog/how-to-remove-carpet-stains';
+import IsCorkFlooringGoodForKitchensContent from '@/lib/content/blog/is-cork-flooring-good-for-kitchens';
+import IsLaminateFlooringWaterproofContent from '@/lib/content/blog/is-laminate-flooring-waterproof';
+import IsVinylPlankFlooringGoodForBasementsContent from '@/lib/content/blog/is-vinyl-plank-flooring-good-for-basements';
+import JankaHardnessChartForHardwoodFlooringContent from '@/lib/content/blog/janka-hardness-chart-for-hardwood-flooring';
+import LvpVsLvtFlooringContent from '@/lib/content/blog/lvp-vs-lvt-flooring';
+import PorcelainVsCeramicTileContent from '@/lib/content/blog/porcelain-vs-ceramic-tile';
+import PrefinishedVsSiteFinishedHardwoodContent from '@/lib/content/blog/prefinished-vs-site-finished-hardwood';
+import RigidCoreVsWpcVinylPlankContent from '@/lib/content/blog/rigid-core-vs-wpc-vinyl-plank';
+import RubberFlooringForAHomeGymContent from '@/lib/content/blog/rubber-flooring-for-a-home-gym';
+import RubberFlooringForGaragesContent from '@/lib/content/blog/rubber-flooring-for-garages';
+import VctMaintenanceStrippingAndWaxingContent from '@/lib/content/blog/vct-maintenance-stripping-and-waxing';
+import VctVsLvtFlooringContent from '@/lib/content/blog/vct-vs-lvt-flooring';
+import WhatIsCorkFlooringContent from '@/lib/content/blog/what-is-cork-flooring';
+import WhatIsVctFlooringContent from '@/lib/content/blog/what-is-vct-flooring';
 
 const CONTENT_MAP: Record<string, React.FC> = {
   'lvp-vs-engineered-hardwood': LvpVsEngineeredHardwoodContent,
@@ -67,6 +97,36 @@ const CONTENT_MAP: Record<string, React.FC> = {
   'best-flooring-for-new-construction': BestFlooringForNewConstructionContent,
   'best-flooring-for-schools': BestFlooringForSchoolsContent,
   'best-flooring-for-craft-room': BestFlooringForCraftRoomContent,
+  'bathroom-floor-tile-ideas': BathroomFloorTileIdeasContent,
+  'best-tile-for-outdoor-patios-and-pools': BestTileForOutdoorPatiosAndPoolsContent,
+  'can-laminate-flooring-be-repaired': CanLaminateFlooringBeRepairedContent,
+  'carpet-padding-guide': CarpetPaddingGuideContent,
+  'cork-flooring-maintenance-and-cleaning': CorkFlooringMaintenanceAndCleaningContent,
+  'flooring-for-rental-properties': FlooringForRentalPropertiesContent,
+  'hardwood-floor-water-damage': HardwoodFloorWaterDamageContent,
+  'how-much-does-hardwood-flooring-cost': HowMuchDoesHardwoodFlooringCostContent,
+  'how-much-does-laminate-flooring-cost': HowMuchDoesLaminateFlooringCostContent,
+  'how-much-does-tile-flooring-cost': HowMuchDoesTileFlooringCostContent,
+  'how-to-clean-and-reseal-grout-lines': HowToCleanAndResealGroutLinesContent,
+  'how-to-clean-hardwood-floors': HowToCleanHardwoodFloorsContent,
+  'how-to-clean-laminate-wood-floors': HowToCleanLaminateWoodFloorsContent,
+  'how-to-fix-a-sagging-or-squeaky-hardwood-floor': HowToFixASaggingOrSqueakyHardwoodFloorContent,
+  'how-to-fix-scratches-and-dents-in-vinyl-plank': HowToFixScratchesAndDentsInVinylPlankContent,
+  'how-to-remove-carpet-stains': HowToRemoveCarpetStainsContent,
+  'is-cork-flooring-good-for-kitchens': IsCorkFlooringGoodForKitchensContent,
+  'is-laminate-flooring-waterproof': IsLaminateFlooringWaterproofContent,
+  'is-vinyl-plank-flooring-good-for-basements': IsVinylPlankFlooringGoodForBasementsContent,
+  'janka-hardness-chart-for-hardwood-flooring': JankaHardnessChartForHardwoodFlooringContent,
+  'lvp-vs-lvt-flooring': LvpVsLvtFlooringContent,
+  'porcelain-vs-ceramic-tile': PorcelainVsCeramicTileContent,
+  'prefinished-vs-site-finished-hardwood': PrefinishedVsSiteFinishedHardwoodContent,
+  'rigid-core-vs-wpc-vinyl-plank': RigidCoreVsWpcVinylPlankContent,
+  'rubber-flooring-for-a-home-gym': RubberFlooringForAHomeGymContent,
+  'rubber-flooring-for-garages': RubberFlooringForGaragesContent,
+  'vct-maintenance-stripping-and-waxing': VctMaintenanceStrippingAndWaxingContent,
+  'vct-vs-lvt-flooring': VctVsLvtFlooringContent,
+  'what-is-cork-flooring': WhatIsCorkFlooringContent,
+  'what-is-vct-flooring': WhatIsVctFlooringContent,
 };
 
 type Params = { params: Promise<{ slug: string }> };
