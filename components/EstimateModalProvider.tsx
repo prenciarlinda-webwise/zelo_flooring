@@ -3,13 +3,22 @@
 import { createContext, useContext, useEffect, useState, ReactNode } from 'react';
 import EstimateModal from './EstimateModal';
 
+// 'manual' = visitor clicked a "Request a free estimate" link. 'wander' = auto-triggered by
+// WanderingEstimatePopup after the dwell delay. EstimateModal reads this to pick its copy.
+export type EstimateModalSource = 'manual' | 'wander';
+
 type EstimateModalContextValue = {
   isOpen: boolean;
-  open: () => void;
+  source: EstimateModalSource;
+  open: (source?: EstimateModalSource) => void;
   close: () => void;
 };
 
 const EstimateModalContext = createContext<EstimateModalContextValue | null>(null);
+
+// Read by WanderingEstimatePopup so the auto-trigger never fires on top of (or right after)
+// a modal the visitor already opened themselves this session, manually or via the timer.
+export const ESTIMATE_MODAL_SHOWN_KEY = 'estimate_modal_shown';
 
 // Any "Request a free in-home estimate" link site-wide (blog posts, service pages, location
 // pages) calls this to open the popup form instead of navigating to /free-estimate.
@@ -21,7 +30,12 @@ export function useEstimateModal() {
 
 export default function EstimateModalProvider({ children }: { children: ReactNode }) {
   const [isOpen, setIsOpen] = useState(false);
-  const open = () => setIsOpen(true);
+  const [source, setSource] = useState<EstimateModalSource>('manual');
+  const open = (nextSource: EstimateModalSource = 'manual') => {
+    sessionStorage.setItem(ESTIMATE_MODAL_SHOWN_KEY, '1');
+    setSource(nextSource);
+    setIsOpen(true);
+  };
   const close = () => setIsOpen(false);
 
   useEffect(() => {
@@ -39,7 +53,7 @@ export default function EstimateModalProvider({ children }: { children: ReactNod
   }, [isOpen]);
 
   return (
-    <EstimateModalContext.Provider value={{ isOpen, open, close }}>
+    <EstimateModalContext.Provider value={{ isOpen, source, open, close }}>
       {children}
       <EstimateModal />
     </EstimateModalContext.Provider>

@@ -7,6 +7,7 @@ import Footer from '@/components/Footer';
 import WhatsAppButton from '@/components/WhatsAppButton';
 import AnalyticsListener from '@/components/AnalyticsListener';
 import EstimateModalProvider from '@/components/EstimateModalProvider';
+import WanderingEstimatePopup from '@/components/WanderingEstimatePopup';
 import { SITE, SERVICE_AREAS } from '@/lib/areas';
 import { SERVICES } from '@/lib/services';
 
@@ -238,6 +239,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         </noscript>
         <AnalyticsListener />
         <EstimateModalProvider>
+          <WanderingEstimatePopup />
           <Header />
           <TrustStrip />
           <main>{children}</main>

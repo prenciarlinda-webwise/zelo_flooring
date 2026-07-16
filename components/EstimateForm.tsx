@@ -95,17 +95,21 @@ export default function EstimateForm({ formId = 'lead_form_hero', defaultProject
       <input type="hidden" name="_subject" value="New Free Quote Request - Zelo Flooring" />
       <input type="hidden" name="_template" value="table" />
 
-      <input type="text" name="name" placeholder="Your Name *" required autoComplete="name" />
-      <input type="tel" name="phone" placeholder="Phone *" required autoComplete="tel" />
-      <input type="email" name="email" placeholder="Email *" required autoComplete="email" />
+      <div className="form-row">
+        <input type="text" name="name" placeholder="Your Name *" required autoComplete="name" />
+        <input type="tel" name="phone" placeholder="Phone *" required autoComplete="tel" />
+      </div>
 
-      <select name="neighborhood" required defaultValue="">
-        <option value="" disabled>Neighborhood / City *</option>
-        {SERVICE_AREAS.map((a) => (
-          <option key={a.name} value={a.name}>{a.name}</option>
-        ))}
-        <option value="other">Other San Diego County</option>
-      </select>
+      <div className="form-row">
+        <input type="email" name="email" placeholder="Email *" required autoComplete="email" />
+        <select name="neighborhood" required defaultValue="">
+          <option value="" disabled>Neighborhood / City *</option>
+          {SERVICE_AREAS.map((a) => (
+            <option key={a.name} value={a.name}>{a.name}</option>
+          ))}
+          <option value="other">Other San Diego County</option>
+        </select>
+      </div>
 
       <select name="projectType" required defaultValue={defaultProjectType || ''}>
         <option value="" disabled>Project Type / Sq Ft *</option>
