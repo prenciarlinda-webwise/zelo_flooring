@@ -395,7 +395,6 @@ export default function BestCarpetForLivingRoomContent() {
           { slug: 'low-pile-vs-high-pile-carpet', title: 'Low Pile vs High Pile Carpet', excerpt: 'Which carpet pile is right for each room.' },
           { slug: 'polyester-vs-nylon-carpet', title: 'Polyester vs Nylon Carpet', excerpt: 'A head-to-head comparison of the two most popular carpet fibers.' },
           { slug: 'cost-to-install-carpet', title: 'Cost to Install Carpet', excerpt: 'Real pricing for carpet installation by room and square footage.' },
-          { slug: 'carpet-padding-guide', title: 'Carpet Padding Guide, Thickness and Density Explained', excerpt: 'Explains the difference between pad density and carpet fiber density, plus when to upgrade to a moisture-barrier pad for pets.' },
         ]}
       />
 

@@ -491,7 +491,6 @@ export default function CarpetInstallationCostContent() {
           { slug: 'low-pile-vs-high-pile-carpet', title: 'Low Pile vs High Pile Carpet', excerpt: 'Which carpet pile fits your rooms and traffic.' },
           { slug: 'best-carpet-for-living-room', title: 'Best Carpet for Living Room', excerpt: 'How to pick the right fiber, style, and color.' },
           { slug: 'best-flooring-for-pets', title: 'Best Flooring for Homes With Pets', excerpt: 'Scratch-proof and waterproof options compared.' },
-          { slug: 'carpet-padding-guide', title: 'Carpet Padding Guide, Thickness and Density Explained', excerpt: "A deeper dive on carpet pad thickness and density, including why the wrong pad can void your carpet's warranty." },
         ]}
       />
 

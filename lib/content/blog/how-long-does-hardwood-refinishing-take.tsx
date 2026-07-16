@@ -155,11 +155,6 @@ export default function HowLongDoesHardwoodRefinishingTakeContent() {
           { slug: 'engineered-vs-solid-hardwood', title: 'Engineered vs Solid Hardwood', excerpt: 'Which hardwood fits your subfloor and whether it can be refinished.' },
           { slug: 'lvp-vs-hardwood', title: 'LVP vs Hardwood Flooring', excerpt: 'Cost, durability, and water resistance compared.' },
           { slug: 'laminate-over-existing-floors', title: 'Can You Install Laminate Over Existing Floors?', excerpt: 'When to float a new floor over hardwood instead of refinishing.' },
-          { slug: 'how-to-clean-hardwood-floors', title: 'How to Clean Hardwood Floors the Right Way', excerpt: 'A companion guide on the right way to clean hardwood day to day, including whether Pine-Sol and other common household cleaners are actually safe to use.' },
-          { slug: 'cork-flooring-maintenance-and-cleaning', title: 'Cork Flooring Maintenance and Cleaning Guide', excerpt: "A companion maintenance guide explaining why cork's thin wear layer only tolerates one or two refinish cycles, unlike hardwood, plus the full cork cleaning and resealing schedule." },
-          { slug: 'how-much-does-hardwood-flooring-cost', title: 'How Much Does Hardwood Flooring Cost in 2026?', excerpt: 'Full 2026 hardwood flooring cost breakdown, including when refinishing your existing floor costs far less than replacing it.' },
-          { slug: 'how-to-fix-a-sagging-or-squeaky-hardwood-floor', title: 'How to Fix a Sagging or Squeaky Hardwood Floor', excerpt: 'Explains why a sagging or squeaky floor has to be structurally repaired before any refinishing timeline can start.' },
-          { slug: 'hardwood-floor-water-damage', title: 'Hardwood Floor Water Damage, Can It Be Saved?', excerpt: 'A water-damaged floor that dries successfully often still needs a sand and refinish, so this refinishing timeline post should link forward to the water-damage triage guide for readers dealing with cupping or staining before they refinish.' },
         ]}
       />
 

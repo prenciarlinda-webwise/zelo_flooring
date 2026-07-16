@@ -109,9 +109,6 @@ export default function TypesOfHardwoodFlooringContent() {
       <RelatedBlogPosts
         posts={[
           { slug: 'engineered-vs-solid-hardwood', title: 'Engineered vs Solid Hardwood', excerpt: 'Which construction fits your subfloor and home.' },
-          { slug: 'how-to-clean-hardwood-floors', title: 'How to Clean Hardwood Floors the Right Way', excerpt: 'The correct cleaning routine and safe cleaners for hardwood floors, plus why Pine-Sol and similar household cleaners are not recommended on polyurethane finish.' },
-          { slug: 'janka-hardness-chart-for-hardwood-flooring', title: 'Janka Hardness Chart, Which Wood Species Is Toughest?', excerpt: 'A full Janka hardness chart ranking hickory, oak, maple, and walnut, plus what the rating actually predicts for dents, scratches, and durability.' },
-          { slug: 'prefinished-vs-site-finished-hardwood', title: 'Prefinished vs Site-Finished Hardwood, Which Is Better?', excerpt: 'A deeper comparison of prefinished versus site-finished hardwood, covering durability, cost, timeline, and which is better for whole-home versus single-room jobs.' },
         ]}
       />
 

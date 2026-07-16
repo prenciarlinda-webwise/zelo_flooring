@@ -324,7 +324,6 @@ export default function LvpVsHardwoodContent() {
           { slug: 'lvp-vs-engineered-hardwood', title: 'LVP vs Engineered Hardwood', excerpt: 'How LVP compares to real engineered wood.' },
           { slug: 'engineered-vs-solid-hardwood', title: 'Engineered vs Solid Hardwood', excerpt: 'Which type of hardwood is right for your home and subfloor.' },
           { slug: 'vinyl-plank-flooring-cost', title: 'Vinyl Plank Flooring Cost', excerpt: 'Full cost breakdown for LVP installation by room and quality.' },
-          { slug: 'is-vinyl-plank-flooring-good-for-basements', title: 'Is Vinyl Plank Flooring Good for Basements?', excerpt: 'See why vinyl plank handles below-grade moisture that hardwood cannot, including a full breakdown of vapor barriers and floating vs glue-down installation for basements.' },
         ]}
       />
 

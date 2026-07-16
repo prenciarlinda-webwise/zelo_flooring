@@ -139,7 +139,6 @@ export default function HowToInstallVinylPlankFlooringContent() {
           { slug: 'vinyl-plank-flooring-cost', title: 'Vinyl Plank Flooring Cost (2026)', excerpt: 'What LVP costs installed, by type, room, and labor.' },
           { slug: 'vinyl-vs-laminate-flooring', title: 'Vinyl vs Laminate Flooring', excerpt: 'Which floating floor is right for each room.' },
           { slug: 'laminate-over-existing-floors', title: 'Can You Install Over Existing Floors?', excerpt: 'When you can float over tile, vinyl, or wood.' },
-          { slug: 'how-to-fix-scratches-and-dents-in-vinyl-plank', title: 'How to Fix Scratches and Dents in Vinyl Plank Flooring', excerpt: 'How to repair scratched or dented vinyl plank yourself, including single-plank replacement for both click-lock and glue-down installs.' },
         ]}
       />
 

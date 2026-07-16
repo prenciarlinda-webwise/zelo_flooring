@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { RelatedServices, RelatedBlogPosts } from '@/components/RelatedCards';
+import { RelatedServices } from '@/components/RelatedCards';
 import EstimateModalLink from '@/components/EstimateModalLink';
 
 export default function TileVsVinylFlooringContent() {
@@ -118,15 +118,6 @@ export default function TileVsVinylFlooringContent() {
       </p>
 
       <RelatedServices exclude="tile-flooring-san-diego" limit={3} />
-
-      <RelatedBlogPosts
-        posts={[
-          { slug: 'how-much-does-tile-flooring-cost', title: 'How Much Does Tile Flooring Cost in 2026?', excerpt: 'A detailed 2026 cost guide covering tile pricing by material type, room, and installation pattern for readers deciding between tile and vinyl.' },
-          { slug: 'porcelain-vs-ceramic-tile', title: 'Porcelain vs Ceramic Tile, What Is the Difference?', excerpt: 'A deeper look at porcelain versus ceramic tile specifically, for readers who already chose tile over vinyl and now need to pick a tile type.' },
-          { slug: 'bathroom-floor-tile-ideas', title: 'Bathroom Floor Tile Ideas by Style and Budget', excerpt: 'A style-focused breakdown of bathroom tile ideas by budget tier, useful for readers comparing tile against vinyl who want to see what tile actually looks like installed.' },
-          { slug: 'lvp-vs-lvt-flooring', title: 'LVP vs LVT, What Is the Actual Difference?', excerpt: 'A companion piece that clarifies the LVT tile-format option within luxury vinyl, for readers comparing real tile against vinyl tile look-alikes.' },
-        ]}
-      />
 
       <div className="callout-box info">
         <strong>Choosing between tile and vinyl?</strong>

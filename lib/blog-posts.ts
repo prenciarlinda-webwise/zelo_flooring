@@ -882,6 +882,8 @@ const BUILD_TODAY = new Date().toISOString().slice(0, 10);
 export const isBlogPostLive = (p: BlogPost, asOf: string = BUILD_TODAY) =>
   PUBLISHED_BLOG_SLUGS.includes(p.slug) && p.datePublishedISO.slice(0, 10) <= asOf;
 
-export const PUBLISHED_BLOG_POSTS = BLOG_POSTS.filter((p) => isBlogPostLive(p));
+export const PUBLISHED_BLOG_POSTS = BLOG_POSTS.filter((p) => isBlogPostLive(p)).sort((a, b) =>
+  b.datePublishedISO.localeCompare(a.datePublishedISO)
+);
 
 export const getBlogPost = (slug: string) => BLOG_POSTS.find((p) => p.slug === slug);

@@ -163,7 +163,6 @@ export default function HowToChooseAFlooringCompanyContent() {
           { slug: 'best-flooring-for-san-diego-homes', title: 'Best Flooring for San Diego Homes', excerpt: 'Best picks by goal, area, room, and budget for San Diego homeowners.' },
           { slug: 'cost-to-install-carpet', title: 'How Much Carpet Installation Costs in 2026', excerpt: 'Full cost breakdown by fiber, brand, pad, and room size.' },
           { slug: 'vinyl-plank-flooring-cost', title: 'How Much Vinyl Plank Flooring Costs in 2026', excerpt: 'LVP cost breakdown by product type, room size, and labor.' },
-          { slug: 'rubber-flooring-for-a-home-gym', title: 'Best Rubber Flooring Options for a Home Gym', excerpt: 'A specialty-flooring case study readers can reference when vetting installers for a home gym rubber floor specifically, covering thickness, smell, and slab prep.' },
         ]}
       />
 

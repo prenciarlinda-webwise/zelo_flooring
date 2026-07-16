@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { RelatedServices, RelatedBlogPosts } from '@/components/RelatedCards';
+import { RelatedServices } from '@/components/RelatedCards';
 import EstimateModalLink from '@/components/EstimateModalLink';
 
 export default function BathroomFlooringInstallationContent() {
@@ -205,15 +205,6 @@ export default function BathroomFlooringInstallationContent() {
 
       {/* RELATED */}
       <RelatedServices limit={4} />
-
-      <RelatedBlogPosts
-        posts={[
-          { slug: 'bathroom-floor-tile-ideas', title: 'Bathroom Floor Tile Ideas by Style and Budget', excerpt: 'A companion design guide covering large-format porcelain, wood-look plank, mosaic shower pans, and small-bathroom color strategy for readers ready to move from install process to tile style.' },
-          { slug: 'how-much-does-tile-flooring-cost', title: 'How Much Does Tile Flooring Cost in 2026?', excerpt: 'A full 2026 tile cost breakdown by porcelain, ceramic, and natural stone, plus substrate prep and waterproofing add-on pricing.' },
-          { slug: 'porcelain-vs-ceramic-tile', title: 'Porcelain vs Ceramic Tile, What Is the Difference?', excerpt: 'A material comparison explaining exactly when to choose porcelain over ceramic tile, useful context for readers weighing tile options for a bathroom floor.' },
-          { slug: 'how-to-clean-and-reseal-grout-lines', title: 'How to Clean and Reseal Grout Lines', excerpt: 'A step-by-step guide to cleaning grout, choosing sanded versus unsanded grout, and knowing when a bathroom floor needs regrouting instead of another cleaning.' },
-        ]}
-      />
 
       <div className="callout-box info">
         <strong>Planning a bathroom remodel?</strong>

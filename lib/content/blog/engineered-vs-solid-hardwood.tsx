@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { RelatedServices, RelatedBlogPosts } from '@/components/RelatedCards';
+import { RelatedServices } from '@/components/RelatedCards';
 import EstimateModalLink from '@/components/EstimateModalLink';
 
 export default function EngineeredVsSolidHardwoodContent() {
@@ -334,15 +334,6 @@ export default function EngineeredVsSolidHardwoodContent() {
 
       {/* RELATED */}
       <RelatedServices exclude="hardwood-flooring-san-diego" limit={3} />
-
-      <RelatedBlogPosts
-        posts={[
-          { slug: 'how-much-does-hardwood-flooring-cost', title: 'How Much Does Hardwood Flooring Cost in 2026?', excerpt: 'See exact 2026 pricing for solid and engineered hardwood, broken down by species, room, and labor vs materials.' },
-          { slug: 'how-to-fix-a-sagging-or-squeaky-hardwood-floor', title: 'How to Fix a Sagging or Squeaky Hardwood Floor', excerpt: 'Covers how to spot and fix a sagging or squeaky hardwood floor caused by weakened joists, damaged subfloor panels, or a settled foundation.' },
-          { slug: 'hardwood-floor-water-damage', title: 'Hardwood Floor Water Damage, Can It Be Saved?', excerpt: "Solid vs engineered hardwood's different tolerance for moisture and drying is central to whether a water-damaged floor can be saved, so this comparison post should link to the water-damage triage guide for readers facing an active leak or flood." },
-          { slug: 'prefinished-vs-site-finished-hardwood', title: 'Prefinished vs Site-Finished Hardwood, Which Is Better?', excerpt: 'For readers who have already picked engineered or solid, a follow-up comparing prefinished versus site-finished to help choose the finish method next.' },
-        ]}
-      />
 
       <div className="callout-box info">
         <strong>Want to see the difference in person?</strong>

@@ -169,9 +169,6 @@ export default function LaminateFlooringThicknessContent() {
       <RelatedBlogPosts
         posts={[
           { slug: 'laminate-over-existing-floors', title: 'Can You Install Laminate Over Existing Floors?', excerpt: 'Surface-by-surface guide to floating laminate over tile, vinyl, and more.' },
-          { slug: 'is-laminate-flooring-waterproof', title: 'Is Laminate Flooring Actually Waterproof?', excerpt: 'A companion piece explaining that laminate thickness and AC wear rating are separate from water resistance, so a thick plank is not automatically waterproof.' },
-          { slug: 'how-much-does-laminate-flooring-cost', title: 'How Much Does Laminate Flooring Cost in 2026?', excerpt: 'See exactly how much laminate flooring costs in 2026, broken down by AC rating, thickness, waterproof construction, and room size.' },
-          { slug: 'can-laminate-flooring-be-repaired', title: 'Can Laminate Flooring Be Repaired?', excerpt: 'Thicker laminate with a deeper wear layer resists scratches and dents better in the first place, which is worth knowing before deciding to repair or replace.' },
         ]}
       />
 

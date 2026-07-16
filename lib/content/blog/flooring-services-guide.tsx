@@ -229,8 +229,6 @@ export default function FlooringServicesGuideContent() {
         posts={[
           { slug: 'vinyl-plank-flooring-cost', title: 'How Much Vinyl Plank Flooring Costs in 2026', excerpt: 'LVP pricing by product type, room size, and what affects your quote.' },
           { slug: 'best-flooring-for-san-diego-homes', title: 'Best Flooring for San Diego Homes', excerpt: 'Best picks by goal, room, and budget for local slab and coastal conditions.' },
-          { slug: 'what-is-vct-flooring', title: 'What Is VCT (Vinyl Composition Tile) Flooring?', excerpt: 'A deep dive on VCT, one of the service options covered in the guide, explaining its composition, cost per square foot, and the asbestos question with older tile.' },
-          { slug: 'vct-maintenance-stripping-and-waxing', title: 'VCT Maintenance, Stripping and Waxing Explained', excerpt: 'Goes deep on the ongoing stripping and waxing VCT needs after installation, with a full cost and frequency breakdown by traffic level.' },
         ]}
       />
 

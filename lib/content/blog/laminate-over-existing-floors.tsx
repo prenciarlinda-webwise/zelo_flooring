@@ -172,9 +172,6 @@ export default function LaminateOverExistingFloorsContent() {
       <RelatedBlogPosts
         posts={[
           { slug: 'engineered-vs-solid-hardwood', title: 'Engineered vs Solid Hardwood', excerpt: 'Which hardwood fits your subfloor and home.' },
-          { slug: 'how-to-clean-laminate-wood-floors', title: 'How to Clean Laminate Wood Floors', excerpt: 'Once your laminate is installed, this cleaning and maintenance guide covers the daily sweeping, weekly damp mopping, and spill-response routine that keeps it looking new.' },
-          { slug: 'how-much-does-laminate-flooring-cost', title: 'How Much Does Laminate Flooring Cost in 2026?', excerpt: 'Get the full 2026 laminate flooring cost breakdown, including how much installing over an existing floor can save versus a full tear-out.' },
-          { slug: 'can-laminate-flooring-be-repaired', title: 'Can Laminate Flooring Be Repaired?', excerpt: 'If your existing laminate is damaged beyond repair, this companion post covers whether new laminate can go over what is left or if a full tear-out is needed first.' },
         ]}
       />
 

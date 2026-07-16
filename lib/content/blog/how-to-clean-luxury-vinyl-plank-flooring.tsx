@@ -117,8 +117,6 @@ export default function HowToCleanLuxuryVinylPlankFlooringContent() {
         posts={[
           { slug: 'how-to-install-vinyl-plank-flooring', title: 'How to Install Vinyl Plank Flooring', excerpt: 'Step-by-step click-lock install and common mistakes.' },
           { slug: 'vinyl-vs-laminate-flooring', title: 'Vinyl vs Laminate Flooring', excerpt: 'Which floating floor is right for each room.' },
-          { slug: 'how-to-clean-laminate-wood-floors', title: 'How to Clean Laminate Wood Floors', excerpt: 'A parallel cleaning guide for laminate wood floors covering sweeping, damp mopping, what to avoid (steam mops, wax, oil soap, wet mopping), and fast spill response.' },
-          { slug: 'how-to-fix-scratches-and-dents-in-vinyl-plank', title: 'How to Fix Scratches and Dents in Vinyl Plank Flooring', excerpt: 'A step-by-step guide to fixing scratches, dents, and gouges in vinyl plank, plus when a repair kit works and when a plank needs to be replaced.' },
         ]}
       />
 

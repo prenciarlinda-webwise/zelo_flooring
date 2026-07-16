@@ -339,9 +339,6 @@ export default function VinylPlankFlooringCostContent() {
       <RelatedBlogPosts
         posts={[
           { slug: 'lvp-vs-hardwood', title: 'LVP vs Hardwood Flooring', excerpt: 'Full comparison of luxury vinyl plank and hardwood for every room.' },
-          { slug: 'lvp-vs-lvt-flooring', title: 'LVP vs LVT, What Is the Actual Difference?', excerpt: 'Explains how grout-strip LVT and pattern layouts (herringbone, diagonal) affect installed cost beyond the base per-square-foot vinyl pricing covered in the cost guide.' },
-          { slug: 'rigid-core-vs-wpc-vinyl-plank', title: 'Rigid Core vs WPC Vinyl Plank, Which Should You Choose?', excerpt: 'A deeper breakdown of why WPC costs more than SPC per square foot, with room-by-room and brand pricing to back up the cost table.' },
-          { slug: 'is-vinyl-plank-flooring-good-for-basements', title: 'Is Vinyl Plank Flooring Good for Basements?', excerpt: 'Get basement-specific installed pricing for vinyl plank, including vapor barrier and moisture mitigation add-on costs not covered in the general cost guide.' },
         ]}
       />
 

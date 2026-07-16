@@ -132,8 +132,6 @@ export default function VinylVsLaminateFlooringContent() {
         posts={[
           { slug: 'laminate-flooring-thickness', title: 'Laminate Thickness and Wear Layers', excerpt: 'mm thickness vs the AC rating that controls durability.' },
           { slug: 'vinyl-plank-flooring-cost', title: 'Vinyl Plank Flooring Cost (2026)', excerpt: 'LVP pricing by type, room, and labor.' },
-          { slug: 'is-laminate-flooring-waterproof', title: 'Is Laminate Flooring Actually Waterproof?', excerpt: 'A direct comparison post where readers deciding between vinyl and laminate can get the deeper water-resistance breakdown that settles the tie.' },
-          { slug: 'flooring-for-rental-properties', title: 'Best Flooring for Rental Properties and Investments', excerpt: 'A landlord-focused breakdown of when rigid-core LVP versus laminate makes more sense specifically for rental units, plus where carpet and VCT still fit.' },
         ]}
       />
 

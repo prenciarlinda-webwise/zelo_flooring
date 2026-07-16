@@ -321,7 +321,6 @@ export default function PolyesterVsNylonCarpetContent() {
           { slug: 'best-carpet-for-living-room', title: 'Best Carpet for Living Room', excerpt: 'How to pick the right fiber, style, and color for your living room.' },
           { slug: 'best-flooring-for-pets', title: 'Best Flooring for Homes With Pets', excerpt: 'Scratch-proof and waterproof options compared for dog and cat owners.' },
           { slug: 'cost-to-install-carpet', title: 'Cost to Install Carpet', excerpt: 'Real pricing for carpet installation by room and square footage.' },
-          { slug: 'how-to-remove-carpet-stains', title: 'How to Remove Carpet Stains, a Room-by-Room Guide', excerpt: 'A room-by-room stain removal guide, including why nylon absorbs wine and juice differently than polyester, and how to get pet stains and odor out for good.' },
         ]}
       />
 

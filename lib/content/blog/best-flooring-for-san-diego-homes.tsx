@@ -149,7 +149,6 @@ export default function BestFlooringForSanDiegoHomesContent() {
           { slug: 'lvp-vs-hardwood', title: 'LVP vs Hardwood Flooring', excerpt: 'Cost, durability, and water resistance compared.' },
           { slug: 'best-flooring-for-pets', title: 'Best Flooring for Homes With Pets', excerpt: 'Scratch-proof and waterproof options for dogs and cats.' },
           { slug: 'vinyl-plank-flooring-cost', title: 'Vinyl Plank Flooring Cost (2026)', excerpt: 'LVP pricing by type, room, and labor.' },
-          { slug: 'rigid-core-vs-wpc-vinyl-plank', title: 'Rigid Core vs WPC Vinyl Plank, Which Should You Choose?', excerpt: 'Explains exactly which core, SPC or WPC, fits a given room and subfloor, expanding on the rigid-core recommendation made here.' },
         ]}
       />
 
