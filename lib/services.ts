@@ -68,7 +68,7 @@ export const SERVICES: Service[] = [
     metaTitle: 'Carpet Installation San Diego',
     metaDescription:
       'Professional carpet installation in San Diego. Plush, berber, frieze and pet-friendly carpet from trusted brands. Free in-home estimate. Call +1 (619) 777-4334.',
-    lastUpdated: '2026-05-06',
+    lastUpdated: '2026-07-11',
     heroChip: 'San Diego, CA',
     heroTagline: 'Power-stretched. Premium pad. No shortcuts.',
     heroBullets: [
@@ -135,7 +135,7 @@ export const SERVICES: Service[] = [
     metaTitle: 'Vinyl Plank Flooring Installation San Diego',
     metaDescription:
       'Waterproof luxury vinyl plank (LVP) installation in San Diego. SPC rigid-core flooring from trusted brands. Free in-home estimates. Call +1 (619) 777-4334.',
-    lastUpdated: '2026-05-06',
+    lastUpdated: '2026-07-08',
     heroChip: 'San Diego, CA',
     heroTagline: 'Waterproof. Slab-tested. Manufacturer-spec.',
     heroBullets: [
@@ -201,7 +201,7 @@ export const SERVICES: Service[] = [
     metaTitle: 'Hardwood Flooring Installation San Diego',
     metaDescription:
       'Solid and engineered hardwood flooring installation, refinishing, and repair in San Diego. Oak, maple, hickory, walnut and more. NWFA-spec installs. Call +1 (619) 777-4334.',
-    lastUpdated: '2026-05-06',
+    lastUpdated: '2026-07-11',
     heroChip: 'San Diego, CA',
     heroTagline: 'NWFA-aligned. Refinish-first. No rushed acclimation.',
     heroBullets: [
@@ -272,7 +272,7 @@ export const SERVICES: Service[] = [
     metaTitle: 'Laminate Flooring Installation San Diego',
     metaDescription:
       'Quality laminate flooring installation in San Diego. Pergo, Mohawk RevWood and more. Affordable wood-look floors. Call +1 (619) 777-4334.',
-    lastUpdated: '2026-05-06',
+    lastUpdated: '2026-07-11',
     heroChip: 'San Diego, CA',
     heroTagline: 'Honest material advice. Clean trim work. Proper underlayment.',
     heroBullets: [
@@ -339,7 +339,7 @@ export const SERVICES: Service[] = [
     metaTitle: 'Tile Flooring Installation San Diego',
     metaDescription:
       'Porcelain, ceramic and natural stone tile installation in San Diego. Bathroom, kitchen, and entryway tile done right. Call +1 (619) 777-4334.',
-    lastUpdated: '2026-05-06',
+    lastUpdated: '2026-07-11',
     heroChip: 'San Diego, CA',
     heroTagline: 'Substrate first. Waterproofing where it matters.',
     heroBullets: [
@@ -406,7 +406,7 @@ export const SERVICES: Service[] = [
     metaTitle: 'Cork Flooring Installation San Diego',
     metaDescription:
       'Sustainable cork flooring installation in San Diego. Eco-friendly, soft, and quiet. Glue-down and floating cork. Call +1 (619) 777-4334.',
-    lastUpdated: '2026-05-06',
+    lastUpdated: '2026-07-11',
     heroChip: 'San Diego, CA',
     heroTagline: 'Niche product done right. Honest suitability advice.',
     heroBullets: [
@@ -472,7 +472,7 @@ export const SERVICES: Service[] = [
     metaTitle: 'Rubber Flooring Installation San Diego',
     metaDescription:
       'Rubber flooring for home gyms, garages, and commercial spaces in San Diego. Rolled, tile and interlocking. Call +1 (619) 777-4334.',
-    lastUpdated: '2026-05-06',
+    lastUpdated: '2026-07-11',
     heroChip: 'San Diego, CA',
     heroTagline: 'Right thickness for the job. Heat-welded seams.',
     heroBullets: [
@@ -540,7 +540,7 @@ export const SERVICES: Service[] = [
     metaTitle: 'VCT Flooring Installation San Diego',
     metaDescription:
       'Vinyl Composition Tile (VCT) commercial flooring installation in San Diego. Schools, healthcare, retail. Call +1 (619) 777-4334.',
-    lastUpdated: '2026-05-06',
+    lastUpdated: '2026-07-11',
     heroChip: 'San Diego, CA',
     heroTagline: 'Commercial volume. After-hours installs. Pattern layouts to spec.',
     heroBullets: [

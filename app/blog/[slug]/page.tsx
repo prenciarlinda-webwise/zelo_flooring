@@ -67,6 +67,12 @@ import VctMaintenanceStrippingAndWaxingContent from '@/lib/content/blog/vct-main
 import VctVsLvtFlooringContent from '@/lib/content/blog/vct-vs-lvt-flooring';
 import WhatIsCorkFlooringContent from '@/lib/content/blog/what-is-cork-flooring';
 import WhatIsVctFlooringContent from '@/lib/content/blog/what-is-vct-flooring';
+import RubberFlooringForCommercialGymsContent from '@/lib/content/blog/rubber-flooring-for-commercial-gyms';
+import DaycareFlooringRequirementsAndPlayAreaSafetyContent from '@/lib/content/blog/daycare-flooring-requirements-and-play-area-safety';
+import RubberFlooringVsVctForCommercialSpacesContent from '@/lib/content/blog/rubber-flooring-vs-vct-for-commercial-spaces';
+import HowMuchDoesRubberFlooringCostContent from '@/lib/content/blog/how-much-does-rubber-flooring-cost';
+import WhatIsRubberFlooringContent from '@/lib/content/blog/what-is-rubber-flooring';
+import RubberFlooringMaintenanceAndCleaningContent from '@/lib/content/blog/rubber-flooring-maintenance-and-cleaning';
 
 const CONTENT_MAP: Record<string, React.FC> = {
   'lvp-vs-engineered-hardwood': LvpVsEngineeredHardwoodContent,
@@ -127,6 +133,12 @@ const CONTENT_MAP: Record<string, React.FC> = {
   'vct-vs-lvt-flooring': VctVsLvtFlooringContent,
   'what-is-cork-flooring': WhatIsCorkFlooringContent,
   'what-is-vct-flooring': WhatIsVctFlooringContent,
+  'rubber-flooring-for-commercial-gyms': RubberFlooringForCommercialGymsContent,
+  'daycare-flooring-requirements-and-play-area-safety': DaycareFlooringRequirementsAndPlayAreaSafetyContent,
+  'rubber-flooring-vs-vct-for-commercial-spaces': RubberFlooringVsVctForCommercialSpacesContent,
+  'how-much-does-rubber-flooring-cost': HowMuchDoesRubberFlooringCostContent,
+  'what-is-rubber-flooring': WhatIsRubberFlooringContent,
+  'rubber-flooring-maintenance-and-cleaning': RubberFlooringMaintenanceAndCleaningContent,
 };
 
 type Params = { params: Promise<{ slug: string }> };

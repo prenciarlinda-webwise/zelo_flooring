@@ -14,7 +14,7 @@ import { CheckIcon, PinIcon } from '@/components/Icons';
 import { SERVICES, getService } from '@/lib/services';
 import { LOCATIONS, getLocation, MAIN_LOCATION } from '@/lib/locations';
 import { getServiceLocalData } from '@/lib/service-local-data';
-import { SITE } from '@/lib/areas';
+import { SITE, SERVICE_AREAS } from '@/lib/areas';
 
 type Params = { params: Promise<{ slug: string }> };
 
@@ -182,11 +182,11 @@ function renderServicePage(service: ReturnType<typeof getService>) {
     url: `${SITE.url}/${service.slug}`,
     image: `${SITE.url}${service.image}`,
     provider: { '@id': `${SITE.url}/#business` },
-    areaServed: {
+    areaServed: SERVICE_AREAS.map((area) => ({
       '@type': 'City',
-      name: SITE.city,
-      containedInPlace: { '@type': 'AdministrativeArea', name: MAIN_LOCATION.county },
-    },
+      name: area.name,
+      '@id': area.wikipediaUrl,
+    })),
     serviceType: service.shortName + ' Flooring Installation',
     category: `${service.shortName} Flooring`,
     aggregateRating: {
@@ -196,6 +196,12 @@ function renderServicePage(service: ReturnType<typeof getService>) {
       bestRating: 5,
       worstRating: 1,
     },
+    review: service.reviews.map((r) => ({
+      '@type': 'Review',
+      author: { '@type': 'Person', name: r.name },
+      reviewBody: r.quote,
+      ...(r.datePublished ? { datePublished: r.datePublished } : {}),
+    })),
   };
 
   const faqSchema = {
@@ -212,6 +218,7 @@ function renderServicePage(service: ReturnType<typeof getService>) {
     '@context': 'https://schema.org',
     '@type': 'WebPage',
     '@id': `${SITE.url}/${service.slug}/#webpage`,
+    dateModified: service.lastUpdated,
     speakable: {
       '@type': 'SpeakableSpecification',
       cssSelector: ['.aeo-answer-text', '.aeo-keyfacts', '.faq-list .faq-q', '.faq-list .faq-body'],

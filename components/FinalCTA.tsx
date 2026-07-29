@@ -1,13 +1,6 @@
-'use client';
-
-import { FormEvent, useRef, useState } from 'react';
 import { PhoneIcon, PinIcon, ClockIcon } from './Icons';
-import Recaptcha, { RecaptchaHandle } from './Recaptcha';
-import FormSuccess from './FormSuccess';
-import { SITE, SERVICE_AREAS } from '@/lib/areas';
-import { postToFormspree } from '@/lib/formspree';
-import { track } from '@/lib/track';
-
+import SendAJobEmbed from './SendAJobEmbed';
+import { SITE } from '@/lib/areas';
 
 type Props = {
   heading?: string;
@@ -16,68 +9,8 @@ type Props = {
   headingAs?: 'h2' | 'h3';
 };
 
-const PROJECT_TYPES = [
-  'Carpet',
-  'Luxury Vinyl Plank',
-  'Hardwood',
-  'Laminate',
-  'Tile',
-  'Cork',
-  'Rubber',
-  'VCT (Commercial)',
-  'Refinishing',
-  'Not sure yet',
-];
-
-export default function FinalCTA({ heading, subheading, defaultProjectType, headingAs = 'h2' }: Props) {
+export default function FinalCTA({ heading, subheading, headingAs = 'h2' }: Props) {
   const HeadingTag = headingAs;
-  const [submitted, setSubmitted] = useState(false);
-  const [sending, setSending] = useState(false);
-  const [errored, setErrored] = useState(false);
-  const [captchaError, setCaptchaError] = useState(false);
-  const [submittedArea, setSubmittedArea] = useState('');
-  const captchaRef = useRef<RecaptchaHandle>(null);
-
-  const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
-    e.preventDefault();
-    setErrored(false);
-    setCaptchaError(false);
-    const form = e.currentTarget;
-    const formData = new FormData(form);
-
-    const captchaToken = captchaRef.current?.getResponse() || '';
-    if (!captchaToken) {
-      setCaptchaError(true);
-      return;
-    }
-    // Set the canonical field name explicitly: with multiple widgets on a page,
-    // reCAPTCHA may name the auto-injected field g-recaptcha-response-1, etc.
-    formData.set('g-recaptcha-response', captchaToken);
-
-    setSending(true);
-    try {
-      await postToFormspree('https://formspree.io/f/mbdbaqqy', formData);
-      track('lead_form_submit', {
-        form_id: 'final_cta',
-        project_type: formData.get('projectType'),
-        neighborhood: formData.get('neighborhood'),
-      });
-      setSubmittedArea(String(formData.get('neighborhood') || ''));
-      setSubmitted(true);
-      form.reset();
-      captchaRef.current?.reset();
-    } catch (err) {
-      console.error('Form submission failed:', err);
-      track('lead_form_error', {
-        form_id: 'final_cta',
-        error_message: err instanceof Error ? err.message : String(err),
-      });
-      setErrored(true);
-      captchaRef.current?.reset();
-    } finally {
-      setSending(false);
-    }
-  };
 
   return (
     <section className="final-cta-section">
@@ -96,59 +29,9 @@ export default function FinalCTA({ heading, subheading, defaultProjectType, head
           </div>
         </div>
 
-        {submitted ? (
-          <div className="final-cta-form">
-            <FormSuccess area={submittedArea} />
-          </div>
-        ) : (
-        <form
-          className="final-cta-form"
-          method="post"
-          action="https://formspree.io/f/mbdbaqqy"
-          onSubmit={handleSubmit}
-        >
-          <p className="final-cta-form-title">Request Free Estimate</p>
-          <p className="final-cta-form-sub">We respond within 1 business day.</p>
-
-          <input type="hidden" name="_subject" value="New Free Estimate Request - Zelo Flooring" />
-
-          <input type="text" name="name" placeholder="Your Name *" required autoComplete="name" />
-          <input type="tel" name="phone" placeholder="Phone *" required autoComplete="tel" />
-          <input type="email" name="email" placeholder="Email *" required autoComplete="email" />
-
-          <select name="neighborhood" required defaultValue="">
-            <option value="" disabled>Neighborhood / City *</option>
-            {SERVICE_AREAS.map((a) => (
-              <option key={a.name} value={a.name}>{a.name}</option>
-            ))}
-            <option value="other">Other San Diego County</option>
-          </select>
-
-          <select name="projectType" required defaultValue={defaultProjectType || ''}>
-            <option value="" disabled>Project Type / Sq Ft *</option>
-            {PROJECT_TYPES.map((p) => (
-              <option key={p} value={p}>{p}</option>
-            ))}
-          </select>
-
-          <Recaptcha ref={captchaRef} className="form-recaptcha" />
-          {captchaError && (
-            <p className="final-cta-form-error" role="alert">
-              Please confirm you are not a robot before submitting.
-            </p>
-          )}
-
-          <button type="submit" className="btn btn-primary btn-block btn-lg" disabled={sending}>
-            {submitted ? '✓ Thanks, we will be in touch soon.' : sending ? 'Sending...' : 'Get My Free Estimate'}
-          </button>
-          {errored && (
-            <p className="final-cta-form-error" role="alert">
-              Something went wrong sending your request. Please call {SITE.phone} or try again.
-            </p>
-          )}
-          <p className="final-cta-form-trust">Your info is private and never shared.</p>
-        </form>
-        )}
+        <div className="final-cta-form">
+          <SendAJobEmbed title="Request Free Estimate" subtitle="We respond within 1 business day." />
+        </div>
       </div>
     </section>
   );

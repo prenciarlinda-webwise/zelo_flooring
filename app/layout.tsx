@@ -133,6 +133,13 @@ const businessGraph = {
       foundingDate: String(SITE.yearEstablished),
       ...(SITE.socials.length > 0 ? { sameAs: SITE.socials } : {}),
       ...(SITE.awards.length > 0 ? { award: SITE.awards } : {}),
+      contactPoint: {
+        '@type': 'ContactPoint',
+        telephone: SITE.phone,
+        contactType: 'customer service',
+        areaServed: 'US-CA',
+        availableLanguage: ['English'],
+      },
       aggregateRating: {
         '@type': 'AggregateRating',
         ratingValue: SITE.rating.value,
