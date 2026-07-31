@@ -73,6 +73,8 @@ import RubberFlooringVsVctForCommercialSpacesContent from '@/lib/content/blog/ru
 import HowMuchDoesRubberFlooringCostContent from '@/lib/content/blog/how-much-does-rubber-flooring-cost';
 import WhatIsRubberFlooringContent from '@/lib/content/blog/what-is-rubber-flooring';
 import RubberFlooringMaintenanceAndCleaningContent from '@/lib/content/blog/rubber-flooring-maintenance-and-cleaning';
+import RoofLeakWaterDamageToFloorsContent from '@/lib/content/blog/roof-leak-water-damage-to-floors';
+import PaintBeforeOrAfterFlooringContent from '@/lib/content/blog/paint-before-or-after-flooring';
 
 const CONTENT_MAP: Record<string, React.FC> = {
   'lvp-vs-engineered-hardwood': LvpVsEngineeredHardwoodContent,
@@ -139,6 +141,8 @@ const CONTENT_MAP: Record<string, React.FC> = {
   'how-much-does-rubber-flooring-cost': HowMuchDoesRubberFlooringCostContent,
   'what-is-rubber-flooring': WhatIsRubberFlooringContent,
   'rubber-flooring-maintenance-and-cleaning': RubberFlooringMaintenanceAndCleaningContent,
+  'roof-leak-water-damage-to-floors': RoofLeakWaterDamageToFloorsContent,
+  'paint-before-or-after-flooring': PaintBeforeOrAfterFlooringContent,
 };
 
 type Params = { params: Promise<{ slug: string }> };

@@ -885,6 +885,32 @@ export const BLOG_POSTS: BlogPost[] = [
     relatedServices: ['rubber-flooring-san-diego'],
     image: '/img/Rubber-Tiles.jpg',
   },
+  {
+    slug: 'roof-leak-water-damage-to-floors',
+    title: 'Roof Leak Water Damage to Floors, What to Fix First',
+    excerpt: 'A roof leak travels through attic insulation and drywall before reaching your floor, so the damage is often worse than it looks. How to tell a roof leak from a plumbing leak, why the roof has to be fixed first, and cost by flooring type.',
+    publishedDate: 'August 24, 2026',
+    updatedDate: 'August 24, 2026',
+    datePublishedISO: '2026-08-24',
+    dateModifiedISO: '2026-08-24',
+    metaTitle: 'Roof Leak Water Damage to Floors, What to Fix First',
+    metaDescription: 'Roof leak water damage to floors explained: how to tell it apart from a plumbing leak, why the roof must be fixed first, cost by flooring type, and insurance.',
+    relatedServices: ['hardwood-flooring-san-diego', 'vinyl-flooring-san-diego'],
+    image: '/img/projects/portfolio/zelo-project-14.webp',
+  },
+  {
+    slug: 'paint-before-or-after-flooring',
+    title: 'Should You Paint Before or After New Flooring',
+    excerpt: 'Paint the room first, install or refinish the floor second, then do baseboard touch-ups last. The one exception is hardwood refinishing, and carpet has its own timing rules.',
+    publishedDate: 'August 25, 2026',
+    updatedDate: 'August 25, 2026',
+    datePublishedISO: '2026-08-25',
+    dateModifiedISO: '2026-08-25',
+    metaTitle: 'Should You Paint Before or After New Flooring',
+    metaDescription: 'Paint before or after flooring? Paint first, flooring second, baseboard touch-ups last, with exceptions for hardwood refinishing and carpet timing explained.',
+    relatedServices: ['hardwood-flooring-san-diego', 'carpet-flooring-san-diego'],
+    image: '/img/projects/portfolio/zelo-project-18.webp',
+  },
 ];
 
 export const PUBLISHED_BLOG_SLUGS = [
@@ -952,6 +978,8 @@ export const PUBLISHED_BLOG_SLUGS = [
   'how-much-does-rubber-flooring-cost',
   'what-is-rubber-flooring',
   'rubber-flooring-maintenance-and-cleaning',
+  'roof-leak-water-damage-to-floors',
+  'paint-before-or-after-flooring',
 ];
 
 // Build-time "today" (YYYY-MM-DD). Frozen when `next build` runs, NOT at request time.
