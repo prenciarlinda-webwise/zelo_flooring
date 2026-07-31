@@ -2544,6 +2544,16 @@ a.lead-hero-trust-chip:hover {
   color: var(--gray-500);
   margin: -4px 0 6px;
 }
+.sendajob-fallback-note {
+  font-size: 0.82rem;
+  color: var(--gray-500);
+  text-align: center;
+  margin: 4px 0 0;
+}
+.sendajob-fallback-note a {
+  color: var(--terracotta);
+  font-weight: 700;
+}
 .lead-hero-form input,
 .lead-hero-form select,
 .estimate-form-plain input,
