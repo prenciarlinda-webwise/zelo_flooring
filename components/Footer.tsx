@@ -54,6 +54,8 @@ export default function Footer() {
             <li><Link href="/san-diego-flooring-faqs">FAQ</Link></li>
             <li><Link href="/blog">Blog</Link></li>
             <li><Link href="/contact">Contact</Link></li>
+            <li><Link href="/careers">Careers</Link></li>
+            <li><Link href="/professional-network">Professional Network</Link></li>
             <li><EstimateModalLink>Free Estimate</EstimateModalLink></li>
           </ul>
         </div>

@@ -60,7 +60,24 @@ export default function Header() {
           <nav className={`main-nav${open ? ' open' : ''}`}>
             <ul>
               <li><Link href="/" onClick={close}>Home</Link></li>
-              <li><Link href="/about-us" onClick={close}>About</Link></li>
+              <li className={`has-dropdown${openDropdown === 'about' ? ' dropdown-open' : ''}`}>
+                <div className="has-dropdown-row">
+                  <Link href="/about-us" onClick={close}>About</Link>
+                  <button
+                    type="button"
+                    className="caret-toggle"
+                    onClick={() => toggleDropdown('about')}
+                    aria-expanded={openDropdown === 'about'}
+                    aria-label="Toggle About submenu"
+                  >
+                    <span className="caret">▾</span>
+                  </button>
+                </div>
+                <ul className="dropdown">
+                  <li><Link href="/careers" onClick={close}>Careers</Link></li>
+                  <li><Link href="/professional-network" onClick={close}>Partners</Link></li>
+                </ul>
+              </li>
               <li className={`has-dropdown${openDropdown === 'flooring' ? ' dropdown-open' : ''}`}>
                 <div className="has-dropdown-row">
                   <Link href="/flooring-san-diego" onClick={close}>Flooring</Link>

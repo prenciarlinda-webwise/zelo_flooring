@@ -3628,3 +3628,293 @@ a.trust-badge:hover {
   margin-top: 2px;
 }
 
+/* ===== CREDENTIALS RIBBON (Careers / Professional Network pages) =====
+   Distinct from the .trust-ribbon-* rules above (review-badge row, currently unmounted) - this
+   is the plain-text license strip requested for the two new pages. */
+.credentials-ribbon {
+  background: var(--cream);
+  border-top: 1px solid var(--gray-100);
+  border-bottom: 1px solid var(--gray-100);
+  padding: 14px 0;
+}
+.credentials-ribbon-inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  text-align: center;
+  color: var(--brown);
+  font-weight: 700;
+  font-size: 0.88rem;
+}
+.credentials-ribbon-inner svg { color: var(--terracotta); flex-shrink: 0; }
+
+/* ===== LONG-FORM (Careers installer application + Professional Network partner interest) ===== */
+.long-form {
+  background: var(--white);
+  border: 1px solid var(--gray-100);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+  padding: 32px 28px;
+  max-width: 760px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.long-form-section {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding-bottom: 28px;
+  border-bottom: 1px solid var(--gray-100);
+}
+.long-form-section:last-of-type { border-bottom: none; padding-bottom: 0; }
+.long-form-section-title { font-size: 1.05rem; color: var(--brown); margin: 0; }
+.long-form-hint { font-size: 0.82rem; color: var(--gray-500); margin: -8px 0 0; }
+.long-form-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+}
+.long-form-field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 0.86rem;
+  font-weight: 600;
+  color: var(--gray-700);
+}
+.long-form-field-full { grid-column: 1 / -1; }
+.long-form-field input,
+.long-form-field select,
+.long-form-field textarea {
+  font-family: inherit;
+  font-size: 0.95rem;
+  font-weight: 400;
+  color: var(--gray-900);
+  padding: 11px 14px;
+  border: 1px solid var(--gray-300);
+  border-radius: var(--radius);
+  background: var(--white);
+}
+.long-form-field input:focus,
+.long-form-field select:focus,
+.long-form-field textarea:focus {
+  outline: none;
+  border-color: var(--terracotta);
+}
+.long-form-field textarea { resize: vertical; }
+.long-form-field select {
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath fill='%237A6E5F' d='M6 8L0 0h12z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 14px center;
+  padding-right: 36px;
+}
+.long-form-file input[type='file'] {
+  font-size: 0.86rem;
+  padding: 9px 10px;
+  border: 1px dashed var(--gray-300);
+  border-radius: var(--radius);
+  background: var(--gray-50);
+}
+
+.long-form-checkbox-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px 16px;
+}
+.long-form-checkbox-grid-narrow { grid-template-columns: 1fr; }
+.long-form-checkbox-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: var(--gray-700);
+}
+.long-form-checkbox-item input,
+.long-form-standards-item input,
+.long-form-radio-group input {
+  accent-color: var(--terracotta);
+  width: 17px;
+  height: 17px;
+  flex-shrink: 0;
+}
+
+.long-form-yesno-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 14px;
+}
+.long-form-yesno {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+  padding: 10px 14px;
+  background: var(--gray-50);
+  border-radius: var(--radius);
+}
+.long-form-yesno-label { font-size: 0.9rem; font-weight: 600; color: var(--gray-700); }
+.long-form-radio-group { display: flex; gap: 16px; }
+.long-form-radio-group label {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.88rem;
+  font-weight: 500;
+  color: var(--gray-700);
+}
+
+.long-form-standards {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.long-form-standards-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  font-size: 0.86rem;
+  font-weight: 400;
+  color: var(--gray-600);
+  line-height: 1.5;
+}
+.long-form-standards-item input { margin-top: 3px; }
+
+.long-form-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.long-form-error { color: var(--terracotta-dark); font-size: 0.86rem; margin: 0; }
+.long-form-trust { text-align: center; font-size: 0.8rem; color: var(--gray-500); margin: 0; }
+.long-form-success { text-align: center; }
+.long-form-success-title { font-size: 1.2rem; font-weight: 800; color: var(--brown); margin-bottom: 8px; }
+
+@media (min-width: 640px) {
+  .long-form-grid { grid-template-columns: 1fr 1fr; }
+  .long-form-checkbox-grid { grid-template-columns: repeat(3, 1fr); }
+}
+
+/* ===== PROFESSIONAL NETWORK (partner spotlight card + disclaimer) ===== */
+.partner-spotlight-card {
+  background: var(--white);
+  border: 1px solid var(--gray-100);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+  padding: 28px;
+  max-width: 640px;
+  margin: 0 auto;
+}
+.partner-spotlight-eyebrow {
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+  color: var(--terracotta);
+  margin-bottom: 10px;
+  display: block;
+}
+.partner-spotlight-name { font-size: 1.4rem; margin-bottom: 2px; }
+.partner-spotlight-trade {
+  font-size: 0.86rem;
+  font-weight: 700;
+  color: var(--gray-500);
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+  margin-bottom: 14px;
+}
+.partner-spotlight-card p.partner-spotlight-desc { color: var(--gray-600); line-height: 1.6; }
+.partner-disclaimer {
+  font-size: 0.8rem;
+  color: var(--gray-500);
+  max-width: 640px;
+  margin: 20px auto 0;
+  text-align: center;
+  line-height: 1.6;
+}
+
+/* ===== CAREERS BANNER (homepage "Now Hiring" CTA + teaser modal) ===== */
+.careers-banner { background: var(--brown); padding: 40px 0; }
+.careers-banner-inner {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+}
+.careers-banner-text .eyebrow { color: var(--gold); }
+.careers-banner-text h2 { color: var(--white); margin-bottom: 8px; }
+.careers-banner-text p { color: rgba(255, 255, 255, 0.82); margin: 0; max-width: 60ch; }
+.careers-banner > .container.careers-banner-inner > .btn { flex-shrink: 0; }
+
+/* Teaser modal content - layered on the shared .coupon-modal-* base (see CouponsBlock). */
+.careers-teaser-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.careers-teaser-list li {
+  font-size: 0.88rem;
+  color: var(--gray-700);
+  padding-left: 22px;
+  position: relative;
+}
+.careers-teaser-list li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: var(--terracotta);
+  font-weight: 700;
+}
+
+@media (min-width: 720px) {
+  .careers-banner-inner { flex-direction: row; align-items: center; justify-content: space-between; }
+}
+
+/* ===== TRUSTED PARTNERS RIBBON (homepage) ===== */
+.partners-ribbon {
+  background: var(--gray-50);
+  border-top: 1px solid var(--gray-100);
+  border-bottom: 1px solid var(--gray-100);
+  padding: 16px 0;
+}
+.partners-ribbon-inner {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  text-align: center;
+}
+.partners-ribbon-label {
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+  color: var(--terracotta);
+}
+.partners-ribbon-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 6px 4px;
+  font-size: 0.9rem;
+  color: var(--gray-700);
+}
+.partners-ribbon-item a { font-weight: 700; color: var(--brown); }
+.partners-ribbon-item a:hover { color: var(--terracotta); }
+.partners-ribbon-trade { color: var(--gray-500); }
+.partners-ribbon-link { font-size: 0.84rem; font-weight: 700; color: var(--terracotta); }
+.partners-ribbon-link:hover { color: var(--terracotta-dark); }
+
+@media (min-width: 720px) {
+  .partners-ribbon-inner { flex-direction: row; justify-content: center; }
+}
+

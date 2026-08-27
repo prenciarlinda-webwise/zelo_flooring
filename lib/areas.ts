@@ -41,7 +41,7 @@ export const SITE = {
     'Zelo Flooring is a flooring installation company based in San Diego. We have over a decade of journeyman experience installing residential and commercial flooring. We pride ourselves on craftsmanship, communication, and diligence.',
   url: 'https://www.zeloflooring.com',
   // Drives sitemap lastmod for static routes. Bump when chrome (header/footer/global schema) changes.
-  lastUpdated: '2026-05-07',
+  lastUpdated: '2026-08-26',
   // Operating hours: 7am-7pm seven days/week (Pacific). Used by schema and visible NAP blocks.
   hoursDisplay: 'Open daily 7:00am - 7:00pm',
   hoursOpen: '07:00',

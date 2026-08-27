@@ -8,6 +8,8 @@ import TrustindexWidget from '@/components/TrustindexWidget';
 import CouponsBlock from '@/components/CouponsBlock';
 import FaqList from '@/components/FaqList';
 import ServiceAreaLinks from '@/components/ServiceAreaLinks';
+import TrustedPartnersRibbon from '@/components/TrustedPartnersRibbon';
+import CareersBanner from '@/components/CareersBanner';
 import FinalCTA from '@/components/FinalCTA';
 import Link from 'next/link';
 import { ArrowIcon } from '@/components/Icons';
@@ -153,6 +155,8 @@ export default function HomePage() {
         cta={{ label: 'About Our Team', href: '/about-us' }}
       />
 
+      <TrustedPartnersRibbon />
+
       <IndustryStats
         eyebrow="By the Numbers"
         heading="Industry Stats We Follow"
@@ -219,6 +223,8 @@ export default function HomePage() {
         heading="San Diego County Service Areas"
         subheading="Coast to inland communities Zelo Flooring installs across."
       />
+
+      <CareersBanner />
 
       <FinalCTA />
     </>
