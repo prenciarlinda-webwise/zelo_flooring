@@ -90,6 +90,8 @@ export default function HomePage() {
           },
           {
             src: '/img/thumbtack-logo.png',
+            width: 200,
+            height: 111,
             alt: 'Verified Zelo Flooring profile on Thumbtack',
             href: SITE.thumbtackUrl,
             label: 'Thumbtack Verified',
@@ -97,6 +99,8 @@ export default function HomePage() {
           },
           {
             src: '/img/yelp-logo.png',
+            width: 200,
+            height: 81,
             alt: 'Verified Zelo Flooring profile on Yelp',
             href: SITE.yelpUrl,
             label: 'Yelp Verified',
@@ -112,6 +116,8 @@ export default function HomePage() {
           },
           {
             src: '/img/top-pro-thumbtack.png',
+            width: 200,
+            height: 200,
             alt: 'Thumbtack Top Pro - quality floors, honest service',
             href: SITE.thumbtackUrl,
             label: 'Thumbtack Top Pro',

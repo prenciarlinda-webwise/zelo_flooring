@@ -1,9 +1,15 @@
+import Image from 'next/image';
 import { PhoneIcon } from './Icons';
 import EstimateForm from './EstimateForm';
 import { SITE } from '@/lib/areas';
 
 export type TrustLogo = {
   src?: string;
+  // Intrinsic pixel dimensions of `src`, so the browser can reserve the right box before
+  // the image loads instead of shifting layout. Display size is still controlled by CSS
+  // (.lead-hero-trust-visual img caps it at 44x40 with object-fit: contain).
+  width?: number;
+  height?: number;
   alt: string;
   href?: string;
   label?: string;
@@ -27,11 +33,14 @@ type Props = {
 export default function LeadFormHero({ h1, valueProp, trustBullets, trustLogos, image, imageAlt, defaultProjectType }: Props) {
   return (
     <section className="lead-hero">
-      <div
+      <Image
+        src={image}
+        alt={imageAlt}
+        fill
+        priority
+        fetchPriority="high"
+        sizes="100vw"
         className="lead-hero-photo"
-        style={{ backgroundImage: `url('${image}')` }}
-        role="img"
-        aria-label={imageAlt}
       />
       <div className="lead-hero-overlay" aria-hidden="true" />
 
@@ -64,7 +73,7 @@ export default function LeadFormHero({ h1, valueProp, trustBullets, trustLogos, 
                   ) : (
                     <span className="lead-hero-trust-visual">
                       {/* eslint-disable-next-line @next/next/no-img-element */}
-                      <img src={logo.src} alt="" />
+                      <img src={logo.src} alt="" width={logo.width || 200} height={logo.height || 111} />
                     </span>
                   );
 
