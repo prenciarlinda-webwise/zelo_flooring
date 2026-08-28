@@ -77,7 +77,7 @@ export default function Footer() {
               className="social-pill social-pill-icon"
             >
               {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src="/img/facebook-logo.png" alt="Facebook" width={200} height={200} />
+              <img src="/img/facebook-logo.png" alt="Facebook" width={200} height={200} loading="lazy" />
             </a>
             <a
               href={SITE.instagramUrl}
@@ -87,7 +87,7 @@ export default function Footer() {
               className="social-pill social-pill-icon"
             >
               {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src="/img/instagram-logo.png" alt="Instagram" width={160} height={160} />
+              <img src="/img/instagram-logo.png" alt="Instagram" width={160} height={160} loading="lazy" />
             </a>
             <a
               href={SITE.yelpUrl}
@@ -97,7 +97,7 @@ export default function Footer() {
               className="social-pill social-pill-wordmark"
             >
               {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src="/img/yelp-logo.png" alt="Yelp" width={200} height={81} />
+              <img src="/img/yelp-logo.png" alt="Yelp" width={200} height={81} loading="lazy" />
             </a>
             <a
               href={SITE.thumbtackUrl}
@@ -107,7 +107,7 @@ export default function Footer() {
               className="social-pill social-pill-wordmark"
             >
               {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src="/img/thumbtack-logo.png" alt="Thumbtack" width={200} height={111} />
+              <img src="/img/thumbtack-logo.png" alt="Thumbtack" width={200} height={111} loading="lazy" />
             </a>
             <a
               href={SITE.bbb.profileUrl}

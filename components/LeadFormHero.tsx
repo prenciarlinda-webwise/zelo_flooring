@@ -73,7 +73,7 @@ export default function LeadFormHero({ h1, valueProp, trustBullets, trustLogos, 
                   ) : (
                     <span className="lead-hero-trust-visual">
                       {/* eslint-disable-next-line @next/next/no-img-element */}
-                      <img src={logo.src} alt="" width={logo.width || 200} height={logo.height || 111} />
+                      <img src={logo.src} alt="" width={logo.width || 200} height={logo.height || 111} fetchPriority="low" />
                     </span>
                   );
 
