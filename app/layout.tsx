@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import Script from 'next/script';
+import { Inter } from 'next/font/google';
 import './globals.css';
 import Header from '@/components/Header';
 import TrustStrip from '@/components/TrustStrip';
@@ -12,6 +13,19 @@ import { SITE, SERVICE_AREAS } from '@/lib/areas';
 import { SERVICES } from '@/lib/services';
 
 const GTM_ID = 'GTM-PCPP9MW5';
+
+// Self-hosted via next/font instead of a <link> to fonts.googleapis.com: removes the
+// render-blocking Google Fonts CSS request and the separate fonts.gstatic.com round trip
+// (PageSpeed flagged this exact chain as the site's longest critical-path dependency,
+// 2s+ for one font file). Files are downloaded at build time, served from our own origin,
+// and preloaded automatically. `variable` keeps the existing 'Inter' font-family reference
+// in globals.css working via a CSS custom property instead of the literal font name.
+const inter = Inter({
+  subsets: ['latin'],
+  weight: ['400', '500', '600', '700', '800'],
+  display: 'swap',
+  variable: '--font-inter',
+});
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE.url),
@@ -215,7 +229,7 @@ const businessGraph = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en">
+    <html lang="en" className={inter.variable}>
       <head>
         <Script id="gtm" strategy="afterInteractive">
           {`(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -224,12 +238,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','${GTM_ID}');`}
         </Script>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
-          rel="stylesheet"
-        />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(businessGraph) }}
