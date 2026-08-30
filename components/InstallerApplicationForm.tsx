@@ -2,7 +2,7 @@
 
 import { FormEvent, useRef, useState } from 'react';
 import Recaptcha, { RecaptchaHandle } from './Recaptcha';
-import { postToFormspree, APPLICATIONS_FORMSPREE_ENDPOINT } from '@/lib/formspree';
+import { postToFormspree, FORMSPREE_ENDPOINT } from '@/lib/formspree';
 import { track } from '@/lib/track';
 import { FLOORING_SKILLS, EXPERIENCE_RANGES, APPLICANT_TYPES } from '@/lib/careers-data';
 import { SITE } from '@/lib/areas';
@@ -33,7 +33,7 @@ export default function InstallerApplicationForm() {
 
     setSending(true);
     try {
-      await postToFormspree(APPLICATIONS_FORMSPREE_ENDPOINT, formData);
+      await postToFormspree(FORMSPREE_ENDPOINT, formData);
       track('lead_form_submit', {
         form_id: 'installer_application',
         applicant_type: formData.get('applicant_type'),

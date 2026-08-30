@@ -2,7 +2,7 @@
 
 import { FormEvent, useRef, useState } from 'react';
 import Recaptcha, { RecaptchaHandle } from './Recaptcha';
-import { postToFormspree, APPLICATIONS_FORMSPREE_ENDPOINT } from '@/lib/formspree';
+import { postToFormspree, FORMSPREE_ENDPOINT } from '@/lib/formspree';
 import { track } from '@/lib/track';
 import { SITE } from '@/lib/areas';
 
@@ -30,7 +30,7 @@ export default function PartnerInterestForm() {
 
     setSending(true);
     try {
-      await postToFormspree(APPLICATIONS_FORMSPREE_ENDPOINT, formData);
+      await postToFormspree(FORMSPREE_ENDPOINT, formData);
       track('lead_form_submit', {
         form_id: 'partner_interest',
         primary_trade: formData.get('primary_trade'),

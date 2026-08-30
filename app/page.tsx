@@ -163,6 +163,8 @@ export default function HomePage() {
 
       <TrustedPartnersRibbon />
 
+      <CareersBanner />
+
       <IndustryStats
         eyebrow="By the Numbers"
         heading="Industry Stats We Follow"
@@ -229,8 +231,6 @@ export default function HomePage() {
         heading="San Diego County Service Areas"
         subheading="Coast to inland communities Zelo Flooring installs across."
       />
-
-      <CareersBanner />
 
       <FinalCTA />
     </>

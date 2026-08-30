@@ -4,7 +4,7 @@ import { FormEvent, useEffect, useRef, useState } from 'react';
 import Recaptcha, { RecaptchaHandle } from './Recaptcha';
 import FormSuccess from './FormSuccess';
 import { SERVICE_AREAS } from '@/lib/areas';
-import { postToFormspree } from '@/lib/formspree';
+import { postToFormspree, FORMSPREE_ENDPOINT } from '@/lib/formspree';
 import { track } from '@/lib/track';
 
 export type Coupon = {
@@ -91,7 +91,7 @@ export default function CouponsBlock({ eyebrow, heading, subheading, coupons = D
 
     setSending(true);
     try {
-      await postToFormspree('https://formspree.io/f/mbdbaqqy', formData);
+      await postToFormspree(FORMSPREE_ENDPOINT, formData);
       track('lead_form_submit', {
         form_id: 'coupon_claim',
         offer: formData.get('offer'),
@@ -176,7 +176,7 @@ export default function CouponsBlock({ eyebrow, heading, subheading, coupons = D
             <form
               className="coupon-modal-form"
               method="post"
-              action="https://formspree.io/f/mbdbaqqy"
+              action={FORMSPREE_ENDPOINT}
               onSubmit={handleSubmit}
             >
               <input type="hidden" name="_subject" value={`Offer Claim: ${activeCoupon.title}`} />
