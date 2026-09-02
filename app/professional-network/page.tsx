@@ -46,6 +46,14 @@ export default function ProfessionalNetworkPage() {
           </div>
 
           <div className="partner-spotlight-card">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src="/img/romeo-construction-logo.png"
+              alt="Romeo Construction Inc. logo"
+              className="partner-spotlight-logo"
+              width={210}
+              height={124}
+            />
             <span className="partner-spotlight-eyebrow">Professional Network</span>
             <h3 className="partner-spotlight-name">Romeo Construction Inc.</h3>
             <p className="partner-spotlight-trade">General Construction &amp; Remodeling</p>
@@ -58,10 +66,17 @@ export default function ProfessionalNetworkPage() {
               Our goal is to work alongside professionals who value clear communication, dependable
               service, quality workmanship, and respect for the customer.
             </p>
-            {/* TODO: add Romeo Construction's website URL once provided, then swap this note for a
-                real "Visit Romeo Construction" link, rel="nofollow noopener noreferrer" per the
-                client's 2026-08-26 instruction (don't pass link equity to partner sites Zelo
-                doesn't control). Not fabricating a URL for a real named business. */}
+            {/* URL confirmed live by client 2026-09-02. nofollow per the client's 2026-08-26
+                instruction - don't pass link equity to partner sites Zelo doesn't control. */}
+            <a
+              href="https://www.romeoconstructionsd.com/"
+              target="_blank"
+              rel="nofollow noopener noreferrer"
+              className="btn btn-outline-orange"
+              style={{ marginTop: 12 }}
+            >
+              Visit Romeo Construction
+            </a>
           </div>
 
           <p className="partner-disclaimer">

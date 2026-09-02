@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import { ArrowIcon, ServiceIcon } from './Icons';
 
-export type AnchorItem = { id: string; name: string; iconKey?: string; href?: string; description?: string };
+export type AnchorItem = { id: string; name: string; iconKey?: string; image?: string; href?: string; description?: string };
 
 type Props = {
   eyebrow?: string;
@@ -27,7 +27,12 @@ export default function ServiceAnchorGrid({ eyebrow, heading, subheading, items,
             const href = asAnchors ? `#${item.id}` : (item.href || `#${item.id}`);
             return (
               <Link key={item.id} href={href} className="anchor-card">
-                {item.iconKey && (
+                {item.image ? (
+                  <span className="anchor-card-thumb">
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
+                    <img src={item.image} alt="" loading="lazy" decoding="async" width={64} height={64} />
+                  </span>
+                ) : item.iconKey && (
                   <span className="anchor-card-icon" aria-hidden="true">
                     <ServiceIcon name={item.iconKey} size={28} />
                   </span>

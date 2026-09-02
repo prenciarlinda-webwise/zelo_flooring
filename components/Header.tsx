@@ -61,8 +61,6 @@ export default function Header() {
             <ul>
               <li><Link href="/" onClick={close}>Home</Link></li>
               <li><Link href="/about-us" onClick={close}>About</Link></li>
-              <li><Link href="/careers" onClick={close}>Careers</Link></li>
-              <li><Link href="/professional-network" onClick={close}>Partners</Link></li>
               <li className={`has-dropdown${openDropdown === 'flooring' ? ' dropdown-open' : ''}`}>
                 <div className="has-dropdown-row">
                   <Link href="/flooring-san-diego" onClick={close}>Flooring</Link>
@@ -105,7 +103,10 @@ export default function Header() {
                   ))}
                 </ul>
               </li>
+              <li><Link href="/projects" onClick={close}>Projects</Link></li>
               <li><Link href="/blog" onClick={close}>Blog</Link></li>
+              <li><Link href="/careers" onClick={close}>Careers</Link></li>
+              <li><Link href="/professional-network" onClick={close}>Partners</Link></li>
               <li><Link href="/contact" onClick={close}>Contact</Link></li>
             </ul>
           </nav>

@@ -10,6 +10,7 @@ import FaqList from '@/components/FaqList';
 import FinalCTA from '@/components/FinalCTA';
 import LocationPage from '@/components/LocationPage';
 import LinkifyPhone from '@/components/LinkifyPhone';
+import ServicePhotoStrip from '@/components/ServicePhotoStrip';
 import { CheckIcon, PinIcon } from '@/components/Icons';
 import { SERVICES, getService } from '@/lib/services';
 import { LOCATIONS, getLocation, MAIN_LOCATION } from '@/lib/locations';
@@ -275,11 +276,15 @@ function renderServicePage(service: ReturnType<typeof getService>) {
                 </p>
               </div>
               <div
-                className="alt-image"
+                className={`alt-image${service.secondaryImagePortrait ? ' alt-image-contain' : ''}`}
                 style={{ backgroundImage: `url('${service.secondaryImage}')` }}
                 aria-hidden="true"
               />
             </div>
+
+            {service.realPhotos && service.realPhotos.length > 0 && (
+              <ServicePhotoStrip photos={service.realPhotos} />
+            )}
 
             <div className="local-nuances" style={{ marginTop: 32 }}>
               <h3>{local.headers.considerationsH3}</h3>

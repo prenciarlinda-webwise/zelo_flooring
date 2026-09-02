@@ -1,5 +1,6 @@
 import LeadFormHero from '@/components/LeadFormHero';
 import ProjectGallery from '@/components/ProjectGallery';
+import BehindTheScenes from '@/components/BehindTheScenes';
 import ServiceAnchorGrid from '@/components/ServiceAnchorGrid';
 import WhyChooseUs from '@/components/WhyChooseUs';
 import AlternatingSection from '@/components/AlternatingSection';
@@ -54,6 +55,7 @@ export default function HomePage() {
     id: s.slug,
     name: s.shortName,
     iconKey: s.iconKey,
+    image: s.anchorImage || s.image,
     description: s.tagline,
     href: `/${s.slug}`,
   }));
@@ -126,8 +128,12 @@ export default function HomePage() {
             subLabel: 'Quality floors, honest service',
           },
         ]}
-        image="/img/projects/lvp-whole-home/after-living-room-lvp.webp"
-        imageAlt="Zelo Flooring luxury vinyl plank installed across a San Diego living room"
+        // 2026-09-02: client asked to change the main homepage hero image. Swapped for a
+        // glossy dark hardwood room with a full ocean-view balcony (flagged as a standout
+        // hero candidate back when this photo batch was first triaged) — was unused
+        // anywhere else on the site.
+        image="/img/projects/2025-showcase/stair-02.jpg"
+        imageAlt="Hardwood flooring installed by Zelo Flooring in a San Diego home with an ocean view"
       />
 
       <ServiceAnchorGrid
@@ -155,7 +161,14 @@ export default function HomePage() {
           'Thumbtack Top Pro 2023, 2024, and 2025',
           `Hired ${SITE.hiredCount}+ times through Thumbtack`,
         ]}
-        image="/img/projects/lvp-whole-home/after-open-floor-lvp.webp"
+        // 2026-09-02: client browsed the /projects lightbox and flagged this one by its
+        // counter position ("image 13/76... use it somewhere in the main pages") — a
+        // vaulted-ceiling living room with wood beams and hardwood flooring. Portrait
+        // source into this section's landscape image box crops out the beam ceiling
+        // (the whole point of the photo) without imageContain — same issue as the LVP
+        // service page fix earlier this session.
+        image="/img/projects/2025-showcase/room-04.jpg"
+        imageContain
         reverse
         background="cream"
         cta={{ label: 'About Our Team', href: '/about-us' }}
@@ -173,6 +186,8 @@ export default function HomePage() {
       />
 
       <ProjectGallery />
+
+      <BehindTheScenes />
 
       <section className="section">
         <div className="container">
@@ -209,7 +224,11 @@ export default function HomePage() {
             <h2>Flooring Tips and Buying Guides</h2>
             <p>Cost breakdowns and material comparisons from our San Diego install crew.</p>
           </div>
-          <div className="related-grid">
+          {/* 2026-09-02: client asked for this to be a 1-row, horizontally-slidable
+              carousel instead of a wrapping 2-row grid. New blog-guides-slider modifier
+              class, scoped so it doesn't touch RelatedCards.tsx's other .related-grid
+              usage (the "related reading" cards on blog post pages). */}
+          <div className="related-grid blog-guides-slider">
             {PUBLISHED_BLOG_POSTS.slice(0, 6).map((p) => (
               <Link key={p.slug} href={`/blog/${p.slug}`} className="related-card">
                 <div>
@@ -226,10 +245,22 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* 2026-09-02: client asked for "a Local Element same as in the service areas" on
+          the homepage - modeled on the "Find Us" section every location page already has
+          (Location.findUs, see LocationPage.tsx), county-wide instead of one city since
+          the homepage can't carry all 13 cities' worth of hyper-local landmark detail.
+          Kept the existing area-links-grid (links to all 13 location pages) rather than
+          removing it - that internal linking is called out as deliberate in this file's
+          own "Internal linking strategy" section, so cutting it felt like a bigger call
+          than what was actually asked. Flag if the grid itself should go too. */}
       <ServiceAreaLinks
         eyebrow="Service Areas"
         heading="San Diego County Service Areas"
         subheading="Coast to inland communities Zelo Flooring installs across."
+        intro={[
+          `We're based in Mira Mesa, centrally located across San Diego County, so a slab reading or a follow-up visit never turns into a half-day trip anywhere we serve. From La Jolla's coastal humidity to Rancho Santa Fe's estate lots and Escondido's inland heat, we adjust materials and subfloor prep to match the neighborhood before we ever quote a job.`,
+          `We answer the phone daily from ${SITE.hoursDisplay.replace('Open daily ', '')}, hold a ${SITE.rating.value.toFixed(1)}-star rating across ${SITE.rating.count} Thumbtack reviews, and CSLB ${SITE.licenseDetails.classification} #${SITE.license} is verifiable free on the state license board site before you ever sign anything.`,
+        ]}
       />
 
       <FinalCTA />

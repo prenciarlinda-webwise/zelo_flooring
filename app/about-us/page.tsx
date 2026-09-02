@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import PageHero from '@/components/PageHero';
 import AlternatingSection from '@/components/AlternatingSection';
 import ProjectGallery from '@/components/ProjectGallery';
+import BehindTheScenes from '@/components/BehindTheScenes';
 import WhyChooseUs from '@/components/WhyChooseUs';
 import Testimonials from '@/components/Testimonials';
 import ContactCTA from '@/components/ContactCTA';
@@ -68,7 +69,13 @@ export default function AboutPage() {
           "Most flooring companies want you to drive across town, sit in a fluorescent-lit showroom, and try to imagine how a 4-inch tile sample will look in your living room. We think that's backwards.",
           "Instead, we bring physical samples to your home. You see materials in your real lighting, against your real walls and furniture, with all the kids and pets you actually live with. You make a better decision and we get to know your project before quoting.",
         ]}
-        image="/img/projects/lvp-whole-home/after-kitchen-lvp.webp"
+        // 2026-09-02: client flagged this one by its /projects lightbox position
+        // ("image 45/76... beautiful image, use it in the website") — an open two-story
+        // stairwell. Was also a chance to stop double-using after-kitchen-lvp.webp,
+        // which is already the LVP service page's secondaryImage. Portrait source, so
+        // imageContain to avoid cropping the same way the LVP fix needed earlier.
+        image="/img/projects/portfolio/zelo-project-07.webp"
+        imageContain
         reverse
         background="cream"
       />
@@ -96,6 +103,8 @@ export default function AboutPage() {
         subheading="A snapshot of carpet, LVP, hardwood, and tile installs the Zelo Flooring team has completed for local homeowners and businesses."
         initialCount={8}
       />
+
+      <BehindTheScenes />
 
       <WhyChooseUs />
       <Testimonials />

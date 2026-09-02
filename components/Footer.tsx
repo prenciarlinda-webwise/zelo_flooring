@@ -51,6 +51,7 @@ export default function Footer() {
             <li><Link href="/about-us">About Us</Link></li>
             <li><Link href="/services">All Services</Link></li>
             <li><Link href="/service-areas">Service Areas</Link></li>
+            <li><Link href="/projects">Project Photos</Link></li>
             <li><Link href="/san-diego-flooring-faqs">FAQ</Link></li>
             <li><Link href="/blog">Blog</Link></li>
             <li><Link href="/contact">Contact</Link></li>

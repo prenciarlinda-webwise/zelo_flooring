@@ -26,6 +26,25 @@ export type Service = {
   iconKey: string;
   image: string;
   secondaryImage: string;
+  // Most secondaryImage sources are square material/product close-ups, which crop cleanly
+  // into the 1.4-ish landscape .alt-image box. A couple (real install photos) are portrait
+  // and lose real content (ceiling, floor) to that crop — set true to render those with
+  // object-fit: contain (no crop) instead. See app/[slug]/page.tsx.
+  secondaryImagePortrait?: boolean;
+  // 2026-09-02: thumbnail for the homepage ServiceAnchorGrid card. Falls back to `image`
+  // when unset (see app/page.tsx). Only set this to a confirmed real Zelo job photo of
+  // this specific material — several of the `image`/`secondaryImage` values across
+  // services are stock/manufacturer photos, and this field exists specifically so the
+  // anchor grid doesn't inherit that uncertainty for the services we do have real shots
+  // for (currently: carpet, LVP, hardwood, tile — see the "real Zelo photos" section
+  // in CLAUDE.md for why laminate/cork/rubber/VCT don't have one yet).
+  anchorImage?: string;
+  // 2026-09-02: a small strip of additional confirmed-real, confirmed-material job
+  // photos rendered on this service's own page (see app/[slug]/page.tsx,
+  // components/ServicePhotoStrip.tsx). Omit entirely rather than guess at material —
+  // several "wood-look" photos in public/img/projects/2025-showcase/ could be hardwood
+  // or LVP and weren't confident enough to assign to either.
+  realPhotos?: { src: string; alt: string }[];
   metaTitle: string;
   metaDescription: string;
   lastUpdated: string;
@@ -63,8 +82,28 @@ export const SERVICES: Service[] = [
     ],
     bestFor: ['Bedrooms', 'Family rooms', 'Stairs and hallways', 'Rentals and offices'],
     iconKey: 'carpet',
-    image: '/img/carpet-plush.webp',
-    secondaryImage: '/img/Patterned-Carpet.webp',
+    // 2026-09-02: was carpet-plush.webp, a generic stock photo (a child's bare feet
+    // on shag carpet) — client: "hero images... too ugly". Swapped for a confirmed
+    // real Zelo carpet install (same photo used in Carpet's realPhotos strip below;
+    // hero is dimmed/atmospheric so reusing it there isn't a visible duplicate).
+    image: '/img/projects/portfolio/zelo-project-17.webp',
+    // 2026-09-02: was Patterned-Carpet.webp (stock swatch) — client: "there is an
+    // internet image, and 2 real images [on this page]... replace the real one" (i.e.
+    // replace the stock one with a real photo, to match the 2 real ones already in the
+    // photo strip below). Swapped to project-16, the other confirmed real carpet photo,
+    // so this page isn't just the same one photo repeated in every slot.
+    secondaryImage: '/img/projects/portfolio/zelo-project-16.webp',
+    secondaryImagePortrait: true,
+    // 2026-09-02: carpet-01/carpet-02 (2025-showcase) were originally assigned here, but
+    // client review caught that both are actually old, worn carpet awaiting replacement,
+    // not a finished Zelo install (I'd bucketed them as "carpet" by material without
+    // checking condition) — moved to BehindTheScenes as before shots instead. Swapped in
+    // zelo-project-16/17, confirmed clean finished carpet installs.
+    anchorImage: '/img/projects/portfolio/zelo-project-16.webp',
+    realPhotos: [
+      { src: '/img/projects/portfolio/zelo-project-16.webp', alt: 'Carpet installed by Zelo Flooring' },
+      { src: '/img/projects/portfolio/zelo-project-17.webp', alt: 'Carpet installed by Zelo Flooring in a bright room' },
+    ],
     metaTitle: 'Carpet Installation San Diego',
     metaDescription:
       'Professional carpet installation in San Diego. Plush, berber, frieze and pet-friendly carpet from trusted brands. Free in-home estimate. Call +1 (619) 777-4334.',
@@ -130,8 +169,21 @@ export const SERVICES: Service[] = [
     ],
     bestFor: ['Kitchens', 'Bathrooms', 'Whole-home installs', 'Homes with pets and kids'],
     iconKey: 'vinyl',
-    image: '/img/vinyl-luxury-plank.webp',
+    // 2026-09-02: was vinyl-luxury-plank.webp, a plain stock texture — client: "hero
+    // images... too ugly". Swapped for a real Zelo LVP install (freed up when the
+    // homepage AlternatingSection moved off this same file to room-04.jpg).
+    image: '/img/projects/lvp-whole-home/after-open-floor-lvp.webp',
     secondaryImage: '/img/projects/lvp-whole-home/after-kitchen-lvp.webp',
+    secondaryImagePortrait: true,
+    anchorImage: '/img/projects/lvp-whole-home/after-entryway-lvp.webp',
+    // Same entryway before and after, per the file's own naming — one of the only
+    // confirmed same-room pairs in the whole photo library (see CLAUDE.md).
+    realPhotos: [
+      { src: '/img/projects/lvp-whole-home/before-entryway-old-carpet.webp', alt: 'Entryway before, old carpet' },
+      { src: '/img/projects/lvp-whole-home/after-entryway-lvp.webp', alt: 'Same entryway after, new LVP flooring' },
+      { src: '/img/projects/lvp-whole-home/after-stairway-lvp.webp', alt: 'LVP flooring installed on a stairway' },
+      { src: '/img/projects/lvp-whole-home/after-closet-hallway-lvp.webp', alt: 'LVP flooring installed in a hallway' },
+    ],
     metaTitle: 'Vinyl Plank Flooring Installation San Diego',
     metaDescription:
       'Waterproof luxury vinyl plank (LVP) installation in San Diego. SPC rigid-core flooring from trusted brands. Free in-home estimates. Call +1 (619) 777-4334.',
@@ -196,8 +248,24 @@ export const SERVICES: Service[] = [
     ],
     bestFor: ['Living rooms', 'Dining rooms', 'Bedrooms', 'Whole-home upgrades'],
     iconKey: 'wood',
-    image: '/img/hardwood-solid-wood.webp',
+    // 2026-09-02: was hardwood-solid-wood.webp, a staged stock interior photo (a red
+    // throw blanket on a showroom chair) — under the hero's dark overlay the red
+    // blanket read as an unexplained red blob (client: "hero images... too ugly").
+    // Swapped for a real Zelo hardwood staircase, not already used in this service's
+    // realPhotos strip below.
+    image: '/img/projects/2025-showcase/stair-05.jpg',
     secondaryImage: '/img/hardwood-engineered-oak-2.webp',
+    anchorImage: '/img/projects/2025-showcase/stair-06.jpg',
+    realPhotos: [
+      { src: '/img/projects/2025-showcase/stair-01.jpg', alt: 'Hardwood staircase installed by Zelo Flooring' },
+      { src: '/img/projects/2025-showcase/stair-04.jpg', alt: 'Two-tone hardwood staircase installed by Zelo Flooring' },
+      { src: '/img/projects/2025-showcase/stair-08.jpg', alt: 'Hardwood staircase installed by Zelo Flooring' },
+      { src: '/img/projects/2025-showcase/stair-09.jpg', alt: 'Hardwood staircase installed by Zelo Flooring' },
+      // 2026-09-02: client flagged this as "looks like carpet installation" (image
+      // 46/76 in the /projects lightbox) — it's actually dark hardwood flooring in the
+      // entryway/staircase, no carpet visible. Added here instead of Carpet.
+      { src: '/img/projects/portfolio/zelo-project-08.webp', alt: 'Hardwood flooring in an entryway and staircase' },
+    ],
     metaTitle: 'Hardwood Flooring Installation San Diego',
     metaDescription:
       'Solid and engineered hardwood flooring installation, refinishing, and repair in San Diego. Oak, maple, hickory, walnut and more. NWFA-spec installs. Call +1 (619) 777-4334.',
@@ -269,7 +337,12 @@ export const SERVICES: Service[] = [
     ],
     bestFor: ['Budget remodels', 'Rentals', 'Hallways', 'Family rooms'],
     iconKey: 'laminate',
-    image: '/img/laminate-room-install.webp',
+    // 2026-09-02: was laminate-room-install.webp — turned out to be mislabeled, the
+    // actual photo is a black-and-white checkerboard commercial VCT/tile hallway, no
+    // laminate visible at all. No confirmed real Zelo laminate photo exists yet
+    // (flagged in CLAUDE.md), so swapped for a stock photo that at least accurately
+    // shows laminate/wood-look plank.
+    image: '/img/laminate-wide-plank.webp',
     secondaryImage: '/img/Water-Resistant-Laminate-Flooring.jpg',
     metaTitle: 'Laminate Flooring Installation San Diego',
     metaDescription:
@@ -336,8 +409,17 @@ export const SERVICES: Service[] = [
     ],
     bestFor: ['Bathrooms', 'Kitchens', 'Mudrooms', 'Entryways and patios'],
     iconKey: 'tile',
-    image: '/img/tile-porcelain.webp',
+    // 2026-09-02: was tile-porcelain.webp, a plain stock texture — client: "hero
+    // images... too ugly". Swapped for a real Zelo tile install (not already used as
+    // this service's anchorImage/realPhotos below).
+    image: '/img/projects/2025-showcase/tile-03.jpg',
     secondaryImage: '/img/Natural-Stone-Tile.jpg',
+    anchorImage: '/img/projects/2025-showcase/tile-02.jpg',
+    realPhotos: [
+      { src: '/img/projects/2025-showcase/tile-01.jpg', alt: 'Marble-look tile flooring installed by Zelo Flooring' },
+      { src: '/img/projects/2025-showcase/tile-02.jpg', alt: 'Marble-look tile hallway installed by Zelo Flooring' },
+      { src: '/img/projects/2025-showcase/tile-03.jpg', alt: 'Marble-look tile flooring installed by Zelo Flooring' },
+    ],
     metaTitle: 'Tile Flooring Installation San Diego',
     metaDescription:
       'Porcelain, ceramic and natural stone tile installation in San Diego. Bathroom, kitchen, and entryway tile done right. Call +1 (619) 777-4334.',
@@ -403,6 +485,9 @@ export const SERVICES: Service[] = [
     ],
     bestFor: ['Kitchens', 'Home offices', 'Playrooms', 'Eco-conscious builds'],
     iconKey: 'cork',
+    // 2026-09-02: checked against the client's "hero images... too ugly" feedback —
+    // this one's a plain top-down cork/wood plank texture, no staging issue, kept.
+    // No confirmed real Zelo cork photo exists yet to swap in instead.
     image: '/img/Cork-Plank-Flooring.webp',
     secondaryImage: '/img/Cork-Tile-Flooring.webp',
     metaTitle: 'Cork Flooring Installation San Diego',
@@ -469,6 +554,9 @@ export const SERVICES: Service[] = [
     ],
     bestFor: ['Home gyms', 'Commercial gyms', 'Garages', 'Daycare and play areas'],
     iconKey: 'rubber',
+    // 2026-09-02: checked against the client's "hero images... too ugly" feedback —
+    // plain rubber tile texture, no staging issue, kept. No confirmed real Zelo rubber
+    // photo exists yet to swap in instead.
     image: '/img/rubber-tiles-commercial.webp',
     secondaryImage: '/img/9191-Ecofit-Rubber-Floor_Mosaic.jpg',
     metaTitle: 'Rubber Flooring Installation San Diego',
