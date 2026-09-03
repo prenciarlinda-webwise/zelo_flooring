@@ -263,16 +263,16 @@ function renderServicePage(service: ReturnType<typeof getService>) {
       {local && (
         <section className="section">
           <div className="container">
-            {/* 2026-09-02: this used to be a 50/50 text+image row (read as "2/3 text,
-                1/3 image" once the image ended up narrower from the portrait-contain
-                crop fix), then a separate strip of real photos below that only filled
-                part of its row on services with 2-3 photos, leaving dead grid space and
-                nothing aligned with the row above (client: "i dont like how you have
-                text on 2/3 and then 1 image in 1/3 and 2 other images down in 2/3...
-                in all the service types"). Text is full-width now, and every photo
-                (secondaryImage + realPhotos, so every service shows at least one) is one
-                evenly-sized, centered grid below it — no more lone side image, no more
-                gaps when a service only has 1-2 real photos. */}
+            {/* 2026-09-02/03: this used to be a 50/50 text+image row (read as "2/3 text,
+                1/3 image"), then a separate real-photo grid below that left dead cells
+                on uneven counts (client: "text on 2/3... 1 image in 1/3 and 2 other
+                images down in 2/3... in all the service types"). Tried a side-by-side
+                photo collage next; client's next message clarified: images belong below
+                the text (not side-by-side), just not as a grid — "It can be a slide.
+                when there are 4 images, 3 are up, one below, and then we have 2 empty
+                spaces". ServicePhotoStrip now renders as a horizontal slider (same
+                mechanics as the homepage blog-guides-slider), so any photo count just
+                scrolls — nothing to leave empty. */}
             <div className="alt-text" style={{ maxWidth: '75ch', margin: '0 auto' }}>
               <span className="eyebrow">{service.shortName} in San Diego</span>
               <h2>{local.headers.cityContextH2}</h2>
