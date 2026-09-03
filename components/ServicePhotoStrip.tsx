@@ -5,10 +5,12 @@ import PhotoLightbox from './PhotoLightbox';
 
 type Photo = { src: string; alt: string };
 
-// Small strip of real Zelo job photos for this specific service/material, shown only
-// when lib/services.ts has confirmed-material realPhotos for it (currently carpet, LVP,
-// hardwood, tile — see the note on Service.realPhotos for why the others don't have one
-// yet). Click any photo to zoom, same viewer as ProjectGallery/BehindTheScenes.
+// Photo grid on a service page's city-context section. Always has at least the
+// secondaryImage; services with confirmed-material realPhotos (currently carpet, LVP,
+// hardwood, tile — see the note on Service.realPhotos) show those alongside it. auto-fit
+// column sizing (see globals.css) means 1 photo and 5 photos both render as an evenly
+// sized, centered set instead of a fixed grid with dead trailing cells. Click any photo
+// to zoom, same viewer as ProjectGallery/BehindTheScenes.
 export default function ServicePhotoStrip({ photos }: { photos: Photo[] }) {
   const [lightbox, setLightbox] = useState<number | null>(null);
   if (!photos || photos.length === 0) return null;

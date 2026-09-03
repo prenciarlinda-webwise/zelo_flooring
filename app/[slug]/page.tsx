@@ -259,32 +259,38 @@ function renderServicePage(service: ReturnType<typeof getService>) {
         </section>
       )}
 
-      {/* CITY CONTEXT + IMAGE */}
+      {/* CITY CONTEXT + PHOTOS */}
       {local && (
         <section className="section">
           <div className="container">
-            <div className="alt-row">
-              <div className="alt-text">
-                <span className="eyebrow">{service.shortName} in San Diego</span>
-                <h2>{local.headers.cityContextH2}</h2>
-                {local.cityContext.map((p, i) => (
-                  <p key={i}>{p}</p>
-                ))}
-                <p>
-                  For an overview of our full San Diego flooring service, see our <Link href="/flooring-san-diego">flooring in San Diego</Link> page. Verify our license at any time on the{' '}
-                  <a href="https://www.cslb.ca.gov/onlineservices/CheckLicenseII/CheckLicense.aspx" target="_blank" rel="noopener noreferrer">California Contractors State License Board</a>.
-                </p>
-              </div>
-              <div
-                className={`alt-image${service.secondaryImagePortrait ? ' alt-image-contain' : ''}`}
-                style={{ backgroundImage: `url('${service.secondaryImage}')` }}
-                aria-hidden="true"
-              />
+            {/* 2026-09-02: this used to be a 50/50 text+image row (read as "2/3 text,
+                1/3 image" once the image ended up narrower from the portrait-contain
+                crop fix), then a separate strip of real photos below that only filled
+                part of its row on services with 2-3 photos, leaving dead grid space and
+                nothing aligned with the row above (client: "i dont like how you have
+                text on 2/3 and then 1 image in 1/3 and 2 other images down in 2/3...
+                in all the service types"). Text is full-width now, and every photo
+                (secondaryImage + realPhotos, so every service shows at least one) is one
+                evenly-sized, centered grid below it — no more lone side image, no more
+                gaps when a service only has 1-2 real photos. */}
+            <div className="alt-text" style={{ maxWidth: '75ch', margin: '0 auto' }}>
+              <span className="eyebrow">{service.shortName} in San Diego</span>
+              <h2>{local.headers.cityContextH2}</h2>
+              {local.cityContext.map((p, i) => (
+                <p key={i}>{p}</p>
+              ))}
+              <p>
+                For an overview of our full San Diego flooring service, see our <Link href="/flooring-san-diego">flooring in San Diego</Link> page. Verify our license at any time on the{' '}
+                <a href="https://www.cslb.ca.gov/onlineservices/CheckLicenseII/CheckLicense.aspx" target="_blank" rel="noopener noreferrer">California Contractors State License Board</a>.
+              </p>
             </div>
 
-            {service.realPhotos && service.realPhotos.length > 0 && (
-              <ServicePhotoStrip photos={service.realPhotos} />
-            )}
+            <ServicePhotoStrip
+              photos={[
+                { src: service.secondaryImage, alt: `${service.name} installed by Zelo Flooring in San Diego` },
+                ...(service.realPhotos || []),
+              ]}
+            />
 
             <div className="local-nuances" style={{ marginTop: 32 }}>
               <h3>{local.headers.considerationsH3}</h3>

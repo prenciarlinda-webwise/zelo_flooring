@@ -25,12 +25,12 @@ export type Service = {
   bestFor: string[];
   iconKey: string;
   image: string;
+  // 2026-09-02: secondaryImage used to sit in its own .alt-image box next to the city-
+  // context text (a landscape box that cropped portrait sources badly — see the removed
+  // secondaryImagePortrait field's history in git blame if this comes up again). It's now
+  // just the first tile in ServicePhotoStrip alongside realPhotos, so the aspect-ratio
+  // mismatch that flag worked around doesn't apply anymore.
   secondaryImage: string;
-  // Most secondaryImage sources are square material/product close-ups, which crop cleanly
-  // into the 1.4-ish landscape .alt-image box. A couple (real install photos) are portrait
-  // and lose real content (ceiling, floor) to that crop — set true to render those with
-  // object-fit: contain (no crop) instead. See app/[slug]/page.tsx.
-  secondaryImagePortrait?: boolean;
   // 2026-09-02: thumbnail for the homepage ServiceAnchorGrid card. Falls back to `image`
   // when unset (see app/page.tsx). Only set this to a confirmed real Zelo job photo of
   // this specific material — several of the `image`/`secondaryImage` values across
@@ -92,8 +92,10 @@ export const SERVICES: Service[] = [
     // replace the stock one with a real photo, to match the 2 real ones already in the
     // photo strip below). Swapped to project-16, the other confirmed real carpet photo,
     // so this page isn't just the same one photo repeated in every slot.
+    // 2026-09-02: only 2 confirmed real carpet photos exist (16, 17) — 16 lives here as
+    // secondaryImage, so it's dropped from realPhotos below to avoid showing it twice in
+    // the same photo grid (ServicePhotoStrip prepends secondaryImage to realPhotos).
     secondaryImage: '/img/projects/portfolio/zelo-project-16.webp',
-    secondaryImagePortrait: true,
     // 2026-09-02: carpet-01/carpet-02 (2025-showcase) were originally assigned here, but
     // client review caught that both are actually old, worn carpet awaiting replacement,
     // not a finished Zelo install (I'd bucketed them as "carpet" by material without
@@ -101,7 +103,6 @@ export const SERVICES: Service[] = [
     // zelo-project-16/17, confirmed clean finished carpet installs.
     anchorImage: '/img/projects/portfolio/zelo-project-16.webp',
     realPhotos: [
-      { src: '/img/projects/portfolio/zelo-project-16.webp', alt: 'Carpet installed by Zelo Flooring' },
       { src: '/img/projects/portfolio/zelo-project-17.webp', alt: 'Carpet installed by Zelo Flooring in a bright room' },
     ],
     metaTitle: 'Carpet Installation San Diego',
@@ -174,7 +175,6 @@ export const SERVICES: Service[] = [
     // homepage AlternatingSection moved off this same file to room-04.jpg).
     image: '/img/projects/lvp-whole-home/after-open-floor-lvp.webp',
     secondaryImage: '/img/projects/lvp-whole-home/after-kitchen-lvp.webp',
-    secondaryImagePortrait: true,
     anchorImage: '/img/projects/lvp-whole-home/after-entryway-lvp.webp',
     // Same entryway before and after, per the file's own naming — one of the only
     // confirmed same-room pairs in the whole photo library (see CLAUDE.md).

@@ -2799,13 +2799,19 @@ a.lead-hero-trust-chip:hover {
 @media (min-width: 1200px) { .anchor-grid { grid-template-columns: repeat(4, 1fr); } }
 
 /* ===== SERVICE PHOTO STRIP (real job photos on a service page) ===== */
+/* 2026-09-02: was a fixed 4-column grid — with only 1-3 photos (most services), the
+   items sat flush left and left dead grid cells on the right, not aligned with anything
+   else on the page (client feedback, see the note in app/[slug]/page.tsx). auto-fit with
+   a capped column width plus justify-content: center means any photo count (1 to 5+)
+   renders as an evenly-sized, centered set with no empty trailing cells. */
 .service-photo-strip {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 12px;
-  margin-top: 32px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 240px));
+  justify-content: center;
+  gap: 16px;
+  margin: 40px auto 0;
+  max-width: 900px;
 }
-@media (min-width: 640px) { .service-photo-strip { grid-template-columns: repeat(4, 1fr); } }
 .service-photo-strip-item {
   position: relative;
   aspect-ratio: 3 / 4;
