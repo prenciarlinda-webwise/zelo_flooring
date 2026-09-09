@@ -168,7 +168,7 @@ export default function Footer() {
             <span aria-hidden="true">·</span>
             <Link href="/terms-and-conditions">Terms &amp; Conditions</Link>
           </p>
-          <p>Built by <a href="https://www.websiteandseoagency.com/" target="_blank" rel="noopener noreferrer">Web Wise</a></p>
+          <p>Built by <a href="https://www.websiteandseoagency.com/" target="_blank" rel="nofollow noopener noreferrer">Web Wise</a></p>
         </div>
       </div>
     </footer>
