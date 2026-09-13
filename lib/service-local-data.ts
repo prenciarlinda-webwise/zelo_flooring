@@ -30,8 +30,8 @@ export const SERVICE_LOCAL_DATA: Record<string, ServiceLocalData> = {
     aeoCostAnswer:
       'Carpet installation in San Diego typically takes a single day for a 1,500 sq ft home, or a few hours for one bedroom. Power-stretching, premium 8 lb pad, and old carpet removal are included in every quote. Zelo Flooring brings free in-home samples, call (619) 777-4334 to schedule yours.',
     aeoSecondaryQuestion: {
-      q: 'What carpet works best for San Diego homes with pets and kids?',
-      a: 'Triexta (Mohawk SmartStrand) and stain-treated nylon (Stainmaster, Shaw R2X) are the most pet- and kid-friendly carpets we install in San Diego. Triexta resists pet stains permanently because the stain blocker is part of the fiber. Nylon resists wear in high-traffic rooms. Polyester is fine for guest rooms but wears faster in main-traffic zones.',
+      q: 'What should I look for in San Diego carpet contractors?',
+      a: 'Look for CSLB-licensed San Diego carpet contractors who power-stretch every install, include a premium pad and old carpet removal in the quote, and bring physical samples to your home. Zelo Flooring meets all three and is bonded and insured. Call (619) 777-4334 for a free in-home estimate.',
     },
     localNuances: [
       'Coastal-area homes near Pacific Beach, La Jolla, and Coronado benefit from moisture-barrier pad upgrades on slab to prevent vapor migration.',

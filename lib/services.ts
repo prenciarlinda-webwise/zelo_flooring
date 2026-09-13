@@ -72,6 +72,7 @@ export const SERVICES: Service[] = [
       'Plush, frieze, berber, and patterned carpet installed by experienced San Diego flooring pros.',
     longDescription: [
       'Carpet is still the most comfortable flooring option you can put in a bedroom, family room, or stairway. We carry a wide range of fibers - nylon, polyester, triexta, and wool blends - from the brands installers actually trust.',
+      'Whether you need new San Diego carpet flooring for a single room or a full carpet replacement across your whole home, our crew brings physical samples to you, measures on site, and gives you a firm quote before any work begins.',
     ],
     benefits: [
       'Wide range of styles, colors and price points',
@@ -108,7 +109,7 @@ export const SERVICES: Service[] = [
     metaTitle: 'Carpet Installation San Diego',
     metaDescription:
       'Professional carpet installation in San Diego. Plush, berber, frieze and pet-friendly carpet from trusted brands. Free in-home estimate. Call +1 (619) 777-4334.',
-    lastUpdated: '2026-07-11',
+    lastUpdated: '2026-09-11',
     heroChip: 'San Diego, CA',
     heroTagline: 'Power-stretched. Premium pad. No shortcuts.',
     heroBullets: [
@@ -147,9 +148,12 @@ export const SERVICES: Service[] = [
       { q: 'Why do you power-stretch carpet instead of just knee-kicking?', a: 'A power stretcher uses a long mechanical pole to apply consistent force across the entire room, pulling carpet tight to the tack strip. A knee kicker only stretches a few feet at a time. Carpet that is only knee-kicked develops ripples within one to two years, and most manufacturers void the warranty without a power stretch.' },
       { q: 'What pad do you include? Can I upgrade?', a: 'Our standard is 8 lb density rebond pad, the minimum most carpet manufacturers require for warranty coverage. Premium 10 lb pad is a common upgrade for stairs and high-traffic areas. We can quote a moisture-barrier pad if your slab has moisture concerns.' },
       { q: 'Do you handle rental properties and turnover work?', a: 'Yes. We carry durable, value-priced options for rentals and run unit-turn projects with quick scheduling between leases. Tell us the unit count and timeline and we will quote.' },
-      { q: 'Do you remove and dispose of the old carpet and pad?', a: 'Yes. Old carpet, pad, and tack strip removal and disposal are included in every residential installation. Your home is clean when we leave.' },
-      { q: 'Who does carpet installation in San Diego?', a: 'Zelo Flooring handles carpet installation in San Diego and across the county, from a single bedroom to a full whole-home job. Every install includes power-stretching, a premium 8 lb pad, and old carpet removal in the quote, not as an add-on. We are a CSLB-licensed San Diego carpet installer, bonded and insured.' },
+      { q: 'Does carpet replacement include removing and disposing of the old carpet and pad?', a: 'Yes. Every carpet replacement includes old carpet, pad, and tack strip removal and disposal at no extra charge. Your home is clean when we leave, with nothing extra for you to haul away.' },
+      { q: 'Who offers carpet installation services in San Diego?', a: 'Zelo Flooring provides carpet installation services in San Diego and across the county, from a single bedroom to a full whole-home job. Every install includes power-stretching, a premium 8 lb pad, and old carpet removal in the quote, not as an add-on. We are a CSLB-licensed San Diego carpet installer, bonded and insured.' },
+      { q: 'Do you install commercial carpet in San Diego?', a: 'Yes. We are a commercial carpet installation company serving San Diego offices, classrooms, and rental units for property managers and HOAs. We use value-priced loop carpet built for high traffic and can schedule installs after hours or over a weekend to avoid downtime. Call (619) 777-4334 for a commercial quote.' },
+      { q: 'What carpet works best for San Diego homes with pets and kids?', a: 'Triexta (Mohawk SmartStrand) and stain-treated nylon (Stainmaster, Shaw R2X) are the most pet- and kid-friendly carpets we install in San Diego. Triexta resists pet stains permanently because the stain blocker is part of the fiber. Nylon resists wear in high-traffic rooms. Polyester is fine for guest rooms but wears faster in main-traffic zones.' },
     ],
+    blogSlug: 'cost-to-install-carpet',
   },
   {
     slug: 'vinyl-flooring-san-diego',

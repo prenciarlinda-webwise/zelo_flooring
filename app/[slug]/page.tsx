@@ -110,13 +110,13 @@ function renderLocationPage(location: ReturnType<typeof getLocation>) {
     },
     serviceType: 'Flooring Installation',
     category: 'Flooring Installation',
-    aggregateRating: {
-      '@type': 'AggregateRating',
-      ratingValue: SITE.rating.value,
-      reviewCount: SITE.rating.count,
-      bestRating: 5,
-      worstRating: 1,
-    },
+    // 2026-09-11: aggregateRating was here directly on the Service node. Google's URL
+    // Inspection flagged it as a critical error ("Invalid object type for field
+    // <parent_node>") because Service isn't one of the types Google supports for review
+    // snippet rich results (LocalBusiness, Organization, Product, a few CreativeWork
+    // types). The same rating is already valid structured data via `provider`'s @id
+    // reference to the LocalBusiness node (#business), which carries its own
+    // aggregateRating and validates clean. Removed here rather than duplicated invalidly.
   };
 
   // FAQPage schema mirrors visible FAQ
@@ -190,19 +190,15 @@ function renderServicePage(service: ReturnType<typeof getService>) {
     })),
     serviceType: service.shortName + ' Flooring Installation',
     category: `${service.shortName} Flooring`,
-    aggregateRating: {
-      '@type': 'AggregateRating',
-      ratingValue: SITE.rating.value,
-      reviewCount: SITE.rating.count,
-      bestRating: 5,
-      worstRating: 1,
-    },
-    review: service.reviews.map((r) => ({
-      '@type': 'Review',
-      author: { '@type': 'Person', name: r.name },
-      reviewBody: r.quote,
-      ...(r.datePublished ? { datePublished: r.datePublished } : {}),
-    })),
+    // 2026-09-11: aggregateRating and review were here directly on the Service node.
+    // Same fix as renderLocationPage above — Google's URL Inspection flags aggregateRating
+    // as a critical "Invalid object type for field <parent_node>" error on Service (not a
+    // type Google supports for review snippets), and review markup carries the same type
+    // restriction. Removed both rather than ship known-invalid structured data on all 8
+    // service pages. The rating is still valid via `provider`'s @id reference to the
+    // LocalBusiness node, which carries its own aggregateRating and validates clean; the
+    // reviews themselves are unchanged in the visible page content, only the duplicate
+    // invalid Review markup on this node is gone.
   };
 
   const faqSchema = {
