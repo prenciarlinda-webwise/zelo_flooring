@@ -39,7 +39,6 @@ export default function WhyChooseUs() {
       <div className="container">
         <div className="why-grid">
           <div>
-            <span className="eyebrow">Why Choose Zelo</span>
             <h2>Why Customers Choose Zelo Flooring</h2>
             <p>
               Choosing the right flooring contractor is more important than choosing the floor itself. A bad install will ruin even the best product. We focus on doing it right the first time, with properly prepped subfloors, manufacturer-spec installation, and clean job sites.

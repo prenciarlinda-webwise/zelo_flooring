@@ -144,47 +144,47 @@ export default function BathroomFloorTileIdeasContent() {
       {/* FAQ */}
       <h2 id="faq">Frequently Asked Questions</h2>
 
-      <h3>What is the most popular bathroom floor tile right now?</h3>
+      <h3>What Is the Most Popular Bathroom Floor Tile Right Now?</h3>
       <p>
         Large-format porcelain tile, 12x24 inches or bigger, in a matte finish is the most requested bathroom floor tile in 2026, often in a marble-look or concrete-look pattern. Wood-look porcelain plank is the second most popular choice for homeowners who want warmth without sacrificing water resistance.
       </p>
 
-      <h3>What size tile is best for a small bathroom?</h3>
+      <h3>What Size Tile Is Best for a Small Bathroom?</h3>
       <p>
         Large tile, 12x24 inches or bigger, generally makes a small bathroom look bigger than small tile does, since fewer grout lines create fewer visual stopping points for the eye. Laying the tile in a single continuous direction, rather than a grid pattern, adds to the effect.
       </p>
 
-      <h3>Should bathroom floor tile be matte or glossy?</h3>
+      <h3>Should Bathroom Floor Tile Be Matte or Glossy?</h3>
       <p>
         Matte or low-luster finishes are better for bathroom floors than glossy tile. Matte tile hides water spots and soap scum better, and it has more slip resistance when wet, which matters directly in a room where the floor gets wet daily.
       </p>
 
-      <h3>What tile is best for a shower floor?</h3>
+      <h3>What Tile Is Best for a Shower Floor?</h3>
       <p>
         Small mosaic tile (1x1 or 2x2 inch pieces on mesh sheets) or natural pebble tile is standard for shower floors, since small individual pieces can follow the required 1/4 inch per foot slope toward the drain. Large-format tile is difficult to slope correctly inside a shower pan.
       </p>
 
-      <h3>Is wood-look tile a good choice for a bathroom floor?</h3>
+      <h3>Is Wood-Look Tile a Good Choice for a Bathroom Floor?</h3>
       <p>
         Yes. Wood-look porcelain plank gives the visual warmth of hardwood with full water resistance, which real hardwood cannot offer in a bathroom. It is one of the most requested bathroom floor styles for homeowners who want their bathroom to visually match an adjoining hardwood room.
       </p>
 
-      <h3>How much does bathroom floor tile cost per square foot?</h3>
+      <h3>How Much Does Bathroom Floor Tile Cost Per Square Foot?</h3>
       <p>
         Installed bathroom floor tile typically runs $6 to $9 per square foot for standard ceramic, $9 to $14 for large-format or wood-look porcelain, and $18 to $28 for natural stone like marble or travertine. Costs do not include waterproofing membrane, which adds roughly $200 to $500 to a standard 50 square foot bathroom.
       </p>
 
-      <h3>What grout color is best for a bathroom floor?</h3>
+      <h3>What Grout Color Is Best for a Bathroom Floor?</h3>
       <p>
         Grout matched closely to the tile color minimizes the visual grid and works well in small bathrooms. Gray or greige grout is a practical middle ground that hides dirt better than white grout without the strong contrast of a dark grout against a light tile.
       </p>
 
-      <h3>Is herringbone tile a good idea for a bathroom?</h3>
+      <h3>Is Herringbone Tile a Good Idea for a Bathroom?</h3>
       <p>
         Yes, herringbone remains one of the most requested bathroom floor upgrades in 2026, particularly with wood-look plank tile in primary bathrooms. It costs 15 to 25 percent more in labor than a straight-lay pattern because of the additional angled cuts required at each edge.
       </p>
 
-      <h3>Do I need different tile for the shower pan than the rest of the bathroom floor?</h3>
+      <h3>Do I Need Different Tile for the Shower Pan Than the Rest of the Bathroom Floor?</h3>
       <p>
         Usually yes. Most bathrooms use large-format or wood-look tile on the main floor and a small mosaic or pebble tile inside the shower pan itself, since the smaller tile can follow the slope to the drain that a large rigid tile cannot bend to match.
       </p>

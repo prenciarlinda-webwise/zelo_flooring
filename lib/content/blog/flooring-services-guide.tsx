@@ -177,47 +177,47 @@ export default function FlooringServicesGuideContent() {
       {/* FAQ */}
       <h2 id="faq">Frequently Asked Questions</h2>
 
-      <h3>What is included in flooring installation services?</h3>
+      <h3>What Is Included in Flooring Installation Services?</h3>
       <p>
         Flooring installation services typically include measurement, removal of the existing floor, subfloor preparation and moisture testing, the installation itself, trim and transition work, and cleanup. Acclimation time applies for hardwood and some laminate products before installation begins.
       </p>
 
-      <h3>How much do flooring services cost?</h3>
+      <h3>How Much Do Flooring Services Cost?</h3>
       <p>
         Flooring services cost $2 to $15 or more per square foot installed depending on material, ranging from budget laminate at the low end to premium hardwood at the high end. Most single-room projects fall between $1,500 and $4,500 total.
       </p>
 
-      <h3>How long do flooring services take?</h3>
+      <h3>How Long Do Flooring Services Take?</h3>
       <p>
         Most flooring services take 1 to 3 days for a typical room. Hardwood takes longer, 1 to 2 weeks, because of the 5 to 7 day acclimation period. Commercial projects like VCT retrofits run 4 to 7 days depending on square footage.
       </p>
 
-      <h3>What should I ask a flooring company before hiring them</h3>
+      <h3>What Should I Ask a Flooring Company Before Hiring Them?</h3>
       <p>
         Ask for their CSLB license number, an itemized written quote, whether moisture testing is included on slab jobs, what warranty applies to labor versus material, and whether they bring physical samples to your home before you commit to a product.
       </p>
 
-      <h3>Do flooring services include removing the old floor?</h3>
+      <h3>Do Flooring Services Include Removing the Old Floor?</h3>
       <p>
         Most flooring services include removal and disposal of the old flooring as a line item, but confirm this in writing. Some low-bid quotes exclude removal and add it back later as a change order, which can add $1 to $2 per square foot.
       </p>
 
-      <h3>Is it cheaper to buy flooring materials myself?</h3>
+      <h3>Is It Cheaper to Buy Flooring Materials Myself?</h3>
       <p>
         Sometimes, but contractor pricing on materials is often close to retail once volume discounts are factored in, and a contractor-supplied product comes with a labor warranty tied to correct installation. Supplying your own material can also void manufacturer warranties if it is installed incorrectly.
       </p>
 
-      <h3>What is the difference between residential and commercial flooring services?</h3>
+      <h3>What Is the Difference Between Residential and Commercial Flooring Services?</h3>
       <p>
         Residential flooring services prioritize comfort and appearance for homes. Commercial flooring services prioritize durability, code compliance, and minimal downtime for schools, healthcare facilities, and retail spaces, often using products like VCT and commercial-grade rubber built for continuous heavy foot traffic.
       </p>
 
-      <h3>How many quotes should I get for a flooring project?</h3>
+      <h3>How Many Quotes Should I Get for a Flooring Project?</h3>
       <p>
         Get 2 to 3 written, itemized quotes for any flooring project over $3,000. Compare material specs, labor breakdowns, and what is and is not included, not just the bottom-line total.
       </p>
 
-      <h3>Do I need to move furniture before flooring installation?</h3>
+      <h3>Do I Need to Move Furniture Before Flooring Installation?</h3>
       <p>
         Most flooring services expect the homeowner to clear small items and breakables, while movers or the crew handle furniture, sometimes for an additional fee. Confirm this with your contractor before install day so nothing is a surprise.
       </p>

@@ -3,7 +3,6 @@ import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import LeadFormHero from '@/components/LeadFormHero';
 import ServiceBreakdown from '@/components/ServiceBreakdown';
-import IndustryStats from '@/components/IndustryStats';
 import ServiceReviews from '@/components/ServiceReviews';
 import CouponsBlock from '@/components/CouponsBlock';
 import FaqList from '@/components/FaqList';
@@ -135,6 +134,7 @@ function renderLocationPage(location: ReturnType<typeof getLocation>) {
     '@context': 'https://schema.org',
     '@type': 'WebPage',
     '@id': `${SITE.url}/${location.slug}/#webpage`,
+    dateModified: location.lastUpdated,
     speakable: {
       '@type': 'SpeakableSpecification',
       cssSelector: ['.aeo-answer-text', '.aeo-keyfacts', '.faq-list .faq-q', '.faq-list .faq-body'],
@@ -238,6 +238,47 @@ function renderServicePage(service: ReturnType<typeof getService>) {
         defaultProjectType={service.shortName}
       />
 
+      {/* 2026-09-13 reorg: sub-services breakdown and the local trust/map block now lead,
+          right after the hero, mirroring the same "what we offer, then where we are" order
+          just applied to the location pages (see LocationPage.tsx and CLAUDE.md). Everything
+          else keeps its prior relative order below. */}
+      <ServiceBreakdown
+        eyebrow={`${service.shortName} Services`}
+        heading={local?.headers.subServicesH2 || `${service.shortName} Services We Offer`}
+        subheading={`Each ${service.shortName.toLowerCase()} install we do, broken down. Tap any service to request a quote.`}
+        items={service.subServices}
+        blogLink={service.blogSlug ? { href: `/blog/${service.blogSlug}`, label: `${service.shortName} pricing and buying guide` } : undefined}
+      />
+
+      {/* TRUST + EMBEDDED MAP */}
+      <section className="section section-cream">
+        <div className="container">
+          <div className="trust-local-block">
+            <div className="trust-local-text">
+              <h3>{local?.headers.trustH3}</h3>
+              {local && local.localTrustParagraphs.map((p, i) => (
+                <p key={i}>{p}</p>
+              ))}
+              <p>
+                Phone: <a href={`tel:${SITE.phoneRaw}`}>{SITE.phone}</a>
+              </p>
+              <p className="trust-local-address">
+                {SITE.address}
+              </p>
+            </div>
+            <div className="trust-local-map">
+              <iframe
+                title={`Zelo Flooring office location, ${SITE.city}, ${SITE.region}`}
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d429158.4382376207!2d-117.43896549701864!3d32.82405591700714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4579afeb4521caf3%3A0x8ce37c4ae7b6778f!2sZelo%20Flooring!5e0!3m2!1sen!2s!4v1783763905235!5m2!1sen!2s"
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                allowFullScreen
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
       {local && (
         <section className="section section-cream">
           <div className="container">
@@ -245,10 +286,10 @@ function renderServicePage(service: ReturnType<typeof getService>) {
               <p className="aeo-answer-text"><LinkifyPhone text={local.aeoCostAnswer} /></p>
 
               <ul className="aeo-keyfacts">
-                <li><strong>Service area:</strong> {SITE.city}, {SITE.region} ({MAIN_LOCATION.county})</li>
-                <li><strong>Licensed:</strong> CSLB {SITE.licenseDetails.classification} #{SITE.license}</li>
-                <li><strong>Free in-home estimate:</strong> Yes, samples brought to you</li>
-                <li><strong>Owner experience:</strong> {SITE.ownerExperienceYears}+ years of journeyman flooring</li>
+                <li><CheckIcon size={14} /><span>Serving {SITE.city}, {SITE.region} and {MAIN_LOCATION.county}</span></li>
+                <li><CheckIcon size={14} /><span>CSLB licensed, {SITE.licenseDetails.classification} #{SITE.license}</span></li>
+                <li><CheckIcon size={14} /><span>Free in-home estimates, samples brought to you</span></li>
+                <li><CheckIcon size={14} /><span>{SITE.ownerExperienceYears}+ years of journeyman flooring experience</span></li>
               </ul>
             </div>
           </div>
@@ -270,7 +311,6 @@ function renderServicePage(service: ReturnType<typeof getService>) {
                 mechanics as the homepage blog-guides-slider), so any photo count just
                 scrolls — nothing to leave empty. */}
             <div className="alt-text" style={{ maxWidth: '75ch', margin: '0 auto' }}>
-              <span className="eyebrow">{service.shortName} in San Diego</span>
               <h2>{local.headers.cityContextH2}</h2>
               {local.cityContext.map((p, i) => (
                 <p key={i}>{p}</p>
@@ -303,14 +343,6 @@ function renderServicePage(service: ReturnType<typeof getService>) {
         </section>
       )}
 
-      <ServiceBreakdown
-        eyebrow={`${service.shortName} Services`}
-        heading={local?.headers.subServicesH2 || `${service.shortName} Services We Offer`}
-        subheading={`Each ${service.shortName.toLowerCase()} install we do, broken down. Tap any service to request a quote.`}
-        items={service.subServices}
-        blogLink={service.blogSlug ? { href: `/blog/${service.blogSlug}`, label: `${service.shortName} pricing and buying guide` } : undefined}
-      />
-
       {local && (
         <section className="section section-cream">
           <div className="container">
@@ -331,48 +363,12 @@ function renderServicePage(service: ReturnType<typeof getService>) {
       <section className="section">
         <div className="container">
           <div className="section-header center">
-            <span className="eyebrow">FAQ</span>
             <h2>{local?.headers.faqH2 || `San Diego ${service.shortName} FAQs Answered`}</h2>
             <p>Common questions San Diego homeowners ask about {service.shortName.toLowerCase()} installation.</p>
           </div>
           <FaqList items={service.faqs} includeSchema={false} />
         </div>
       </section>
-
-      {/* TRUST + EMBEDDED MAP */}
-      <section className="section section-cream">
-        <div className="container">
-          <div className="trust-local-block">
-            <div className="trust-local-text">
-              <h3>{local?.headers.trustH3}</h3>
-              {local && local.localTrustParagraphs.map((p, i) => (
-                <p key={i}>{p}</p>
-              ))}
-              <p>
-                Phone: <a href={`tel:${SITE.phoneRaw}`}>{SITE.phone}</a>
-              </p>
-              <p className="trust-local-address">
-                {SITE.address}
-              </p>
-            </div>
-            <div className="trust-local-map">
-              <iframe
-                title={`Zelo Flooring office location, ${SITE.city}, ${SITE.region}`}
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d429158.4382376207!2d-117.43896549701864!3d32.82405591700714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4579afeb4521caf3%3A0x8ce37c4ae7b6778f!2sZelo%20Flooring!5e0!3m2!1sen!2s!4v1783763905235!5m2!1sen!2s"
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-                allowFullScreen
-              />
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <IndustryStats
-        eyebrow="By the Numbers"
-        heading="Industry Standards We Follow"
-        stats={service.stats}
-      />
 
       <ServiceReviews
         eyebrow="Customer Reviews"
@@ -384,7 +380,6 @@ function renderServicePage(service: ReturnType<typeof getService>) {
       <section className="section section-cream">
         <div className="container">
           <div className="section-header center">
-            <span className="eyebrow">Other Flooring Services</span>
             <h2>Other Flooring We Install In San Diego</h2>
             <p>Eight flooring categories, all installed by the same Zelo team. Tap any service for details, brands, and project guidance.</p>
           </div>
@@ -408,7 +403,6 @@ function renderServicePage(service: ReturnType<typeof getService>) {
       <section className="section">
         <div className="container">
           <div className="section-header center">
-            <span className="eyebrow">Service Area</span>
             <h2>Neighborhoods We Serve In San Diego</h2>
             <p>Free in-home estimates across the City of San Diego and surrounding county.</p>
           </div>

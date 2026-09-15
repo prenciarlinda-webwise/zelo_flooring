@@ -283,32 +283,32 @@ export default function PolyesterVsNylonCarpetContent() {
       {/* FAQ */}
       <h2 id="faq">Frequently Asked Questions</h2>
 
-      <h3>Is nylon or polyester carpet better for pets?</h3>
+      <h3>Is Nylon or Polyester Carpet Better for Pets?</h3>
       <p>
         Neither is ideal on its own. Nylon is more durable but needs topical stain treatment that wears off. Polyester resists water-based stains but crushes under traffic. For pets, triexta (SmartStrand) is the best choice because it combines permanent stain resistance with good durability. If you must choose between nylon and polyester only, nylon is the better pick because its durability and cleanability outweigh polyester's stain resistance advantage.
       </p>
 
-      <h3>Why is nylon carpet more expensive than polyester?</h3>
+      <h3>Why Is Nylon Carpet More Expensive Than Polyester?</h3>
       <p>
         Nylon costs more to manufacture because the raw polymer is more complex to produce and the fiber engineering for resilience requires tighter quality control. Type 6,6 nylon is especially expensive because of the dual polymer process. The price difference is typically $1.50 to $2.50 per square foot at retail, which adds up to $300 to $500 per average room.
       </p>
 
-      <h3>How long does polyester carpet last?</h3>
+      <h3>How Long Does Polyester Carpet Last?</h3>
       <p>
         Polyester carpet lasts 5 to 10 years depending on traffic. In low-traffic bedrooms, a quality polyester can look good for 8 to 10 years. In living rooms, hallways, and stairs, expect 3 to 5 years before noticeable crushing and matting appear. Once polyester fibers crush, there is no way to restore them.
       </p>
 
-      <h3>Can you tell the difference between nylon and polyester carpet by touch?</h3>
+      <h3>Can You Tell the Difference Between Nylon and Polyester Carpet by Touch?</h3>
       <p>
         Yes, usually. Polyester feels noticeably silkier and softer than nylon of the same pile style. Nylon feels slightly coarser but also springier when you press into it. An experienced carpet installer or salesperson can identify the fiber by touch alone. If you are shopping for carpet, feel both fibers side by side and the difference is obvious.
       </p>
 
-      <h3>Is solution-dyed nylon better than regular nylon?</h3>
+      <h3>Is Solution-Dyed Nylon Better Than Regular Nylon?</h3>
       <p>
         Solution-dyed nylon has the color added during fiber production rather than after. This makes it extremely fade resistant and also resistant to bleach and harsh chemicals, which is useful if you need to clean pet stains with strong cleaners. It costs 10 to 20 percent more than standard dyed nylon but is worth it for pet households and sun-exposed rooms.
       </p>
 
-      <h3>Should I get polyester carpet for my whole house?</h3>
+      <h3>Should I Get Polyester Carpet for My Whole House?</h3>
       <p>
         Only if you are on a strict budget and understand the trade-offs. Polyester is fine for bedrooms, guest rooms, and low-traffic spaces. But in living rooms, hallways, and stairs, it will show wear much sooner than nylon. A smarter approach is to use nylon in high-traffic areas and polyester in bedrooms to balance cost and durability across the whole home.
       </p>

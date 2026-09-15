@@ -177,42 +177,42 @@ export default function RigidCoreVsWpcVinylPlankContent() {
       {/* FAQ */}
       <h2 id="faq">Frequently Asked Questions</h2>
 
-      <h3>What is the difference between SPC and WPC vinyl plank?</h3>
+      <h3>What Is the Difference Between SPC and WPC Vinyl Plank?</h3>
       <p>
         SPC (stone polymer composite) uses a dense core of crushed limestone powder, PVC, and stabilizers, making it rigid and highly stable. WPC (wood polymer composite) uses a foamed core of PVC and wood or bamboo fiber, making it thicker, softer, and quieter underfoot but more prone to thermal expansion.
       </p>
 
-      <h3>Is WPC or SPC more waterproof?</h3>
+      <h3>Is WPC or SPC More Waterproof?</h3>
       <p>
         Both are equally waterproof at the surface as long as the seams are properly locked or glued. Neither core material is submerged in water during normal use, since the printed layer and wear layer seal the top and the seams seal the edges. Waterproof rating does not favor one core over the other.
       </p>
 
-      <h3>Which is more durable, SPC or WPC?</h3>
+      <h3>Which Is More Durable, SPC or WPC?</h3>
       <p>
         SPC is more dimensionally stable and resists dents from heavy furniture better due to its denser core. WPC's scratch and dent resistance depends mostly on its wear layer thickness rather than the core itself. For high-traffic, high-impact rooms, SPC with a 20 mil wear layer typically outperforms WPC with the same wear layer rating.
       </p>
 
-      <h3>Does WPC feel softer than SPC?</h3>
+      <h3>Does WPC Feel Softer Than SPC?</h3>
       <p>
         Yes. WPC's foamed core gives it a noticeably softer, warmer feel underfoot compared to SPC, which feels harder and closer to stone or tile. WPC also tends to sound quieter when walked on, which is why it is popular in bedrooms and upper-floor installs.
       </p>
 
-      <h3>Can I install SPC or WPC over a concrete slab?</h3>
+      <h3>Can I Install SPC or WPC Over a Concrete Slab?</h3>
       <p>
         Yes, both can go over a slab once it passes a moisture test and meets flatness requirements (typically 3/16 inch over 10 feet). SPC is the more stable choice for slab installs, especially in rooms with direct sun exposure, since its lower thermal expansion reduces the risk of peaking at the seams.
       </p>
 
-      <h3>Which is better for a bathroom, SPC or WPC?</h3>
+      <h3>Which Is Better for a Bathroom, SPC or WPC?</h3>
       <p>
         SPC is the better choice for a bathroom floor outside the shower pan area. Its rigid, low-expansion core handles the humidity swings and splash exposure of a bathroom slightly better than WPC, though both are viable as long as the perimeter is sealed and the shower itself uses tile.
       </p>
 
-      <h3>Is WPC more expensive than SPC?</h3>
+      <h3>Is WPC More Expensive Than SPC?</h3>
       <p>
         Yes, WPC typically costs $1.00 to $1.50 more per square foot installed than SPC, running $5.00 to $9.50 per square foot installed compared to $4.00 to $8.00 for SPC, mainly due to the extra material used in the thicker foamed core.
       </p>
 
-      <h3>Which lasts longer, SPC or WPC?</h3>
+      <h3>Which Lasts Longer, SPC or WPC?</h3>
       <p>
         Lifespan depends more on the wear layer than the core type. A 20 mil wear layer on either SPC or WPC typically lasts 15 to 20 years with normal residential use. SPC has a slight edge in long-term dimensional stability, meaning it is less likely to develop gaps or peaking over decades in a slab home.
       </p>

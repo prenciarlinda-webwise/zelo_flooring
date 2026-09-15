@@ -266,52 +266,52 @@ export default function LvpVsHardwoodContent() {
       {/* FAQ */}
       <h2 id="faq">Frequently Asked Questions</h2>
 
-      <h3>Is LVP as good as hardwood?</h3>
+      <h3>Is LVP as Good as Hardwood?</h3>
       <p>
         LVP is better than hardwood for water resistance and maintenance ease. Hardwood is better for appearance, resale value, and longevity. Neither is universally "better" - it depends on where you are installing it and what matters most to you.
       </p>
 
-      <h3>Does LVP decrease home value?</h3>
+      <h3>Does LVP Decrease Home Value?</h3>
       <p>
         LVP does not decrease home value, but it does not increase it the way hardwood does. Real estate agents consistently report that homes with hardwood floors sell faster and for higher prices than homes with vinyl plank. LVP is seen as a neutral or slightly positive feature. Hardwood is a selling point.
       </p>
 
-      <h3>Can you tell the difference between LVP and hardwood?</h3>
+      <h3>Can You Tell the Difference Between LVP and Hardwood?</h3>
       <p>
         In photos, no. In person, usually yes. LVP has a uniform feel and a slightly plastic look when viewed at an angle. Hardwood has natural grain variation, a warmer feel underfoot, and a depth that synthetic products cannot fully replicate. The gap is closing, but it still exists.
       </p>
 
-      <h3>How long does LVP last compared to hardwood?</h3>
+      <h3>How Long Does LVP Last Compared to Hardwood?</h3>
       <p>
         Quality LVP lasts 15 to 25 years before it needs replacement. Engineered hardwood lasts 25 to 50 years and can be refinished to extend its life further. Solid hardwood can last 50 to 100 years with proper care and multiple refinishings.
       </p>
 
-      <h3>Is LVP good for dogs and pets?</h3>
+      <h3>Is LVP Good for Dogs and Pets?</h3>
       <p>
         Yes. LVP is one of the best flooring choices for homes with pets. The wear layer resists scratches from claws better than hardwood, it is waterproof against accidents, and it is easy to clean. Hardwood shows pet scratches more readily and can be damaged by urine if not cleaned up quickly.
       </p>
 
-      <h3>Can you put LVP over hardwood floors?</h3>
+      <h3>Can You Put LVP Over Hardwood Floors?</h3>
       <p>
         Technically yes, you can float LVP over existing hardwood if the hardwood is flat, stable, and in reasonable condition. However, we generally do not recommend it. You are covering a valuable floor with a less valuable one. If your hardwood is damaged, refinishing it is usually a better investment than covering it with vinyl.
       </p>
 
-      <h3>Which is easier to install, LVP or hardwood?</h3>
+      <h3>Which Is Easier to Install, LVP or Hardwood?</h3>
       <p>
         LVP is significantly easier to install. Click-lock LVP floats over the subfloor with no glue or nails, and most rooms can be completed in a few hours. Hardwood installation requires more skill, more tools, and more time, whether it is being floated, glued, or nailed down.
       </p>
 
-      <h3>Should I put LVP in my whole house?</h3>
+      <h3>Should I Put LVP in My Whole House?</h3>
       <p>
         You can, and many homeowners do. LVP throughout is a practical, budget-friendly choice that looks cohesive and requires minimal maintenance. But if your budget allows, putting hardwood in the main living areas and LVP in wet areas gives you the best combination of appearance, practicality, and value.
       </p>
 
-      <h3>What is the rule of 3 in flooring?</h3>
+      <h3>What Is the Rule of 3 in Flooring?</h3>
       <p>
         The "rule of 3" is the design guideline that limits a home to no more than three different flooring types across the main living spaces (carpet, hardwood, tile, LVP, etc.). Mixing more than three reads chaotic. The hardwood-plus-LVP-plus-tile combination is the most common 3-floor scheme; carpet for bedrooms is often the fourth, kept separate from public areas.
       </p>
 
-      <h3>What flooring is trending for 2026?</h3>
+      <h3>What Flooring Is Trending for 2026?</h3>
       <p>
         Three trends define 2026: warm-toned wide-plank engineered hardwood (white oak in particular), wood-look porcelain plank tile in bathrooms and entryways, and rigid-core SPC vinyl plank with thicker (20+ mil) wear layers for pet households. Gray hardwood is fading. Cool-toned LVP is being replaced by warmer browns and oats.
       </p>

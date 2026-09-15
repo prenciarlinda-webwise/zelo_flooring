@@ -23,7 +23,6 @@ export default function ServiceAreasPage() {
       <section className="section">
         <div className="container">
           <div className="section-header center">
-            <span className="eyebrow">Where We Work</span>
             <h2>Cities &amp; Communities We Serve</h2>
             <p>We install flooring throughout San Diego County, from the coast to inland communities.</p>
           </div>

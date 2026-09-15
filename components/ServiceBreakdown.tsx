@@ -19,7 +19,6 @@ export default function ServiceBreakdown({ eyebrow, heading, subheading, items, 
     <section className="section">
       <div className="container">
         <div className="section-header center">
-          {eyebrow && <span className="eyebrow">{eyebrow}</span>}
           <h2>{heading}</h2>
           {subheading && <p>{subheading}</p>}
         </div>

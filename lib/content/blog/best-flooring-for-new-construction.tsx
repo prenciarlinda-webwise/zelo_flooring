@@ -107,42 +107,42 @@ export default function BestFlooringForNewConstructionContent() {
 
       <h2 id="faq">Frequently Asked Questions</h2>
 
-      <h3>What flooring is best for a brand new house?</h3>
+      <h3>What Flooring Is Best for a Brand New House?</h3>
       <p>
         Rigid-core luxury vinyl plank is the best all-round flooring for a brand new house because it tolerates residual slab moisture better than wood or laminate and holds up well to move-in traffic. Engineered hardwood is a strong choice for main living areas once a moisture test confirms the slab is dry enough.
       </p>
 
-      <h3>How long should a new slab dry before flooring goes down?</h3>
+      <h3>How Long Should a New Slab Dry Before Flooring Goes Down?</h3>
       <p>
         Most concrete slabs need 60 to 90 days or more to dry enough for wood or laminate flooring, though the only reliable way to know is a calcium chloride or relative humidity probe test on the actual slab. Rigid-core LVP is more forgiving and can often go down sooner if a full moisture test is not yet complete.
       </p>
 
-      <h3>Can you install hardwood floors in new construction?</h3>
+      <h3>Can You Install Hardwood Floors in New Construction?</h3>
       <p>
         Yes, but only after the slab passes a moisture test and with a proper vapor barrier in place. Engineered hardwood is the safer choice over solid hardwood in new construction because its layered core handles the moisture swings of a curing slab better.
       </p>
 
-      <h3>Is builder-grade flooring worth upgrading?</h3>
+      <h3>Is Builder-Grade Flooring Worth Upgrading?</h3>
       <p>
         Usually, yes. Builder-grade flooring is typically chosen to hit a $2 to $4 per square foot allowance, not to last decades. Upgrading before move-in, while the home is empty and easy to access, is almost always less expensive and less disruptive than replacing it after you are living there.
       </p>
 
-      <h3>Should flooring be installed before or after cabinets?</h3>
+      <h3>Should Flooring Be Installed Before or After Cabinets?</h3>
       <p>
         Cabinets are typically installed before flooring. This protects the finished floor from damage during cabinet installation and avoids paying to cover square footage that will sit under cabinet toe-kicks. Flooring then goes down before baseboards and trim so the trim hides the expansion gap.
       </p>
 
-      <h3>What flooring do most builders use as standard?</h3>
+      <h3>What Flooring Do Most Builders Use as Standard?</h3>
       <p>
         Most production builders include entry-level carpet in bedrooms and a thin laminate or sheet vinyl in other rooms as their standard, base-price flooring allowance. It is functional but not built for long-term durability, which is why most buyers choose to upgrade before or shortly after closing.
       </p>
 
-      <h3>Does upgrading flooring in new construction add resale value?</h3>
+      <h3>Does Upgrading Flooring in New Construction Add Resale Value?</h3>
       <p>
         Yes. Engineered hardwood and quality rigid-core LVP both read as upgrades to buyers and appraisers compared to builder-grade carpet or thin laminate. Hardwood in particular tends to hold its value best over time, similar to what we see in resale data for existing San Diego homes.
       </p>
 
-      <h3>How do I know if my new home's slab is dry enough for flooring?</h3>
+      <h3>How Do I Know If My New Home's Slab Is Dry Enough for Flooring?</h3>
       <p>
         Ask for a calcium chloride test result under 3 lbs per 1,000 sqft per 24 hours, or a relative humidity probe reading under 75%. Both are standard, inexpensive tests that any qualified flooring contractor can run before installation begins.
       </p>

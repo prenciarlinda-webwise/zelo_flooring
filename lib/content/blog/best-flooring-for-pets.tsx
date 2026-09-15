@@ -295,32 +295,32 @@ export default function BestFlooringForPetsContent() {
       {/* FAQ */}
       <h2 id="faq">Frequently Asked Questions</h2>
 
-      <h3>What is the most scratch resistant flooring for dogs?</h3>
+      <h3>What Is the Most Scratch Resistant Flooring for Dogs?</h3>
       <p>
         Porcelain tile is the most scratch resistant flooring available. No dog nail can scratch it. LVP with a 20 mil or thicker wear layer is the next best option and is more comfortable for dogs to walk and lie on.
       </p>
 
-      <h3>Is LVP or laminate better for dogs?</h3>
+      <h3>Is LVP or Laminate Better for Dogs?</h3>
       <p>
         LVP is better for dogs than laminate. LVP is fully waterproof and handles pet accidents without damage. Laminate can swell at the seams if moisture sits on it. LVP also has a slightly softer surface that is more comfortable for pets.
       </p>
 
-      <h3>Does pet urine ruin hardwood floors?</h3>
+      <h3>Does Pet Urine Ruin Hardwood Floors?</h3>
       <p>
         Yes. Pet urine penetrates hardwood finishes and causes dark staining in the wood grain. Once urine reaches the wood itself, the stain is permanent and can only be removed by sanding deeply or replacing the affected boards. This is why we recommend LVP or tile over hardwood for pet homes.
       </p>
 
-      <h3>What carpet is best for homes with cats?</h3>
+      <h3>What Carpet Is Best for Homes with Cats?</h3>
       <p>
         Triexta (SmartStrand) carpet in a low, dense cut-pile style is the best carpet for cat owners. It resists staining from hairballs and accidents, does not snag easily from claws, and vacuums easily to remove cat hair. Avoid loop carpet, which cats love to pull and snag.
       </p>
 
-      <h3>How do I protect my floors from dog nails?</h3>
+      <h3>How Do I Protect My Floors from Dog Nails?</h3>
       <p>
         Keep nails trimmed every 2 to 3 weeks, use nail caps for large dogs, place rugs in high-traffic areas, and choose flooring with high scratch resistance. LVP with a 20 mil wear layer and porcelain tile are the most forgiving surfaces for dog nails.
       </p>
 
-      <h3>Is waterproof flooring really necessary with pets?</h3>
+      <h3>Is Waterproof Flooring Really Necessary with Pets?</h3>
       <p>
         If you have puppies, senior pets, or any animal that has occasional accidents, waterproof flooring will save you from costly damage. Even well-trained adult pets can have unexpected accidents due to illness. Waterproof flooring like LVP or tile gives you peace of mind that a single accident will not cause permanent damage.
       </p>

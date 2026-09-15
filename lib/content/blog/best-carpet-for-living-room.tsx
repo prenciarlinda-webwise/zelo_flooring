@@ -327,62 +327,62 @@ export default function BestCarpetForLivingRoomContent() {
       {/* FAQ */}
       <h2 id="faq">Frequently Asked Questions</h2>
 
-      <h3>What is the most durable carpet for a living room?</h3>
+      <h3>What Is the Most Durable Carpet for a Living Room?</h3>
       <p>
         Nylon carpet with a face weight of 40 oz or higher and a twist level above 5.0 is the most durable option for living rooms. Brands like Shaw Anso nylon and Mohawk Continuum nylon are specifically engineered for high-traffic residential use and carry 15 to 25 year wear warranties.
       </p>
 
-      <h3>Is carpet a good choice for a living room?</h3>
+      <h3>Is Carpet a Good Choice for a Living Room?</h3>
       <p>
         Yes. Carpet is still one of the best flooring options for living rooms because it absorbs sound, feels warm underfoot, and provides cushion for sitting and playing on the floor. The key is choosing the right fiber and pile type for your household's traffic level. A quality nylon or triexta carpet in a living room lasts 10 to 15 years.
       </p>
 
-      <h3>What is the best carpet for bedrooms?</h3>
+      <h3>What Is the Best Carpet for Bedrooms?</h3>
       <p>
         The <strong>best carpet for bedrooms</strong> is typically a soft plush or frieze in polyester or triexta. Bedrooms get lighter traffic than living rooms, so the extra durability of nylon is not always necessary. A 30 to 40 oz polyester plush gives you a luxuriously soft feel for a lower cost. Triexta is worth the upgrade if you want stain resistance for kids' bedrooms.
       </p>
 
-      <h3>What carpet type is best for high traffic areas?</h3>
+      <h3>What Carpet Type Is Best for High Traffic Areas?</h3>
       <p>
         For <strong>carpet types for high traffic</strong> areas, choose nylon fiber in a frieze or textured cut pile. The tight twist of frieze carpet hides wear patterns, and nylon's natural resilience means it bounces back after being compressed. Face weight should be 40 oz or higher, and always pair it with an 8 lb density pad.
       </p>
 
-      <h3>How much does living room carpet cost?</h3>
+      <h3>How Much Does Living Room Carpet Cost?</h3>
       <p>
         Living room carpet costs $1,400 to $2,300 for a typical 16x20 room (320 square feet) with mid-range nylon, professional installation, 8 lb pad, removal, and disposal included. Budget polyester brings the total down to $960 to $1,440. Premium triexta or wool pushes it to $2,500 to $3,500 or more.
       </p>
 
-      <h3>Should I get light or dark carpet for my living room?</h3>
+      <h3>Should I Get Light or Dark Carpet for My Living Room?</h3>
       <p>
         Neither extreme works well for living rooms. Light carpet shows every stain and dirty footprint. Dark carpet shows lint, dust, and pet hair. Medium tones like warm gray, taupe, and greige are the most forgiving and look clean the longest between vacuuming.
       </p>
 
-      <h3>How long does living room carpet last?</h3>
+      <h3>How Long Does Living Room Carpet Last?</h3>
       <p>
         Quality nylon or triexta carpet in a living room lasts 10 to 15 years with regular vacuuming and professional cleaning every 12 to 18 months. Polyester lasts 5 to 7 years in a living room before it starts matting and looking worn. Wool carpet in a low-traffic formal living room can last 15 to 25 years.
       </p>
 
-      <h3>Can I put berber carpet in my living room?</h3>
+      <h3>Can I Put Berber Carpet in My Living Room?</h3>
       <p>
         You can, but it is not the best choice if you have pets. Loop pile carpet (berber) is durable and hides dirt well, but pet claws can snag and pull the loops, causing runs that are impossible to repair without replacing the carpet. If you want a similar look without the snag risk, choose a tight textured cut pile instead.
       </p>
 
-      <h3>What is the best carpet brand for a living room?</h3>
+      <h3>What Is the Best Carpet Brand for a Living Room?</h3>
       <p>
         Mohawk SmartStrand and Stainmaster PetProtect are the two most-installed living room brands, both for stain resistance and warranty depth. Karastan SmartStrand Reserve and wool blends are the premium step up. Shaw Anso nylon is a strong nylon option with a 25-year wear warranty. There is no single "best" brand for everyone; pick the brand whose specific living-room line matches the face weight, density, and color palette you actually want.
       </p>
 
-      <h3>How do I choose a carpet color for my living room?</h3>
+      <h3>How Do I Choose a Carpet Color for My Living Room?</h3>
       <p>
         Pick a medium-tone warm neutral (beige, taupe, mushroom, soft brown) for the longest-lasting look. Avoid very light carpet (shows dirt) and very dark carpet (shows lint and pet hair). Subtle fleck or multicolor variation hides everyday wear better than solid colors. Bring full-size samples home and view them under your real lighting (morning, afternoon, and evening) before committing.
       </p>
 
-      <h3>What is the best carpet for a high-traffic family room?</h3>
+      <h3>What Is the Best Carpet for a High-Traffic Family Room?</h3>
       <p>
         Nylon or triexta with 40 oz+ face weight, a density rating of 2,000+, and a frieze or patterned cut-loop pile. Pair it with an 8 lb minimum pad. The Shaw Anso Caress and Mohawk SmartStrand Forever Clean are two specific lines designed for this scenario. Avoid plush in family rooms; it shows every footprint.
       </p>
 
-      <h3>Should I install wall-to-wall carpet or use an area rug?</h3>
+      <h3>Should I Install Wall-to-Wall Carpet or Use an Area Rug?</h3>
       <p>
         Wall-to-wall is warmer, quieter, and visually unified. Area rugs let you mix carpet with hardwood or LVP and update the look more easily. If you go with an area rug, size it so the front legs of every seating piece sit on the rug. Most homeowners with kids and pets in the living room are happier with wall-to-wall because spills and pet messes do not run off onto the hard floor underneath.
       </p>

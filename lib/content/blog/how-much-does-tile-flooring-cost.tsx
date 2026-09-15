@@ -192,42 +192,42 @@ export default function HowMuchDoesTileFlooringCostContent() {
       {/* FAQ */}
       <h2 id="faq">Frequently Asked Questions</h2>
 
-      <h3>How much does tile flooring cost per square foot in 2026?</h3>
+      <h3>How Much Does Tile Flooring Cost Per Square Foot in 2026?</h3>
       <p>
         Tile flooring costs $4 to $25 per square foot fully installed in 2026, depending on tile type. Ceramic runs $4 to $8 per square foot, porcelain runs $6 to $14, and natural stone runs $10 to $25 per square foot.
       </p>
 
-      <h3>Is porcelain tile more expensive than ceramic tile?</h3>
+      <h3>Is Porcelain Tile More Expensive Than Ceramic Tile?</h3>
       <p>
         Yes. Porcelain typically costs $2 to $6 per square foot more than ceramic installed, since it is denser, more water-resistant, and requires slightly more careful handling during installation. Porcelain's water absorption rate stays under 0.5 percent compared to 3 to 7 percent for ceramic, which is why it holds up better in bathrooms and kitchens.
       </p>
 
-      <h3>How much does it cost to tile a bathroom floor?</h3>
+      <h3>How Much Does It Cost to Tile a Bathroom Floor?</h3>
       <p>
         A standard 50 square foot bathroom costs $400 to $1,250 to tile, including a waterproofing membrane. Porcelain runs $8 to $18 per square foot installed in a bathroom, and natural stone runs $12 to $25 per square foot.
       </p>
 
-      <h3>Is natural stone tile worth the extra cost?</h3>
+      <h3>Is Natural Stone Tile Worth the Extra Cost?</h3>
       <p>
         It depends on the room and your priorities. Natural stone offers a higher-end look that porcelain cannot fully replicate, but it costs $4 to $11 more per square foot than porcelain and needs resealing every 1 to 2 years. For most bathrooms and kitchens, wood-look or stone-look porcelain delivers a similar look with less long-term maintenance.
       </p>
 
-      <h3>How much does labor cost to install tile flooring?</h3>
+      <h3>How Much Does Labor Cost to Install Tile Flooring?</h3>
       <p>
         Labor alone runs $4 to $8 per square foot for a straight-lay installation in California. Herringbone or basketweave patterns add $2 to $4 per square foot in labor, and large-format tile (16x32 and larger) adds $1 to $3 per square foot for the flatter substrate it requires.
       </p>
 
-      <h3>How much does it cost to tile a kitchen floor?</h3>
+      <h3>How Much Does It Cost to Tile a Kitchen Floor?</h3>
       <p>
         A 200 square foot kitchen typically costs $1,200 to $3,400 to tile, depending on whether you choose ceramic, porcelain, or natural stone. Kitchens usually do not need a full waterproofing membrane, but backer board and self-leveling compound may still be required.
       </p>
 
-      <h3>How much does it cost to tile an outdoor patio?</h3>
+      <h3>How Much Does It Cost to Tile an Outdoor Patio?</h3>
       <p>
         Frost-resistant porcelain pavers run $10 to $22 per square foot installed outdoors, and natural stone pavers run $15 to $30 per square foot including sealing. Outdoor tile needs a mortar bed sloped 1/4 inch per foot to drain, which adds labor compared to an indoor floor.
       </p>
 
-      <h3>Can tile be installed over an existing floor?</h3>
+      <h3>Can Tile Be Installed Over an Existing Floor?</h3>
       <p>
         Sometimes, if the existing floor is flat, well-bonded, and not already tile with failed grout or hollow spots. In most cases we recommend removing the old flooring down to the subfloor so the new tile bonds to a clean, rigid surface, since tiling over a failing floor usually just telegraphs the same cracks into the new tile.
       </p>

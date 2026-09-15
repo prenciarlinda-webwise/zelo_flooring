@@ -106,42 +106,42 @@ export default function FlooringDesignIdeasByRoomContent() {
 
       <h2 id="faq">Frequently Asked Questions</h2>
 
-      <h3>What flooring is best for an open floor plan?</h3>
+      <h3>What Flooring Is Best for an Open Floor Plan?</h3>
       <p>
         For an open floor plan, one continuous flooring material, most often wide-plank engineered hardwood or a wood-look LVP, works best across the kitchen, dining, and living areas. Switching materials at odd angles inside a single open sightline makes the space feel choppy rather than cohesive.
       </p>
 
-      <h3>Should all the flooring in my house match?</h3>
+      <h3>Should All the Flooring in My House Match?</h3>
       <p>
         Not exactly, but it should coordinate. The design guideline most professionals follow is the "rule of 3": no more than three flooring types across the main living areas, usually hardwood or LVP in living spaces, tile in wet rooms, and carpet in bedrooms if desired, all sharing a similar warm or cool undertone.
       </p>
 
-      <h3>What color flooring is timeless?</h3>
+      <h3>What Color Flooring Is Timeless?</h3>
       <p>
         Warm mid-tone browns, particularly white oak tones without heavy gray or orange undertones, have stayed in style the longest of any hardwood or wood-look color over the past 30 years. Very light white-washed floors and very dark espresso floors both tend to look dated faster and show more wear or dust.
       </p>
 
-      <h3>Is herringbone flooring still in style in 2026?</h3>
+      <h3>Is Herringbone Flooring Still in Style in 2026?</h3>
       <p>
         Yes. Herringbone and chevron layouts remain one of the most requested upgrade details in 2026, especially in kitchens, entryways, and home offices. The pattern costs 15 to 25 percent more in labor than a straight-lay install because of the extra plank cutting involved.
       </p>
 
-      <h3>What flooring makes a small room look bigger?</h3>
+      <h3>What Flooring Makes a Small Room Look Bigger?</h3>
       <p>
         Wide-plank flooring laid in a single continuous direction, in a lighter or mid-tone color, makes a small room read larger, since fewer seams and grout lines break up the sightline. Matching the flooring color between a small room and the adjoining space also removes the visual stopping point that makes rooms feel boxed in.
       </p>
 
-      <h3>How do I choose a flooring color for my whole house?</h3>
+      <h3>How Do I Choose a Flooring Color for My Whole House?</h3>
       <p>
         Start with the room that gets the most natural light and the largest continuous floor area, usually the living room, and pick a warm or cool undertone there first. Every other flooring choice in the house, including tile and carpet, should share that same undertone so the transitions between rooms feel intentional rather than accidental.
       </p>
 
-      <h3>Are wood-look tile floors a good design choice?</h3>
+      <h3>Are Wood-Look Tile Floors a Good Design Choice?</h3>
       <p>
         Yes, especially in entryways, kitchens, and bathrooms where real hardwood cannot go. Modern wood-look porcelain plank tile has a convincing printed grain and an embossed texture that reads as wood from a normal viewing distance, while giving you a fully waterproof, scratch-resistant surface.
       </p>
 
-      <h3>What is a good flooring layout for a kitchen island?</h3>
+      <h3>What Is a Good Flooring Layout for a Kitchen Island?</h3>
       <p>
         A herringbone or chevron pattern centered on the kitchen island is one of the most popular 2026 design upgrades, since the island is usually the visual focal point of the room. A straight-lay pattern running perpendicular to the main sightline is the lower-cost, still design-forward alternative.
       </p>

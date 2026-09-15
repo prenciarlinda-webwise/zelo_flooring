@@ -139,47 +139,47 @@ export default function DaycareFlooringRequirementsAndPlayAreaSafetyContent() {
 
       <h2 id="faq">Frequently Asked Questions</h2>
 
-      <h3>What flooring is required for a daycare play area?</h3>
+      <h3>What Flooring Is Required for a Daycare Play Area?</h3>
       <p>
         Daycare play areas need surfacing tested and rated under ASTM F1292 to match the critical fall height of the play equipment installed above it. This is typically poured EPDM rubber or rubber tile, with thickness increasing as fall height increases, generally from 3/4 inch for low toddler equipment up to 2.5 inches or more for taller climbing structures.
       </p>
 
-      <h3>What is ASTM F1292 and why does it matter for daycare flooring?</h3>
+      <h3>What Is ASTM F1292 and Why Does It Matter for Daycare Flooring?</h3>
       <p>
         ASTM F1292 is the industry test standard for how much a surfacing material reduces impact force during a fall from a specific height. It matters because licensing inspectors and insurers use it to verify that installed play-area surfacing actually protects at the fall height of your equipment, not just that the floor looks soft.
       </p>
 
-      <h3>How thick should rubber flooring be for a daycare play area?</h3>
+      <h3>How Thick Should Rubber Flooring Be for a Daycare Play Area?</h3>
       <p>
         Thickness depends on the critical fall height of your tallest equipment: roughly 3/4 inch to 1 inch for fall heights up to 4 feet, 1 inch to 1.5 inches for 4 to 8 feet, and 1.5 inches to 2.5 inches or more, often poured EPDM, for 8 to 12 feet. Exact thickness varies by manufacturer and product density, so we match the manufacturer's tested rating to your equipment.
       </p>
 
-      <h3>Is poured EPDM or rubber tile better for a daycare?</h3>
+      <h3>Is Poured EPDM or Rubber Tile Better for a Daycare?</h3>
       <p>
         Poured EPDM is generally better for taller fall heights, larger play areas, and custom colors or graphics, since it has no seams for water or debris to collect in. Rubber tile is a solid choice for smaller toddler areas with lower fall heights and costs somewhat less, but its seams need more routine inspection over time.
       </p>
 
-      <h3>How do you clean and disinfect rubber flooring in a daycare?</h3>
+      <h3>How Do You Clean and Disinfect Rubber Flooring in a Daycare?</h3>
       <p>
         Sweep or dust mop daily, then damp mop with a pH-neutral cleaner, and spot-disinfect spills through the day with a diluted, EPA-registered disinfectant safe for use around children. Avoid straight bleach beyond label directions, ammonia, and solvent-based cleaners, which degrade the rubber's binder and can leave a residue that attracts more dirt.
       </p>
 
-      <h3>Do daycares need a permit to install new flooring in California?</h3>
+      <h3>Do Daycares Need a Permit to Install New Flooring in California?</h3>
       <p>
         A straightforward resurface of an existing play area generally does not require a building permit in most San Diego County jurisdictions. Larger projects, like adding new play structures or changing drainage, may need one depending on scope and jurisdiction, which we flag during the site walk before ordering material.
       </p>
 
-      <h3>What documentation do I need for a daycare licensing inspection?</h3>
+      <h3>What Documentation Do I Need for a Daycare Licensing Inspection?</h3>
       <p>
         Keep the manufacturer's product spec sheet and fall-height rating documentation for your installed surfacing on file, along with the install date and any repair or resurfacing history. We provide this documentation with every daycare install so it is ready before your licensing visit rather than assembled after an inspector asks for it.
       </p>
 
-      <h3>Can rubber flooring go over an existing daycare play surface?</h3>
+      <h3>Can Rubber Flooring Go Over an Existing Daycare Play Surface?</h3>
       <p>
         It depends on the condition of what is underneath. A sound, well-draining existing surface can sometimes support a new poured layer, but a cracked, sunken, or improperly draining base usually needs to be removed and corrected first so the new surfacing performs to its rated fall height across the whole area, not just where the base happens to be sound.
       </p>
 
-      <h3>How much does daycare rubber flooring cost?</h3>
+      <h3>How Much Does Daycare Rubber Flooring Cost?</h3>
       <p>
         Daycare play-area flooring runs $6 to $12 per square foot installed for rubber tile and $8 to $16 per square foot for poured EPDM, depending on required thickness and design. Indoor classroom rubber flooring, which does not need fall-height rating, typically costs $5 to $9 per square foot installed.
       </p>

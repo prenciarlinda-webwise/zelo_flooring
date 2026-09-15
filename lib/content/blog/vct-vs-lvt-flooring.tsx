@@ -148,42 +148,42 @@ export default function VctVsLvtFlooringContent() {
       {/* FAQ */}
       <h2 id="faq">Frequently Asked Questions</h2>
 
-      <h3>Is VCT the same thing as LVT?</h3>
+      <h3>Is VCT the Same Thing as LVT?</h3>
       <p>
         No. VCT (Vinyl Composition Tile) is a solid tile made of vinyl, limestone filler, and pigment that needs an applied finish and regular stripping and waxing. LVT (Luxury Vinyl Tile) is a layered product with a printed wood or stone image under a factory wear layer that never needs wax. They can look similar in a photo but they are built and maintained completely differently.
       </p>
 
-      <h3>Does VCT need to be waxed?</h3>
+      <h3>Does VCT Need to Be Waxed?</h3>
       <p>
         Yes. VCT gets 4 to 5 finish coats after installation, then needs a full strip and rewax every 12 to 24 months depending on traffic. Skipping the cycle will not damage the tile since its color goes all the way through, but the floor will look dull and dirty well before the material actually wears out.
       </p>
 
-      <h3>Is LVT waterproof?</h3>
+      <h3>Is LVT Waterproof?</h3>
       <p>
         Yes, most LVT is fully waterproof at the surface thanks to its rigid or dense core and sealed seams, which is why it holds up well in kitchens, healthcare settings, and commercial restrooms. As with any resilient floor, a glue-down installation over a properly moisture-tested subfloor is what actually keeps water from reaching the substrate long term.
       </p>
 
-      <h3>Which is cheaper, VCT or LVT?</h3>
+      <h3>Which Is Cheaper, VCT or LVT?</h3>
       <p>
         VCT is cheaper to install, typically $2.00 to $4.00 per square foot versus $4.00 to $9.00 per square foot for LVT. Over a 15 to 20 year building life, VCT's ongoing strip-and-wax maintenance often closes that gap or exceeds it, so the cheaper floor on day one is not always cheaper over the life of the floor.
       </p>
 
-      <h3>Can a cracked or scratched VCT tile be fixed?</h3>
+      <h3>Can a Cracked or Scratched VCT Tile Be Fixed?</h3>
       <p>
         Individual VCT tiles can be pulled and replaced, and light surface scratches often buff out during a routine strip-and-wax cycle since the color runs through the full thickness of the tile. A cracked tile from impact damage needs full replacement, same as LVT.
       </p>
 
-      <h3>Does LVT ever need floor finish or wax?</h3>
+      <h3>Does LVT Ever Need Floor Finish or Wax?</h3>
       <p>
         No. LVT's wear layer is applied at the factory and is designed to hold its shine and scratch resistance without any topical coating. Routine care is dust mopping and damp mopping with a pH-neutral cleaner, no stripping or waxing required at any point in the floor's life.
       </p>
 
-      <h3>Which floor lasts longer, VCT or LVT?</h3>
+      <h3>Which Floor Lasts Longer, VCT or LVT?</h3>
       <p>
         Properly maintained VCT can last 20 to 30 years because it can be stripped, rewaxed, and buffed indefinitely. LVT typically lasts 10 to 20 years, limited by how long its factory wear layer resists traffic before the printed layer underneath starts to show through in high-wear paths.
       </p>
 
-      <h3>Should I choose VCT or LVT for a home instead of a commercial building?</h3>
+      <h3>Should I Choose VCT or LVT for a Home Instead of a Commercial Building?</h3>
       <p>
         For residential use, most homeowners are better served by <Link href="/vinyl-flooring-san-diego">luxury vinyl plank</Link>, which is essentially LVT in a plank format, since it needs no waxing and looks more like natural wood or stone. VCT is worth considering for a home garage, workshop, or laundry room where the lower material cost matters more than appearance and occasional waxing is not a burden.
       </p>

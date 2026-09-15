@@ -118,7 +118,6 @@ export default function CouponsBlock({ eyebrow, heading, subheading, coupons = D
     <section className="section section-cream coupons-block">
       <div className="container">
         <div className="section-header center">
-          {eyebrow && <span className="eyebrow">{eyebrow}</span>}
           <h2>{heading || 'Current Offers and Specials'}</h2>
           {subheading && <p>{subheading}</p>}
         </div>

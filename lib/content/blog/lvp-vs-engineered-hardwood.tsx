@@ -82,27 +82,27 @@ export default function LvpVsEngineeredHardwoodContent() {
 
       <h2 id="faq">Frequently Asked Questions</h2>
 
-      <h3>Is LVP or engineered hardwood better?</h3>
+      <h3>Is LVP or Engineered Hardwood Better?</h3>
       <p>
         It depends on your priority. LVP is better for waterproofing, budget, pets, and wet rooms. Engineered hardwood is better for real-wood feel, resale value, and longevity, and it can sometimes be refinished. Both work over concrete slab, so the deciding factors are usually water exposure and budget.
       </p>
 
-      <h3>Is engineered hardwood worth it over LVP?</h3>
+      <h3>Is Engineered Hardwood Worth It Over LVP?</h3>
       <p>
         Yes, if you want genuine wood and long-term value and your rooms are not wet areas. Engineered hardwood costs about twice as much as LVP but lasts longer, feels more authentic, can be refinished with a thick veneer, and adds more to resale value. In bathrooms and busy pet households, LVP is the smarter spend.
       </p>
 
-      <h3>Does LVP or engineered hardwood add more home value?</h3>
+      <h3>Does LVP or Engineered Hardwood Add More Home Value?</h3>
       <p>
         Engineered hardwood adds more home value because buyers respond to real wood. High-quality LVP is still a strong selling point versus worn carpet or dated tile, but it does not command the same premium as genuine hardwood in most markets.
       </p>
 
-      <h3>Can engineered hardwood get wet like LVP?</h3>
+      <h3>Can Engineered Hardwood Get Wet Like LVP?</h3>
       <p>
         No. LVP is 100% waterproof, while engineered hardwood is only water-resistant. Engineered wood tolerates humidity and quick spills you wipe up, but standing water can seep into the seams and damage it, so it should not go in full bathrooms or laundry rooms.
       </p>
 
-      <h3>Which lasts longer, LVP or engineered hardwood?</h3>
+      <h3>Which Lasts Longer, LVP or Engineered Hardwood?</h3>
       <p>
         Engineered hardwood lasts longer overall, typically 25 to 40 years and more if it can be refinished, while LVP lasts 15 to 25 years before replacement. In wet areas, though, LVP often outlasts wood because moisture does not damage it.
       </p>

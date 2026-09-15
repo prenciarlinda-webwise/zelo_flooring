@@ -30,7 +30,6 @@ export default function CareersBanner() {
     <section className="careers-banner">
       <div className="container careers-banner-inner">
         <div className="careers-banner-text">
-          <span className="eyebrow">Now Hiring</span>
           <h2>Join Our Installer Network</h2>
           <p>
             We&apos;re looking for reliable, skilled flooring installers and subcontractor crews across
@@ -56,7 +55,6 @@ export default function CareersBanner() {
             <button type="button" className="coupon-modal-close" aria-label="Close" onClick={() => setOpen(false)}>
               &times;
             </button>
-            <span className="eyebrow">Now Hiring</span>
             <p className="coupon-modal-title">Installer &amp; Subcontractor Application</p>
             <p className="coupon-modal-body">
               We are looking for reliable, skilled installers and crews who take pride in quality

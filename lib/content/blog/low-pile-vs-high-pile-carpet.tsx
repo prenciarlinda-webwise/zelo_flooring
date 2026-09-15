@@ -94,27 +94,27 @@ export default function LowPileVsHighPileCarpetContent() {
 
       <h2 id="faq">Frequently Asked Questions</h2>
 
-      <h3>What is the difference between low and high pile carpet?</h3>
+      <h3>What Is the Difference Between Low and High Pile Carpet?</h3>
       <p>
         Low pile carpet has short, dense fibers under about 1/4 inch that are durable and easy to clean. High pile carpet has longer, looser fibers over about 1/2 inch that feel soft and plush. Low pile suits high-traffic areas and pets; high pile suits bedrooms and low-traffic comfort.
       </p>
 
-      <h3>What is low pile carpet?</h3>
+      <h3>What Is Low Pile Carpet?</h3>
       <p>
         Low pile carpet is carpet with short, tightly packed fibers, usually under 1/4 inch tall. It resists matting and crushing, hides footprints, vacuums easily, and lasts well in high-traffic areas, which is why it is used on stairs, in hallways, and in offices and rentals.
       </p>
 
-      <h3>Which carpet pile is best for pets?</h3>
+      <h3>Which Carpet Pile Is Best for Pets?</h3>
       <p>
         Low pile cut carpet is best for pets. Short, dense fibers do not snag on claws the way looped berber or long shag fibers do, and they release pet hair and dirt easily when vacuumed. Pair it with a moisture-barrier pad to protect the subfloor from accidents.
       </p>
 
-      <h3>What are the types of carpet pile?</h3>
+      <h3>What Are the Types of Carpet Pile?</h3>
       <p>
         The main types are level loop (berber), cut pile, frieze or twist, plush or Saxony, and cut-and-loop. Loop and frieze styles are more durable and hide wear, while plush and Saxony are softer but show footprints. Cut-and-loop creates patterns that hide soil.
       </p>
 
-      <h3>Is high pile carpet hard to clean?</h3>
+      <h3>Is High Pile Carpet Hard to Clean?</h3>
       <p>
         Yes, high pile carpet is harder to clean than low pile. Its long, loose fibers trap dirt, dust, and pet dander deep in the carpet, so it needs more frequent and thorough vacuuming and is more prone to matting in traffic. Low pile carpet cleans far more easily.
       </p>

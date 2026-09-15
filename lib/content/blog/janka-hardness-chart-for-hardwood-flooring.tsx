@@ -147,42 +147,42 @@ export default function JankaHardnessChartForHardwoodFlooringContent() {
       {/* FAQ */}
       <h2 id="faq">Frequently Asked Questions</h2>
 
-      <h3>What is a good Janka hardness rating for flooring?</h3>
+      <h3>What Is a Good Janka Hardness Rating for Flooring?</h3>
       <p>
         For most homes, a Janka rating of 1,200 to 1,450 lbf (red oak through hard maple) offers a strong balance of dent resistance, cost, and availability. Households with heavy foot traffic or large pets often step up to hickory at 1,820 lbf for extra durability.
       </p>
 
-      <h3>What is the hardest common hardwood flooring species?</h3>
+      <h3>What Is the Hardest Common Hardwood Flooring Species?</h3>
       <p>
         Brazilian walnut (Ipe) is the hardest wood commonly milled into flooring, with a Janka rating around 3,680 lbf. Among domestic species widely used in the United States, hickory is the hardest at roughly 1,820 lbf.
       </p>
 
-      <h3>Is white oak or red oak harder?</h3>
+      <h3>Is White Oak or Red Oak Harder?</h3>
       <p>
         White oak is slightly harder at 1,360 lbf compared to red oak at 1,290 lbf, though the difference is small in daily use. White oak also tends to handle humidity and moisture slightly better, which is part of why it has become the more popular choice.
       </p>
 
-      <h3>Does Janka hardness measure scratch resistance?</h3>
+      <h3>Does Janka Hardness Measure Scratch Resistance?</h3>
       <p>
         No. The Janka test measures resistance to denting from a compressive force, not scratch resistance. Scratch resistance depends mainly on the finish, such as an aluminum oxide topcoat, rather than the hardness of the wood species underneath.
       </p>
 
-      <h3>Is a higher Janka rating always better for a home floor?</h3>
+      <h3>Is a Higher Janka Rating Always Better for a Home Floor?</h3>
       <p>
         Not necessarily. Very hard species (2,200 lbf and above) can be more difficult to install, require pre-drilling for nails, and are less forgiving of minor subfloor imperfections. For most homes, a mid-range species like white oak or hickory offers the best balance of hardness, cost, and comfort underfoot.
       </p>
 
-      <h3>What is the softest common wood flooring species?</h3>
+      <h3>What Is the Softest Common Wood Flooring Species?</h3>
       <p>
         Eastern white pine is the softest commonly used flooring wood, with a Janka rating around 380 lbf. It is popular for a farmhouse or cabin look but dents easily and needs a durable finish and realistic expectations around wear.
       </p>
 
-      <h3>How does bamboo compare to hardwood on the Janka scale?</h3>
+      <h3>How Does Bamboo Compare to Hardwood on the Janka Scale?</h3>
       <p>
         Strand-woven bamboo, which is compressed under heat and pressure during manufacturing, often tests above 3,000 lbf, harder than most hardwood species. Traditional, unwoven bamboo is closer to 1,300 to 1,400 lbf, comparable to white oak or hard maple.
       </p>
 
-      <h3>Can a wood species be too hard to live with?</h3>
+      <h3>Can a Wood Species Be Too Hard to Live With?</h3>
       <p>
         In practice, extremely hard species (2,200 lbf and up) are more of an installation and cost consideration than a livability problem. They are harder to nail down, cost more, and can be harder to source matching replacement boards later, which is why most San Diego homeowners land on a species in the 1,200 to 1,800 lbf range instead.
       </p>

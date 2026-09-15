@@ -152,42 +152,42 @@ export default function VctMaintenanceStrippingAndWaxingContent() {
       {/* FAQ */}
       <h2 id="faq">Frequently Asked Questions</h2>
 
-      <h3>How often should VCT flooring be stripped and waxed?</h3>
+      <h3>How Often Should VCT Flooring Be Stripped and Waxed?</h3>
       <p>
         Most VCT needs a full strip and rewax every 12 to 24 months depending on traffic. High-traffic hallways, hospitals, and cafeterias run closer to 12 months. Low-traffic offices and storage areas can stretch to 24 to 36 months between full strips.
       </p>
 
-      <h3>What is the difference between burnishing and stripping VCT?</h3>
+      <h3>What Is the Difference Between Burnishing and Stripping VCT?</h3>
       <p>
         Burnishing uses a high-speed dry pad to polish the existing finish and restore gloss without removing any coats. Stripping uses a chemical solution to dissolve every layer of finish down to bare tile, followed by fresh coats. Burnishing is routine upkeep; stripping is a full reset.
       </p>
 
-      <h3>How many coats of finish does new VCT need?</h3>
+      <h3>How Many Coats of Finish Does New VCT Need?</h3>
       <p>
         New VCT gets 4 to 5 thin coats of acrylic floor finish after installation, each drying 20 to 30 minutes before the next coat, with a full 24 to 48 hour cure before heavy traffic crosses it.
       </p>
 
-      <h3>Can I just mop VCT instead of stripping and waxing it?</h3>
+      <h3>Can I Just Mop VCT Instead of Stripping and Waxing It?</h3>
       <p>
         Daily and weekly mopping removes loose soil but does not restore worn finish or add protective film. Skipping the strip-and-rewax cycle entirely lets the finish wear through to bare tile, which causes permanent staining that mopping alone cannot remove.
       </p>
 
-      <h3>How much does it cost to strip and wax a VCT floor?</h3>
+      <h3>How Much Does It Cost to Strip and Wax a VCT Floor?</h3>
       <p>
         A full strip and rewax typically costs $0.35 to $0.55 per square foot, or $3,500 to $5,500 for a 10,000 square foot facility. Routine burnishing runs $0.02 to $0.05 per square foot per service, and a scrub-and-recoat runs $0.10 to $0.20 per square foot.
       </p>
 
-      <h3>What happens if VCT maintenance is neglected for several years?</h3>
+      <h3>What Happens If VCT Maintenance Is Neglected for Several Years?</h3>
       <p>
         The finish wears through to bare tile in high-traffic lanes, causing permanent soil staining and visible traffic patterns that a later strip and rewax cannot fully remove. Facilities often need to replace the affected tiles, and the recovery strip itself typically costs 30 to 50 percent more than a floor kept on schedule.
       </p>
 
-      <h3>Does low-traffic VCT still need a full strip and rewax?</h3>
+      <h3>Does Low-Traffic VCT Still Need a Full Strip and Rewax?</h3>
       <p>
         Yes, but far less often. Light-traffic areas like private offices and storage rooms can typically go 24 to 36 months between full strips, compared to 12 months in heavy-traffic corridors, since the finish wears down much more slowly.
       </p>
 
-      <h3>Can worn VCT finish be fixed without a full strip?</h3>
+      <h3>Can Worn VCT Finish Be Fixed Without a Full Strip?</h3>
       <p>
         Sometimes. If the finish is dull but intact and not stained through to the tile, a scrub-and-recoat can restore gloss with 1 to 2 fresh coats. Once soil or discoloration shows under the top layer, only a full strip and rewax fixes it.
       </p>

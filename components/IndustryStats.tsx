@@ -12,7 +12,6 @@ export default function IndustryStats({ eyebrow, heading, subheading, stats }: P
     <section className="section section-brown industry-stats">
       <div className="container">
         <div className="section-header center">
-          {eyebrow && <span className="eyebrow" style={{ color: 'var(--gold)' }}>{eyebrow}</span>}
           <h2 style={{ color: 'white' }}>{heading}</h2>
           {subheading && <p style={{ color: 'rgba(255,255,255,0.78)' }}>{subheading}</p>}
         </div>

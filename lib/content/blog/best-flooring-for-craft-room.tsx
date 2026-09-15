@@ -139,47 +139,47 @@ export default function BestFlooringForCraftRoomContent() {
       {/* FAQ */}
       <h2 id="faq">Frequently Asked Questions</h2>
 
-      <h3>What is the best flooring for a home office?</h3>
+      <h3>What Is the Best Flooring for a Home Office?</h3>
       <p>
         Cork is generally the best flooring for a home office because it cushions long hours of sitting and standing, absorbs sound for calls, and stays warm underfoot. Vinyl plank is a strong second choice if the office also sees spills or heavy chair traffic, and laminate is the most budget-friendly option.
       </p>
 
-      <h3>Is cork flooring good for a craft room?</h3>
+      <h3>Is Cork Flooring Good for a Craft Room?</h3>
       <p>
         Yes. Cork's natural cushioning reduces fatigue during long standing or kneeling projects, and its sound-absorbing structure keeps noise from carrying through the house. A factory-sealed finish protects against typical craft room spills like paint, glue, and dye as long as messes are wiped up promptly.
       </p>
 
-      <h3>Does cork flooring soundproof a room?</h3>
+      <h3>Does Cork Flooring Soundproof a Room?</h3>
       <p>
         Cork does not fully soundproof a room, but it noticeably reduces sound transmission compared to hard-surface flooring like tile or laminate. Cork can cut impact noise transmission by up to 20 decibels, which is enough to make a real difference for video calls or a craft room next to a bedroom.
       </p>
 
-      <h3>What flooring is best for a rolling desk chair?</h3>
+      <h3>What Flooring Is Best for a Rolling Desk Chair?</h3>
       <p>
         A 12mm AC4 or AC5 rated laminate or a rigid-core LVP with at least a 12 mil wear layer both hold up well to rolling office chairs. Cork can handle chair traffic too, but a chair mat is recommended under the wheels to prevent surface wear over years of repeated use in the same spot.
       </p>
 
-      <h3>Can you put vinyl flooring in a craft room?</h3>
+      <h3>Can You Put Vinyl Flooring in a Craft Room?</h3>
       <p>
         Yes, and it is often the safest choice if your craft work involves resin, dye, ink, or oil-based paint. Rigid-core vinyl plank is 100% waterproof, so these materials sit on the surface instead of soaking in, giving you time to clean spills before they cause permanent damage.
       </p>
 
-      <h3>How much does cork flooring cost installed?</h3>
+      <h3>How Much Does Cork Flooring Cost Installed?</h3>
       <p>
         Cork flooring costs $6 to $12 per square foot installed, depending on plank quality and finish. For a typical 120 to 150 square foot craft room or home office, that works out to roughly $720 to $1,800 total, including labor.
       </p>
 
-      <h3>Is cork flooring durable enough for daily use?</h3>
+      <h3>Is Cork Flooring Durable Enough for Daily Use?</h3>
       <p>
         Yes, with a quality factory-sealed finish. Cork resists dents better than most people expect because its cellular structure compresses and rebounds rather than staying permanently marked. It is not as scratch-resistant as porcelain tile or rigid-core vinyl, so avoid dragging heavy furniture across it without floor protectors.
       </p>
 
-      <h3>What flooring resists paint and glue spills best?</h3>
+      <h3>What Flooring Resists Paint and Glue Spills Best?</h3>
       <p>
         Rigid-core vinyl plank resists paint and glue spills best because its surface is 100% waterproof and non-porous. Sealed cork is a close second as long as spills are cleaned up within a reasonable time. Standard laminate is the most vulnerable, since paint and glue can seep into the seams if left too long.
       </p>
 
-      <h3>Should I avoid carpet in a craft room?</h3>
+      <h3>Should I Avoid Carpet in a Craft Room?</h3>
       <p>
         Yes, in most cases. Carpet fibers trap thread, glitter, sawdust, and pins, all of which are difficult to fully remove even with regular vacuuming. A smooth, sealed hard surface like cork, laminate, or vinyl is far easier to keep clean in a room where small debris is constant.
       </p>

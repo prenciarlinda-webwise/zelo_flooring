@@ -137,47 +137,47 @@ export default function RubberFlooringForCommercialGymsContent() {
 
       <h2 id="faq">Frequently Asked Questions</h2>
 
-      <h3>What is the best rubber flooring for a commercial gym?</h3>
+      <h3>What Is the Best Rubber Flooring for a Commercial Gym?</h3>
       <p>
         The best commercial gym flooring is zoned rather than one product throughout: 3/8 inch to 1/2 inch rubber for cardio and functional training, and 3/4 inch to 1 inch heat-welded rubber for free-weight and platform zones. Matching thickness to the zone controls cost while still protecting the slab where the heaviest impact happens.
       </p>
 
-      <h3>How much does commercial gym rubber flooring cost per square foot?</h3>
+      <h3>How Much Does Commercial Gym Rubber Flooring Cost Per Square Foot?</h3>
       <p>
         Commercial gym rubber flooring runs $6 to $9 per square foot installed for cardio and functional-training zones, and $8 to $14 per square foot for free-weight and platform zones needing thicker rubber and heat-welded seams. A blended multi-zone facility usually lands between those two ranges depending on the square footage in each zone.
       </p>
 
-      <h3>What is the difference between rolled rubber and rubber tile for a commercial gym?</h3>
+      <h3>What Is the Difference Between Rolled Rubber and Rubber Tile for a Commercial Gym?</h3>
       <p>
         Rolled rubber with heat-welded seams creates a continuous surface with no gaps, which holds up best under daily rolling equipment and heavy foot traffic. Interlocking tile is faster to install and easier to spot-repair, but it has a seam every 20 to 24 inches, which is more surface area for grime and wear over time in a high-traffic commercial setting.
       </p>
 
-      <h3>Why do commercial gyms use heat-welded seams instead of taped seams?</h3>
+      <h3>Why Do Commercial Gyms Use Heat-Welded Seams Instead of Taped Seams?</h3>
       <p>
         A heat-welded seam fuses two pieces of rubber into one continuous surface, which does not lift under rolling equipment or years of daily mopping. A taped seam is faster and cheaper to install, but on a commercial floor with constant traffic, taped seams eventually lift and become a trip hazard, which heat welding avoids.
       </p>
 
-      <h3>How long does a commercial gym flooring buildout take?</h3>
+      <h3>How Long Does a Commercial Gym Flooring Buildout Take?</h3>
       <p>
         A single-zone re-floor often fits into one or two closed overnight windows. A full multi-zone buildout across 2,000 to 5,000 square feet typically takes 5 to 10 business days, depending on how much of the floor needs heat-welded seams and whether slab crack repair is required first.
       </p>
 
-      <h3>Can you install gym flooring without shutting the gym down?</h3>
+      <h3>Can You Install Gym Flooring Without Shutting the Gym Down?</h3>
       <p>
         Yes, in most cases. We schedule commercial installs after hours, overnight, or across weekends, and phase multi-zone buildouts so part of the facility can stay open while another zone is being floored. Tell us your operating hours and reopening date and we build the crew schedule around them.
       </p>
 
-      <h3>What thickness of rubber flooring do free-weight zones need?</h3>
+      <h3>What Thickness of Rubber Flooring Do Free-Weight Zones Need?</h3>
       <p>
         Free-weight zones with regular dumbbell and barbell use need 1/2 inch to 3/4 inch rubber. Dedicated olympic lifting platforms, built to absorb dropped bumper plates from overhead, need 3/4 inch to 1 inch rubber, often built as a distinct platform rather than blended into the surrounding floor.
       </p>
 
-      <h3>Which rubber flooring brands are used in commercial gyms?</h3>
+      <h3>Which Rubber Flooring Brands Are Used in Commercial Gyms?</h3>
       <p>
         We install Ecore, Mondo, and Regupol on commercial jobs. Ecore is a common mid-to-premium choice for general training floors, Mondo's poured and sheet systems suit dedicated platform zones and premium facility looks, and Regupol's high-density product is built specifically for heavy, repeated point loads like free-weight and platform zones.
       </p>
 
-      <h3>Do commercial gyms need a permit for new rubber flooring?</h3>
+      <h3>Do Commercial Gyms Need a Permit for New Rubber Flooring?</h3>
       <p>
         A straightforward re-floor over an existing slab generally does not require a permit. Major reconfiguration work, such as moving walls, plumbing for a locker room, or structural changes as part of a new gym buildout, may need a building permit depending on scope. We flag this during the site walk before the quote goes out.
       </p>

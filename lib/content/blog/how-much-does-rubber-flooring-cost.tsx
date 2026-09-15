@@ -160,37 +160,37 @@ export default function HowMuchDoesRubberFlooringCostContent() {
 
       <h2 id="faq">Frequently Asked Questions</h2>
 
-      <h3>How much does rubber flooring cost per square foot?</h3>
+      <h3>How Much Does Rubber Flooring Cost Per Square Foot?</h3>
       <p>
         Rubber flooring costs $3.50 to $16 per square foot fully installed, depending on thickness, format, and use case. Home gym and garage rubber typically runs $3.50 to $10 per square foot, while commercial and fall-rated daycare surfacing runs $6 to $16 per square foot.
       </p>
 
-      <h3>What is the cheapest rubber flooring option?</h3>
+      <h3>What Is the Cheapest Rubber Flooring Option?</h3>
       <p>
         Thin, 3/8 inch interlocking tile is generally the cheapest option, running $3.50 to $6.00 per square foot installed. It skips adhesive labor and works well for cardio zones, light garage use, and DIY-friendly small rooms.
       </p>
 
-      <h3>Why does commercial rubber flooring cost more than residential?</h3>
+      <h3>Why Does Commercial Rubber Flooring Cost More Than Residential?</h3>
       <p>
         Commercial rubber flooring costs more mainly because of heat-welded seams, which add labor time but hold up far better under daily rolling equipment and heavy traffic than taped seams. Commercial installs also often use thicker rubber and premium brand product built for constant use rather than occasional home use.
       </p>
 
-      <h3>Does thicker rubber flooring always cost more?</h3>
+      <h3>Does Thicker Rubber Flooring Always Cost More?</h3>
       <p>
         Yes, thickness is the single biggest driver of rubber flooring cost. Moving from 3/8 inch to 3/4 inch or thicker roughly doubles the material cost per square foot, since more rubber goes into every square foot of flooring.
       </p>
 
-      <h3>Is rubber flooring cheaper than epoxy for a garage?</h3>
+      <h3>Is Rubber Flooring Cheaper Than Epoxy for a Garage?</h3>
       <p>
         No, rubber flooring generally costs more upfront than a basic epoxy coating. Rubber hides existing slab cracks and stains without patching first and needs no recoating, while epoxy needs a properly prepped slab and typically needs a recoat every 5 to 10 years, which can close the cost gap over time.
       </p>
 
-      <h3>How much does a home gym rubber floor cost total?</h3>
+      <h3>How Much Does a Home Gym Rubber Floor Cost Total?</h3>
       <p>
         A typical 300 square foot home gym costs $1,050 to $3,000 fully installed, depending on thickness and whether you choose interlocking tile or rolled rubber, with 3/8 inch tile at the low end and a 3/4 inch to 1 inch platform build at the high end.
       </p>
 
-      <h3>Does daycare rubber flooring cost more than a home gym?</h3>
+      <h3>Does Daycare Rubber Flooring Cost More Than a Home Gym?</h3>
       <p>
         Usually yes. Daycare play-area surfacing must meet ASTM F1292 fall-attenuation ratings, which often require thicker rubber or poured EPDM than a comparable home gym floor needs, pushing the cost range to $6 to $16 per square foot versus $3.50 to $10 for a typical home gym.
       </p>

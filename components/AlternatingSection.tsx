@@ -36,7 +36,6 @@ export default function AlternatingSection({
       <div className="container">
         <div className={rowClasses}>
           <div className="alt-text">
-            {eyebrow && <span className="eyebrow">{eyebrow}</span>}
             <h2>{title}</h2>
             {paragraphs.map((p, i) => (
               <p key={i}>{p}</p>

@@ -121,37 +121,37 @@ export default function WhatIsRubberFlooringContent() {
 
       <h2 id="faq">Frequently Asked Questions</h2>
 
-      <h3>What is rubber flooring made of?</h3>
+      <h3>What Is Rubber Flooring Made Of?</h3>
       <p>
         Rubber flooring is made from either recycled SBR (styrene-butadiene rubber) ground from used tires and bonded with a polyurethane binder, or virgin EPDM rubber manufactured specifically for flooring. Many products blend a recycled SBR base layer with a thinner EPDM wear layer for better color and lower odor.
       </p>
 
-      <h3>Is rubber flooring the same as vinyl or VCT?</h3>
+      <h3>Is Rubber Flooring the Same as Vinyl or VCT?</h3>
       <p>
         No. Vinyl and VCT are PVC-based products with a printed or applied wear layer. Rubber is an elastomeric material, meaning it compresses and rebounds under impact, which is a fundamentally different property than any vinyl-based flooring offers. That impact absorption is the whole reason rubber gets specified for gyms and play areas.
       </p>
 
-      <h3>Does rubber flooring smell?</h3>
+      <h3>Does Rubber Flooring Smell?</h3>
       <p>
         Recycled SBR rubber has a noticeable smell when new that generally fades within about a week to a month with normal ventilation. Premium virgin EPDM products have a much lighter odor that typically clears within about a week.
       </p>
 
-      <h3>What is the difference between rolled rubber and interlocking tile?</h3>
+      <h3>What Is the Difference Between Rolled Rubber and Interlocking Tile?</h3>
       <p>
         Rolled rubber creates a more continuous, professional-looking surface with the fewest seams, and is generally installed professionally due to its weight. Interlocking tile is faster and easier to install without adhesive, more DIY-friendly, and lets a single damaged tile be replaced without disturbing the rest of the floor.
       </p>
 
-      <h3>How much does rubber flooring cost per square foot?</h3>
+      <h3>How Much Does Rubber Flooring Cost Per Square Foot?</h3>
       <p>
         Rubber flooring costs $3.50 to $16 per square foot installed, depending on thickness, format, and use case. Home gym and garage rubber sits toward the lower end, while commercial platform zones and fall-rated daycare surfacing sit toward the higher end.
       </p>
 
-      <h3>Is rubber flooring good for a whole house?</h3>
+      <h3>Is Rubber Flooring Good for a Whole House?</h3>
       <p>
         Generally no. Rubber makes sense in rooms built around impact, activity, or safety, like gyms, garages, and play areas. For finished living space, most homeowners get a better look and more design range from luxury vinyl plank or hardwood.
       </p>
 
-      <h3>How long does rubber flooring last?</h3>
+      <h3>How Long Does Rubber Flooring Last?</h3>
       <p>
         Commercial-grade rubber flooring typically lasts 20 or more years according to the Resilient Floor Covering Institute. Residential rubber in a home gym or garage generally holds up for a comparable span with routine cleaning and by keeping it out of prolonged direct sunlight.
       </p>

@@ -163,47 +163,47 @@ export default function HardwoodFloorWaterDamageContent() {
       {/* FAQ */}
       <h2 id="faq">Frequently Asked Questions</h2>
 
-      <h3>Can water-damaged hardwood floors be repaired instead of replaced?</h3>
+      <h3>Can Water-Damaged Hardwood Floors Be Repaired Instead of Replaced?</h3>
       <p>
         Yes, if the water is extracted within 24 to 48 hours, the boards are cupping rather than buckling, and the finish has not cracked. Solid hardwood dried within that window and sanded flat once moisture content normalizes can often be saved without full replacement.
       </p>
 
-      <h3>How long can hardwood floors be wet before they are ruined?</h3>
+      <h3>How Long Can Hardwood Floors Be Wet Before They Are Ruined?</h3>
       <p>
         Roughly 24 to 48 hours is the practical window before damage becomes harder to reverse. Wood left wet 3 days or more often shows buckling, delamination, or the start of mold growth, at which point replacement is usually more reliable than continued drying.
       </p>
 
-      <h3>What does cupping in a hardwood floor mean?</h3>
+      <h3>What Does Cupping in a Hardwood Floor Mean?</h3>
       <p>
         Cupping means the edges of each board have risen slightly higher than the center, giving the floor a shallow, wavy texture. It happens when the bottom of the board absorbs more moisture than the top. Caught early, cupping is usually reversible with proper drying and a light sanding once moisture content normalizes.
       </p>
 
-      <h3>Is a buckled hardwood floor always a total loss?</h3>
+      <h3>Is a Buckled Hardwood Floor Always a Total Loss?</h3>
       <p>
         Not the whole floor, but the individual buckled boards almost always need to be replaced rather than dried back into place. Once a board physically separates from the subfloor, drying it does not reliably reseat the joint, so cutting out and replacing the affected boards is the more dependable fix.
       </p>
 
-      <h3>Will my homeowners insurance cover hardwood floor water damage?</h3>
+      <h3>Will My Homeowners Insurance Cover Hardwood Floor Water Damage?</h3>
       <p>
         Usually, if the damage came from a sudden and accidental event like a burst supply line or a failed appliance, and you can document when it happened and how quickly you responded. Damage from a long-term slow leak or from flooding is often excluded or requires separate flood coverage, so check your specific policy language.
       </p>
 
-      <h3>How do I know if my hardwood floor has mold underneath it?</h3>
+      <h3>How Do I Know If My Hardwood Floor Has Mold Underneath It?</h3>
       <p>
         Signs include a musty smell that persists after the surface is dry, dark grey or black staining at the seams that spreads rather than staying in one spot, and boards that feel soft or spongy underfoot. If you see any of these signs, pull a board for inspection or bring in a professional rather than sanding over a floor with active mold underneath.
       </p>
 
-      <h3>Can engineered hardwood be dried out after water damage the same way solid hardwood can?</h3>
+      <h3>Can Engineered Hardwood Be Dried Out After Water Damage the Same Way Solid Hardwood Can?</h3>
       <p>
         Not as reliably. Engineered hardwood has a thin veneer over a plywood core, and once water gets between those layers, they delaminate permanently. Solid hardwood has more room for error because it can be sanded down further after drying, while a delaminated engineered board typically needs to be replaced rather than dried.
       </p>
 
-      <h3>What should I do in the first hour after finding water on my hardwood floor?</h3>
+      <h3>What Should I Do in the First Hour After Finding Water on My Hardwood Floor?</h3>
       <p>
         Stop the water source if you can, remove standing water with towels or a wet vac rather than a fan alone, move furniture and rugs off the wet area, then start air movement and dehumidification. Photograph the damage first in case you need it for an insurance claim.
       </p>
 
-      <h3>How much does it cost to fix water-damaged hardwood floors?</h3>
+      <h3>How Much Does It Cost to Fix Water-Damaged Hardwood Floors?</h3>
       <p>
         A localized dry-in-place repair with spot refinishing typically runs $3.00 to $6.00 per square foot. Replacing and weaving in buckled or stained boards runs $8.00 to $14.00 per square foot. A larger tear-out that includes subfloor repair or mold remediation can range from $10.00 to $30.00 or more per square foot depending on scope.
       </p>

@@ -30,9 +30,6 @@ export default function BlogPage() {
               <Link key={post.slug} href={`/blog/${post.slug}`} className="service-card service-card-link-wrap">
                 <div className="service-card-img" style={{ backgroundImage: `url('${post.image}')` }} role="img" aria-label={post.title} />
                 <div className="service-card-body">
-                  <span className="eyebrow" style={{ fontSize: '0.72rem', marginBottom: 8 }}>
-                    {post.publishedDate}
-                  </span>
                   <h3>{post.title}</h3>
                   <p>{post.excerpt}</p>
                   <span className="service-card-link">

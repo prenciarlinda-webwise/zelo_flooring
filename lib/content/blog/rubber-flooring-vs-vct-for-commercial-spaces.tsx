@@ -115,32 +115,32 @@ export default function RubberFlooringVsVctForCommercialSpacesContent() {
 
       <h2 id="faq">Frequently Asked Questions</h2>
 
-      <h3>Is rubber or VCT better for a commercial gym?</h3>
+      <h3>Is Rubber or VCT Better for a Commercial Gym?</h3>
       <p>
         Rubber is the right choice for a gym. VCT has no impact absorption and can crack under dropped weight, while rubber is specifically built to compress and rebound under exactly that kind of repeated impact. VCT belongs in hallways, classrooms, and offices, not a weight room.
       </p>
 
-      <h3>Which is cheaper, rubber or VCT flooring?</h3>
+      <h3>Which Is Cheaper, Rubber or VCT Flooring?</h3>
       <p>
         VCT is cheaper to install, typically $2 to $5 per square foot versus $6 to $14 per square foot for commercial rubber. Over 15 to 20 years, VCT's recurring strip-and-wax maintenance can close or exceed that gap in high-traffic rooms, though for low-traffic rooms VCT usually still wins on total cost.
       </p>
 
-      <h3>Does rubber flooring need to be stripped and waxed like VCT?</h3>
+      <h3>Does Rubber Flooring Need to Be Stripped and Waxed Like VCT?</h3>
       <p>
         No. Rubber's color and performance come from the material itself, not a topical finish, so it needs only routine sweeping and damp mopping. VCT relies entirely on an applied acrylic finish that wears down and needs a full strip and rewax every 12 to 24 months.
       </p>
 
-      <h3>Can VCT be used in a home gym instead of rubber?</h3>
+      <h3>Can VCT Be Used in a Home Gym Instead of Rubber?</h3>
       <p>
         We do not recommend it. VCT has no impact absorption and can crack under a dropped weight, defeating the purpose of a dedicated gym floor. Rubber costs more but is the only one of the two actually built to protect the slab and your equipment from repeated impact.
       </p>
 
-      <h3>Which is more slip resistant when wet, rubber or VCT?</h3>
+      <h3>Which Is More Slip Resistant When Wet, Rubber or VCT?</h3>
       <p>
         Rubber is generally more slip resistant when wet, which is one reason it is standard in locker rooms and gyms. VCT's slip resistance depends heavily on the gloss level of its applied finish, and a high-gloss finish can actually reduce traction compared to a lower-gloss, higher-traction option.
       </p>
 
-      <h3>Do schools use both rubber and VCT in the same building?</h3>
+      <h3>Do Schools Use Both Rubber and VCT in the Same Building?</h3>
       <p>
         Yes, commonly. VCT typically covers classrooms and hallways for its low cost and durability against rolling carts, while rubber covers gyms and multipurpose rooms where impact absorption and slip resistance actually matter. Specifying one material campus-wide usually means overpaying in some rooms and underperforming in others.
       </p>

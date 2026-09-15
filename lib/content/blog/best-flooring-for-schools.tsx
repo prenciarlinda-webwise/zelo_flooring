@@ -107,47 +107,47 @@ export default function BestFlooringForSchoolsContent() {
 
       <h2 id="faq">Frequently Asked Questions</h2>
 
-      <h3>What is the best flooring for a school on a tight budget?</h3>
+      <h3>What Is the Best Flooring for a School on a Tight Budget?</h3>
       <p>
         Standard VCT is the best flooring for a school on a tight budget. It installs for $3 to $5 per square foot, holds up to daily classroom and hallway traffic, and individual tiles can be replaced instead of an entire room. The tradeoff is a recurring strip-and-wax maintenance cycle every 12 to 24 months.
       </p>
 
-      <h3>How often does school VCT flooring need to be stripped and waxed?</h3>
+      <h3>How Often Does School VCT Flooring Need to Be Stripped and Waxed?</h3>
       <p>
         Most schools need a strip-and-rewax cycle every 12 to 24 months. High-traffic elementary hallways and cafeterias are usually on the annual end of that range, while low-traffic administrative offices and rarely used rooms can stretch closer to 24 months without the finish looking worn.
       </p>
 
-      <h3>Is rubber flooring worth it for a school gym?</h3>
+      <h3>Is Rubber Flooring Worth It for a School Gym?</h3>
       <p>
         Yes, for gyms, weight rooms, and multipurpose rooms specifically. Rubber costs more per square foot than VCT, $6 to $12 versus $3 to $6, but it absorbs impact, dampens sound, resists slipping when wet, and needs almost no recurring finish maintenance, which usually closes most of the cost gap over 15 to 20 years.
       </p>
 
-      <h3>Can old school VCT flooring contain asbestos?</h3>
+      <h3>Can Old School VCT Flooring Contain Asbestos?</h3>
       <p>
         VCT installed before 1985 may contain asbestos in the tile itself or in the black cutback adhesive underneath it. Any renovation or demolition touching pre-1985 VCT should be tested first and coordinated with a licensed abatement contractor if asbestos is confirmed, per EPA guidance.
       </p>
 
-      <h3>Do you install school flooring during the school year?</h3>
+      <h3>Do You Install School Flooring During the School Year?</h3>
       <p>
         Most of our school flooring work happens during summer break, winter break, or as phased weekend and after-hours installs in buildings that stay occupied. We build the schedule around the district's calendar, including full classroom turnovers completed before students return in the fall.
       </p>
 
-      <h3>What flooring meets ADA requirements for school hallways?</h3>
+      <h3>What Flooring Meets ADA Requirements for School Hallways?</h3>
       <p>
         Both VCT and rubber flooring meet ADA requirements when transitions are detailed correctly. The threshold rule is a maximum 1/2 inch height change between surfaces, with a beveled edge required once the change exceeds 1/4 inch. We plan every transition and threshold before material is ordered so it is compliant on day one.
       </p>
 
-      <h3>What thickness of rubber flooring do gyms need?</h3>
+      <h3>What Thickness of Rubber Flooring Do Gyms Need?</h3>
       <p>
         General multipurpose rooms and PE use 3/8 inch to 1/2 inch rolled or tiled rubber. Dedicated weight rooms and free-weight platform zones need 3/4 inch to 1 inch rubber to absorb the impact of dropped barbells without transmitting it into the slab below.
       </p>
 
-      <h3>How long does VCT flooring last in a school?</h3>
+      <h3>How Long Does VCT Flooring Last in a School?</h3>
       <p>
         Properly maintained VCT lasts 20 to 30 years, according to the Resilient Floor Covering Institute. That lifespan depends on keeping up with the strip-and-rewax schedule; a floor that misses several maintenance cycles wears out faster and can need earlier full replacement.
       </p>
 
-      <h3>What flooring should go in a school cafeteria?</h3>
+      <h3>What Flooring Should Go in a School Cafeteria?</h3>
       <p>
         VCT works for most school cafeterias, but the seating area and the serving line often benefit from different materials. Serving lines see heavier grease and acidic spills that wear VCT finish faster, so porcelain tile near the kitchen with VCT through the general seating area is a common, cost-effective split.
       </p>

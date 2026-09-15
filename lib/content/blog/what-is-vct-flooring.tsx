@@ -149,42 +149,42 @@ export default function WhatIsVctFlooringContent() {
       {/* FAQ */}
       <h2 id="faq">Frequently Asked Questions</h2>
 
-      <h3>What is VCT flooring made of?</h3>
+      <h3>What Is VCT Flooring Made Of?</h3>
       <p>
         VCT is made from roughly 85 percent ground limestone filler bound with vinyl (PVC) resin, plasticizer for flexibility, stabilizers, and pigment for color, pressed into tiles under heat and pressure. It has no built-in wear layer, so all of its shine and scratch resistance comes from a topical finish applied after installation.
       </p>
 
-      <h3>Is VCT flooring the same as vinyl plank flooring?</h3>
+      <h3>Is VCT Flooring the Same as Vinyl Plank Flooring?</h3>
       <p>
         No. VCT is a mineral-heavy tile, roughly 85 percent limestone, with no factory wear layer and no click-lock edges. Luxury vinyl plank is a plastic-based, click-lock or glue-down floating floor with a printed design layer and a built-in urethane or ceramic-bead wear layer. They look similar in some colorways but perform very differently.
       </p>
 
-      <h3>Does VCT flooring contain asbestos?</h3>
+      <h3>Does VCT Flooring Contain Asbestos?</h3>
       <p>
         Modern VCT manufactured under current ASTM F1066 standards does not contain asbestos. Older vinyl floor tile made before 1985, often called VAT (vinyl asbestos tile), can contain asbestos and should be tested by a certified lab before sanding, scraping, or removing it.
       </p>
 
-      <h3>How often does VCT flooring need to be stripped and waxed?</h3>
+      <h3>How Often Does VCT Flooring Need to Be Stripped and Waxed?</h3>
       <p>
         High-traffic commercial VCT, like school hallways and hospital corridors, typically gets a full strip and rewax every 6 to 12 months, with lighter maintenance like spray buffing in between. Residential VCT in a garage or workshop sees far less traffic and usually only needs a fresh finish coat every 1 to 2 years.
       </p>
 
-      <h3>How much does VCT flooring cost installed?</h3>
+      <h3>How Much Does VCT Flooring Cost Installed?</h3>
       <p>
         VCT typically costs $2 to $5 per square foot fully installed, including tile and commercial-grade adhesive. A 400 to 600 square foot residential garage or workshop project usually runs $800 to $3,000 total, not including the initial finish coats.
       </p>
 
-      <h3>Is VCT flooring good for a home?</h3>
+      <h3>Is VCT Flooring Good for a Home?</h3>
       <p>
         VCT works well in garages, workshops, home gyms, and laundry rooms where its low cost and durability against rolling loads and impact matter more than looks. For finished living areas, most homeowners get a better long-term result from LVP or porcelain tile, since VCT needs ongoing finish maintenance that most residential spaces don't get on a schedule.
       </p>
 
-      <h3>Can VCT flooring be installed over concrete?</h3>
+      <h3>Can VCT Flooring Be Installed Over Concrete?</h3>
       <p>
         Yes, VCT is commonly installed directly over a properly prepared concrete slab. The slab needs to be clean, flat, and tested for moisture before adhesive goes down, the same slab prep required for most resilient flooring installations.
       </p>
 
-      <h3>How long does VCT flooring last?</h3>
+      <h3>How Long Does VCT Flooring Last?</h3>
       <p>
         The tile itself can last 20 to 30 years or longer since the limestone body doesn't wear out the way a surface finish does. In practice, how long a VCT floor looks good depends almost entirely on whether the strip-and-wax maintenance schedule is kept up, not on the tile's own lifespan.
       </p>

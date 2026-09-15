@@ -140,27 +140,27 @@ export default function LaminateOverExistingFloorsContent() {
       {/* FAQ */}
       <h2 id="faq">Frequently Asked Questions</h2>
 
-      <h3>Can you put laminate over laminate?</h3>
+      <h3>Can You Put Laminate Over Laminate?</h3>
       <p>
         No. Laminate is a floating floor, and floating a new laminate floor over an existing one creates an unstable, compressible stack that clicks and separates at the joints. Old laminate is fast to remove because it is not glued down, so the right move is always to pull it up and install the new floor on fresh underlayment.
       </p>
 
-      <h3>Can laminate flooring be installed over existing floors?</h3>
+      <h3>Can Laminate Flooring Be Installed Over Existing Floors?</h3>
       <p>
         Yes, in most cases. Laminate can be installed over tile, vinyl, linoleum, hardwood, and concrete as long as the surface is flat within 3/16 inch over 10 feet, solid and well-bonded, and dry. It cannot go over carpet or over another floating floor, and it should not go over any water-damaged or uneven surface.
       </p>
 
-      <h3>Do you need underlayment when installing laminate over tile or vinyl?</h3>
+      <h3>Do You Need Underlayment When Installing Laminate Over Tile or Vinyl?</h3>
       <p>
         Yes. Laminate needs an underlayment for cushioning, sound, and a smooth glide unless the plank has it pre-attached. Over concrete you also need a vapor barrier underlayment. Do not double up underlayment if the plank already has a pad attached, since too much cushion causes joint failure.
       </p>
 
-      <h3>How flat does the floor need to be for laminate?</h3>
+      <h3>How Flat Does the Floor Need to Be for Laminate?</h3>
       <p>
         Most laminate manufacturers require the substrate to be flat within 3/16 inch over a 10-foot span (some specify 1/8 inch over 6 feet). Anything outside that needs grinding on high spots or self-leveling compound in low spots before the laminate goes down, or the floor will feel hollow and the joints will separate.
       </p>
 
-      <h3>Will installing laminate over an existing floor void the warranty?</h3>
+      <h3>Will Installing Laminate Over an Existing Floor Void the Warranty?</h3>
       <p>
         Not by itself, but most warranties require the substrate to meet the manufacturer flatness and moisture specs and require the correct underlayment. Installing over a soft, uneven, or damp surface, or skipping the vapor barrier over concrete, is what voids coverage. A manufacturer-spec install keeps the warranty intact.
       </p>

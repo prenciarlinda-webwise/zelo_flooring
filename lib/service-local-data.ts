@@ -30,7 +30,7 @@ export const SERVICE_LOCAL_DATA: Record<string, ServiceLocalData> = {
     aeoCostAnswer:
       'Carpet installation in San Diego typically takes a single day for a 1,500 sq ft home, or a few hours for one bedroom. Power-stretching, premium 8 lb pad, and old carpet removal are included in every quote. Zelo Flooring brings free in-home samples, call (619) 777-4334 to schedule yours.',
     aeoSecondaryQuestion: {
-      q: 'What should I look for in San Diego carpet contractors?',
+      q: 'What Should I Look for in San Diego Carpet Contractors?',
       a: 'Look for CSLB-licensed San Diego carpet contractors who power-stretch every install, include a premium pad and old carpet removal in the quote, and bring physical samples to your home. Zelo Flooring meets all three and is bonded and insured. Call (619) 777-4334 for a free in-home estimate.',
     },
     localNuances: [
@@ -62,7 +62,7 @@ export const SERVICE_LOCAL_DATA: Record<string, ServiceLocalData> = {
     aeoCostAnswer:
       'Luxury vinyl plank installation in San Diego typically runs 2-3 days for a 1,000-1,500 sq ft home, including slab prep and moisture testing. Zelo Flooring brings free in-home samples and quotes exact pricing on site, call (619) 777-4334 or request a free estimate online.',
     aeoSecondaryQuestion: {
-      q: 'Why does San Diego LVP need slab moisture testing if vinyl is waterproof?',
+      q: 'Why Does San Diego LVP Need Slab Moisture Testing if Vinyl Is Waterproof?',
       a: 'The plank itself is waterproof, but the adhesive (for glue-down) and the underlayment (for click-lock) are not. High slab moisture pushes vapor through these layers, lifts the plank over time, and voids the manufacturer warranty. We test every slab before any LVP goes down across San Diego County.',
     },
     localNuances: [
@@ -95,7 +95,7 @@ export const SERVICE_LOCAL_DATA: Record<string, ServiceLocalData> = {
     aeoCostAnswer:
       'Hardwood installation in San Diego runs 1-2 weeks: 5 to 7 days of acclimation, 2 to 3 days to install, plus a day for trim. We also refinish and repair existing hardwood floors across San Diego. Zelo Flooring quotes exact pricing after a free in-home estimate, call (619) 777-4334 to schedule.',
     aeoSecondaryQuestion: {
-      q: 'Should I install solid or engineered hardwood in San Diego?',
+      q: 'Should I Install Solid or Engineered Hardwood in San Diego?',
       a: 'Engineered hardwood with a 3 to 4 mm wear layer is our default for most San Diego homes. The cross-ply core stays stable across coastal humidity swings, especially near La Jolla, Pacific Beach, and Coronado. Solid hardwood is viable inland in Poway, Escondido, or in older homes with raised plywood subfloors.',
     },
     localNuances: [
@@ -128,7 +128,7 @@ export const SERVICE_LOCAL_DATA: Record<string, ServiceLocalData> = {
     aeoCostAnswer:
       'Laminate floor installation in San Diego runs 1-2 days for a typical 1,000 sq ft home, including subfloor prep and vapor-barrier underlayment on every slab. Zelo Flooring, a CSLB-licensed San Diego laminate flooring contractor, installs waterproof AC4 and AC5 lines from Pergo, Mohawk RevWood, and Shaw Repel. Call (619) 777-4334 for a free in-home estimate.',
     aeoSecondaryQuestion: {
-      q: 'Is laminate or LVP better for a San Diego home?',
+      q: 'Is Laminate or LVP Better for a San Diego Home?',
       a: 'Different floors. Laminate has a harder, firmer feel and a more authentic embossed wood texture. LVP is softer, warmer, and 100% waterproof core. We recommend laminate for whole-home installs in dry rooms (bedrooms, living rooms, hallways) and AC4+ commercial-rated laminate for rentals; LVP for kitchens, baths, and homes with pets.',
     },
     localNuances: [
@@ -161,7 +161,7 @@ export const SERVICE_LOCAL_DATA: Record<string, ServiceLocalData> = {
     aeoCostAnswer:
       'Tile installation in San Diego runs 2-3 days for a typical bathroom floor, 5-8 days for a full remodel with shower waterproofing, and 2-3 days for a kitchen floor over a flat slab. Zelo Flooring, a CSLB-licensed San Diego tile contractor, includes substrate prep and waterproofing in every quote. Call (619) 777-4334 for a free estimate.',
     aeoSecondaryQuestion: {
-      q: 'What waterproofing do you use for San Diego shower tile?',
+      q: 'What Waterproofing Do You Use for San Diego Shower Tile?',
       a: 'Schluter Kerdi sheet membrane or RedGard liquid membrane depending on the build. Pre-formed Kerdi pans for curbless showers. Pan slope is checked with a level before tile goes down. Both systems are ANSI A118.10 compliant and exceed San Diego County health code for residential bathroom waterproofing.',
     },
     localNuances: [
@@ -194,7 +194,7 @@ export const SERVICE_LOCAL_DATA: Record<string, ServiceLocalData> = {
     aeoCostAnswer:
       'Cork flooring installation in San Diego runs 2-3 days for a 500-1,000 sq ft kitchen, including 72-hour acclimation. Zelo Flooring installs FSC-certified Wicanders, APC, and Globus cork with mandatory slab moisture sealing on every glue-down job. Call (619) 777-4334 for a free in-home estimate.',
     aeoSecondaryQuestion: {
-      q: 'Where does cork flooring work in a San Diego home?',
+      q: 'Where Does Cork Flooring Work in a San Diego Home?',
       a: 'Cork is best in San Diego kitchens, home offices, music rooms, and play areas where comfort underfoot matters. Glue-down cork tile in kitchens with sealed perimeter handles splashes well. We do not recommend cork in full bathrooms or in south-facing rooms with all-day sun exposure due to UV-related color shift over time.',
     },
     localNuances: [
@@ -227,7 +227,7 @@ export const SERVICE_LOCAL_DATA: Record<string, ServiceLocalData> = {
     aeoCostAnswer:
       'Rubber gym flooring installation in San Diego runs 1-2 days for a 500 sq ft home gym, including slab crack repair. Zelo Flooring, a CSLB-licensed rubber flooring installation company, also handles commercial gym, garage, and daycare rubber flooring in 1-2 weeks. Call (619) 777-4334 for a free estimate.',
     aeoSecondaryQuestion: {
-      q: 'What rubber thickness do I need for a San Diego home gym?',
+      q: 'What Rubber Thickness Do I Need for a San Diego Home Gym?',
       a: '3/8 inch is the residential default for general fitness, cardio, and lighter dumbbell work. 1/2 inch is the right call for free-weight training. 3/4 inch or 1 inch is what you want for olympic lifting and dropping loaded barbells. Going thinner than 3/8 inch on a slab is asking for cracks in the rubber and the slab beneath.',
     },
     localNuances: [
@@ -260,7 +260,7 @@ export const SERVICE_LOCAL_DATA: Record<string, ServiceLocalData> = {
     aeoCostAnswer:
       'VCT commercial flooring installation in San Diego runs 4-7 days for a 5,000 sq ft classroom retrofit, including substrate prep and finish coats. Zelo Flooring, a CSLB-licensed commercial flooring contractor, works after-hours and weekends so schools, clinics, and retail spaces stay operational. Call (619) 777-4334 for a quote.',
     aeoSecondaryQuestion: {
-      q: 'How is VCT different from LVT in San Diego commercial spaces?',
+      q: 'How Is VCT Different from LVT in San Diego Commercial Spaces?',
       a: 'VCT is a homogeneous tile (vinyl, limestone, plasticizer, pigment) that needs regular stripping and waxing. LVT (luxury vinyl tile) is multi-layer with a pre-finished top coat that does not need waxing. VCT is cheaper per square foot but has higher long-term maintenance. We install VCT in San Diego schools, healthcare, and high-traffic retail; LVT in offices and lower-maintenance commercial.',
     },
     localNuances: [

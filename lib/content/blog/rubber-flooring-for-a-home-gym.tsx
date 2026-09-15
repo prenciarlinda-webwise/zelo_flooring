@@ -150,42 +150,42 @@ export default function RubberFlooringForAHomeGymContent() {
       {/* FAQ */}
       <h2 id="faq">Frequently Asked Questions</h2>
 
-      <h3>What thickness of rubber flooring do I need for a home gym?</h3>
+      <h3>What Thickness of Rubber Flooring Do I Need for a Home Gym?</h3>
       <p>
         3/8 inch is the standard for cardio equipment and general fitness use. 1/2 inch is the right call for regular free-weight and dumbbell training. 3/4 inch to 1 inch is what you need for olympic lifting and dropping loaded barbells, since thinner rubber cannot absorb that level of impact without stressing the slab underneath.
       </p>
 
-      <h3>Should I choose rolled rubber or interlocking tiles for my home gym?</h3>
+      <h3>Should I Choose Rolled Rubber or Interlocking Tiles for My Home Gym?</h3>
       <p>
         Rolled rubber is the better long-term choice for a permanent home gym since it has the fewest seams and the most professional finish. Interlocking tile is the better choice if you rent, want to install it yourself over a weekend, or want the option to replace a single damaged section instead of a larger area.
       </p>
 
-      <h3>Will rubber gym flooring smell when it is installed?</h3>
+      <h3>Will Rubber Gym Flooring Smell When It Is Installed?</h3>
       <p>
         Yes, briefly. Recycled tire rubber has a noticeable smell that generally clears within a month with ventilation, and can linger longer in a closed-up room. Premium virgin-rubber products from brands like Ecore and Mondo have a much lighter smell that typically airs out within about a week.
       </p>
 
-      <h3>Can I install rubber flooring over a cracked garage slab?</h3>
+      <h3>Can I Install Rubber Flooring Over a Cracked Garage Slab?</h3>
       <p>
         Yes. Hairline cracks under about 1/16 inch generally do not telegraph through 3/8 inch rubber or thicker. Wider cracks, or cracks with one side higher than the other, get filled with epoxy and ground flush first so the rubber sits flat and the crack does not become a wear point.
       </p>
 
-      <h3>How much does rubber flooring cost for a home gym?</h3>
+      <h3>How Much Does Rubber Flooring Cost for a Home Gym?</h3>
       <p>
         A 300 square foot home gym typically runs $1,050 to $3,000 fully installed depending on thickness and whether you choose interlocking tile or rolled rubber, with 3/8 inch tile at the low end and a 3/4 inch to 1 inch platform build at the high end.
       </p>
 
-      <h3>How long does it take to install rubber flooring in a home gym?</h3>
+      <h3>How Long Does It Take to Install Rubber Flooring in a Home Gym?</h3>
       <p>
         A typical 300 to 500 square foot home gym, including any slab crack repair, installs in 1 to 2 days. Larger commercial gym buildouts with multiple zones take longer, often a week or more.
       </p>
 
-      <h3>Can rubber flooring go over carpet or an existing hard floor?</h3>
+      <h3>Can Rubber Flooring Go Over Carpet or an Existing Hard Floor?</h3>
       <p>
         We recommend removing carpet first since it compresses unevenly under rubber and traps moisture underneath. Rubber can generally go directly over existing tile, laminate, or vinyl as long as that floor is flat, well-bonded, and not already damaged or lifting.
       </p>
 
-      <h3>How do I clean and maintain rubber gym flooring?</h3>
+      <h3>How Do I Clean and Maintain Rubber Gym Flooring?</h3>
       <p>
         Sweep or vacuum first, then damp mop with a pH-neutral cleaner. Avoid ammonia, citrus cleaners, and solvents, which break down the rubber's binder over time. Keep it out of prolonged direct sunlight where possible to slow fading, and re-adhere any lifted seam or tile edge as soon as you notice it.
       </p>

@@ -1,6 +1,5 @@
 import Link from 'next/link';
 import LeadFormHero from './LeadFormHero';
-import IndustryStats from './IndustryStats';
 import TrustindexWidget from './TrustindexWidget';
 import CouponsBlock from './CouponsBlock';
 import FaqList from './FaqList';
@@ -14,6 +13,26 @@ import { SERVICES } from '@/lib/services';
 
 type Props = { location: Location };
 
+const MIRA_MESA_WIKIPEDIA_URL = 'https://en.wikipedia.org/wiki/Mira_Mesa,_San_Diego';
+
+// Renders the main San Diego findUs paragraph with "Mira Mesa" linked out to Wikipedia
+// (1-2 outbound authoritative links per page, per the GEO/AEO rule). Splits on the exact
+// substring once; falls back to plain text if the copy in lib/locations.ts ever drops it.
+function findUsParagraphWithMiraMesaLink(paragraph: string) {
+  const marker = 'Mira Mesa';
+  const idx = paragraph.indexOf(marker);
+  if (idx === -1) return paragraph;
+  return (
+    <>
+      {paragraph.slice(0, idx)}
+      <a href={MIRA_MESA_WIKIPEDIA_URL} target="_blank" rel="noopener noreferrer">
+        {marker}
+      </a>
+      {paragraph.slice(idx + marker.length)}
+    </>
+  );
+}
+
 export default function LocationPage({ location }: Props) {
   const isMain = location.type === 'main';
 
@@ -21,133 +40,107 @@ export default function LocationPage({ location }: Props) {
   // service page (only one shared /{service}-san-diego page per service), so rather than link
   // to a page that isn't about this city, each card gets a short, location-specific note instead.
 
-  // Stats: a mix of universal industry stats and location-specific facts
-  const stats = [
-    {
-      label: `Distinct neighborhoods we install in across ${location.city}`,
-      value: `${location.neighborhoods.length}+`,
-      sourceLabel: 'Wikipedia city profile',
-      sourceUrl: location.wikipediaUrl,
-    },
-    {
-      label: 'CA contractor licenses verified by the CSLB',
-      value: '290,000+',
-      sourceLabel: 'CSLB',
-      sourceUrl: 'https://www.cslb.ca.gov',
-    },
-  ];
+  // Each section below is a named JSX variable so isMain can reorder them (see the return
+  // statement) without duplicating markup. San Diego's order was requested to lead with the
+  // services grid and the local Find Us section, right after the hero; every other location
+  // keeps the original top-to-bottom order.
 
-  return (
-    <>
-      <LeadFormHero
-        h1={`Flooring in ${location.city}, ${location.state}`}
-        valueProp={location.heroValueProp}
-        trustBullets={[
-          `${SITE.licenseDetails.classification} Licensed (CSLB #${SITE.license})`,
-          isMain
-            ? `${SITE.ownerExperienceYears}+ years of journeyman experience`
-            : `Serving ${location.city} from our San Diego office`,
-          `${SITE.rating.value.toFixed(1)}★ on Thumbtack (${SITE.rating.count} reviews)`,
-        ]}
-        image={location.heroImage}
-        imageAlt={location.heroImageAlt}
-        defaultProjectType="Not sure yet"
-      />
+  const aeoQuickAnswerSection = (
+    <section className="section section-cream" key="aeo-quick-answer">
+      <div className="container">
+        <div className="aeo-block">
+          <p className="aeo-answer-text"><LinkifyPhone text={location.aeoCostAnswer} /></p>
 
-      {/* AEO QUICK-ANSWER */}
-      <section className="section section-cream">
-        <div className="container">
-          <div className="aeo-block">
-            <p className="aeo-answer-text"><LinkifyPhone text={location.aeoCostAnswer} /></p>
-
-            <ul className="aeo-keyfacts">
-              <li><strong>Service area:</strong> {location.city} ({location.zips.join(', ')})</li>
-              <li><strong>Licensed:</strong> CSLB #{SITE.license}</li>
-              <li><strong>Free in-home estimate:</strong> Yes, samples brought to you</li>
-              {!isMain && location.driveTimeFromHQ && (
-                <li><strong>Drive time from HQ:</strong> {location.driveTimeFromHQ}</li>
-              )}
-              <li><strong>County:</strong> {location.county}</li>
-            </ul>
-          </div>
+          <ul className="aeo-keyfacts">
+            <li><CheckIcon size={14} /><span>Serving {location.city} ({location.zips.join(', ')})</span></li>
+            <li><CheckIcon size={14} /><span>CSLB licensed, #{SITE.license}</span></li>
+            <li><CheckIcon size={14} /><span>Free in-home estimates, samples brought to you</span></li>
+            {!isMain && location.driveTimeFromHQ && (
+              <li><CheckIcon size={14} /><span>About {location.driveTimeFromHQ} from our San Diego office</span></li>
+            )}
+            <li><CheckIcon size={14} /><span>{location.county}</span></li>
+          </ul>
         </div>
-      </section>
+      </div>
+    </section>
+  );
 
-      {/* CITY INTRO + LOCAL NUANCES */}
-      <section className="section">
-        <div className="container">
-          <div className="section-header">
-            <span className="eyebrow">{location.city} flooring</span>
-            <h2>{location.city} flooring services</h2>
-          </div>
-          <div className="city-intro">
-            {location.cityIntro.map((p, i) => (
-              <p key={i}>{p}</p>
-            ))}
-          </div>
-
-          <div className="local-nuances">
-            <h3>Local conditions in {location.city}</h3>
-            <ul>
-              {location.localNuances.map((n) => (
-                <li key={n}>
-                  <CheckIcon size={16} />
-                  <span>{n}</span>
-                </li>
-              ))}
-            </ul>
-          </div>
+  const cityIntroSection = (
+    <section className="section" key="city-intro">
+      <div className="container">
+        <div className="section-header">
+          <h2>{location.city} Flooring Services</h2>
         </div>
-      </section>
+        <div className="city-intro">
+          {location.cityIntro.map((p, i) => (
+            <p key={i}>{p}</p>
+          ))}
+        </div>
 
-      {/* WHY CHOOSE US (LOCAL) */}
-      <section className="section section-cream">
-        <div className="container">
-          <div className="section-header center">
-            <span className="eyebrow">Why Zelo</span>
-            <h2>Why customers choose Zelo Flooring in {location.city}</h2>
-            <p>Same install standards across San Diego County, adjusted for {location.city} conditions.</p>
-          </div>
-
-          <div className="why-local-grid">
-            {location.whyChooseUsLocal.map((w) => (
-              <div key={w.title} className="why-local-item">
+        <div className="local-nuances">
+          <h3>Local Conditions in {location.city}</h3>
+          <ul>
+            {location.localNuances.map((n) => (
+              <li key={n}>
                 <CheckIcon size={16} />
-                <div className="why-local-text">
-                  <h3>{w.title}</h3>
-                  <p>{w.desc}</p>
-                </div>
-              </div>
+                <span>{n}</span>
+              </li>
             ))}
-          </div>
+          </ul>
         </div>
-      </section>
+      </div>
+    </section>
+  );
 
-      {/* SERVICES WE OFFER (informational, no link out - see note above) */}
-      <section className="section">
-        <div className="container">
-          <div className="section-header center">
-            <span className="eyebrow">{`Flooring services in ${location.city}`}</span>
-            <h2>{`Flooring services in ${location.city}, ${location.state}`}</h2>
-            <p>All 8 flooring types we install, with what matters most for {location.city} homes.</p>
-          </div>
-          <div className="location-service-grid">
-            {SERVICES.map((s) => (
-              <div key={s.slug} className="location-service-card">
-                <h3 className="location-service-title">{s.name}</h3>
-                <p className="location-service-note">{location.serviceNotes[s.slug]}</p>
+  const whyChooseUsSection = (
+    <section className="section section-cream" key="why-choose-us">
+      <div className="container">
+        <div className="section-header center">
+          <h2>Why Customers Choose Zelo Flooring in {location.city}</h2>
+          <p>Same install standards across San Diego County, adjusted for {location.city} conditions.</p>
+        </div>
+
+        <div className="why-local-grid">
+          {location.whyChooseUsLocal.map((w) => (
+            <div key={w.title} className="why-local-item">
+              <CheckIcon size={16} />
+              <div className="why-local-text">
+                <h3>{w.title}</h3>
+                <p>{w.desc}</p>
               </div>
-            ))}
-          </div>
+            </div>
+          ))}
         </div>
-      </section>
+      </div>
+    </section>
+  );
 
-      {/* BEST-OF ANSWER BLOCK (AEO) */}
-      {location.bestOf && (
-        <section className="section">
+  {/* SERVICES WE OFFER (informational, no link out) - there is no per-city service page (only one
+      shared /{service}-san-diego page per service), so rather than link to a page that isn't about
+      this city, each card gets a short, location-specific note instead. */}
+  const servicesSection = (
+    <section className="section" key="services">
+      <div className="container">
+        <div className="section-header center">
+          <h2>{`Flooring Services in ${location.city}, ${location.state}`}</h2>
+          <p>All 8 flooring types we install, with what matters most for {location.city} homes.</p>
+        </div>
+        <div className="location-service-grid">
+          {SERVICES.map((s) => (
+            <div key={s.slug} className="location-service-card">
+              <h3 className="location-service-title">{s.name}</h3>
+              <p className="location-service-note">{location.serviceNotes[s.slug]}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+
+  const bestOfSection = location.bestOf && (
+        <section className="section" key="best-of">
           <div className="container">
             <div className="aeo-block">
-              <p className="eyebrow">Best flooring</p>
               <h2>{location.bestOf.q}</h2>
               <p className="aeo-answer-text">{location.bestOf.a}</p>
               <ul className="aeo-keyfacts">
@@ -164,14 +157,13 @@ export default function LocationPage({ location }: Props) {
             </div>
           </div>
         </section>
-      )}
+      );
 
-      {/* FIND A RELIABLE INSTALLER ANSWER BLOCK (AEO/GEO) */}
-      {location.findInstaller && (
-        <section className="section">
+  {/* FIND A RELIABLE INSTALLER ANSWER BLOCK (AEO/GEO) */}
+  const findInstallerSection = location.findInstaller && (
+    <section className="section" key="find-installer">
           <div className="container">
             <div className="installer-trust-block">
-              <p className="eyebrow">Choosing an installer</p>
               <h2>{location.findInstaller.q}</h2>
               <p className="aeo-answer-text"><LinkifyPhone text={location.findInstaller.a} /></p>
               <ul className="installer-checklist">
@@ -242,155 +234,199 @@ export default function LocationPage({ location }: Props) {
             </div>
           </div>
         </section>
-      )}
+      );
 
-      {/* AEO SECONDARY QUESTION */}
-      <section className="section section-cream">
-        <div className="container">
-          <div className="aeo-block">
-            <p className="eyebrow">Top question</p>
-            <h2>{location.aeoSecondaryQuestion.q}</h2>
-            <p className="aeo-answer-text"><LinkifyPhone text={location.aeoSecondaryQuestion.a} /></p>
-          </div>
+  const aeoSecondaryQuestionSection = (
+    <section className="section section-cream" key="aeo-secondary">
+      <div className="container">
+        <div className="aeo-block">
+          <h2>{location.aeoSecondaryQuestion.q}</h2>
+          <p className="aeo-answer-text"><LinkifyPhone text={location.aeoSecondaryQuestion.a} /></p>
         </div>
-      </section>
+      </div>
+    </section>
+  );
 
-      {/* NEIGHBORHOODS SERVED */}
-      <section className="section">
-        <div className="container">
-          <div className="section-header center">
-            <span className="eyebrow">Service Area</span>
-            <h2>{location.city} neighborhoods we serve</h2>
-            <p>Free in-home estimates across every {location.city} neighborhood.</p>
-          </div>
+  const neighborhoodsSection = (
+    <section className="section" key="neighborhoods">
+      <div className="container">
+        <div className="section-header center">
+          <h2>{location.city} Neighborhoods We Serve</h2>
+          <p>Free in-home estimates across every {location.city} neighborhood.</p>
+        </div>
 
-          <div className="neighborhood-grid">
-            {location.neighborhoods.map((n) => (
-              <div key={n} className="neighborhood-card">
-                <PinIcon size={14} />
-                <span>{n}</span>
-              </div>
+        <div className="neighborhood-grid">
+          {location.neighborhoods.map((n) => (
+            <div key={n} className="neighborhood-card">
+              <PinIcon size={14} />
+              <span>{n}</span>
+            </div>
+          ))}
+        </div>
+
+      </div>
+    </section>
+  );
+
+  {/* FIND US (narrative local-reach section + embedded map, unique per location) */}
+  const findUsSection = (
+    <section className="section section-cream" key="find-us">
+      <div className="container">
+        <div className="section-header center">
+          <h2>{location.findUs.heading}</h2>
+        </div>
+        <div className="trust-local-block">
+          <div className="trust-local-text">
+            {location.findUs.paragraphs.map((p, i) => (
+              <p key={i}>{isMain ? findUsParagraphWithMiraMesaLink(p) : p}</p>
             ))}
-          </div>
-
-        </div>
-      </section>
-
-      {/* FIND US (narrative local-reach section + embedded map, unique per location) */}
-      <section className="section section-cream">
-        <div className="container">
-          <div className="section-header center">
-            <span className="eyebrow">Find Us</span>
-            <h2>{location.findUs.heading}</h2>
-          </div>
-          <div className="trust-local-block">
-            <div className="trust-local-text">
-              {location.findUs.paragraphs.map((p, i) => (
-                <p key={i}>{p}</p>
-              ))}
-              <p>
-                Phone: <a href={`tel:${SITE.phoneRaw}`}>{SITE.phone}</a>
-              </p>
-              <p className="trust-local-address">{SITE.address}</p>
-            </div>
-            <div className="trust-local-map">
-              <iframe
-                title={`Zelo Flooring office location serving ${location.city}, ${location.state}`}
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d429158.4382376207!2d-117.43896549701864!3d32.82405591700714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4579afeb4521caf3%3A0x8ce37c4ae7b6778f!2sZelo%20Flooring!5e0!3m2!1sen!2s!4v1783763905235!5m2!1sen!2s"
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-                allowFullScreen
-              />
-            </div>
-          </div>
-          <div className="landmarks">
             <p>
-              <strong>Local landmarks:</strong>{' '}
-              {location.landmarks.join(', ')}.
+              Phone: <a href={`tel:${SITE.phoneRaw}`}>{SITE.phone}</a>
             </p>
-            <p>
-              <strong>ZIP codes served:</strong> {location.zips.join(', ')}.
-            </p>
-            <p>
-              <a href={location.wikipediaUrl} target="_blank" rel="noopener noreferrer">
-                Wikipedia {location.city}
-              </a>
-            </p>
+            <p className="trust-local-address">{SITE.address}</p>
+          </div>
+          <div className="trust-local-map">
+            <iframe
+              title={`Zelo Flooring office location serving ${location.city}, ${location.state}`}
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d429158.4382376207!2d-117.43896549701864!3d32.82405591700714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4579afeb4521caf3%3A0x8ce37c4ae7b6778f!2sZelo%20Flooring!5e0!3m2!1sen!2s!4v1783763905235!5m2!1sen!2s"
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              allowFullScreen
+            />
           </div>
         </div>
-      </section>
-
-      <IndustryStats
-        eyebrow="By the Numbers"
-        heading={`Industry stats for ${location.city} flooring`}
-        stats={stats}
-      />
-
-      <section className="section">
-        <div className="container">
-          <div className="section-header center">
-            <span className="eyebrow">What customers say</span>
-            <h2>{`5-star reviews from ${location.city} customers`}</h2>
-          </div>
-          <TrustindexWidget src="https://cdn.trustindex.io/loader.js?4a1219e76b2c4743ce66d5610b3" />
+        <div className="landmarks">
+          <p>
+            <strong>Local landmarks:</strong>{' '}
+            {location.landmarks.join(', ')}.
+          </p>
+          <p>
+            <strong>ZIP codes served:</strong> {location.zips.join(', ')}.
+          </p>
+          <p>
+            <a href={location.wikipediaUrl} target="_blank" rel="noopener noreferrer">
+              Wikipedia {location.city}
+            </a>
+          </p>
         </div>
-      </section>
+      </div>
+    </section>
+  );
 
-      <CouponsBlock
-        eyebrow="Current Offers"
-        heading="Zelo Flooring Specials"
-        subheading="Tap any offer to claim it. We follow up within 1 business day."
-      />
-
-      <section className="section">
-        <div className="container">
-          <div className="section-header center">
-            <span className="eyebrow">FAQ</span>
-            <h2>{location.city} flooring FAQs</h2>
-            <p>The most common questions we hear from {location.city} residents.</p>
-          </div>
-          <FaqList items={location.faqs} includeSchema={false} />
+  const reviewsSection = (
+    <section className="section" key="reviews">
+      <div className="container">
+        <div className="section-header center">
+          <h2>{`5-Star Reviews from ${location.city} Customers`}</h2>
         </div>
-      </section>
+        <TrustindexWidget src="https://cdn.trustindex.io/loader.js?4a1219e76b2c4743ce66d5610b3" />
+      </div>
+    </section>
+  );
 
-      {/* RELATED LOCATIONS */}
-      {location.relatedLocations.length > 0 && (
-        <section className="section section-cream">
-          <div className="container">
-            <div className="section-header center">
-              <span className="eyebrow">Nearby Areas</span>
-              <h2>Nearby service areas in San Diego County</h2>
-            </div>
+  const couponsSection = (
+    <CouponsBlock
+      key="coupons"
+      eyebrow="Current Offers"
+      heading="Zelo Flooring Specials"
+      subheading="Tap any offer to claim it. We follow up within 1 business day."
+    />
+  );
 
-            <div className="related-locations-grid">
-              {location.relatedLocations.map((slug) => {
-                const related = getLocation(slug);
-                if (!related) return null;
-                return (
-                  <Link key={slug} href={`/${slug}`} className="related-location-card">
-                    <span className="related-location-city">{related.city}</span>
-                    <span className="related-location-meta">
-                      {related.neighborhoods.length} neighborhoods · {related.zips.length} ZIP{related.zips.length > 1 ? 's' : ''}
-                    </span>
-                    <ArrowIcon size={14} />
-                  </Link>
-                );
-              })}
-              {/* Always include the locations hub */}
-              <Link href="/service-areas" className="related-location-card">
-                <span className="related-location-city">All Service Areas</span>
-                <span className="related-location-meta">{LOCATIONS.length}+ communities</span>
+  const faqSection = (
+    <section className="section" key="faq">
+      <div className="container">
+        <div className="section-header center">
+          <h2>{location.city} Flooring FAQs</h2>
+          <p>The most common questions we hear from {location.city} residents.</p>
+        </div>
+        <FaqList items={location.faqs} includeSchema={false} />
+      </div>
+    </section>
+  );
+
+  {/* RELATED LOCATIONS */}
+  const relatedLocationsSection = location.relatedLocations.length > 0 && (
+    <section className="section section-cream" key="related-locations">
+      <div className="container">
+        <div className="section-header center">
+          <h2>Nearby Service Areas in San Diego County</h2>
+        </div>
+
+        <div className="related-locations-grid">
+          {location.relatedLocations.map((slug) => {
+            const related = getLocation(slug);
+            if (!related) return null;
+            return (
+              <Link key={slug} href={`/${slug}`} className="related-location-card">
+                <span className="related-location-city">{related.city}</span>
+                <span className="related-location-meta">
+                  {related.neighborhoods.length} neighborhoods · {related.zips.length} ZIP{related.zips.length > 1 ? 's' : ''}
+                </span>
                 <ArrowIcon size={14} />
               </Link>
-            </div>
-          </div>
-        </section>
-      )}
+            );
+          })}
+          {/* Always include the locations hub */}
+          <Link href="/service-areas" className="related-location-card">
+            <span className="related-location-city">All Service Areas</span>
+            <span className="related-location-meta">{LOCATIONS.length}+ communities</span>
+            <ArrowIcon size={14} />
+          </Link>
+        </div>
+      </div>
+    </section>
+  );
 
-      <FinalCTA
-        heading={`Get a free flooring estimate in ${location.city}, ${location.state}`}
-        subheading={`Tell us about your ${location.city} project. We bring samples, take measurements, and put together a clear written quote at no cost.`}
+  const finalCtaSection = (
+    <FinalCTA
+      key="final-cta"
+      heading={`Get a Free Flooring Estimate in ${location.city}, ${location.state}`}
+      subheading={`Tell us about your ${location.city} project. We bring samples, take measurements, and put together a clear written quote at no cost.`}
+    />
+  );
+
+  // 2026-09-13: services grid + Find Us now lead, right after the hero, on every location page
+  // (piloted on San Diego main first, then rolled out here to all 12 secondary locations per
+  // client request). Everything else keeps its prior relative order after that.
+  const middleSections = [
+    servicesSection,
+    findUsSection,
+    aeoQuickAnswerSection,
+    cityIntroSection,
+    whyChooseUsSection,
+    bestOfSection,
+    findInstallerSection,
+    aeoSecondaryQuestionSection,
+    neighborhoodsSection,
+  ];
+
+  const tailSections = [
+    reviewsSection,
+    couponsSection,
+    faqSection,
+    relatedLocationsSection,
+    finalCtaSection,
+  ];
+
+  return (
+    <>
+      <LeadFormHero
+        h1={isMain ? 'Professional Flooring Services San Diego' : `Flooring in ${location.city}, ${location.state}`}
+        valueProp={location.heroValueProp}
+        trustBullets={[
+          `${SITE.licenseDetails.classification} Licensed (CSLB #${SITE.license})`,
+          isMain
+            ? `${SITE.ownerExperienceYears}+ years of journeyman experience`
+            : `Serving ${location.city} from our San Diego office`,
+          `${SITE.rating.value.toFixed(1)}★ on Thumbtack (${SITE.rating.count} reviews)`,
+        ]}
+        image={location.heroImage}
+        imageAlt={location.heroImageAlt}
+        defaultProjectType="Not sure yet"
       />
+      {middleSections}
+      {tailSections}
     </>
   );
 }

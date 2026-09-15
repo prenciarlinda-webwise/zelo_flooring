@@ -99,27 +99,27 @@ export default function VinylVsLaminateFlooringContent() {
       {/* FAQ */}
       <h2 id="faq">Frequently Asked Questions</h2>
 
-      <h3>Is vinyl or laminate flooring better?</h3>
+      <h3>Is Vinyl or Laminate Flooring Better?</h3>
       <p>
         Neither is universally better. Vinyl plank is better for kitchens, bathrooms, basements, and homes with pets because it is 100% waterproof. Laminate is better for dry bedrooms and living rooms where you want a harder, more authentic wood feel at a slightly lower cost. Match the floor to the room and the moisture.
       </p>
 
-      <h3>Is vinyl plank more expensive than laminate?</h3>
+      <h3>Is Vinyl Plank More Expensive Than Laminate?</h3>
       <p>
         Usually, slightly. Vinyl plank runs about $4 to $9 per square foot installed and laminate runs $3 to $7. The ranges overlap, and premium versions of each cost about the same. For a large project, laminate offers a small per-square-foot saving.
       </p>
 
-      <h3>Which lasts longer, vinyl or laminate?</h3>
+      <h3>Which Lasts Longer, Vinyl or Laminate?</h3>
       <p>
         Both last 15 to 25 years with quality products and proper installation. Vinyl tends to outlast laminate in wet and high-moisture areas because water does not damage its core. In dry rooms, a high-AC-rated laminate can match vinyl for lifespan.
       </p>
 
-      <h3>Is laminate or vinyl better for pets?</h3>
+      <h3>Is Laminate or Vinyl Better for Pets?</h3>
       <p>
         Vinyl is better for pets. Its waterproof core shrugs off accidents, and it resists the scratching that claws cause. Laminate can handle pets in dry rooms, but a single missed accident that soaks into a seam can swell the board permanently.
       </p>
 
-      <h3>Can you tell the difference between vinyl and laminate?</h3>
+      <h3>Can You Tell the Difference Between Vinyl and Laminate?</h3>
       <p>
         Up close, laminate usually has a deeper, more textured wood emboss and a harder, cooler surface, while vinyl feels slightly softer and warmer. The clearest test is the edge: laminate shows a light wood-fiber core, while vinyl shows a solid plastic core. In a finished floor, most people cannot tell at a glance.
       </p>

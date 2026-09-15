@@ -79,27 +79,27 @@ export default function TypesOfHardwoodFlooringContent() {
 
       <h2 id="faq">Frequently Asked Questions</h2>
 
-      <h3>What are the main types of hardwood flooring?</h3>
+      <h3>What Are the Main Types of Hardwood Flooring?</h3>
       <p>
         The two main types are solid hardwood, a single piece of wood that can be refinished many times, and engineered hardwood, a real-wood veneer over a plywood core that stays stable on slab and in humidity. Within each, you choose a species, finish, plank width, and grade.
       </p>
 
-      <h3>What is the most durable hardwood floor?</h3>
+      <h3>What Is the Most Durable Hardwood Floor?</h3>
       <p>
         Hickory is the most durable common hardwood species, with a Janka hardness around 1,820, followed by oak and maple. A harder species combined with a quality factory finish gives the best resistance to dents and scratches, which matters most in busy homes and with pets.
       </p>
 
-      <h3>What hardwood species is best?</h3>
+      <h3>What Hardwood Species Is Best?</h3>
       <p>
         White oak is the most popular and versatile species today because it is hard, neutral in color, takes stain evenly, and is widely available. Hickory is best for maximum durability, while walnut offers the richest dark look at the cost of being softer.
       </p>
 
-      <h3>Should I choose solid or engineered hardwood?</h3>
+      <h3>Should I Choose Solid or Engineered Hardwood?</h3>
       <p>
         Choose engineered hardwood for concrete slab foundations, humid coastal areas, and most modern homes, since it resists cupping and gapping. Choose solid hardwood for older homes with plywood subfloors in drier climates where you want a floor that can be refinished many times.
       </p>
 
-      <h3>What is the most popular hardwood floor right now?</h3>
+      <h3>What Is the Most Popular Hardwood Floor Right Now?</h3>
       <p>
         Engineered white oak in a wide plank with a matte, natural finish is the most popular hardwood floor today. It suits both modern and traditional homes, handles slab and humidity well, and is the most requested look in current installations.
       </p>

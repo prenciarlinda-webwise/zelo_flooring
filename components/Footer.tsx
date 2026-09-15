@@ -1,14 +1,8 @@
 import Link from 'next/link';
 import Image from 'next/image';
-import { SITE, SERVICE_AREAS } from '@/lib/areas';
+import { SITE } from '@/lib/areas';
 import { SERVICES } from '@/lib/services';
 import { PhoneIcon, PinIcon, MapQuestIcon } from './Icons';
-import TrustindexWidget from './TrustindexWidget';
-import EstimateModalLink from '@/components/EstimateModalLink';
-
-function neighborhoodSlug(name: string) {
-  return 'flooring-' + name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
-}
 
 export default function Footer() {
   return (
@@ -52,12 +46,10 @@ export default function Footer() {
             <li><Link href="/services">All Services</Link></li>
             <li><Link href="/service-areas">Service Areas</Link></li>
             <li><Link href="/projects">Project Photos</Link></li>
-            <li><Link href="/san-diego-flooring-faqs">FAQ</Link></li>
             <li><Link href="/blog">Blog</Link></li>
-            <li><Link href="/contact">Contact</Link></li>
             <li><Link href="/careers">Careers</Link></li>
             <li><Link href="/professional-network">Professional Network</Link></li>
-            <li><EstimateModalLink>Free Estimate</EstimateModalLink></li>
+            <li><Link href="/contact">Contact</Link></li>
           </ul>
         </div>
 
@@ -130,33 +122,6 @@ export default function Footer() {
               <MapQuestIcon size={20} />
             </a>
           </div>
-        </div>
-      </div>
-
-      {/* Service area dropdown */}
-      <div className="footer-areas">
-        <div className="container">
-          <details className="footer-areas-details">
-            <summary>
-              <span className="footer-areas-label">Service Areas</span>
-              <span className="footer-areas-hint">{SERVICE_AREAS.length} San Diego neighborhoods · tap to expand</span>
-            </summary>
-            <div className="footer-areas-grid">
-              {SERVICE_AREAS.map((area) => (
-                <Link key={area.name} href={`/${neighborhoodSlug(area.name)}`} className="footer-area-link">
-                  <PinIcon size={12} />
-                  <span>{area.name}</span>
-                </Link>
-              ))}
-            </div>
-          </details>
-        </div>
-      </div>
-
-      {/* Trustindex trust certificate */}
-      <div className="footer-cert">
-        <div className="container">
-          <TrustindexWidget src="https://cdn.trustindex.io/loader-cert.js?31bc92372a4a70346c36b25c385" />
         </div>
       </div>
 

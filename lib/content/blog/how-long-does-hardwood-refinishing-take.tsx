@@ -121,27 +121,27 @@ export default function HowLongDoesHardwoodRefinishingTakeContent() {
       {/* FAQ */}
       <h2 id="faq">Frequently Asked Questions</h2>
 
-      <h3>How long does hardwood floor refinishing take?</h3>
+      <h3>How Long Does Hardwood Floor Refinishing Take?</h3>
       <p>
         Hardwood floor refinishing takes 3 to 5 days of active work for an average home, covering sanding, optional staining, and 2 to 3 finish coats. Larger homes, added stain color, extra coats, or oil-based finish push it longer. Plan for full cure to continue for days to weeks after the last coat.
       </p>
 
-      <h3>How long before you can walk on refinished hardwood floors?</h3>
+      <h3>How Long Before You Can Walk on Refinished Hardwood Floors?</h3>
       <p>
         You can usually walk on refinished hardwood in socks about 24 hours after the final coat. Wait at least 48 hours before walking in shoes or letting pets on the floor. The finish is dry to the touch quickly but keeps hardening, so light, careful traffic only at first.
       </p>
 
-      <h3>How long before you can put furniture back after refinishing?</h3>
+      <h3>How Long Before You Can Put Furniture Back After Refinishing?</h3>
       <p>
         Wait 3 to 7 days before moving furniture back. Water-based finishes are usually ready in 3 to 4 days; oil-based finishes need 5 to 7. Lift furniture rather than dragging it, and use felt pads. Keep area rugs off for 2 to 4 weeks so the finish can fully cure underneath.
       </p>
 
-      <h3>Can you stay in the house during hardwood refinishing?</h3>
+      <h3>Can You Stay in the House During Hardwood Refinishing?</h3>
       <p>
         Usually yes, especially with a dust-contained sander and a water-based finish, which has low odor. You will need a path that avoids the curing floors. Oil-based finishes give off strong fumes for a few days, so households with sensitivities often stay elsewhere during that part of the job.
       </p>
 
-      <h3>How often can hardwood floors be refinished?</h3>
+      <h3>How Often Can Hardwood Floors Be Refinished?</h3>
       <p>
         Solid hardwood can be refinished 3 to 5 times over its life. Engineered hardwood depends on its wear-layer thickness: a 3mm or thicker veneer can take one or two light refinishes, while a thin 1mm veneer cannot be sanded. Most floors in regular use get a full refinish every 7 to 10 years.
       </p>

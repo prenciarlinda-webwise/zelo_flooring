@@ -177,42 +177,42 @@ export default function HowToRemoveCarpetStainsContent() {
       {/* FAQ */}
       <h2 id="faq">Frequently Asked Questions</h2>
 
-      <h3>What is the best homemade carpet stain remover?</h3>
+      <h3>What Is the Best Homemade Carpet Stain Remover?</h3>
       <p>
         A mix of 1 tablespoon dish soap, 1 tablespoon white vinegar, and 2 cups of cool water handles the majority of food, drink, and dirt stains. Apply with a spray bottle, blot rather than rub, and rinse with plain water afterward to remove soap residue.
       </p>
 
-      <h3>How do you get old, set-in stains out of carpet?</h3>
+      <h3>How Do You Get Old, Set-in Stains Out of Carpet?</h3>
       <p>
         Set-in stains usually need a stronger step than fresh spills. A 3 percent hydrogen peroxide and dish soap mixture, spot-tested first, lifts many dried food and drink stains. Set-in pet urine needs an enzyme cleaner with 10 to 15 minutes of dwell time, and a stain older than several days may take more than one treatment cycle to fully lift.
       </p>
 
-      <h3>Does vinegar remove carpet stains?</h3>
+      <h3>Does Vinegar Remove Carpet Stains?</h3>
       <p>
         Yes, white vinegar mixed with dish soap and water is effective on most food, drink, and dirt stains because the acidity helps break down dyes and the soap lifts oils. It will not fix set-in pet urine odor on its own, which needs an enzyme cleaner instead.
       </p>
 
-      <h3>Will hydrogen peroxide bleach my carpet?</h3>
+      <h3>Will Hydrogen Peroxide Bleach My Carpet?</h3>
       <p>
         It can, on some dyes and older or wool-blend carpet, which is why a hidden spot test is always the first step before using it on a visible stain. Most synthetic nylon and polyester carpet sold in the last 10 to 15 years tolerates a diluted 3 percent solution well, but testing takes 10 minutes and avoids a costly mistake.
       </p>
 
-      <h3>How do you get pet urine smell out of carpet permanently?</h3>
+      <h3>How Do You Get Pet Urine Smell Out of Carpet Permanently?</h3>
       <p>
         Blot up as much liquid as possible, flush with cool water, then apply an enzyme cleaner made for pet stains and let it sit 10 to 15 minutes before blotting dry. Enzyme cleaners digest the uric acid crystals that cause the smell, which regular soap and water cannot break down. If urine has soaked into the pad, the smell often returns until the pad itself is replaced.
       </p>
 
-      <h3>Can baking soda remove carpet stains?</h3>
+      <h3>Can Baking Soda Remove Carpet Stains?</h3>
       <p>
         Baking soda works best as an absorbent for grease, oil, and fresh wine spills, drawing the liquid out of the fiber before you vacuum it up. It is less effective alone on dye-based stains like coffee or juice, which respond better to a dish soap and vinegar solution.
       </p>
 
-      <h3>Is it better to blot or scrub a carpet stain?</h3>
+      <h3>Is It Better to Blot or Scrub a Carpet Stain?</h3>
       <p>
         Always blot. Scrubbing pushes the stain deeper into the fiber and pad, frays the carpet's face fibers, and can leave a permanently rough, fuzzy patch even after the stain itself is gone. Blot from the outside edge of the stain toward the center to avoid spreading it wider.
       </p>
 
-      <h3>How often should carpet be professionally cleaned?</h3>
+      <h3>How Often Should Carpet Be Professionally Cleaned?</h3>
       <p>
         Most manufacturers, and most carpet warranties, recommend professional hot water extraction cleaning every 12 to 18 months for an average household, and every 6 to 12 months for homes with pets or young kids. Regular cleaning also removes the fine grit that wears down fibers between visible stains.
       </p>

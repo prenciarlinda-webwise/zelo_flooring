@@ -146,46 +146,46 @@ export default function IsLaminateFlooringWaterproofContent() {
       {/* FAQ */}
       <h2 id="faq">Frequently Asked Questions</h2>
 
-      <h3>Is laminate wood flooring waterproof?</h3>
+      <h3>Is Laminate Wood Flooring Waterproof?</h3>
       <p>
         No, standard laminate wood flooring is water resistant, not waterproof. Its wood-fiber core will absorb water and swell if moisture sits on the surface or at the seams for more than a few hours. Newer waterproof laminate lines improve on this with a sealed core rated for spills within 24 to 72 hours, but they are still not truly waterproof the way tile or vinyl plank is.</p>
 
-      <h3>What is the difference between waterproof and water resistant laminate?</h3>
+      <h3>What Is the Difference Between Waterproof and Water Resistant Laminate?</h3>
       <p>
         Water resistant laminate slows water down long enough to wipe up a spill within 1 to 4 hours before it reaches the core. Waterproof laminate uses a denser, sealed core and tighter locking seams rated to block water for 24 to 72 hours. Neither is meant to sit under standing water indefinitely the way porcelain tile or vinyl plank can.
       </p>
 
-      <h3>Can you put laminate flooring in a bathroom?</h3>
+      <h3>Can You Put Laminate Flooring in a Bathroom?</h3>
       <p>
         We do not recommend laminate, even waterproof-rated laminate, in a full bathroom with a shower or tub. A powder room with just a sink and toilet is the one exception where waterproof laminate can hold up, since there is no standing water source and humidity stays low. For a full bathroom, porcelain tile or waterproof LVP is the safer choice.
       </p>
 
-      <h3>What happens if water gets under laminate flooring?</h3>
+      <h3>What Happens If Water Gets Under Laminate Flooring?</h3>
       <p>
         The HDF or MDF core absorbs the moisture and swells, which shows up as peaking at the seams, dark staining, soft spongy spots, or cupping at the plank edges within 24 to 72 hours. Laminate cannot be sanded or refinished like hardwood, so damaged planks have to be cut out and replaced rather than repaired.
       </p>
 
-      <h3>Is Pergo Outlast+ actually waterproof?</h3>
+      <h3>Is Pergo Outlast+ Actually Waterproof?</h3>
       <p>
         Pergo Outlast+ is rated waterproof for spills wiped up within 24 hours thanks to a denser, sealed core and tighter locking edges. It is not rated for standing water over multiple days and is not recommended by the manufacturer for full bathrooms with a shower or tub.
       </p>
 
-      <h3>Is Mohawk RevWood Plus or Shaw Repel better for water resistance?</h3>
+      <h3>Is Mohawk RevWood Plus or Shaw Repel Better for Water Resistance?</h3>
       <p>
         Both use a similar sealed-core approach and carry comparable waterproof ratings for spills within 24 hours. The practical difference between them usually comes down to locking system feel, wear layer warranty length, and available colors rather than a meaningful gap in water performance.
       </p>
 
-      <h3>Can laminate flooring be used in a kitchen?</h3>
+      <h3>Can Laminate Flooring Be Used in a Kitchen?</h3>
       <p>
         Yes, waterproof laminate lines like Pergo Outlast+, Mohawk RevWood Plus, and Shaw Repel work well in kitchens, where the main risk is a dishwasher leak or sink splash that typically gets noticed within a day. For kitchens with a history of leaks, we still lean toward waterproof LVP for extra margin.
       </p>
 
-      <h3>How can I tell if my laminate floor already has water damage?</h3>
+      <h3>How Can I Tell If My Laminate Floor Already Has Water Damage?</h3>
       <p>
         Look for ridges or peaking along the seams, dark discoloration at plank edges, soft or spongy spots underfoot, and cupping where the edges sit higher than the plank centers. Any of these signs means the core has already absorbed water and the affected planks need to be replaced.
       </p>
 
-      <h3>Does waterproof laminate cost more than regular laminate?</h3>
+      <h3>Does Waterproof Laminate Cost More Than Regular Laminate?</h3>
       <p>
         Yes, waterproof laminate lines typically run $3.00 to $5.50 per square foot for material versus $1.50 to $3.50 for standard laminate, and $6 to $10 per square foot installed versus $4 to $7 for standard laminate installed.
       </p>

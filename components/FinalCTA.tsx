@@ -16,7 +16,6 @@ export default function FinalCTA({ heading, subheading, headingAs = 'h2' }: Prop
     <section className="final-cta-section">
       <div className="container final-cta-grid">
         <div className="final-cta-text">
-          <span className="eyebrow" style={{ color: 'var(--gold)' }}>Get Started Today</span>
           <HeadingTag className="final-cta-heading">{heading || 'Get A Free In-Home Estimate'}</HeadingTag>
           <p>
             {subheading || 'Tell us about your project and we will bring samples, take measurements, and put together a clear written quote at no cost.'}

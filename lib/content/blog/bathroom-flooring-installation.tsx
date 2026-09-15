@@ -153,52 +153,52 @@ export default function BathroomFlooringInstallationContent() {
       {/* FAQ */}
       <h2 id="faq">Frequently Asked Questions</h2>
 
-      <h3>What is the best flooring for a bathroom?</h3>
+      <h3>What Is the Best Flooring for a Bathroom?</h3>
       <p>
         Porcelain tile is the best all-around bathroom flooring because it is nearly waterproof, handles shower pan slope requirements, and lasts decades. Waterproof LVP is a strong second choice for the rest of the bathroom floor outside the shower, offering a warmer feel and faster, cheaper installation.
       </p>
 
-      <h3>How long does it take to install bathroom flooring?</h3>
+      <h3>How Long Does It Take to Install Bathroom Flooring?</h3>
       <p>
         A full bathroom floor with a waterproofed shower pan typically takes 3 to 5 days including cure time between membrane coats and after grouting. A simple LVP-only bathroom floor without shower pan work can be done in 2 to 3 days.
       </p>
 
-      <h3>Do you need a waterproof membrane under bathroom tile?</h3>
+      <h3>Do You Need a Waterproof Membrane Under Bathroom Tile?</h3>
       <p>
         Yes. Tile and grout alone are not waterproof enough for a bathroom. A membrane like Schluter-DITRA or a liquid-applied product such as RedGard goes underneath the tile to stop water from reaching the subfloor, following TCNA wet-area installation methods.
       </p>
 
-      <h3>Can you put LVP in a bathroom?</h3>
+      <h3>Can You Put LVP in a Bathroom?</h3>
       <p>
         Yes, rigid-core waterproof LVP works well in bathrooms outside the shower or tub area, which still needs tile for slope and drain integration. LVP is faster and cheaper to install than tile and performs well against splashing and humidity.
       </p>
 
-      <h3>Why is my bathroom floor cracking?</h3>
+      <h3>Why Is My Bathroom Floor Cracking?</h3>
       <p>
         Cracked grout or tile in a bathroom is usually caused by subfloor movement, an unleveled substrate, or the wrong grout type for the joint width. It can also mean the waterproofing failed and moisture is affecting the subfloor underneath, which requires a full tear-out to fix properly.
       </p>
 
-      <h3>How much does it cost to waterproof a bathroom floor?</h3>
+      <h3>How Much Does It Cost to Waterproof a Bathroom Floor?</h3>
       <p>
         Waterproofing a standard 50 square foot bathroom floor typically adds $200 to $500 to the installation cost, depending on whether an uncoupling membrane or a liquid-applied system is used. It is built into our installed pricing rather than billed separately.
       </p>
 
-      <h3>Is tile or vinyl better for a bathroom?</h3>
+      <h3>Is Tile or Vinyl Better for a Bathroom?</h3>
       <p>
         Tile is better for the shower pan and offers more design options and a higher-end look. Vinyl plank is better for cost, comfort underfoot, and speed of installation for the rest of the bathroom floor. Many homeowners use tile in the shower and LVP or tile in the remaining floor area.
       </p>
 
-      <h3>Can bathroom flooring be installed over old tile?</h3>
+      <h3>Can Bathroom Flooring Be Installed Over Old Tile?</h3>
       <p>
         Sometimes, if the old tile is flat, well-bonded, and does not have failed waterproofing underneath. We test for hollow spots and moisture before recommending an overlay. If the old waterproofing is compromised, a full tear-out is the only reliable fix.
       </p>
 
-      <h3>What are good bathroom floor tile ideas?</h3>
+      <h3>What Are Good Bathroom Floor Tile Ideas?</h3>
       <p>
         Large-format porcelain (12x24 or larger) reads modern with fewer grout lines to clean. Wood-look porcelain plank adds warmth without sacrificing waterproofing. Small mosaic or pebble tile works well in the shower pan itself for slope. Light colors make a small bathroom feel bigger, and matte finishes hide water spots better than high-gloss.
       </p>
 
-      <h3>How do I clean a bathroom floor?</h3>
+      <h3>How Do I Clean a Bathroom Floor?</h3>
       <p>
         Sweep or dry-mop first to remove grit that can scratch the surface, then damp-mop porcelain tile or waterproof LVP with a pH-neutral cleaner. Avoid vinegar or acidic cleaners on natural stone tile since they etch the surface over time. Reseal grout lines and natural stone annually to keep water from soaking in.
       </p>

@@ -109,7 +109,6 @@ export default function TrustBadges({ variant = 'section', heading, subheading }
     <section className="section section-cream trust-badges-section">
       <div className="container">
         <div className="section-header center">
-          <span className="eyebrow">Trusted by San Diego Homeowners</span>
           <h2>{heading || 'Verified Reviews and Recognized Awards'}</h2>
           {subheading && <p>{subheading}</p>}
         </div>

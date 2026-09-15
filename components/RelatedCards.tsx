@@ -33,7 +33,6 @@ export function RelatedLocations() {
     <section className="section section-cream">
       <div className="container">
         <div className="section-header center">
-          <span className="eyebrow">Service Areas</span>
           <h2>Flooring Services Near You</h2>
           <p>Zelo Flooring installs across San Diego County. Find flooring services in your city.</p>
         </div>

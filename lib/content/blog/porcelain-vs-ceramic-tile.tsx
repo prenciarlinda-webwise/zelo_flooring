@@ -178,47 +178,47 @@ export default function PorcelainVsCeramicTileContent() {
       {/* FAQ */}
       <h2 id="faq">Frequently Asked Questions</h2>
 
-      <h3>What is the main difference between porcelain and ceramic tile?</h3>
+      <h3>What Is the Main Difference Between Porcelain and Ceramic Tile?</h3>
       <p>
         Porcelain is made from denser clay fired at a higher temperature, giving it a water absorption rate under 0.5% compared to 0.5% to 7% or more for ceramic. That lower absorption makes porcelain harder, more stain-resistant, and better suited to wet or high-traffic areas, while ceramic is more affordable and works well on walls and light-use floors.
       </p>
 
-      <h3>Is porcelain tile more expensive than ceramic tile?</h3>
+      <h3>Is Porcelain Tile More Expensive Than Ceramic Tile?</h3>
       <p>
         Yes, porcelain typically costs 20% to 30% more than ceramic both in material and installed labor, since it is harder to cut and takes more time to install. A 300 square foot room runs about $2,100 to $3,600 installed in ceramic versus $2,400 to $5,400 in standard porcelain.
       </p>
 
-      <h3>Can you use ceramic tile on a shower floor?</h3>
+      <h3>Can You Use Ceramic Tile on a Shower Floor?</h3>
       <p>
         It is not recommended. Standard ceramic absorbs 0.5% to 7% water, which allows moisture to work into the tile body and grout lines over years of daily shower use. Porcelain, with under 0.5% absorption, is the standard choice for shower floors and tub surrounds.
       </p>
 
-      <h3>Which tile is better for a kitchen floor?</h3>
+      <h3>Which Tile Is Better for a Kitchen Floor?</h3>
       <p>
         Porcelain is the better choice for a kitchen floor because it resists staining from oil, wine, and coffee spills and holds up to PEI 4-5 foot traffic. Ceramic can work in a kitchen but is more prone to surface wear and staining over a 10 to 15 year span of daily use.
       </p>
 
-      <h3>Does porcelain tile crack easier than ceramic?</h3>
+      <h3>Does Porcelain Tile Crack Easier Than Ceramic?</h3>
       <p>
         No, porcelain generally resists cracking and chipping better than ceramic because it is denser and harder, commonly rating 7 to 8 on the Mohs hardness scale versus 5 to 6 for ceramic. Both can crack if the subfloor moves or if a heavy object is dropped directly on an edge.
       </p>
 
-      <h3>How can you tell porcelain and ceramic tile apart?</h3>
+      <h3>How Can You Tell Porcelain and Ceramic Tile Apart?</h3>
       <p>
         Check the box or spec sheet for the water absorption rating; porcelain is classified Impervious at 0.5% or less. Porcelain is also usually through-body, meaning the color runs all the way through, so a chipped edge shows the same color rather than a different colored clay underneath like most glazed ceramic.
       </p>
 
-      <h3>Is porcelain tile good for outdoor patios?</h3>
+      <h3>Is Porcelain Tile Good for Outdoor Patios?</h3>
       <p>
         Yes, porcelain rated for exterior use is the standard material for outdoor patios and pool decks because its low water absorption resists moisture cycling and staining better than ceramic or most natural stone options.
       </p>
 
-      <h3>Do porcelain and ceramic tile need different grout or thinset?</h3>
+      <h3>Do Porcelain and Ceramic Tile Need Different Grout or Thinset?</h3>
       <p>
         Porcelain requires a modified, polymer-enhanced thinset because its low absorption does not pull moisture out of standard thinset the way ceramic does. Grout type (sanded versus unsanded) should match the joint width rather than the tile material for either type.
       </p>
 
-      <h3>Which tile lasts longer, porcelain or ceramic?</h3>
+      <h3>Which Tile Lasts Longer, Porcelain or Ceramic?</h3>
       <p>
         Porcelain typically lasts longer in wet or high-traffic areas, often 20 years or more with minimal wear, because its density resists staining and surface abrasion. Ceramic can last just as long on walls or in low-traffic rooms, where its lower durability rating is never actually tested by daily use.
       </p>

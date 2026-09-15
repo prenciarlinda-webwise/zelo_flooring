@@ -140,42 +140,42 @@ export default function WhatIsCorkFlooringContent() {
       {/* FAQ */}
       <h2 id="faq">Frequently Asked Questions</h2>
 
-      <h3>Is cork flooring good for kitchens?</h3>
+      <h3>Is Cork Flooring Good for Kitchens?</h3>
       <p>
         Yes, with the right installation. Glue-down cork tile with a fully caulked perimeter around the sink, dishwasher, and refrigerator handles kitchen use well. Cleanup is simple, and standing comfort is the benefit most homeowners notice first once it is installed.
       </p>
 
-      <h3>Will cork flooring hold up with pets?</h3>
+      <h3>Will Cork Flooring Hold Up with Pets?</h3>
       <p>
         Reasonably well. Cork's surface gives slightly under claws and resists scratching better than solid hardwood, and the factory UV-cured finish resists staining. Very large dogs with long, untrimmed claws can leave marks over time, so nail trims help extend the finish's life.
       </p>
 
-      <h3>Does cork flooring fade in sunlight?</h3>
+      <h3>Does Cork Flooring Fade in Sunlight?</h3>
       <p>
         Yes, cork can lighten or change tone with years of direct UV exposure. A factory UV-cured finish slows this considerably compared to older site-finished cork, but it does not stop it. We generally advise against installing cork in a room with all-day direct sun unless the homeowner is comfortable with gradual color change.
       </p>
 
-      <h3>Is cork flooring good for basements?</h3>
+      <h3>Is Cork Flooring Good for Basements?</h3>
       <p>
         Only with proper moisture management. We run a calcium chloride or relative humidity probe test on the slab first and install a vapor barrier or moisture-tolerant adhesive before the cork goes down. Installing cork over a damp, untested basement slab is close to a guaranteed failure.
       </p>
 
-      <h3>How long does cork flooring installation take?</h3>
+      <h3>How Long Does Cork Flooring Installation Take?</h3>
       <p>
         A 500 to 1,000 square foot kitchen or living area typically takes 2 to 3 days, including a 72-hour acclimation period before installation starts. Floating cork plank installs faster than glue-down tile since there is no adhesive cure time between steps.
       </p>
 
-      <h3>Is cork flooring actually sustainable?</h3>
+      <h3>Is Cork Flooring Actually Sustainable?</h3>
       <p>
         Yes. Cork is harvested from the bark of the cork oak tree, which regrows every 9 years without the tree being cut down, and the trees themselves commonly live 200 years or more. Look for the FSC certification label to confirm the cork came from a responsibly managed forest.
       </p>
 
-      <h3>How long does cork flooring last?</h3>
+      <h3>How Long Does Cork Flooring Last?</h3>
       <p>
         A well-maintained cork floor typically lasts 25 to 40 years, depending on foot traffic, sun exposure, and how well the finish is kept sealed. Cork can be lightly sanded and refinished once or twice over its life, though it does not tolerate the repeated deep sanding a solid hardwood floor can handle.
       </p>
 
-      <h3>Can cork flooring be refinished?</h3>
+      <h3>Can Cork Flooring Be Refinished?</h3>
       <p>
         Yes, but only lightly and a limited number of times. A light sand and reseal can restore a worn cork floor's finish without replacing the material, but because cork's wear layer is thinner than solid hardwood, it cannot be sanded down repeatedly over decades the way hardwood can.
       </p>

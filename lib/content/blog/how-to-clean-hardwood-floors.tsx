@@ -165,42 +165,42 @@ export default function HowToCleanHardwoodFloorsContent() {
       {/* FAQ */}
       <h2 id="faq">Frequently Asked Questions</h2>
 
-      <h3>Can you use Pine-Sol on hardwood floors?</h3>
+      <h3>Can You Use Pine-Sol on Hardwood Floors?</h3>
       <p>
         No. Pine-Sol is designed for sealed, non-porous surfaces like tile and vinyl, and most hardwood finish manufacturers and the NWFA do not include it on their approved cleaner lists. Repeated use can leave a residue that dulls polyurethane finish and makes future recoating harder.
       </p>
 
-      <h3>Is Pine-Sol safe for hardwood floors long term?</h3>
+      <h3>Is Pine-Sol Safe for Hardwood Floors Long Term?</h3>
       <p>
         Not recommended for long-term use. A single accidental use is unlikely to cause visible damage, but ongoing use builds up a film on the finish over months that shows up as a hazy or dull appearance and can interfere with adhesion if the floor is later screened and recoated.
       </p>
 
-      <h3>What is the best cleaner for hardwood floors?</h3>
+      <h3>What Is the Best Cleaner for Hardwood Floors?</h3>
       <p>
         A pH-neutral cleaner made specifically for finished hardwood, such as Bona Hardwood Floor Cleaner, Rejuvenate Professional Wood Floor Cleaner, or a manufacturer-specific cleaner if your floor is under a finish warranty. These are formulated to evaporate cleanly without leaving residue on polyurethane or aluminum oxide finishes.
       </p>
 
-      <h3>Can you use a Swiffer WetJet on hardwood floors?</h3>
+      <h3>Can You Use a Swiffer WetJet on Hardwood Floors?</h3>
       <p>
         Most Swiffer WetJet solutions are marketed as safe for sealed hardwood, but they still leave a light residue over repeated use similar to other all-purpose cleaners. A dedicated pH-neutral hardwood cleaner and a microfiber mop give more consistent results with less buildup over time.
       </p>
 
-      <h3>How often should hardwood floors be cleaned?</h3>
+      <h3>How Often Should Hardwood Floors Be Cleaned?</h3>
       <p>
         Sweep or dry-mop every 2 to 3 days, vacuum on the hard-floor setting 2 to 3 times a week with the beater bar off, and damp-mop with a pH-neutral cleaner once a week. Wipe up spills within a few minutes rather than letting them sit.
       </p>
 
-      <h3>Can you use vinegar to clean hardwood floors?</h3>
+      <h3>Can You Use Vinegar to Clean Hardwood Floors?</h3>
       <p>
         It is not recommended. Vinegar is acidic, and repeated use gradually dulls polyurethane finish and can leave a slightly sticky residue on some finishes that attracts more dirt. A pH-neutral hardwood cleaner does the same job without that risk.
       </p>
 
-      <h3>Why does my hardwood floor look hazy or dull after cleaning?</h3>
+      <h3>Why Does My Hardwood Floor Look Hazy or Dull After Cleaning?</h3>
       <p>
         A cloudy or hazy look after mopping usually means residue buildup from an unapproved cleaner, such as an oil soap, wax polish, or multi-surface cleaner like Pine-Sol, rather than dirt. A proper deep clean with a pH-neutral product removes light buildup; persistent haze after two deep cleans usually means the floor needs a professional screen-and-recoat.
       </p>
 
-      <h3>Can you use a steam mop on hardwood floors?</h3>
+      <h3>Can You Use a Steam Mop on Hardwood Floors?</h3>
       <p>
         No. Steam forces moisture into the seams between boards under heat and pressure, which is one of the fastest ways to cause cupping and warping in solid or engineered hardwood, regardless of finish type.
       </p>

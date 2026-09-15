@@ -120,42 +120,42 @@ export default function IsFreeFlooringInstallationRealContent() {
       {/* FAQ */}
       <h2 id="faq">Frequently Asked Questions</h2>
 
-      <h3>Is free flooring installation too good to be true?</h3>
+      <h3>Is Free Flooring Installation Too Good to Be True?</h3>
       <p>
         Not necessarily, but it is rarely as free as it sounds. In most cases the labor cost is built into a higher material price rather than waived entirely. The total installed cost is what matters, not whether labor appears as a separate line item.
       </p>
 
-      <h3>How do stores afford to offer free installation?</h3>
+      <h3>How Do Stores Afford to Offer Free Installation?</h3>
       <p>
         They raise the per-square-foot price of the material enough to cover the labor cost, or they limit the offer to specific product lines with enough built-in margin to absorb it. A smaller number of promotions are subsidized directly by the manufacturer to move a specific product.
       </p>
 
-      <h3>What is usually not included in a free installation deal?</h3>
+      <h3>What Is Usually Not Included in a Free Installation Deal?</h3>
       <p>
         Old floor removal and haul-away, subfloor repair or leveling, furniture moving, trim and transition strips, and stair installation are the five most common add-ons. Ask for all five costs in writing before comparing quotes.
       </p>
 
-      <h3>Is it cheaper to get flooring with free installation or pay for labor separately?</h3>
+      <h3>Is It Cheaper to Get Flooring with Free Installation or Pay for Labor Separately?</h3>
       <p>
         Neither is inherently cheaper. What matters is the total installed cost including every add-on. Compare the full itemized total from a "free installation" retailer against the full itemized total from a local installer for the same material and square footage before deciding.
       </p>
 
-      <h3>Do local flooring installers ever offer free installation?</h3>
+      <h3>Do Local Flooring Installers Ever Offer Free Installation?</h3>
       <p>
         Occasionally, usually tied to a manufacturer promotion on a specific product rather than a standing policy. Most local installers, including Zelo Flooring, quote material and labor as separate line items so you can see exactly what you are paying for.
       </p>
 
-      <h3>Can I negotiate a free installation offer?</h3>
+      <h3>Can I Negotiate a Free Installation Offer?</h3>
       <p>
         Yes. Ask the retailer for the same product's price without the installation bundle, then compare that material-only price to a local installer's itemized quote for material plus labor. This tells you whether the bundled price is actually competitive or simply repackaged.
       </p>
 
-      <h3>Does free installation include removing my old carpet or flooring?</h3>
+      <h3>Does Free Installation Include Removing My Old Carpet or Flooring?</h3>
       <p>
         Usually not. Old floor removal and disposal is one of the most common add-on charges layered onto a "free installation" promotion after the sale. Confirm this cost in writing before you commit.
       </p>
 
-      <h3>Why do some free installation quotes change once the crew arrives?</h3>
+      <h3>Why Do Some Free Installation Quotes Change Once the Crew Arrives?</h3>
       <p>
         This typically happens when the original quote did not account for subfloor repair, moisture issues, or the true square footage including waste factor. A written, itemized quote that includes a subfloor inspection upfront avoids most of these surprises.
       </p>

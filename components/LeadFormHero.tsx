@@ -46,7 +46,6 @@ export default function LeadFormHero({ h1, valueProp, trustBullets, trustLogos, 
 
       <div className="container lead-hero-grid">
         <div className="lead-hero-text">
-          <p className="lead-hero-eyebrow">San Diego, CA · Licensed CSLB #{SITE.license}</p>
           <h1 className="lead-hero-h1">{h1}</h1>
           <p className="lead-hero-value">{valueProp}</p>
 

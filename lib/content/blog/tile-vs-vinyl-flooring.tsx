@@ -92,27 +92,27 @@ export default function TileVsVinylFlooringContent() {
 
       <h2 id="faq">Frequently Asked Questions</h2>
 
-      <h3>Is tile or vinyl plank better?</h3>
+      <h3>Is Tile or Vinyl Plank Better?</h3>
       <p>
         Both are waterproof, so it depends on the room. Tile is better for bathrooms, entryways, and long-term durability and resale value, lasting 50+ years. Vinyl plank is better for whole-home comfort, warmth underfoot, and a lower budget, lasting 15 to 25 years. Many homes use tile in wet rooms and vinyl elsewhere.
       </p>
 
-      <h3>Is vinyl cheaper than tile?</h3>
+      <h3>Is Vinyl Cheaper Than Tile?</h3>
       <p>
         Yes. Luxury vinyl plank costs about $4 to $9 per square foot installed, while porcelain tile costs $7 to $15 or more because the installation is more labor-intensive, requiring substrate prep, waterproofing, mortar, and grout. Vinyl is also faster to install.
       </p>
 
-      <h3>Which lasts longer, tile or vinyl?</h3>
+      <h3>Which Lasts Longer, Tile or Vinyl?</h3>
       <p>
         Tile lasts far longer. Properly installed porcelain tile can last 50 years or more and is extremely hard to scratch or dent, while luxury vinyl plank lasts 15 to 25 years before the wear layer shows traffic. For lifetime durability, tile is the clear winner.
       </p>
 
-      <h3>Is tile or vinyl better for bathrooms?</h3>
+      <h3>Is Tile or Vinyl Better for Bathrooms?</h3>
       <p>
         Tile is better for full bathrooms because it is fully waterproof and handles standing water, showers, and humidity for decades. Vinyl plank is waterproof and fine for powder rooms and half baths, but in a shower bathroom, porcelain tile with proper waterproofing is the more reliable long-term choice.
       </p>
 
-      <h3>Does tile or vinyl add more home value?</h3>
+      <h3>Does Tile or Vinyl Add More Home Value?</h3>
       <p>
         Tile generally adds more home value, especially in bathrooms and kitchens, because buyers see it as a premium, long-lasting material. High-quality vinyl plank is still a strong selling point over worn carpet or dated flooring, but it does not command the same premium as tile in wet areas.
       </p>

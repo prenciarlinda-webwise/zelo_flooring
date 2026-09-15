@@ -138,42 +138,42 @@ export default function HowToCleanLaminateWoodFloorsContent() {
       {/* FAQ */}
       <h2 id="faq">Frequently Asked Questions</h2>
 
-      <h3>How do you clean wood laminate floors?</h3>
+      <h3>How Do You Clean Wood Laminate Floors?</h3>
       <p>
         Sweep or vacuum every 2 to 3 days to remove grit, then damp mop weekly with a barely-damp microfiber mop and a pH-neutral laminate cleaner. Wring the mop out well before each pass, mop in small sections so the floor air-dries quickly, and wipe up any spills within a minute or two.
       </p>
 
-      <h3>Can you mop laminate floors with water?</h3>
+      <h3>Can You Mop Laminate Floors with Water?</h3>
       <p>
         Yes, but only with a barely-damp mop, never a fully wet or soaked one. Standing water can seep into the seams between boards and swell the fiberboard core underneath, which cannot be dried out and reversed once it happens.
       </p>
 
-      <h3>What is the best cleaner for laminate wood floors?</h3>
+      <h3>What Is the Best Cleaner for Laminate Wood Floors?</h3>
       <p>
         A pH-neutral cleaner made specifically for laminate is the safest choice, and many manufacturers, including Pergo and Mohawk RevWood, sell one formulated for their product line. Avoid oil soap, wax-based cleaners, and anything heavy in ammonia, bleach, or vinegar, since all of them can dull the finish or leave a residue over time.
       </p>
 
-      <h3>Can you use a steam mop on laminate flooring?</h3>
+      <h3>Can You Use a Steam Mop on Laminate Flooring?</h3>
       <p>
         No. Steam mops push heat and moisture directly into the seams between boards, which can cause the fiberboard core to swell after just one or two uses. Steam cleaning is excluded from most laminate manufacturer warranties for this exact reason.
       </p>
 
-      <h3>Can you use vinegar on laminate floors?</h3>
+      <h3>Can You Use Vinegar on Laminate Floors?</h3>
       <p>
         It is not recommended as a regular cleaner. Vinegar is acidic, and repeated use can dull or strip the factory wear layer over time, even though a single diluted pass may not show visible damage right away. A pH-neutral laminate cleaner is the safer routine choice.
       </p>
 
-      <h3>How do you fix water damage or swollen laminate boards?</h3>
+      <h3>How Do You Fix Water Damage or Swollen Laminate Boards?</h3>
       <p>
         Swollen or cupped laminate boards cannot be dried out and flattened again, unlike solid hardwood, which can be sanded and refinished. The affected boards typically need to be removed and replaced. Drying the area quickly with fans or a dehumidifier right after a spill or leak is the best way to prevent swelling before it starts.
       </p>
 
-      <h3>How often should you clean laminate floors?</h3>
+      <h3>How Often Should You Clean Laminate Floors?</h3>
       <p>
         Sweep or dry dust mop every 2 to 3 days, more often in kitchens or homes with pets, and damp mop about once a week with a barely-damp mop and a laminate-safe cleaner. Spills should be wiped up immediately rather than waiting for the next scheduled cleaning.
       </p>
 
-      <h3>Is laminate flooring hard to maintain?</h3>
+      <h3>Is Laminate Flooring Hard to Maintain?</h3>
       <p>
         No, laminate is one of the lower-maintenance flooring options day to day, since it never needs waxing, polishing, or refinishing. The one thing it requires more discipline around than hardwood or tile is moisture control, since spills and wet mopping need a faster response than they would on a fully waterproof floor.
       </p>

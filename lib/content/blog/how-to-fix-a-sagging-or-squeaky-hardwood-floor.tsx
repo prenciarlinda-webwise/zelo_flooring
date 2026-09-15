@@ -161,47 +161,47 @@ export default function HowToFixASaggingOrSqueakyHardwoodFloorContent() {
       {/* FAQ */}
       <h2 id="faq">Frequently Asked Questions</h2>
 
-      <h3>What does it mean when hardwood floors squeak?</h3>
+      <h3>What Does It Mean When Hardwood Floors Squeak?</h3>
       <p>
         A squeak means a board or the subfloor panel underneath it has come loose from the joist, and friction between the two surfaces creates noise when weight is applied. It is usually a fastening problem, not a structural one, and can typically be fixed from above with specialty screws or from below with adhesive and shims.
       </p>
 
-      <h3>Can a sagging floor be fixed without replacing the hardwood?</h3>
+      <h3>Can a Sagging Floor Be Fixed Without Replacing the Hardwood?</h3>
       <p>
         Often yes, if the hardwood itself is not damaged. The structural repair (sistering a joist, replacing a subfloor panel, or correcting a foundation point) happens first, and in many cases only a small section of hardwood needs to be lifted and reinstalled or patched afterward rather than replacing the entire floor.
       </p>
 
-      <h3>How much does it cost to fix a sagging floor?</h3>
+      <h3>How Much Does It Cost to Fix a Sagging Floor?</h3>
       <p>
         A simple joist sistering repair runs $800 to $2,500. Subfloor panel replacement with a hardwood patch runs $1,200 to $3,500. Foundation pier or footing corrections range from $2,500 to $10,000 or more depending on how many support points are affected and whether an engineer needs to design the repair.
       </p>
 
-      <h3>Is a squeaky floor a sign of a structural problem?</h3>
+      <h3>Is a Squeaky Floor a Sign of a Structural Problem?</h3>
       <p>
         Usually not on its own, but a squeak that has been ignored for years at the same spot can indicate ongoing movement at that joist connection, which is worth checking. If the floor is also dipping, sloping, or feels soft underfoot in that area, that is the sign of a structural issue rather than a simple squeak.
       </p>
 
-      <h3>Can I fix squeaky floors myself?</h3>
+      <h3>Can I Fix Squeaky Floors Myself?</h3>
       <p>
         Minor squeaks are a reasonable DIY project with a squeak-repair screw kit and a stud finder, provided the floor is otherwise level and firm. If there is any dip, softness, or the floor has never been inspected from below, get a professional assessment first so you are not fastening a symptom instead of the actual cause.
       </p>
 
-      <h3>How do I know if my floor sag is from the foundation or the joists?</h3>
+      <h3>How Do I Know If My Floor Sag Is from the Foundation or the Joists?</h3>
       <p>
         A sag limited to one or two joist bays, usually a few feet wide, is more likely a joist problem. A sag that affects a wider area, a full room, or shows up as a consistent slope from one side of the house to the other, points to a foundation or pier support issue. A contractor checking from a crawl space can usually confirm which one within 30 to 60 minutes.
       </p>
 
-      <h3>How long does it take to fix a sagging floor?</h3>
+      <h3>How Long Does It Take to Fix a Sagging Floor?</h3>
       <p>
         Joist sistering typically takes 1 to 2 days. Subfloor panel replacement with a hardwood patch takes 2 to 4 days including finish matching and cure time. Foundation pier corrections usually take 1 to 3 days of physical work, though scheduling an engineer's inspection and sign-off beforehand can add 1 to 2 weeks to the overall timeline.
       </p>
 
-      <h3>Does homeowners insurance cover sagging floor repair?</h3>
+      <h3>Does Homeowners Insurance Cover Sagging Floor Repair?</h3>
       <p>
         It depends on the cause. Sudden, accidental water damage (a burst pipe, for example) is often covered. Gradual settling, long-term soil movement, or wear from age typically is not, since most policies exclude damage from a slow leak that went unnoticed or from normal settling. Check your specific policy and consider getting a written cause-of-damage assessment from your contractor to support a claim.
       </p>
 
-      <h3>Will a sagging floor get worse over time?</h3>
+      <h3>Will a Sagging Floor Get Worse Over Time?</h3>
       <p>
         Yes, in almost every case. A weakened joist continues to flex and fatigue under repeated weight, a wet subfloor panel keeps losing strength until it is replaced, and a settling foundation point typically continues moving until the soil beneath it is stabilized. None of these causes correct themselves, which is why an early inspection costs far less than waiting until the damage spreads to adjacent joists or panels.
       </p>

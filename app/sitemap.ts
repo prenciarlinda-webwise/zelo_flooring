@@ -41,7 +41,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const locationRoutes = LOCATIONS.map((l) => ({
     url: `${SITE.url}/${l.slug}`,
-    lastModified: siteLastModified,
+    lastModified: new Date(l.lastUpdated),
     changeFrequency: 'monthly' as const,
     priority: l.type === 'main' ? 0.95 : 0.85,
   }));

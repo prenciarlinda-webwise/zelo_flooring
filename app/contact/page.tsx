@@ -24,7 +24,6 @@ export default function ContactPage() {
       <section className="section section-cream">
         <div className="container">
           <div className="section-header center">
-            <span className="eyebrow">Where We Work</span>
             <h2>Service Areas Across San Diego County</h2>
             <p>We serve homeowners and commercial clients across the entire San Diego region.</p>
           </div>

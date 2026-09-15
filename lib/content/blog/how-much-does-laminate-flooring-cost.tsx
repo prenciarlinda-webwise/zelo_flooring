@@ -216,47 +216,47 @@ export default function HowMuchDoesLaminateFlooringCostContent() {
       {/* FAQ */}
       <h2 id="faq">Frequently Asked Questions</h2>
 
-      <h3>How much does laminate flooring cost per square foot installed?</h3>
+      <h3>How Much Does Laminate Flooring Cost Per Square Foot Installed?</h3>
       <p>
         Laminate flooring costs $2.50 to $8.00 per square foot fully installed in 2026, including materials and labor. Budget AC2 laminate starts around $2.50 per square foot. Premium waterproof AC5 laminate with a thick core runs $6 to $8 per square foot.
       </p>
 
-      <h3>Is laminate flooring cheaper than vinyl plank?</h3>
+      <h3>Is Laminate Flooring Cheaper Than Vinyl Plank?</h3>
       <p>
         Yes, on the low end. Standard laminate starts around $2.50 per square foot installed compared to $4.00 for vinyl plank. At the premium end the two overlap, since a thick waterproof AC5 laminate and a premium rigid-core vinyl plank both run $7 to $9 per square foot installed.
       </p>
 
-      <h3>What is the average cost to install laminate flooring in a 1,500 square foot home?</h3>
+      <h3>What Is the Average Cost to Install Laminate Flooring in a 1,500 Square Foot Home?</h3>
       <p>
         A 1,500 square foot laminate installation typically costs $4,500 to $9,000, with most homeowners landing near $5,500 to $7,000 for a mid-grade AC3 or AC4 product at 8mm to 10mm thickness.
       </p>
 
-      <h3>Does a higher AC rating cost more?</h3>
+      <h3>Does a Higher AC Rating Cost More?</h3>
       <p>
         Yes. Moving from AC3 to AC4 typically adds $0.75 to $1.25 per square foot in material cost, and AC5 adds another $0.75 to $1.50 on top of that. The higher rating is worth it for high-traffic households, and unnecessary for a low-traffic guest bedroom.
       </p>
 
-      <h3>Is waterproof laminate worth the extra cost?</h3>
+      <h3>Is Waterproof Laminate Worth the Extra Cost?</h3>
       <p>
         In kitchens, entries, and laundry rooms, yes, since waterproof laminate resists spills and swelling that standard laminate does not. In bedrooms, living rooms, and other dry areas, standard laminate performs the same and saves $1.30 to $2.50 per square foot.
       </p>
 
-      <h3>How much does labor cost to install laminate flooring?</h3>
+      <h3>How Much Does Labor Cost to Install Laminate Flooring?</h3>
       <p>
         Labor alone runs $1.25 to $3.50 per square foot depending on room complexity, with California rates typically running toward the higher end of that range due to wage standards and CSLB licensing overhead.
       </p>
 
-      <h3>Can I install laminate over my existing floor to save money?</h3>
+      <h3>Can I Install Laminate Over My Existing Floor to Save Money?</h3>
       <p>
         Often, yes, if the existing floor is flat, solid, and dry. Laminate can float over tile, vinyl, hardwood, and even some existing laminate. This avoids removal costs of $1 to $4 per square foot. See our full guide on <Link href="/blog/laminate-over-existing-floors">installing laminate over existing floors</Link> for a surface-by-surface breakdown.
       </p>
 
-      <h3>What is included in a laminate flooring estimate?</h3>
+      <h3>What Is Included in a Laminate Flooring Estimate?</h3>
       <p>
         A complete estimate should include the laminate material at a specified AC rating and thickness, underlayment if not attached, installation labor, old flooring removal and disposal, basic subfloor prep, transitions at doorways, and final cleanup. Ask specifically whether moisture barrier and subfloor leveling are included or billed separately.
       </p>
 
-      <h3>How long does it take to install laminate flooring?</h3>
+      <h3>How Long Does It Take to Install Laminate Flooring?</h3>
       <p>
         A single room of 300 square feet typically takes one day to install. A whole-home project of 1,200 to 1,800 square feet usually takes 2 to 4 days, including old flooring removal, subfloor prep, and final trim work. Floating-floor installation moves faster than glue-down materials since there is no adhesive cure time to wait out.
       </p>

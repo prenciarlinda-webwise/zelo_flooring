@@ -151,47 +151,47 @@ export default function LvpVsLvtFlooringContent() {
       {/* FAQ */}
       <h2 id="faq">Frequently Asked Questions</h2>
 
-      <h3>What does LVT stand for?</h3>
+      <h3>What Does LVT Stand For?</h3>
       <p>
         LVT stands for luxury vinyl tile. It is a vinyl flooring format milled into square or rectangular tiles, typically 12x12 to 24x24 inches, designed to mimic the look of ceramic, porcelain, or natural stone.
       </p>
 
-      <h3>Is LVT the same material as LVP?</h3>
+      <h3>Is LVT the Same Material as LVP?</h3>
       <p>
         Yes. LVT and LVP are made from the same vinyl core and wear layer technology. The only difference is the shape each is milled into, planks for LVP and tiles for LVT, which changes how each one is laid out and where a grout-line option becomes available.
       </p>
 
-      <h3>Does LVT need real grout?</h3>
+      <h3>Does LVT Need Real Grout?</h3>
       <p>
         No, not usually. Most LVT is either grout-free, with tiles butted tightly together, or uses a flexible pre-formed grout strip that snaps into a recessed edge. A small number of glue-down LVT products can be grouted with real cementitious tile grout, but that is the exception rather than the standard install.
       </p>
 
-      <h3>Can you mix LVP and LVT in the same house?</h3>
+      <h3>Can You Mix LVP and LVT in the Same House?</h3>
       <p>
         Yes, and it is a common layout choice, LVP in living rooms and bedrooms and LVT in entryways, kitchens, and bathrooms. Just make sure both formats come from the same manufacturer's product family so the core thickness, sheen, and transition height match at the doorway.
       </p>
 
-      <h3>Which is more waterproof, LVP or LVT?</h3>
+      <h3>Which Is More Waterproof, LVP or LVT?</h3>
       <p>
         Neither format has an inherent waterproofing advantage since both use the same rigid core and wear layer technology. The one factor that matters is the seam type, a tight click-lock or fully sealed glue-down seam performs the same whether it is a plank joint or a tile grout line.
       </p>
 
-      <h3>Is LVT more expensive than LVP?</h3>
+      <h3>Is LVT More Expensive Than LVP?</h3>
       <p>
         Grout-free LVT costs about the same as standard LVP, typically $4 to $9 per square foot installed. LVT with a pre-formed grout strip adds roughly $0.50 to $1.50 per square foot for the grout material and extra tooling labor.
       </p>
 
-      <h3>Can LVT be installed in a shower?</h3>
+      <h3>Can LVT Be Installed in a Shower?</h3>
       <p>
         No. LVT is waterproof at the surface but is not rated for constant standing water, slope, or drain integration the way porcelain tile is. For a shower pan, a licensed installer should use real tile with a proper waterproofing membrane, not LVT.
       </p>
 
-      <h3>Which lasts longer, LVP or LVT?</h3>
+      <h3>Which Lasts Longer, LVP or LVT?</h3>
       <p>
         Lifespan depends on the wear layer thickness, not the shape, so a 20 mil LVP and a 20 mil LVT from the same product line last about the same amount of time, typically 15 to 25 years in a residential setting. The format itself does not change durability.
       </p>
 
-      <h3>Do LVP and LVT need different subfloor prep?</h3>
+      <h3>Do LVP and LVT Need Different Subfloor Prep?</h3>
       <p>
         No. Both formats need the same flat, clean, dry subfloor before installation, and both accept the same underlayment and moisture barrier requirements. Subfloor prep is driven by the installation method (click-lock or glue-down), not by whether the product is shaped as a plank or a tile.
       </p>

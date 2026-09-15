@@ -100,37 +100,37 @@ export default function RubberFlooringMaintenanceAndCleaningContent() {
 
       <h2 id="faq">Frequently Asked Questions</h2>
 
-      <h3>How do you clean rubber flooring?</h3>
+      <h3>How Do You Clean Rubber Flooring?</h3>
       <p>
         Sweep or vacuum first to remove grit, then damp mop with a pH-neutral cleaner. For commercial or daycare settings with daily traffic, this routine repeats daily; for a home gym or garage, weekly is usually enough with spot cleaning as needed.
       </p>
 
-      <h3>What cleaners should you avoid on rubber flooring?</h3>
+      <h3>What Cleaners Should You Avoid on Rubber Flooring?</h3>
       <p>
         Avoid ammonia, citrus-based cleaners, bleach beyond label directions, solvent-based cleaners, and steam mops. All of these break down the polyurethane binder that holds rubber flooring together over repeated use, leading to a tacky, discolored, or degraded surface.
       </p>
 
-      <h3>Does rubber flooring need to be waxed or sealed?</h3>
+      <h3>Does Rubber Flooring Need to Be Waxed or Sealed?</h3>
       <p>
         No. Unlike VCT, rubber flooring's color and performance come from the material itself, not a topical finish, so it never needs waxing, stripping, or resealing. Routine sweeping and damp mopping is the entire maintenance program.
       </p>
 
-      <h3>How do you fix a lifted rubber tile or seam?</h3>
+      <h3>How Do You Fix a Lifted Rubber Tile or Seam?</h3>
       <p>
         A lifted tile corner or taped seam edge can usually be re-adhered with contact cement in about five minutes. Heat-welded rolled rubber, standard on commercial installs, has no seam to lift in the first place, since the pieces are fused into one continuous surface.
       </p>
 
-      <h3>Does rubber flooring fade in sunlight?</h3>
+      <h3>Does Rubber Flooring Fade in Sunlight?</h3>
       <p>
         Yes, extended direct sunlight can fade rubber flooring's color over several years, more noticeably on darker recycled SBR product than on premium EPDM, which holds color better under UV exposure. Closing blinds or a garage door during peak sun hours slows this considerably.
       </p>
 
-      <h3>How do you remove oil or grease stains from a rubber garage floor?</h3>
+      <h3>How Do You Remove Oil or Grease Stains from a Rubber Garage Floor?</h3>
       <p>
         Use a degreaser specifically labeled safe for rubber flooring, worked in with a soft brush before rinsing. Avoid harsh solvent-based degreasers, which can damage rubber's binder along with lifting the stain.
       </p>
 
-      <h3>How often does commercial rubber flooring need deep cleaning?</h3>
+      <h3>How Often Does Commercial Rubber Flooring Need Deep Cleaning?</h3>
       <p>
         Most commercial rubber floors get a weekly auto-scrubber pass in high-traffic zones on top of daily sweeping and damp mopping. Daycare play areas typically need a full disinfecting clean daily given the setting, in addition to spot disinfecting through the day.
       </p>

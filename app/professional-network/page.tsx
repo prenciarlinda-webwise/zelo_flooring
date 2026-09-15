@@ -37,7 +37,6 @@ export default function ProfessionalNetworkPage() {
       <section className="section section-cream">
         <div className="container">
           <div className="section-header center">
-            <span className="eyebrow">Companies We Work With</span>
             <h2>Trusted Professional Relationships</h2>
             <p>
               We are proud to work alongside established professionals who share our commitment to
@@ -54,7 +53,6 @@ export default function ProfessionalNetworkPage() {
               width={210}
               height={124}
             />
-            <span className="partner-spotlight-eyebrow">Professional Network</span>
             <h3 className="partner-spotlight-name">Romeo Construction Inc.</h3>
             <p className="partner-spotlight-trade">General Construction &amp; Remodeling</p>
             <p className="partner-spotlight-desc">
@@ -90,7 +88,6 @@ export default function ProfessionalNetworkPage() {
       <section className="section">
         <div className="container">
           <div className="section-header center">
-            <span className="eyebrow">Work With Zelo Flooring</span>
             <h2>Become a Trusted Partner</h2>
             <p>
               We are selective about the professionals and businesses we build long-term relationships

@@ -221,42 +221,42 @@ export default function HowMuchDoesHardwoodFlooringCostContent() {
       {/* FAQ */}
       <h2 id="faq">Frequently Asked Questions</h2>
 
-      <h3>How much does it cost to install hardwood flooring per square foot?</h3>
+      <h3>How Much Does It Cost to Install Hardwood Flooring Per Square Foot?</h3>
       <p>
         Hardwood flooring costs $8 to $20 per square foot installed in 2026, including material and labor. Engineered hardwood runs $8 to $15 per square foot for most species and grades. Solid hardwood runs $9 to $20, with site-finished installs and premium species landing at the top of that range.
       </p>
 
-      <h3>Is engineered or solid hardwood cheaper to install?</h3>
+      <h3>Is Engineered or Solid Hardwood Cheaper to Install?</h3>
       <p>
         Engineered hardwood is usually cheaper to install, especially on a concrete slab, because it skips the plywood subfloor build-out that solid hardwood requires. For mid-grade material on an existing plywood subfloor, engineered and solid often land within a dollar or two of each other per square foot.
       </p>
 
-      <h3>How much does it cost to install 1,500 square feet of hardwood flooring?</h3>
+      <h3>How Much Does It Cost to Install 1,500 Square Feet of Hardwood Flooring?</h3>
       <p>
         Installing 1,500 square feet of hardwood flooring typically costs $12,750 to $27,000 depending on species, construction type, and subfloor condition. A mid-range engineered oak project at this size usually runs $17,000 to $20,000 fully installed.
       </p>
 
-      <h3>Is refinishing cheaper than replacing hardwood floors?</h3>
+      <h3>Is Refinishing Cheaper Than Replacing Hardwood Floors?</h3>
       <p>
         Yes, refinishing an existing solid hardwood floor costs $3 to $5 per square foot, compared to $9 to $20 per square foot for full replacement. Refinishing only works if the floor is structurally sound with enough usable wood left to sand, which rules it out for floors with water damage or deep gouges.
       </p>
 
-      <h3>What is the cheapest hardwood flooring option?</h3>
+      <h3>What Is the Cheapest Hardwood Flooring Option?</h3>
       <p>
         Budget engineered hardwood with a red oak veneer and a thin wear layer is the least expensive true hardwood option, starting around $6 to $8 per square foot installed. If your budget is tighter than that, laminate or LVP with a wood-look finish costs less and mimics the appearance without being real wood.
       </p>
 
-      <h3>Does hardwood flooring increase home value?</h3>
+      <h3>Does Hardwood Flooring Increase Home Value?</h3>
       <p>
         Yes. Hardwood flooring is consistently one of the top-ranked interior renovations for cost recovery and buyer appeal, and it holds resale value better than carpet, laminate, or vinyl. A well-maintained hardwood floor, whether solid or engineered, reads as a premium finish to most buyers.
       </p>
 
-      <h3>How much does labor cost to install hardwood flooring?</h3>
+      <h3>How Much Does Labor Cost to Install Hardwood Flooring?</h3>
       <p>
         Labor for hardwood flooring runs $2.50 to $5.50 per square foot depending on construction type, with an additional $3 to $6 per square foot if the floor is site-finished. Labor typically makes up 35 to 50 percent of a hardwood project's total cost, more than most other flooring types.
       </p>
 
-      <h3>What is the most expensive part of a hardwood flooring installation?</h3>
+      <h3>What Is the Most Expensive Part of a Hardwood Flooring Installation?</h3>
       <p>
         For solid hardwood on a concrete slab, building out the required plywood subfloor is usually the single biggest added cost, at $2 to $4 per square foot. For site-finished floors, the sanding, staining, and multiple finish coats are the largest labor line item, often adding $2 to $6 per square foot on top of the base install.
       </p>

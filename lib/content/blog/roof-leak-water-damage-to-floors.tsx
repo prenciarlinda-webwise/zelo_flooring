@@ -121,42 +121,42 @@ export default function RoofLeakWaterDamageToFloorsContent() {
 
       <h2 id="faq">Frequently Asked Questions</h2>
 
-      <h3>How do I know if my floor damage is from a roof leak or a plumbing leak?</h3>
+      <h3>How Do I Know If My Floor Damage Is from a Roof Leak or a Plumbing Leak?</h3>
       <p>
         Roof leaks typically track with rain, show a ceiling stain directly above the damaged flooring, and occur in areas without nearby plumbing fixtures. Plumbing leaks are usually constant or tied to fixture use and occur near a sink, toilet, appliance, or supply line. When it is unclear, a roofing contractor can inspect the attic and roof deck to confirm the source.
       </p>
 
-      <h3>Why does roof leak damage often go unnoticed for so long?</h3>
+      <h3>Why Does Roof Leak Damage Often Go Unnoticed for So Long?</h3>
       <p>
         Water from a roof leak has to travel through attic insulation, framing, and drywall before it reaches a visible floor, which can take days or weeks. By the time a stain or damp spot appears, the leak has often been active far longer than the visible damage suggests.
       </p>
 
-      <h3>Should I fix my floor or my roof first?</h3>
+      <h3>Should I Fix My Floor or My Roof First?</h3>
       <p>
         Fix the roof first, always. Repairing or replacing flooring before the leak source is confirmed fixed risks the same water damaging the new work in the next rain. We recommend getting written confirmation the roof repair has held through at least one storm before scheduling flooring work.
       </p>
 
-      <h3>Can hardwood floors recover from roof leak water damage?</h3>
+      <h3>Can Hardwood Floors Recover from Roof Leak Water Damage?</h3>
       <p>
         Often yes, if the leak is caught and stopped before the boards buckle. Cupped boards with the finish still intact can usually be dried and refinished. Buckled boards, or boards soaked repeatedly over multiple leak events, typically need to be replaced rather than dried.
       </p>
 
-      <h3>Does laminate flooring recover from a roof leak the way hardwood does?</h3>
+      <h3>Does Laminate Flooring Recover from a Roof Leak the Way Hardwood Does?</h3>
       <p>
         No. Laminate's core swells permanently once water reaches it and does not return to its original shape when dried, unlike solid hardwood. Laminate affected by roof leak water almost always needs to be replaced rather than dried and saved.
       </p>
 
-      <h3>What does roof leak floor damage repair cost?</h3>
+      <h3>What Does Roof Leak Floor Damage Repair Cost?</h3>
       <p>
         Flooring repair from a roof leak runs $3 to $14 per square foot depending on the material and how long the leak was active, on top of the roof repair cost itself. A small, early-caught stain often costs a few hundred dollars on the flooring side; a full room affected by a long-term undetected leak can run several thousand.
       </p>
 
-      <h3>Will homeowners insurance cover roof leak water damage to my floors?</h3>
+      <h3>Will Homeowners Insurance Cover Roof Leak Water Damage to My Floors?</h3>
       <p>
         Often yes for sudden damage, like a storm-caused roof failure, but frequently excluded if the leak was caused by long-term deferred roof maintenance. A written assessment from a roofing contractor documenting the cause helps clarify which category a specific claim falls into.
       </p>
 
-      <h3>Do I need to check the subfloor after a roof leak, even if the visible flooring looks fine?</h3>
+      <h3>Do I Need to Check the Subfloor After a Roof Leak, Even If the Visible Flooring Looks Fine?</h3>
       <p>
         Yes. A roof leak that dripped intermittently for weeks can saturate plywood subfloor even when the surface flooring above it still looks mostly normal, especially under tile or LVP. We check subfloor moisture on every roof-leak call for this reason.
       </p>

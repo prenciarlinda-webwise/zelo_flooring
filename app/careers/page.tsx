@@ -24,7 +24,6 @@ export default function CareersPage() {
       <section className="section">
         <div className="container">
           <div className="section-header center">
-            <span className="eyebrow">Work With Zelo Flooring</span>
             <h2>We&apos;re Looking for Reliable, Skilled Installers</h2>
             <p>
               We are looking for reliable, skilled installers and crews who take pride in quality

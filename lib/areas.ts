@@ -41,7 +41,7 @@ export const SITE = {
     'Zelo Flooring is a flooring installation company based in San Diego. We have over a decade of journeyman experience installing residential and commercial flooring. We pride ourselves on craftsmanship, communication, and diligence.',
   url: 'https://www.zeloflooring.com',
   // Drives sitemap lastmod for static routes. Bump when chrome (header/footer/global schema) changes.
-  lastUpdated: '2026-08-26',
+  lastUpdated: '2026-09-13',
   // Operating hours: 7am-7pm seven days/week (Pacific). Used by schema and visible NAP blocks.
   hoursDisplay: 'Open daily 7:00am - 7:00pm',
   hoursOpen: '07:00',
@@ -64,6 +64,16 @@ export const SITE = {
     'https://www.mapquest.com/us/california/zelo-flooring-716292534',
     'https://www.bbb.org/us/ca/san-diego/profile/floor-coverings/zelo-flooring-1126-1000103311',
     'https://maps.app.goo.gl/VEvj3qqwEYQSRGLs8',
+    // 2026-09-13: from the client's business-info sheet. Bing's link from that sheet was
+    // the private "Bing Places for Business" management dashboard (bing.com/forbusiness/
+    // singleEntity?...), confirmed via fetch to redirect to a generic Bing sign-in/search
+    // shell, not a public listing — omitted until the actual public Bing Maps listing URL
+    // is provided. BuildZoom and Pinterest both bot-block WebFetch (403 / JS-gated, same
+    // as Yelp and Thumbtack already in this list) so content wasn't independently
+    // verified, but both are standard public profile URL patterns from the client's own
+    // sheet.
+    'https://www.buildzoom.com/contractor/zelo-flooring',
+    'https://www.pinterest.com/zeloflooring/',
   ] as string[],
   facebookUrl: 'https://www.facebook.com/ZeloFlooring/',
   instagramUrl: 'https://www.instagram.com/zeloflooring',
@@ -71,6 +81,8 @@ export const SITE = {
   thumbtackUrl: 'https://www.thumbtack.com/ca/san-diego/hardwood-floor-installation/zelo-flooring/service/414577564885925896',
   mapquestUrl: 'https://www.mapquest.com/us/california/zelo-flooring-716292534',
   bbbUrl: 'https://www.bbb.org/us/ca/san-diego/profile/floor-coverings/zelo-flooring-1126-1000103311',
+  buildzoomUrl: 'https://www.buildzoom.com/contractor/zelo-flooring',
+  pinterestUrl: 'https://www.pinterest.com/zeloflooring/',
   bbb: {
     accredited: true,
     rating: 'A+',

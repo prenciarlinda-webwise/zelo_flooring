@@ -160,47 +160,47 @@ export default function CanLaminateFlooringBeRepairedContent() {
       {/* FAQ */}
       <h2 id="faq">Frequently Asked Questions</h2>
 
-      <h3>Can a single scratched laminate plank be replaced?</h3>
+      <h3>Can a Single Scratched Laminate Plank Be Replaced?</h3>
       <p>
         Yes. A single scratched, chipped, or cracked plank can be cut out and replaced without disturbing the rest of the floor, using a seam-glue technique instead of the original click-lock method. It takes 1 to 2 hours per plank and costs $40 to $120 professionally installed, provided a matching replacement plank is available.
       </p>
 
-      <h3>Can water-damaged laminate be dried out and reused?</h3>
+      <h3>Can Water-Damaged Laminate Be Dried Out and Reused?</h3>
       <p>
         No, not once the fiberboard core has visibly swollen, bubbled, or softened. The core absorbs water and swells permanently, and it does not shrink back to its original size after drying. Swollen planks need to be cut out and replaced, and the moisture source needs to be fixed first so the repair does not fail again.
       </p>
 
-      <h3>How do you fix a gap between laminate planks?</h3>
+      <h3>How Do You Fix a Gap Between Laminate Planks?</h3>
       <p>
         A small gap that appears after installation is often caused by humidity changes or a locking mechanism that did not fully engage. It can sometimes be closed by tapping the plank back into place with a tapping block and rubber mallet. A gap that keeps reappearing after tapping usually means the click mechanism is damaged and the plank needs replacement.
       </p>
 
-      <h3>Is it cheaper to repair or replace laminate flooring?</h3>
+      <h3>Is It Cheaper to Repair or Replace Laminate Flooring?</h3>
       <p>
         Repairing 1 to 5 individual planks is almost always cheaper than replacing a whole room, typically $80 to $600 depending on plank count. Once damage affects more than roughly 15 to 20 percent of a room or repair costs climb above 70 to 80 percent of a full replacement quote, replacing the entire floor becomes the better value.
       </p>
 
-      <h3>Can you sand and refinish laminate flooring like hardwood?</h3>
+      <h3>Can You Sand and Refinish Laminate Flooring Like Hardwood?</h3>
       <p>
         No. Laminate has a printed decorative layer under a clear wear layer, not solid wood all the way through. Sanding removes the printed pattern entirely and ruins the plank. Only solid or engineered hardwood can be sanded and refinished; damaged laminate has to be replaced plank by plank instead.
       </p>
 
-      <h3>How do you match a replacement laminate plank to an older floor?</h3>
+      <h3>How Do You Match a Replacement Laminate Plank to an Older Floor?</h3>
       <p>
         Start with any leftover planks from the original installation box, which is the only guaranteed exact match. Without extras on hand, check the manufacturer, product line, and color name (often printed on the plank's underside or the original box) and contact the manufacturer or a flooring supplier directly, since exact matches for discontinued laminate patterns can be difficult to find after 3 to 4 years.
       </p>
 
-      <h3>What causes laminate flooring to peel or bubble at the seams?</h3>
+      <h3>What Causes Laminate Flooring to Peel or Bubble at the Seams?</h3>
       <p>
         Bubbling or peeling at seams is almost always caused by moisture getting into the seam, whether from a spill, appliance leak, high humidity, or a steam mop. It can also happen if the floor was installed without the manufacturer's recommended expansion gap along the walls, which leaves no room for the planks to expand and causes them to buckle upward instead.
       </p>
 
-      <h3>Can I repair laminate flooring myself?</h3>
+      <h3>Can I Repair Laminate Flooring Myself?</h3>
       <p>
         Cosmetic fixes like fill putty for a small scratch or chip are reasonable DIY jobs with a $15 to $30 repair kit. Cutting and replacing a full plank is more difficult since it requires precise cuts, a seam-glue technique different from the original installation, and color matching. A professional installer typically completes a plank swap faster and with a cleaner result than a first-time DIY attempt.
       </p>
 
-      <h3>How long does a laminate plank repair take?</h3>
+      <h3>How Long Does a Laminate Plank Repair Take?</h3>
       <p>
         A single plank near a wall or doorway can be replaced in 30 to 45 minutes. A plank in the interior of the room, which requires the cut-and-glue method, takes 1 to 2 hours plus a 12 to 24 hour adhesive cure before normal foot traffic resumes.
       </p>

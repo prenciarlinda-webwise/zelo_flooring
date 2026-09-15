@@ -184,47 +184,47 @@ export default function PrefinishedVsSiteFinishedHardwoodContent() {
       {/* FAQ */}
       <h2 id="faq">Frequently Asked Questions</h2>
 
-      <h3>Is prefinished or site-finished hardwood more durable?</h3>
+      <h3>Is Prefinished or Site-Finished Hardwood More Durable?</h3>
       <p>
         Prefinished hardwood generally has a harder, more durable factory finish because it is cured under controlled heat and UV light rather than air-dried on site. Site-finished floors can still last 20 to 30 years or more with normal care, but the factory finish on prefinished wood typically resists scratches and daily wear slightly better out of the box.
       </p>
 
-      <h3>Which is cheaper, prefinished or site-finished hardwood?</h3>
+      <h3>Which Is Cheaper, Prefinished or Site-Finished Hardwood?</h3>
       <p>
         Total installed cost is close either way, typically $9 to $16 per square foot. Prefinished material costs more per square foot but needs no sanding or finishing labor. Site-finished uses cheaper unfinished wood but adds $2.50 to $5.00 per square foot in sanding and finishing labor, which usually evens out the total.
       </p>
 
-      <h3>How long does site-finished hardwood take to install compared to prefinished?</h3>
+      <h3>How Long Does Site-Finished Hardwood Take to Install Compared to Prefinished?</h3>
       <p>
         A whole-home prefinished install typically takes 3 to 5 days including acclimation. A site-finished install of the same size typically takes 7 to 12 days because sanding, staining, and multiple finish coats each require dry or cure time before the next step and before the floor is walkable.
       </p>
 
-      <h3>Can you match new hardwood to an existing floor?</h3>
+      <h3>Can You Match New Hardwood to an Existing Floor?</h3>
       <p>
         Yes, and site-finishing is usually the better route when matching an existing floor exactly, since the stain is mixed and tested on site to match the current color. Prefinished products offer many stock colors but rarely match an existing floor's exact tone, and the bevel edge on prefinished boards also creates a visible seam where it meets an older flush, site-finished floor.
       </p>
 
-      <h3>Does prefinished hardwood have visible seams?</h3>
+      <h3>Does Prefinished Hardwood Have Visible Seams?</h3>
       <p>
         Yes. Prefinished planks have a small beveled or micro-beveled edge at each seam, which creates a subtle shadow line across the floor. Site-finished hardwood is sanded flat after installation, so it has no bevel and reads as one continuous surface.
       </p>
 
-      <h3>Is site-finished hardwood messier to install?</h3>
+      <h3>Is Site-Finished Hardwood Messier to Install?</h3>
       <p>
         Yes. Site-finishing involves sanding the entire floor in place, which produces dust even with dustless containment systems, plus stain and polyurethane fumes that can linger for 24 to 72 hours. Prefinished hardwood produces none of this since the finish is fully cured before the planks arrive on site.
       </p>
 
-      <h3>Which is better for a whole-home renovation, prefinished or site-finished?</h3>
+      <h3>Which Is Better for a Whole-Home Renovation, Prefinished or Site-Finished?</h3>
       <p>
         Prefinished hardwood is better for most whole-home renovations because it installs faster, section by section, and does not require closing off the entire house for days of sanding and finish cure time. Site-finished makes more sense for a single room or an addition that needs to match existing flooring.
       </p>
 
-      <h3>Can prefinished hardwood be refinished later like site-finished floors?</h3>
+      <h3>Can Prefinished Hardwood Be Refinished Later Like Site-Finished Floors?</h3>
       <p>
         Yes, as long as the wear layer or plank thickness allows it. Solid prefinished hardwood can typically be sanded and refinished 2 to 4 times over its life, similar to a site-finished floor of the same thickness. Engineered prefinished products are limited by veneer thickness, usually 1 to 4 refinishings depending on the product.
       </p>
 
-      <h3>Does prefinished hardwood look cheaper than site-finished?</h3>
+      <h3>Does Prefinished Hardwood Look Cheaper Than Site-Finished?</h3>
       <p>
         No, quality is not tied to finish method. High-end prefinished products with wide planks, hand-scraped textures, and premium stain colors look just as upscale as a site-finished floor. The visible difference is the beveled seam on prefinished versus the flush, continuous surface of site-finished, which is a style preference rather than a quality signal.
       </p>

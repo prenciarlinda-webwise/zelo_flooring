@@ -86,27 +86,27 @@ export default function HowToCleanLuxuryVinylPlankFlooringContent() {
 
       <h2 id="faq">Frequently Asked Questions</h2>
 
-      <h3>How do you clean luxury vinyl plank flooring?</h3>
+      <h3>How Do You Clean Luxury Vinyl Plank Flooring?</h3>
       <p>
         Sweep or vacuum to remove grit, then damp mop with a pH-neutral floor cleaner or one cup of white vinegar per gallon of warm water. Wring the mop nearly dry and let the floor air dry. Avoid steam mops, wax, and harsh chemicals, and wipe spills up promptly.
       </p>
 
-      <h3>Can you use a steam mop on LVP?</h3>
+      <h3>Can You Use a Steam Mop on LVP?</h3>
       <p>
         No. Steam mops force heat and moisture into the floor, which can lift the wear layer, damage the locking seams, and void the manufacturer warranty. Use a microfiber mop that is barely damp instead. LVP is waterproof on the surface, but heat and trapped water in the seams cause damage.
       </p>
 
-      <h3>What is the best cleaner for vinyl plank flooring?</h3>
+      <h3>What Is the Best Cleaner for Vinyl Plank Flooring?</h3>
       <p>
         A pH-neutral floor cleaner made for luxury vinyl is best, or a simple homemade mix of one cup of white vinegar per gallon of warm water. Both clean well without leaving residue. Avoid wax, polish, ammonia, bleach, and oil-based or abrasive cleaners.
       </p>
 
-      <h3>Can you use vinegar on vinyl plank flooring?</h3>
+      <h3>Can You Use Vinegar on Vinyl Plank Flooring?</h3>
       <p>
         Yes. Diluted white vinegar, about one cup per gallon of warm water, is a safe and effective LVP cleaner that cuts grime without leaving residue. Use it with a barely-damp microfiber mop. Do not use undiluted vinegar or other strong acids, which can dull the finish over time.
       </p>
 
-      <h3>How do you make luxury vinyl plank floors shine?</h3>
+      <h3>How Do You Make Luxury Vinyl Plank Floors Shine?</h3>
       <p>
         Clean off all residue with a damp microfiber mop and let the floor dry; a clean LVP floor has a natural low sheen. Do not use wax or polish to add shine, because they build up into a cloudy film. If the floor looks dull, it is usually cleaner residue, so rinse with plain water.
       </p>

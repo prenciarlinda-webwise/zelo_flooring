@@ -141,42 +141,42 @@ export default function RubberFlooringForGaragesContent() {
       {/* FAQ */}
       <h2 id="faq">Frequently Asked Questions</h2>
 
-      <h3>Is rubber flooring good for a garage?</h3>
+      <h3>Is Rubber Flooring Good for a Garage?</h3>
       <p>
         Yes. Rubber flooring hides slab cracks and oil stains, resists dropped tools, holds up under vehicle weight at 3/8 inch thickness or more, and is slip resistant when wet. It is one of the few flooring materials made to go over an imperfect garage slab without repairing it first.
       </p>
 
-      <h3>Does rubber flooring hide cracks in a garage floor?</h3>
+      <h3>Does Rubber Flooring Hide Cracks in a Garage Floor?</h3>
       <p>
         Yes, for hairline cracks under about 1/16 inch, which generally do not telegraph through 3/8 inch rubber or thicker. Wider cracks, or cracks with one side higher than the other, still need to be filled with epoxy crack filler and ground flush before the rubber goes down.
       </p>
 
-      <h3>Can you park a car on rubber garage flooring?</h3>
+      <h3>Can You Park a Car on Rubber Garage Flooring?</h3>
       <p>
         Yes, garage-rated rubber tile or rolled rubber at 3/8 inch or thicker handles daily parking and jack stand use without denting or compressing permanently. Hot tire pickup, where a hot tire leaves a sticky mark, is mostly a vinyl and PVC tile issue rather than a pure rubber one.
       </p>
 
-      <h3>How much does rubber flooring cost for a garage?</h3>
+      <h3>How Much Does Rubber Flooring Cost for a Garage?</h3>
       <p>
         A typical 400 square foot two-car garage runs $1,400 to $2,200 fully installed with interlocking tile, or $1,800 to $3,000 with rolled rubber, depending on thickness. Heavy-duty 3/4 inch rolled rubber for a workshop with heavy equipment runs higher, closer to $2,600 to $3,800.
       </p>
 
-      <h3>Is rubber flooring or epoxy better for a garage?</h3>
+      <h3>Is Rubber Flooring or Epoxy Better for a Garage?</h3>
       <p>
         Rubber flooring hides existing cracks and stains without patching the slab first and installs in 1 to 2 days with no recoat needed. Epoxy bonds to the concrete, so cracks and control joints usually still show through it, and most coatings need a recoat every 5 to 10 years. Rubber costs more upfront per square foot; epoxy needs more slab prep and cure time.
       </p>
 
-      <h3>Will oil stains ruin rubber garage flooring?</h3>
+      <h3>Will Oil Stains Ruin Rubber Garage Flooring?</h3>
       <p>
         No, fresh oil and fluid drips wipe up easily with a rag and a pH-neutral or rubber-safe degreaser. Existing oil stains already in the concrete get degreased and cleaned before the rubber goes down so they do not bleed through, and once the rubber is installed it is not porous the way concrete is, so new drips do not soak in the same way.
       </p>
 
-      <h3>Rolled rubber or interlocking tile, which is better for a garage?</h3>
+      <h3>Rolled Rubber or Interlocking Tile, Which Is Better for a Garage?</h3>
       <p>
         Interlocking tile is the better DIY option and makes sense if you want to pull up a section later for car repairs or a workbench move. Rolled rubber gives a cleaner, seamless finish and handles rolling tool chests and floor jacks more smoothly across the whole garage, but a professional install is recommended given its weight.
       </p>
 
-      <h3>How long does it take to install rubber flooring in a garage?</h3>
+      <h3>How Long Does It Take to Install Rubber Flooring in a Garage?</h3>
       <p>
         A typical two-car garage, including slab degreasing and crack repair, installs in 1 to 2 days for either interlocking tile or rolled rubber. Heavier 3/4 inch workshop-grade rubber or a garage that needs significant crack and patch work can take closer to 2 to 3 days.
       </p>

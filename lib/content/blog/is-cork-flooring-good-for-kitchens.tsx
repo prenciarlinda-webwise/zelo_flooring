@@ -149,47 +149,47 @@ export default function IsCorkFlooringGoodForKitchensContent() {
       {/* FAQ */}
       <h2 id="faq">Frequently Asked Questions</h2>
 
-      <h3>Is cork flooring good for kitchens?</h3>
+      <h3>Is Cork Flooring Good for Kitchens?</h3>
       <p>
         Yes. Cork flooring works well in kitchens when installed as glue-down cork tile with a polyurethane finish and a sealed perimeter at the sink, dishwasher, and refrigerator water line. It is more comfortable to stand on than tile or hardwood and naturally resists mold, though it needs proper sealing at wet zones to hold up long term.
       </p>
 
-      <h3>Does cork flooring hold up to water and spills in a kitchen?</h3>
+      <h3>Does Cork Flooring Hold Up to Water and Spills in a Kitchen?</h3>
       <p>
         A properly sealed cork floor holds up well to normal spills wiped up within 20 to 30 minutes. Standing water left for longer periods, or chronic moisture at an unsealed seam, can cause the cork underneath the finish to swell or cup, which is why sealing the sink, dishwasher, and fridge areas with silicone caulk matters.
       </p>
 
-      <h3>What is the best cork flooring format for a kitchen, tile or plank?</h3>
+      <h3>What Is the Best Cork Flooring Format for a Kitchen, Tile or Plank?</h3>
       <p>
         Glue-down cork tile is the better choice for kitchens. It bonds fully to the subfloor with no air gap underneath, and it can be finished with a continuous polyurethane topcoat that seals across seams. Floating cork plank works in drier zones of a kitchen but carries more risk right at the sink and appliance edges.
       </p>
 
-      <h3>How do you seal cork flooring for kitchen use?</h3>
+      <h3>How Do You Seal Cork Flooring for Kitchen Use?</h3>
       <p>
         A kitchen cork floor gets 2 to 4 coats of site-applied polyurethane across the whole surface, plus a bead of 100 percent silicone caulk (not acrylic latex) at the sink cabinet toe kick, the dishwasher's kickplate reveal, and around the refrigerator's water line penetration. These three spots see repeated small water events that the topcoat alone will not stop over years.
       </p>
 
-      <h3>Can you put cork flooring under a dishwasher or refrigerator?</h3>
+      <h3>Can You Put Cork Flooring Under a Dishwasher or Refrigerator?</h3>
       <p>
         Yes, cork flooring can run under and around a dishwasher and refrigerator as long as the edges where those appliances meet the floor are sealed with silicone caulk. Skipping that seal at these two appliances is the most common cause of cork floor damage we see in kitchens.
       </p>
 
-      <h3>How long does cork flooring last in a kitchen?</h3>
+      <h3>How Long Does Cork Flooring Last in a Kitchen?</h3>
       <p>
         A properly installed and maintained cork kitchen floor typically lasts 15 to 25 years. That lifespan depends on recoating the polyurethane finish every 3 to 5 years and keeping the sink, dishwasher, and fridge areas sealed, since kitchens wear through a finish faster than lower-traffic rooms.
       </p>
 
-      <h3>Does cork flooring dent under kitchen appliances or bar stools?</h3>
+      <h3>Does Cork Flooring Dent Under Kitchen Appliances or Bar Stools?</h3>
       <p>
         Cork can show light indentation under concentrated point loads like an unpadded bar stool leg or a heavy stationary appliance, similar to other resilient floors. Felt pads under stool and chair legs and appliance floor protectors under a refrigerator or range prevent most of this.
       </p>
 
-      <h3>How do you clean cork flooring in a kitchen?</h3>
+      <h3>How Do You Clean Cork Flooring in a Kitchen?</h3>
       <p>
         Sweep or dry-mop first to remove grit, then damp-mop with a pH-neutral cleaner made for finished wood or cork floors. Avoid vinegar, ammonia, wax-based products, and steam mops, all of which break down the polyurethane finish over time and shorten the floor's life.
       </p>
 
-      <h3>Is cork flooring more expensive than tile or vinyl for a kitchen?</h3>
+      <h3>Is Cork Flooring More Expensive Than Tile or Vinyl for a Kitchen?</h3>
       <p>
         Cork lands in the middle. Glue-down cork tile installed runs about $6 to $12 per square foot, close to mid-range porcelain tile and somewhat above waterproof LVP, which runs about $4 to $9 per square foot installed. Floating cork plank is the least expensive cork option at roughly $5 to $9 per square foot installed.
       </p>

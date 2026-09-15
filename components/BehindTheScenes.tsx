@@ -78,7 +78,6 @@ export default function BehindTheScenes({
     <section id="behind-the-scenes" className="section section-brown behind-the-scenes-section">
       <div className="container">
         <div className="section-header center">
-          <span className="eyebrow" style={{ color: 'var(--gold)' }}>{eyebrow}</span>
           <h2>{heading}</h2>
           {subheading && <p>{subheading}</p>}
         </div>

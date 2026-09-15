@@ -160,42 +160,42 @@ export default function CarpetPaddingGuideContent() {
       {/* FAQ */}
       <h2 id="faq">Frequently Asked Questions</h2>
 
-      <h3>What is the best padding thickness and density for carpet?</h3>
+      <h3>What Is the Best Padding Thickness and Density for Carpet?</h3>
       <p>
         An 8 lb density rebond pad at 7/16 inch thickness is the standard for most residential rooms, meeting the requirements of nearly every major carpet manufacturer's warranty. High-traffic rooms and stairs benefit from a 10 lb density pad at a slightly thinner 3/8 inch profile.
       </p>
 
-      <h3>Is thicker carpet padding always better?</h3>
+      <h3>Is Thicker Carpet Padding Always Better?</h3>
       <p>
         No. Density, which measures firmness and durability, matters more than thickness for how long padding and carpet will last. A thick, soft pad feels comfortable at first but compresses and wears out faster than a firmer, thinner pad. Most manufacturer warranties cap pad thickness at 7/16 inch for this reason.
       </p>
 
-      <h3>What does 8 lb carpet padding mean?</h3>
+      <h3>What Does 8 Lb Carpet Padding Mean?</h3>
       <p>
         The 8 lb rating refers to density, meaning one cubic foot of that pad's foam weighs 8 pounds. It is a measurement of how much material is packed into the pad, not how tall or thick it is. Higher density numbers mean a firmer, more durable pad.
       </p>
 
-      <h3>Do I need a moisture-barrier pad if I have pets?</h3>
+      <h3>Do I Need a Moisture-Barrier Pad If I Have Pets?</h3>
       <p>
         A moisture-barrier pad is strongly recommended for households with dogs or cats. It has a thin poly film laminated to the top surface that stops liquid from soaking through to the subfloor, keeping accidents at the surface where they can be cleaned before they cause odor or subfloor damage.
       </p>
 
-      <h3>Can the wrong carpet pad void my warranty?</h3>
+      <h3>Can the Wrong Carpet Pad Void My Warranty?</h3>
       <p>
         Yes. Manufacturers specify a maximum pad thickness (typically 7/16 inch for cut pile, 3/8 inch for Berber and loop styles) and a minimum density (usually 6 to 8 lb) as a condition of warranty coverage. Installing a pad outside those specs, even a pad that feels nicer underfoot, can void coverage for matting, delamination, and other defects.
       </p>
 
-      <h3>What pad is best for Berber or loop carpet?</h3>
+      <h3>What Pad Is Best for Berber or Loop Carpet?</h3>
       <p>
         Berber and other loop-style carpets need a firm, low-profile pad, generally 3/8 inch or less, at a higher density than cut pile carpet requires. A soft or overly thick pad allows the loops to stretch and distort under weight, causing a defect called grinning where the backing shows through.
       </p>
 
-      <h3>How much does upgrading carpet pad cost?</h3>
+      <h3>How Much Does Upgrading Carpet Pad Cost?</h3>
       <p>
         Upgrading from a standard 8 lb rebond pad to a 10 lb premium pad typically adds $50 to $150 for an average bedroom. A moisture-barrier pad adds roughly $0.20 to $0.30 per square foot over standard rebond pad. Both are worthwhile upgrades for high-traffic rooms or pet households.
       </p>
 
-      <h3>Does carpet pad affect how long carpet lasts?</h3>
+      <h3>Does Carpet Pad Affect How Long Carpet Lasts?</h3>
       <p>
         Yes, significantly. A quality 8 lb pad can add 2 to 4 years of usable life to carpet compared to a cheap 4 lb or 6 lb pad, because it prevents the backing from flexing excessively and protects the fibers from wearing against the subfloor with every step.
       </p>

@@ -294,42 +294,42 @@ export default function VinylPlankFlooringCostContent() {
       {/* FAQ */}
       <h2 id="faq">Frequently Asked Questions</h2>
 
-      <h3>How much does it cost to install vinyl plank flooring per square foot?</h3>
+      <h3>How Much Does It Cost to Install Vinyl Plank Flooring Per Square Foot?</h3>
       <p>
         The cost to install vinyl plank flooring runs $4 to $9 per square foot fully installed, including materials and labor. Budget SPC starts around $4. Premium WPC with thick wear layers runs $7 to $9.50. Labor alone is $1.50 to $3.50 per square foot.
       </p>
 
-      <h3>How much does it cost to install 1,000 square feet of vinyl plank?</h3>
+      <h3>How Much Does It Cost to Install 1,000 Square Feet of Vinyl Plank?</h3>
       <p>
         Installing 1,000 square feet of vinyl plank costs $4,000 to $9,000 depending on product quality and job complexity. A mid-range SPC project at this size typically runs $5,500 to $7,000 fully installed.
       </p>
 
-      <h3>Is vinyl plank flooring cheaper than hardwood?</h3>
+      <h3>Is Vinyl Plank Flooring Cheaper Than Hardwood?</h3>
       <p>
         Yes. Vinyl plank costs $4 to $9 per square foot installed while hardwood runs $8 to $15. LVP also requires less subfloor prep and installs faster, which further reduces labor cost. The visual difference between premium LVP and real hardwood has narrowed significantly in recent years.
       </p>
 
-      <h3>How long does vinyl plank flooring last?</h3>
+      <h3>How Long Does Vinyl Plank Flooring Last?</h3>
       <p>
         Quality vinyl plank flooring lasts 15 to 25 years with normal residential use. The wear layer thickness is the biggest factor. A 12 mil wear layer handles light traffic for 10 to 15 years. A 20 mil wear layer handles heavy residential traffic for 15 to 20 years. Commercial-grade 28 mil lasts 20 to 25 years.
       </p>
 
-      <h3>Does vinyl plank flooring increase home value?</h3>
+      <h3>Does Vinyl Plank Flooring Increase Home Value?</h3>
       <p>
         Vinyl plank flooring improves buyer perception and typically returns 60 to 80 percent of its cost at resale. It does not carry the same premium as real hardwood, but it is far more appealing to buyers than worn carpet, outdated linoleum, or damaged laminate.
       </p>
 
-      <h3>Can vinyl plank be installed over existing flooring?</h3>
+      <h3>Can Vinyl Plank Be Installed Over Existing Flooring?</h3>
       <p>
         In many cases, yes. Vinyl plank can go over existing vinyl, tile, hardwood, and even low-pile carpet in some situations, as long as the existing floor is flat, stable, and clean. Installing over existing flooring saves $0.50 to $2.00 per square foot in removal costs.
       </p>
 
-      <h3>How long does vinyl plank installation take?</h3>
+      <h3>How Long Does Vinyl Plank Installation Take?</h3>
       <p>
         Professional installation takes 1 to 3 hours per 100 square feet depending on room complexity. A 200-square-foot bedroom takes half a day. A whole-home project of 1,500 square feet takes 2 to 3 days including removal and prep.
       </p>
 
-      <h3>What is the best vinyl plank flooring for the money?</h3>
+      <h3>What Is the Best Vinyl Plank Flooring for the Money?</h3>
       <p>
         The best value in vinyl plank is a mid-range SPC product with a 20 mil wear layer, attached underlayment, and a thickness of 5.5mm to 6.5mm. This hits the sweet spot of durability, comfort, and cost. Products in this range run $2.50 to $3.50 per square foot for material. Visit our <Link href="/vinyl-flooring-san-diego">vinyl flooring page</Link> to see the products we install most frequently.
       </p>

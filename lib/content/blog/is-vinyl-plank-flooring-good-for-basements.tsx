@@ -159,47 +159,47 @@ export default function IsVinylPlankFlooringGoodForBasementsContent() {
       {/* FAQ */}
       <h2 id="faq">Frequently Asked Questions</h2>
 
-      <h3>Is vinyl plank flooring good for basements?</h3>
+      <h3>Is Vinyl Plank Flooring Good for Basements?</h3>
       <p>
         Yes, rigid-core SPC or WPC vinyl plank is one of the best flooring choices for a basement because its core is fully waterproof and most manufacturers approve it for below-grade installation. It still requires a vapor barrier between the plank and the concrete slab to manage the moisture vapor that constantly rises through below-grade concrete.
       </p>
 
-      <h3>Do I need a vapor barrier under vinyl plank in a basement?</h3>
+      <h3>Do I Need a Vapor Barrier Under Vinyl Plank in a Basement?</h3>
       <p>
         Yes. Even though the plank itself is waterproof, a vapor barrier (either a separate 6-mil poly sheet or an underlayment with a built-in barrier) stops moisture vapor from the slab from getting trapped under the floor, which can lead to mold on the underside of the flooring and a soft or spongy feel over time.
       </p>
 
-      <h3>Should I glue down or float vinyl plank in a basement?</h3>
+      <h3>Should I Glue Down or Float Vinyl Plank in a Basement?</h3>
       <p>
         Floating installation is usually the safer choice for basements because it can be lifted and dried out in sections if the slab ever leaks or floods. Glue-down offers a more solid, quiet feel and works well for basements with heavy fixed equipment, but it is harder to repair after a water event since the planks are bonded directly to the slab.
       </p>
 
-      <h3>Why does my basement floor feel cold with vinyl plank?</h3>
+      <h3>Why Does My Basement Floor Feel Cold with Vinyl Plank?</h3>
       <p>
         A basement slab typically stays at 55 to 65 degrees year-round, and thin vinyl plank transfers that temperature straight through to bare feet. A closed-cell foam or cork underlayment, a thicker plank with attached pad, or electric radiant floor heating installed under the vapor barrier all reduce the cold feel.
       </p>
 
-      <h3>Can vinyl plank flooring get moldy in a basement?</h3>
+      <h3>Can Vinyl Plank Flooring Get Moldy in a Basement?</h3>
       <p>
         The vinyl plank itself will not grow mold since it does not absorb water, but mold can develop on the underlayment or subfloor underneath if moisture gets trapped with no vapor barrier in place. A properly installed vapor barrier and a pre-installation moisture test on the slab are what actually prevent this.
       </p>
 
-      <h3>What is the best underlayment for vinyl plank in a basement?</h3>
+      <h3>What Is the Best Underlayment for Vinyl Plank in a Basement?</h3>
       <p>
         A closed-cell foam or cork underlayment with an attached vapor barrier film is the standard choice for floating installations. On slabs that test above normal moisture limits, we add a separate 6-mil polyethylene sheet under the underlayment for extra protection.
       </p>
 
-      <h3>How do I test a basement slab for moisture before installing vinyl plank?</h3>
+      <h3>How Do I Test a Basement Slab for Moisture Before Installing Vinyl Plank?</h3>
       <p>
         The two standard tests are a calcium chloride test (ASTM F1869), which measures moisture emitted from the slab over 24 hours, and an in-situ relative humidity probe test (ASTM F2170), which measures moisture deeper inside the concrete. Most manufacturers set limits around 3 to 5 pounds per 1,000 square feet per 24 hours for calcium chloride, and under 90 percent RH for floating floors.
       </p>
 
-      <h3>Is laminate or vinyl plank better for a basement?</h3>
+      <h3>Is Laminate or Vinyl Plank Better for a Basement?</h3>
       <p>
         Vinyl plank is the better choice for a basement. Laminate has a compressed wood-fiber core that swells and delaminates when exposed to the constant vapor drive coming through a below-grade slab, and most laminate manufacturers void the warranty for below-grade installation entirely. Rigid-core vinyl plank has a waterproof stone or polymer core built to handle exactly that condition.
       </p>
 
-      <h3>Can you put vinyl plank flooring directly over a bare concrete basement floor?</h3>
+      <h3>Can You Put Vinyl Plank Flooring Directly Over a Bare Concrete Basement Floor?</h3>
       <p>
         Not without a vapor barrier. The slab needs to be clean, flat, and tested for moisture first, and then a vapor barrier (built into the underlayment for floating floors, or a moisture-mitigating adhesive for glue-down) goes between the concrete and the plank. Installing directly over untested bare concrete is the most common cause of early basement floor failures.
       </p>

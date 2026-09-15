@@ -127,42 +127,42 @@ export default function FlooringForRentalPropertiesContent() {
       {/* FAQ */}
       <h2 id="faq">Frequently Asked Questions</h2>
 
-      <h3>What is the best flooring for a rental property?</h3>
+      <h3>What Is the Best Flooring for a Rental Property?</h3>
       <p>
         Rigid-core LVP is the best all-around choice for rental units because it is fully waterproof, resists scratches from move-in and move-out traffic, and allows single-plank spot repairs between tenants. It costs $4.50 to $7.50 per square foot installed and typically lasts 10 to 15 years, or 4 to 6 tenant cycles, before needing full replacement.
       </p>
 
-      <h3>Is laminate or vinyl plank better for rental units?</h3>
+      <h3>Is Laminate or Vinyl Plank Better for Rental Units?</h3>
       <p>
         Rigid-core vinyl plank is better for units with any real moisture exposure, kitchens, ground-floor units, or bathrooms nearby, since its core is fully waterproof. Laminate costs about a dollar less per square foot and works fine in lower-risk rooms like upper-floor bedrooms, but a slow leak or unnoticed spill can cause swelling at the seams that vinyl plank does not have.
       </p>
 
-      <h3>Should landlords still put carpet in rental bedrooms?</h3>
+      <h3>Should Landlords Still Put Carpet in Rental Bedrooms?</h3>
       <p>
         Yes, commercial-grade solution-dyed carpet still makes sense for many rental bedrooms at $2.50 to $4.00 per square foot installed. The tradeoff is a shorter replacement cycle, typically 3 to 6 years versus 10 to 15 years for LVP, so budget for more frequent replacement rather than switching materials only after a bad surprise at turnover.
       </p>
 
-      <h3>What flooring is best for apartment hallways and common areas?</h3>
+      <h3>What Flooring Is Best for Apartment Hallways and Common Areas?</h3>
       <p>
         VCT (vinyl composition tile) is the standard for multi-unit hallways, laundry rooms, and lobbies because it is inexpensive at $2.00 to $4.00 per square foot and holds up to constant shared-space foot traffic. It needs stripping and rewaxing roughly every 12 to 24 months to keep its finish, which should be budgeted as ongoing maintenance rather than a one-time cost.
       </p>
 
-      <h3>How much does it cost to floor an entire rental unit?</h3>
+      <h3>How Much Does It Cost to Floor an Entire Rental Unit?</h3>
       <p>
         For a typical 850 square foot one- or two-bedroom unit, expect $1,700 to $3,400 for VCT, $2,125 to $3,400 for rental-grade carpet, $2,550 to $4,250 for laminate, or $3,825 to $6,375 for rigid-core LVP, fully installed. Actual cost depends on layout, subfloor condition, and whether old flooring needs removal and disposal.
       </p>
 
-      <h3>How long should rental flooring last between tenants?</h3>
+      <h3>How Long Should Rental Flooring Last Between Tenants?</h3>
       <p>
         Well-installed rigid-core LVP typically lasts 10 to 15 years and multiple tenant cycles before full replacement, with occasional single-plank spot repairs in between. Laminate typically lasts 7 to 10 years, and rental-grade carpet typically needs full replacement every 3 to 6 years depending on tenant turnover and pets.
       </p>
 
-      <h3>Does flooring choice affect how fast you can turn a unit?</h3>
+      <h3>Does Flooring Choice Affect How Fast You Can Turn a Unit?</h3>
       <p>
         Yes. A crew of two installs 600 to 900 square feet of rigid-core LVP or laminate a day, so an average 850 square foot unit is typically flooring-ready in 1 to 2 days. Carpet installs even faster, usually in a single day. The bigger time savings over the life of the unit comes from spot-repairable materials like LVP, which can fix a single damaged area in under an hour instead of scheduling a full-room replacement.
       </p>
 
-      <h3>Is it worth upgrading flooring before listing a rental for higher rent?</h3>
+      <h3>Is It Worth Upgrading Flooring Before Listing a Rental for Higher Rent?</h3>
       <p>
         Often yes. Replacing worn carpet or dated sheet vinyl with rigid-core LVP is one of the higher-return updates for a rental unit, since it reads as updated and low-maintenance to prospective tenants and can support a higher asking rent. It also reduces the maintenance calls and stain complaints that come with older carpet, which saves management time across the tenancy, not just at turnover.
       </p>

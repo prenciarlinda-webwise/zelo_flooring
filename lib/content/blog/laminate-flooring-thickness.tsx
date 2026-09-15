@@ -137,27 +137,27 @@ export default function LaminateFlooringThicknessContent() {
       {/* FAQ */}
       <h2 id="faq">Frequently Asked Questions</h2>
 
-      <h3>What thickness of laminate flooring is best?</h3>
+      <h3>What Thickness of Laminate Flooring Is Best?</h3>
       <p>
         For most homes, 8mm to 12mm is best. 8mm is the standard all-rounder for bedrooms and living areas. 10mm to 12mm is worth it for high-traffic rooms, installs over concrete slab, and anywhere you want a more solid, quieter feel. Pair the thickness with at least an AC3 rating for homes and AC4 for busy households.
       </p>
 
-      <h3>Is thicker laminate flooring better?</h3>
+      <h3>Is Thicker Laminate Flooring Better?</h3>
       <p>
         Thicker laminate feels more solid, sounds quieter, and hides minor subfloor dips better, but it is not automatically more durable. Surface durability comes from the AC wear rating, not thickness. A thinner board with a higher AC rating can outlast a thick board with a low one, so check both specs.
       </p>
 
-      <h3>What is the difference between laminate thickness and AC rating?</h3>
+      <h3>What Is the Difference Between Laminate Thickness and AC Rating?</h3>
       <p>
         Thickness (in mm) is the height of the board and controls feel, sound, and how well it bridges subfloor imperfections. The AC rating (AC1 to AC5) measures surface resistance to scratching, wear, and impact. Thickness is about comfort and stability; the AC rating is about durability. Both matter and they are independent.
       </p>
 
-      <h3>Does thicker laminate need underlayment?</h3>
+      <h3>Does Thicker Laminate Need Underlayment?</h3>
       <p>
         Yes, laminate needs underlayment unless it has a pad pre-attached, regardless of thickness. Do not stack a second underlayment under a plank that already has one, because too much cushion makes the locking joints fail. Over concrete you still need a vapor barrier, placed under the cushion layer.
       </p>
 
-      <h3>What does mm mean on laminate flooring?</h3>
+      <h3>What Does Mm Mean on Laminate Flooring?</h3>
       <p>
         The mm figure is the thickness of the laminate board in millimeters, measured from the backing to the top of the wear layer and not including any attached pad. Common options are 6mm, 7mm, 8mm, 10mm, and 12mm. Higher mm means a thicker, more solid-feeling board, not necessarily a more scratch-resistant one.
       </p>

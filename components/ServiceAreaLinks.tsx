@@ -23,7 +23,6 @@ export default function ServiceAreaLinks({ eyebrow, heading, subheading, intro }
     <section className="section service-area-links">
       <div className="container">
         <div className="section-header center">
-          {eyebrow && <span className="eyebrow">{eyebrow}</span>}
           <h2>{heading || 'Flooring Across San Diego County'}</h2>
           {subheading && <p>{subheading}</p>}
         </div>

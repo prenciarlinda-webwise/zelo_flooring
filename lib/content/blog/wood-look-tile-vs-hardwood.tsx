@@ -146,47 +146,47 @@ export default function WoodLookTileVsHardwoodContent() {
       {/* FAQ */}
       <h2 id="faq">Frequently Asked Questions</h2>
 
-      <h3>Is wood look tile as good as real hardwood</h3>
+      <h3>Is Wood Look Tile as Good as Real Hardwood?</h3>
       <p>
         For durability and water resistance, wood look tile is better. For warmth underfoot and long-term resale ceiling, real hardwood is better. Neither is objectively superior, the right pick depends on the room, the moisture exposure, and whether resale or practicality matters more to you.
       </p>
 
-      <h3>Does wood look tile look fake</h3>
+      <h3>Does Wood Look Tile Look Fake?</h3>
       <p>
         Budget wood look tile with an obviously repeating pattern can look fake once you notice it. Mid-range and premium lines use dozens of unique digital printouts per pallet and staggered layout patterns, which make the repeat far harder to spot and generally read as convincing wood from normal viewing distance.
       </p>
 
-      <h3>Can you put wood look tile in a bathroom</h3>
+      <h3>Can You Put Wood Look Tile in a Bathroom?</h3>
       <p>
         Yes. Wood look tile is one of the best options for bathrooms because it is fully waterproof and handles splashing, humidity, and standing water around tubs and showers without any risk of warping or staining that real hardwood would face in the same room.
       </p>
 
-      <h3>How do you tell wood look tile from real hardwood</h3>
+      <h3>How Do You Tell Wood Look Tile from Real Hardwood?</h3>
       <p>
         Look at the grout lines, which repeat at a regular interval that hardwood seams do not. Feel the temperature, tile is cooler underfoot. Check the edges, tile has a hard square edge while hardwood has a milled bevel. Walking a longer stretch of floor also reveals any repeating printed grain pattern.
       </p>
 
-      <h3>Is wood look tile more expensive than hardwood</h3>
+      <h3>Is Wood Look Tile More Expensive Than Hardwood?</h3>
       <p>
         Standard wood look tile and mid-range engineered hardwood cost roughly the same per square foot installed, around $8 to $12. Large-format wood look tile can run higher due to substrate prep. Over 20 years, tile often costs less overall because it never needs refinishing.
       </p>
 
-      <h3>Does wood look tile feel cold like regular tile</h3>
+      <h3>Does Wood Look Tile Feel Cold Like Regular Tile?</h3>
       <p>
         Yes, wood look tile carries the same thermal properties as any porcelain tile and feels cool underfoot, especially in the morning or over an unheated slab. Radiant floor heating, available as an add-on during installation, resolves this if warmth underfoot is a priority.
       </p>
 
-      <h3>Can wood look tile be installed over a concrete slab</h3>
+      <h3>Can Wood Look Tile Be Installed Over a Concrete Slab?</h3>
       <p>
         Yes, and it is one of the best flooring options for a concrete slab. Tile has no moisture sensitivity, so it skips the calcium chloride testing and vapor barrier work that engineered hardwood requires, and it can go down as soon as the slab is flat and cured.
       </p>
 
-      <h3>Does wood look tile crack the way hardwood scratches</h3>
+      <h3>Does Wood Look Tile Crack the Way Hardwood Scratches?</h3>
       <p>
         Wood look tile resists scratches completely since the surface is fired porcelain, but individual tiles can crack under a heavy point impact, such as dropping a cast iron pan. Hardwood scratches more easily from everyday traffic and pet claws but rarely cracks outright.
       </p>
 
-      <h3>Which lasts longer, wood look tile or hardwood</h3>
+      <h3>Which Lasts Longer, Wood Look Tile or Hardwood?</h3>
       <p>
         Wood look tile itself can last 50 years or more since porcelain does not wear out, though grout needs periodic resealing. Real hardwood lasts 25 to 100 years depending on solid versus engineered construction and how many times it gets refinished over its life.
       </p>

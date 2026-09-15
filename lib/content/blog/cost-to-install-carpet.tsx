@@ -412,72 +412,72 @@ export default function CarpetInstallationCostContent() {
       {/* FAQ */}
       <h2 id="faq">Frequently Asked Questions About Carpet Installation Cost</h2>
 
-      <h3>How much does it cost to install carpet in a 12x12 room?</h3>
+      <h3>How Much Does It Cost to Install Carpet in a 12x12 Room?</h3>
       <p>
         The cost to install carpet in a 12x12 room (144 square feet) is $430 to $1,150 depending on carpet quality. With mid-range nylon carpet, expect $650 to $750 including pad, labor, removal, and disposal.
       </p>
 
-      <h3>How much does it cost to install 1,000 square feet of carpet?</h3>
+      <h3>How Much Does It Cost to Install 1,000 Square Feet of Carpet?</h3>
       <p>
         The cost to install 1,000 square feet of carpet is $4,000 to $8,000 with mid-range materials and professional installation. Budget carpet brings the low end to $3,000. Premium wool carpet can push the total above $10,000.
       </p>
 
-      <h3>What is the labor cost to install carpet per square foot?</h3>
+      <h3>What Is the Labor Cost to Install Carpet Per Square Foot?</h3>
       <p>
         Labor cost to install carpet ranges from $1.00 to $3.00 per square foot. Basic open-room installation runs $1.00 to $1.50. Standard bedrooms with closets cost $1.50 to $2.00. Complex jobs with stairs, pattern matching, or difficult access cost $2.00 to $3.00 per square foot.
       </p>
 
-      <h3>How much does Home Depot charge to install carpet?</h3>
+      <h3>How Much Does Home Depot Charge to Install Carpet?</h3>
       <p>
         Home Depot and other big-box retailers typically charge $3.50 to $7.00 per square foot installed. Their base installation fee is often quoted as a flat rate or "free installation" promotion, but the carpet and pad pricing tends to be higher to compensate. Always compare the total installed cost, not just the advertised installation fee.
       </p>
 
-      <h3>How much does it cost to install carpet on stairs?</h3>
+      <h3>How Much Does It Cost to Install Carpet on Stairs?</h3>
       <p>
         Carpet installation on stairs costs $15 to $30 per step for standard straight stairs. Winding stairs, pie steps, or open-stringer stairs cost $25 to $45 per step. A full 12 to 15 step staircase typically runs $250 to $600 total. Stairs are priced higher per square foot because each step requires individual cutting, padding, stretching, and tucking.
       </p>
 
-      <h3>Is it cheaper to install carpet or vinyl plank?</h3>
+      <h3>Is It Cheaper to Install Carpet or Vinyl Plank?</h3>
       <p>
         Carpet is generally cheaper to install than luxury vinyl plank (LVP). Carpet costs $3 to $8 per square foot installed while LVP costs $4 to $9 per square foot. However, LVP lasts 15 to 25 years compared to carpet's 5 to 15 years, so the long-term cost per year can be similar. Carpet is the better short-term budget choice. LVP is the better long-term investment, especially in moisture-prone areas. For a deeper comparison, see our <Link href="/blog/lvp-vs-hardwood">LVP vs hardwood breakdown</Link> and <Link href="/blog/vinyl-plank-flooring-cost">cost to install vinyl plank flooring</Link>.
       </p>
 
-      <h3>How long does carpet installation take?</h3>
+      <h3>How Long Does Carpet Installation Take?</h3>
       <p>
         Professional carpet installation takes 1 to 2 hours per room for standard bedrooms. A full home (1,500 square feet) typically takes one full day. Stairs add 30 to 60 minutes. Old flooring removal adds an additional 1 to 3 hours depending on the material being removed.
       </p>
 
-      <h3>Does new carpet increase home value?</h3>
+      <h3>Does New Carpet Increase Home Value?</h3>
       <p>
         New carpet does not significantly increase home value on its own, but it improves buyer perception and can help a home sell faster. Stained, worn, or outdated carpet is one of the top buyer turn-offs. Replacing old carpet before listing typically returns 50 to 80 percent of the cost through faster sale and fewer buyer concessions.
       </p>
 
-      <h3>How often should carpet be replaced?</h3>
+      <h3>How Often Should Carpet Be Replaced?</h3>
       <p>
         Carpet should be replaced every 5 to 15 years depending on fiber type, pad quality, traffic level, and maintenance. Polyester in high-traffic areas may need replacement in 5 to 7 years. Quality nylon in a bedroom can last 12 to 15 years. Wool carpet in a low-traffic room can last 20 years or more with proper care.
       </p>
 
-      <h3>What is the best time of year to install carpet?</h3>
+      <h3>What Is the Best Time of Year to Install Carpet?</h3>
       <p>
         The best time to install carpet is late fall through winter (October to February). Flooring installers are less busy during these months, which often means better pricing, faster scheduling, and more flexibility. Spring and summer are peak seasons when lead times are longer and prices tend to be higher.
       </p>
 
-      <h3>How much does it cost to carpet a 10x12 room?</h3>
+      <h3>How Much Does It Cost to Carpet a 10x12 Room?</h3>
       <p>
         A 10x12 room (120 square feet) costs roughly $360 to $960 fully installed depending on carpet quality. With mid-range nylon and an 8 lb pad, expect $540 to $720 including labor, removal, and disposal. Add $50 to $200 if you want furniture moved.
       </p>
 
-      <h3>How do I calculate my carpet installation cost?</h3>
+      <h3>How Do I Calculate My Carpet Installation Cost?</h3>
       <p>
         Multiply your room square footage by the installed cost per square foot for the carpet you want. Add 5 to 10 percent for waste (carpet rolls are 12 or 15 feet wide, so non-square rooms generate offcuts). For stairs, count the steps and multiply by the per-step rate ($15 to $30 for standard straight, $25 to $45 for winding). Add $50 to $200 for furniture moving if needed.
       </p>
 
-      <h3>What should I ask a carpet installer before signing?</h3>
+      <h3>What Should I Ask a Carpet Installer Before Signing?</h3>
       <p>
         Ask whether the quote includes pad, removal, disposal, transitions, and basic subfloor prep. Ask the pad density (8 lb minimum for warranty). Ask whether they power stretch or only knee-kick (knee-kick voids most warranties). Ask about CSLB licensing and insurance. Ask whether the carpet brand and pad meet warranty requirements. Ask about the typical install timeline.
       </p>
 
-      <h3>Is professional carpet installation worth it over big-box "free install"?</h3>
+      <h3>Is Professional Carpet Installation Worth It Over Big-Box "free Install"?</h3>
       <p>
         Big-box "free install" promotions usually fold the labor cost into higher carpet and pad pricing. The total installed cost is often the same or slightly higher than a local installer charging line-item labor. The advantages of a local installer are typically better pad upgrades, transparent line items, faster scheduling, and accountability if something goes wrong on the job. Compare total installed cost, not the headline labor rate.
       </p>

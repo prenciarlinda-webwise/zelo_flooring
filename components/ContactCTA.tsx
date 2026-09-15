@@ -7,7 +7,6 @@ export default function ContactCTA({ heading }: { heading?: string }) {
     <section className="contact-cta-section">
       <div className="container contact-cta-inner">
         <div className="contact-cta-text">
-          <span className="eyebrow" style={{ color: '#E8B547' }}>Get Started Today</span>
           <h2>{heading || 'Ready for New Floors? Get a Free In-Home Estimate.'}</h2>
           <p>
             Tell us about your project and we&apos;ll bring samples, take measurements, and put together a clear quote - all at no cost and with zero pressure.

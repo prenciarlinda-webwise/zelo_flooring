@@ -80,7 +80,6 @@ export default function ProjectGallery({
     <section className="section section-cream project-gallery-section">
       <div className="container">
         <div className="section-header center">
-          <span className="eyebrow">{eyebrow}</span>
           <h2>{heading}</h2>
           {subheading && <p>{subheading}</p>}
         </div>

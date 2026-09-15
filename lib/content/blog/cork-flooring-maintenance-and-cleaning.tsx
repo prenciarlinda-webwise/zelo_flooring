@@ -139,42 +139,42 @@ export default function CorkFlooringMaintenanceAndCleaningContent() {
       {/* FAQ */}
       <h2 id="faq">Frequently Asked Questions</h2>
 
-      <h3>How often should you clean cork flooring?</h3>
+      <h3>How Often Should You Clean Cork Flooring?</h3>
       <p>
         Sweep or vacuum (hard-floor setting, no beater bar) 2 to 3 times a week in busy rooms, and damp mop with a pH-neutral cleaner once a week. Wipe up spills within a few minutes rather than letting them sit.
       </p>
 
-      <h3>Can you use vinegar to clean cork floors?</h3>
+      <h3>Can You Use Vinegar to Clean Cork Floors?</h3>
       <p>
         Only if the floor has a urethane finish. On acrylic wax-finished cork, vinegar's acid breaks down the wax layer and dulls the finish faster. Check which finish your floor has before using an acidic cleaner, or stick with a pH-neutral cleaner made for cork or wood floors.
       </p>
 
-      <h3>How often does cork flooring need to be resealed?</h3>
+      <h3>How Often Does Cork Flooring Need to Be Resealed?</h3>
       <p>
         Every 3 to 5 years for a factory polyurethane finish in a low-traffic room, every 2 to 3 years in high-traffic areas, and every 1 to 2 years for a site-applied acrylic wax finish. A quick water-bead test tells you: if drops absorb instead of beading up, it is time to recoat.
       </p>
 
-      <h3>Does cork flooring fade in sunlight?</h3>
+      <h3>Does Cork Flooring Fade in Sunlight?</h3>
       <p>
         Yes. Cork is a natural material and continuous UV exposure ambers or darkens it unevenly over months, especially in rooms with large south- or west-facing windows common in San Diego homes. UV-blocking window film, closed blinds during peak sun, and rotating rugs and furniture every few months prevent visible shadow lines and fading.
       </p>
 
-      <h3>Is cork flooring good for homes with dogs and cats?</h3>
+      <h3>Is Cork Flooring Good for Homes with Dogs and Cats?</h3>
       <p>
         Yes, with reasonable care. Cork's cellular structure gives it some cushioning that resists dents and lets light scratches shrink back over time, which is better than what happens on hardwood or laminate. Keep pet nails trimmed and use a washable rug in main traffic paths, since untrimmed claws can still puncture the finish.
       </p>
 
-      <h3>Can a cork floor be refinished instead of replaced?</h3>
+      <h3>Can a Cork Floor Be Refinished Instead of Replaced?</h3>
       <p>
         Usually, if the cork itself is intact. A light sand and recoat, or a simple recoat with no sanding, fixes dulling, minor scratches, and uneven fading for $3 to $6 per square foot. Replacement is the better call if the cork is punctured through to the backing, delaminated, or swelled from standing water.
       </p>
 
-      <h3>What is the best way to clean cork floors without damaging the finish?</h3>
+      <h3>What Is the Best Way to Clean Cork Floors Without Damaging the Finish?</h3>
       <p>
         Sweep or vacuum first to remove grit, then damp mop with a barely-damp microfiber mop and a pH-neutral cleaner. Never use a steam mop, wax over a urethane finish, ammonia, bleach, or abrasive scrub pads, all of which strip or scratch the finish.
       </p>
 
-      <h3>How long does a well-maintained cork floor last?</h3>
+      <h3>How Long Does a Well-Maintained Cork Floor Last?</h3>
       <p>
         25 to 40 years with routine cleaning and reseals kept on schedule. Most cork floors that fail early do so from water damage or a finish that was never recoated, not from the cork itself wearing out.
       </p>

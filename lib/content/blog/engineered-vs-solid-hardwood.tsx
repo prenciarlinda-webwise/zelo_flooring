@@ -297,37 +297,37 @@ export default function EngineeredVsSolidHardwoodContent() {
       {/* FAQ */}
       <h2 id="faq">Frequently Asked Questions</h2>
 
-      <h3>Is engineered hardwood real wood?</h3>
+      <h3>Is Engineered Hardwood Real Wood?</h3>
       <p>
         Yes. Engineered hardwood has a real wood surface that you see and walk on. The top layer is the same species of wood you would get with solid hardwood. The difference is underneath, where engineered hardwood has a plywood core instead of being one solid piece of wood throughout.
       </p>
 
-      <h3>Does engineered hardwood scratch easily?</h3>
+      <h3>Does Engineered Hardwood Scratch Easily?</h3>
       <p>
         Engineered hardwood scratches at the same rate as solid hardwood because the surface is the same species of wood with the same finish. Scratch resistance depends on the wood species (hickory resists scratches better than walnut) and the finish (aluminum oxide finishes are harder than polyurethane). The engineered construction underneath does not affect scratch resistance.
       </p>
 
-      <h3>Can you refinish engineered hardwood?</h3>
+      <h3>Can You Refinish Engineered Hardwood?</h3>
       <p>
         Yes, as long as the wear layer (top veneer) is thick enough. Engineered hardwood with a 2mm veneer can be lightly screened and recoated 1 to 2 times. Products with a 3mm to 4mm veneer can be fully sanded and refinished 2 to 3 times. Budget products with a 0.6mm to 1mm veneer cannot be refinished at all.
       </p>
 
-      <h3>How long does engineered hardwood last?</h3>
+      <h3>How Long Does Engineered Hardwood Last?</h3>
       <p>
         Quality engineered hardwood with a 3mm or thicker veneer lasts 25 to 50 years with proper care. Budget products with thin veneers may only last 10 to 15 years because they cannot be refinished when the finish wears through. The core quality also matters since cheap HDF cores can swell if exposed to moisture.
       </p>
 
-      <h3>Can you install engineered hardwood over concrete?</h3>
+      <h3>Can You Install Engineered Hardwood Over Concrete?</h3>
       <p>
         Yes. This is one of engineered hardwood's biggest advantages. It can be glued directly to concrete or floated over concrete with an underlayment. A moisture test should be performed on the concrete first, and a moisture barrier is recommended for all concrete installations. Solid hardwood cannot be installed directly over concrete.
       </p>
 
-      <h3>Is engineered hardwood waterproof?</h3>
+      <h3>Is Engineered Hardwood Waterproof?</h3>
       <p>
         No. Engineered hardwood is more moisture-resistant than solid hardwood, but it is not waterproof. Standing water will damage engineered hardwood over time. It handles humidity changes and minor spills well, but it should not be installed in full bathrooms or areas with frequent standing water.
       </p>
 
-      <h3>Which adds more value to a home, engineered or solid hardwood?</h3>
+      <h3>Which Adds More Value to a Home, Engineered or Solid Hardwood?</h3>
       <p>
         Buyers generally cannot tell the difference between engineered and solid hardwood. Both add significant value compared to carpet, laminate, or vinyl. The species, color, and condition of the wood matter more for resale value than whether it is engineered or solid. A well-maintained engineered oak floor adds just as much appeal as a solid oak floor.
       </p>

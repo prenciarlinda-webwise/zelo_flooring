@@ -151,42 +151,42 @@ export default function BestTileForOutdoorPatiosAndPoolsContent() {
       {/* FAQ */}
       <h2 id="faq">Frequently Asked Questions</h2>
 
-      <h3>What is the best tile for a pool deck?</h3>
+      <h3>What Is the Best Tile for a Pool Deck?</h3>
       <p>
         Through-body porcelain with water absorption under 0.5 percent and a wet DCOF slip rating of at least 0.60 is the best choice for most pool decks. Honed or tumbled travertine is a strong second option and stays cooler underfoot in direct sun, but it needs resealing every 1 to 2 years to stay water-resistant.
       </p>
 
-      <h3>Does pool deck tile need to be frost rated in San Diego?</h3>
+      <h3>Does Pool Deck Tile Need to Be Frost Rated in San Diego?</h3>
       <p>
         Coastal San Diego rarely freezes, but inland areas like Poway, Escondido, and parts of San Marcos do see occasional nights near or below 32 degrees. Frost-rated porcelain costs little to no more than non-rated porcelain and keeps the manufacturer's warranty intact, so we install it as the default on every outdoor project regardless of exact location.
       </p>
 
-      <h3>What DCOF or slip rating should pool deck tile have?</h3>
+      <h3>What DCOF or Slip Rating Should Pool Deck Tile Have?</h3>
       <p>
         We specify a minimum wet DCOF of 0.60 for pool decks, above the ANSI A137.1 baseline of 0.42 for level interior floors. Many pool-rated porcelain products also list an R10 or R11 rating from the DIN 51130 ramp test, which is a good secondary check when comparing options.
       </p>
 
-      <h3>Can you use ceramic tile outdoors?</h3>
+      <h3>Can You Use Ceramic Tile Outdoors?</h3>
       <p>
         Standard glazed ceramic tile is not recommended outdoors. It typically absorbs 3 to 7 percent or more water, is not frost-rated, and tends to crack or delaminate within 1 to 3 years of sun and moisture exposure. Impervious or vitreous porcelain is the correct substitute for the same look with real durability.
       </p>
 
-      <h3>How far apart should expansion joints be on a patio?</h3>
+      <h3>How Far Apart Should Expansion Joints Be on a Patio?</h3>
       <p>
         Following TCNA guideline EJ171, movement joints should be placed every 8 to 12 feet in both directions across the tile field, plus at every perimeter edge and any change of plane, such as where the patio meets a step or the pool coping.
       </p>
 
-      <h3>Is natural stone or porcelain better for a pool deck?</h3>
+      <h3>Is Natural Stone or Porcelain Better for a Pool Deck?</h3>
       <p>
         Porcelain needs less long-term maintenance since it does not require sealing and holds its color under UV exposure. Natural stone like travertine stays cooler underfoot in direct sun and has a more traditional look, but it needs periodic sealing to resist staining and water absorption. Many pool decks use travertine for the coping and porcelain for the main deck field.
       </p>
 
-      <h3>How much does it cost to tile a pool deck?</h3>
+      <h3>How Much Does It Cost to Tile a Pool Deck?</h3>
       <p>
         Expect $12 to $24 per square foot installed for porcelain pavers, or $14 to $26 per square foot for travertine, depending on thickness and whether the tile is mortar-set or installed on a pedestal system. Pool coping adds $18 to $35 per linear foot on top of the deck field cost.
       </p>
 
-      <h3>Can porcelain tile crack in freezing temperatures?</h3>
+      <h3>Can Porcelain Tile Crack in Freezing Temperatures?</h3>
       <p>
         Porcelain rated impervious or vitreous (0.5 to 3 percent water absorption or lower) holds so little moisture that there is not enough water inside the tile body to expand and crack it when it freezes. Non-rated tile with higher absorption can crack in freeze-thaw cycles, which is why frost-rated porcelain is worth specifying even in a mild climate like San Diego's.
       </p>

@@ -91,42 +91,42 @@ export default function PaintBeforeOrAfterFlooringContent() {
 
       <h2 id="faq">Frequently Asked Questions</h2>
 
-      <h3>Should I paint before or after installing new flooring?</h3>
+      <h3>Should I Paint Before or After Installing New Flooring?</h3>
       <p>
         Paint before installing new flooring in almost every case. Painting first protects the new floor from drips and ladder traffic, and the floor being replaced or the bare subfloor underneath does not need the same protection during the messier painting phase.
       </p>
 
-      <h3>Should I paint before or after refinishing hardwood floors?</h3>
+      <h3>Should I Paint Before or After Refinishing Hardwood Floors?</h3>
       <p>
         Paint first, then let it fully cure before refinishing starts. Sanding an existing hardwood floor creates fine dust that settles on walls, and dust embeds more easily in paint that has not fully cured yet than in paint that has had a week or more to harden.
       </p>
 
-      <h3>Does carpet installation need to happen after all painting is done?</h3>
+      <h3>Does Carpet Installation Need to Happen After All Painting Is Done?</h3>
       <p>
         Yes, including trim touch-ups. Once carpet pile is down, a paint drip is much harder to clean out than off a hard floor, and carpet installers need finished baseboards to trim the edge against cleanly. Finish all painting before scheduling a carpet install.
       </p>
 
-      <h3>How long should paint cure before flooring goes in?</h3>
+      <h3>How Long Should Paint Cure Before Flooring Goes In?</h3>
       <p>
         Plan for at least 5 to 7 days of cure time after the final coat before flooring installation or hardwood refinishing begins, longer in a poorly ventilated or humid room. Paint that is dry to the touch is not the same as paint that has fully cured and hardened.
       </p>
 
-      <h3>Do baseboards get painted before or after new flooring?</h3>
+      <h3>Do Baseboards Get Painted Before or After New Flooring?</h3>
       <p>
         Baseboard touch-up paint happens after flooring installation, so it can cover any scuffs from the install and give a clean line against the finished floor and its expansion gap. An initial coat of primer and paint on new baseboards can happen earlier, but the final touch-up coat comes last.
       </p>
 
-      <h3>Will a hardwood refinish damage fresh paint?</h3>
+      <h3>Will a Hardwood Refinish Damage Fresh Paint?</h3>
       <p>
         It can, mainly through sanding dust settling on walls and edge-sanding equipment nicking baseboards, rather than from moisture or chemicals. Painting first and letting it fully cure, then protecting baseboards during the sand, keeps this risk low.
       </p>
 
-      <h3>Is the paint-then-flooring order different for a new construction home?</h3>
+      <h3>Is the Paint-Then-Flooring Order Different for a New Construction Home?</h3>
       <p>
         New construction follows a longer sequence: framing, drywall, paint or primer, cabinets, flooring, then baseboards and trim, since more trades are involved before flooring goes in. For a room renovation in an existing home, the shorter paint-then-flooring-then-trim order covered in this guide applies.
       </p>
 
-      <h3>Can I paint the same day flooring is installed?</h3>
+      <h3>Can I Paint the Same Day Flooring Is Installed?</h3>
       <p>
         We do not recommend it. Fresh flooring, especially glued-down or finished-on-site hardwood, needs time to off-gas and cure without paint fumes or overspray in the room, and wet paint is easily damaged by material staging and foot traffic during an install. Space the two trades out by at least a few days.
       </p>

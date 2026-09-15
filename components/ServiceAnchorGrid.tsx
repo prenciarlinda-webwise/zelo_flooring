@@ -17,7 +17,6 @@ export default function ServiceAnchorGrid({ eyebrow, heading, subheading, items,
     <section className="section section-cream">
       <div className="container">
         <div className="section-header center">
-          {eyebrow && <span className="eyebrow">{eyebrow}</span>}
           <h2>{heading}</h2>
           {subheading && <p>{subheading}</p>}
         </div>

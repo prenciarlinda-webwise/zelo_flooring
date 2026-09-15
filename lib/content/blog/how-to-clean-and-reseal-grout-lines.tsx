@@ -153,42 +153,42 @@ export default function HowToCleanAndResealGroutLinesContent() {
       {/* FAQ */}
       <h2 id="faq">Frequently Asked Questions</h2>
 
-      <h3>How often should you reseal grout lines?</h3>
+      <h3>How Often Should You Reseal Grout Lines?</h3>
       <p>
         Reseal grout on floors every 12 to 18 months and on shower or bathroom walls every 2 to 3 years. Homes near the coast in areas like La Jolla or Coronado often need resealing closer to the 12 month mark since salt air and higher humidity break down sealer faster.
       </p>
 
-      <h3>What is the difference between sanded and unsanded grout?</h3>
+      <h3>What Is the Difference Between Sanded and Unsanded Grout?</h3>
       <p>
         Sanded grout contains fine sand and is used in joints 1/8 inch or wider, common on floor tile. Unsanded grout is smoother, used in joints under 1/8 inch, and is common on walls, mosaics, and polished natural stone where sand could scratch the surface.
       </p>
 
-      <h3>Can you clean grout without damaging the sealer?</h3>
+      <h3>Can You Clean Grout Without Damaging the Sealer?</h3>
       <p>
         Yes, if you stick with a pH-neutral cleaner or a baking soda paste and a nylon grout brush. Avoid chlorine bleach, which lightens colored grout unevenly, and avoid vinegar or other acidic cleaners, which break down cement grout and etch natural stone over time.
       </p>
 
-      <h3>How do you know if grout needs to be resealed?</h3>
+      <h3>How Do You Know If Grout Needs to Be Resealed?</h3>
       <p>
         Pour a tablespoon of water onto a grout line. If it beads up and sits on the surface for 5 to 10 minutes, the sealer is still working. If the grout darkens and absorbs the water within about 60 seconds, it is time to reseal.
       </p>
 
-      <h3>Should I clean and reseal grout myself or hire a professional?</h3>
+      <h3>Should I Clean and Reseal Grout Myself or Hire a Professional?</h3>
       <p>
         DIY cleaning and resealing works well for grout that is intact but stained or due for routine sealer. Call a professional when grout is cracked, crumbling, missing in chunks larger than a quarter inch, or separating from the tile edge, since those signs usually mean a regrout or tile repair is needed instead.
       </p>
 
-      <h3>How much does professional regrouting cost?</h3>
+      <h3>How Much Does Professional Regrouting Cost?</h3>
       <p>
         Professional regrouting typically runs $3 to $7 per square foot of tile area, or about $200 to $450 for an average 50 square foot bathroom and $500 to $1,050 for a 150 square foot kitchen floor, depending on tile size and grout condition.
       </p>
 
-      <h3>Does epoxy grout need to be sealed?</h3>
+      <h3>Does Epoxy Grout Need to Be Sealed?</h3>
       <p>
         No. Epoxy grout is non-porous and resists stains and water without a separate sealer coat, which is why it holds up well in kitchens and bathrooms. Standard cement-based grout is porous and does need a penetrating sealer on a regular schedule.
       </p>
 
-      <h3>Can grout be repaired without replacing the whole floor?</h3>
+      <h3>Can Grout Be Repaired Without Replacing the Whole Floor?</h3>
       <p>
         Yes, in most cases. A professional can grind out and replace failing grout in a section or an entire room without removing the tile itself, as long as the tile is still well-bonded and the subfloor underneath has not been damaged by water.
       </p>

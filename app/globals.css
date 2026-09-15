@@ -89,16 +89,6 @@ ul, ol { padding-left: 0; list-style: none; }
 .text-orange, .accent { color: var(--terracotta); }
 .text-center { text-align: center; }
 
-.eyebrow {
-  display: inline-block;
-  font-size: 0.78rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 1.8px;
-  color: var(--terracotta);
-  margin-bottom: 12px;
-}
-
 /* ===== BUTTONS ===== */
 .btn {
   display: inline-flex;
@@ -379,7 +369,6 @@ ul, ol { padding-left: 0; list-style: none; }
   display: flex;
   align-items: center;
   gap: 16px;
-  border-left: 5px solid var(--gold);
 }
 .offer-card .offer-title {
   color: var(--white);
@@ -596,7 +585,6 @@ ul, ol { padding-left: 0; list-style: none; }
 /* ===== WHY CHOOSE US (dark brown panel) ===== */
 .why-section { background: var(--brown); color: var(--white); }
 .why-section h2 { color: var(--white); }
-.why-section .eyebrow { color: var(--gold); }
 .why-grid { display: grid; grid-template-columns: 1fr; gap: 36px; }
 .why-list { display: flex; flex-direction: column; gap: 14px; }
 .why-item {
@@ -605,8 +593,7 @@ ul, ol { padding-left: 0; list-style: none; }
   align-items: flex-start;
   padding: 14px 16px;
   background: rgba(255, 255, 255, 0.05);
-  border-left: 3px solid var(--gold);
-  border-radius: 0 var(--radius) var(--radius) 0;
+  border-radius: var(--radius);
 }
 .why-item-icon {
   flex-shrink: 0;
@@ -982,16 +969,6 @@ a.trust-ribbon-item:hover { opacity: 0.8; }
   }
 }
 
-/* ===== FOOTER TRUST CERTIFICATE ===== */
-.footer-cert {
-  padding: 22px 0;
-  border-top: 1px solid rgba(255, 255, 255, 0.12);
-}
-.footer-cert .container {
-  display: flex;
-  justify-content: center;
-}
-
 /* ===== FORM ERROR MESSAGES ===== */
 .lead-hero-form-error,
 .final-cta-form-error,
@@ -1126,7 +1103,6 @@ a.trust-ribbon-item:hover { opacity: 0.8; }
   background: rgba(255, 255, 255, 0.05);
   padding: 20px;
   border-radius: var(--radius-lg);
-  border-left: 4px solid var(--gold);
 }
 .contact-cta-info div {
   display: flex;
@@ -1218,7 +1194,6 @@ a.trust-ribbon-item:hover { opacity: 0.8; }
   background: rgba(255, 255, 255, 0.06);
   border-radius: var(--radius);
   font-size: 0.8rem;
-  border-left: 3px solid var(--gold);
 }
 .footer-col .license strong { color: var(--white); display: block; margin-bottom: 2px; }
 .socials {
@@ -1546,7 +1521,6 @@ body.nav-open { overflow: hidden; }
   padding: 20px;
   background: var(--cream);
   border-radius: var(--radius-lg);
-  border-left: 4px solid var(--terracotta);
   margin-bottom: 28px;
   font-size: 0.88rem;
 }
@@ -1574,9 +1548,9 @@ body.nav-open { overflow: hidden; }
   margin: 28px 0;
   font-size: 0.92rem;
 }
-.callout-box.tip { background: #F0FAF0; border-left: 4px solid #2E7D32; }
-.callout-box.warning { background: #FFF8E1; border-left: 4px solid var(--gold); }
-.callout-box.info { background: var(--cream); border-left: 4px solid var(--terracotta); }
+.callout-box.tip { background: #F0FAF0; }
+.callout-box.warning { background: #FFF8E1; }
+.callout-box.info { background: var(--cream); }
 .callout-box strong { display: block; margin-bottom: 6px; color: var(--brown); }
 
 /* Cost table */
@@ -1775,10 +1749,8 @@ body.nav-open { overflow: hidden; }
 .hero-trust-bar {
   background: var(--white);
   border: 1px solid var(--gray-100);
-  border-left: 4px solid var(--terracotta);
   border-radius: var(--radius-lg);
   padding: 22px 26px;
-  box-shadow: var(--shadow-sm);
 }
 .hero-trust-list {
   list-style: none;
@@ -1923,13 +1895,6 @@ body.nav-open { overflow: hidden; }
 .service-hero-crumbs a { color: rgba(255,255,255,0.85); text-decoration: none; }
 .service-hero-crumbs a:hover { color: var(--white); }
 .service-hero-crumbs .crumb-sep { opacity: 0.4; }
-.service-hero-eyebrow {
-  font-size: 0.92rem;
-  font-weight: 800;
-  letter-spacing: 0.32em;
-  color: var(--terracotta-light);
-  margin-bottom: 0;
-}
 .service-hero-title {
   font-size: clamp(2.4rem, 6vw, 4.6rem);
   line-height: 1.0;
@@ -2113,28 +2078,6 @@ body.nav-open { overflow: hidden; }
 /* ============================================== */
 /* ===== SECTION ACCENTS (bold modern) ===== */
 /* ============================================== */
-.section-accent-eyebrow {
-  display: inline-block;
-  font-size: 0.78rem;
-  font-weight: 800;
-  letter-spacing: 0.34em;
-  text-transform: uppercase;
-  color: var(--terracotta);
-  position: relative;
-  padding-left: 26px;
-  margin-bottom: 14px;
-}
-.section-accent-eyebrow::before {
-  content: '';
-  position: absolute;
-  left: 0;
-  top: 50%;
-  width: 18px;
-  height: 3px;
-  background: var(--terracotta);
-  transform: translateY(-50%);
-}
-
 /* Bigger H2 ramp on service pages */
 .service-hero ~ .section h2,
 .service-hero ~ .stat-strip ~ .section h2 {
@@ -2156,12 +2099,11 @@ body.nav-open { overflow: hidden; }
   position: relative;
   padding: 12px 14px 12px 44px;
   background: var(--white);
-  border-left: 3px solid var(--terracotta);
-  border-radius: 0 var(--radius) var(--radius) 0;
+  border: 1px solid var(--gray-100);
+  border-radius: var(--radius);
   font-size: 0.96rem;
   color: var(--gray-700);
   font-weight: 500;
-  box-shadow: 0 1px 4px rgba(0,0,0,0.04);
 }
 .signs-list li::before {
   content: '!';
@@ -2451,14 +2393,6 @@ body.nav-open { overflow: hidden; }
   padding: 56px 20px 64px;
 }
 .lead-hero-text { display: flex; flex-direction: column; gap: 18px; }
-.lead-hero-eyebrow {
-  font-size: 0.78rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 1.8px;
-  color: var(--gold);
-  margin: 0;
-}
 .lead-hero-h1 {
   font-size: clamp(1.95rem, 4.5vw, 3rem);
   line-height: 1.1;
@@ -2483,10 +2417,7 @@ body.nav-open { overflow: hidden; }
   flex-wrap: wrap;
   gap: 8px 18px;
   margin: 8px 0 0;
-  padding: 14px 16px;
-  background: rgba(0, 0, 0, 0.28);
-  border-left: 3px solid var(--gold);
-  border-radius: var(--radius);
+  padding: 0;
 }
 .lead-hero-trust li {
   font-size: 0.86rem;
@@ -2856,10 +2787,8 @@ a.lead-hero-trust-chip:hover {
 .breakdown-card {
   background: var(--white);
   border: 1px solid var(--gray-100);
-  border-left: 4px solid var(--terracotta);
   border-radius: var(--radius);
   padding: 22px 22px;
-  box-shadow: var(--shadow-sm);
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -2905,7 +2834,6 @@ a.lead-hero-trust-chip:hover {
 .location-service-card {
   background: var(--white);
   border: 1px solid var(--gray-100);
-  border-left: 4px solid var(--terracotta);
   border-radius: var(--radius);
   padding: 20px 22px;
 }
@@ -2937,7 +2865,6 @@ a.lead-hero-trust-chip:hover {
 .stat-card {
   background: rgba(255, 255, 255, 0.06);
   border: 1px solid rgba(255, 255, 255, 0.1);
-  border-left: 4px solid var(--gold);
   border-radius: var(--radius);
   padding: 22px 22px;
   display: flex;
@@ -3192,7 +3119,6 @@ a.lead-hero-trust-chip:hover {
   margin: 22px 0;
   padding: 18px 20px;
   background: rgba(0, 0, 0, 0.22);
-  border-left: 4px solid var(--gold);
   border-radius: var(--radius);
 }
 .final-cta-info div { display: flex; align-items: center; gap: 10px; font-size: 0.94rem; }
@@ -3264,84 +3190,20 @@ a.lead-hero-trust-chip:hover {
 @media (min-width: 1200px) { .area-links-grid { grid-template-columns: repeat(6, 1fr); } }
 
 
-/* ===== FOOTER SERVICE AREA DROPDOWN ===== */
-.footer-areas {
-  background: rgba(0, 0, 0, 0.22);
-  border-top: 1px solid rgba(255, 255, 255, 0.08);
-  padding: 18px 0;
-}
-.footer-areas-details summary {
-  list-style: none;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 12px;
-  padding: 6px 0;
-}
-.footer-areas-details summary::-webkit-details-marker { display: none; }
-.footer-areas-details summary::after {
-  content: '+';
-  font-size: 1.4rem;
-  color: var(--gold);
-  font-weight: 800;
-  line-height: 1;
-}
-.footer-areas-details[open] summary::after { content: '−'; }
-.footer-areas-label {
-  font-size: 0.78rem;
-  font-weight: 700;
-  letter-spacing: 1.6px;
-  text-transform: uppercase;
-  color: var(--white);
-}
-.footer-areas-hint {
-  font-size: 0.78rem;
-  color: rgba(255, 255, 255, 0.6);
-}
-.footer-areas-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 8px;
-  padding: 14px 0 4px;
-}
-.footer-area-link {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  padding: 8px 10px;
-  font-size: 0.84rem;
-  color: rgba(255, 255, 255, 0.85);
-  border-radius: var(--radius);
-  transition: var(--transition);
-}
-.footer-area-link:hover {
-  background: rgba(255, 255, 255, 0.06);
-  color: var(--gold);
-}
-.footer-area-link svg { color: var(--gold); flex-shrink: 0; }
-
-@media (min-width: 600px) { .footer-areas-grid { grid-template-columns: repeat(3, 1fr); } }
-@media (min-width: 900px) { .footer-areas-grid { grid-template-columns: repeat(4, 1fr); } }
-@media (min-width: 1200px) { .footer-areas-grid { grid-template-columns: repeat(6, 1fr); } }
-
-
 /* ==========================================================
    LOCATION-PAGE-SEO SECTIONS
    AEO Q&A blocks, city context, neighborhoods, landmarks
    ========================================================== */
 
 /* ===== AEO QUICK-ANSWER BLOCK ===== */
+/* Open, not a boxed "answer card" - reads as normal page content, same treatment as
+   .installer-trust-block below. Facts render as a plain checkmark list (same visual
+   language as .lead-hero-trust and the local-nuances/why-choose-us lists on this page),
+   not a labeled "Label: value" spec sheet. */
 .aeo-block {
   max-width: 820px;
   margin: 0 auto;
-  background: var(--white);
-  border-left: 4px solid var(--gold);
-  border-radius: var(--radius);
-  padding: 26px 28px;
-  box-shadow: var(--shadow-sm);
 }
-.aeo-block .eyebrow { margin-bottom: 8px; color: var(--terracotta); }
 .aeo-block h2 {
   font-size: 1.4rem;
   margin-bottom: 14px;
@@ -3354,29 +3216,27 @@ a.lead-hero-trust-chip:hover {
   margin-bottom: 16px;
 }
 .aeo-keyfacts {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 6px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 20px;
   margin: 0;
-  padding: 14px 16px;
-  background: var(--cream);
-  border-radius: var(--radius);
+  padding: 0;
   list-style: none;
 }
 .aeo-keyfacts li {
+  display: flex;
+  align-items: center;
+  gap: 6px;
   font-size: 0.92rem;
   color: var(--gray-700);
-  padding: 4px 0;
 }
-.aeo-keyfacts strong { color: var(--brown); margin-right: 4px; }
-@media (min-width: 720px) { .aeo-keyfacts { grid-template-columns: repeat(2, 1fr); } }
+.aeo-keyfacts li svg { color: var(--terracotta); flex-shrink: 0; }
 
 /* ===== INSTALLER TRUST SECTION (Choosing an installer) - open, not a boxed card ===== */
 .installer-trust-block {
   max-width: 820px;
   margin: 0 auto;
 }
-.installer-trust-block .eyebrow { margin-bottom: 8px; color: var(--terracotta); }
 .installer-trust-block h2 {
   font-size: 1.4rem;
   margin-bottom: 16px;
@@ -3425,7 +3285,6 @@ a.lead-hero-trust-chip:hover {
   padding: 24px 26px;
   background: var(--cream);
   border-radius: var(--radius);
-  border-left: 4px solid var(--terracotta);
 }
 .local-nuances h3 {
   font-size: 1.1rem;
@@ -3981,15 +3840,6 @@ a.trust-badge:hover {
   margin-bottom: 16px;
   display: block;
 }
-.partner-spotlight-eyebrow {
-  font-size: 0.72rem;
-  font-weight: 800;
-  letter-spacing: 0.6px;
-  text-transform: uppercase;
-  color: var(--terracotta);
-  margin-bottom: 10px;
-  display: block;
-}
 .partner-spotlight-name { font-size: 1.4rem; margin-bottom: 2px; }
 .partner-spotlight-trade {
   font-size: 0.86rem;
@@ -4020,7 +3870,6 @@ a.trust-badge:hover {
   gap: 20px;
   align-items: flex-start;
 }
-.careers-banner-text .eyebrow { color: var(--terracotta); }
 .careers-banner-text h2 { color: var(--brown); margin-bottom: 8px; }
 .careers-banner-text p { color: var(--gray-500); margin: 0; max-width: 60ch; }
 .careers-banner > .container.careers-banner-inner > .btn { flex-shrink: 0; }

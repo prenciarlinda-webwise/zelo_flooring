@@ -4,6 +4,7 @@ export type LocationType = 'main' | 'secondary';
 
 export type Location = {
   slug: string; // url segment, always begins with `flooring-`
+  lastUpdated: string; // ISO date, feeds Article/WebPage dateModified for the GEO/AEO "evergreen content within 90 days" rule
   city: string;
   state: string; // 'CA'
   type: LocationType;
@@ -68,6 +69,7 @@ export const LOCATIONS: Location[] = [
   // ---------- MAIN ----------
   {
     slug: 'flooring-san-diego',
+    lastUpdated: '2026-09-13',
     city: 'San Diego',
     state: 'CA',
     type: 'main',
@@ -89,7 +91,7 @@ export const LOCATIONS: Location[] = [
     ],
     landmarks: ['Balboa Park', 'San Diego Bay', 'Mission Bay', 'Interstate 5', 'Interstate 8', 'Interstate 805'],
     wikipediaUrl: 'https://en.wikipedia.org/wiki/San_Diego',
-    metaTitle: 'Flooring in San Diego, CA',
+    metaTitle: 'Flooring San Diego',
     metaDescription:
       'Flooring installation in San Diego, CA. Hardwood, vinyl plank, tile, carpet, laminate. Licensed CSLB #1083572. Free in-home estimate. Call +1 (619) 777-4334.',
     primaryKeyword: 'flooring San Diego',
@@ -101,16 +103,16 @@ export const LOCATIONS: Location[] = [
       'vinyl plank San Diego',
     ],
     heroValueProp:
-      'Zelo Flooring installs carpet, vinyl plank, hardwood, laminate, and tile across San Diego. Licensed CSLB contractor, manufacturer-spec installs, free in-home estimate.',
+      'Zelo Flooring provides professional flooring installation in San Diego, from carpet and vinyl plank to hardwood, laminate, and tile. Licensed CSLB flooring contractor, manufacturer-spec installs, free in-home estimate.',
     aeoCostAnswer:
       'Flooring installation in San Diego runs $3 to $15 per square foot installed: carpet $3-$7, luxury vinyl plank $5-$10, hardwood $8-$15. Zelo Flooring, a CSLB-licensed San Diego flooring company, quotes exact pricing after a free in-home estimate. Call (619) 777-4334 to schedule.',
     aeoSecondaryQuestion: {
-      q: 'How long does flooring installation take in San Diego?',
-      a: 'A typical 1,000 to 1,500 square foot install takes 1 to 3 days for vinyl plank or laminate, 2 to 4 days for hardwood including acclimation, and 3 to 5 days for tile with substrate prep. Slab grinding, asbestos testing on older homes, or HOA scheduling can extend the timeline.',
+      q: 'How Long Does Flooring Installation Take in San Diego?',
+      a: 'Most 1,000 to 1,500 square foot installs take 1 to 3 days for vinyl plank or laminate, 2 to 4 days for hardwood, and 3 to 5 days for tile. Call (619) 777-4334 for a timeline specific to your project. Slab grinding, asbestos testing on older homes, or HOA scheduling can extend it.',
     },
     bestOf: {
-      q: 'What is the best flooring for San Diego homes?',
-      a: 'For most San Diego homes, rigid-core luxury vinyl plank and engineered hardwood are the best choices. Both stay stable on concrete slab and resist coastal humidity. Choose porcelain tile for wet areas, water-resistant laminate on a budget, and carpet for bedrooms.',
+      q: 'What Is the Best Flooring for San Diego Homes?',
+      a: "For most San Diego homes, rigid-core luxury vinyl plank and engineered hardwood are the best choices, both stable on concrete slab and resistant to coastal humidity. Call (619) 777-4334 and we'll help you pick between them for your rooms. Porcelain tile suits wet areas, water-resistant laminate fits a budget, and carpet works well in bedrooms.",
       picks: [
         { category: 'Best overall', pick: 'Rigid-core luxury vinyl plank, waterproof and slab-stable', href: '/vinyl-flooring-san-diego' },
         { category: 'Best real wood', pick: 'Engineered hardwood, handles coastal humidity and adds resale value', href: '/hardwood-flooring-san-diego' },
@@ -122,7 +124,7 @@ export const LOCATIONS: Location[] = [
       guideLabel: 'Read the full guide to the best flooring for San Diego homes',
     },
     findInstaller: {
-      q: 'Who are reliable flooring installers in San Diego?',
+      q: 'Who Are Reliable Flooring Installers in San Diego?',
       a: 'To find a reliable flooring contractor or flooring company in San Diego, confirm an active CSLB license, a bond, insurance, and consistent recent reviews. Zelo Flooring is a CSLB-licensed San Diego flooring company (#1083572) for residential and commercial work, rated 5.0 stars across 34 Thumbtack reviews. Call (619) 777-4334 to verify and schedule a free estimate.',
       criteria: [
         { label: 'Verify the license', detail: 'Active CSLB C-15 #1083572, bonded and insured. Anyone can check it free on the CSLB website before hiring.' },
@@ -135,7 +137,7 @@ export const LOCATIONS: Location[] = [
     cityIntro: [
       'Zelo Flooring is a San Diego flooring contractor based in Mira Mesa, serving homeowners and businesses across San Diego County. We focus on the boring details that decide whether a floor lasts five years or twenty: slab moisture testing, manufacturer-spec acclimation, proper subfloor flatness, and clean transitions.',
       'San Diego homes have a few traits that change how floors get installed here. Most homes built since the 1980s sit on concrete slab, which means moisture testing and vapor barriers matter more than they would in a Midwest crawl-space home. Coastal humidity from Point Loma to Pacific Beach pushes engineered hardwood and rigid-core vinyl ahead of solid hardwood for most rooms. We adjust the install spec to the house, not to whatever is fastest.',
-      'As a full-service San Diego flooring company, we run every job with our own licensed crew rather than rotating subcontractors, so the flooring installers who show up for your estimate are the same flooring installers who finish the job.',
+      'As a full-service San Diego flooring company led by owner Endri Zelollari, we run every job with our own licensed crew rather than rotating subcontractors, so the flooring installers who show up for your estimate are the same flooring installers who finish the job.',
     ],
     localNuances: [
       'Slab homes from the 1970s onward dominate San Diego, calcium chloride or RH probe moisture testing is standard before any wood or laminate install.',
@@ -153,9 +155,11 @@ export const LOCATIONS: Location[] = [
     ],
     findUs: {
       heading: 'Proudly Serving San Diego With Local Flooring Installation',
+      // NOTE: keep the standalone word "Mira Mesa" exactly once in here — LocationPage.tsx
+      // auto-links it to Wikipedia for the main San Diego page. If this copy changes, keep that
+      // exact substring intact or update the linkify logic in LocationPage.tsx to match.
       paragraphs: [
-        'Zelo Flooring runs out of Mira Mesa, close to Kearny Mesa and the I-15/I-805 interchange, which keeps us within a short drive of most of the city on any given day. We measure jobs from Point Loma to Rancho Peñasquitos ourselves rather than farming out estimates to a call center, so the person quoting your floor is the person who answers the phone.',
-        "From Mira Mesa we reach every neighborhood in this guide, plus the wider county from Escondido to Chula Vista, without adding a trip charge inside San Diego proper. We're open daily from 7am to 7pm, and our 5.0-star rating across 34 Thumbtack reviews and BBB A+ accreditation reflect what happens when the same licensed crew shows up every time. Call (619) 777-4334 anytime during those hours for a free in-home estimate.",
+        "Zelo Flooring is based in Mira Mesa, about 20 minutes from San Diego International Airport and right off the I-15/I-805 interchange, which puts most of the city within a short drive on any given day. We measure every job ourselves, from Point Loma to Rancho Peñasquitos, rather than routing estimates through a call center, so the person who quotes your floor is the person who answers the phone. We're open daily from 7am to 7pm at (619) 777-4334, and our 5.0-star rating across 34 Thumbtack reviews and BBB A+ accreditation reflect what happens when the same licensed crew shows up every time.",
       ],
     },
     serviceNotes: {
@@ -174,15 +178,15 @@ export const LOCATIONS: Location[] = [
       { name: 'Jennifer K.', location: 'Carlsbad, CA', quote: 'Carpeted three bedrooms and the stairs. Crew was professional, install was quick, and the quality is way better than what we had before. Five stars all day.' },
     ],
     faqs: [
-      { q: 'How much does flooring cost in San Diego?', a: 'Installation runs $3 to $15 per square foot installed depending on material. Carpet $3-$7, luxury vinyl plank $5-$10, hardwood $8-$15. Slab prep, moisture testing, and stair/transition work add to the labor portion.' },
-      { q: 'Who are reliable flooring installers in San Diego?', a: 'Look for an active CSLB license, a bond, insurance, and consistent recent reviews. Zelo Flooring is a CSLB-licensed San Diego installer (C-15 #1083572), bonded and insured, rated 5.0 stars across 34 Thumbtack reviews, BBB A+ accredited, and a Thumbtack Top Pro from 2023 to 2025.' },
-      { q: 'Do I need a permit for flooring replacement in San Diego?', a: 'Like-for-like residential flooring replacement does not require a city permit in San Diego. Condo associations may require ARC approval, and historic-district homes can have additional review. We confirm during the in-home consultation.' },
-      { q: 'What flooring is best for San Diego coastal homes?', a: 'Engineered hardwood with a 3-4 mm wear layer and rigid-core SPC vinyl handle coastal humidity better than solid hardwood or traditional laminate. We default to these in homes within 5 miles of the coast.' },
-      { q: 'Do you handle older San Diego homes with potential asbestos in old VCT?', a: 'Yes. We coordinate with licensed asbestos abatement partners. Pre-1985 VCT or cutback adhesive is tested before tear-out, and abated where required, before new flooring goes in.' },
-      { q: 'How long does the install take?', a: 'A 1,000-1,500 sq ft project typically runs 1-3 days for vinyl or laminate, 2-4 days for hardwood including acclimation, and 3-5 days for tile. We give a clear timeline before any work begins.' },
-      { q: 'Do you serve all of San Diego County?', a: 'Yes. We install across San Diego County including Coronado, Del Mar, La Jolla, Carlsbad, Encinitas, Chula Vista, Poway, and Escondido. Free in-home estimates everywhere we serve.' },
-      { q: 'Are you licensed and insured?', a: 'Yes. Zelo Flooring is licensed by the California Contractors State License Board (CSLB Lic #1083572), bonded, and carries general liability and workers compensation insurance.' },
-      { q: 'Do you install commercial flooring in San Diego?', a: 'Yes. Zelo Flooring is licensed, bonded, and insured for both residential and commercial flooring installation across San Diego County (CSLB C-15 #1083572). We install VCT, LVT, carpet, and hardwood for offices, retail, schools, and healthcare facilities, with after-hours and weekend scheduling to keep your business open. Call (619) 777-4334 for a commercial quote.' },
+      { q: 'How Much Does Flooring Cost in San Diego?', a: 'Installation runs $3 to $15 per square foot installed depending on material. Carpet $3-$7, luxury vinyl plank $5-$10, hardwood $8-$15. Slab prep, moisture testing, and stair/transition work add to the labor portion.' },
+      { q: 'Who Are Reliable Flooring Installers in San Diego?', a: 'Look for an active CSLB license, a bond, insurance, and consistent recent reviews. Zelo Flooring is a CSLB-licensed San Diego installer (C-15 #1083572), bonded and insured, rated 5.0 stars across 34 Thumbtack reviews, BBB A+ accredited, and a Thumbtack Top Pro from 2023 to 2025.' },
+      { q: 'Do I Need a Permit for Flooring Replacement in San Diego?', a: 'Like-for-like residential flooring replacement does not require a city permit in San Diego. Condo associations may require ARC approval, and historic-district homes can have additional review. We confirm during the in-home consultation.' },
+      { q: 'What Flooring Is Best for San Diego Coastal Homes?', a: 'Engineered hardwood with a 3-4 mm wear layer and rigid-core SPC vinyl handle coastal humidity better than solid hardwood or traditional laminate. We default to these in homes within 5 miles of the coast.' },
+      { q: 'Do You Handle Older San Diego Homes with Potential Asbestos in Old VCT?', a: 'Yes. We coordinate with licensed asbestos abatement partners. Pre-1985 VCT or cutback adhesive is tested before tear-out, and abated where required, before new flooring goes in.' },
+      { q: 'How Long Does the Install Take?', a: 'A 1,000-1,500 sq ft project typically runs 1-3 days for vinyl or laminate, 2-4 days for hardwood including acclimation, and 3-5 days for tile. We give a clear timeline before any work begins.' },
+      { q: 'Do You Serve All of San Diego County?', a: 'Yes. We install across San Diego County including Coronado, Del Mar, La Jolla, Carlsbad, Encinitas, Chula Vista, Poway, and Escondido. Free in-home estimates everywhere we serve.' },
+      { q: 'Are You Licensed and Insured?', a: 'Yes. Zelo Flooring is licensed by the California Contractors State License Board (CSLB Lic #1083572), bonded, and carries general liability and workers compensation insurance.' },
+      { q: 'Do You Install Commercial Flooring in San Diego?', a: 'Yes. Zelo Flooring is licensed, bonded, and insured for both residential and commercial flooring installation across San Diego County (CSLB C-15 #1083572). We install VCT, LVT, carpet, and hardwood for offices, retail, schools, and healthcare facilities, with after-hours and weekend scheduling to keep your business open. Call (619) 777-4334 for a commercial quote.' },
     ],
     relatedLocations: ['flooring-la-jolla', 'flooring-coronado', 'flooring-del-mar', 'flooring-carlsbad', 'flooring-encinitas', 'flooring-poway', 'flooring-escondido', 'flooring-chula-vista'],
     heroImage: '/img/projects/lvp-whole-home/after-living-room-lvp.webp',
@@ -192,6 +196,7 @@ export const LOCATIONS: Location[] = [
   // ---------- LA JOLLA ----------
   {
     slug: 'flooring-la-jolla',
+    lastUpdated: '2026-09-13',
     city: 'La Jolla',
     state: 'CA',
     type: 'secondary',
@@ -211,11 +216,11 @@ export const LOCATIONS: Location[] = [
     aeoCostAnswer:
       "Flooring installation in La Jolla typically runs $5 to $18 per square foot installed. Engineered hardwood and wide-plank European oak land at the higher end, while rigid-core vinyl plank sits around $6 to $11. La Jolla's oceanfront humidity and older hillside foundations push most installs toward engineered wood and moisture-tested subfloor prep.",
     aeoSecondaryQuestion: {
-      q: "What flooring holds up best in La Jolla's coastal climate?",
+      q: "What Flooring Holds Up Best in La Jolla's Coastal Climate?",
       a: 'Engineered hardwood with a 4mm-plus wear layer and rigid-core SPC vinyl handle La Jolla salt air and humidity far better than solid hardwood, which can cup and gap within a few feet of the ocean. For bathrooms and entryways near the Shores, porcelain tile is the most durable choice.',
     },
     findInstaller: {
-      q: 'Who are reliable flooring installers in La Jolla?',
+      q: 'Who Are Reliable Flooring Installers in La Jolla?',
       a: 'To find a reliable flooring contractor in La Jolla, confirm an active CSLB license, a bond, insurance, and consistent recent reviews. Zelo Flooring is a CSLB-licensed flooring company (#1083572) serving La Jolla from our San Diego office, rated 5.0 stars across 34 Thumbtack reviews. Call (619) 777-4334 to verify and schedule a free estimate.',
       criteria: [
         { label: 'Verify the license', detail: 'Active CSLB C-15 #1083572, bonded and insured. Anyone can check it free on the CSLB website before hiring.' },
@@ -266,12 +271,12 @@ export const LOCATIONS: Location[] = [
       { name: 'Diane H.', location: 'Muirlands, La Jolla', quote: 'Our hillside home had an uneven subfloor that two other contractors did not even mention. Zelo leveled it properly and the LVP came out flawless.' },
     ],
     faqs: [
-      { q: 'How much does flooring installation cost in La Jolla?', a: 'Most La Jolla projects run $5 to $18 per square foot installed. Engineered hardwood and wide-plank oak sit at the top, rigid-core vinyl around $6 to $11, and tile depends on substrate prep. Hillside leveling and coastal moisture work can add to the labor.' },
-      { q: 'What flooring is best for homes near the La Jolla coast?', a: 'Engineered hardwood with a thick wear layer and rigid-core SPC vinyl hold up best against salt air and humidity. Solid hardwood can cup within a mile of the water, so we usually recommend against it for Bird Rock and Shores homes.' },
-      { q: 'Do you handle La Jolla condo HOA requirements?', a: 'Yes. Many Village condos require sound-attenuation underlayment with documented STC/IIC ratings. We carry compliant underlayment and provide the documentation your association needs before work begins.' },
-      { q: 'Can you level the subfloor in hillside La Jolla homes?', a: 'Yes. Mount Soledad and Muirlands homes often have uneven or stepped subfloors. We grind high spots, patch low spots, and self-level so the finished floor sits flat with clean transitions.' },
-      { q: 'Do you serve all La Jolla neighborhoods?', a: 'We install throughout La Jolla including Bird Rock, La Jolla Shores, Windansea, the Village, Mount Soledad, Muirlands, and La Jolla Farms. Free in-home estimates across the 92037 ZIP code.' },
-      { q: 'How far is your team from La Jolla?', a: 'Our San Diego office is about 15 to 20 minutes from La Jolla, so scheduling estimates and install days is easy and we are local for any follow-up.' },
+      { q: 'How Much Does Flooring Installation Cost in La Jolla?', a: 'Most La Jolla projects run $5 to $18 per square foot installed. Engineered hardwood and wide-plank oak sit at the top, rigid-core vinyl around $6 to $11, and tile depends on substrate prep. Hillside leveling and coastal moisture work can add to the labor.' },
+      { q: 'What Flooring Is Best for Homes Near the La Jolla Coast?', a: 'Engineered hardwood with a thick wear layer and rigid-core SPC vinyl hold up best against salt air and humidity. Solid hardwood can cup within a mile of the water, so we usually recommend against it for Bird Rock and Shores homes.' },
+      { q: 'Do You Handle La Jolla Condo HOA Requirements?', a: 'Yes. Many Village condos require sound-attenuation underlayment with documented STC/IIC ratings. We carry compliant underlayment and provide the documentation your association needs before work begins.' },
+      { q: 'Can You Level the Subfloor in Hillside La Jolla Homes?', a: 'Yes. Mount Soledad and Muirlands homes often have uneven or stepped subfloors. We grind high spots, patch low spots, and self-level so the finished floor sits flat with clean transitions.' },
+      { q: 'Do You Serve All La Jolla Neighborhoods?', a: 'We install throughout La Jolla including Bird Rock, La Jolla Shores, Windansea, the Village, Mount Soledad, Muirlands, and La Jolla Farms. Free in-home estimates across the 92037 ZIP code.' },
+      { q: 'How Far Is Your Team from La Jolla?', a: 'Our San Diego office is about 15 to 20 minutes from La Jolla, so scheduling estimates and install days is easy and we are local for any follow-up.' },
     ],
     relatedLocations: ['flooring-del-mar', 'flooring-san-diego', 'flooring-coronado'],
     heroImage: '/img/projects/portfolio/zelo-project-01.webp',
@@ -281,6 +286,7 @@ export const LOCATIONS: Location[] = [
   // ---------- CARLSBAD ----------
   {
     slug: 'flooring-carlsbad',
+    lastUpdated: '2026-09-13',
     city: 'Carlsbad',
     state: 'CA',
     type: 'secondary',
@@ -300,11 +306,11 @@ export const LOCATIONS: Location[] = [
     aeoCostAnswer:
       'Flooring installation in Carlsbad generally runs $4 to $15 per square foot installed. Luxury vinyl plank, the most popular choice in La Costa and Aviara tract homes, runs $5 to $10. Hardwood lands at $8 to $15, and tile depends on prep. Newer slab homes need moisture testing before any wood or laminate goes down.',
     aeoSecondaryQuestion: {
-      q: "What flooring works best in Carlsbad's newer master-planned homes?",
+      q: "What Flooring Works Best in Carlsbad's Newer Master-Planned Homes?",
       a: 'Most Carlsbad tract homes in La Costa, Aviara, and Bressi Ranch sit on concrete slab, which makes rigid-core luxury vinyl plank and engineered hardwood the safest bets. Both tolerate slab moisture better than solid hardwood. We run a moisture test on the slab before recommending a specific product.',
     },
     findInstaller: {
-      q: 'Who are reliable flooring installers in Carlsbad?',
+      q: 'Who Are Reliable Flooring Installers in Carlsbad?',
       a: 'To find a reliable flooring contractor in Carlsbad, confirm an active CSLB license, a bond, insurance, and consistent recent reviews. Zelo Flooring is a CSLB-licensed flooring company (#1083572) serving Carlsbad from our San Diego office, rated 5.0 stars across 34 Thumbtack reviews. Call (619) 777-4334 to verify and schedule a free estimate.',
       criteria: [
         { label: 'Verify the license', detail: 'Active CSLB C-15 #1083572, bonded and insured. Anyone can check it free on the CSLB website before hiring.' },
@@ -355,12 +361,12 @@ export const LOCATIONS: Location[] = [
       { name: 'Greg P.', location: 'Carlsbad Village', quote: 'Our older cottage had a saggy subfloor. Zelo re-sheeted it and laid laminate that finally feels solid underfoot. Honest crew, fair price.' },
     ],
     faqs: [
-      { q: 'How much does flooring cost in Carlsbad?', a: 'Carlsbad installs typically run $4 to $15 per square foot installed. Luxury vinyl plank is $5 to $10, hardwood $8 to $15, and tile varies with substrate prep. Slab moisture testing and subfloor work on older Village homes affect the labor portion.' },
-      { q: 'Why does my Carlsbad slab need moisture testing?', a: 'Most newer Carlsbad homes sit on concrete slab, which releases moisture vapor. Installing wood or laminate without testing can cause cupping and buckling. We run a calcium chloride or RH test and add a vapor barrier when readings call for one.' },
-      { q: 'Do you follow Carlsbad HOA rules in La Costa and Aviara?', a: 'Yes. Master-planned Carlsbad communities often set construction-hour windows and approval steps. We schedule around them and provide any documentation your HOA requires before starting.' },
-      { q: 'What flooring is best near Carlsbad State Beach?', a: 'Homes near the coast and the lagoons see more humidity. Engineered hardwood and rigid-core SPC vinyl handle it better than solid hardwood or traditional laminate, so we usually recommend those for coastal Carlsbad.' },
-      { q: 'Do you install in both new and older Carlsbad homes?', a: 'Yes. We work on newer slab tract homes in La Costa, Aviara, and Bressi Ranch as well as older raised-foundation cottages in the Village and Olde Carlsbad, adjusting prep to each.' },
-      { q: 'How long does a Carlsbad install take?', a: 'A typical 1,000 to 1,500 square foot job runs 1 to 3 days for vinyl or laminate, 2 to 4 days for hardwood, and 3 to 5 days for tile. We give you a firm timeline before starting.' },
+      { q: 'How Much Does Flooring Cost in Carlsbad?', a: 'Carlsbad installs typically run $4 to $15 per square foot installed. Luxury vinyl plank is $5 to $10, hardwood $8 to $15, and tile varies with substrate prep. Slab moisture testing and subfloor work on older Village homes affect the labor portion.' },
+      { q: 'Why Does My Carlsbad Slab Need Moisture Testing?', a: 'Most newer Carlsbad homes sit on concrete slab, which releases moisture vapor. Installing wood or laminate without testing can cause cupping and buckling. We run a calcium chloride or RH test and add a vapor barrier when readings call for one.' },
+      { q: 'Do You Follow Carlsbad HOA Rules in La Costa and Aviara?', a: 'Yes. Master-planned Carlsbad communities often set construction-hour windows and approval steps. We schedule around them and provide any documentation your HOA requires before starting.' },
+      { q: 'What Flooring Is Best Near Carlsbad State Beach?', a: 'Homes near the coast and the lagoons see more humidity. Engineered hardwood and rigid-core SPC vinyl handle it better than solid hardwood or traditional laminate, so we usually recommend those for coastal Carlsbad.' },
+      { q: 'Do You Install in Both New and Older Carlsbad Homes?', a: 'Yes. We work on newer slab tract homes in La Costa, Aviara, and Bressi Ranch as well as older raised-foundation cottages in the Village and Olde Carlsbad, adjusting prep to each.' },
+      { q: 'How Long Does a Carlsbad Install Take?', a: 'A typical 1,000 to 1,500 square foot job runs 1 to 3 days for vinyl or laminate, 2 to 4 days for hardwood, and 3 to 5 days for tile. We give you a firm timeline before starting.' },
     ],
     relatedLocations: ['flooring-encinitas', 'flooring-oceanside', 'flooring-san-marcos'],
     heroImage: '/img/projects/portfolio/zelo-project-05.webp',
@@ -370,6 +376,7 @@ export const LOCATIONS: Location[] = [
   // ---------- ENCINITAS ----------
   {
     slug: 'flooring-encinitas',
+    lastUpdated: '2026-09-13',
     city: 'Encinitas',
     state: 'CA',
     type: 'secondary',
@@ -389,11 +396,11 @@ export const LOCATIONS: Location[] = [
     aeoCostAnswer:
       'Flooring installation in Encinitas usually runs $4 to $16 per square foot installed. Rigid-core vinyl plank, popular in Leucadia and Cardiff beach homes, runs $5 to $10, while engineered hardwood lands at $8 to $15. Salt air this close to the water makes moisture-resistant materials and proper subfloor prep the priority.',
     aeoSecondaryQuestion: {
-      q: 'What flooring suits Encinitas beach homes and rentals?',
+      q: 'What Flooring Suits Encinitas Beach Homes and Rentals?',
       a: 'Rigid-core luxury vinyl plank is the top pick for Encinitas beach homes and vacation rentals because it shrugs off sand, moisture, and heavy foot traffic without cupping. For owners who want real wood, engineered hardwood with a thick wear layer holds up far better than solid wood near the coast.',
     },
     findInstaller: {
-      q: 'Who are reliable flooring installers in Encinitas?',
+      q: 'Who Are Reliable Flooring Installers in Encinitas?',
       a: 'To find a reliable flooring contractor in Encinitas, confirm an active CSLB license, a bond, insurance, and consistent recent reviews. Zelo Flooring is a CSLB-licensed flooring company (#1083572) serving Encinitas from our San Diego office, rated 5.0 stars across 34 Thumbtack reviews. Call (619) 777-4334 to verify and schedule a free estimate.',
       criteria: [
         { label: 'Verify the license', detail: 'Active CSLB C-15 #1083572, bonded and insured. Anyone can check it free on the CSLB website before hiring.' },
@@ -444,13 +451,13 @@ export const LOCATIONS: Location[] = [
       { name: 'Priya N.', location: 'Cardiff-by-the-Sea', quote: 'Our old bungalow had a bouncy floor. Zelo re-sheeted the subfloor and the new LVP feels completely solid now. Fair quote, no surprises.' },
     ],
     faqs: [
-      { q: 'How much does flooring cost in Encinitas?', a: 'Encinitas installs run about $4 to $16 per square foot installed. Rigid-core vinyl plank is $5 to $10, engineered hardwood $8 to $15, and tile varies with prep. Subfloor repair on older Cardiff and Leucadia bungalows adds to the labor.' },
-      { q: 'What flooring is best for an Encinitas beach rental?', a: 'High-wear-layer rigid-core luxury vinyl plank is ideal for rentals and beach cottages. It resists sand, moisture, and heavy guest traffic, and it does not cup the way solid hardwood can near the coast.' },
-      { q: 'Can you install hardwood in Olivenhain homes?', a: 'Yes. Olivenhain sits farther inland with larger lots, so solid and engineered hardwood are both viable. We still check subfloor and moisture conditions and recommend the product that fits your specific home.' },
-      { q: 'Do older Cardiff and Leucadia homes need subfloor work?', a: 'Often, yes. Many older raised-foundation bungalows have original plank subfloors that flex. We re-sheet or flatten them so the finished tile or vinyl sits solid and quiet.' },
-      { q: 'Which Encinitas areas do you serve?', a: 'We install across Encinitas including Leucadia, Cardiff-by-the-Sea, Olivenhain, Old Encinitas, and New Encinitas, covering the 92024 and 92007 ZIP codes with free in-home estimates.' },
-      { q: 'How long will my Encinitas floor take to install?', a: 'A 1,000 to 1,500 square foot project usually takes 1 to 3 days for vinyl or laminate, 2 to 4 days for hardwood, and 3 to 5 days for tile, including any subfloor repair.' },
-      { q: 'Do you install flooring in Cardiff-by-the-Sea?', a: 'Yes. Cardiff-by-the-Sea is one of the Encinitas neighborhoods we serve most often, from the bungalows near Cardiff State Beach to the streets around San Elijo Lagoon. Sand and salt humidity are the main factors, so we lean on rigid-core vinyl and engineered hardwood for most Cardiff homes.' },
+      { q: 'How Much Does Flooring Cost in Encinitas?', a: 'Encinitas installs run about $4 to $16 per square foot installed. Rigid-core vinyl plank is $5 to $10, engineered hardwood $8 to $15, and tile varies with prep. Subfloor repair on older Cardiff and Leucadia bungalows adds to the labor.' },
+      { q: 'What Flooring Is Best for an Encinitas Beach Rental?', a: 'High-wear-layer rigid-core luxury vinyl plank is ideal for rentals and beach cottages. It resists sand, moisture, and heavy guest traffic, and it does not cup the way solid hardwood can near the coast.' },
+      { q: 'Can You Install Hardwood in Olivenhain Homes?', a: 'Yes. Olivenhain sits farther inland with larger lots, so solid and engineered hardwood are both viable. We still check subfloor and moisture conditions and recommend the product that fits your specific home.' },
+      { q: 'Do Older Cardiff and Leucadia Homes Need Subfloor Work?', a: 'Often, yes. Many older raised-foundation bungalows have original plank subfloors that flex. We re-sheet or flatten them so the finished tile or vinyl sits solid and quiet.' },
+      { q: 'Which Encinitas Areas Do You Serve?', a: 'We install across Encinitas including Leucadia, Cardiff-by-the-Sea, Olivenhain, Old Encinitas, and New Encinitas, covering the 92024 and 92007 ZIP codes with free in-home estimates.' },
+      { q: 'How Long Will My Encinitas Floor Take to Install?', a: 'A 1,000 to 1,500 square foot project usually takes 1 to 3 days for vinyl or laminate, 2 to 4 days for hardwood, and 3 to 5 days for tile, including any subfloor repair.' },
+      { q: 'Do You Install Flooring in Cardiff-by-the-Sea?', a: 'Yes. Cardiff-by-the-Sea is one of the Encinitas neighborhoods we serve most often, from the bungalows near Cardiff State Beach to the streets around San Elijo Lagoon. Sand and salt humidity are the main factors, so we lean on rigid-core vinyl and engineered hardwood for most Cardiff homes.' },
     ],
     relatedLocations: ['flooring-carlsbad', 'flooring-del-mar', 'flooring-rancho-santa-fe'],
     heroImage: '/img/projects/portfolio/zelo-project-09.webp',
@@ -460,6 +467,7 @@ export const LOCATIONS: Location[] = [
   // ---------- POWAY ----------
   {
     slug: 'flooring-poway',
+    lastUpdated: '2026-09-13',
     city: 'Poway',
     state: 'CA',
     type: 'secondary',
@@ -479,11 +487,11 @@ export const LOCATIONS: Location[] = [
     aeoCostAnswer:
       "Flooring installation in Poway generally runs $4 to $15 per square foot installed. Poway's drier inland air makes solid and engineered hardwood ($8 to $15) more practical than at the coast, while luxury vinyl plank runs $5 to $10. Larger Poway homes and horse properties often mean bigger square footage, which lowers the per-foot rate.",
     aeoSecondaryQuestion: {
-      q: 'Is solid hardwood a safe choice in Poway?',
+      q: 'Is Solid Hardwood a Safe Choice in Poway?',
       a: "Yes, more so than at the coast. Poway's inland climate is drier and more stable, so solid hardwood is less prone to the cupping that affects oceanfront homes. We still acclimate the wood and check slab or crawl-space moisture first, but solid oak and maple are realistic options for most Poway homes.",
     },
     findInstaller: {
-      q: 'Who are reliable flooring installers in Poway?',
+      q: 'Who Are Reliable Flooring Installers in Poway?',
       a: 'To find a reliable flooring contractor in Poway, confirm an active CSLB license, a bond, insurance, and consistent recent reviews. Zelo Flooring is a CSLB-licensed flooring company (#1083572) serving Poway from our San Diego office, rated 5.0 stars across 34 Thumbtack reviews. Call (619) 777-4334 to verify and schedule a free estimate.',
       criteria: [
         { label: 'Verify the license', detail: 'Active CSLB C-15 #1083572, bonded and insured. Anyone can check it free on the CSLB website before hiring.' },
@@ -534,12 +542,12 @@ export const LOCATIONS: Location[] = [
       { name: 'Dennis L.', location: 'Garden Road, Poway', quote: 'Big house, fair price, and they finished on schedule. The crew was tidy and the hardwood looks incredible. Easy to recommend.' },
     ],
     faqs: [
-      { q: 'How much does flooring cost in Poway?', a: 'Poway installs run about $4 to $15 per square foot installed. Solid and engineered hardwood are $8 to $15, vinyl plank $5 to $10, and tile varies with prep. Larger Poway homes often see a lower per-foot rate on whole-home jobs.' },
-      { q: 'Can I install solid hardwood in my Poway home?', a: "Usually yes. Poway's drier inland climate is more stable than the coast, so solid hardwood is less prone to cupping. We acclimate the wood and test moisture on slab or crawl-space homes before installing." },
-      { q: 'Do you handle large Poway homes and horse properties?', a: 'Yes. We regularly install 2,000-plus square foot jobs in Poway. Bigger orders typically bring the per-square-foot price down, and we plan staging around larger lots and outbuildings.' },
-      { q: 'Can you level split-level and hillside Poway floors?', a: 'Yes. Custom and hillside Poway homes often have stepped subfloors. We grind, patch, and self-level, then detail the transitions so multi-level floors look and feel seamless.' },
-      { q: 'Which parts of Poway do you serve?', a: 'We install throughout Poway, including Green Valley, Garden Road, the Lake Poway area, and Blue Sky, covering the 92064 ZIP with free in-home estimates.' },
-      { q: 'How quickly can you start a Poway project?', a: 'Our office is about 15 to 20 minutes away, so we can usually get out for an estimate quickly and schedule install soon after material arrives. We confirm timing during the consultation.' },
+      { q: 'How Much Does Flooring Cost in Poway?', a: 'Poway installs run about $4 to $15 per square foot installed. Solid and engineered hardwood are $8 to $15, vinyl plank $5 to $10, and tile varies with prep. Larger Poway homes often see a lower per-foot rate on whole-home jobs.' },
+      { q: 'Can I Install Solid Hardwood in My Poway Home?', a: "Usually yes. Poway's drier inland climate is more stable than the coast, so solid hardwood is less prone to cupping. We acclimate the wood and test moisture on slab or crawl-space homes before installing." },
+      { q: 'Do You Handle Large Poway Homes and Horse Properties?', a: 'Yes. We regularly install 2,000-plus square foot jobs in Poway. Bigger orders typically bring the per-square-foot price down, and we plan staging around larger lots and outbuildings.' },
+      { q: 'Can You Level Split-Level and Hillside Poway Floors?', a: 'Yes. Custom and hillside Poway homes often have stepped subfloors. We grind, patch, and self-level, then detail the transitions so multi-level floors look and feel seamless.' },
+      { q: 'Which Parts of Poway Do You Serve?', a: 'We install throughout Poway, including Green Valley, Garden Road, the Lake Poway area, and Blue Sky, covering the 92064 ZIP with free in-home estimates.' },
+      { q: 'How Quickly Can You Start a Poway Project?', a: 'Our office is about 15 to 20 minutes away, so we can usually get out for an estimate quickly and schedule install soon after material arrives. We confirm timing during the consultation.' },
     ],
     relatedLocations: ['flooring-san-diego', 'flooring-san-marcos', 'flooring-rancho-santa-fe'],
     heroImage: '/img/projects/portfolio/zelo-project-13.webp',
@@ -549,6 +557,7 @@ export const LOCATIONS: Location[] = [
   // ---------- DEL MAR ----------
   {
     slug: 'flooring-del-mar',
+    lastUpdated: '2026-09-13',
     city: 'Del Mar',
     state: 'CA',
     type: 'secondary',
@@ -568,11 +577,11 @@ export const LOCATIONS: Location[] = [
     aeoCostAnswer:
       "Flooring installation in Del Mar typically runs $5 to $18 per square foot installed. Engineered hardwood and wide-plank oak sit at the top, rigid-core vinyl around $6 to $11. Del Mar's beachfront humidity and the high-end finishes common here mean most projects favor engineered wood, large-format tile, and careful moisture prep.",
     aeoSecondaryQuestion: {
-      q: 'What flooring works in beachfront Del Mar homes?',
+      q: 'What Flooring Works in Beachfront Del Mar Homes?',
       a: "Engineered hardwood with a thick wear layer, large-format porcelain tile, and rigid-core vinyl are the go-to choices for Del Mar's beachfront and bluff homes. Solid hardwood struggles this close to the ocean. For second homes that sit empty between visits, moisture-stable materials matter even more.",
     },
     findInstaller: {
-      q: 'Who are reliable flooring installers in Del Mar?',
+      q: 'Who Are Reliable Flooring Installers in Del Mar?',
       a: 'To find a reliable flooring contractor in Del Mar, confirm an active CSLB license, a bond, insurance, and consistent recent reviews. Zelo Flooring is a CSLB-licensed flooring company (#1083572) serving Del Mar from our San Diego office, rated 5.0 stars across 34 Thumbtack reviews. Call (619) 777-4334 to verify and schedule a free estimate.',
       criteria: [
         { label: 'Verify the license', detail: 'Active CSLB C-15 #1083572, bonded and insured. Anyone can check it free on the CSLB website before hiring.' },
@@ -623,12 +632,12 @@ export const LOCATIONS: Location[] = [
       { name: 'Marissa V.', location: 'Del Mar Heights', quote: 'They handled the tight street access and parking without any drama and finished on time. The LVP throughout looks like real wood. Highly recommend.' },
     ],
     faqs: [
-      { q: 'How much does flooring cost in Del Mar?', a: 'Del Mar installs typically run $5 to $18 per square foot installed. Engineered hardwood and wide-plank oak are at the top, rigid-core vinyl around $6 to $11, and large-format tile depends on substrate prep and finish level.' },
-      { q: 'What flooring holds up in beachfront Del Mar homes?', a: "Engineered hardwood with a thick wear layer, large-format porcelain tile, and rigid-core vinyl handle Del Mar's salt air best. Solid hardwood tends to cup this close to the water, so we usually steer clients away from it." },
-      { q: 'I have a Del Mar second home, does that change the flooring?', a: 'It can. Homes that sit closed up between visits trap humidity, which stresses solid wood and cheap laminate. We recommend moisture-stable engineered wood, tile, or rigid-core vinyl for second homes.' },
-      { q: 'Can you install wide-plank and large-format tile in Del Mar?', a: 'Yes. These high-end finishes show every imperfection, so we grind and self-level the substrate first. Flatness is the difference between a clean wide-plank floor and a wavy one.' },
-      { q: "How do you handle Del Mar's tight streets and parking?", a: 'We plan material staging, delivery windows, and parking before demolition day so the work stays clean and on schedule even on narrow village streets.' },
-      { q: 'Which Del Mar areas do you serve?', a: 'We install across Del Mar including the Beach Colony, Olde Del Mar, and Del Mar Heights in the 92014 ZIP, with free in-home estimates throughout.' },
+      { q: 'How Much Does Flooring Cost in Del Mar?', a: 'Del Mar installs typically run $5 to $18 per square foot installed. Engineered hardwood and wide-plank oak are at the top, rigid-core vinyl around $6 to $11, and large-format tile depends on substrate prep and finish level.' },
+      { q: 'What Flooring Holds Up in Beachfront Del Mar Homes?', a: "Engineered hardwood with a thick wear layer, large-format porcelain tile, and rigid-core vinyl handle Del Mar's salt air best. Solid hardwood tends to cup this close to the water, so we usually steer clients away from it." },
+      { q: 'I Have a Del Mar Second Home, Does That Change the Flooring?', a: 'It can. Homes that sit closed up between visits trap humidity, which stresses solid wood and cheap laminate. We recommend moisture-stable engineered wood, tile, or rigid-core vinyl for second homes.' },
+      { q: 'Can You Install Wide-Plank and Large-Format Tile in Del Mar?', a: 'Yes. These high-end finishes show every imperfection, so we grind and self-level the substrate first. Flatness is the difference between a clean wide-plank floor and a wavy one.' },
+      { q: "How Do You Handle Del Mar's Tight Streets and Parking?", a: 'We plan material staging, delivery windows, and parking before demolition day so the work stays clean and on schedule even on narrow village streets.' },
+      { q: 'Which Del Mar Areas Do You Serve?', a: 'We install across Del Mar including the Beach Colony, Olde Del Mar, and Del Mar Heights in the 92014 ZIP, with free in-home estimates throughout.' },
     ],
     relatedLocations: ['flooring-la-jolla', 'flooring-encinitas', 'flooring-rancho-santa-fe'],
     heroImage: '/img/projects/portfolio/zelo-project-17.webp',
@@ -638,6 +647,7 @@ export const LOCATIONS: Location[] = [
   // ---------- VISTA ----------
   {
     slug: 'flooring-vista',
+    lastUpdated: '2026-09-13',
     city: 'Vista',
     state: 'CA',
     type: 'secondary',
@@ -657,11 +667,11 @@ export const LOCATIONS: Location[] = [
     aeoCostAnswer:
       'Flooring installation in Vista generally runs $3 to $14 per square foot installed. Vista is more value-focused than the coastal cities, so durable luxury vinyl plank ($5 to $9) and laminate ($4 to $7) are popular. Hardwood runs $8 to $14. The inland climate is dry and stable, which gives more flooring options.',
     aeoSecondaryQuestion: {
-      q: 'What flooring gives the best value in Vista?',
+      q: 'What Flooring Gives the Best Value in Vista?',
       a: 'Luxury vinyl plank and quality laminate give Vista homeowners the best balance of looks, durability, and price. Both handle kids, pets, and the warm inland climate well, and rigid-core vinyl is fully waterproof. For a longer-term investment, engineered hardwood is a solid mid-range upgrade.',
     },
     findInstaller: {
-      q: 'Who are reliable flooring installers in Vista?',
+      q: 'Who Are Reliable Flooring Installers in Vista?',
       a: 'To find a reliable flooring contractor in Vista, confirm an active CSLB license, a bond, insurance, and consistent recent reviews. Zelo Flooring is a CSLB-licensed flooring company (#1083572) serving Vista from our San Diego office, rated 5.0 stars across 34 Thumbtack reviews. Call (619) 777-4334 to verify and schedule a free estimate.',
       criteria: [
         { label: 'Verify the license', detail: 'Active CSLB C-15 #1083572, bonded and insured. Anyone can check it free on the CSLB website before hiring.' },
@@ -712,12 +722,12 @@ export const LOCATIONS: Location[] = [
       { name: 'Ray P.', location: 'Brengle Terrace, Vista', quote: 'Got a few bids and Zelo explained the most without upselling. The engineered hardwood looks fantastic and they finished right on schedule.' },
     ],
     faqs: [
-      { q: 'How much does flooring cost in Vista?', a: 'Vista installs run about $3 to $14 per square foot installed. Laminate is $4 to $7, rigid-core vinyl $5 to $9, and hardwood $8 to $14. Subfloor repair on older downtown homes can add to the labor.' },
-      { q: 'What is the best-value flooring for a Vista family home?', a: 'Rigid-core luxury vinyl plank and quality laminate give the best mix of durability, looks, and price. Rigid-core vinyl is fully waterproof and scratch-resistant, which suits busy households with kids and pets.' },
-      { q: 'Can I install hardwood in Vista?', a: "Yes. Vista's warm, dry inland climate is stable and friendly to solid and engineered hardwood. We acclimate the wood and check subfloor moisture, then install the product that fits your budget." },
-      { q: 'Do older Vista homes need subfloor repair?', a: 'Sometimes. Older ranch homes near downtown can have raised foundations with subfloors that flex over time. We re-sheet or flatten them so your new flooring sits solid and quiet.' },
-      { q: 'Which Vista areas do you serve?', a: 'We install across Vista including Shadowridge, downtown, Brengle Terrace, and the surrounding neighborhoods in the 92081, 92083, and 92084 ZIPs, with free in-home estimates.' },
-      { q: 'How long does a Vista flooring job take?', a: 'A typical 1,000 to 1,500 square foot project runs 1 to 3 days for vinyl or laminate, 2 to 4 days for hardwood, and 3 to 5 days for tile, including any subfloor work.' },
+      { q: 'How Much Does Flooring Cost in Vista?', a: 'Vista installs run about $3 to $14 per square foot installed. Laminate is $4 to $7, rigid-core vinyl $5 to $9, and hardwood $8 to $14. Subfloor repair on older downtown homes can add to the labor.' },
+      { q: 'What Is the Best-Value Flooring for a Vista Family Home?', a: 'Rigid-core luxury vinyl plank and quality laminate give the best mix of durability, looks, and price. Rigid-core vinyl is fully waterproof and scratch-resistant, which suits busy households with kids and pets.' },
+      { q: 'Can I Install Hardwood in Vista?', a: "Yes. Vista's warm, dry inland climate is stable and friendly to solid and engineered hardwood. We acclimate the wood and check subfloor moisture, then install the product that fits your budget." },
+      { q: 'Do Older Vista Homes Need Subfloor Repair?', a: 'Sometimes. Older ranch homes near downtown can have raised foundations with subfloors that flex over time. We re-sheet or flatten them so your new flooring sits solid and quiet.' },
+      { q: 'Which Vista Areas Do You Serve?', a: 'We install across Vista including Shadowridge, downtown, Brengle Terrace, and the surrounding neighborhoods in the 92081, 92083, and 92084 ZIPs, with free in-home estimates.' },
+      { q: 'How Long Does a Vista Flooring Job Take?', a: 'A typical 1,000 to 1,500 square foot project runs 1 to 3 days for vinyl or laminate, 2 to 4 days for hardwood, and 3 to 5 days for tile, including any subfloor work.' },
     ],
     relatedLocations: ['flooring-san-marcos', 'flooring-oceanside', 'flooring-carlsbad'],
     heroImage: '/img/projects/portfolio/zelo-project-21.webp',
@@ -727,6 +737,7 @@ export const LOCATIONS: Location[] = [
   // ---------- RANCHO SANTA FE ----------
   {
     slug: 'flooring-rancho-santa-fe',
+    lastUpdated: '2026-09-13',
     city: 'Rancho Santa Fe',
     state: 'CA',
     type: 'secondary',
@@ -746,11 +757,11 @@ export const LOCATIONS: Location[] = [
     aeoCostAnswer:
       'Flooring installation in Rancho Santa Fe typically runs $6 to $20 or more per square foot installed. Estates here favor wide-plank European oak, engineered hardwood, and natural stone, which sit at the high end. Rancho Santa Fe large square footage and custom finishes mean projects are bigger and more detail-driven than a standard tract install.',
     aeoSecondaryQuestion: {
-      q: 'What flooring suits Rancho Santa Fe estates?',
+      q: 'What Flooring Suits Rancho Santa Fe Estates?',
       a: 'Wide-plank European oak, engineered hardwood, and natural stone are the standards for Rancho Santa Fe estates. These finishes demand a very flat, properly prepped substrate and careful acclimation. The dry inland climate supports solid and wide-plank wood, though acclimation and moisture testing still come first on every estate job.',
     },
     findInstaller: {
-      q: 'Who are reliable flooring installers in Rancho Santa Fe?',
+      q: 'Who Are Reliable Flooring Installers in Rancho Santa Fe?',
       a: 'To find a reliable flooring contractor in Rancho Santa Fe, confirm an active CSLB license, a bond, insurance, and consistent recent reviews. Zelo Flooring is a CSLB-licensed flooring company (#1083572) serving Rancho Santa Fe from our San Diego office, rated 5.0 stars across 34 Thumbtack reviews. Call (619) 777-4334 to verify and schedule a free estimate.',
       criteria: [
         { label: 'Verify the license', detail: 'Active CSLB C-15 #1083572, bonded and insured. Anyone can check it free on the CSLB website before hiring.' },
@@ -801,12 +812,12 @@ export const LOCATIONS: Location[] = [
       { name: 'Helena M.', location: 'The Bridges, Rancho Santa Fe', quote: 'Detail-obsessed in the best way. Every transition and threshold is perfect. For a home this size, that consistency is impressive.' },
     ],
     faqs: [
-      { q: 'How much does flooring cost in Rancho Santa Fe?', a: 'Rancho Santa Fe installs typically run $6 to $20 or more per square foot installed. Wide-plank European oak, engineered hardwood, and natural stone sit at the high end, and estate-scale square footage and custom detailing affect the total.' },
-      { q: 'What flooring is right for a Rancho Santa Fe estate?', a: 'Wide-plank European oak, engineered hardwood, and natural stone are the usual choices. They require a very flat substrate and careful acclimation, both of which we handle as part of the install.' },
-      { q: 'Do you work within Rancho Santa Fe Covenant guidelines?', a: 'Yes. We work within the Covenant design and approval process and provide documentation as needed, coordinating with your architect or designer on estate projects.' },
-      { q: 'Can you handle very large estate installs?', a: 'Yes. We regularly manage 3,000-plus square foot jobs in Rancho Santa Fe, planning staging, material lead times, and crew scheduling so a large install stays organized and on track.' },
-      { q: 'Is solid hardwood a good fit in Rancho Santa Fe?', a: 'Generally yes. The dry inland climate is stable and supports solid and wide-plank hardwood. We still acclimate the wood on site and test substrate moisture before installing.' },
-      { q: 'Which Rancho Santa Fe areas do you serve?', a: 'We install across Rancho Santa Fe including the Covenant, Fairbanks Ranch, The Bridges, and Cielo in the 92067 and 92091 ZIPs, with free in-home consultations.' },
+      { q: 'How Much Does Flooring Cost in Rancho Santa Fe?', a: 'Rancho Santa Fe installs typically run $6 to $20 or more per square foot installed. Wide-plank European oak, engineered hardwood, and natural stone sit at the high end, and estate-scale square footage and custom detailing affect the total.' },
+      { q: 'What Flooring Is Right for a Rancho Santa Fe Estate?', a: 'Wide-plank European oak, engineered hardwood, and natural stone are the usual choices. They require a very flat substrate and careful acclimation, both of which we handle as part of the install.' },
+      { q: 'Do You Work Within Rancho Santa Fe Covenant Guidelines?', a: 'Yes. We work within the Covenant design and approval process and provide documentation as needed, coordinating with your architect or designer on estate projects.' },
+      { q: 'Can You Handle Very Large Estate Installs?', a: 'Yes. We regularly manage 3,000-plus square foot jobs in Rancho Santa Fe, planning staging, material lead times, and crew scheduling so a large install stays organized and on track.' },
+      { q: 'Is Solid Hardwood a Good Fit in Rancho Santa Fe?', a: 'Generally yes. The dry inland climate is stable and supports solid and wide-plank hardwood. We still acclimate the wood on site and test substrate moisture before installing.' },
+      { q: 'Which Rancho Santa Fe Areas Do You Serve?', a: 'We install across Rancho Santa Fe including the Covenant, Fairbanks Ranch, The Bridges, and Cielo in the 92067 and 92091 ZIPs, with free in-home consultations.' },
     ],
     relatedLocations: ['flooring-del-mar', 'flooring-la-jolla', 'flooring-poway'],
     heroImage: '/img/projects/portfolio/zelo-project-25.webp',
@@ -816,6 +827,7 @@ export const LOCATIONS: Location[] = [
   // ---------- CORONADO ----------
   {
     slug: 'flooring-coronado',
+    lastUpdated: '2026-09-13',
     city: 'Coronado',
     state: 'CA',
     type: 'secondary',
@@ -835,11 +847,11 @@ export const LOCATIONS: Location[] = [
     aeoCostAnswer:
       "Flooring installation in Coronado typically runs $5 to $17 per square foot installed. Engineered hardwood and tile suit the island's salt air and historic homes, while rigid-core vinyl runs $6 to $11. Coronado's older housing stock and intense coastal humidity make moisture testing and material selection especially important here.",
     aeoSecondaryQuestion: {
-      q: "What flooring works in Coronado's historic and oceanfront homes?",
+      q: "What Flooring Works in Coronado's Historic and Oceanfront Homes?",
       a: "Engineered hardwood, porcelain tile, and rigid-core vinyl handle Coronado's heavy salt air best. Solid hardwood struggles on the island. In historic early-1900s homes, we also match period-appropriate looks where owners want them, and we test older flooring for asbestos before removal.",
     },
     findInstaller: {
-      q: 'Who are reliable flooring installers in Coronado?',
+      q: 'Who Are Reliable Flooring Installers in Coronado?',
       a: 'To find a reliable flooring contractor in Coronado, confirm an active CSLB license, a bond, insurance, and consistent recent reviews. Zelo Flooring is a CSLB-licensed flooring company (#1083572) serving Coronado from our San Diego office, rated 5.0 stars across 34 Thumbtack reviews. Call (619) 777-4334 to verify and schedule a free estimate.',
       criteria: [
         { label: 'Verify the license', detail: 'Active CSLB C-15 #1083572, bonded and insured. Anyone can check it free on the CSLB website before hiring.' },
@@ -890,12 +902,12 @@ export const LOCATIONS: Location[] = [
       { name: 'Steve and Lisa K.', location: 'Coronado Cays', quote: 'Waterfront humidity wrecked our old floors. Zelo explained why engineered wood and tile were the move, and it has held up beautifully. Highly recommend.' },
     ],
     faqs: [
-      { q: 'How much does flooring cost in Coronado?', a: 'Coronado installs typically run $5 to $17 per square foot installed. Engineered hardwood and tile are at the upper end, rigid-core vinyl around $6 to $11. Asbestos testing and abatement on older homes can add to the project.' },
-      { q: "What flooring survives Coronado's salt air?", a: "Engineered hardwood, porcelain tile, and rigid-core SPC vinyl handle the island's intense humidity best. Solid hardwood tends to cup and gap surrounded by water, so we usually recommend against it in Coronado." },
-      { q: 'My Coronado home is old, could the flooring contain asbestos?', a: 'Possibly. Pre-1985 sheet vinyl, VCT, and cutback adhesive can contain asbestos. We test before tear-out and coordinate licensed abatement when needed, so removal is done safely.' },
-      { q: 'Can you work around a military PCS timeline?', a: 'Yes. We install for many North Island families and understand move deadlines. We schedule fast, durable installs that fit tight move-in or move-out windows.' },
-      { q: 'How do you handle getting materials onto the island?', a: 'We plan delivery and staging around bridge and ferry access and traffic, so material arrives on schedule and demolition and install stay on track.' },
-      { q: 'Which Coronado areas do you serve?', a: 'We install across Coronado including the historic district near Orange Avenue, the area near North Island, and the Coronado Cays in the 92118 ZIP, with free in-home estimates.' },
+      { q: 'How Much Does Flooring Cost in Coronado?', a: 'Coronado installs typically run $5 to $17 per square foot installed. Engineered hardwood and tile are at the upper end, rigid-core vinyl around $6 to $11. Asbestos testing and abatement on older homes can add to the project.' },
+      { q: "What Flooring Survives Coronado's Salt Air?", a: "Engineered hardwood, porcelain tile, and rigid-core SPC vinyl handle the island's intense humidity best. Solid hardwood tends to cup and gap surrounded by water, so we usually recommend against it in Coronado." },
+      { q: 'My Coronado Home Is Old, Could the Flooring Contain Asbestos?', a: 'Possibly. Pre-1985 sheet vinyl, VCT, and cutback adhesive can contain asbestos. We test before tear-out and coordinate licensed abatement when needed, so removal is done safely.' },
+      { q: 'Can You Work Around a Military PCS Timeline?', a: 'Yes. We install for many North Island families and understand move deadlines. We schedule fast, durable installs that fit tight move-in or move-out windows.' },
+      { q: 'How Do You Handle Getting Materials Onto the Island?', a: 'We plan delivery and staging around bridge and ferry access and traffic, so material arrives on schedule and demolition and install stay on track.' },
+      { q: 'Which Coronado Areas Do You Serve?', a: 'We install across Coronado including the historic district near Orange Avenue, the area near North Island, and the Coronado Cays in the 92118 ZIP, with free in-home estimates.' },
     ],
     relatedLocations: ['flooring-san-diego', 'flooring-la-jolla', 'flooring-del-mar'],
     heroImage: '/img/projects/portfolio/zelo-project-29.webp',
@@ -905,6 +917,7 @@ export const LOCATIONS: Location[] = [
   // ---------- SAN MARCOS ----------
   {
     slug: 'flooring-san-marcos',
+    lastUpdated: '2026-09-13',
     city: 'San Marcos',
     state: 'CA',
     type: 'secondary',
@@ -924,11 +937,11 @@ export const LOCATIONS: Location[] = [
     aeoCostAnswer:
       'Flooring installation in San Marcos generally runs $4 to $14 per square foot installed. Many San Marcos homes are newer slab-on-grade builds in San Elijo Hills and Twin Oaks, where rigid-core vinyl ($5 to $10) and engineered hardwood are the practical picks. Slab moisture testing comes before any wood or laminate install.',
     aeoSecondaryQuestion: {
-      q: "What flooring fits San Marcos's newer hillside homes?",
+      q: "What Flooring Fits San Marcos's Newer Hillside Homes?",
       a: 'Newer San Marcos homes in San Elijo Hills and Twin Oaks Valley sit on concrete slabs, often on graded hillside lots. Rigid-core luxury vinyl plank and engineered hardwood handle slab moisture better than solid wood. For rooms with grade transitions, we level the substrate so the finished floor stays flat.',
     },
     findInstaller: {
-      q: 'Who are reliable flooring installers in San Marcos?',
+      q: 'Who Are Reliable Flooring Installers in San Marcos?',
       a: 'To find a reliable flooring contractor in San Marcos, confirm an active CSLB license, a bond, insurance, and consistent recent reviews. Zelo Flooring is a CSLB-licensed flooring company (#1083572) serving San Marcos from our San Diego office, rated 5.0 stars across 34 Thumbtack reviews. Call (619) 777-4334 to verify and schedule a free estimate.',
       criteria: [
         { label: 'Verify the license', detail: 'Active CSLB C-15 #1083572, bonded and insured. Anyone can check it free on the CSLB website before hiring.' },
@@ -979,12 +992,12 @@ export const LOCATIONS: Location[] = [
       { name: 'Omar S.', location: 'near Cal State San Marcos', quote: 'I own a rental near campus and needed durable, good-looking flooring. Zelo recommended vinyl plank that handles tenants well. Fair price, quick turnaround.' },
     ],
     faqs: [
-      { q: 'How much does flooring cost in San Marcos?', a: 'San Marcos installs run about $4 to $14 per square foot installed. Rigid-core vinyl is $5 to $10, laminate $4 to $7, and hardwood $8 to $14. Slab moisture testing and hillside substrate leveling can affect the labor.' },
-      { q: 'Why test the slab in newer San Marcos homes?', a: 'Most San Marcos homes are slab-on-grade, and concrete releases moisture vapor. Installing wood or laminate without testing risks cupping and buckling. We run a moisture test and add a vapor barrier if readings call for one.' },
-      { q: 'Can you level hillside floors in San Elijo Hills?', a: 'Yes. Graded hillside lots can leave grade transitions between rooms. We grind, patch, and self-level the substrate so your finished floor lays flat with clean thresholds.' },
-      { q: 'What flooring is best for a San Marcos rental near the colleges?', a: 'Durable rigid-core luxury vinyl plank is ideal for rentals. It resists scratches and water, looks like wood, and is straightforward to repair or replace between tenants.' },
-      { q: 'Do you follow San Marcos HOA rules?', a: 'Yes. Master-planned San Marcos communities often set construction-hour windows and approvals. We schedule around them and provide documentation your HOA needs before starting.' },
-      { q: 'Which San Marcos areas do you serve?', a: 'We install across San Marcos including San Elijo Hills, Twin Oaks Valley, the Lake San Marcos area, and neighborhoods near the colleges, covering the 92069 and 92078 ZIPs with free in-home estimates.' },
+      { q: 'How Much Does Flooring Cost in San Marcos?', a: 'San Marcos installs run about $4 to $14 per square foot installed. Rigid-core vinyl is $5 to $10, laminate $4 to $7, and hardwood $8 to $14. Slab moisture testing and hillside substrate leveling can affect the labor.' },
+      { q: 'Why Test the Slab in Newer San Marcos Homes?', a: 'Most San Marcos homes are slab-on-grade, and concrete releases moisture vapor. Installing wood or laminate without testing risks cupping and buckling. We run a moisture test and add a vapor barrier if readings call for one.' },
+      { q: 'Can You Level Hillside Floors in San Elijo Hills?', a: 'Yes. Graded hillside lots can leave grade transitions between rooms. We grind, patch, and self-level the substrate so your finished floor lays flat with clean thresholds.' },
+      { q: 'What Flooring Is Best for a San Marcos Rental Near the Colleges?', a: 'Durable rigid-core luxury vinyl plank is ideal for rentals. It resists scratches and water, looks like wood, and is straightforward to repair or replace between tenants.' },
+      { q: 'Do You Follow San Marcos HOA Rules?', a: 'Yes. Master-planned San Marcos communities often set construction-hour windows and approvals. We schedule around them and provide documentation your HOA needs before starting.' },
+      { q: 'Which San Marcos Areas Do You Serve?', a: 'We install across San Marcos including San Elijo Hills, Twin Oaks Valley, the Lake San Marcos area, and neighborhoods near the colleges, covering the 92069 and 92078 ZIPs with free in-home estimates.' },
     ],
     relatedLocations: ['flooring-vista', 'flooring-carlsbad', 'flooring-oceanside'],
     heroImage: '/img/projects/portfolio/zelo-project-33.webp',
@@ -994,6 +1007,7 @@ export const LOCATIONS: Location[] = [
   // ---------- OCEANSIDE ----------
   {
     slug: 'flooring-oceanside',
+    lastUpdated: '2026-09-13',
     city: 'Oceanside',
     state: 'CA',
     type: 'secondary',
@@ -1013,11 +1027,11 @@ export const LOCATIONS: Location[] = [
     aeoCostAnswer:
       'Flooring installation in Oceanside generally runs $4 to $15 per square foot installed. Rigid-core vinyl plank ($5 to $10) is the most popular choice for beach homes and military rentals, while engineered hardwood runs $8 to $15. Coastal homes near the pier need moisture-resistant materials, and inland tracts need slab moisture testing.',
     aeoSecondaryQuestion: {
-      q: 'What flooring works best for Oceanside beach and military homes?',
+      q: 'What Flooring Works Best for Oceanside Beach and Military Homes?',
       a: 'Rigid-core luxury vinyl plank is the workhorse for Oceanside beach cottages, military rentals, and busy family homes. It resists sand, moisture, and heavy traffic, and it installs fast. Near the coast we steer away from solid hardwood; inland in Rancho del Oro and Fire Mountain, engineered wood is a solid upgrade.',
     },
     findInstaller: {
-      q: 'Who are reliable flooring installers in Oceanside?',
+      q: 'Who Are Reliable Flooring Installers in Oceanside?',
       a: 'To find a reliable flooring contractor in Oceanside, confirm an active CSLB license, a bond, insurance, and consistent recent reviews. Zelo Flooring is a CSLB-licensed flooring company (#1083572) serving Oceanside from our San Diego office, rated 5.0 stars across 34 Thumbtack reviews. Call (619) 777-4334 to verify and schedule a free estimate.',
       criteria: [
         { label: 'Verify the license', detail: 'Active CSLB C-15 #1083572, bonded and insured. Anyone can check it free on the CSLB website before hiring.' },
@@ -1068,12 +1082,12 @@ export const LOCATIONS: Location[] = [
       { name: 'Frank R.', location: 'Rancho del Oro, Oceanside', quote: 'They tested our slab moisture before quoting, which other companies skipped. The engineered hardwood looks fantastic and the whole job was on schedule.' },
     ],
     faqs: [
-      { q: 'How much does flooring cost in Oceanside?', a: 'Oceanside installs run about $4 to $15 per square foot installed. Rigid-core vinyl is $5 to $10, engineered hardwood $8 to $15, and tile varies with prep. Coastal moisture work and inland slab testing affect the labor.' },
-      { q: 'What flooring is best for an Oceanside beach home?', a: 'High-wear-layer rigid-core vinyl plank is the top choice near the coast. It resists sand, moisture, and heavy traffic and does not cup the way solid hardwood can near the water. Engineered wood is a good real-wood alternative.' },
-      { q: 'Can you work around a Camp Pendleton PCS timeline?', a: 'Yes. We install for many military families and understand move deadlines. We schedule fast, durable installs that fit tight move-in or move-out windows.' },
-      { q: 'Do inland Oceanside homes need slab moisture testing?', a: 'Yes. Tracts in Rancho del Oro and Ocean Hills are typically slab-on-grade. We test slab moisture before installing wood or laminate and add a vapor barrier when readings call for one.' },
-      { q: 'Do older Oceanside homes need subfloor work?', a: 'Sometimes. Older Fire Mountain and downtown homes can have raised foundations with subfloors that flex. We flatten or re-sheet them so the new floor sits solid and quiet.' },
-      { q: 'Which Oceanside areas do you serve?', a: 'We install across Oceanside including the Strand, Fire Mountain, downtown, Rancho del Oro, and Ocean Hills, covering the 92054, 92056, 92057, and 92058 ZIPs with free in-home estimates.' },
+      { q: 'How Much Does Flooring Cost in Oceanside?', a: 'Oceanside installs run about $4 to $15 per square foot installed. Rigid-core vinyl is $5 to $10, engineered hardwood $8 to $15, and tile varies with prep. Coastal moisture work and inland slab testing affect the labor.' },
+      { q: 'What Flooring Is Best for an Oceanside Beach Home?', a: 'High-wear-layer rigid-core vinyl plank is the top choice near the coast. It resists sand, moisture, and heavy traffic and does not cup the way solid hardwood can near the water. Engineered wood is a good real-wood alternative.' },
+      { q: 'Can You Work Around a Camp Pendleton PCS Timeline?', a: 'Yes. We install for many military families and understand move deadlines. We schedule fast, durable installs that fit tight move-in or move-out windows.' },
+      { q: 'Do Inland Oceanside Homes Need Slab Moisture Testing?', a: 'Yes. Tracts in Rancho del Oro and Ocean Hills are typically slab-on-grade. We test slab moisture before installing wood or laminate and add a vapor barrier when readings call for one.' },
+      { q: 'Do Older Oceanside Homes Need Subfloor Work?', a: 'Sometimes. Older Fire Mountain and downtown homes can have raised foundations with subfloors that flex. We flatten or re-sheet them so the new floor sits solid and quiet.' },
+      { q: 'Which Oceanside Areas Do You Serve?', a: 'We install across Oceanside including the Strand, Fire Mountain, downtown, Rancho del Oro, and Ocean Hills, covering the 92054, 92056, 92057, and 92058 ZIPs with free in-home estimates.' },
     ],
     relatedLocations: ['flooring-carlsbad', 'flooring-vista', 'flooring-san-marcos'],
     heroImage: '/img/projects/portfolio/zelo-project-37.webp',
@@ -1083,6 +1097,7 @@ export const LOCATIONS: Location[] = [
   // ---------- ESCONDIDO ----------
   {
     slug: 'flooring-escondido',
+    lastUpdated: '2026-09-13',
     city: 'Escondido',
     state: 'CA',
     type: 'secondary',
@@ -1102,11 +1117,11 @@ export const LOCATIONS: Location[] = [
     aeoCostAnswer:
       "Flooring installation in Escondido generally runs $4 to $15 per square foot installed. Escondido's warm, dry valley climate makes solid and engineered hardwood ($8 to $15) a practical choice, while rigid-core vinyl plank runs $5 to $10. Larger East Valley lots and older Old Escondido homes both affect labor and prep costs.",
     aeoSecondaryQuestion: {
-      q: 'Is solid hardwood a good fit for Escondido homes?',
+      q: 'Is Solid Hardwood a Good Fit for Escondido Homes?',
       a: "Yes, in most cases. Escondido's inland valley climate is warm and dry, similar to Poway, which makes solid oak and maple more stable than at the coast. We still acclimate every board and test subfloor moisture first, especially in older Old Escondido homes with original foundations.",
     },
     findInstaller: {
-      q: 'Who are reliable flooring installers in Escondido?',
+      q: 'Who Are Reliable Flooring Installers in Escondido?',
       a: 'To find a reliable flooring contractor in Escondido, confirm an active CSLB license, a bond, insurance, and consistent recent reviews. Zelo Flooring is a CSLB-licensed flooring company (#1083572) serving Escondido from our San Diego office, rated 5.0 stars across 34 Thumbtack reviews. Call (619) 777-4334 to verify and schedule a free estimate.',
       criteria: [
         { label: 'Verify the license', detail: 'Active CSLB C-15 #1083572, bonded and insured. Anyone can check it free on the CSLB website before hiring.' },
@@ -1157,12 +1172,12 @@ export const LOCATIONS: Location[] = [
       { name: 'Cynthia B.', location: 'near Lake Hodges, Escondido', quote: 'Our hillside home had uneven floors that other quotes did not even mention. Zelo leveled everything properly and the finished floor is completely flat.' },
     ],
     faqs: [
-      { q: 'How much does flooring cost in Escondido?', a: 'Escondido installs typically run $4 to $15 per square foot installed. Solid and engineered hardwood are $8 to $15, rigid-core vinyl plank $5 to $10, and tile depends on prep. Older subfloor repair in Old Escondido homes can add to the labor.' },
-      { q: 'Can I install solid hardwood in my Escondido home?', a: "Usually yes. Escondido's warm, dry valley climate is stable, similar to Poway, so solid oak and maple are realistic choices. We acclimate the wood and test subfloor moisture first, especially in older downtown homes." },
-      { q: 'Do older Old Escondido homes need subfloor work?', a: 'Often, yes. Many craftsman and bungalow homes near downtown have original subfloors that flex or sag. We re-sheet or level them so the new flooring sits solid and quiet.' },
-      { q: 'Do you handle larger East Valley and San Pasqual properties?', a: 'Yes. We regularly work on larger lots with well or septic systems, planning staging and access around longer driveways and detached structures.' },
-      { q: 'Can you level hillside floors near Lake Hodges?', a: 'Yes. Hillside homes in that area and around Felicita can have stepped or uneven subfloors. We grind, patch, and self-level so the finished floor lays flat.' },
-      { q: 'Which Escondido areas do you serve?', a: 'We install throughout Escondido including Old Escondido, Eureka Springs, Felicita, Mission Park, Del Dios, and East Valley, covering the 92025, 92026, 92027, and 92029 ZIP codes with free in-home estimates.' },
+      { q: 'How Much Does Flooring Cost in Escondido?', a: 'Escondido installs typically run $4 to $15 per square foot installed. Solid and engineered hardwood are $8 to $15, rigid-core vinyl plank $5 to $10, and tile depends on prep. Older subfloor repair in Old Escondido homes can add to the labor.' },
+      { q: 'Can I Install Solid Hardwood in My Escondido Home?', a: "Usually yes. Escondido's warm, dry valley climate is stable, similar to Poway, so solid oak and maple are realistic choices. We acclimate the wood and test subfloor moisture first, especially in older downtown homes." },
+      { q: 'Do Older Old Escondido Homes Need Subfloor Work?', a: 'Often, yes. Many craftsman and bungalow homes near downtown have original subfloors that flex or sag. We re-sheet or level them so the new flooring sits solid and quiet.' },
+      { q: 'Do You Handle Larger East Valley and San Pasqual Properties?', a: 'Yes. We regularly work on larger lots with well or septic systems, planning staging and access around longer driveways and detached structures.' },
+      { q: 'Can You Level Hillside Floors Near Lake Hodges?', a: 'Yes. Hillside homes in that area and around Felicita can have stepped or uneven subfloors. We grind, patch, and self-level so the finished floor lays flat.' },
+      { q: 'Which Escondido Areas Do You Serve?', a: 'We install throughout Escondido including Old Escondido, Eureka Springs, Felicita, Mission Park, Del Dios, and East Valley, covering the 92025, 92026, 92027, and 92029 ZIP codes with free in-home estimates.' },
     ],
     relatedLocations: ['flooring-poway', 'flooring-san-marcos', 'flooring-vista'],
     heroImage: '/img/projects/portfolio/zelo-project-41.webp',
@@ -1172,6 +1187,7 @@ export const LOCATIONS: Location[] = [
   // ---------- CHULA VISTA ----------
   {
     slug: 'flooring-chula-vista',
+    lastUpdated: '2026-09-13',
     city: 'Chula Vista',
     state: 'CA',
     type: 'secondary',
@@ -1191,11 +1207,11 @@ export const LOCATIONS: Location[] = [
     aeoCostAnswer:
       'Flooring installation in Chula Vista generally runs $4 to $14 per square foot installed. Newer Eastlake and Otay Ranch homes on concrete slab do well with rigid-core vinyl plank ($5 to $10), while hardwood runs $8 to $14. Older homes near Third Avenue Village may need subfloor repair before installing.',
     aeoSecondaryQuestion: {
-      q: 'What flooring fits newer Chula Vista master-planned homes?',
+      q: 'What Flooring Fits Newer Chula Vista Master-Planned Homes?',
       a: 'Most newer Chula Vista homes in Eastlake and Otay Ranch sit on concrete slab, which makes rigid-core luxury vinyl plank and engineered hardwood the safer picks over solid wood. We test slab moisture before ordering product and work within HOA scheduling where it applies.',
     },
     findInstaller: {
-      q: 'Who are reliable flooring installers in Chula Vista?',
+      q: 'Who Are Reliable Flooring Installers in Chula Vista?',
       a: 'To find a reliable flooring contractor in Chula Vista, confirm an active CSLB license, a bond, insurance, and consistent recent reviews. Zelo Flooring is a CSLB-licensed flooring company (#1083572) serving Chula Vista from our San Diego office, rated 5.0 stars across 34 Thumbtack reviews. Call (619) 777-4334 to verify and schedule a free estimate.',
       criteria: [
         { label: 'Verify the license', detail: 'Active CSLB C-15 #1083572, bonded and insured. Anyone can check it free on the CSLB website before hiring.' },
@@ -1246,12 +1262,12 @@ export const LOCATIONS: Location[] = [
       { name: 'Diane O.', location: 'near Third Avenue Village, Chula Vista', quote: 'Our older house had a saggy subfloor near the kitchen. Zelo fixed it properly and the new tile feels completely solid. Honest, fair pricing.' },
     ],
     faqs: [
-      { q: 'How much does flooring cost in Chula Vista?', a: 'Chula Vista installs typically run $4 to $14 per square foot installed. Rigid-core vinyl plank is $5 to $10, hardwood $8 to $14, and tile depends on substrate prep. Older-home subfloor repair can add to the labor.' },
-      { q: 'Why does my Chula Vista slab need moisture testing?', a: 'Most newer Eastlake and Otay Ranch homes sit on concrete slab, which releases moisture vapor. Installing wood or laminate without testing risks cupping and buckling, so we run a moisture test first and add a vapor barrier when needed.' },
-      { q: 'Do you follow Chula Vista HOA rules in Eastlake and Otay Ranch?', a: 'Yes. Master-planned Chula Vista communities often set construction-hour windows and approval steps. We schedule around them and provide any documentation your HOA requires before starting.' },
-      { q: 'Do older Chula Vista homes near Third Avenue Village need subfloor work?', a: 'Often, yes. Older homes in that area and in Bonita can have original raised-foundation subfloors that flex over time. We re-sheet or level them so the new flooring sits solid.' },
-      { q: 'Do you install in both new and older Chula Vista neighborhoods?', a: 'Yes. We work on newer slab homes in Eastlake, Otay Ranch, and Rolling Hills Ranch as well as older homes near Third Avenue Village and Bonita, adjusting prep to each.' },
-      { q: 'Which Chula Vista areas do you serve?', a: 'We install across Chula Vista including Eastlake, Otay Ranch, Rolling Hills Ranch, Terra Nova, Third Avenue Village, and Bonita, covering the 91910, 91911, 91913, 91914, and 91915 ZIP codes with free in-home estimates.' },
+      { q: 'How Much Does Flooring Cost in Chula Vista?', a: 'Chula Vista installs typically run $4 to $14 per square foot installed. Rigid-core vinyl plank is $5 to $10, hardwood $8 to $14, and tile depends on substrate prep. Older-home subfloor repair can add to the labor.' },
+      { q: 'Why Does My Chula Vista Slab Need Moisture Testing?', a: 'Most newer Eastlake and Otay Ranch homes sit on concrete slab, which releases moisture vapor. Installing wood or laminate without testing risks cupping and buckling, so we run a moisture test first and add a vapor barrier when needed.' },
+      { q: 'Do You Follow Chula Vista HOA Rules in Eastlake and Otay Ranch?', a: 'Yes. Master-planned Chula Vista communities often set construction-hour windows and approval steps. We schedule around them and provide any documentation your HOA requires before starting.' },
+      { q: 'Do Older Chula Vista Homes Near Third Avenue Village Need Subfloor Work?', a: 'Often, yes. Older homes in that area and in Bonita can have original raised-foundation subfloors that flex over time. We re-sheet or level them so the new flooring sits solid.' },
+      { q: 'Do You Install in Both New and Older Chula Vista Neighborhoods?', a: 'Yes. We work on newer slab homes in Eastlake, Otay Ranch, and Rolling Hills Ranch as well as older homes near Third Avenue Village and Bonita, adjusting prep to each.' },
+      { q: 'Which Chula Vista Areas Do You Serve?', a: 'We install across Chula Vista including Eastlake, Otay Ranch, Rolling Hills Ranch, Terra Nova, Third Avenue Village, and Bonita, covering the 91910, 91911, 91913, 91914, and 91915 ZIP codes with free in-home estimates.' },
     ],
     relatedLocations: ['flooring-san-diego', 'flooring-coronado'],
     heroImage: '/img/projects/portfolio/zelo-project-42.webp',

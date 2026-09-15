@@ -21,7 +21,6 @@ export default function Testimonials() {
     <section className="section testimonials-section">
       <div className="container">
         <div className="section-header center">
-          <span className="eyebrow">What Homeowners Say</span>
           <h2>5-Star Reviews From Real San Diego Customers</h2>
           <p>We&apos;ve earned hundreds of positive reviews on Google, Yelp and Facebook from happy homeowners across San Diego County.</p>
         </div>

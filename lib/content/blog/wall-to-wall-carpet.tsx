@@ -147,42 +147,42 @@ export default function WallToWallCarpetContent() {
       {/* FAQ */}
       <h2 id="faq">Frequently Asked Questions</h2>
 
-      <h3>What is wall-to-wall carpet called?</h3>
+      <h3>What Is Wall-to-Wall Carpet Called?</h3>
       <p>
         Wall-to-wall carpet is also called broadloom carpet, a term referring to carpet manufactured in wide rolls (typically 12 or 15 feet) meant to cover an entire room rather than being cut into individual tiles or rugs.
       </p>
 
-      <h3>Is wall-to-wall carpet cheaper than an area rug?</h3>
+      <h3>Is Wall-to-Wall Carpet Cheaper Than an Area Rug?</h3>
       <p>
         Per square foot, wall-to-wall carpet is usually cheaper than a comparable-quality area rug once you include padding, since large area rugs in similar fiber and density often cost more per square foot at retail. However, a single small area rug for one room costs less in total dollars than carpeting that same room wall to wall.
       </p>
 
-      <h3>How long does wall-to-wall carpet installation take?</h3>
+      <h3>How Long Does Wall-to-Wall Carpet Installation Take?</h3>
       <p>
         A standard bedroom takes 1 to 2 hours to install. A full 1,500 square foot home typically takes one full day, including old carpet removal, pad installation, stretching, and seaming.
       </p>
 
-      <h3>Can you put wall-to-wall carpet over hardwood?</h3>
+      <h3>Can You Put Wall-to-Wall Carpet Over Hardwood?</h3>
       <p>
         Yes, tack strips can be installed directly onto hardwood, though most installers recommend against covering hardwood you might want to expose again later. If the hardwood is damaged or you plan to keep carpet permanently, it is a straightforward install.
       </p>
 
-      <h3>Does wall-to-wall carpet need a pad?</h3>
+      <h3>Does Wall-to-Wall Carpet Need a Pad?</h3>
       <p>
         Yes. Nearly every major carpet manufacturer requires a minimum 8 lb density pad to maintain the product warranty. Skipping the pad or using a thin builder-grade pad shortens carpet life by several years and reduces the sound and comfort benefits carpet is chosen for in the first place.
       </p>
 
-      <h3>Is wall-to-wall carpet bad for allergies?</h3>
+      <h3>Is Wall-to-Wall Carpet Bad for Allergies?</h3>
       <p>
         Wall-to-wall carpet can trap dust, pet dander, and pollen more than a hard surface, but weekly HEPA vacuuming and annual professional cleaning manage this for most households. Severe allergy sufferers are often better served by <Link href="/vinyl-flooring-san-diego">LVP</Link> or <Link href="/laminate-flooring-san-diego">laminate</Link> in bedrooms instead.
       </p>
 
-      <h3>What is the difference between wall-to-wall carpet and broadloom?</h3>
+      <h3>What Is the Difference Between Wall-to-Wall Carpet and Broadloom?</h3>
       <p>
         There is no difference. Broadloom is the manufacturing term for carpet made in wide rolls, and wall-to-wall describes how that carpet is installed, edge to edge across a room. The two terms describe the same product used the same way.
       </p>
 
-      <h3>How much padding do you need under wall-to-wall carpet?</h3>
+      <h3>How Much Padding Do You Need Under Wall-to-Wall Carpet?</h3>
       <p>
         Standard residential rooms use an 8 lb density rebond pad at 7/16 inch thickness. High-traffic areas and stairs benefit from a denser 10 lb pad. Thicker is not always better, pad that is too soft or too thick can void manufacturer warranties and cause premature wear at seams.
       </p>

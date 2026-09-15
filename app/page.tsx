@@ -4,7 +4,6 @@ import BehindTheScenes from '@/components/BehindTheScenes';
 import ServiceAnchorGrid from '@/components/ServiceAnchorGrid';
 import WhyChooseUs from '@/components/WhyChooseUs';
 import AlternatingSection from '@/components/AlternatingSection';
-import IndustryStats from '@/components/IndustryStats';
 import TrustindexWidget from '@/components/TrustindexWidget';
 import CouponsBlock from '@/components/CouponsBlock';
 import FaqList from '@/components/FaqList';
@@ -43,11 +42,6 @@ const HOME_FAQS = [
     q: 'What types of flooring do you install?',
     a: 'We install carpet, luxury vinyl plank (LVP), hardwood, laminate, tile, cork, rubber, and vinyl composition tile (VCT) for both residential and commercial properties.',
   },
-];
-
-const HOME_STATS = [
-  { label: 'CA contractor licenses verified by the CSLB', value: '290,000+', sourceLabel: 'CSLB', sourceUrl: 'https://www.cslb.ca.gov' },
-  { label: 'NWFA-recommended hardwood acclimation period', value: '5-7 days', sourceLabel: 'NWFA', sourceUrl: 'https://nwfa.org' },
 ];
 
 export default function HomePage() {
@@ -178,13 +172,6 @@ export default function HomePage() {
 
       <CareersBanner />
 
-      <IndustryStats
-        eyebrow="By the Numbers"
-        heading="Industry Stats We Follow"
-        subheading="Zelo follows the standards the major flooring trade bodies publish for residential installs."
-        stats={HOME_STATS}
-      />
-
       <ProjectGallery />
 
       <BehindTheScenes />
@@ -192,7 +179,6 @@ export default function HomePage() {
       <section className="section">
         <div className="container">
           <div className="section-header center">
-            <span className="eyebrow">Customer Reviews</span>
             <h2>Reviews From San Diego Flooring Customers</h2>
             <p>Verified 5-star reviews from real Zelo Flooring customers across San Diego County.</p>
           </div>
@@ -209,7 +195,6 @@ export default function HomePage() {
       <section className="section">
         <div className="container">
           <div className="section-header center">
-            <span className="eyebrow">FAQ</span>
             <h2>Zelo Flooring Answers Your Flooring Questions</h2>
             <p>The most common questions we hear from homeowners across San Diego County.</p>
           </div>
@@ -220,7 +205,6 @@ export default function HomePage() {
       <section className="section section-cream">
         <div className="container">
           <div className="section-header center">
-            <span className="eyebrow">Flooring Guides</span>
             <h2>Flooring Tips and Buying Guides</h2>
             <p>Cost breakdowns and material comparisons from our San Diego install crew.</p>
           </div>

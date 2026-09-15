@@ -168,42 +168,42 @@ export default function HowToFixScratchesAndDentsInVinylPlankContent() {
       {/* FAQ */}
       <h2 id="faq">Frequently Asked Questions</h2>
 
-      <h3>Can you fix a deep scratch in vinyl plank flooring?</h3>
+      <h3>Can You Fix a Deep Scratch in Vinyl Plank Flooring?</h3>
       <p>
         Yes, if the scratch has not gone through the wear layer into the printed design layer. A color-matched wax or epoxy filler, leveled and buffed, hides most deep scratches well. If the scratch has exposed the core material underneath (visible as a whitish or frosted patch), a filler will not hold long term and the plank should be replaced instead.
       </p>
 
-      <h3>How do you get a dent out of vinyl plank flooring?</h3>
+      <h3>How Do You Get a Dent Out of Vinyl Plank Flooring?</h3>
       <p>
         For a shallow dent that has not broken the wear layer, lay a damp cloth over the spot and apply gentle heat from a hair dryer for 60 to 90 seconds, then press it flat with a padded weight while it cools. This works on some rigid-core products but is not guaranteed. A dent that has cracked or broken the wear layer needs the plank replaced rather than heated.
       </p>
 
-      <h3>Can a single vinyl plank be replaced without replacing the whole floor?</h3>
+      <h3>Can a Single Vinyl Plank Be Replaced Without Replacing the Whole Floor?</h3>
       <p>
         Yes. Click-lock planks are cut out and the replacement is glued in from underneath after removing its locking tongue. Glue-down planks are scored at the seams, scraped free of old adhesive, and the new plank is glued and rolled into place. Both methods leave the surrounding floor untouched and typically cost $100 to $225 per plank professionally installed.
       </p>
 
-      <h3>Is it hard to replace a glue-down vinyl plank?</h3>
+      <h3>Is It Hard to Replace a Glue-Down Vinyl Plank?</h3>
       <p>
         It is more physical than click-lock replacement because the old plank has to be scraped free of adhesive, but it is arguably more forgiving since there is no locking edge on neighboring planks that can crack during removal. Most of the work is scraping the subfloor flat before the new plank goes down.
       </p>
 
-      <h3>What is a wear layer and why does it matter for repairs?</h3>
+      <h3>What Is a Wear Layer and Why Does It Matter for Repairs?</h3>
       <p>
         The wear layer is the clear protective coating on top of the printed design layer in vinyl plank. It typically ranges from 6 mil in budget products to 28 mil in commercial-grade products. As long as damage stays within the wear layer, a filler repair blends in and holds up. Once the wear layer is broken and the printed layer or core underneath is exposed, filler will not bond properly and the plank needs to be replaced.
       </p>
 
-      <h3>Will a scratch repair kit match my floor color exactly?</h3>
+      <h3>Will a Scratch Repair Kit Match My Floor Color Exactly?</h3>
       <p>
         Usually close, not always exact. Repair kits include several wax shades that can be blended, but vinyl plank colors vary slightly by dye lot and fade slightly over years of UV exposure. A repair done with a kit bought at install time typically matches better than one bought years later. Test the blend on a spare plank or an inconspicuous corner first.
       </p>
 
-      <h3>How do I stop my floors from getting scratched by furniture?</h3>
+      <h3>How Do I Stop My Floors from Getting Scratched by Furniture?</h3>
       <p>
         Put felt pads under every leg and check them every 6 to 12 months, since worn or gritty pads scratch worse than none at all. Use furniture sliders instead of dragging anything heavy, and place a cup or plywood square under pianos, cabinets, and appliances that stay in one spot for years to spread out the weight.
       </p>
 
-      <h3>Does homeowners insurance cover vinyl plank floor damage?</h3>
+      <h3>Does Homeowners Insurance Cover Vinyl Plank Floor Damage?</h3>
       <p>
         Typically no, for scratches and dents from normal wear, furniture moves, or pets, since those are considered maintenance issues rather than a covered peril. Insurance is more likely to cover flooring damage from a sudden, specific event like a burst pipe or fire. Check your policy's language on "sudden and accidental" damage before assuming a claim will be paid out for surface wear.
       </p>

@@ -110,47 +110,47 @@ export default function HowToChooseAFlooringCompanyContent() {
       {/* FAQ */}
       <h2 id="faq">Frequently Asked Questions</h2>
 
-      <h3>How do I verify a flooring contractor's license in California?</h3>
+      <h3>How Do I Verify a Flooring Contractor's License in California?</h3>
       <p>
         Go to the CSLB website and use the license lookup tool with the contractor's license number or business name. It shows whether the license is active, its classification (C-15 for flooring), issue date, bond status, and any disciplinary history. The lookup is free and takes under a minute.
       </p>
 
-      <h3>Is it cheaper to hire an unlicensed flooring installer?</h3>
+      <h3>Is It Cheaper to Hire an Unlicensed Flooring Installer?</h3>
       <p>
         The upfront price may be lower, but unlicensed work carries no legal recourse if something goes wrong, voids most manufacturer warranties, and often costs more to fix later than it would have cost to do correctly the first time. Most homeowners insurance also will not cover damage from unlicensed contractor work.
       </p>
 
-      <h3>How much deposit is normal for a flooring job?</h3>
+      <h3>How Much Deposit Is Normal for a Flooring Job?</h3>
       <p>
         10 to 30 percent of the total project cost is standard to secure material orders. Anything above 50 percent upfront, or a demand for 100 percent before work starts, is outside normal industry practice and worth questioning.
       </p>
 
-      <h3>Should I get multiple estimates before choosing a flooring company?</h3>
+      <h3>Should I Get Multiple Estimates Before Choosing a Flooring Company?</h3>
       <p>
         Yes, at least two, ideally three. This is the fastest way to spot a bid that is unusually low because it is missing scope, or unusually high with no justification. Compare itemized line items, not just the bottom-line total.
       </p>
 
-      <h3>What is the difference between an estimate and a quote?</h3>
+      <h3>What Is the Difference Between an Estimate and a Quote?</h3>
       <p>
         An estimate is a close approximation based on measurements and material selection, and it can shift slightly if the crew finds subfloor issues once old flooring is removed. A quote is typically a fixed price. Most flooring companies use "estimate" and "quote" interchangeably, so ask directly whether the number can change and under what conditions.
       </p>
 
-      <h3>Do flooring installation companies offer warranties?</h3>
+      <h3>Do Flooring Installation Companies Offer Warranties?</h3>
       <p>
         Reputable companies offer a workmanship warranty separate from the manufacturer's product warranty. Workmanship warranties commonly run 1 to 5 years and cover installation defects like buckling, gapping, or seam failure that are not caused by the product itself.
       </p>
 
-      <h3>How long should a flooring company take to respond to a quote request?</h3>
+      <h3>How Long Should a Flooring Company Take to Respond to a Quote Request?</h3>
       <p>
         Most licensed, busy companies respond within 1 to 2 business days to schedule an in-home measurement visit. A company that responds instantly with a full price and no measurement, or takes over a week with no communication, is a signal about how responsive they will be once you are a paying customer.
       </p>
 
-      <h3>Can I trust online reviews for flooring companies?</h3>
+      <h3>Can I Trust Online Reviews for Flooring Companies?</h3>
       <p>
         Reviews are useful when you check volume and consistency across multiple platforms rather than relying on a single source. A handful of 5-star reviews on a company's own website carries far less weight than 30-plus reviews on a third-party platform like Thumbtack or Google, which are harder to selectively curate.
       </p>
 
-      <h3>What flooring types require the most careful contractor vetting?</h3>
+      <h3>What Flooring Types Require the Most Careful Contractor Vetting?</h3>
       <p>
         Hardwood and tile carry the most risk from a bad installer because subfloor prep mistakes (inadequate acclimation, skipped moisture testing, poor substrate leveling) are expensive to fix after the fact and can void manufacturer warranties. Vinyl plank and laminate are more forgiving but still require correct expansion gaps and underlayment.
       </p>

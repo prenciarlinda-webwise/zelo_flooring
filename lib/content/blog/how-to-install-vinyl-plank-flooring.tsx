@@ -105,27 +105,27 @@ export default function HowToInstallVinylPlankFlooringContent() {
       {/* FAQ */}
       <h2 id="faq">Frequently Asked Questions</h2>
 
-      <h3>How do you install vinyl plank flooring?</h3>
+      <h3>How Do You Install Vinyl Plank Flooring?</h3>
       <p>
         Prepare a clean, flat, dry subfloor, acclimate the planks for 48 hours, then lay click-lock planks row by row starting in a corner with 1/4-inch spacers at the walls. Angle and click each plank into the last, stagger end joints by at least 6 inches, cut the final row to fit, and cover the expansion gap with trim.
       </p>
 
-      <h3>Which direction should vinyl plank flooring go?</h3>
+      <h3>Which Direction Should Vinyl Plank Flooring Go?</h3>
       <p>
         Run vinyl plank parallel to the longest wall in the room, or in the direction of the main light from windows. This makes the seams less noticeable and the room feel larger. In hallways, always run the planks along the length of the hall.
       </p>
 
-      <h3>Do you need underlayment for vinyl plank flooring?</h3>
+      <h3>Do You Need Underlayment for Vinyl Plank Flooring?</h3>
       <p>
         Only if it is not already attached. Many rigid-core vinyl planks have a pad pre-attached, in which case you should not add a second layer. Over concrete you still need a moisture barrier. Do not double up cushioning, because too much give under the floor causes the locking joints to fail.
       </p>
 
-      <h3>What are the most common mistakes installing LVP?</h3>
+      <h3>What Are the Most Common Mistakes Installing LVP?</h3>
       <p>
         The biggest mistakes are skipping subfloor flatness prep, leaving no expansion gap at the walls, staggering end joints too closely, skipping the 48-hour acclimation, and forgetting the moisture barrier over concrete. Most LVP failures trace back to prep and expansion gaps, not the plank itself.
       </p>
 
-      <h3>How long does it take to install vinyl plank flooring?</h3>
+      <h3>How Long Does It Take to Install Vinyl Plank Flooring?</h3>
       <p>
         A professional installs roughly 100 square feet in 1 to 3 hours depending on room complexity. A DIY install takes longer, often a full weekend for a single room, with most of the time going to subfloor prep and cutting around obstacles rather than clicking planks together.
       </p>
