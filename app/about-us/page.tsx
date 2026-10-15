@@ -10,7 +10,7 @@ import { SITE } from '@/lib/areas';
 
 export const metadata: Metadata = {
   title: 'About Us - San Diego Flooring Contractors',
-  description: `Learn about ${SITE.name}, a San Diego flooring installation company with over a decade of journeyman experience. C-15 licensed (CSLB #${SITE.license}), bonded, insured, and BBB Accredited A+. Owner: Endri Zelollari.`,
+  description: `Learn about ${SITE.name}, a San Diego flooring installation company with over a decade of journeyman experience. C-15 licensed (CSLB #${SITE.license}), bonded, insured, and BBB Accredited A+. Owner: Endri.`,
   alternates: { canonical: `${SITE.url}/about-us` },
 };
 

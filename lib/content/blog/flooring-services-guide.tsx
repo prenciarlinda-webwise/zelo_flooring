@@ -161,7 +161,7 @@ export default function FlooringServicesGuideContent() {
         <li><strong>Manufacturer-spec installation.</strong> Following the manufacturer's install spec, not just what is fastest, keeps your product warranty valid.</li>
       </ul>
       <p>
-        Our owner, Endri Zelollari, has 13 years of journeyman flooring experience and has trained our crew to follow the same manufacturer specs on every job, whether it is a single bedroom of carpet or a 5,000 square foot commercial VCT retrofit.
+        Our owner, Endri, has 13 years of journeyman flooring experience and has trained our crew to follow the same manufacturer specs on every job, whether it is a single bedroom of carpet or a 5,000 square foot commercial VCT retrofit.
       </p>
 
       {/* COMMON MISTAKES */}

@@ -115,7 +115,6 @@ const businessGraph = {
         '@id': `${SITE.url}/#owner`,
         name: SITE.owner.name,
         givenName: SITE.owner.givenName,
-        familyName: SITE.owner.familyName,
         jobTitle: SITE.owner.jobTitle,
         worksFor: { '@id': `${SITE.url}/#business` },
         hasCredential: {

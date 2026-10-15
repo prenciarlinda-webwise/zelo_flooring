@@ -137,7 +137,7 @@ export const LOCATIONS: Location[] = [
     cityIntro: [
       'Zelo Flooring is a San Diego flooring contractor based in Mira Mesa, serving homeowners and businesses across San Diego County. We focus on the boring details that decide whether a floor lasts five years or twenty: slab moisture testing, manufacturer-spec acclimation, proper subfloor flatness, and clean transitions.',
       'San Diego homes have a few traits that change how floors get installed here. Most homes built since the 1980s sit on concrete slab, which means moisture testing and vapor barriers matter more than they would in a Midwest crawl-space home. Coastal humidity from Point Loma to Pacific Beach pushes engineered hardwood and rigid-core vinyl ahead of solid hardwood for most rooms. We adjust the install spec to the house, not to whatever is fastest.',
-      'As a full-service San Diego flooring company led by owner Endri Zelollari, we run every job with our own licensed crew rather than rotating subcontractors, so the flooring installers who show up for your estimate are the same flooring installers who finish the job.',
+      'As a full-service San Diego flooring company led by owner Endri, we run every job with our own licensed crew rather than rotating subcontractors, so the flooring installers who show up for your estimate are the same flooring installers who finish the job.',
     ],
     localNuances: [
       'Slab homes from the 1970s onward dominate San Diego, calcium chloride or RH probe moisture testing is standard before any wood or laminate install.',

@@ -109,7 +109,7 @@ export const SERVICES: Service[] = [
     metaTitle: 'Carpet Installation San Diego',
     metaDescription:
       'Professional carpet installation in San Diego. Plush, berber, frieze and pet-friendly carpet from trusted brands. Free in-home estimate. Call +1 (619) 777-4334.',
-    lastUpdated: '2026-09-11',
+    lastUpdated: '2026-09-19',
     heroChip: 'San Diego, CA',
     heroTagline: 'Power-stretched. Premium pad. No shortcuts.',
     heroBullets: [
@@ -150,8 +150,10 @@ export const SERVICES: Service[] = [
       { q: 'Do You Handle Rental Properties and Turnover Work?', a: 'Yes. We carry durable, value-priced options for rentals and run unit-turn projects with quick scheduling between leases. Tell us the unit count and timeline and we will quote.' },
       { q: 'Does Carpet Replacement Include Removing and Disposing of the Old Carpet and Pad?', a: 'Yes. Every carpet replacement includes old carpet, pad, and tack strip removal and disposal at no extra charge. Your home is clean when we leave, with nothing extra for you to haul away.' },
       { q: 'Who Offers Carpet Installation Services in San Diego?', a: 'Zelo Flooring provides carpet installation services in San Diego and across the county, from a single bedroom to a full whole-home job. Every install includes power-stretching, a premium 8 lb pad, and old carpet removal in the quote, not as an add-on. We are a CSLB-licensed San Diego carpet installer, bonded and insured.' },
-      { q: 'Do You Install Commercial Carpet in San Diego?', a: 'Yes. We are a commercial carpet installation company serving San Diego offices, classrooms, and rental units for property managers and HOAs. We use value-priced loop carpet built for high traffic and can schedule installs after hours or over a weekend to avoid downtime. Call (619) 777-4334 for a commercial quote.' },
+      { q: 'Do You Install Commercial Carpet in San Diego?', a: 'Yes. If you are searching for commercial carpet installers near me, our CSLB-licensed San Diego crew handles offices, classrooms, and rental units directly, call (619) 777-4334 for a commercial quote. We use value-priced loop carpet built for high traffic and can schedule installs after hours or over a weekend to avoid downtime for property managers and HOAs.' },
       { q: 'What Carpet Works Best for San Diego Homes with Pets and Kids?', a: 'Triexta (Mohawk SmartStrand) and stain-treated nylon (Stainmaster, Shaw R2X) are the most pet- and kid-friendly carpets we install in San Diego. Triexta resists pet stains permanently because the stain blocker is part of the fiber. Nylon resists wear in high-traffic rooms. Polyester is fine for guest rooms but wears faster in main-traffic zones.' },
+      { q: 'Do You Install Stair Runners in San Diego?', a: 'Yes. If you are searching for stair runner installation near me, we handle it directly, call (619) 777-4334 for a free estimate. Every stair runner and wall-to-wall stair install gets a tightly wrapped waterfall or French cap finish with a premium 10 lb pad upgrade standard, for stairs that hold up under daily traffic.' },
+      { q: 'Do You Install Carpet for Full Homes, or Just Quick Apartment Turnovers?', a: 'Full homes and whole-house carpet installation, not high-volume apartment turnovers, is what Zelo is built for, call (619) 777-4334 for a free in-home estimate. We are an owner-led, CSLB-licensed San Diego crew that power-stretches every install with a premium pad and brings real samples to your home, whether the job is in Mira Mesa, Miramar, La Jolla, or anywhere in between. If a big-box store or a quick-turn shop left you unimpressed before, this is the difference an owner-operated crew makes.' },
     ],
     blogSlug: 'cost-to-install-carpet',
   },
@@ -566,7 +568,7 @@ export const SERVICES: Service[] = [
     metaTitle: 'Rubber Flooring Installation San Diego',
     metaDescription:
       'Rubber flooring for home gyms, garages, and commercial spaces in San Diego. Rolled, tile and interlocking. Call +1 (619) 777-4334.',
-    lastUpdated: '2026-09-15',
+    lastUpdated: '2026-09-19',
     heroChip: 'San Diego, CA',
     heroTagline: 'Right thickness for the job. Heat-welded seams.',
     heroBullets: [
@@ -608,6 +610,7 @@ export const SERVICES: Service[] = [
       { q: 'Should I Get Rolled or Interlocking Tile?', a: 'Rolled is more durable, looks more professional, and seams are minimal. Tile is portable, easier to replace if a piece gets damaged, and lets you start small and expand. Rolled wins for permanent installs; tile wins for renters and small spaces.' },
       { q: 'Do You Handle Commercial Gym Buildouts?', a: 'Yes. If you are searching for gym floor installers near me or commercial gym flooring installers near me, our CSLB-licensed San Diego crew handles it directly, call (619) 777-4334 for a free estimate. We work with general contractors and gym owners on full buildouts: platform zones, free-weight zones, cardio zones, locker rooms. After-hours installs available to keep gyms open during conversion.' },
       { q: 'Should I Hire a Rubber Flooring Installation Company, or Install It Myself?', a: 'DIY can work for a small interlocking-tile area, but full rooms benefit from a professional install: proper slab crack repair, thickness matched to the activity, and heat-welded or fully-bonded seams that will not curl or shift under heavy equipment. If you are searching for a rubber floor installation company near me, Zelo Flooring is a CSLB-licensed installer based in San Diego, call (619) 777-4334 for a free estimate. We handle both home gyms and full commercial buildouts.' },
+      { q: 'What Should I Look for in Gym Floor Installers?', a: 'Look for a CSLB-licensed gym flooring contractor who works directly with general contractors, not a sub several layers removed, and who names the actual product line, Mondo, Ecore, or Regupol, rather than just "commercial rubber." Zelo Flooring meets all three and heat-welds every commercial seam, call (619) 777-4334 for a free estimate.' },
     ],
   },
   {

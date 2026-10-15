@@ -14,7 +14,7 @@ const REASONS = [
   {
     icon: ToolIcon,
     title: '13+ Years of Journeyman Experience',
-    desc: 'Owner Endri Zelollari has installed flooring since 2013, with extensive expertise across LVP, hardwood, tile, carpet, and more.',
+    desc: 'Owner Endri has installed flooring since 2013, with extensive expertise across LVP, hardwood, tile, carpet, and more.',
   },
   {
     icon: BadgeIcon,

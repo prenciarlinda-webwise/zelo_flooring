@@ -120,7 +120,7 @@ export default function RubberFlooringForCommercialGymsContent() {
         Most of our commercial gym work is scheduled after hours, overnight, or across a weekend so the facility does not have to close during construction. A single-zone re-floor, like replacing a worn cardio area, typically fits into a closed overnight window or two. A full multi-zone buildout, 2,000 to 5,000 square feet across cardio, free-weight, and platform zones, generally takes 5 to 10 business days depending on how much of it needs heat-welded seams and whether slab crack repair is involved.
       </p>
       <p>
-        We work directly with general contractors on new-build gyms and with owners on renovations of an existing space, and we phase the work zone by zone where possible so part of the gym can reopen while another section is still being finished. Owner Endri Zelollari, who has 13 years of journeyman flooring experience and has run commercial buildouts across San Diego gyms and fitness facilities, walks every commercial project before the quote goes out so the schedule reflects the real condition of the slab, not a generic estimate.
+        We work directly with general contractors on new-build gyms and with owners on renovations of an existing space, and we phase the work zone by zone where possible so part of the gym can reopen while another section is still being finished. Owner Endri, who has 13 years of journeyman flooring experience and has run commercial buildouts across San Diego gyms and fitness facilities, walks every commercial project before the quote goes out so the schedule reflects the real condition of the slab, not a generic estimate.
       </p>
 
       <div className="callout-box tip">

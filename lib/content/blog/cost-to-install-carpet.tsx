@@ -229,7 +229,7 @@ export default function CarpetInstallationCostContent() {
         </tbody>
       </table>
       <p>
-        Premium pad is worth the upgrade on stairs. Stairs see concentrated foot traffic right at the leading edge of each tread, so a 10 lb pad extends carpet life noticeably compared to standard 8 lb. Waterfall and French cap finishes are equally durable; the choice is aesthetic.
+        Premium pad is worth the upgrade on stairs. Stairs see concentrated foot traffic right at the leading edge of each tread, so a 10 lb pad extends carpet life noticeably compared to standard 8 lb. Waterfall and French cap finishes are equally durable, the choice is aesthetic. Our <Link href="/carpet-flooring-san-diego">stair runner installation</Link> page covers how we handle both finishes on San Diego stairs.
       </p>
 
       {/* 2026 TRENDS */}

@@ -100,9 +100,8 @@ export const SITE = {
   // Recognized awards for award schema and trust badging.
   awards: ['Thumbtack Top Pro 2023', 'Thumbtack Top Pro 2024', 'Thumbtack Top Pro 2025'] as string[],
   owner: {
-    name: 'Endri Zelollari',
+    name: 'Endri',
     givenName: 'Endri',
-    familyName: 'Zelollari',
     jobTitle: 'Owner',
     inUSSince: 2013,
     teamYearsExperience: 20,

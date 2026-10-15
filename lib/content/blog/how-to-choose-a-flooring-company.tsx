@@ -98,7 +98,7 @@ export default function HowToChooseAFlooringCompanyContent() {
         A general handyman can legally do small repair work, but flooring installation above the $500 threshold requires the C-15 license specifically. Some companies operate as a sales office that subcontracts the actual installation out to a rotating pool of unlicensed labor. This is not always disclosed upfront, and it means the person who sold you the job is not the person accountable for the workmanship.
       </p>
       <p>
-        Ask directly whether the installer showing up is a W-2 employee of the licensed company or a subcontractor. Zelo Flooring runs every job with our own crew, with 20 or more years of combined installation experience on our team and 13 years of journeyman experience from owner Endri Zelollari personally on site or supervising, not a rotating subcontractor pool.
+        Ask directly whether the installer showing up is a W-2 employee of the licensed company or a subcontractor. Zelo Flooring runs every job with our own crew, with 20 or more years of combined installation experience on our team and 13 years of journeyman experience from owner Endri personally on site or supervising, not a rotating subcontractor pool.
       </p>
 
       {/* LEGITIMATE */}
