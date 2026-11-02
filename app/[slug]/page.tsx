@@ -31,7 +31,7 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
   const service = getService(slug);
   if (service) {
     return {
-      title: service.metaTitle,
+      title: { absolute: `${service.metaTitle} - ${SITE.phone.replace('+1 ', '')} - ${SITE.name}` },
       description: service.metaDescription,
       alternates: { canonical: `${SITE.url}/${service.slug}` },
       openGraph: {
@@ -46,7 +46,7 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
   const location = getLocation(slug);
   if (location) {
     return {
-      title: location.metaTitle,
+      title: { absolute: `${location.metaTitle} - ${SITE.phone.replace('+1 ', '')} - ${SITE.name}` },
       description: location.metaDescription,
       alternates: { canonical: `${SITE.url}/${location.slug}` },
       openGraph: {

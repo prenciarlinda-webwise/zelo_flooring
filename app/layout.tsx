@@ -30,12 +30,12 @@ const inter = Inter({
 export const metadata: Metadata = {
   metadataBase: new URL(SITE.url),
   title: {
-    default: `${SITE.name} - Flooring Installation San Diego, CA`,
+    default: `Flooring Installation San Diego, CA - ${SITE.phone.replace('+1 ', '')} - ${SITE.name}`,
     template: `%s - ${SITE.name}`,
   },
-  description: `${SITE.name} is a C-15 licensed flooring installation company in San Diego with over a decade of journeyman experience. Carpet, LVP, hardwood, laminate, tile, cork, rubber, VCT. Bonded, insured, BBB Accredited A+. Free in-home estimates. Call ${SITE.phone}.`,
+  description: `Licensed San Diego flooring installers (CSLB #1083572). Carpet, vinyl, hardwood, laminate, tile, cork, rubber, VCT. Free estimate. Call ${SITE.phone}.`,
   openGraph: {
-    title: `${SITE.name} - Flooring Installation San Diego, CA`,
+    title: `Flooring Installation San Diego, CA - ${SITE.name}`,
     description:
       'Flooring installation in San Diego. C-15 licensed, BBB Accredited A+, Thumbtack Top Pro 2023-2025. Free in-home estimates.',
     url: SITE.url,
