@@ -6,7 +6,13 @@ export default function IsCorkFlooringGoodForKitchensContent() {
   return (
     <>
       <p>
-        <strong>Cork flooring works well in a kitchen, but only with the right format and the right sealing at the wet spots.</strong> Cork is soft underfoot, warm, and naturally resistant to mold, which makes it a genuinely good fit for the room where most people stand the longest. The catch is that a kitchen throws water at a floor in a way a living room or bedroom never does, at the sink, the dishwasher, and the refrigerator's water line, and cork needs a sealed perimeter and the right finish at exactly those three spots to hold up long term.
+        <strong>Cork flooring works well in a kitchen, but only with the right format and the right sealing at the wet spots.</strong>
+      </p>
+      <p>
+        Want a San Diego pro to handle it? <EstimateModalLink>Get a free estimate</EstimateModalLink> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>. Zelo Flooring is a licensed <Link href="/flooring-san-diego">San Diego flooring contractor</Link> offering <Link href="/cork-flooring-san-diego">cork flooring in San Diego</Link>.
+      </p>
+      <p>
+        Cork is soft underfoot, warm, and naturally resistant to mold, which makes it a genuinely good fit for the room where most people stand the longest. The catch is that a kitchen throws water at a floor in a way a living room or bedroom never does, at the sink, the dishwasher, and the refrigerator's water line, and cork needs a sealed perimeter and the right finish at exactly those three spots to hold up long term.
       </p>
       <p>
         We install <Link href="/cork-flooring-san-diego">cork flooring</Link> across San Diego County and get this question constantly from homeowners comparing it to <Link href="/tile-flooring-san-diego">tile</Link> or <Link href="/vinyl-flooring-san-diego">luxury vinyl plank</Link> for a kitchen remodel. This guide covers what makes cork a strong choice for cooking spaces, which cork format to use, exactly where and how to seal it against water, and the mistakes that shorten a cork kitchen floor's life.

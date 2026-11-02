@@ -6,7 +6,13 @@ export default function FlooringForRentalPropertiesContent() {
   return (
     <>
       <p>
-        <strong>Flooring in a rental property gets used differently than flooring in a house you live in.</strong> A homeowner's floor sees one household's habits for a decade or more. A rental unit's floor sees a new tenant, new furniture, new pets, and new move-in scuffs every 18 to 36 months, and every day the unit sits vacant during a turn is rent the owner is not collecting. The material that wins in a landlord's home does not always win in a unit built to survive five or six tenancies without a full replacement.
+        <strong>Flooring in a rental property gets used differently than flooring in a house you live in.</strong>
+      </p>
+      <p>
+        Want a San Diego pro to handle it? <EstimateModalLink>Get a free estimate</EstimateModalLink> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>. Zelo Flooring is a licensed <Link href="/flooring-san-diego">San Diego flooring contractor</Link> offering <Link href="/vinyl-flooring-san-diego">vinyl plank flooring in San Diego</Link>.
+      </p>
+      <p>
+        A homeowner's floor sees one household's habits for a decade or more. A rental unit's floor sees a new tenant, new furniture, new pets, and new move-in scuffs every 18 to 36 months, and every day the unit sits vacant during a turn is rent the owner is not collecting. The material that wins in a landlord's home does not always win in a unit built to survive five or six tenancies without a full replacement.
       </p>
       <p>
         We install and repair flooring for landlords, property managers, and portfolio investors across San Diego County, most often <Link href="/vinyl-flooring-san-diego">rigid-core LVP</Link> for full-unit turns, <Link href="/laminate-flooring-san-diego">laminate</Link> for budget-conscious units, and <Link href="/vinyl-composition-tile-flooring-san-diego">VCT</Link> for larger apartment common areas. This guide breaks down which material fits which situation, what it actually costs per door, and how fast each one lets you turn a unit.

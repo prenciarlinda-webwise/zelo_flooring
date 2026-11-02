@@ -6,7 +6,13 @@ export default function CarpetInstallationCostContent() {
   return (
     <>
       <p>
-        <strong>The average cost to install carpet in 2026 is $3 to $8 per square foot</strong> for materials and labor combined. A standard 12x12 bedroom runs $450 to $1,100 fully installed. A whole-home carpet replacement for 1,500 square feet averages $4,500 to $12,000 depending on carpet quality, pad selection, and subfloor condition. For homeowners in our market, our <Link href="/carpet-flooring-san-diego">carpet installation in San Diego</Link> page covers brands, sub-services, and how we quote local projects.
+        <strong>The average cost to install carpet in 2026 is $3 to $8 per square foot</strong>
+      </p>
+      <p>
+        Want a San Diego pro to handle it? <EstimateModalLink>Get a free estimate</EstimateModalLink> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>. Zelo Flooring is a licensed <Link href="/flooring-san-diego">San Diego flooring contractor</Link> offering <Link href="/carpet-flooring-san-diego">carpet installation in San Diego</Link>.
+      </p>
+      <p>
+        for materials and labor combined. A standard 12x12 bedroom runs $450 to $1,100 fully installed. A whole-home carpet replacement for 1,500 square feet averages $4,500 to $12,000 depending on carpet quality, pad selection, and subfloor condition. For homeowners in our market, our <Link href="/carpet-flooring-san-diego">carpet installation in San Diego</Link> page covers brands, sub-services, and how we quote local projects.
       </p>
       <p>
         Those are real numbers from recent residential carpet installation projects, and they align closely with 2026 national averages reported by Homewyse ($5.27 to $7.72/sqft), Carpet Now ($3 to $6/sqft), and HomeGuide. Below, we break down exactly what goes into the <strong>cost to install carpet</strong> in 2026 so you know what to expect, what to ask for, and how to avoid overpaying or getting burned by a low-ball quote.

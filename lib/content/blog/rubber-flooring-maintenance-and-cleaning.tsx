@@ -6,7 +6,13 @@ export default function RubberFlooringMaintenanceAndCleaningContent() {
   return (
     <>
       <p>
-        <strong>Rubber flooring is one of the lowest-maintenance floors you can install, but low-maintenance is not zero-maintenance.</strong> Unlike VCT, rubber needs no stripping or waxing, but the wrong cleaner or a season of direct sun can still shorten its life or leave it looking worn well before it actually is.
+        <strong>Rubber flooring is one of the lowest-maintenance floors you can install, but low-maintenance is not zero-maintenance.</strong>
+      </p>
+      <p>
+        Want a San Diego pro to handle it? <EstimateModalLink>Get a free estimate</EstimateModalLink> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>. Zelo Flooring is a licensed <Link href="/flooring-san-diego">San Diego flooring contractor</Link> offering <Link href="/rubber-flooring-san-diego">rubber floor installation in San Diego</Link>.
+      </p>
+      <p>
+        Unlike VCT, rubber needs no stripping or waxing, but the wrong cleaner or a season of direct sun can still shorten its life or leave it looking worn well before it actually is.
       </p>
       <p>
         We install and maintain <Link href="/rubber-flooring-san-diego">rubber flooring</Link> across San Diego for home gyms, garages, commercial fitness facilities, and daycare play areas, and this guide covers the actual cleaning routine, what to avoid, how to handle a lifted seam or tile edge, and how residential and commercial maintenance schedules actually differ.

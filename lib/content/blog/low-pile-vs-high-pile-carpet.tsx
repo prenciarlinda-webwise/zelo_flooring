@@ -6,7 +6,13 @@ export default function LowPileVsHighPileCarpetContent() {
   return (
     <>
       <p>
-        <strong>Low pile carpet has short, dense fibers that are durable and easy to clean, making it best for high-traffic areas, stairs, and homes with pets, while high pile carpet has longer, looser fibers that feel soft and cozy, making it best for bedrooms.</strong> Carpet pile simply means the height and density of the fibers. Low pile is under about 1/4 inch, high pile is over about 1/2 inch, and plush mid-pile sits in between. Match the pile to how the room is used. See our <Link href="/carpet-flooring-san-diego">carpet installation in San Diego</Link> page for the styles we carry.
+        <strong>Low pile carpet has short, dense fibers that are durable and easy to clean, making it best for high-traffic areas, stairs, and homes with pets, while high pile carpet has longer, looser fibers that feel soft and cozy, making it best for bedrooms.</strong>
+      </p>
+      <p>
+        Want a San Diego pro to handle it? <EstimateModalLink>Get a free estimate</EstimateModalLink> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>. Zelo Flooring is a licensed <Link href="/flooring-san-diego">San Diego flooring contractor</Link> offering <Link href="/carpet-flooring-san-diego">carpet installation in San Diego</Link>.
+      </p>
+      <p>
+        Carpet pile simply means the height and density of the fibers. Low pile is under about 1/4 inch, high pile is over about 1/2 inch, and plush mid-pile sits in between. Match the pile to how the room is used. See our <Link href="/carpet-flooring-san-diego">carpet installation in San Diego</Link> page for the styles we carry.
       </p>
 
       <div className="callout-box info">

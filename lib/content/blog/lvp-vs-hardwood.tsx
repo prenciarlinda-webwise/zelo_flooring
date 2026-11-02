@@ -6,7 +6,13 @@ export default function LvpVsHardwoodContent() {
   return (
     <>
       <p>
-        <strong>Engineered hardwood looks better and adds more resale value, but LVP is more practical for wet areas, pets, and budget-conscious homeowners.</strong> The short version: choose LVP for kitchens, bathrooms, mudrooms, and basements where waterproof durability wins. Choose engineered hardwood for living rooms, dining rooms, and bedrooms where appearance and long-term value matter more. Both are floors we install across San Diego County, with full pricing and brand details on our <Link href="/vinyl-flooring-san-diego">luxury vinyl plank in San Diego</Link> and <Link href="/hardwood-flooring-san-diego">hardwood flooring in San Diego</Link> service pages.
+        <strong>Engineered hardwood looks better and adds more resale value, but LVP is more practical for wet areas, pets, and budget-conscious homeowners.</strong>
+      </p>
+      <p>
+        Want a San Diego pro to handle it? <EstimateModalLink>Get a free estimate</EstimateModalLink> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>. Zelo Flooring is a licensed <Link href="/flooring-san-diego">San Diego flooring contractor</Link> offering <Link href="/vinyl-flooring-san-diego">vinyl plank flooring in San Diego</Link>.
+      </p>
+      <p>
+        The short version: choose LVP for kitchens, bathrooms, mudrooms, and basements where waterproof durability wins. Choose engineered hardwood for living rooms, dining rooms, and bedrooms where appearance and long-term value matter more. Both are floors we install across San Diego County, with full pricing and brand details on our <Link href="/vinyl-flooring-san-diego">luxury vinyl plank in San Diego</Link> and <Link href="/hardwood-flooring-san-diego">hardwood flooring in San Diego</Link> service pages.
       </p>
       <p>
         The <strong>engineered hardwood flooring vs LVP</strong> debate comes up in nearly every consultation we do. Homeowners see LVP that looks convincingly like wood and wonder if there is any reason to pay more for the real thing. There is, but not in every room. This 2026 guide walks through every factor (durability, moisture resistance, cost, lifespan, refinishing, resale value, and install method) so you can make the right call for your home, your lifestyle, and your budget.
@@ -321,7 +327,6 @@ export default function LvpVsHardwoodContent() {
 
       <RelatedBlogPosts
         posts={[
-          { slug: 'lvp-vs-engineered-hardwood', title: 'LVP vs Engineered Hardwood', excerpt: 'How LVP compares to real engineered wood.' },
           { slug: 'engineered-vs-solid-hardwood', title: 'Engineered vs Solid Hardwood', excerpt: 'Which type of hardwood is right for your home and subfloor.' },
           { slug: 'vinyl-plank-flooring-cost', title: 'Vinyl Plank Flooring Cost', excerpt: 'Full cost breakdown for LVP installation by room and quality.' },
         ]}

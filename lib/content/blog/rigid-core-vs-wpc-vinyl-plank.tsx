@@ -6,7 +6,13 @@ export default function RigidCoreVsWpcVinylPlankContent() {
   return (
     <>
       <p>
-        <strong>Rigid core vinyl plank is not one product, it is a category that splits into two different core types: SPC (stone polymer composite) and WPC (wood polymer composite).</strong> Both are waterproof, both click-lock or glue down, and both are marketed as "rigid core" on the box, which is exactly why homeowners get confused standing in a flooring showroom comparing two planks that look almost identical but feel completely different underfoot.
+        <strong>Rigid core vinyl plank is not one product, it is a category that splits into two different core types: SPC (stone polymer composite) and WPC (wood polymer composite).</strong>
+      </p>
+      <p>
+        Want a San Diego pro to handle it? <EstimateModalLink>Get a free estimate</EstimateModalLink> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>. Zelo Flooring is a licensed <Link href="/flooring-san-diego">San Diego flooring contractor</Link> offering <Link href="/vinyl-flooring-san-diego">vinyl plank flooring in San Diego</Link>.
+      </p>
+      <p>
+        Both are waterproof, both click-lock or glue down, and both are marketed as "rigid core" on the box, which is exactly why homeowners get confused standing in a flooring showroom comparing two planks that look almost identical but feel completely different underfoot.
       </p>
       <p>
         We install both core types across San Diego County as part of our <Link href="/vinyl-flooring-san-diego">luxury vinyl plank flooring</Link> service, and the choice between them comes down to two things: what is under your subfloor, and how much you value comfort versus stability. This guide breaks down the core construction, thickness, stability on a slab, comfort underfoot, cost, and which rooms each one actually belongs in.

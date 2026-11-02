@@ -6,7 +6,13 @@ export default function PaintBeforeOrAfterFlooringContent() {
   return (
     <>
       <p>
-        <strong>Paint the room first, then install or refinish the floor, then do baseboard and trim touch-ups last.</strong> That order protects fresh paint from flooring debris and protects a brand new floor from paint drips, and it holds for almost every room renovation. New construction follows a longer, stricter trade sequence, covered in our <Link href="/blog/best-flooring-for-new-construction">flooring for new construction guide</Link>; this one is about repainting a room you already live in alongside new or refinished <Link href="/flooring-san-diego">flooring</Link>.
+        <strong>Paint the room first, then install or refinish the floor, then do baseboard and trim touch-ups last.</strong>
+      </p>
+      <p>
+        Want a San Diego pro to handle it? <EstimateModalLink>Get a free estimate</EstimateModalLink> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>. Zelo Flooring is a licensed <Link href="/flooring-san-diego">San Diego flooring contractor</Link> offering <Link href="/hardwood-flooring-san-diego">hardwood flooring in San Diego</Link>.
+      </p>
+      <p>
+        That order protects fresh paint from flooring debris and protects a brand new floor from paint drips, and it holds for almost every room renovation. New construction follows a longer, stricter trade sequence, covered in our <Link href="/blog/best-flooring-for-new-construction">flooring for new construction guide</Link>; this one is about repainting a room you already live in alongside new or refinished <Link href="/flooring-san-diego">flooring</Link>.
       </p>
       <p>
         This guide covers why that order exists, the one major exception (refinishing existing hardwood in place), how carpet timing is different from hard flooring, and how to protect both surfaces during the project regardless of which trade goes first.

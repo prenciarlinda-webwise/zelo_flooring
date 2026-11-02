@@ -6,7 +6,13 @@ export default function BathroomFlooringInstallationContent() {
   return (
     <>
       <p>
-        <strong>Professional bathroom flooring installation is not just laying tile or vinyl over the existing subfloor.</strong> It means demolition, a bonded waterproofing membrane rated for constant moisture, a slope to the drain, subfloor leveling, and a material that will not fail when 40 to 80 gallons of shower water hit it every week. Skip any one of those steps and the floor looks fine for a year, then grout cracks, tile lifts, or water reaches the subfloor and rots it from underneath.
+        <strong>Professional bathroom flooring installation is not just laying tile or vinyl over the existing subfloor.</strong>
+      </p>
+      <p>
+        Want a San Diego pro to handle it? <EstimateModalLink>Get a free estimate</EstimateModalLink> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>. Zelo Flooring is a licensed <Link href="/flooring-san-diego">San Diego flooring contractor</Link> offering <Link href="/tile-flooring-san-diego">tile flooring in San Diego</Link>.
+      </p>
+      <p>
+        It means demolition, a bonded waterproofing membrane rated for constant moisture, a slope to the drain, subfloor leveling, and a material that will not fail when 40 to 80 gallons of shower water hit it every week. Skip any one of those steps and the floor looks fine for a year, then grout cracks, tile lifts, or water reaches the subfloor and rots it from underneath.
       </p>
       <p>
         We install and waterproof bathroom floors across San Diego County using <Link href="/tile-flooring-san-diego">porcelain and natural stone tile</Link> and <Link href="/vinyl-flooring-san-diego">waterproof luxury vinyl plank</Link>, following Tile Council of North America (TCNA) wet-area methods on every job. This guide walks through what a proper installation actually involves, what it costs, and the mistakes that cause most bathroom floor failures we get called to fix.

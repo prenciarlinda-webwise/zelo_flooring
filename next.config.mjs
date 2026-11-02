@@ -60,6 +60,9 @@ const nextConfig = {
       // most estimate CTAs site-wide now open a popup instead of linking here,
       // this redirect covers direct/bookmarked/no-JS visits to the old URL.
       { source: '/free-estimate', destination: '/contact', permanent: true },
+      // 2026-11-01 blog audit: lvp-vs-engineered-hardwood was a thin (992 word) subset of
+      // lvp-vs-hardwood, which already covers engineered hardwood. Merged and redirected.
+      { source: '/blog/lvp-vs-engineered-hardwood', destination: '/blog/lvp-vs-hardwood', permanent: true },
       // 2026-09-19 (/technical-seo-audit + GSC Page Indexing report): confirmed
       // via curl that https://zeloflooring.com (no www) and the www version both
       // return HTTP 200 with byte-identical HTML, no host-level redirect between

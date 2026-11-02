@@ -6,7 +6,13 @@ export default function HowToChooseAFlooringCompanyContent() {
   return (
     <>
       <p>
-        <strong>The safest way to choose a flooring installation company is to verify the license, read reviews for pattern not star count, and compare a written, itemized estimate against at least one other bid.</strong> Most flooring complaints trace back to one of three things: an unlicensed installer, a verbal-only agreement, or a low bid that hides costs until the crew is already on site. We install <Link href="/carpet-flooring-san-diego">carpet</Link>, <Link href="/hardwood-flooring-san-diego">hardwood</Link>, and six other flooring types across San Diego County, and this guide covers exactly what we tell homeowners to check before they hire anyone, including us.
+        <strong>The safest way to choose a flooring installation company is to verify the license, read reviews for pattern not star count, and compare a written, itemized estimate against at least one other bid.</strong>
+      </p>
+      <p>
+        Want a San Diego pro to handle it? <EstimateModalLink>Get a free estimate</EstimateModalLink> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>. Zelo Flooring is a licensed <Link href="/flooring-san-diego">San Diego flooring contractor</Link> offering <Link href="/carpet-flooring-san-diego">carpet installation in San Diego</Link>.
+      </p>
+      <p>
+        Most flooring complaints trace back to one of three things: an unlicensed installer, a verbal-only agreement, or a low bid that hides costs until the crew is already on site. We install <Link href="/carpet-flooring-san-diego">carpet</Link>, <Link href="/hardwood-flooring-san-diego">hardwood</Link>, and six other flooring types across San Diego County, and this guide covers exactly what we tell homeowners to check before they hire anyone, including us.
       </p>
       <p>
         Searches for <strong>flooring installation companies</strong> and <strong>custom flooring installation services</strong> spike every year as homeowners start a project, and most people have no reliable way to tell a legitimate contractor from a truck-and-a-crew operation with no license. The flooring industry has a low barrier to entry in most states, which means anyone can put "flooring installer" on a business card. California is different: flooring installation is a licensed trade, and knowing how to check that license takes less than two minutes.

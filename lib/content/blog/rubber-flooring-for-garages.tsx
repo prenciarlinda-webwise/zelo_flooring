@@ -6,7 +6,13 @@ export default function RubberFlooringForGaragesContent() {
   return (
     <>
       <p>
-        <strong>A garage floor takes a different kind of abuse than the rest of the house.</strong> The bare slab already has hairline cracks from curing and years of temperature swings, there is probably an oil stain or two near where the car usually sits, and the floor gets asked to handle dropped tools, rolling tool chests, parked vehicles, and the occasional spilled can of paint or brake fluid. Hardwood and laminate are not options on a slab like that. Tile cracks along the same lines the concrete already has. Rubber flooring is one of the few materials built to go over an imperfect garage slab as it is, not after an expensive tear-out and re-pour.
+        <strong>A garage floor takes a different kind of abuse than the rest of the house.</strong>
+      </p>
+      <p>
+        Want a San Diego pro to handle it? <EstimateModalLink>Get a free estimate</EstimateModalLink> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>. Zelo Flooring is a licensed <Link href="/flooring-san-diego">San Diego flooring contractor</Link> offering <Link href="/rubber-flooring-san-diego">rubber floor installation in San Diego</Link>.
+      </p>
+      <p>
+        The bare slab already has hairline cracks from curing and years of temperature swings, there is probably an oil stain or two near where the car usually sits, and the floor gets asked to handle dropped tools, rolling tool chests, parked vehicles, and the occasional spilled can of paint or brake fluid. Hardwood and laminate are not options on a slab like that. Tile cracks along the same lines the concrete already has. Rubber flooring is one of the few materials built to go over an imperfect garage slab as it is, not after an expensive tear-out and re-pour.
       </p>
       <p>
         We install <Link href="/rubber-flooring-san-diego">rubber flooring for garages</Link> across San Diego County, in both interlocking tile and full rolled formats, and we also install <Link href="/vinyl-composition-tile-flooring-san-diego">VCT</Link> as a lower-cost alternative for garages that get used more like a workshop than a car park. This guide covers what rubber actually does for a cracked or stained slab, how to choose between tile and rolled rubber, whether it holds up under a parked car, and how the cost compares to an epoxy coating, which is a different category of product entirely and one we do not install.

@@ -6,7 +6,13 @@ export default function WoodLookTileVsHardwoodContent() {
   return (
     <>
       <p>
-        <strong>Wood look tile is porcelain made to resemble hardwood, and it is the better choice for bathrooms, entryways, and coastal homes where moisture is a factor.</strong> Real hardwood still wins on warmth underfoot and long-term resale value in dry, low-traffic rooms. The short version: pick wood look tile for wet rooms, high-traffic zones, and homes within a few miles of the coast. Pick real hardwood for living rooms, dining rooms, and bedrooms where feel and authenticity matter more than water resistance. We install both across San Diego County, with full pricing and product details on our <Link href="/tile-flooring-san-diego">tile flooring page</Link> and <Link href="/hardwood-flooring-san-diego">hardwood flooring page</Link>.
+        <strong>Wood look tile is porcelain made to resemble hardwood, and it is the better choice for bathrooms, entryways, and coastal homes where moisture is a factor.</strong>
+      </p>
+      <p>
+        Want a San Diego pro to handle it? <EstimateModalLink>Get a free estimate</EstimateModalLink> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>. Zelo Flooring is a licensed <Link href="/flooring-san-diego">San Diego flooring contractor</Link> offering <Link href="/tile-flooring-san-diego">tile flooring in San Diego</Link>.
+      </p>
+      <p>
+        Real hardwood still wins on warmth underfoot and long-term resale value in dry, low-traffic rooms. The short version: pick wood look tile for wet rooms, high-traffic zones, and homes within a few miles of the coast. Pick real hardwood for living rooms, dining rooms, and bedrooms where feel and authenticity matter more than water resistance. We install both across San Diego County, with full pricing and product details on our <Link href="/tile-flooring-san-diego">tile flooring page</Link> and <Link href="/hardwood-flooring-san-diego">hardwood flooring page</Link>.
       </p>
       <p>
         The <strong>wood look tile vs hardwood</strong> question comes up constantly in our consultations, especially with buyers who love the look of wood but do not want to worry about water damage. Modern porcelain printing has closed the visual gap significantly. This guide breaks down what wood look tile actually is, how it compares to real hardwood on every factor that matters, how to tell them apart once they are installed, and which one fits your rooms, your climate, and your budget.

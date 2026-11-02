@@ -6,7 +6,13 @@ export default function HowToCleanHardwoodFloorsContent() {
   return (
     <>
       <p>
-        <strong>Most hardwood floors are ruined slowly, not all at once.</strong> The wrong cleaner, a wet mop left standing too long, or a well-meaning weekly scrub with an all-purpose spray builds up a haze on the finish over months, and by the time it looks dull nobody remembers what caused it. Cleaning hardwood correctly is simple once you know the handful of things that actually damage the finish, starting with the cleaner sitting under most kitchen sinks.
+        <strong>Most hardwood floors are ruined slowly, not all at once.</strong>
+      </p>
+      <p>
+        Want a San Diego pro to handle it? <EstimateModalLink>Get a free estimate</EstimateModalLink> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>. Zelo Flooring is a licensed <Link href="/flooring-san-diego">San Diego flooring contractor</Link> offering <Link href="/hardwood-flooring-san-diego">hardwood flooring in San Diego</Link>.
+      </p>
+      <p>
+        The wrong cleaner, a wet mop left standing too long, or a well-meaning weekly scrub with an all-purpose spray builds up a haze on the finish over months, and by the time it looks dull nobody remembers what caused it. Cleaning hardwood correctly is simple once you know the handful of things that actually damage the finish, starting with the cleaner sitting under most kitchen sinks.
       </p>
       <p>
         We install and refinish <Link href="/hardwood-flooring-san-diego">solid and engineered hardwood</Link> across San Diego County, and the cleaning question we get asked most often is whether a household cleaner like Pine-Sol is safe to use. If the daily upkeep below sounds like more than you want to take on, <Link href="/vinyl-flooring-san-diego">luxury vinyl plank</Link> gets a similar wood look with a lot less maintenance.

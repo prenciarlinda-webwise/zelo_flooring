@@ -6,7 +6,13 @@ export default function RubberFlooringVsVctForCommercialSpacesContent() {
   return (
     <>
       <p>
-        <strong>Rubber and VCT are the two most common commercial resilient floors, and they solve different problems.</strong> VCT (Vinyl Composition Tile) is a hard, mineral-heavy tile built for rolling loads and low material cost. Rubber is a soft, impact-absorbing surface built for dropped weight, sound dampening, and slip resistance. For a hallway or classroom, that makes VCT the obvious pick. For a gym, weight room, or play area, it does not, and a surprising number of facility managers still spec the wrong one for the room.
+        <strong>Rubber and VCT are the two most common commercial resilient floors, and they solve different problems.</strong>
+      </p>
+      <p>
+        Want a San Diego pro to handle it? <EstimateModalLink>Get a free estimate</EstimateModalLink> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>. Zelo Flooring is a licensed <Link href="/flooring-san-diego">San Diego flooring contractor</Link> offering <Link href="/rubber-flooring-san-diego">rubber floor installation in San Diego</Link>.
+      </p>
+      <p>
+        VCT (Vinyl Composition Tile) is a hard, mineral-heavy tile built for rolling loads and low material cost. Rubber is a soft, impact-absorbing surface built for dropped weight, sound dampening, and slip resistance. For a hallway or classroom, that makes VCT the obvious pick. For a gym, weight room, or play area, it does not, and a surprising number of facility managers still spec the wrong one for the room.
       </p>
       <p>
         We install both <Link href="/rubber-flooring-san-diego">rubber flooring</Link> and <Link href="/vinyl-composition-tile-flooring-san-diego">VCT</Link> across San Diego County, often in the same building. This guide breaks down where each one wins on cost, maintenance, comfort, and safety, so you spec the right material for the room instead of using whichever one is already on the rest of the floor plan.

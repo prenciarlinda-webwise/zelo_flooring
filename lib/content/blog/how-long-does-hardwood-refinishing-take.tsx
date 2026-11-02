@@ -6,7 +6,13 @@ export default function HowLongDoesHardwoodRefinishingTakeContent() {
   return (
     <>
       <p>
-        <strong>Professional hardwood floor refinishing takes 3 to 5 days of active work for an average home.</strong> That covers sanding, staining, and applying the finish coats. The bigger number to plan around is cure time: you can usually walk on the floor in socks within 24 hours, but furniture should stay off for 3 to 7 days and area rugs for two to four weeks while the finish fully hardens. The exact timeline depends on the finish you choose, the size of the floor, and how many coats it needs. To book the work itself, see our <Link href="/hardwood-flooring-san-diego">hardwood floor refinishing in San Diego</Link> page.
+        <strong>Professional hardwood floor refinishing takes 3 to 5 days of active work for an average home.</strong>
+      </p>
+      <p>
+        Want a San Diego pro to handle it? <EstimateModalLink>Get a free estimate</EstimateModalLink> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>. Zelo Flooring is a licensed <Link href="/flooring-san-diego">San Diego flooring contractor</Link> offering <Link href="/hardwood-flooring-san-diego">hardwood flooring in San Diego</Link>.
+      </p>
+      <p>
+        That covers sanding, staining, and applying the finish coats. The bigger number to plan around is cure time: you can usually walk on the floor in socks within 24 hours, but furniture should stay off for 3 to 7 days and area rugs for two to four weeks while the finish fully hardens. The exact timeline depends on the finish you choose, the size of the floor, and how many coats it needs. To book the work itself, see our <Link href="/hardwood-flooring-san-diego">hardwood floor refinishing in San Diego</Link> page.
       </p>
       <p>
         Below is the full day-by-day timeline, what drives it longer or shorter, and the cure-time rules that decide when you can actually live on the floor again.

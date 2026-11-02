@@ -69,7 +69,7 @@ export const LOCATIONS: Location[] = [
   // ---------- MAIN ----------
   {
     slug: 'flooring-san-diego',
-    lastUpdated: '2026-09-13',
+    lastUpdated: '2026-11-01',
     city: 'San Diego',
     state: 'CA',
     type: 'main',
@@ -93,7 +93,7 @@ export const LOCATIONS: Location[] = [
     wikipediaUrl: 'https://en.wikipedia.org/wiki/San_Diego',
     metaTitle: 'Flooring San Diego',
     metaDescription:
-      'Flooring installation in San Diego, CA. Hardwood, vinyl plank, tile, carpet, laminate. Licensed CSLB #1083572. Free in-home estimate. Call +1 (619) 777-4334.',
+      'Licensed San Diego flooring contractors (CSLB #1083572) for carpet, vinyl, hardwood, laminate, tile, and rubber. Free in-home estimate. Call +1 (619) 777-4334.',
     primaryKeyword: 'flooring San Diego',
     secondaryKeywords: [
       'flooring installation San Diego',
@@ -929,7 +929,7 @@ export const LOCATIONS: Location[] = [
     wikipediaUrl: 'https://en.wikipedia.org/wiki/San_Marcos,_California',
     metaTitle: 'Flooring in San Marcos, CA',
     metaDescription:
-      'Flooring installation in San Marcos, CA. Vinyl plank, laminate, hardwood, and tile for hillside and master-planned homes. Licensed CSLB #1083572. Free in-home estimate. Call +1 (619) 777-4334.',
+      'Licensed San Marcos flooring installers. Waterproof luxury vinyl, laminate, hardwood, and tile. CSLB #1083572. Free in-home estimate. Call +1 (619) 777-4334.',
     primaryKeyword: 'flooring San Marcos',
     secondaryKeywords: ['flooring installation San Marcos', 'vinyl plank flooring San Marcos', 'San Marcos flooring contractor', 'hardwood flooring San Marcos', 'LVP San Marcos'],
     heroValueProp:

@@ -6,7 +6,13 @@ export default function BestCarpetForLivingRoomContent() {
   return (
     <>
       <p>
-        <strong>The best carpet for a living room is a mid-weight nylon or triexta in a frieze or patterned cut pile, with a face weight of 40 ounces or higher and a density rating of 2,000 or above.</strong> These fibers handle heavy foot traffic without matting, resist stains better than polyester, and come in styles that hide vacuum lines and everyday wear. If you have pets or kids, triexta (Mohawk SmartStrand) edges out nylon on stain resistance while matching it on durability. Wool is the luxury alternative for low-traffic, allergen-sensitive households.
+        <strong>The best carpet for a living room is a mid-weight nylon or triexta in a frieze or patterned cut pile, with a face weight of 40 ounces or higher and a density rating of 2,000 or above.</strong>
+      </p>
+      <p>
+        Want a San Diego pro to handle it? <EstimateModalLink>Get a free estimate</EstimateModalLink> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>. Zelo Flooring is a licensed <Link href="/flooring-san-diego">San Diego flooring contractor</Link> offering <Link href="/carpet-flooring-san-diego">carpet installation in San Diego</Link>.
+      </p>
+      <p>
+        These fibers handle heavy foot traffic without matting, resist stains better than polyester, and come in styles that hide vacuum lines and everyday wear. If you have pets or kids, triexta (Mohawk SmartStrand) edges out nylon on stain resistance while matching it on durability. Wool is the luxury alternative for low-traffic, allergen-sensitive households.
       </p>
       <p>
         We install carpet in living rooms across San Diego every week, and the fiber, pile, and density combination you choose matters more than the brand name on the label. Below we walk through every factor that goes into picking the <strong>best carpet for living room</strong> spaces so you can make a confident decision before your installer shows up with samples. For brands and sub-services, see our <Link href="/carpet-flooring-san-diego">San Diego carpet installation</Link> page; for pricing context, our <Link href="/blog/cost-to-install-carpet">2026 carpet installation cost guide</Link> breaks down what each fiber costs fully installed.

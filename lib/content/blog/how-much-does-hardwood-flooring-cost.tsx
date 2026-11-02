@@ -6,7 +6,13 @@ export default function HowMuchDoesHardwoodFlooringCostContent() {
   return (
     <>
       <p>
-        <strong>Hardwood flooring costs $8 to $20 per square foot installed in 2026</strong>, covering both material and labor. Engineered hardwood runs $6 to $18 per square foot depending on wear layer and species, while solid hardwood runs $8 to $20, with the top of that range reserved for wide-plank white oak, hickory, or exotic species like Brazilian cherry. A 1,500 square foot whole-home project typically lands between $12,750 and $27,000 fully installed.
+        <strong>Hardwood flooring costs $8 to $20 per square foot installed in 2026</strong>
+      </p>
+      <p>
+        Want a San Diego pro to handle it? <EstimateModalLink>Get a free estimate</EstimateModalLink> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>. Zelo Flooring is a licensed <Link href="/flooring-san-diego">San Diego flooring contractor</Link> offering <Link href="/hardwood-flooring-san-diego">hardwood flooring in San Diego</Link>.
+      </p>
+      <p>
+        , covering both material and labor. Engineered hardwood runs $6 to $18 per square foot depending on wear layer and species, while solid hardwood runs $8 to $20, with the top of that range reserved for wide-plank white oak, hickory, or exotic species like Brazilian cherry. A 1,500 square foot whole-home project typically lands between $12,750 and $27,000 fully installed.
       </p>
       <p>
         These numbers come from actual jobs we have priced and installed across San Diego County during 2025 and 2026. Below we break down solid vs engineered cost per square foot, labor vs material pricing, cost by wood species, cost by room, and when refinishing an existing floor beats a full replacement. For product options and how we quote a project, see our <Link href="/hardwood-flooring-san-diego">hardwood flooring San Diego</Link> service page.

@@ -6,7 +6,13 @@ export default function IsFreeFlooringInstallationRealContent() {
   return (
     <>
       <p>
-        <strong>No installation is ever actually free.</strong> When a store advertises free flooring installation, the labor cost gets folded into the price of the material instead of listed as a separate line item. A company still has to pay its installers, so a "free installation" floor at $4.50 per square foot is often the same total price as a $3.20 per square foot floor with a $1.30 per square foot installation charge listed honestly. The math is identical. Only the presentation changes.
+        <strong>No installation is ever actually free.</strong>
+      </p>
+      <p>
+        Want a San Diego pro to handle it? <EstimateModalLink>Get a free estimate</EstimateModalLink> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>. Zelo Flooring is a licensed <Link href="/flooring-san-diego">San Diego flooring contractor</Link> offering <Link href="/carpet-flooring-san-diego">carpet installation in San Diego</Link>.
+      </p>
+      <p>
+        When a store advertises free flooring installation, the labor cost gets folded into the price of the material instead of listed as a separate line item. A company still has to pay its installers, so a "free installation" floor at $4.50 per square foot is often the same total price as a $3.20 per square foot floor with a $1.30 per square foot installation charge listed honestly. The math is identical. Only the presentation changes.
       </p>
       <p>
         Flooring with free installation offers are one of the most common promotions in the industry, especially from big-box retailers and carpet warehouses. They are not necessarily a scam, but they are almost never the deal they appear to be at first glance. This guide breaks down exactly how these promotions work financially, what they typically leave out, and how to compare one against a transparent, itemized quote so you know what you are actually paying for.

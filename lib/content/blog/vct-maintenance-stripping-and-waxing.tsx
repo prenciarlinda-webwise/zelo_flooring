@@ -6,7 +6,13 @@ export default function VctMaintenanceStrippingAndWaxingContent() {
   return (
     <>
       <p>
-        <strong>Vinyl Composition Tile does not come out of the box protected.</strong> Every VCT floor needs an applied finish, a layer of acrylic floor wax, to seal the tile, add gloss, and take the wear that would otherwise scuff and stain the tile itself. That maintenance program, not the tile, is what decides whether a VCT floor still looks like new after 15 years or looks trashed after 3.
+        <strong>Vinyl Composition Tile does not come out of the box protected.</strong>
+      </p>
+      <p>
+        Want a San Diego pro to handle it? <EstimateModalLink>Get a free estimate</EstimateModalLink> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>. Zelo Flooring is a licensed <Link href="/flooring-san-diego">San Diego flooring contractor</Link> offering <Link href="/vinyl-composition-tile-flooring-san-diego">VCT flooring in San Diego</Link>.
+      </p>
+      <p>
+        Every VCT floor needs an applied finish, a layer of acrylic floor wax, to seal the tile, add gloss, and take the wear that would otherwise scuff and stain the tile itself. That maintenance program, not the tile, is what decides whether a VCT floor still looks like new after 15 years or looks trashed after 3.
       </p>
       <p>
         We install <Link href="/vinyl-composition-tile-flooring-san-diego">VCT flooring</Link> across San Diego County schools, hospitals, retail stores, and offices, and we get calls every month from facilities managers asking why a floor that is only 2 or 3 years old already looks dull, gray, or scuffed at the entrances. The answer is almost always the maintenance schedule, not the installation. This guide covers finish coat cycles, how often to strip and rewax by traffic level, the difference between buffing and a full strip, and what it actually costs when that maintenance gets skipped. If your building's foot traffic makes VCT a poor long-term fit at all, our <Link href="/rubber-flooring-san-diego">rubber flooring</Link> and <Link href="/vinyl-flooring-san-diego">waterproof LVP</Link> installs carry a much lower recurring maintenance load.

@@ -6,7 +6,13 @@ export default function LaminateFlooringThicknessContent() {
   return (
     <>
       <p>
-        <strong>Laminate flooring ranges from 6mm to 12mm thick, and 8mm to 12mm is the standard for residential use.</strong> Thickness is measured from the bottom of the board to the top of the core, not including any attached underlayment. Thicker laminate (10mm to 12mm) feels more solid underfoot, sounds quieter, and hides minor subfloor imperfections better, but thickness alone does not determine how scratch-resistant or durable the surface is. That job belongs to the AC wear rating, which is a separate spec people often confuse with thickness. For local product options, see our <Link href="/laminate-flooring-san-diego">laminate flooring installation in San Diego</Link> page.
+        <strong>Laminate flooring ranges from 6mm to 12mm thick, and 8mm to 12mm is the standard for residential use.</strong>
+      </p>
+      <p>
+        Want a San Diego pro to handle it? <EstimateModalLink>Get a free estimate</EstimateModalLink> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>. Zelo Flooring is a licensed <Link href="/flooring-san-diego">San Diego flooring contractor</Link> offering <Link href="/laminate-flooring-san-diego">laminate flooring in San Diego</Link>.
+      </p>
+      <p>
+        Thickness is measured from the bottom of the board to the top of the core, not including any attached underlayment. Thicker laminate (10mm to 12mm) feels more solid underfoot, sounds quieter, and hides minor subfloor imperfections better, but thickness alone does not determine how scratch-resistant or durable the surface is. That job belongs to the AC wear rating, which is a separate spec people often confuse with thickness. For local product options, see our <Link href="/laminate-flooring-san-diego">laminate flooring installation in San Diego</Link> page.
       </p>
       <p>
         Below we break down what each thickness is actually for, why thicker is not automatically better, how the AC wear rating works, and how to pick the right combination for your room.

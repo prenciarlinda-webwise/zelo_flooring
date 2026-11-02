@@ -6,7 +6,13 @@ export default function BathroomFloorTileIdeasContent() {
   return (
     <>
       <p>
-        <strong>The right bathroom floor tile idea depends on three things: the size of the room, the finish sheen, and your budget per square foot, not just the tile you like in a showroom photo.</strong> A large-format porcelain tile that looks great in a 200 square foot primary bathroom can make a 40 square foot powder room feel like a hallway if the layout and grout lines are not planned around the smaller footprint. This guide breaks down real tile ideas by style, size, and price, with the specific formats, finishes, and layouts that hold up in San Diego's bathrooms.
+        <strong>The right bathroom floor tile idea depends on three things: the size of the room, the finish sheen, and your budget per square foot, not just the tile you like in a showroom photo.</strong>
+      </p>
+      <p>
+        Want a San Diego pro to handle it? <EstimateModalLink>Get a free estimate</EstimateModalLink> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>. Zelo Flooring is a licensed <Link href="/flooring-san-diego">San Diego flooring contractor</Link> offering <Link href="/tile-flooring-san-diego">tile flooring in San Diego</Link>.
+      </p>
+      <p>
+        A large-format porcelain tile that looks great in a 200 square foot primary bathroom can make a 40 square foot powder room feel like a hallway if the layout and grout lines are not planned around the smaller footprint. This guide breaks down real tile ideas by style, size, and price, with the specific formats, finishes, and layouts that hold up in San Diego's bathrooms.
       </p>
       <p>
         We install <Link href="/tile-flooring-san-diego">porcelain, ceramic, and natural stone tile</Link> in bathrooms across San Diego County, and most of the design questions we get on an in-home estimate are variations on the same handful of choices covered here: large-format versus mosaic, matte versus glossy, and how to make a small bathroom read bigger without spending more per square foot. If your bathroom also needs new subfloor prep or waterproofing, our <Link href="/blog/bathroom-flooring-installation">bathroom flooring installation guide</Link> covers that process in detail.

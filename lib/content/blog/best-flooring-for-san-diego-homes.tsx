@@ -6,7 +6,13 @@ export default function BestFlooringForSanDiegoHomesContent() {
   return (
     <>
       <p>
-        <strong>The best flooring for most San Diego homes is rigid-core luxury vinyl plank (LVP) or engineered hardwood.</strong> Both handle the two things that define flooring here: concrete slab foundations and coastal humidity. Rigid-core LVP is the top all-round pick because it is 100% waterproof, stable on slab, and tough with kids and pets. Engineered hardwood is the best choice when you want real wood, since it resists the cupping that ruins solid hardwood near the coast. Tile wins in wet areas, and carpet still makes sense in bedrooms. For an overview of every option installed locally, see our <Link href="/flooring-san-diego">flooring San Diego</Link> page.
+        <strong>The best flooring for most San Diego homes is rigid-core luxury vinyl plank (LVP) or engineered hardwood.</strong>
+      </p>
+      <p>
+        Want a San Diego pro to handle it? <EstimateModalLink>Get a free estimate</EstimateModalLink> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>. Zelo Flooring is a licensed <Link href="/flooring-san-diego">San Diego flooring contractor</Link> offering <Link href="/vinyl-flooring-san-diego">vinyl plank flooring in San Diego</Link>.
+      </p>
+      <p>
+        Both handle the two things that define flooring here: concrete slab foundations and coastal humidity. Rigid-core LVP is the top all-round pick because it is 100% waterproof, stable on slab, and tough with kids and pets. Engineered hardwood is the best choice when you want real wood, since it resists the cupping that ruins solid hardwood near the coast. Tile wins in wet areas, and carpet still makes sense in bedrooms. For an overview of every option installed locally, see our <Link href="/flooring-san-diego">flooring San Diego</Link> page.
       </p>
       <p>
         Below we explain what makes San Diego floors different, then give the best pick by goal (waterproof, budget, resale, pets), by area (coastal vs inland), and by room.

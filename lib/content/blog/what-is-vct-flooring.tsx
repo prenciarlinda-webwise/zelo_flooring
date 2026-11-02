@@ -6,7 +6,13 @@ export default function WhatIsVctFlooringContent() {
   return (
     <>
       <p>
-        <strong>VCT, short for vinyl composition tile, is a resilient floor tile built mostly from ground limestone bound together with vinyl resin, plasticizer, and pigment, then pressed into thin, dense squares under heat.</strong> It is not the same product as luxury vinyl plank or sheet vinyl, even though all three get lumped together as "vinyl flooring" in everyday conversation. VCT is harder, more mineral than plastic, cheaper per square foot than almost anything else on the market, and built for a completely different kind of traffic than a residential living room typically sees.
+        <strong>VCT, short for vinyl composition tile, is a resilient floor tile built mostly from ground limestone bound together with vinyl resin, plasticizer, and pigment, then pressed into thin, dense squares under heat.</strong>
+      </p>
+      <p>
+        Want a San Diego pro to handle it? <EstimateModalLink>Get a free estimate</EstimateModalLink> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>. Zelo Flooring is a licensed <Link href="/flooring-san-diego">San Diego flooring contractor</Link> offering <Link href="/vinyl-composition-tile-flooring-san-diego">VCT flooring in San Diego</Link>.
+      </p>
+      <p>
+        It is not the same product as luxury vinyl plank or sheet vinyl, even though all three get lumped together as "vinyl flooring" in everyday conversation. VCT is harder, more mineral than plastic, cheaper per square foot than almost anything else on the market, and built for a completely different kind of traffic than a residential living room typically sees.
       </p>
       <p>
         We install <Link href="/vinyl-composition-tile-flooring-san-diego">VCT flooring</Link> across San Diego County for garages, workshops, home gyms, and light commercial spaces, and we install <Link href="/rubber-flooring-san-diego">rubber flooring</Link> and <Link href="/tile-flooring-san-diego">tile</Link> for many of the same use cases depending on the traffic and budget. This guide explains what VCT actually is, why schools and hospitals rely on it, what the strip-and-wax maintenance cycle really involves, whether older tile might contain asbestos, and what VCT costs installed.

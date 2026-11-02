@@ -6,7 +6,13 @@ export default function HowMuchDoesLaminateFlooringCostContent() {
   return (
     <>
       <p>
-        <strong>The average cost to install laminate flooring in 2026 runs $2.50 to $8.00 per square foot</strong>, covering materials and professional labor combined. Most San Diego homeowners land between $3.50 and $5.50 per square foot for a mid-grade AC3 or AC4 product in 8mm to 10mm thickness. Budget 6mm laminate with a basic AC2 rating starts near $2.50 per square foot installed, while thick, waterproof, commercial-grade AC5 laminate can run $7 to $8 per square foot. For local product options and installed pricing, see our <Link href="/laminate-flooring-san-diego">laminate flooring installation in San Diego</Link> service page.
+        <strong>The average cost to install laminate flooring in 2026 runs $2.50 to $8.00 per square foot</strong>
+      </p>
+      <p>
+        Want a San Diego pro to handle it? <EstimateModalLink>Get a free estimate</EstimateModalLink> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>. Zelo Flooring is a licensed <Link href="/flooring-san-diego">San Diego flooring contractor</Link> offering <Link href="/laminate-flooring-san-diego">laminate flooring in San Diego</Link>.
+      </p>
+      <p>
+        , covering materials and professional labor combined. Most San Diego homeowners land between $3.50 and $5.50 per square foot for a mid-grade AC3 or AC4 product in 8mm to 10mm thickness. Budget 6mm laminate with a basic AC2 rating starts near $2.50 per square foot installed, while thick, waterproof, commercial-grade AC5 laminate can run $7 to $8 per square foot. For local product options and installed pricing, see our <Link href="/laminate-flooring-san-diego">laminate flooring installation in San Diego</Link> service page.
       </p>
       <p>
         These figures come from real laminate jobs we have quoted and installed across San Diego County in 2025 and 2026, from inland slab homes in <Link href="/flooring-poway">Poway</Link> to coastal properties near <Link href="/flooring-la-jolla">La Jolla</Link>. Below, we break down what actually drives the <strong>cost to install laminate flooring</strong>, including price by AC wear rating, price by thickness, waterproof vs standard laminate, labor cost per square foot, and real room-by-room totals so you can budget accurately before we come out for a free estimate.

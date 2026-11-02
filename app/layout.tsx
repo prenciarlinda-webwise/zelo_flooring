@@ -75,7 +75,7 @@ const businessGraph = {
       name: SITE.name,
       image: `${SITE.url}/zelo-flooring-logo.png`,
       logo: `${SITE.url}/zelo-flooring-logo.png`,
-      telephone: SITE.phone,
+      telephone: SITE.phoneRaw,
       url: SITE.url,
       address: {
         '@type': 'PostalAddress',
@@ -117,6 +117,13 @@ const businessGraph = {
         givenName: SITE.owner.givenName,
         jobTitle: SITE.owner.jobTitle,
         worksFor: { '@id': `${SITE.url}/#business` },
+        knowsAbout: [
+          'rubber flooring installation',
+          'carpet installation',
+          'luxury vinyl plank installation',
+          'hardwood flooring installation',
+          'tile flooring installation',
+        ],
         hasCredential: {
           '@type': 'EducationalOccupationalCredential',
           credentialCategory: 'license',
@@ -148,7 +155,7 @@ const businessGraph = {
       ...(SITE.awards.length > 0 ? { award: SITE.awards } : {}),
       contactPoint: {
         '@type': 'ContactPoint',
-        telephone: SITE.phone,
+        telephone: SITE.phoneRaw,
         contactType: 'customer service',
         areaServed: 'US-CA',
         availableLanguage: ['English'],

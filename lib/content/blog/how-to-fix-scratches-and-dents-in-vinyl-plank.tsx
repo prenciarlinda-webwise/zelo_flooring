@@ -6,7 +6,13 @@ export default function HowToFixScratchesAndDentsInVinylPlankContent() {
   return (
     <>
       <p>
-        <strong>Vinyl plank is one of the most scratch-resistant floors you can buy, but it is not scratch-proof.</strong> A dragged chair, a dropped cast-iron pan, or a dog's nails digging in on a wet floor will still mark the surface. The good news is that most damage is fixable without replacing the whole room. Light scratches buff out with a color-matched repair kit in about 15 minutes. Deeper gouges and dents usually mean swapping one plank, not the entire floor.
+        <strong>Vinyl plank is one of the most scratch-resistant floors you can buy, but it is not scratch-proof.</strong>
+      </p>
+      <p>
+        Want a San Diego pro to handle it? <EstimateModalLink>Get a free estimate</EstimateModalLink> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>. Zelo Flooring is a licensed <Link href="/flooring-san-diego">San Diego flooring contractor</Link> offering <Link href="/vinyl-flooring-san-diego">vinyl plank flooring in San Diego</Link>.
+      </p>
+      <p>
+        A dragged chair, a dropped cast-iron pan, or a dog's nails digging in on a wet floor will still mark the surface. The good news is that most damage is fixable without replacing the whole room. Light scratches buff out with a color-matched repair kit in about 15 minutes. Deeper gouges and dents usually mean swapping one plank, not the entire floor.
       </p>
       <p>
         We install and repair <Link href="/vinyl-flooring-san-diego">luxury vinyl plank flooring</Link> across San Diego County, including homes in <Link href="/flooring-encinitas">Encinitas</Link> and <Link href="/flooring-coronado">Coronado</Link> where beach sand and salt air work their way into the house and accelerate surface wear on any hard floor, vinyl included. This guide covers exactly how to fix scratches and dents yourself, when a plank swap is the right call, and when the damage means the floor has to go.

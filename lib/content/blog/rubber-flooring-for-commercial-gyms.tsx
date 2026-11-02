@@ -6,7 +6,13 @@ export default function RubberFlooringForCommercialGymsContent() {
   return (
     <>
       <p>
-        <strong>Commercial gym flooring is not one product spread wall to wall, it is several zones, each spec'd to what happens on it.</strong> A cardio floor, a free-weight area, and a locker room all take different abuse, and treating them the same either overspends on the cardio zone or underspends on the platform zone, where the real damage happens. We build <Link href="/rubber-flooring-san-diego">commercial rubber flooring</Link> buildouts across San Diego for gym owners, general contractors, and facility managers who need the floor matched to the equipment going on top of it.
+        <strong>Commercial gym flooring is not one product spread wall to wall, it is several zones, each spec'd to what happens on it.</strong>
+      </p>
+      <p>
+        Want a San Diego pro to handle it? <EstimateModalLink>Get a free estimate</EstimateModalLink> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>. Zelo Flooring is a licensed <Link href="/flooring-san-diego">San Diego flooring contractor</Link> offering <Link href="/rubber-flooring-san-diego">rubber floor installation in San Diego</Link>.
+      </p>
+      <p>
+        A cardio floor, a free-weight area, and a locker room all take different abuse, and treating them the same either overspends on the cardio zone or underspends on the platform zone, where the real damage happens. We build <Link href="/rubber-flooring-san-diego">commercial rubber flooring</Link> buildouts across San Diego for gym owners, general contractors, and facility managers who need the floor matched to the equipment going on top of it.
       </p>
       <p>
         This guide covers how a commercial gym buildout is actually zoned, rolled rubber versus tile with heat-welded seams for high-traffic commercial use, how the major product lines compare, real cost per square foot, and how we schedule a buildout around a gym that needs to stay open.

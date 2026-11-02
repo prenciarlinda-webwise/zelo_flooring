@@ -6,7 +6,13 @@ export default function PrefinishedVsSiteFinishedHardwoodContent() {
   return (
     <>
       <p>
-        <strong>Prefinished hardwood is factory-sanded, stained, and sealed before it ever reaches your house, so installation is faster, cleaner, and the finish is more durable out of the box.</strong> Site-finished hardwood is installed as raw wood, then sanded and finished in place, which produces a perfectly flat, seamless surface with zero bevels and lets you match stain color exactly to existing floors or trim.
+        <strong>Prefinished hardwood is factory-sanded, stained, and sealed before it ever reaches your house, so installation is faster, cleaner, and the finish is more durable out of the box.</strong>
+      </p>
+      <p>
+        Want a San Diego pro to handle it? <EstimateModalLink>Get a free estimate</EstimateModalLink> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>. Zelo Flooring is a licensed <Link href="/flooring-san-diego">San Diego flooring contractor</Link> offering <Link href="/hardwood-flooring-san-diego">hardwood flooring in San Diego</Link>.
+      </p>
+      <p>
+        Site-finished hardwood is installed as raw wood, then sanded and finished in place, which produces a perfectly flat, seamless surface with zero bevels and lets you match stain color exactly to existing floors or trim.
       </p>
       <p>
         Both are real wood and both last decades with normal care. The right pick depends on your timeline, whether you are matching an existing floor, and whether you can tolerate a few days of sanding dust and odor. We install both types across San Diego County, including full <Link href="/hardwood-flooring-san-diego">hardwood flooring installations</Link> and whole-home projects that also mix in <Link href="/vinyl-flooring-san-diego">waterproof LVP</Link> for kitchens and bathrooms. This guide breaks down the durability, cost, timeline, and look differences so you can decide which one fits your project.

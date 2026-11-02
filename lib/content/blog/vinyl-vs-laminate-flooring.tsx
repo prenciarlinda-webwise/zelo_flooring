@@ -6,7 +6,13 @@ export default function VinylVsLaminateFlooringContent() {
   return (
     <>
       <p>
-        <strong>Vinyl plank is waterproof and better for kitchens, bathrooms, and homes with pets, while laminate is harder underfoot, has a more authentic wood texture, and usually costs a little less.</strong> Both are floating floors that look like wood and install over most subfloors. The deciding factor is water: luxury vinyl plank (LVP) has a 100% waterproof core, while laminate has a wood-fiber core that swells if water sits on it. Choose vinyl for wet and high-traffic areas, and laminate for dry living spaces where you want a firmer feel for less money. See our <Link href="/vinyl-flooring-san-diego">vinyl plank</Link> and <Link href="/laminate-flooring-san-diego">laminate flooring</Link> service pages for what we install locally.
+        <strong>Vinyl plank is waterproof and better for kitchens, bathrooms, and homes with pets, while laminate is harder underfoot, has a more authentic wood texture, and usually costs a little less.</strong>
+      </p>
+      <p>
+        Want a San Diego pro to handle it? <EstimateModalLink>Get a free estimate</EstimateModalLink> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>. Zelo Flooring is a licensed <Link href="/flooring-san-diego">San Diego flooring contractor</Link> offering <Link href="/vinyl-flooring-san-diego">vinyl plank flooring in San Diego</Link>.
+      </p>
+      <p>
+        Both are floating floors that look like wood and install over most subfloors. The deciding factor is water: luxury vinyl plank (LVP) has a 100% waterproof core, while laminate has a wood-fiber core that swells if water sits on it. Choose vinyl for wet and high-traffic areas, and laminate for dry living spaces where you want a firmer feel for less money. See our <Link href="/vinyl-flooring-san-diego">vinyl plank</Link> and <Link href="/laminate-flooring-san-diego">laminate flooring</Link> service pages for what we install locally.
       </p>
 
       <div className="callout-box info">

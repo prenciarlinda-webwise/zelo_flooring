@@ -6,7 +6,13 @@ export default function HowToCleanLuxuryVinylPlankFlooringContent() {
   return (
     <>
       <p>
-        <strong>To clean luxury vinyl plank (LVP) flooring, sweep or vacuum regularly, then damp mop with a pH-neutral floor cleaner or a mix of one cup of white vinegar per gallon of warm water.</strong> Wring the mop nearly dry, since LVP is waterproof on top but standing water can seep into the seams over time. Avoid steam mops, wax, polish, abrasive pads, and harsh chemicals, all of which damage the wear layer or leave a haze. Done right, LVP is one of the lowest-maintenance floors you can own. See our <Link href="/vinyl-flooring-san-diego">vinyl plank flooring</Link> page for the products we install.
+        <strong>To clean luxury vinyl plank (LVP) flooring, sweep or vacuum regularly, then damp mop with a pH-neutral floor cleaner or a mix of one cup of white vinegar per gallon of warm water.</strong>
+      </p>
+      <p>
+        Want a San Diego pro to handle it? <EstimateModalLink>Get a free estimate</EstimateModalLink> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>. Zelo Flooring is a licensed <Link href="/flooring-san-diego">San Diego flooring contractor</Link> offering <Link href="/vinyl-flooring-san-diego">vinyl plank flooring in San Diego</Link>.
+      </p>
+      <p>
+        Wring the mop nearly dry, since LVP is waterproof on top but standing water can seep into the seams over time. Avoid steam mops, wax, polish, abrasive pads, and harsh chemicals, all of which damage the wear layer or leave a haze. Done right, LVP is one of the lowest-maintenance floors you can own. See the products we install on our <Link href="/vinyl-flooring-san-diego">vinyl plank flooring San Diego</Link> page.
       </p>
 
       <div className="callout-box info">

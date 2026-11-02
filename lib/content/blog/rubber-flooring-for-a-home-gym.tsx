@@ -6,7 +6,13 @@ export default function RubberFlooringForAHomeGymContent() {
   return (
     <>
       <p>
-        <strong>A home gym takes abuse no other room in the house does.</strong> Dumbbells get dropped, loaded barbells get set down hundreds of times a week, cardio machines vibrate for an hour at a stretch, and sweat hits the floor daily. Hardwood dents permanently under a dropped 45 lb plate. Tile cracks. Laminate chips at the seams. Carpet holds odor and does not survive burpees or rack pulls. Rubber is the one material built to take all of it and still look the same five years in.
+        <strong>A home gym takes abuse no other room in the house does.</strong>
+      </p>
+      <p>
+        Want a San Diego pro to handle it? <EstimateModalLink>Get a free estimate</EstimateModalLink> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>. Zelo Flooring is a licensed <Link href="/flooring-san-diego">San Diego flooring contractor</Link> offering <Link href="/rubber-flooring-san-diego">rubber floor installation in San Diego</Link>.
+      </p>
+      <p>
+        Dumbbells get dropped, loaded barbells get set down hundreds of times a week, cardio machines vibrate for an hour at a stretch, and sweat hits the floor daily. Hardwood dents permanently under a dropped 45 lb plate. Tile cracks. Laminate chips at the seams. Carpet holds odor and does not survive burpees or rack pulls. Rubber is the one material built to take all of it and still look the same five years in.
       </p>
       <p>
         We install <Link href="/rubber-flooring-san-diego">rubber flooring for home gyms</Link> across San Diego County, matching thickness and product to how you actually train rather than selling one thickness to everyone. If you are updating floors elsewhere in the house at the same time, we also handle <Link href="/vinyl-flooring-san-diego">waterproof LVP</Link> and every other flooring type in the same visit. This guide covers thickness by activity, rolled rubber versus interlocking tile, the smell question nobody mentions until move-in day, and how to prep a cracked garage slab before rubber goes down.

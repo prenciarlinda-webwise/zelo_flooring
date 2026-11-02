@@ -6,7 +6,13 @@ export default function FlooringDesignIdeasByRoomContent() {
   return (
     <>
       <p>
-        <strong>Good flooring design starts with picking the right material for each room, then layering in a finish and color that matches how the space is used.</strong> The entryway needs a durable, design-forward surface that survives sand and shoes, while a primary bedroom can prioritize warmth underfoot over water resistance. We install and design around <Link href="/hardwood-flooring-san-diego">hardwood</Link> and <Link href="/vinyl-flooring-san-diego">luxury vinyl plank</Link> across San Diego County, and the room-by-room breakdown below is the same one we walk clients through during an in-home estimate.
+        <strong>Good flooring design starts with picking the right material for each room, then layering in a finish and color that matches how the space is used.</strong>
+      </p>
+      <p>
+        Want a San Diego pro to handle it? <EstimateModalLink>Get a free estimate</EstimateModalLink> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>. Zelo Flooring is a licensed <Link href="/flooring-san-diego">San Diego flooring contractor</Link> offering <Link href="/vinyl-flooring-san-diego">vinyl plank flooring in San Diego</Link>.
+      </p>
+      <p>
+        The entryway needs a durable, design-forward surface that survives sand and shoes, while a primary bedroom can prioritize warmth underfoot over water resistance. We install and design around <Link href="/hardwood-flooring-san-diego">hardwood</Link> and <Link href="/vinyl-flooring-san-diego">luxury vinyl plank</Link> across San Diego County, and the room-by-room breakdown below is the same one we walk clients through during an in-home estimate.
       </p>
       <p>
         Flooring design is not just about picking a color you like in a showroom. The plank width, finish sheen, grout color, and transition strategy between rooms all affect how a home reads as a whole. A custom flooring plan accounts for how light moves through the house, which rooms see water or sand, and where you want a visual break versus a seamless flow from room to room. This guide covers the six areas homeowners ask about most, plus the specific trends shaping 2026 flooring design.

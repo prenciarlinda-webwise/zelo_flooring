@@ -6,7 +6,13 @@ export default function CorkFlooringMaintenanceAndCleaningContent() {
   return (
     <>
       <p>
-        <strong>Cork flooring needs less upkeep than hardwood and a bit more attention than tile, mostly around water and direct sun.</strong> Sweep or vacuum it several times a week, damp mop it (never soak it), keep it out of unfiltered sun for hours at a stretch, and recoat the factory finish every 3 to 5 years. Do those four things and a cork floor routinely lasts 25 to 40 years. Skip them and the finish wears through in patches, the color shifts unevenly, or water works into the seams and swells the planks.
+        <strong>Cork flooring needs less upkeep than hardwood and a bit more attention than tile, mostly around water and direct sun.</strong>
+      </p>
+      <p>
+        Want a San Diego pro to handle it? <EstimateModalLink>Get a free estimate</EstimateModalLink> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>. Zelo Flooring is a licensed <Link href="/flooring-san-diego">San Diego flooring contractor</Link> offering <Link href="/cork-flooring-san-diego">cork flooring in San Diego</Link>.
+      </p>
+      <p>
+        Sweep or vacuum it several times a week, damp mop it (never soak it), keep it out of unfiltered sun for hours at a stretch, and recoat the factory finish every 3 to 5 years. Do those four things and a cork floor routinely lasts 25 to 40 years. Skip them and the finish wears through in patches, the color shifts unevenly, or water works into the seams and swells the planks.
       </p>
       <p>
         We install and refinish <Link href="/cork-flooring-san-diego">cork flooring</Link> across San Diego County, and most of the calls we get about a cork floor "failing" trace back to maintenance, not the material itself. This guide covers the cleaning routine that actually works, how often to reseal, how to stop UV fading near San Diego's big view windows, whether cork holds up with pets, and when a worn cork floor should be refinished instead of torn out and replaced with <Link href="/hardwood-flooring-san-diego">hardwood</Link> or <Link href="/laminate-flooring-san-diego">laminate</Link>.

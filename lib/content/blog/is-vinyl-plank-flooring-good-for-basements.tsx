@@ -6,7 +6,13 @@ export default function IsVinylPlankFlooringGoodForBasementsContent() {
   return (
     <>
       <p>
-        <strong>Vinyl plank flooring is one of the few materials we install below grade without hesitation, but a basement is not a normal room.</strong> The concrete slab under a basement sits against soil that holds groundwater, humidity runs 60 to 70 percent even in dry San Diego weather, and the slab itself can push moisture vapor upward for years after it was poured. Get the prep wrong and even a fully waterproof plank will fail from underneath, not on top.
+        <strong>Vinyl plank flooring is one of the few materials we install below grade without hesitation, but a basement is not a normal room.</strong>
+      </p>
+      <p>
+        Want a San Diego pro to handle it? <EstimateModalLink>Get a free estimate</EstimateModalLink> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>. Zelo Flooring is a licensed <Link href="/flooring-san-diego">San Diego flooring contractor</Link> offering <Link href="/vinyl-flooring-san-diego">vinyl plank flooring in San Diego</Link>.
+      </p>
+      <p>
+        The concrete slab under a basement sits against soil that holds groundwater, humidity runs 60 to 70 percent even in dry San Diego weather, and the slab itself can push moisture vapor upward for years after it was poured. Get the prep wrong and even a fully waterproof plank will fail from underneath, not on top.
       </p>
       <p>
         We install <Link href="/vinyl-flooring-san-diego">rigid-core luxury vinyl plank</Link> in basements, converted garages, and below-grade bonus rooms across San Diego County, and we test every slab for moisture before recommending floating or glue-down installation. This guide covers what actually makes vinyl plank basement-safe, when you need a vapor barrier, how to choose between floating and glue-down, and how to deal with the cold floor feel that comes standard with any below-grade slab.

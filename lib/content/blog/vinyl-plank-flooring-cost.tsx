@@ -6,7 +6,13 @@ export default function VinylPlankFlooringCostContent() {
   return (
     <>
       <p>
-        <strong>The average cost to install vinyl plank flooring in 2026 is $4 to $9 per square foot</strong> for materials and professional labor combined, with premium products and thicker SPC rigid-core lines pushing toward $10 to $16 per square foot installed. A standard 200-square-foot room runs $800 to $1,800 fully installed; a whole-home LVP project covering 1,500 square feet averages $6,000 to $13,500 depending on product type, subfloor condition, and job complexity. For local pricing, brand details, and how we quote, see our <Link href="/vinyl-flooring-san-diego">vinyl plank flooring in San Diego</Link> service page.
+        <strong>The average cost to install vinyl plank flooring in 2026 is $4 to $9 per square foot</strong>
+      </p>
+      <p>
+        Want a San Diego pro to handle it? <EstimateModalLink>Get a free estimate</EstimateModalLink> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>. Zelo Flooring is a licensed <Link href="/flooring-san-diego">San Diego flooring contractor</Link> offering <Link href="/vinyl-flooring-san-diego">vinyl plank flooring in San Diego</Link>.
+      </p>
+      <p>
+        for materials and professional labor combined, with premium products and thicker SPC rigid-core lines pushing toward $10 to $16 per square foot installed. A standard 200-square-foot room runs $800 to $1,800 fully installed; a whole-home LVP project covering 1,500 square feet averages $6,000 to $13,500 depending on product type, subfloor condition, and job complexity. For local pricing, brand details, and how we quote, see our <Link href="/vinyl-flooring-san-diego">vinyl plank flooring in San Diego</Link> service page.
       </p>
       <p>
         These numbers come from real projects we have completed during 2025 and 2026. Below, we break down everything that goes into the <strong>cost to install vinyl plank flooring</strong>, including labor cost per square foot, SPC vs WPC pricing, room-by-room totals (kitchen, bathroom, living room), what is included in a typical estimate, and the hidden costs that catch homeowners off guard.

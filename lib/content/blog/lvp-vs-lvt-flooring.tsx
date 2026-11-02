@@ -6,7 +6,13 @@ export default function LvpVsLvtFlooringContent() {
   return (
     <>
       <p>
-        <strong>LVP and LVT are cut from the same vinyl core, the difference is the shape they come in.</strong> LVP (luxury vinyl plank) is milled into long rectangular boards that mimic hardwood strips. LVT (luxury vinyl tile) is milled into square or rectangular tiles that mimic ceramic, porcelain, or natural stone, and it is the format that gives homeowners the option of a real grout line. Both are the same wear layer, the same core technology, and the same waterproof performance. The only thing that changes is what shape it is cut into and how it gets laid on the floor.
+        <strong>LVP and LVT are cut from the same vinyl core, the difference is the shape they come in.</strong>
+      </p>
+      <p>
+        Want a San Diego pro to handle it? <EstimateModalLink>Get a free estimate</EstimateModalLink> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>. Zelo Flooring is a licensed <Link href="/flooring-san-diego">San Diego flooring contractor</Link> offering <Link href="/vinyl-flooring-san-diego">vinyl plank flooring in San Diego</Link>.
+      </p>
+      <p>
+        LVP (luxury vinyl plank) is milled into long rectangular boards that mimic hardwood strips. LVT (luxury vinyl tile) is milled into square or rectangular tiles that mimic ceramic, porcelain, or natural stone, and it is the format that gives homeowners the option of a real grout line. Both are the same wear layer, the same core technology, and the same waterproof performance. The only thing that changes is what shape it is cut into and how it gets laid on the floor.
       </p>
       <p>
         We install both formats across San Diego County as part of our <Link href="/vinyl-flooring-san-diego">luxury vinyl plank flooring</Link> service, and we also install porcelain and stone <Link href="/tile-flooring-san-diego">tile flooring</Link> when a client wants the real thing instead of a vinyl look-alike. This guide breaks down exactly how LVP and LVT differ in format, grout-line options, installation pattern, and cost, so you can tell a sales rep which one you actually want instead of getting talked into whichever one they have more of in stock.

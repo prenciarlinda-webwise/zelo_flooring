@@ -6,7 +6,13 @@ export default function JankaHardnessChartForHardwoodFlooringContent() {
   return (
     <>
       <p>
-        <strong>The Janka hardness scale ranks wood species by how much force it takes to press a small steel ball halfway into the surface, and it is the number most homeowners actually mean when they ask which hardwood is "toughest."</strong> Brazilian walnut tops the common flooring list at 3,680 lbf, hickory leads the domestic species at 1,820 lbf, and American black walnut sits near the bottom of the popular choices at 1,010 lbf. Those numbers matter, but they only tell part of the durability story.
+        <strong>The Janka hardness scale ranks wood species by how much force it takes to press a small steel ball halfway into the surface, and it is the number most homeowners actually mean when they ask which hardwood is "toughest."</strong>
+      </p>
+      <p>
+        Want a San Diego pro to handle it? <EstimateModalLink>Get a free estimate</EstimateModalLink> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>. Zelo Flooring is a licensed <Link href="/flooring-san-diego">San Diego flooring contractor</Link> offering <Link href="/hardwood-flooring-san-diego">hardwood flooring in San Diego</Link>.
+      </p>
+      <p>
+        Brazilian walnut tops the common flooring list at 3,680 lbf, hickory leads the domestic species at 1,820 lbf, and American black walnut sits near the bottom of the popular choices at 1,010 lbf. Those numbers matter, but they only tell part of the durability story.
       </p>
       <p>
         We install and refinish <Link href="/hardwood-flooring-san-diego">solid and engineered hardwood</Link> across San Diego County, and species hardness is one of the first questions we walk through with clients choosing between oak, hickory, maple, and walnut. This guide breaks down the full Janka chart for common flooring species, what the rating actually predicts (and does not), and how to pick a species based on your household rather than just the biggest number on the chart. If wood is not the right fit for your subfloor or budget, our <Link href="/vinyl-flooring-san-diego">luxury vinyl plank</Link> guide covers a harder-wearing alternative.

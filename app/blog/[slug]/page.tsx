@@ -22,7 +22,6 @@ import HowLongDoesHardwoodRefinishingTakeContent from '@/lib/content/blog/how-lo
 import BestFlooringForSanDiegoHomesContent from '@/lib/content/blog/best-flooring-for-san-diego-homes';
 import VinylVsLaminateFlooringContent from '@/lib/content/blog/vinyl-vs-laminate-flooring';
 import HowToInstallVinylPlankFlooringContent from '@/lib/content/blog/how-to-install-vinyl-plank-flooring';
-import LvpVsEngineeredHardwoodContent from '@/lib/content/blog/lvp-vs-engineered-hardwood';
 import TypesOfHardwoodFlooringContent from '@/lib/content/blog/types-of-hardwood-flooring';
 import LowPileVsHighPileCarpetContent from '@/lib/content/blog/low-pile-vs-high-pile-carpet';
 import HowToCleanLuxuryVinylPlankFlooringContent from '@/lib/content/blog/how-to-clean-luxury-vinyl-plank-flooring';
@@ -77,7 +76,6 @@ import RoofLeakWaterDamageToFloorsContent from '@/lib/content/blog/roof-leak-wat
 import PaintBeforeOrAfterFlooringContent from '@/lib/content/blog/paint-before-or-after-flooring';
 
 const CONTENT_MAP: Record<string, React.FC> = {
-  'lvp-vs-engineered-hardwood': LvpVsEngineeredHardwoodContent,
   'types-of-hardwood-flooring': TypesOfHardwoodFlooringContent,
   'low-pile-vs-high-pile-carpet': LowPileVsHighPileCarpetContent,
   'how-to-clean-luxury-vinyl-plank-flooring': HowToCleanLuxuryVinylPlankFlooringContent,

@@ -6,7 +6,13 @@ export default function IsLaminateFlooringWaterproofContent() {
   return (
     <>
       <p>
-        <strong>Most laminate flooring is water resistant, not waterproof, and the difference matters the first time a bathtub overflows or a dishwasher hose lets go.</strong> Water resistant means the floor can handle spills wiped up within a few hours. Waterproof means water can sit on or around the floor without the core swelling, the seams failing, or the planks buckling. Standard laminate is the first kind. A newer generation of laminate built for wet areas is closer to the second kind, but even those products come with real limits.
+        <strong>Most laminate flooring is water resistant, not waterproof, and the difference matters the first time a bathtub overflows or a dishwasher hose lets go.</strong>
+      </p>
+      <p>
+        Want a San Diego pro to handle it? <EstimateModalLink>Get a free estimate</EstimateModalLink> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>. Zelo Flooring is a licensed <Link href="/flooring-san-diego">San Diego flooring contractor</Link> offering <Link href="/laminate-flooring-san-diego">laminate flooring in San Diego</Link>.
+      </p>
+      <p>
+        Water resistant means the floor can handle spills wiped up within a few hours. Waterproof means water can sit on or around the floor without the core swelling, the seams failing, or the planks buckling. Standard laminate is the first kind. A newer generation of laminate built for wet areas is closer to the second kind, but even those products come with real limits.
       </p>
       <p>
         We install both standard and waterproof laminate across San Diego County, and we get asked almost daily whether a specific laminate line can go in a bathroom, laundry room, or kitchen. Short version: it depends on the product line and the room. This guide breaks down exactly how laminate is built, which lines are actually waterproof-rated, and where we still steer customers toward <Link href="/vinyl-flooring-san-diego">waterproof luxury vinyl plank (LVP)</Link> or <Link href="/tile-flooring-san-diego">tile</Link> instead. If you want laminate specifically, our <Link href="/laminate-flooring-san-diego">laminate flooring installation</Link> page covers pricing and process.

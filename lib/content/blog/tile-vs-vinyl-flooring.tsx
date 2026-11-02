@@ -6,7 +6,13 @@ export default function TileVsVinylFlooringContent() {
   return (
     <>
       <p>
-        <strong>Porcelain tile is the most durable and fully waterproof option, lasting decades and adding the most resale value, while vinyl plank is softer, warmer, cheaper, and faster to install.</strong> Both are waterproof, so the real differences are feel, cost, and longevity. Choose tile for bathrooms, entryways, and long-term value, and choose luxury vinyl plank (LVP) for whole-home comfort, warmth underfoot, and a lower budget. See our <Link href="/tile-flooring-san-diego">tile flooring</Link> and <Link href="/vinyl-flooring-san-diego">vinyl plank flooring</Link> service pages for what we install in San Diego.
+        <strong>Porcelain tile is the most durable and fully waterproof option, lasting decades and adding the most resale value, while vinyl plank is softer, warmer, cheaper, and faster to install.</strong>
+      </p>
+      <p>
+        Want a San Diego pro to handle it? <EstimateModalLink>Get a free estimate</EstimateModalLink> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>. Zelo Flooring is a licensed <Link href="/flooring-san-diego">San Diego flooring contractor</Link> offering <Link href="/tile-flooring-san-diego">tile flooring in San Diego</Link>.
+      </p>
+      <p>
+        Both are waterproof, so the real differences are feel, cost, and longevity. Choose tile for bathrooms, entryways, and long-term value, and choose luxury vinyl plank (LVP) for whole-home comfort, warmth underfoot, and a lower budget. See our <Link href="/tile-flooring-san-diego">tile flooring</Link> and <Link href="/vinyl-flooring-san-diego">vinyl plank flooring</Link> service pages for what we install in San Diego.
       </p>
 
       <div className="callout-box info">

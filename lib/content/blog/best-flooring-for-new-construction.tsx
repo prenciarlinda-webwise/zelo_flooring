@@ -6,7 +6,13 @@ export default function BestFlooringForNewConstructionContent() {
   return (
     <>
       <p>
-        <strong>The best flooring for new construction homes is rigid-core luxury vinyl plank (LVP) for whole-home durability, engineered hardwood for main living areas, and water-resistant laminate as a budget alternative.</strong> New construction flooring comes with one problem a renovation never has: a fresh concrete slab that is still releasing moisture. Get the timing and product choice wrong and you can end up with a cupped or lifted floor within the first two years. Our <Link href="/vinyl-flooring-san-diego">luxury vinyl plank</Link> and <Link href="/hardwood-flooring-san-diego">hardwood flooring</Link> pages cover pricing and brands; this guide covers what actually matters for a new build.
+        <strong>The best flooring for new construction homes is rigid-core luxury vinyl plank (LVP) for whole-home durability, engineered hardwood for main living areas, and water-resistant laminate as a budget alternative.</strong>
+      </p>
+      <p>
+        Want a San Diego pro to handle it? <EstimateModalLink>Get a free estimate</EstimateModalLink> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>. Zelo Flooring is a licensed <Link href="/flooring-san-diego">San Diego flooring contractor</Link> offering <Link href="/vinyl-flooring-san-diego">vinyl plank flooring in San Diego</Link>.
+      </p>
+      <p>
+        New construction flooring comes with one problem a renovation never has: a fresh concrete slab that is still releasing moisture. Get the timing and product choice wrong and you can end up with a cupped or lifted floor within the first two years. Our <Link href="/vinyl-flooring-san-diego">luxury vinyl plank</Link> and <Link href="/hardwood-flooring-san-diego">hardwood flooring</Link> pages cover pricing and brands; this guide covers what actually matters for a new build.
       </p>
       <p>
         Builders and buyers approach flooring for new construction differently than a remodel. Builders want a fast, low-cost product that gets the home to closing. Buyers often want to upgrade the builder-grade allowance to something that will last. Both decisions come back to the same starting point: how long the slab has had to cure and dry, and what that means for which products are safe to install now versus later.

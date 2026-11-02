@@ -6,7 +6,13 @@ export default function WallToWallCarpetContent() {
   return (
     <>
       <p>
-        <strong>Wall-to-wall carpet is carpet installed edge-to-edge across an entire room, stretched over padding and secured to tack strips along the perimeter, as opposed to a loose area rug that simply sits on top of a hard floor.</strong> It is the most common way carpet has been installed in U.S. homes for the last 60 years, and it still covers more square footage in San Diego bedrooms than any other flooring type. Full pricing and fiber options are on our <Link href="/carpet-flooring-san-diego">carpet installation in San Diego</Link> page.
+        <strong>Wall-to-wall carpet is carpet installed edge-to-edge across an entire room, stretched over padding and secured to tack strips along the perimeter, as opposed to a loose area rug that simply sits on top of a hard floor.</strong>
+      </p>
+      <p>
+        Want a San Diego pro to handle it? <EstimateModalLink>Get a free estimate</EstimateModalLink> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>. Zelo Flooring is a licensed <Link href="/flooring-san-diego">San Diego flooring contractor</Link> offering <Link href="/carpet-flooring-san-diego">carpet installation in San Diego</Link>.
+      </p>
+      <p>
+        It is the most common way carpet has been installed in U.S. homes for the last 60 years, and it still covers more square footage in San Diego bedrooms than any other flooring type. Full pricing and fiber options are on our <Link href="/carpet-flooring-san-diego">carpet installation in San Diego</Link> page.
       </p>
       <p>
         Homeowners comparing <strong>wall-to-wall carpet</strong> against hard surface options like <Link href="/laminate-flooring-san-diego">laminate</Link> or <Link href="/vinyl-flooring-san-diego">luxury vinyl plank</Link> usually want a straight answer on cost, comfort, and how long it actually lasts. This guide covers what wall-to-wall carpet is, how it differs from area rugs and carpet tile, what it costs installed in 2026, and where it makes sense in a modern home.

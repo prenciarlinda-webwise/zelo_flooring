@@ -5,28 +5,6 @@
 export type BlogFaq = { q: string; a: string };
 
 export const BLOG_FAQS: Record<string, BlogFaq[]> = {
-  'lvp-vs-engineered-hardwood': [
-    {
-      q: 'Is LVP or Engineered Hardwood Better?',
-      a: 'It depends on your priority. LVP is better for waterproofing, budget, pets, and wet rooms. Engineered hardwood is better for real-wood feel, resale value, and longevity, and it can sometimes be refinished. Both work over concrete slab, so the deciding factors are usually water exposure and budget.',
-    },
-    {
-      q: 'Is Engineered Hardwood Worth It Over LVP?',
-      a: 'Yes, if you want genuine wood and long-term value and your rooms are not wet areas. Engineered hardwood costs about twice as much as LVP but lasts longer, feels more authentic, can be refinished with a thick veneer, and adds more to resale value. In bathrooms and busy pet households, LVP is the smarter spend.',
-    },
-    {
-      q: 'Does LVP or Engineered Hardwood Add More Home Value?',
-      a: 'Engineered hardwood adds more home value because buyers respond to real wood. High-quality LVP is still a strong selling point versus worn carpet or dated tile, but it does not command the same premium as genuine hardwood in most markets.',
-    },
-    {
-      q: 'Can Engineered Hardwood Get Wet Like LVP?',
-      a: 'No. LVP is 100% waterproof, while engineered hardwood is only water-resistant. Engineered wood tolerates humidity and quick spills you wipe up, but standing water can seep into the seams and damage it, so it should not go in full bathrooms or laundry rooms.',
-    },
-    {
-      q: 'Which Lasts Longer, LVP or Engineered Hardwood?',
-      a: 'Engineered hardwood lasts longer overall, typically 25 to 40 years and more if it can be refinished, while LVP lasts 15 to 25 years before replacement. In wet areas, though, LVP often outlasts wood because moisture does not damage it.',
-    },
-  ],
   'types-of-hardwood-flooring': [
     {
       q: 'What Are the Main Types of Hardwood Flooring?',

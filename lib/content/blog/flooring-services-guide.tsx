@@ -6,7 +6,13 @@ export default function FlooringServicesGuideContent() {
   return (
     <>
       <p>
-        <strong>Flooring services cover everything between your old floor and your new one: measurement, subfloor prep, removal of the existing material, installation, trim and transitions, and cleanup.</strong> Pricing runs from $2 per square foot for budget laminate to $15 per square foot for premium hardwood, fully installed. Whether you need <Link href="/carpet-flooring-san-diego">carpet installation</Link>, <Link href="/vinyl-flooring-san-diego">luxury vinyl plank</Link>, or a full commercial retrofit, the process and the questions you should ask your contractor stay largely the same.
+        <strong>Flooring services cover everything between your old floor and your new one: measurement, subfloor prep, removal of the existing material, installation, trim and transitions, and cleanup.</strong>
+      </p>
+      <p>
+        Want a San Diego pro to handle it? <EstimateModalLink>Get a free estimate</EstimateModalLink> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>. Zelo Flooring is a licensed <Link href="/flooring-san-diego">San Diego flooring contractor</Link> offering <Link href="/carpet-flooring-san-diego">carpet installation in San Diego</Link>.
+      </p>
+      <p>
+        Pricing runs from $2 per square foot for budget laminate to $15 per square foot for premium hardwood, fully installed. Whether you need <Link href="/carpet-flooring-san-diego">carpet installation</Link>, <Link href="/vinyl-flooring-san-diego">luxury vinyl plank</Link>, or a full commercial retrofit, the process and the questions you should ask your contractor stay largely the same.
       </p>
       <p>
         We get asked about <strong>flooring services</strong> almost every day, usually from homeowners who have never gone through an installation before and are not sure what a fair quote looks like. This guide covers what flooring installation services actually include, what each material costs installed in 2026, how long each project takes, and how to compare bids so you are not caught off guard by change orders halfway through the job. It also covers flooring and decorating decisions that affect cost, like matching trim, transitions between rooms, and pattern layout.

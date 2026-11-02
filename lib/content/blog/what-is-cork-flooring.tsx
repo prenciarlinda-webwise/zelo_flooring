@@ -6,7 +6,13 @@ export default function WhatIsCorkFlooringContent() {
   return (
     <>
       <p>
-        <strong>Cork flooring is made from the bark of the cork oak tree, not the wood itself, which is why it behaves nothing like hardwood underfoot.</strong> It is soft, warm, naturally resistant to mold and insects, and harvested without cutting down a single tree. It has quietly been a flooring option for over a century (Thomas Edison and Frank Lloyd Wright both used it), yet most San Diego homeowners have never seen it installed and do not know what it costs or where it actually holds up.
+        <strong>Cork flooring is made from the bark of the cork oak tree, not the wood itself, which is why it behaves nothing like hardwood underfoot.</strong>
+      </p>
+      <p>
+        Want a San Diego pro to handle it? <EstimateModalLink>Get a free estimate</EstimateModalLink> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>. Zelo Flooring is a licensed <Link href="/flooring-san-diego">San Diego flooring contractor</Link> offering <Link href="/cork-flooring-san-diego">cork flooring in San Diego</Link>.
+      </p>
+      <p>
+        It is soft, warm, naturally resistant to mold and insects, and harvested without cutting down a single tree. It has quietly been a flooring option for over a century (Thomas Edison and Frank Lloyd Wright both used it), yet most San Diego homeowners have never seen it installed and do not know what it costs or where it actually holds up.
       </p>
       <p>
         We install both glue-down cork tile and floating cork plank across San Diego County, and we also use cork as a sound-dampening underlayment beneath <Link href="/hardwood-flooring-san-diego">hardwood</Link> and <Link href="/laminate-flooring-san-diego">laminate</Link> in condos and multi-story homes. This guide covers how cork is actually made, where it performs well, where it does not, and what it costs installed.

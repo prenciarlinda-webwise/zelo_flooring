@@ -6,7 +6,13 @@ export default function HowToRemoveCarpetStainsContent() {
   return (
     <>
       <p>
-        <strong>Most carpet stains are lost in the first 10 minutes, not the first wash.</strong> Blot instead of rub, match the cleaner to the stain, and treat it before it sets and you can lift the vast majority of spills, from red wine to pet accidents, without paying for professional extraction. Wait a day, scrub instead of blot, or use the wrong chemical on the wrong fiber, and the same stain can become permanent.
+        <strong>Most carpet stains are lost in the first 10 minutes, not the first wash.</strong>
+      </p>
+      <p>
+        Want a San Diego pro to handle it? <EstimateModalLink>Get a free estimate</EstimateModalLink> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>. Zelo Flooring is a licensed <Link href="/flooring-san-diego">San Diego flooring contractor</Link> offering <Link href="/carpet-flooring-san-diego">carpet installation in San Diego</Link>.
+      </p>
+      <p>
+        Blot instead of rub, match the cleaner to the stain, and treat it before it sets and you can lift the vast majority of spills, from red wine to pet accidents, without paying for professional extraction. Wait a day, scrub instead of blot, or use the wrong chemical on the wrong fiber, and the same stain can become permanent.
       </p>
       <p>
         We install and replace <Link href="/carpet-flooring-san-diego">carpet</Link> in homes across San Diego County every week, and stain damage is one of the top reasons homeowners call us for a quote instead of a cleaning tip. This guide covers what actually works room by room, why nylon and polyester carpet react differently to the same spill, and when a stain has gone past what a bottle of spray cleaner can fix. If your carpet already shows permanent staining in high-traffic rooms, waterproof <Link href="/vinyl-flooring-san-diego">luxury vinyl plank</Link> is worth a look as a stain-proof alternative.

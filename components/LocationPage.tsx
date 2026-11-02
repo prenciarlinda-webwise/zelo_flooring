@@ -412,7 +412,7 @@ export default function LocationPage({ location }: Props) {
   return (
     <>
       <LeadFormHero
-        h1={isMain ? 'Professional Flooring Services San Diego' : `Flooring in ${location.city}, ${location.state}`}
+        h1={isMain ? 'Flooring Contractors in San Diego, CA' : `Flooring in ${location.city}, ${location.state}`}
         valueProp={location.heroValueProp}
         trustBullets={[
           `${SITE.licenseDetails.classification} Licensed (CSLB #${SITE.license})`,

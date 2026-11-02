@@ -6,7 +6,13 @@ export default function BestFlooringForCraftRoomContent() {
   return (
     <>
       <p>
-        <strong>Cork is the best flooring for a craft room or home office</strong> because it cushions your feet and knees during long projects, absorbs sound so video calls stay quiet, and resists dents from dropped tools better than most people expect. Laminate is the best budget pick, and vinyl plank is the safer choice if your craft work involves paint, resin, or dye that could stain a natural material. We install all three across San Diego: see <Link href="/cork-flooring-san-diego">cork flooring in San Diego</Link>, <Link href="/laminate-flooring-san-diego">laminate flooring in San Diego</Link>, and <Link href="/vinyl-flooring-san-diego">luxury vinyl plank in San Diego</Link> for product options and pricing.
+        <strong>Cork is the best flooring for a craft room or home office</strong>
+      </p>
+      <p>
+        Want a San Diego pro to handle it? <EstimateModalLink>Get a free estimate</EstimateModalLink> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>. Zelo Flooring is a licensed <Link href="/flooring-san-diego">San Diego flooring contractor</Link> offering <Link href="/cork-flooring-san-diego">cork flooring in San Diego</Link>.
+      </p>
+      <p>
+        because it cushions your feet and knees during long projects, absorbs sound so video calls stay quiet, and resists dents from dropped tools better than most people expect. Laminate is the best budget pick, and vinyl plank is the safer choice if your craft work involves paint, resin, or dye that could stain a natural material. We install all three across San Diego: see <Link href="/cork-flooring-san-diego">cork flooring in San Diego</Link>, <Link href="/laminate-flooring-san-diego">laminate flooring in San Diego</Link>, and <Link href="/vinyl-flooring-san-diego">luxury vinyl plank in San Diego</Link> for product options and pricing.
       </p>
       <p>
         A craft room or home office is not like any other room in the house. You are standing or kneeling for hours at a time, you need enough quiet for calls and focus work, and you are working around glue, paint, thread, resin, or sewing pins that end up on the floor no matter how careful you are. Finding the <strong>best flooring for craft room</strong> use, or the right <strong>flooring for a home office</strong>, means weighing comfort, sound, and spill resistance differently than you would for a living room or bedroom.

@@ -9,6 +9,9 @@ export default function HowToCleanAndResealGroutLinesContent() {
         Grout lines fail long before tile does. They are more porous than the tile itself, so dirt, grease, and moisture soak in over time, and the sealer protecting them wears out years before the floor needs replacing.
       </p>
       <p>
+        Want a San Diego pro to handle it? <EstimateModalLink>Get a free estimate</EstimateModalLink> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>. Zelo Flooring is a licensed <Link href="/flooring-san-diego">San Diego flooring contractor</Link> offering <Link href="/tile-flooring-san-diego">tile flooring in San Diego</Link>.
+      </p>
+      <p>
         We clean, reseal, and regrout <Link href="/tile-flooring-san-diego">tile floors</Link> across San Diego County, and install <Link href="/vinyl-flooring-san-diego">waterproof vinyl plank</Link> for homeowners who want a grout-free alternative. This guide covers sanded versus unsanded grout, how often to reseal, and when cleaning alone will not fix a failing floor.
       </p>
 

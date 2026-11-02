@@ -159,9 +159,11 @@ function renderServicePage(service: ReturnType<typeof getService>) {
 
   // H1 should carry the "{service} installation {city}" keyword. Most service
   // names end in "Flooring"; "Carpet Installation" already contains the word.
-  const serviceH1 = /install/i.test(service.name)
-    ? `${service.name} in ${SITE.city}, ${SITE.region}`
-    : `${service.name} Installation in ${SITE.city}, ${SITE.region}`;
+  const serviceH1 =
+    service.h1 ??
+    (/install/i.test(service.name)
+      ? `${service.name} in ${SITE.city}, ${SITE.region}`
+      : `${service.name} Installation in ${SITE.city}, ${SITE.region}`);
 
   const breadcrumbSchema = {
     '@context': 'https://schema.org',

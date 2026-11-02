@@ -14,21 +14,6 @@ export type BlogPost = {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
-    slug: 'lvp-vs-engineered-hardwood',
-    title: 'Which One to Choose Between LVP vs Engineered Hardwood',
-    excerpt:
-      'LVP is cheaper, waterproof, and lower-maintenance; engineered hardwood is real wood that adds more resale value and can be refinished. A side-by-side comparison.',
-    publishedDate: 'May 31, 2026',
-    updatedDate: 'May 31, 2026',
-    datePublishedISO: '2026-05-31',
-    dateModifiedISO: '2026-05-31',
-    metaTitle: 'Which One Is Better Between LVP vs Engineered Hardwood',
-    metaDescription:
-      'LVP vs engineered hardwood compared: water resistance, cost, resale value, refinishing, and lifespan. Which is better for kitchens, pets, and real-wood value.',
-    relatedServices: ['vinyl-flooring-san-diego', 'hardwood-flooring-san-diego', 'laminate-flooring-san-diego'],
-    image: '/img/projects/portfolio/zelo-project-18.webp',
-  },
-  {
     slug: 'types-of-hardwood-flooring',
     title: 'Types of Hardwood Flooring by Species, Finish, and Width',
     excerpt:
@@ -914,7 +899,6 @@ export const BLOG_POSTS: BlogPost[] = [
 ];
 
 export const PUBLISHED_BLOG_SLUGS = [
-  'lvp-vs-engineered-hardwood',
   'types-of-hardwood-flooring',
   'low-pile-vs-high-pile-carpet',
   'how-to-clean-luxury-vinyl-plank-flooring',

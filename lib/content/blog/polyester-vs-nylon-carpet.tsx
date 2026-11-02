@@ -6,7 +6,13 @@ export default function PolyesterVsNylonCarpetContent() {
   return (
     <>
       <p>
-        <strong>Nylon carpet is better than polyester for durability, resilience, and high-traffic areas, while polyester wins on softness, stain resistance, and upfront cost.</strong> If you are carpeting a living room, hallway, or stairs, nylon is the right call. If you are doing a bedroom or guest room on a budget, polyester is a perfectly reasonable choice. The real answer depends on where the carpet is going and how long you need it to last.
+        <strong>Nylon carpet is better than polyester for durability, resilience, and high-traffic areas, while polyester wins on softness, stain resistance, and upfront cost.</strong>
+      </p>
+      <p>
+        Want a San Diego pro to handle it? <EstimateModalLink>Get a free estimate</EstimateModalLink> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>. Zelo Flooring is a licensed <Link href="/flooring-san-diego">San Diego flooring contractor</Link> offering <Link href="/carpet-flooring-san-diego">carpet installation in San Diego</Link>.
+      </p>
+      <p>
+        If you are carpeting a living room, hallway, or stairs, nylon is the right call. If you are doing a bedroom or guest room on a budget, polyester is a perfectly reasonable choice. The real answer depends on where the carpet is going and how long you need it to last.
       </p>
       <p>
         We install both fibers every week in homes across San Diego, and we see firsthand how each performs over time. This guide breaks down the <strong>polyester vs nylon carpet</strong> comparison based on real-world performance, not marketing claims. For local install pricing, see our <Link href="/carpet-flooring-san-diego">San Diego carpet installation</Link> page; for the full picture on choosing carpet, our <Link href="/blog/best-carpet-for-living-room">living room carpet guide</Link> covers face weight, density, and pile.

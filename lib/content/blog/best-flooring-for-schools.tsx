@@ -6,7 +6,13 @@ export default function BestFlooringForSchoolsContent() {
   return (
     <>
       <p>
-        <strong>Vinyl Composition Tile (VCT) is the standard choice for classrooms, hallways, and cafeterias, while rubber flooring takes over in gyms and multipurpose rooms.</strong> Facilities managers choosing flooring installation for schools are usually balancing three things at once: upfront cost per square foot, how much staff time a maintenance program eats up over a 20-year building life, and whether a surface can survive rolling carts, chair legs, and a few hundred kids a day without looking wrecked by spring break. Our <Link href="/vinyl-composition-tile-flooring-san-diego">VCT flooring</Link> and <Link href="/rubber-flooring-san-diego">rubber flooring</Link> installs across San Diego schools, districts, and daycare centers cover both ends of that equation.
+        <strong>Vinyl Composition Tile (VCT) is the standard choice for classrooms, hallways, and cafeterias, while rubber flooring takes over in gyms and multipurpose rooms.</strong>
+      </p>
+      <p>
+        Want a San Diego pro to handle it? <EstimateModalLink>Get a free estimate</EstimateModalLink> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>. Zelo Flooring is a licensed <Link href="/flooring-san-diego">San Diego flooring contractor</Link> offering <Link href="/vinyl-composition-tile-flooring-san-diego">VCT flooring in San Diego</Link>.
+      </p>
+      <p>
+        Facilities managers choosing flooring installation for schools are usually balancing three things at once: upfront cost per square foot, how much staff time a maintenance program eats up over a 20-year building life, and whether a surface can survive rolling carts, chair legs, and a few hundred kids a day without looking wrecked by spring break. Our <Link href="/vinyl-composition-tile-flooring-san-diego">VCT flooring</Link> and <Link href="/rubber-flooring-san-diego">rubber flooring</Link> installs across San Diego schools, districts, and daycare centers cover both ends of that equation.
       </p>
       <p>
         This guide breaks down flooring installation for schools room by room, what a realistic maintenance budget looks like over the life of the floor, and the compliance details (slip resistance, ADA-compliant transitions) that get missed until an inspection flags them.

@@ -6,7 +6,13 @@ export default function CarpetPaddingGuideContent() {
   return (
     <>
       <p>
-        <strong>Carpet padding is not a throwaway line item on your quote.</strong> It is the layer that determines how long your new carpet actually lasts, how it feels underfoot, and whether the manufacturer will honor the warranty if something goes wrong. Two numbers matter most: thickness (how tall the pad is) and density (how much a cubic foot of it weighs, which tells you how firm and durable it is). Homeowners often assume thicker means better, but for carpet pad the opposite is frequently true.
+        <strong>Carpet padding is not a throwaway line item on your quote.</strong>
+      </p>
+      <p>
+        Want a San Diego pro to handle it? <EstimateModalLink>Get a free estimate</EstimateModalLink> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>. Zelo Flooring is a licensed <Link href="/flooring-san-diego">San Diego flooring contractor</Link> offering <Link href="/carpet-flooring-san-diego">carpet installation in San Diego</Link>.
+      </p>
+      <p>
+        It is the layer that determines how long your new carpet actually lasts, how it feels underfoot, and whether the manufacturer will honor the warranty if something goes wrong. Two numbers matter most: thickness (how tall the pad is) and density (how much a cubic foot of it weighs, which tells you how firm and durable it is). Homeowners often assume thicker means better, but for carpet pad the opposite is frequently true.
       </p>
       <p>
         We install pad on every <Link href="/carpet-flooring-san-diego">carpet installation</Link> job across San Diego County, from <Link href="/flooring-la-jolla">La Jolla</Link> to <Link href="/flooring-rancho-santa-fe">Rancho Santa Fe</Link>, and pad selection is one of the first things we talk through with homeowners before fiber or color. This guide breaks down thickness versus density, why 8 lb rebond is the industry default, when a moisture-barrier pad is worth the upgrade for pet households, and exactly how the wrong pad choice can void a carpet warranty you already paid for.

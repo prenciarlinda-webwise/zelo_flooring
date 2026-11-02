@@ -6,7 +6,13 @@ export default function DaycareFlooringRequirementsAndPlayAreaSafetyContent() {
   return (
     <>
       <p>
-        <strong>Daycare flooring has to pass a safety inspection, not just look clean.</strong> A play area floor gets judged on fall-height attenuation, a classroom floor on cleanability and disinfection, and both get reviewed as part of licensing, not just left to the operator's preference. We install <Link href="/rubber-flooring-san-diego">rubber flooring for daycares and play areas</Link> across San Diego, and we provide the fall-attenuation compliance documentation licensing inspectors and insurers ask for.
+        <strong>Daycare flooring has to pass a safety inspection, not just look clean.</strong>
+      </p>
+      <p>
+        Want a San Diego pro to handle it? <EstimateModalLink>Get a free estimate</EstimateModalLink> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>. Zelo Flooring is a licensed <Link href="/flooring-san-diego">San Diego flooring contractor</Link> offering <Link href="/rubber-flooring-san-diego">rubber floor installation in San Diego</Link>.
+      </p>
+      <p>
+        A play area floor gets judged on fall-height attenuation, a classroom floor on cleanability and disinfection, and both get reviewed as part of licensing, not just left to the operator's preference. We install <Link href="/rubber-flooring-san-diego">rubber flooring for daycares and play areas</Link> across San Diego, and we provide the fall-attenuation compliance documentation licensing inspectors and insurers ask for.
       </p>
       <p>
         This guide covers what ASTM F1292 actually tests, how to match rubber thickness to your play equipment's fall height, poured EPDM versus rubber tile for a childcare setting, cleaning and disinfecting rubber flooring around small children, and what California's licensing process expects from your flooring.

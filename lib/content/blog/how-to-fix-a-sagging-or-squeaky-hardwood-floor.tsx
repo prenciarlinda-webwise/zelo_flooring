@@ -6,7 +6,13 @@ export default function HowToFixASaggingOrSqueakyHardwoodFloorContent() {
   return (
     <>
       <p>
-        <strong>A squeaky board and a sagging floor are not the same problem, and they do not have the same fix.</strong> A squeak is usually a loose connection between the subfloor and the framing below it, something you can often fix in an afternoon from above or below. A sag is a change in elevation, a dip, a soft spot, or a slope that was not there when the house was built, and it almost always points to something failing underneath the floor, not the hardwood itself.
+        <strong>A squeaky board and a sagging floor are not the same problem, and they do not have the same fix.</strong>
+      </p>
+      <p>
+        Want a San Diego pro to handle it? <EstimateModalLink>Get a free estimate</EstimateModalLink> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>. Zelo Flooring is a licensed <Link href="/flooring-san-diego">San Diego flooring contractor</Link> offering <Link href="/hardwood-flooring-san-diego">hardwood flooring in San Diego</Link>.
+      </p>
+      <p>
+        A squeak is usually a loose connection between the subfloor and the framing below it, something you can often fix in an afternoon from above or below. A sag is a change in elevation, a dip, a soft spot, or a slope that was not there when the house was built, and it almost always points to something failing underneath the floor, not the hardwood itself.
       </p>
       <p>
         We get called out across San Diego County to inspect floors that homeowners assume just need refinishing or a few screws, and in a fair number of cases the real problem is a weakened joist, a water-damaged subfloor panel, or a foundation that has settled unevenly. This guide breaks down what actually causes sagging and squeaking, how to tell which one you have, and when a <Link href="/hardwood-flooring-san-diego">hardwood flooring</Link> repair needs to wait until the structure underneath it is fixed first.

@@ -40,20 +40,20 @@ export const SERVICE_LOCAL_DATA: Record<string, ServiceLocalData> = {
       'HOA-governed condos in downtown San Diego, Mission Valley, and Coronado Shores often require sound-attenuation pad with documented IIC 50+ rating.',
     ],
     cityContext: [
-      'Carpet is still the most comfortable floor for San Diego bedrooms, family rooms, and stairways. We install it across the entire San Diego County footprint, from coastal homes in La Jolla to inland homes in Poway and Escondido. Coastal humidity changes which pad works best; inland dryness changes how the carpet wears.',
+      'Carpet flooring in San Diego, CA is still the most comfortable choice for bedrooms, family rooms, and stairways. We install it across the entire San Diego County footprint, from coastal homes in La Jolla to inland homes in Poway and Escondido. Coastal humidity changes which pad works best; inland dryness changes how the carpet wears.',
       'Every Zelo Flooring carpet install starts with a free in-home estimate where we bring physical samples to your San Diego home so you see colors in your real lighting before you commit. We power-stretch on every residential install and never use the knee-kick-only shortcut that voids manufacturer warranties.',
     ],
     localTrustParagraphs: [
       'Zelo Flooring is a CSLB-licensed carpet contractor in San Diego, running every job out of our Mira Mesa office. Most San Diego carpet installation consultations are scheduled within 2 to 4 business days, with samples brought to your home so you can see fiber, pile depth, and color in real lighting before committing. Power stretching, premium 8 lb pad, and old carpet removal are included on every residential quote, never quoted as add-ons.',
-      'Carpet warranties on the brands we install (Mohawk SmartStrand, Stainmaster, Shaw R2X) require manufacturer-spec installation procedures, which is why our carpet installers in San Diego follow each spec sheet to the letter. CSLB Lic #1083572. Bonded and insured for residential, rental, and property-management work. Reach the office Monday through Sunday, 8am to 5pm.',
+      'Carpet warranties on the brands we install (Mohawk SmartStrand, Stainmaster, Shaw R2X) require manufacturer-spec installation procedures, which is why our carpet installers in San Diego follow each spec sheet to the letter. CSLB Lic #1083572. Bonded and insured for residential, rental, and property-management work. Reach the office daily, 7am to 7pm.',
     ],
     headers: {
-      cityContextH2: 'Carpet Installation For San Diego Homes',
+      cityContextH2: 'Carpet Flooring In San Diego, CA',
       considerationsH3: 'Before You Carpet A San Diego Home',
-      subServicesH2: 'Carpet Styles We Install',
-      trustH3: 'Trusted Carpet Contractors In San Diego, CA',
+      subServicesH2: 'Carpet Installation San Diego',
+      trustH3: 'Trusted Carpet Installation Services In San Diego, CA',
       reviewsH2: 'What San Diego Customers Say About Their Carpet',
-      faqH2: 'San Diego Carpet FAQs Answered',
+      faqH2: 'Carpet In San Diego, CA FAQs Answered',
       finalCtaH3: 'Get A Free Carpet Installation Quote',
     },
   },
@@ -78,15 +78,15 @@ export const SERVICE_LOCAL_DATA: Record<string, ServiceLocalData> = {
     ],
     localTrustParagraphs: [
       'As a CSLB-licensed luxury vinyl plank flooring contractor in San Diego, Zelo Flooring covers homes from coastal Pacific Beach and Mission Bay to inland Bressi Ranch, Poway, and Escondido. Slab moisture testing with calcium chloride or RH probe, flatness verification with a 10-foot straight edge, and brand-spec underlayment are part of every quote, not surprise add-ons after the install starts. Vinyl plank flooring San Diego consultations are typically scheduled within 3 business days from our Mira Mesa office.',
-      'We install rigid-core SPC and WPC from Shaw, Mohawk, COREtec, and Mannington. Manufacturer warranties on these lines require the prep steps we already include. CSLB Lic #1083572. Bonded and insured for residential and commercial vinyl flooring installation across San Diego County. Office hours Monday through Sunday, 8am to 5pm.',
+      'We install rigid-core SPC and WPC from Shaw, Mohawk, COREtec, and Mannington. Manufacturer warranties on these lines require the prep steps we already include. CSLB Lic #1083572. Bonded and insured for residential and commercial vinyl flooring installation across San Diego County. Office hours daily, 7am to 7pm.',
     ],
     headers: {
-      cityContextH2: 'LVP Flooring Across San Diego County',
+      cityContextH2: 'Luxury Vinyl Plank Flooring Across San Diego County',
       considerationsH3: 'Slab, Climate, And LVP Choices In San Diego',
-      subServicesH2: 'Luxury Vinyl Plank (LVP) Options We Install In San Diego',
+      subServicesH2: 'Vinyl Plank and Vinyl Tile Options We Install In San Diego',
       trustH3: 'Local Vinyl Plank Installers In San Diego',
       reviewsH2: 'Vinyl Plank Stories From San Diego Customers',
-      faqH2: 'Common Vinyl Plank Questions From San Diego Homeowners',
+      faqH2: 'Vinyl Plank Flooring Questions From San Diego Homeowners',
       finalCtaH3: 'Request A Free LVP Quote',
     },
   },
@@ -111,10 +111,10 @@ export const SERVICE_LOCAL_DATA: Record<string, ServiceLocalData> = {
     ],
     localTrustParagraphs: [
       'Zelo Flooring is one of the few hardwood flooring contractors in San Diego that document NWFA-aligned moisture testing and 5-7 day acclimation on every job. Engineered hardwood projects are typically scheduled 4 to 7 business days out from our Mira Mesa office; solid hardwood and hardwood floor refinishing in San Diego run longer because of the in-room acclimation we will not skip. Festool or Bona dust-contained sanders on every refinish, so the household can stay in the home through the project.',
-      'CSLB Lic #1083572. Licensed, bonded, and insured for residential hardwood flooring San Diego work, including historic-district homes that require Architectural Review for visible threshold or transition changes. Office hours Monday through Sunday, 8am to 5pm.',
+      'CSLB Lic #1083572. Licensed, bonded, and insured for residential hardwood flooring San Diego work, including historic-district homes that require Architectural Review for visible threshold or transition changes. Office hours daily, 7am to 7pm.',
     ],
     headers: {
-      cityContextH2: 'Hardwood Flooring Across San Diego, CA',
+      cityContextH2: 'Hardwood Flooring In San Diego, CA',
       considerationsH3: 'What Coastal Humidity Means For San Diego Hardwood',
       subServicesH2: 'Hardwood Installation, Refinishing, and Repair in San Diego',
       trustH3: 'NWFA-Aligned Hardwood Contractors In San Diego',
@@ -144,7 +144,7 @@ export const SERVICE_LOCAL_DATA: Record<string, ServiceLocalData> = {
     ],
     localTrustParagraphs: [
       'Most laminate flooring San Diego jobs we book are whole-home or whole-floor installs, scheduled within 2 to 4 business days from our Mira Mesa office. Vapor-barrier underlayment, slab moisture testing, and manufacturer-spec expansion gaps are line-itemed on every laminate flooring installation San Diego quote. We carry AC4 and AC5 commercial-rated lines for rental and high-traffic projects.',
-      'Licensed by the CSLB (Lic #1083572), bonded, and insured for residential and rental property work. As a laminate flooring contractor in San Diego, we follow each manufacturer\'s installation spec so Pergo, Mohawk RevWood, Quick-Step, and Shaw Repel warranties stay valid. Reach the office Monday through Sunday, 8am to 5pm.',
+      'Licensed by the CSLB (Lic #1083572), bonded, and insured for residential and rental property work. As a laminate flooring contractor in San Diego, we follow each manufacturer\'s installation spec so Pergo, Mohawk RevWood, Quick-Step, and Shaw Repel warranties stay valid. Reach the office daily, 7am to 7pm.',
     ],
     headers: {
       cityContextH2: 'Laminate Flooring Across San Diego County',
@@ -177,7 +177,7 @@ export const SERVICE_LOCAL_DATA: Record<string, ServiceLocalData> = {
     ],
     localTrustParagraphs: [
       'As a San Diego tile flooring contractor, our crew handles bathroom remodels, kitchen floors, backsplashes, curbless walk-in showers, and outdoor patios across the county. Substrate prep, ANSI A118.10-compliant waterproofing in wet zones, and Schluter Ditra crack-isolation membrane on slabs with known cracks are documented before any tile is set. San Diego tile flooring consultations are typically scheduled within 3 to 5 business days from our Mira Mesa office.',
-      'CSLB Lic #1083572. Bonded and insured. Travertine, porcelain, ceramic, and natural stone tile flooring in San Diego, all installed to TCNA spec. Full bathroom remodels with plumbing changes may require a city permit, which we coordinate as part of the project. Reach the office by phone or email Monday through Sunday, 8am to 5pm.',
+      'CSLB Lic #1083572. Bonded and insured. Travertine, porcelain, ceramic, and natural stone tile flooring in San Diego, all installed to TCNA spec. Full bathroom remodels with plumbing changes may require a city permit, which we coordinate as part of the project. Reach the office by phone daily, 7am to 7pm.',
     ],
     headers: {
       cityContextH2: 'Tile Flooring Across San Diego, CA',
@@ -210,7 +210,7 @@ export const SERVICE_LOCAL_DATA: Record<string, ServiceLocalData> = {
     ],
     localTrustParagraphs: [
       'Cork is a niche product we install with care, mostly out of our Mira Mesa office. Slab moisture sealing and vapor barrier are mandatory on every glue-down install. We will not skip this on any San Diego cork flooring project regardless of budget pressure. Cork flooring San Diego consultations are typically scheduled 4 to 6 business days out due to material lead time on Wicanders and APC orders.',
-      'CSLB Lic #1083572. Licensed, bonded, and insured. As a cork flooring contractor in San Diego, we also use cork as compliant sound-attenuation underlayment when documented STC and IIC ratings are needed for HOA condos. Reach the office Monday through Sunday, 8am to 5pm.',
+      'CSLB Lic #1083572. Licensed, bonded, and insured. As a cork flooring contractor in San Diego, we also use cork as compliant sound-attenuation underlayment when documented STC and IIC ratings are needed for HOA condos. Reach the office daily, 7am to 7pm.',
     ],
     headers: {
       cityContextH2: 'Cork Flooring For San Diego Kitchens And Offices',
@@ -243,10 +243,10 @@ export const SERVICE_LOCAL_DATA: Record<string, ServiceLocalData> = {
     ],
     localTrustParagraphs: [
       'Our rubber flooring San Diego work is heavily commercial: gym buildouts, daycares, healthcare facilities, alongside residential home gyms in Poway, Mira Mesa, and beyond. Slab crack repair, ASTM F1292 fall-attenuation specs for play areas, and heat-welded seams on commercial installs are standard scope. Gym flooring San Diego consultations are typically scheduled 3 to 5 business days out, often coordinated directly with general contractors.',
-      'CSLB Lic #1083572. Bonded and insured. As a commercial rubber flooring contractor in San Diego, we offer after-hours and weekend scheduling for buildouts so gyms and facilities stay operational during the install. Phone or email Monday through Sunday, 8am to 5pm.',
+      'CSLB Lic #1083572. Bonded and insured. As a commercial rubber flooring contractor in San Diego, we offer after-hours and weekend scheduling for buildouts so gyms and facilities stay operational during the install. Call us daily, 7am to 7pm.',
     ],
     headers: {
-      cityContextH2: 'Rubber Flooring For San Diego Gyms And Garages',
+      cityContextH2: 'Gym And Garage Rubber Flooring Installers In San Diego',
       considerationsH3: 'What To Plan For Before A Rubber Install',
       subServicesH2: 'Rubber Surfaces We Lay',
       trustH3: 'Commercial Rubber Flooring Installers In San Diego',
@@ -276,7 +276,7 @@ export const SERVICE_LOCAL_DATA: Record<string, ServiceLocalData> = {
     ],
     localTrustParagraphs: [
       'VCT flooring San Diego is almost entirely commercial scope for us: schools, hospitals, dental offices, retail stores. We work nights, weekends, and school break across San Diego County to keep operating buildings open during the install. Asbestos abatement coordination on pre-1985 VCT is built into every commercial flooring San Diego quote where required, with licensed abatement partners.',
-      'CSLB Lic #1083572. As a commercial flooring contractor in San Diego, we are licensed, bonded, and insured for healthcare and educational facility work. Scheduling typically requires 1 to 2 weeks of lead time for pattern installs and finish coats. Reach the office Monday through Sunday, 8am to 5pm.',
+      'CSLB Lic #1083572. As a commercial flooring contractor in San Diego, we are licensed, bonded, and insured for healthcare and educational facility work. Scheduling typically requires 1 to 2 weeks of lead time for pattern installs and finish coats. Reach the office daily, 7am to 7pm.',
     ],
     headers: {
       cityContextH2: 'VCT Flooring For San Diego Commercial Spaces',

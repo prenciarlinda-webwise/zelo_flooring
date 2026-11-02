@@ -6,7 +6,13 @@ export default function BestFlooringForPetsContent() {
   return (
     <>
       <p>
-        <strong>Luxury vinyl plank (LVP) is the best flooring for pets overall</strong> because it is 100% waterproof, scratch resistant, comfortable underfoot, and easy to clean. It handles nail scratches, accidents, muddy paws, and heavy foot traffic without showing damage the way hardwood or laminate does. Porcelain tile is a strong second choice for the most durable option, and laminate is the budget pick. We install all three across San Diego: see <Link href="/vinyl-flooring-san-diego">luxury vinyl plank in San Diego</Link>, <Link href="/tile-flooring-san-diego">tile flooring in San Diego</Link>, and <Link href="/laminate-flooring-san-diego">laminate flooring in San Diego</Link> for product details and quoting.
+        <strong>Luxury vinyl plank (LVP) is the best flooring for pets overall</strong>
+      </p>
+      <p>
+        Want a San Diego pro to handle it? <EstimateModalLink>Get a free estimate</EstimateModalLink> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>. Zelo Flooring is a licensed <Link href="/flooring-san-diego">San Diego flooring contractor</Link> offering <Link href="/vinyl-flooring-san-diego">vinyl plank flooring in San Diego</Link>.
+      </p>
+      <p>
+        because it is 100% waterproof, scratch resistant, comfortable underfoot, and easy to clean. It handles nail scratches, accidents, muddy paws, and heavy foot traffic without showing damage the way hardwood or laminate does. Porcelain tile is a strong second choice for the most durable option, and laminate is the budget pick. We install all three across San Diego: see <Link href="/vinyl-flooring-san-diego">luxury vinyl plank in San Diego</Link>, <Link href="/tile-flooring-san-diego">tile flooring in San Diego</Link>, and <Link href="/laminate-flooring-san-diego">laminate flooring in San Diego</Link> for product details and quoting.
       </p>
       <p>
         That said, there is no single perfect flooring for every pet household. Your best option depends on whether you have a small dog or a large dog with claws, whether your pet has accidents (puppies, senior dogs), whether you want non-slip traction for older joints, your budget, which rooms you are flooring, and how much maintenance you are willing to do. Below, we break down every major <strong>pet friendly flooring</strong> option, including the worst flooring for dogs, what works for high-traffic homes, what is right for pets that pee, and how to pick floors that work for both kids and pets.

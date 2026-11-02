@@ -6,7 +6,13 @@ export default function CanLaminateFlooringBeRepairedContent() {
   return (
     <>
       <p>
-        <strong>Yes, laminate flooring can be repaired in most cases, but the repair method depends entirely on how the damage happened.</strong> A single scratched or chipped plank can usually be replaced in an afternoon. Water damage at the seams is trickier, since swollen laminate core rarely returns to its original shape even after it dries out. And once damage spreads across more than 15 to 20 percent of a room, replacing the individual planks often costs more in labor than removing the whole floor and starting over.
+        <strong>Yes, laminate flooring can be repaired in most cases, but the repair method depends entirely on how the damage happened.</strong>
+      </p>
+      <p>
+        Want a San Diego pro to handle it? <EstimateModalLink>Get a free estimate</EstimateModalLink> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>. Zelo Flooring is a licensed <Link href="/flooring-san-diego">San Diego flooring contractor</Link> offering <Link href="/laminate-flooring-san-diego">laminate flooring in San Diego</Link>.
+      </p>
+      <p>
+        A single scratched or chipped plank can usually be replaced in an afternoon. Water damage at the seams is trickier, since swollen laminate core rarely returns to its original shape even after it dries out. And once damage spreads across more than 15 to 20 percent of a room, replacing the individual planks often costs more in labor than removing the whole floor and starting over.
       </p>
       <p>
         We get called out to look at damaged laminate across San Diego County several times a month, from a single dented plank near a front door to a kitchen where a dishwasher supply line leaked for weeks before anyone noticed. Below is how we evaluate laminate damage, when a plank swap makes sense, when water damage means the floor is done, and the actual costs for each repair path. If you are also weighing whether laminate was the right call in the first place, our <Link href="/laminate-flooring-san-diego">laminate flooring installation</Link> page covers material options, and our <Link href="/hardwood-flooring-san-diego">hardwood flooring</Link> page is worth a look if you are considering replacing damaged laminate with something else entirely.

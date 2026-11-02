@@ -6,7 +6,13 @@ export default function HowMuchDoesTileFlooringCostContent() {
   return (
     <>
       <p>
-        <strong>The average cost to install tile flooring in 2026 runs $4 to $25 per square foot</strong>, covering materials and professional labor combined, with that wide range driven almost entirely by tile type. Ceramic tile sits at the budget end at $4 to $8 per square foot installed, porcelain lands in the middle at $6 to $14 per square foot, and natural stone (travertine, marble, slate, granite) runs $10 to $25 per square foot. For local pricing, product samples, and how we quote a job, see our <Link href="/tile-flooring-san-diego">tile flooring installation in San Diego</Link> service page.
+        <strong>The average cost to install tile flooring in 2026 runs $4 to $25 per square foot</strong>
+      </p>
+      <p>
+        Want a San Diego pro to handle it? <EstimateModalLink>Get a free estimate</EstimateModalLink> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>. Zelo Flooring is a licensed <Link href="/flooring-san-diego">San Diego flooring contractor</Link> offering <Link href="/tile-flooring-san-diego">tile flooring in San Diego</Link>.
+      </p>
+      <p>
+        , covering materials and professional labor combined, with that wide range driven almost entirely by tile type. Ceramic tile sits at the budget end at $4 to $8 per square foot installed, porcelain lands in the middle at $6 to $14 per square foot, and natural stone (travertine, marble, slate, granite) runs $10 to $25 per square foot. For local pricing, product samples, and how we quote a job, see our <Link href="/tile-flooring-san-diego">tile flooring installation in San Diego</Link> service page.
       </p>
       <p>
         These numbers come from real tile jobs we have measured and installed across San Diego County in 2025 and 2026, from coastal bathrooms near <Link href="/flooring-la-jolla">La Jolla</Link> to inland kitchens in <Link href="/flooring-poway">Poway</Link>. Below, we break down what actually drives the <strong>cost to install tile flooring</strong>, including porcelain vs ceramic vs natural stone pricing, substrate prep and waterproofing add-ons, and real cost differences between bathroom, kitchen, and outdoor patio tile jobs. If tile feels out of budget for your project, our <Link href="/vinyl-flooring-san-diego">waterproof luxury vinyl plank</Link> page covers a lower-cost alternative that still handles wet areas well.

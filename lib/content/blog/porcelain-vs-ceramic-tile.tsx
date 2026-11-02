@@ -6,7 +6,13 @@ export default function PorcelainVsCeramicTileContent() {
   return (
     <>
       <p>
-        <strong>Porcelain and ceramic tile look almost identical on a showroom wall, but they are not the same product.</strong> The difference comes down to what the clay is made of and how hot it is fired, and that difference changes how much water each tile absorbs, how hard it is, and where it should and should not go in a home. Pick the wrong one for a shower floor or an entryway and you are looking at cracked grout, chipped edges, or a tile that stains within a year.
+        <strong>Porcelain and ceramic tile look almost identical on a showroom wall, but they are not the same product.</strong>
+      </p>
+      <p>
+        Want a San Diego pro to handle it? <EstimateModalLink>Get a free estimate</EstimateModalLink> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>. Zelo Flooring is a licensed <Link href="/flooring-san-diego">San Diego flooring contractor</Link> offering <Link href="/tile-flooring-san-diego">tile flooring in San Diego</Link>.
+      </p>
+      <p>
+        The difference comes down to what the clay is made of and how hot it is fired, and that difference changes how much water each tile absorbs, how hard it is, and where it should and should not go in a home. Pick the wrong one for a shower floor or an entryway and you are looking at cracked grout, chipped edges, or a tile that stains within a year.
       </p>
       <p>
         We install both materials across San Diego County as part of our <Link href="/tile-flooring-san-diego">tile flooring installation</Link> work, and the material call is one of the first questions we walk through on every quote. This guide breaks down water absorption, durability, cost, and exactly where each tile makes sense, so you are not guessing at the tile aisle. If your project also touches other rooms, our <Link href="/vinyl-flooring-san-diego">luxury vinyl plank</Link> page covers the waterproof alternative for spaces where tile is overkill.

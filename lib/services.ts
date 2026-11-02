@@ -46,6 +46,7 @@ export type Service = {
   // or LVP and weren't confident enough to assign to either.
   realPhotos?: { src: string; alt: string }[];
   metaTitle: string;
+  h1?: string; // optional override for the page H1; defaults to "{name} in San Diego, CA"
   metaDescription: string;
   lastUpdated: string;
   heroTagline: string;
@@ -108,8 +109,8 @@ export const SERVICES: Service[] = [
     ],
     metaTitle: 'Carpet Installation San Diego',
     metaDescription:
-      'Professional carpet installation in San Diego. Plush, berber, frieze and pet-friendly carpet from trusted brands. Free in-home estimate. Call +1 (619) 777-4334.',
-    lastUpdated: '2026-09-19',
+      'Licensed San Diego carpet installation and replacement. Free in-home estimate with samples brought to you, power-stretched installs. Call +1 (619) 777-4334.',
+    lastUpdated: '2026-11-01',
     heroChip: 'San Diego, CA',
     heroTagline: 'Power-stretched. Premium pad. No shortcuts.',
     heroBullets: [
@@ -151,7 +152,7 @@ export const SERVICES: Service[] = [
       { q: 'Does Carpet Replacement Include Removing and Disposing of the Old Carpet and Pad?', a: 'Yes. Every carpet replacement includes old carpet, pad, and tack strip removal and disposal at no extra charge. Your home is clean when we leave, with nothing extra for you to haul away.' },
       { q: 'Who Offers Carpet Installation Services in San Diego?', a: 'Zelo Flooring provides carpet installation services in San Diego and across the county, from a single bedroom to a full whole-home job. Every install includes power-stretching, a premium 8 lb pad, and old carpet removal in the quote, not as an add-on. We are a CSLB-licensed San Diego carpet installer, bonded and insured.' },
       { q: 'Do You Install Commercial Carpet in San Diego?', a: 'Yes. If you are searching for commercial carpet installers near me, our CSLB-licensed San Diego crew handles offices, classrooms, and rental units directly, call (619) 777-4334 for a commercial quote. We use value-priced loop carpet built for high traffic and can schedule installs after hours or over a weekend to avoid downtime for property managers and HOAs.' },
-      { q: 'What Carpet Works Best for San Diego Homes with Pets and Kids?', a: 'Triexta (Mohawk SmartStrand) and stain-treated nylon (Stainmaster, Shaw R2X) are the most pet- and kid-friendly carpets we install in San Diego. Triexta resists pet stains permanently because the stain blocker is part of the fiber. Nylon resists wear in high-traffic rooms. Polyester is fine for guest rooms but wears faster in main-traffic zones.' },
+      { q: 'How Soon Can You Install Carpet in San Diego?', a: 'Most free in-home estimates are scheduled within 2 to 4 business days, and a full 1,500 sq ft home is carpeted in a single day once you approve the quote. Call (619) 777-4334 any day between 7am and 7pm and ask for the earliest opening.' },
       { q: 'Do You Install Stair Runners in San Diego?', a: 'Yes. If you are searching for stair runner installation near me, we handle it directly, call (619) 777-4334 for a free estimate. Every stair runner and wall-to-wall stair install gets a tightly wrapped waterfall or French cap finish with a premium 10 lb pad upgrade standard, for stairs that hold up under daily traffic.' },
       { q: 'Do You Install Carpet for Full Homes, or Just Quick Apartment Turnovers?', a: 'Full homes and whole-house carpet installation, not high-volume apartment turnovers, is what Zelo is built for, call (619) 777-4334 for a free in-home estimate. We are an owner-led, CSLB-licensed San Diego crew that power-stretches every install with a premium pad and brings real samples to your home, whether the job is in Mira Mesa, Miramar, La Jolla, or anywhere in between. If a big-box store or a quick-turn shop left you unimpressed before, this is the difference an owner-operated crew makes.' },
     ],
@@ -166,6 +167,7 @@ export const SERVICES: Service[] = [
       'Luxury vinyl plank that looks like real hardwood but handles spills, pets, and San Diego sunlight.',
     longDescription: [
       'Luxury vinyl plank is the most popular flooring we install in San Diego - 100% waterproof, scratch resistant, and the realistic wood-look options today are genuinely hard to tell apart from hardwood.',
+      'If you are comparing vinyl flooring in San Diego, CA, Zelo Flooring installs vinyl plank and vinyl tile in homes and small commercial spaces, with slab moisture testing and flatness checks on every job.',
     ],
     benefits: [
       '100% waterproof - safe for kitchens and bathrooms',
@@ -190,10 +192,10 @@ export const SERVICES: Service[] = [
       { src: '/img/projects/lvp-whole-home/after-stairway-lvp.webp', alt: 'LVP flooring installed on a stairway' },
       { src: '/img/projects/lvp-whole-home/after-closet-hallway-lvp.webp', alt: 'LVP flooring installed in a hallway' },
     ],
-    metaTitle: 'Vinyl Plank Flooring Installation San Diego',
+    metaTitle: 'Vinyl Plank Flooring San Diego',
     metaDescription:
-      'Waterproof luxury vinyl plank (LVP) installation in San Diego. SPC rigid-core flooring from trusted brands. Free in-home estimates. Call +1 (619) 777-4334.',
-    lastUpdated: '2026-07-08',
+      'Luxury vinyl plank flooring installation in San Diego, CA. Waterproof SPC and WPC vinyl, slab moisture testing, free in-home estimates. Call +1 (619) 777-4334.',
+    lastUpdated: '2026-10-26',
     heroChip: 'San Diego, CA',
     heroTagline: 'Waterproof. Slab-tested. Manufacturer-spec.',
     heroBullets: [
@@ -204,7 +206,7 @@ export const SERVICES: Service[] = [
     ],
     primaryKeyword: 'Vinyl Plank Flooring San Diego',
     heroValueProp:
-      'Waterproof luxury vinyl plank installed across San Diego with proper slab prep, manufacturer-spec layout, and brands that hold up under real life.',
+      'Vinyl plank flooring in San Diego, installed with proper slab prep, manufacturer-spec layout, and waterproof luxury vinyl brands that hold up under real life.',
     trustBullets: [
       'C-15 Licensed CSLB #1083572',
       '13+ years of journeyman experience',
@@ -232,8 +234,13 @@ export const SERVICES: Service[] = [
       { q: 'Why Does LVP Need Acclimation If It Is Plastic?', a: 'Even rigid-core SPC has thermal expansion. We deliver material 48 hours ahead of install and store it flat in the install room so it reaches stable temperature. Skipping this causes peaking or gapping later.' },
       { q: 'Will My Click-Lock Floor Squeak or Sound Hollow?', a: 'A flat subfloor and full underlayment contact eliminate hollow spots. Our flatness step prevents low areas. If your slab has a low spot, we patch it before plank goes down rather than letting the floor bridge it.' },
       { q: 'Can LVP Go in Bathrooms and Kitchens?', a: 'Yes. The plank itself is 100% waterproof. We caulk perimeter expansion gaps with silicone in wet areas. Around toilets we install carefully so water at the wax ring cannot wick under the floor.' },
+      { q: 'Who Installs Luxury Vinyl Flooring Near Me in San Diego?', a: 'If you are searching for luxury vinyl flooring near me, Zelo Flooring is a CSLB-licensed San Diego crew that installs it directly, call (619) 777-4334 for a free in-home estimate. We bring samples to your home, test the slab, and quote prep separately, serving homes from Mira Mesa and La Jolla to Carlsbad, Poway, and Escondido.' },
+      { q: 'Do You Install Vinyl Tile in San Diego, or Only Vinyl Plank?', a: 'Both. Vinyl tile (LVT) is the same rigid-core vinyl cut in square or rectangular tiles that look like stone or ceramic, and it is a good fit for bathrooms, entryways, and kitchens. Call (619) 777-4334 for a free estimate. Our guide to LVP vs LVT covers the format differences in detail.' },
+      { q: 'How Much Does Luxury Vinyl Plank Installation Cost in San Diego?', a: 'Most San Diego LVP projects run $4 to $9 per square foot installed, with thicker SPC lines reaching $10 to $16. Call (619) 777-4334 for an exact free estimate. Slab grinding, self-leveling ($1 to $3 per square foot), and old flooring removal are quoted separately so the price you approve is the price you pay.' },
+      { q: 'Is LVP Better Than Hardwood for a San Diego Home?', a: 'For kitchens, bathrooms, pets, and slab homes, usually yes. LVP is waterproof and costs roughly half as much installed ($4 to $9 per square foot versus $8 to $15 for hardwood). Hardwood wins on refinishing and resale feel. We lay out both options side by side during the free in-home visit.' },
       { q: 'How Do I Know If My Slab Needs Grinding?', a: 'We bring a 10-foot straight edge to the consultation. Manufacturers typically require flatness within 3/16 inch over 10 feet. If your slab is out of tolerance, we grind, patch, or self-level. Prep is quoted separately.' },
     ],
+    blogSlug: 'vinyl-plank-flooring-cost',
   },
   {
     slug: 'hardwood-flooring-san-diego',
@@ -244,6 +251,7 @@ export const SERVICES: Service[] = [
       'Solid and engineered hardwood from oak, maple, hickory, walnut and more.',
     longDescription: [
       'Hardwood is the floor that earns its keep over decades. Done right, it can be sanded and refinished three or four times across its life and adds real resale value.',
+      'Zelo Flooring installs and refinishes hardwood floors in San Diego homes, with a free in-home estimate and a start date you can plan around. Call (619) 777-4334 any day between 7am and 7pm.',
     ],
     benefits: [
       'Solid and engineered hardwood options',
@@ -272,10 +280,10 @@ export const SERVICES: Service[] = [
       // entryway/staircase, no carpet visible. Added here instead of Carpet.
       { src: '/img/projects/portfolio/zelo-project-08.webp', alt: 'Hardwood flooring in an entryway and staircase' },
     ],
-    metaTitle: 'Hardwood Flooring Installation San Diego',
+    metaTitle: 'Hardwood Flooring San Diego',
     metaDescription:
-      'Solid and engineered hardwood flooring installation, refinishing, and repair in San Diego. Oak, maple, hickory, walnut and more. NWFA-spec installs. Call +1 (619) 777-4334.',
-    lastUpdated: '2026-08-27',
+      'Licensed hardwood flooring San Diego, CA: installation, refinishing, and repair. Solid and engineered oak, maple, hickory. Free in-home estimate. Call +1 (619) 777-4334.',
+    lastUpdated: '2026-11-02',
     heroChip: 'San Diego, CA',
     heroTagline: 'NWFA-aligned. Refinish-first. No rushed acclimation.',
     heroBullets: [
@@ -314,6 +322,7 @@ export const SERVICES: Service[] = [
       { q: 'How Long Does the Install Take and When Can I Walk on It?', a: 'A 1,500 square foot project is typically a full week start to finish: 5 to 7 days of acclimation, 2 to 3 days of install, plus a day for trim. You can walk on engineered floors as soon as installation finishes. Site-finished solid hardwood needs 24 to 48 hours after the last coat.' },
       { q: 'Will My New Floor Have Gaps in Winter?', a: 'A small amount of seasonal movement is normal. Larger gaps usually mean the wood went down with high moisture content and lost it later, or the install skipped acclimation. Our acclimation step prevents this. Engineered floors move less than solid because of the cross-ply core.' },
       { q: 'Can Hardwood Be Installed in a Kitchen or Bathroom?', a: 'Engineered hardwood is fine in kitchens with normal precautions: silicone at sink and dishwasher, mat at the sink, prompt cleanup. We do not recommend any wood in full bathrooms because of long-term humidity. Powder rooms with no shower are a maybe.' },
+      { q: 'How Do I Book Hardwood Floor Installation in San Diego?', a: 'Call (619) 777-4334 any day between 7am and 7pm, or request a free estimate online. We visit your home, test moisture, measure, and give a written quote. A 1,500 sq ft project is typically about a week start to finish once you approve it.' },
       { q: 'Do You Offer Hardwood Floor Refinishing in San Diego?', a: 'Yes. If you are searching for hardwood floor refinishing near me, Zelo Flooring is a licensed San Diego crew that handles it directly, call (619) 777-4334 for a free estimate. Refinishing is often a better value than tearing out and replacing. We sand and refinish with a dust-contained sander (Festool or Bona) so your home stays livable through the project, and stain-test on your actual floor before committing to a color. Most refinishing jobs take 3 to 5 days plus cure time.' },
       { q: 'Can You Stain Hardwood Floors a Different Color in San Diego?', a: 'Yes, call (619) 777-4334 for a free in-home consultation. We stain-test 2 to 3 shades directly on your existing floor before committing, since San Diego\'s coastal light and inland light both change how a stain reads once it is down. Popular shifts are golden oak to a modern gray-brown or espresso. Staining happens during the same sanding and refinishing visit, no separate trip required.' },
       { q: 'Do You Offer No-Sand Hardwood Floor Refinishing in San Diego?', a: 'Sometimes, call (619) 777-4334 and we will tell you honestly after a quick look. Screen-and-recoat (a light abrasion and new topcoat, no sanding) works when the existing finish and wood are still in good shape, and it is faster and less expensive than a full refinish. It will not fix deep scratches, stains, or floors that have already been refinished 3 to 4 times, the wood itself has to have life left in it.' },
@@ -565,10 +574,11 @@ export const SERVICES: Service[] = [
     // photo exists yet to swap in instead.
     image: '/img/rubber-tiles-commercial.webp',
     secondaryImage: '/img/9191-Ecofit-Rubber-Floor_Mosaic.jpg',
-    metaTitle: 'Rubber Flooring Installation San Diego',
+    metaTitle: 'Rubber Floor Installers San Diego',
+    h1: 'Rubber Floor Installers in San Diego, CA',
     metaDescription:
-      'Rubber flooring for home gyms, garages, and commercial spaces in San Diego. Rolled, tile and interlocking. Call +1 (619) 777-4334.',
-    lastUpdated: '2026-09-19',
+      'Licensed San Diego rubber floor installers for home gyms, commercial gyms, and garages. Rolled, tile, interlocking. Free estimate. Call +1 (619) 777-4334.',
+    lastUpdated: '2026-11-01',
     heroChip: 'San Diego, CA',
     heroTagline: 'Right thickness for the job. Heat-welded seams.',
     heroBullets: [
@@ -577,7 +587,7 @@ export const SERVICES: Service[] = [
       'Ecore, Mondo, Regupol, RB Rubber',
       'CSLB Licensed, bonded, and insured',
     ],
-    primaryKeyword: 'Rubber Flooring San Diego',
+    primaryKeyword: 'Rubber Floor Installers San Diego',
     heroValueProp:
       'Rubber flooring installed across San Diego for home gyms, commercial fitness, garages, and play areas. Right thickness for the application, every job.',
     trustBullets: [
@@ -603,10 +613,10 @@ export const SERVICES: Service[] = [
       { name: 'Darius M.', location: 'San Diego (Mission Valley), CA', quote: 'Commercial gym in Mission Valley. Mondo poured rubber in the platform zone, rolled in cardio. Heat-welded seams that look factory.' },
     ],
     faqs: [
-      { q: 'What Thickness Do I Need for a Home Gym?', a: '3/8 inch is the residential default for general fitness, cardio, and lighter dumbbell work. 1/2 inch is the right call if you do free-weight training. 3/4 inch or 1 inch is what you want for olympic lifting and dropping loaded barbells.' },
+      { q: 'How Do I Book a Rubber Flooring Installation?', a: 'Call (619) 777-4334 any day between 7am and 7pm, or request a free estimate online. We look at the space, check the slab, and quote the job. A 500 sq ft home gym installs in 1 to 2 days, and commercial gym and daycare projects take 1 to 2 weeks, with after-hours and weekend scheduling for buildouts.' },
       { q: 'Will the New Rubber Smell?', a: 'Yes, briefly. Premium product (Ecore, Mondo) has minimal smell that aerates within a week. Budget recycled tire tile can smell strongly for a month or longer. We tell you which products are which during the consultation.' },
       { q: 'Can Rubber Go Over My Existing Garage Slab with Cracks?', a: 'Yes. We fill significant cracks with epoxy first and grind any high spots so the rubber sits flat. Hairline cracks generally do not telegraph through 3/8 inch rubber or thicker.' },
-      { q: 'How Do I Clean Rubber Flooring?', a: 'Sweep or vacuum first, then damp mop a rubber gym floor with a neutral pH cleaner. Avoid harsh acids and solvents, they degrade the binder over time. For a commercial gym, an auto-scrubber with neutral cleaner is ideal.' },
+      { q: 'Do You Need Underlayment for Rubber Flooring?', a: 'Usually not. Rolled and interlocking rubber goes directly over a flat, clean slab, and the rubber itself absorbs impact. We check the slab at your free estimate, fill cracks, grind high spots, and tell you up front if anything else is needed. Call (619) 777-4334 to schedule.' },
       { q: 'Should I Get Rolled or Interlocking Tile?', a: 'Rolled is more durable, looks more professional, and seams are minimal. Tile is portable, easier to replace if a piece gets damaged, and lets you start small and expand. Rolled wins for permanent installs; tile wins for renters and small spaces.' },
       { q: 'Do You Handle Commercial Gym Buildouts?', a: 'Yes. If you are searching for gym floor installers near me or commercial gym flooring installers near me, our CSLB-licensed San Diego crew handles it directly, call (619) 777-4334 for a free estimate. We work with general contractors and gym owners on full buildouts: platform zones, free-weight zones, cardio zones, locker rooms. After-hours installs available to keep gyms open during conversion.' },
       { q: 'Should I Hire a Rubber Flooring Installation Company, or Install It Myself?', a: 'DIY can work for a small interlocking-tile area, but full rooms benefit from a professional install: proper slab crack repair, thickness matched to the activity, and heat-welded or fully-bonded seams that will not curl or shift under heavy equipment. If you are searching for a rubber floor installation company near me, Zelo Flooring is a CSLB-licensed installer based in San Diego, call (619) 777-4334 for a free estimate. We handle both home gyms and full commercial buildouts.' },

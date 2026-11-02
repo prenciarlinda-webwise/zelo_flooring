@@ -6,7 +6,13 @@ export default function TypesOfHardwoodFlooringContent() {
   return (
     <>
       <p>
-        <strong>There are two main types of hardwood flooring, solid and engineered, and within them you choose a wood species (oak, maple, hickory, walnut), a finish, a plank width, and a grade.</strong> Solid hardwood is one piece of wood that can be refinished many times. Engineered hardwood is a real-wood veneer over a plywood core that stays stable on concrete slab and in humidity, which makes it the more practical choice for most San Diego homes. See our <Link href="/hardwood-flooring-san-diego">hardwood flooring installation in San Diego</Link> page for the species and brands we install.
+        <strong>There are two main types of hardwood flooring, solid and engineered, and within them you choose a wood species (oak, maple, hickory, walnut), a finish, a plank width, and a grade.</strong>
+      </p>
+      <p>
+        Want a San Diego pro to handle it? <EstimateModalLink>Get a free estimate</EstimateModalLink> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>. Zelo Flooring is a licensed <Link href="/flooring-san-diego">San Diego flooring contractor</Link> offering <Link href="/hardwood-flooring-san-diego">hardwood flooring in San Diego</Link>.
+      </p>
+      <p>
+        Solid hardwood is one piece of wood that can be refinished many times. Engineered hardwood is a real-wood veneer over a plywood core that stays stable on concrete slab and in humidity, which makes it the more practical choice for most San Diego homes. See our <Link href="/hardwood-flooring-san-diego">hardwood flooring installation in San Diego</Link> page for the species and brands we install.
       </p>
 
       <div className="callout-box info">
@@ -74,7 +80,7 @@ export default function TypesOfHardwoodFlooringContent() {
 
       <h2 id="best-sd">Best Type for San Diego Homes</h2>
       <p>
-        Because most San Diego homes sit on concrete slab and many are near the humid coast, <strong>engineered white oak</strong> is the most common recommendation: it is stable, neutral, refinishable with a thick veneer, and widely available. Inland homes in drier areas like <Link href="/flooring-poway">Poway</Link> have more freedom to choose solid hardwood. For a full breakdown of the best flooring across the county, see our <Link href="/blog/best-flooring-for-san-diego-homes">best flooring for San Diego homes guide</Link>, and to weigh wood against vinyl, our <Link href="/blog/lvp-vs-engineered-hardwood">LVP vs engineered hardwood comparison</Link>.
+        Because most San Diego homes sit on concrete slab and many are near the humid coast, <strong>engineered white oak</strong> is the most common recommendation: it is stable, neutral, refinishable with a thick veneer, and widely available. Inland homes in drier areas like <Link href="/flooring-poway">Poway</Link> have more freedom to choose solid hardwood. For a full breakdown of the best flooring across the county, see our <Link href="/blog/best-flooring-for-san-diego-homes">best flooring for San Diego homes guide</Link>, and to weigh wood against vinyl, our <Link href="/blog/lvp-vs-hardwood">LVP vs engineered hardwood comparison</Link>.
       </p>
 
       <h2 id="faq">Frequently Asked Questions</h2>

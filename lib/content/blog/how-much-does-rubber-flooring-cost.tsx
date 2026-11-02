@@ -6,7 +6,13 @@ export default function HowMuchDoesRubberFlooringCostContent() {
   return (
     <>
       <p>
-        <strong>Rubber flooring costs $3.50 to $16 per square foot fully installed</strong>, with the range driven mostly by thickness and use case rather than by rubber type alone. A thin home gym tile sits at the low end; thick commercial platform rubber and fall-rated daycare surfacing sit at the high end. For local pricing and product options, see our <Link href="/rubber-flooring-san-diego">rubber flooring installation in San Diego</Link> service page.
+        <strong>Rubber flooring costs $3.50 to $16 per square foot fully installed</strong>
+      </p>
+      <p>
+        Want a San Diego pro to handle it? <EstimateModalLink>Get a free estimate</EstimateModalLink> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>. Zelo Flooring is a licensed <Link href="/flooring-san-diego">San Diego flooring contractor</Link> offering <Link href="/rubber-flooring-san-diego">rubber floor installation in San Diego</Link>.
+      </p>
+      <p>
+        , with the range driven mostly by thickness and use case rather than by rubber type alone. A thin home gym tile sits at the low end; thick commercial platform rubber and fall-rated daycare surfacing sit at the high end. For local pricing and product options, see our <Link href="/rubber-flooring-san-diego">rubber flooring installation in San Diego</Link> service page.
       </p>
       <p>
         These numbers come from real rubber flooring jobs we have measured and installed across San Diego County for home gyms, garages, commercial fitness facilities, and daycare play areas. Below, we break down what actually drives rubber flooring cost by use case, thickness, and format, plus what affects your total price and how to save money without buying the wrong product for your space.

@@ -9,6 +9,9 @@ export default function HowToCleanLaminateWoodFloorsContent() {
         Laminate wood flooring looks and feels close to real hardwood, but underneath the printed wood-look layer is a high-density fiberboard (HDF) core, not solid wood. That core is not waterproof, and it is the reason laminate needs a different cleaning routine than hardwood, tile, or luxury vinyl plank. Clean it the wrong way, with too much water or the wrong product, and the core can swell and delaminate at the seams within days.
       </p>
       <p>
+        Want a San Diego pro to handle it? <EstimateModalLink>Get a free estimate</EstimateModalLink> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>. Zelo Flooring is a licensed <Link href="/flooring-san-diego">San Diego flooring contractor</Link> offering <Link href="/laminate-flooring-san-diego">laminate flooring in San Diego</Link>.
+      </p>
+      <p>
         We install <Link href="/laminate-flooring-san-diego">laminate flooring</Link> across San Diego County and get regular calls about boards lifting or turning dark at the edges, almost always traced back to a steam mop, a wet-mopping habit, or a spill that sat too long. If you are weighing laminate against a fully waterproof option like <Link href="/vinyl-flooring-san-diego">LVP</Link> or comparing it to <Link href="/hardwood-flooring-san-diego">solid hardwood</Link>, the day-to-day cleaning routine is one of the biggest practical differences between them. This guide covers exactly how to sweep and damp mop laminate correctly, what to avoid, and what to do in the first few minutes after a spill.
       </p>
 

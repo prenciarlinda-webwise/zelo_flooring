@@ -6,7 +6,13 @@ export default function WhatIsRubberFlooringContent() {
   return (
     <>
       <p>
-        <strong>Rubber flooring is a resilient surface made from either recycled tire rubber (SBR) or virgin EPDM rubber, engineered to absorb impact and rebound instead of transmitting shock into the slab beneath it.</strong> It is the only common flooring material actually built to take a dropped barbell, a rolling piece of gym equipment, or a fall from playground height without cracking, denting, or transmitting that force straight through to the floor.
+        <strong>Rubber flooring is a resilient surface made from either recycled tire rubber (SBR) or virgin EPDM rubber, engineered to absorb impact and rebound instead of transmitting shock into the slab beneath it.</strong>
+      </p>
+      <p>
+        Want a San Diego pro to handle it? <EstimateModalLink>Get a free estimate</EstimateModalLink> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>. Zelo Flooring is a licensed <Link href="/flooring-san-diego">San Diego flooring contractor</Link> offering <Link href="/rubber-flooring-san-diego">rubber floor installation in San Diego</Link>.
+      </p>
+      <p>
+        It is the only common flooring material actually built to take a dropped barbell, a rolling piece of gym equipment, or a fall from playground height without cracking, denting, or transmitting that force straight through to the floor.
       </p>
       <p>
         We install <Link href="/rubber-flooring-san-diego">rubber flooring</Link> across San Diego for home gyms, commercial fitness facilities, garages, and daycare play areas. This guide explains what rubber flooring is actually made of, rolled versus tile format, where it makes sense and where it does not, and what it costs installed.

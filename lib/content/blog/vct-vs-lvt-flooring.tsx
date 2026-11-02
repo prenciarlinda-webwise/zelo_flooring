@@ -6,7 +6,13 @@ export default function VctVsLvtFlooringContent() {
   return (
     <>
       <p>
-        <strong>VCT and LVT are both resilient vinyl floors, but they are built differently and cost differently to own.</strong> VCT (Vinyl Composition Tile) is a solid, pigmented tile of vinyl, limestone filler, and plasticizer that needs a factory finish plus regular stripping and waxing to keep its shine. LVT (Luxury Vinyl Tile) is a layered product with a printed wood or stone image under a factory wear layer, and it never needs wax at all. The names sound alike and both are sold in similar tile sizes, but the two floors behave very differently once they are down.
+        <strong>VCT and LVT are both resilient vinyl floors, but they are built differently and cost differently to own.</strong>
+      </p>
+      <p>
+        Want a San Diego pro to handle it? <EstimateModalLink>Get a free estimate</EstimateModalLink> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>. Zelo Flooring is a licensed <Link href="/flooring-san-diego">San Diego flooring contractor</Link> offering <Link href="/vinyl-composition-tile-flooring-san-diego">VCT flooring in San Diego</Link>.
+      </p>
+      <p>
+        VCT (Vinyl Composition Tile) is a solid, pigmented tile of vinyl, limestone filler, and plasticizer that needs a factory finish plus regular stripping and waxing to keep its shine. LVT (Luxury Vinyl Tile) is a layered product with a printed wood or stone image under a factory wear layer, and it never needs wax at all. The names sound alike and both are sold in similar tile sizes, but the two floors behave very differently once they are down.
       </p>
       <p>
         We install both products across San Diego County, from school and healthcare buildouts to office and retail spaces, and homeowners converting a garage or laundry room. See our <Link href="/vinyl-composition-tile-flooring-san-diego">VCT flooring</Link> and <Link href="/vinyl-flooring-san-diego">luxury vinyl flooring</Link> service pages for what each install involves, and this guide breaks down the real differences in cost, maintenance, and where each one makes sense.

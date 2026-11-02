@@ -6,7 +6,13 @@ export default function HardwoodFloorWaterDamageContent() {
   return (
     <>
       <p>
-        <strong>A hardwood floor and standing water do not mix, but that does not automatically mean the floor is a loss.</strong> Whether a water-damaged hardwood floor can be saved comes down to three things: how long the water sat before it was caught, how far the moisture traveled into the wood and subfloor, and whether the boards are cupping (a warning sign) or already buckling (usually the point of no return). Acting inside the first 24 to 48 hours is the single biggest factor in whether you are looking at a sand-and-refinish job or a full tear-out.
+        <strong>A hardwood floor and standing water do not mix, but that does not automatically mean the floor is a loss.</strong>
+      </p>
+      <p>
+        Want a San Diego pro to handle it? <EstimateModalLink>Get a free estimate</EstimateModalLink> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>. Zelo Flooring is a licensed <Link href="/flooring-san-diego">San Diego flooring contractor</Link> offering <Link href="/hardwood-flooring-san-diego">hardwood flooring in San Diego</Link>.
+      </p>
+      <p>
+        Whether a water-damaged hardwood floor can be saved comes down to three things: how long the water sat before it was caught, how far the moisture traveled into the wood and subfloor, and whether the boards are cupping (a warning sign) or already buckling (usually the point of no return). Acting inside the first 24 to 48 hours is the single biggest factor in whether you are looking at a sand-and-refinish job or a full tear-out.
       </p>
       <p>
         We get called out across San Diego County for everything from a slow dishwasher leak that cupped a few boards in a kitchen to a burst supply line that flooded an entire <Link href="/hardwood-flooring-san-diego">hardwood</Link> living room overnight. This guide covers how to tell drying-friendly damage from damage that has to be replaced, what a proper drying-in-place process looks like, when mold risk expands the scope, and how to document everything for a homeowners insurance claim. If the wood cannot be saved, we also cover what a <Link href="/vinyl-flooring-san-diego">waterproof LVP</Link> replacement costs against reinstalling hardwood.

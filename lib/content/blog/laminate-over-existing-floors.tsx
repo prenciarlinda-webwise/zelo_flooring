@@ -6,7 +6,13 @@ export default function LaminateOverExistingFloorsContent() {
   return (
     <>
       <p>
-        <strong>Yes, in most cases you can install laminate flooring over an existing floor</strong>, as long as the surface underneath is flat, solid, dry, and clean. Laminate is a floating floor, so it does not attach to the subfloor. It can go over tile, vinyl, concrete, and even existing laminate or hardwood, provided the old surface is in good shape. It cannot go over carpet (except very thin commercial loop), and it should never go over a floor that is loose, water-damaged, or uneven. For how we handle this on local jobs, see our <Link href="/laminate-flooring-san-diego">laminate flooring installation in San Diego</Link> page.
+        <strong>Yes, in most cases you can install laminate flooring over an existing floor</strong>
+      </p>
+      <p>
+        Want a San Diego pro to handle it? <EstimateModalLink>Get a free estimate</EstimateModalLink> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>. Zelo Flooring is a licensed <Link href="/flooring-san-diego">San Diego flooring contractor</Link> offering <Link href="/laminate-flooring-san-diego">laminate flooring in San Diego</Link>.
+      </p>
+      <p>
+        , as long as the surface underneath is flat, solid, dry, and clean. Laminate is a floating floor, so it does not attach to the subfloor. It can go over tile, vinyl, concrete, and even existing laminate or hardwood, provided the old surface is in good shape. It cannot go over carpet (except very thin commercial loop), and it should never go over a floor that is loose, water-damaged, or uneven. For how we handle this on local jobs, see our <Link href="/laminate-flooring-san-diego">laminate flooring installation in San Diego</Link> page.
       </p>
       <p>
         Below we go surface by surface, explain the three rules that decide whether you can float over the old floor, and cover the height, moisture, and warranty issues that catch homeowners off guard.

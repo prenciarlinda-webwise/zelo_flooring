@@ -6,7 +6,13 @@ export default function BestTileForOutdoorPatiosAndPoolsContent() {
   return (
     <>
       <p>
-        <strong>Not every tile that looks good indoors belongs on a patio or pool deck.</strong> Outdoor tile has to handle direct sun, sprinkler overspray, pool chemicals, bare feet running across a wet surface, and San Diego's occasional cold snap, all without cracking, fading, or turning into a slip hazard. Pick the wrong tile and you get hairline cracks by year two, a deck that is genuinely dangerous when wet, or grout lines that bleach out and crumble within a summer or two.
+        <strong>Not every tile that looks good indoors belongs on a patio or pool deck.</strong>
+      </p>
+      <p>
+        Want a San Diego pro to handle it? <EstimateModalLink>Get a free estimate</EstimateModalLink> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>. Zelo Flooring is a licensed <Link href="/flooring-san-diego">San Diego flooring contractor</Link> offering <Link href="/tile-flooring-san-diego">tile flooring in San Diego</Link>.
+      </p>
+      <p>
+        Outdoor tile has to handle direct sun, sprinkler overspray, pool chemicals, bare feet running across a wet surface, and San Diego's occasional cold snap, all without cracking, fading, or turning into a slip hazard. Pick the wrong tile and you get hairline cracks by year two, a deck that is genuinely dangerous when wet, or grout lines that bleach out and crumble within a summer or two.
       </p>
       <p>
         We install <Link href="/tile-flooring-san-diego">porcelain and natural stone tile</Link> on patios, pool decks, and outdoor kitchens across San Diego County, and the material choice matters as much as the installation. This guide covers water absorption ratings, slip resistance (DCOF), frost considerations, and expansion joint placement, the four things that actually determine whether outdoor tile lasts or fails.

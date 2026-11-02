@@ -6,7 +6,13 @@ export default function RoofLeakWaterDamageToFloorsContent() {
   return (
     <>
       <p>
-        <strong>A roof leak rarely shows up on the floor first, which is exactly why it does more damage than a burst pipe by the time anyone notices.</strong> Water from a failed roof travels through insulation, framing, and drywall before it ever reaches a hardwood, laminate, or carpeted floor below, so what looks like a small stain on day one is often weeks of slow saturation by the time it is visible. Our <Link href="/hardwood-flooring-san-diego">hardwood</Link> and general flooring repair work across San Diego regularly starts with a floor that is only a symptom, the roof above it is the actual problem.
+        <strong>A roof leak rarely shows up on the floor first, which is exactly why it does more damage than a burst pipe by the time anyone notices.</strong>
+      </p>
+      <p>
+        Want a San Diego pro to handle it? <EstimateModalLink>Get a free estimate</EstimateModalLink> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>. Zelo Flooring is a licensed <Link href="/flooring-san-diego">San Diego flooring contractor</Link> offering <Link href="/hardwood-flooring-san-diego">hardwood flooring in San Diego</Link>.
+      </p>
+      <p>
+        Water from a failed roof travels through insulation, framing, and drywall before it ever reaches a hardwood, laminate, or carpeted floor below, so what looks like a small stain on day one is often weeks of slow saturation by the time it is visible. Our <Link href="/hardwood-flooring-san-diego">hardwood</Link> and general flooring repair work across San Diego regularly starts with a floor that is only a symptom, the roof above it is the actual problem.
       </p>
       <p>
         This guide covers how roof-leak water actually reaches a floor, how to tell that source apart from a plumbing leak, why the roof has to be fixed before the floor gets repaired, how different flooring types hold up to this kind of damage, and what it costs to fix once the source is sealed.

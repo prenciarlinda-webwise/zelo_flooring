@@ -6,7 +6,13 @@ export default function HowToInstallVinylPlankFlooringContent() {
   return (
     <>
       <p>
-        <strong>To install vinyl plank flooring, prepare a clean, flat, dry subfloor, let the planks acclimate for 48 hours, then lay click-lock planks row by row with a 1/4-inch expansion gap around the edges.</strong> Most luxury vinyl plank (LVP) is click-lock floating, which is the most DIY-friendly flooring there is. The work that decides whether the floor lasts is the prep and the expansion gaps, not the clicking. Below is the full step-by-step, the most common mistakes, and an honest note on when it is worth hiring a pro. For professional installs, see our <Link href="/vinyl-flooring-san-diego">vinyl plank flooring in San Diego</Link> page.
+        <strong>To install vinyl plank flooring, prepare a clean, flat, dry subfloor, let the planks acclimate for 48 hours, then lay click-lock planks row by row with a 1/4-inch expansion gap around the edges.</strong>
+      </p>
+      <p>
+        Want a San Diego pro to handle it? <EstimateModalLink>Get a free estimate</EstimateModalLink> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>. Zelo Flooring is a licensed <Link href="/flooring-san-diego">San Diego flooring contractor</Link> offering <Link href="/vinyl-flooring-san-diego">vinyl plank flooring in San Diego</Link>.
+      </p>
+      <p>
+        Most luxury vinyl plank (LVP) is click-lock floating, which is the most DIY-friendly flooring there is. The work that decides whether the floor lasts is the prep and the expansion gaps, not the clicking. Below is the full step-by-step, the most common mistakes, and an honest note on when it is worth hiring a pro. For professional installs, see our <Link href="/vinyl-flooring-san-diego">vinyl plank flooring in San Diego</Link> page.
       </p>
 
       <div className="callout-box info">

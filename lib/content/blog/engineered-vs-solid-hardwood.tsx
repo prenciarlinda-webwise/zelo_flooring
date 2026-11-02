@@ -6,7 +6,13 @@ export default function EngineeredVsSolidHardwoodContent() {
   return (
     <>
       <p>
-        <strong>Engineered hardwood is the better choice for most San Diego homes because it installs over concrete slabs, handles our dry climate with less gapping, and costs 10 to 20 percent less than solid hardwood.</strong> Solid hardwood is the better choice if you have a raised wood subfloor, want maximum refinishing potential, and plan to stay in the home for 30 or more years.
+        <strong>Engineered hardwood is the better choice for most San Diego homes because it installs over concrete slabs, handles our dry climate with less gapping, and costs 10 to 20 percent less than solid hardwood.</strong>
+      </p>
+      <p>
+        Want a San Diego pro to handle it? <EstimateModalLink>Get a free estimate</EstimateModalLink> or call <a href="tel:+16197774334">+1 (619) 777-4334</a>. Zelo Flooring is a licensed <Link href="/flooring-san-diego">San Diego flooring contractor</Link> offering <Link href="/hardwood-flooring-san-diego">hardwood flooring in San Diego</Link>.
+      </p>
+      <p>
+        Solid hardwood is the better choice if you have a raised wood subfloor, want maximum refinishing potential, and plan to stay in the home for 30 or more years.
       </p>
       <p>
         The <strong>engineered hardwood vs solid hardwood</strong> question is one we answer daily. Both are real wood. Both look identical once installed. The difference is in how they are constructed, how they respond to moisture and temperature changes, and how many times you can refinish them. This guide covers everything you need to know to pick the right one for your home, your climate, and your budget. For brand and species details, see our <Link href="/hardwood-flooring-san-diego">San Diego hardwood flooring service</Link>.
