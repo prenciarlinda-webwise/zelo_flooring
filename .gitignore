@@ -19,3 +19,6 @@ SCHEDULING.md
 /public/img/[0-9]*_[0-9]*.jpg
 /public/img/*.mov
 /public/img/*.MOV
+
+# Claude Code files stay local
+CLAUDE.local.md
