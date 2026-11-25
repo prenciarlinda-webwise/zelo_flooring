@@ -27,7 +27,7 @@ export default function AlternatingSection({
   imageContain = false,
   imageWide = false,
 }: Props) {
-  const bgClass = background === 'cream' ? 'section-cream' : background === 'brown' ? 'section-brown' : '';
+  const bgClass = background === 'cream' ? 'section-cream' : background === 'brown' ? 'section-forest' : '';
   const rowClasses = ['alt-row', reverse ? 'reverse' : '', imageWide ? 'alt-row-image-wide' : '']
     .filter(Boolean)
     .join(' ');

@@ -75,7 +75,7 @@ export default function BehindTheScenes({
   const lightboxPhotos = visible.map((p) => ({ src: p.src, alt: p.alt }));
 
   return (
-    <section id="behind-the-scenes" className="section section-brown behind-the-scenes-section">
+    <section id="behind-the-scenes" className="section section-forest behind-the-scenes-section">
       <div className="container">
         <div className="section-header center">
           <h2>{heading}</h2>

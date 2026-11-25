@@ -136,6 +136,7 @@ export default function HomePage() {
         subheading="Eight flooring services for residential and commercial San Diego. Tap a service for full details."
         items={anchorItems}
         asAnchors={false}
+        featuredIds={['carpet-flooring-san-diego', 'vinyl-composition-tile-flooring-san-diego']}
       />
 
       <WhyChooseUs />

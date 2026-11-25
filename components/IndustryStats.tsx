@@ -9,7 +9,7 @@ type Props = {
 
 export default function IndustryStats({ eyebrow, heading, subheading, stats }: Props) {
   return (
-    <section className="section section-brown industry-stats">
+    <section className="section section-forest industry-stats">
       <div className="container">
         <div className="section-header center">
           <h2 style={{ color: 'white' }}>{heading}</h2>

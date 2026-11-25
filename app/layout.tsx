@@ -63,7 +63,7 @@ export const metadata: Metadata = {
 export const viewport = {
   width: 'device-width',
   initialScale: 1,
-  themeColor: '#C8541C',
+  themeColor: '#082A1F',
 };
 
 const businessGraph = {
