@@ -1183,7 +1183,7 @@ a.trust-ribbon-item:hover { opacity: 0.8; }
 
 /* ===== FOOTER ===== */
 .site-footer {
-  background: var(--forest-deep);
+  background: #2D1810; /* original brand brown, kept for the footer after the evergreen redesign */
   color: rgba(255, 255, 255, 0.75);
   padding: 50px 0 0;
   border-top: 4px solid var(--gold);
